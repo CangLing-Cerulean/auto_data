@@ -1,0 +1,16 @@
+raw_field,type_zh,unit,description_zh
+TP2,连续,bar,压缩机侧压力
+TP3,连续,bar,气动面板压力
+H1,连续,bar,旋风分离过滤器排放压降
+DV_pressure,连续,bar,干燥塔排放压差；接近零常对应加载
+Reservoirs,连续,bar,下游储气罐压力，通常接近 TP3
+Oil_temperature,连续,°C,压缩机油温
+Motor_current,连续,A,单相电机电流，用于识别运行状态
+COMP,离散,0/1,进气阀电信号
+DV_eletric,离散,0/1,出口阀控制信号；原始拼写保留
+Towers,离散,0/1,当前工作的干燥塔；原始大小写保留
+MPG,离散,0/1,低于工作压力后的加载控制信号
+LPS,离散,0/1,低压告警，约低于 7 bar 激活
+Pressure_switch,离散,0/1,干燥塔排放检测
+Oil_level,离散,0/1,低油位检测
+Caudal_impulses,离散,0/1,向储气罐输送空气的流量脉冲

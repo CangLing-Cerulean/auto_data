@@ -2,6 +2,25 @@
 
 已根据 `research.md` 建立 `metropt3_v1`。全部记录来自用户提供的 `share_20260727.zip` 中 v0.7.0 包的原始 MetroPT3 CSV，没有合成、插值、补点、清洗、重采样或数值改写。没有混用不同版本，没有引入问答评测答案。
 
+## 下一位 agent 从这里开始（2026-10-02）
+
+当前目标仍是探索**如何处理训练数据来提升训练效果**，具体延续训练窗口保留、删除、损失权重和采样概率研究。尚未找到通过既定门槛的新筛选方案；默认保留全部合法窗口并均匀采样。最新状态与建议见 [接续指南](research_runs/CONTINUE.md)，完整历史见 [HANDOFF](research_runs/HANDOFF.md)。
+
+数据和研究资产已配套发布到 [handoff-20261002 Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/handoff-20261002)。只克隆 Git 仓库不会自动下载这些大文件。在项目根目录运行：
+
+```powershell
+python scripts/download_handoff.py --include-test
+python scripts/verify_dataset.py
+python scripts/audit_assets.py
+python scripts/verify_selection_metadata.py
+python scripts/verify_transfer_assets.py
+python scripts/verify_importance_assets.py
+```
+
+下载与完整性校验仅需 Python 3.11+ 标准库。脚本按 [资产清单](research_runs/handoff_assets.json) 校验压缩包及每个原文件 SHA256，拒绝覆盖内容不同的现有文件。`--include-test` 用于完整归档恢复和校验；**不授权测试分布探索、调参或评分**。开发用训练服务器可省略该参数，完整三分区校验应在持有测试归档的机器执行。
+
+Release 包括固定 train/validation/test CSV、123 个检查点文件、79 个 NPZ、16 份压缩窗口清单和73份研究日志。原始输入包内其他数据集和问答 ground_truth 不属于本研究，不随接续包分发。三份固定 CSV 已包含全部 MetroPT3 原始行，校验器可以验证其字节级重构源文件的哈希，无须下载整个混合输入包。
+
 ## 固定划分
 
 按原始时间顺序划分 **记录条数**，不是按日历时长或预测窗口数。训练取 floor(N×0.7)，验证取 floor(N×0.2)，其余归测试，因此仅有不可避免的整数舍入。
@@ -42,11 +61,11 @@ python scripts/verify_dataset.py
 
 数据集构建阶段按用户确认未固定输入窗口或预测长度。2026-09-26 用户进一步授权远程训练并确认首轮研究协议，见 `research_runs/PROTOCOL.md`。后续所有实验必须遵守 `AGENTS.md`：固定基础版本，训练参数仅从训练集拟合，验证集用于开发，测试集只用于最终评价。当前测试隔离是项目流程约定，不是操作系统权限隔离。
 
-研究接续从 `research_runs/HANDOFF.md` 开始；实际状态见 `state.json`，实验汇总见 `summary.md`，逐轮假设与判断更新见 `decisions.md`。完整配置、源码快照、结果和可恢复检查点保存在 `research_runs/results/`。检查点不纳入 Git，需要随项目单独备份。
+研究接续从 `research_runs/CONTINUE.md` 和 `research_runs/HANDOFF.md` 开始；实际状态见 `research_runs/state.json`，各阶段汇总与决策见对应目录。完整配置、源码快照、结果和可恢复检查点保存在 `research_runs/results/`；检查点通过 Release 下载恢复。
 
-用户随后指出中心化不等于数据筛选。最新的训练窗口保留、删除、损失降权、采样概率研究独立保存在 `research_runs/selection/`，其协议、决策链、窗口映射和结果不与旧变换研究混淆。该目录的 NPZ/压缩 CSV 是可追溯的筛选元数据，不是新造传感器数据，需要单独备份。
+用户随后指出中心化不等于数据筛选。训练窗口保留、删除、损失降权、采样概率研究独立保存在 `research_runs/selection/`，最新已完成阶段在 `research_runs/cluster_selection/`。各阶段 NPZ/压缩 CSV 是可追溯的筛选元数据，已纳入 Release。
 
-数据 CSV 和原始压缩包由 `.gitignore` 排除，Git 管理代码、文档、固定清单和训练探索摘要。备份或移交时必须同时保留原始 ZIP 或三个 CSV；Git 本身不包含数据。
+Git 管理代码、文档、固定清单、来源许可和训练结果；CSV、检查点及二进制研究资产由同仓库 Release 分发。`.gitattributes` 禁止自动换行转换，保留已有 manifest、协议和实验快照的字节身份。不会修改历史哈希来适应另一份数据。
 
 ## 来源与署名
 
@@ -54,4 +73,4 @@ python scripts/verify_dataset.py
 
 随包清单说明完整 CSV 来自 CC BY 4.0 镜像，曾与获取到的 UCI 前缀逐字节比较；本次验证用户提供包的哈希，不将该说明扩大为独立验证了上游全文件。源文件 SHA256 为 `db30ccb4ea402e3c8bf2c99db06e288d4f2a772f6928f9dbe26a920d69793e24`。
 
-原始来源说明和许可保留于 `source/metropt3/`，可由提取脚本重现。对外分发时保留上述署名、许可和来源说明。
+原始来源说明、字段字典和许可保留于 `source/metropt3/` 并纳入 Git。对外分发时保留上述署名、许可和来源说明；随包来源清单提到的其他数据集不包含在此次发布中。

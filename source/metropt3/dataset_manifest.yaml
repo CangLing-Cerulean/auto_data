@@ -1,0 +1,476 @@
+version: dataset-manifest-v0.7.0
+generated_date: '2026-07-17'
+datasets:
+  metropt3:
+    dataset:
+      name: MetroPT-3 Dataset
+      version: uci-791-frozen-v0.1.0
+      doi: 10.24432/C5VW3R
+      license: CC BY 4.0
+      source_url: https://archive.ics.uci.edu/dataset/791/metropt%2B3%2B
+      download_date: '2026-07-17'
+    raw:
+      file: MetroPT3(AirCompressor).csv
+      sha256: db30ccb4ea402e3c8bf2c99db06e288d4f2a772f6928f9dbe26a920d69793e24
+      size_bytes: 218300507
+      description_pdf:
+        file: Data Description_Metro.pdf
+        sha256: b00fac0e8899854078309bef4adaa480d82ecf14dc81c5097c3646973e824127
+        size_bytes: 81208
+      row_count: 1516948
+      column_count: 17
+      first_timestamp: '2020-02-01T00:00:00'
+      last_timestamp: '2020-09-01T03:59:50'
+      columns:
+      - index
+      - timestamp
+      - TP2
+      - TP3
+      - H1
+      - DV_pressure
+      - Reservoirs
+      - Oil_temperature
+      - Motor_current
+      - COMP
+      - DV_eletric
+      - Towers
+      - MPG
+      - LPS
+      - Pressure_switch
+      - Oil_level
+      - Caudal_impulses
+      blank_id_header_normalized_to: index
+      acquisition:
+        official_archive_url: https://archive.ics.uci.edu/static/public/791/metropt%2B3%2Bdataset.zip
+        csv_transfer_url: https://www.kaggle.com/api/v1/datasets/download/anshtanwar/metro-train-dataset?datasetVersionNumber=1
+        mirror_license: CC BY 4.0
+        official_prefix_match_bytes: 8103799
+        official_prefix_byte_identical: true
+        note: UCI transfer closed early; full CSV came from the CC BY 4.0 mirror and
+          was compared byte-for-byte against every CSV byte obtained from UCI. PDF
+          was extracted from the UCI archive and CRC-verified.
+    sampling:
+      nominal_interval_seconds: 10.0
+      derived_from: mode of positive adjacent timestamp deltas
+      source_description_conflict:
+      - 1 Hz
+      - 0.1 Hz
+    schema:
+      continuous_signals:
+      - TP2
+      - TP3
+      - H1
+      - DV_pressure
+      - Reservoirs
+      - Oil_temperature
+      - Motor_current
+      binary_signals:
+      - COMP
+      - DV_eletric
+      - Towers
+      - MPG
+      - LPS
+      - Pressure_switch
+      - Oil_level
+      - Caudal_impulses
+      raw_names_preserved: true
+    build:
+      package_version: 0.4.0
+      state_rule_version: state-rules-v0.2.0
+      window_rule_version: window-rules-v0.1.0
+      metric_version: metrics-v0.2.0
+      case_contract_version: case-contract-v0.3.0
+      anomaly_baseline_version: anomaly-baseline-v0.1.0
+  p2_existing:
+    version: p2-integration-v0.3.0
+    build_date: '2026-07-17'
+    scope_policy: verified_real_data_subsets; never claim full upstream archives
+    datasets:
+      scania_component_x:
+        version: 3
+        doi: 10.5878/bnh5-ka77
+        license: CC BY 4.0
+        canonical_url: https://researchdata.se/en/catalogue/dataset/2024-34/3
+        scope: official train TTE/specifications plus test/validation labels/specifications;
+          operational-readout CSVs excluded
+      nasa_ims_bearing:
+        canonical_url: https://data.nasa.gov/dataset/ims-bearings
+        license: U.S. Government Work
+        mirror_url: https://data.phmsociety.org/nasa/
+        scope: experiment 1, bearing 3, channel 5, first/last 100,000 real points
+          from a public project mirror; not the full 1.0 GiB archive
+        sampling_rate_hz: 20000
+      uci_hydraulic:
+        doi: 10.24432/C5CW21
+        license: CC BY 4.0
+        canonical_url: https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems
+        mirror_url: https://github.com/DrewAlderfer/hydraulic_pump_monitoring
+        scope: complete 2,205-cycle profile plus eight 1 Hz/virtual sensor files;
+          100 Hz pressure and motor-power files excluded
+    raw_files:
+    - path: raw_p2/hydraulic/CE.txt
+      sha256: 2adc6e258be8e3b7a303b7962f485a7984099cea21248c3bf9f18c7d87283c09
+      size_bytes: 911516
+    - path: raw_p2/hydraulic/CP.txt
+      sha256: 63f60132cb5a30879c6f5c73640a39c69e416013195fe62dafe5133b0747baf4
+      size_bytes: 779343
+    - path: raw_p2/hydraulic/SE.txt
+      sha256: 4c04994cb28b82c001b4931acecf8099e9fe5c864f361c0a7435fbf8745361a1
+      size_bytes: 824838
+    - path: raw_p2/hydraulic/TS1.txt
+      sha256: 49cae5e9013d8e230698d95f53a98bb77fedfe3c86985b812cf701dcc9ef06d8
+      size_bytes: 904586
+    - path: raw_p2/hydraulic/TS2.txt
+      sha256: 34115a5b86886d83c0592c1ed259605634a8c83d3a051e97bf3e5790f1db58fa
+      size_bytes: 910594
+    - path: raw_p2/hydraulic/TS3.txt
+      sha256: cc271852b4caad39a3b8f5c36d948b57f6cab761dad8b4c7bdd7cb7e99c0b980
+      size_bytes: 908805
+    - path: raw_p2/hydraulic/TS4.txt
+      sha256: 548b903f7cd4ea7f2497c0063bdda4bdf8793d55ff43a7d694b8cb835eaf2f55
+      size_bytes: 910127
+    - path: raw_p2/hydraulic/VS1.txt
+      sha256: a6227d9bcb807ee9835c32e73834d3eb9262f0f5cad1b176ca10c473ced25e99
+      size_bytes: 778499
+    - path: raw_p2/hydraulic/profile.txt
+      sha256: 867987ca884b2f0fd607ad3918329eba887d095af2befa21122cea518eaa584a
+      size_bytes: 31196
+    - path: raw_p2/nasa_ims/exp1_b3_ch5_first100k.txt
+      sha256: 7bb65a9bd907d1667bf882c4426822a13dd453bd019b48851e0215eac83a82c0
+      size_bytes: 2584601
+    - path: raw_p2/nasa_ims/exp1_b3_ch5_last100k.txt
+      sha256: f9a441bc32e0710a4a4dc934b36002f69e1b8249376088a5d6ad47f4b819c5d8
+      size_bytes: 2559432
+    - path: raw_p2/scania/test_labels.csv
+      sha256: 60f923051d4ba1bef4c81166cf9e8ca01daf3b7a29c73016c6f48a23dcfa0223
+      size_bytes: 38682
+    - path: raw_p2/scania/test_specifications.csv
+      sha256: 40ac8a111f6d5b416107ec1786f639766ecf1293a1c9c0c0dbf24f14c1c5d0e7
+      size_bytes: 231658
+    - path: raw_p2/scania/train_specifications.csv
+      sha256: 47cc9a67aee19d5e2ee8620fe8e467490b2125bacc7787ce781ce9f3c1f0c38f
+      size_bytes: 1081118
+    - path: raw_p2/scania/train_tte.csv
+      sha256: d8c2379ed7c95a575dd869730b2b3b96d660317f49e57de300518ff3b08d53a5
+      size_bytes: 345412
+    - path: raw_p2/scania/validation_labels.csv
+      sha256: ad876c95c3696f4cfca2d76212ad6bb3cac6b2d2950a4aeaf218ee8b1548d08c
+      size_bytes: 38742
+    - path: raw_p2/scania/validation_specifications.csv
+      sha256: a31e832846538dd7a1829108b69420d9377dcd05d6446d8ac1270a974fc58ae2
+      size_bytes: 231765
+    summaries:
+      scania:
+        vehicle_count: 23550
+        event_count: 2272
+        censored_count: 21278
+        event_rate: 0.09647558386411889
+        event_median_tte: 208.4
+        censored_median_followup: 219.0
+        km_survival_100: 0.9942675159235667
+        km_survival_300: 0.8659351364339172
+        spec_1_event_rates:
+          Cat0: 0.07679180887372014
+          Cat1: 0.1047747343212094
+          Cat10: 0.09746328437917223
+          Cat11: 0.07407407407407407
+          Cat12: 0.06510416666666667
+          Cat13: 0.09302325581395349
+          Cat14: 0.04251012145748988
+          Cat15: 0.08
+          Cat16: 0.02727272727272727
+          Cat17: 0.15434083601286175
+          Cat18: 0.049689440993788817
+          Cat19: 0.06060606060606061
+          Cat2: 0.10374331550802139
+          Cat20: 0.02631578947368421
+          Cat21: 0.0
+          Cat22: 0.34782608695652173
+          Cat23: 0.2
+          Cat24: 0.18518518518518517
+          Cat25: 0.5
+          Cat26: 0.0
+          Cat27: 0.0
+          Cat28: 0.0
+          Cat3: 0.08992805755395683
+          Cat4: 0.10502958579881656
+          Cat5: 0.1367837338262477
+          Cat6: 0.0759493670886076
+          Cat7: 0.061124694376528114
+          Cat8: 0.0703125
+          Cat9: 0.08379888268156424
+      nasa_ims:
+        source_points_per_stage: 100000
+        snapshot_count_per_stage: 5
+        sampling_rate_hz: 20000
+        early_rms_median: 0.1306352448614079
+        late_rms_median: 0.5073089286125368
+        early_kurtosis_median: 3.38546385808873
+        late_kurtosis_median: 12.255564163595889
+        early_crest_median: 4.2255059160000945
+        late_crest_median: 9.851985088591416
+      hydraulic:
+        cycle_count: 2205
+        stable_cycle_count: 1449
+        cooler_distribution:
+          '3': 732
+          '20': 732
+          '100': 741
+        valve_distribution:
+          '73': 360
+          '80': 360
+          '90': 360
+          '100': 1125
+        pump_distribution:
+          '0': 1221
+          '1': 492
+          '2': 492
+        accumulator_distribution:
+          '90': 808
+          '100': 399
+          '115': 399
+          '130': 599
+        stable_ts1_by_cooler:
+          '3': 56.189187465277776
+          '20': 44.751058020833334
+          '100': 36.01549349011588
+        cooler_nearest_centroid_training_accuracy: 1.0
+        last_cycle_labels:
+          cooler_condition: 100
+          valve_condition: 100
+          pump_leakage: 0
+          accumulator_pressure: 90
+          stable_flag: 0
+    benchmark:
+      case_count: 12
+      bilingual: true
+      datasets:
+        nasa_ims_bearing: 4
+        scania_component_x: 4
+        uci_hydraulic: 4
+  skab_v0_9:
+    name: Skoltech Anomaly Benchmark v0.9
+    doi: 10.34740/KAGGLE/DSV/1693952
+    license: GPL-3.0
+    official_repository: https://github.com/waico/SKAB
+    archive_url: https://www.kaggle.com/api/v1/datasets/download/yuriykatser/skoltech-anomaly-benchmark-skab?datasetVersionNumber=1
+    archive_sha256: f25251d08c21ecdb6654e2df6c54053baaea2c8263de45bfd05c4852eca89592
+    archive_size_bytes: 1300142
+    raw_csv_count: 35
+    raw_csv_files:
+    - path: raw_p2/skab/SKAB/anomaly-free/anomaly-free.csv
+      sha256: 1612b06916a19c40eef213cced8cd827fc75923adb5c9d4564a37a9d3d1a4733
+      size_bytes: 994197
+    - path: raw_p2/skab/SKAB/other/11.csv
+      sha256: de8491754bcec701fcd4278eeb8c2d308daea197dd8cd52dddfe84b5e55c3925
+      size_bytes: 75065
+    - path: raw_p2/skab/SKAB/other/12.csv
+      sha256: 6563558a1d48e763edffd2e64235eb0c7fabd3e4fd281e4d8fb5073dbc941a24
+      size_bytes: 127924
+    - path: raw_p2/skab/SKAB/other/13.csv
+      sha256: 7b74db55748fbc004355a6c87130868bbed8f4056a1a656bfb342efc74b7da42
+      size_bytes: 108305
+    - path: raw_p2/skab/SKAB/other/14.csv
+      sha256: f35279f735fcd595d49bdd967b79c26c995a57c9266205446ce0e67e4be3cd94
+      size_bytes: 129126
+    - path: raw_p2/skab/SKAB/other/15.csv
+      sha256: 8c2903170d63246f396ee4abb1b826ba48daf9190bcbec3199a37f93f68b3c85
+      size_bytes: 128253
+    - path: raw_p2/skab/SKAB/other/16.csv
+      sha256: 823ef8b7cb225639ca32999a7a1c575de1e6dccad31f8fd2b3af2fe615d82b04
+      size_bytes: 122295
+    - path: raw_p2/skab/SKAB/other/17.csv
+      sha256: 593a6607a2fb2b5321b04c5287fd1450002d753fc29516eba13e6a9e1e875fb4
+      size_bytes: 131862
+    - path: raw_p2/skab/SKAB/other/18.csv
+      sha256: 2d4eccd0632c843d298d0426390538e9771210a8350b930b84ac63cb8f43a09c
+      size_bytes: 129379
+    - path: raw_p2/skab/SKAB/other/19.csv
+      sha256: c0733f5ecb73905c8917afd613fdfb36900ff604b84bc31d0a9894f89e859072
+      size_bytes: 151869
+    - path: raw_p2/skab/SKAB/other/20.csv
+      sha256: f9e892b7da69c7dea6c1981d384a9a14da4847631102e32f620f399c3ce635ca
+      size_bytes: 135762
+    - path: raw_p2/skab/SKAB/other/21.csv
+      sha256: fdcd07cd21bc3c2f7d7849d6ac1b28dc28caa091502a88115251e264535edbb6
+      size_bytes: 127460
+    - path: raw_p2/skab/SKAB/other/22.csv
+      sha256: 15bbcb300470add00c7a06c77fec7d11c02447df81690b8bb77d5fc5e5f1dbfd
+      size_bytes: 122301
+    - path: raw_p2/skab/SKAB/other/23.csv
+      sha256: 2913b7362ebb762c97ab6ecc3d598f0a497d1f91704d758af9c4d710bf5ab8c1
+      size_bytes: 119880
+    - path: raw_p2/skab/SKAB/other/9.csv
+      sha256: 274a5e585404b391a4aba04ba076adbae81091c689ac1e963566204c26ab62d1
+      size_bytes: 84477
+    - path: raw_p2/skab/SKAB/valve1/0.csv
+      sha256: 90f70a75cf359e5e7b0fffa0644fdbac6733a71510e7891b6d0427effd750cb6
+      size_bytes: 132924
+    - path: raw_p2/skab/SKAB/valve1/1.csv
+      sha256: 39483f67a026d0d937e75a9c979bac87fd518ad3ad8d6f97d3d5150f85099e9b
+      size_bytes: 131848
+    - path: raw_p2/skab/SKAB/valve1/10.csv
+      sha256: 222005e48291677242f48dcb637f44c205beead30f8990d8154bc7d003e1e331
+      size_bytes: 132900
+    - path: raw_p2/skab/SKAB/valve1/11.csv
+      sha256: edf8fb8d057c087ddbd37711411f45308d9cf519f30f1a1fab13cf9dfed2c6ab
+      size_bytes: 132554
+    - path: raw_p2/skab/SKAB/valve1/12.csv
+      sha256: e1750cb01b9e4033591045480c402fd4b90433b2f531a770fa1dbd751fa9d616
+      size_bytes: 131610
+    - path: raw_p2/skab/SKAB/valve1/13.csv
+      sha256: 50235d160941ac6a7fac968e805e027f365b1b0b08faf13bae6231f742b9a32f
+      size_bytes: 132500
+    - path: raw_p2/skab/SKAB/valve1/14.csv
+      sha256: f86abfe6e386a517988acfa0e218369e8cf8be74515ea6b81661aa23e30ea729
+      size_bytes: 132341
+    - path: raw_p2/skab/SKAB/valve1/15.csv
+      sha256: 370953cbbf401dcb100f15743425dae2f9d52edebbc22ffd03f299f7721ce3ed
+      size_bytes: 133218
+    - path: raw_p2/skab/SKAB/valve1/2.csv
+      sha256: 56c85752551485622eb972ec36756bade69f287b1530d33041895406fc33dbc3
+      size_bytes: 124381
+    - path: raw_p2/skab/SKAB/valve1/3.csv
+      sha256: 8af9eccf9d2399979429e54bf598a67f69673e4692112f4a495f880e9ea84731
+      size_bytes: 133147
+    - path: raw_p2/skab/SKAB/valve1/4.csv
+      sha256: 0f049378e76618a161836876484725d8205bf858919c3776ed94679ed81b859e
+      size_bytes: 126959
+    - path: raw_p2/skab/SKAB/valve1/5.csv
+      sha256: a41f71c3fe0ee765879f61a725b474e99850cbff9b8ca0900c46303e73e71adb
+      size_bytes: 133357
+    - path: raw_p2/skab/SKAB/valve1/6.csv
+      sha256: f5136c0614c4a4667b60b6386a625ef29c7258d11ff82711529dcd61ca9ffb98
+      size_bytes: 134591
+    - path: raw_p2/skab/SKAB/valve1/7.csv
+      sha256: 0978e0bf41cc40449b1aa11d5e6c7a8607f45717e730b733d927524949b7ff37
+      size_bytes: 127522
+    - path: raw_p2/skab/SKAB/valve1/8.csv
+      sha256: aae2971e604011b7b91a01deeb1bbdfe6f91c2a1d89a34019b6a039324b3de42
+      size_bytes: 132313
+    - path: raw_p2/skab/SKAB/valve1/9.csv
+      sha256: 2b755c9b6a13aa617ad956176ee52dfb049e028ece5c1511af0833df891398e8
+      size_bytes: 132172
+    - path: raw_p2/skab/SKAB/valve2/0.csv
+      sha256: cda7215c6712099a07ef57183e287e80dba4317d1ed2c6400ffef68be6127966
+      size_bytes: 131047
+    - path: raw_p2/skab/SKAB/valve2/1.csv
+      sha256: ae6642f9fb856e425ed2412ee15f5f5fed324a7bcc30f16a413293852cb39bfe
+      size_bytes: 123334
+    - path: raw_p2/skab/SKAB/valve2/2.csv
+      sha256: 0e6f376764431846710f5a2d852ec4ec8cc795a4aeae4cc4dd3188b1f83cc760
+      size_bytes: 130528
+    - path: raw_p2/skab/SKAB/valve2/3.csv
+      sha256: da5834d37670c73c56ccf0006da7a61f7c32f52bfaef77c0df4e63ed8127dafe
+      size_bytes: 115397
+    prepared_rows: 46860
+    event_intervals: 34
+    nominal_interval_seconds: 1.0
+    scope: complete 35-file SKAB v0.9 archive; anomaly-free file labels are filled
+      as zero with label_available=false
+  nasa_cmapss_turbofan:
+    name: NASA Turbofan Engine Degradation Simulation Data Set (C-MAPSS)
+    data_nature: high-fidelity simulated run-to-failure fleet time series
+    official_repository: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+    official_download: https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip
+    mirror_url: https://www.kaggle.com/datasets/muhammadhamzanawaz/nasas-turbofan-engine-degradation-dataset
+    citation: A. Saxena and K. Goebel (2008), Turbofan Engine Degradation Simulation
+      Data Set, NASA Ames Prognostics Data Repository
+    license_status: dataset page does not specify a license; NASA attribution and
+      repository terms retained
+    download_date: '2026-07-17'
+    archive_role: complete mirror archive; official S3 transfer was incomplete and
+      is retained separately as a partial file
+    archive_sha256: 44457b4fcee08f5ff28f91ebc0628160479ac0ee6efa67647ce2e14b6ebab6f4
+    archive_size_bytes: 13276229
+    official_partial_file: raw_v07/cmapss/cmapss_official.partial
+    official_partial_sha256: ea2fca437b5a1ebc9d624641e5c13defd15031258657a44589018595fed5f334
+    raw_files:
+    - path: raw_v07/cmapss/extracted/RUL_FD001.txt
+      sha256: a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca
+      size_bytes: 429
+    - path: raw_v07/cmapss/extracted/RUL_FD002.txt
+      sha256: c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b
+      size_bytes: 1110
+    - path: raw_v07/cmapss/extracted/RUL_FD003.txt
+      sha256: df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb
+      size_bytes: 428
+    - path: raw_v07/cmapss/extracted/RUL_FD004.txt
+      sha256: 196b836b85a95ac7fdbbf29c5fdf1657382eafa445644d114ffaaf50dc2975e1
+      size_bytes: 1084
+    - path: raw_v07/cmapss/extracted/readme.txt
+      sha256: 4f5270554b775c67e73aff383c5436fd329d6e4cc3d3a116913276fae511269b
+      size_bytes: 2442
+    - path: raw_v07/cmapss/extracted/test.en.txt
+      sha256: a6d0aba269d382439334b2e9152a69ab90de68215820650cdae8165e56c212d7
+      size_bytes: 1893201
+    - path: raw_v07/cmapss/extracted/test_FD001.txt
+      sha256: 3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851
+      size_bytes: 2228855
+    - path: raw_v07/cmapss/extracted/test_FD002.txt
+      sha256: de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02
+      size_bytes: 5734587
+    - path: raw_v07/cmapss/extracted/test_FD003.txt
+      sha256: 299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790
+      size_bytes: 2826651
+    - path: raw_v07/cmapss/extracted/test_FD004.txt
+      sha256: 1dc675fff0624bac10786927c6715b37d1297657137400d2b1a3138d777a3ba5
+      size_bytes: 6957759
+    - path: raw_v07/cmapss/extracted/train_FD001.txt
+      sha256: 963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8
+      size_bytes: 3515356
+    - path: raw_v07/cmapss/extracted/train_FD002.txt
+      sha256: dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f
+      size_bytes: 9082480
+    - path: raw_v07/cmapss/extracted/train_FD003.txt
+      sha256: 2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2
+      size_bytes: 4213862
+    - path: raw_v07/cmapss/extracted/train_FD004.txt
+      sha256: 27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218
+      size_bytes: 10350705
+    train_rows: 160359
+    test_rows: 104897
+    official_test_engines: 707
+    quality:
+      version: cmapss-quality-v0.7.0
+      train_rows: 160359
+      test_rows: 104897
+      train_engine_count: 709
+      test_engine_count: 707
+      missing_train_values: 0
+      duplicate_train_entity_cycle: 0
+      subsets:
+        FD001:
+          train_rows: 20631
+          train_engines: 100
+          max_cycle: 362
+        FD002:
+          train_rows: 53759
+          train_engines: 260
+          max_cycle: 378
+        FD003:
+          train_rows: 24720
+          train_engines: 100
+          max_cycle: 525
+        FD004:
+          train_rows: 61249
+          train_engines: 249
+          max_cycle: 543
+benchmark:
+  case_count: 120
+  dataset_counts:
+    metropt3: 50
+    scania_component_x: 9
+    nasa_ims_bearing: 9
+    uci_hydraulic: 9
+    skab_v0_9: 13
+    nasa_cmapss_turbofan: 30
+  origin_counts:
+    original_v0.4.0: 30
+    metropt3_expansion_v0.5.0: 10
+    p2_normalized_v0.5.0: 12
+    skab_v0.9_v0.5.0: 8
+    quantity_expansion_v0.6.0: 30
+    cmapss_v0.7.0: 30
+delta_from_v0.5.0: 30 new non-synonymous cases; no new raw dataset
+delta_from_v0.6.0: NASA C-MAPSS added with 30 new cases

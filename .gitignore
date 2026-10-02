@@ -1,5 +1,10 @@
 *.zip
-source/
+source/*
+!source/metropt3/
+source/metropt3/*
+!source/metropt3/LICENSE_AND_CITATION.md
+!source/metropt3/dataset_manifest.yaml
+!source/metropt3/sensor_dictionary.csv
 data/**/*.csv
 __pycache__/
 *.pyc
@@ -22,3 +27,5 @@ research_runs/results/**/*.tmp
 research_runs/results/**/*.log
 research_runs/**/*.npz
 research_runs/**/*.csv.gz
+.handoff_packages/
+.handoff_verify/
