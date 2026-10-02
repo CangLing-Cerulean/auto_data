@@ -1,0 +1,123 @@
+{
+  "phase": "stopped_formal_gate",
+  "rows": [
+    {
+      "run_id": "T010_prefix60_sources",
+      "baseline": "T000_prefix60_full",
+      "NMSE": 0.43296964251281966,
+      "NMAE": 0.20957066547403777,
+      "NMSE_reduction_pct": 3.303427655183433,
+      "NMAE_not_worse": true
+    },
+    {
+      "run_id": "T011_prefix80_sources",
+      "baseline": "T005_prefix80_full",
+      "NMSE": 0.51711211026981,
+      "NMAE": 0.25250101829349164,
+      "NMSE_reduction_pct": 2.4379419776190736,
+      "NMAE_not_worse": true
+    },
+    {
+      "run_id": "R001_sources_s2026",
+      "baseline": "S000_uniform_s2026",
+      "NMSE": 0.2736735069613985,
+      "NMAE": 0.19863202164921018,
+      "NMSE_reduction_pct": 4.980007488568894,
+      "NMAE_not_worse": false
+    }
+  ],
+  "mapping": {
+    "TP2": "TP3",
+    "TP3": "DV_eletric",
+    "H1": "TP3",
+    "DV_pressure": "DV_pressure",
+    "Reservoirs": "DV_eletric",
+    "Oil_temperature": "Motor_current",
+    "Motor_current": "Motor_current",
+    "COMP": "COMP",
+    "DV_eletric": "TP3",
+    "Towers": "Towers",
+    "MPG": "MPG",
+    "LPS": "LPS",
+    "Pressure_switch": "Pressure_switch",
+    "Oil_level": "Oil_level",
+    "Caudal_impulses": "Caudal_impulses"
+  },
+  "scope": "input-source representation; not training-row selection",
+  "verification": {
+    "diagnostic_sha256": "1237800ab09add9765369eeadcf6eb85455c8c507baa34f1771c68ae697d9502",
+    "mapping_reproduced": true,
+    "identity_transform_exact": true,
+    "independent_transform_agrees": true,
+    "parameter_count": 7920,
+    "checks": [
+      {
+        "run_id": "T010_prefix60_sources",
+        "baseline": "T000_prefix60_full",
+        "identical_actual_draw_counts": true,
+        "identical_data_audit": true,
+        "source_identity_verified": true
+      },
+      {
+        "run_id": "T011_prefix80_sources",
+        "baseline": "T005_prefix80_full",
+        "identical_actual_draw_counts": true,
+        "identical_data_audit": true,
+        "source_identity_verified": true
+      },
+      {
+        "run_id": "R001_sources_s2026",
+        "baseline": "S000_uniform_s2026",
+        "identical_actual_draw_counts": true,
+        "identical_data_audit": true,
+        "source_identity_verified": true
+      }
+    ]
+  },
+  "development_gate_passed": false,
+  "channel_NMSE_reduction_pct": {
+    "TP2": 9.664476559027557,
+    "TP3": 26.52901313473931,
+    "H1": 15.173701153216722,
+    "DV_pressure": 0.0,
+    "Reservoirs": 26.88309036712949,
+    "Oil_temperature": 49.65973393793779,
+    "Motor_current": 0.0,
+    "COMP": 0.0,
+    "DV_eletric": 9.110934970839157,
+    "Towers": 0.0,
+    "MPG": 0.0,
+    "LPS": 0.0,
+    "Pressure_switch": 0.0,
+    "Oil_level": 0.0,
+    "Caudal_impulses": 0.0
+  },
+  "channel_NMAE_reduction_pct": {
+    "TP2": -1.4118713722265586,
+    "TP3": -7.567300877145211,
+    "H1": -7.411756909521605,
+    "DV_pressure": 0.0,
+    "Reservoirs": -8.863413163219015,
+    "Oil_temperature": 6.931512559305464,
+    "Motor_current": 0.0,
+    "COMP": 0.0,
+    "DV_eletric": -2.5425327120401464,
+    "Towers": 0.0,
+    "MPG": 0.0,
+    "LPS": 0.0,
+    "Pressure_switch": 0.0,
+    "Oil_level": 0.0,
+    "Caudal_impulses": 0.0
+  },
+  "formal_NMAE_reduction_pct": -1.8587450751203605,
+  "group_NMSE_reduction_pct": {
+    "all": 4.980007488568894,
+    "high_input_variation": 0.3016437661586546,
+    "ordinary_input_variation": 5.714004157426123,
+    "month_2020-06": 5.903381315587774,
+    "month_2020-07": 4.767143764684967,
+    "month_2020-08": 5.738349953989264,
+    "low_quartile": 1.801516037323303,
+    "middle": 5.886146442855478
+  }
+}

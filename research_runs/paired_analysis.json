@@ -1,0 +1,176 @@
+{
+  "pairs": [
+    {
+      "seed": 2026,
+      "baseline": {
+        "NMAE": 0.1992694365875478,
+        "NMSE": 0.2859968726100614,
+        "windows": 300535
+      },
+      "selective": {
+        "NMAE": 0.19516159217652293,
+        "NMSE": 0.28370452890649894,
+        "windows": 300535
+      },
+      "group_relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.8015275421168422,
+          "NMAE": 2.0614523136969543
+        },
+        "high_input_variation": {
+          "NMSE": 0.4719883443771056,
+          "NMAE": 1.6446200097986696
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.8533417785724806,
+          "NMAE": 2.112913596959587
+        },
+        "month_2020-06": {
+          "NMSE": 0.07138933826925653,
+          "NMAE": 0.0012048117771668032
+        },
+        "month_2020-07": {
+          "NMSE": 0.21267174381736087,
+          "NMAE": 0.4330838921782876
+        },
+        "month_2020-08": {
+          "NMSE": 3.355929626420451,
+          "NMAE": 8.068806729960365
+        }
+      },
+      "channel_nmse_delta": {
+        "TP2": 0.0,
+        "TP3": 0.0,
+        "H1": 0.0,
+        "DV_pressure": 0.0,
+        "Reservoirs": 0.0,
+        "Oil_temperature": -0.0025717424290551995,
+        "Motor_current": 0.0,
+        "COMP": 0.0,
+        "DV_eletric": 0.0,
+        "Towers": 0.0,
+        "MPG": 0.0,
+        "LPS": 0.0,
+        "Pressure_switch": 0.0,
+        "Oil_level": -0.03181341312438085,
+        "Caudal_impulses": 0.0
+      }
+    },
+    {
+      "seed": 2027,
+      "baseline": {
+        "NMAE": 0.19517469445877747,
+        "NMSE": 0.2896458414567915,
+        "windows": 300535
+      },
+      "selective": {
+        "NMAE": 0.19155373617534582,
+        "NMSE": 0.287753899079629,
+        "windows": 300535
+      },
+      "group_relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.6531916245187119,
+          "NMAE": 1.855239632101191
+        },
+        "high_input_variation": {
+          "NMSE": 0.3224074485132067,
+          "NMAE": 1.4640056603436924
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.7041963978866472,
+          "NMAE": 1.9032264798558574
+        },
+        "month_2020-06": {
+          "NMSE": 0.11659880580763282,
+          "NMAE": 0.018734681530363506
+        },
+        "month_2020-07": {
+          "NMSE": 0.18722237230749394,
+          "NMAE": 0.4045012240144974
+        },
+        "month_2020-08": {
+          "NMSE": 2.674621408799571,
+          "NMAE": 7.275026725477318
+        }
+      },
+      "channel_nmse_delta": {
+        "TP2": 0.0,
+        "TP3": 0.0,
+        "H1": 0.0,
+        "DV_pressure": 0.0,
+        "Reservoirs": 0.0,
+        "Oil_temperature": -0.004042896127345499,
+        "Motor_current": 0.0,
+        "COMP": 0.0,
+        "DV_eletric": 0.0,
+        "Towers": 0.0,
+        "MPG": 0.0,
+        "LPS": 0.0,
+        "Pressure_switch": 0.0,
+        "Oil_level": -0.024336239530092105,
+        "Caudal_impulses": 0.0
+      }
+    },
+    {
+      "seed": 2028,
+      "baseline": {
+        "NMAE": 0.1956313281921909,
+        "NMSE": 0.28837501139300636,
+        "windows": 300535
+      },
+      "selective": {
+        "NMAE": 0.1922662354838746,
+        "NMSE": 0.28696629469521767,
+        "windows": 300535
+      },
+      "group_relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.488501653102269,
+          "NMAE": 1.7201195429243255
+        },
+        "high_input_variation": {
+          "NMSE": 0.2380419871673256,
+          "NMAE": 1.2505391206829142
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.5274397598615588,
+          "NMAE": 1.778482469414322
+        },
+        "month_2020-06": {
+          "NMSE": 0.08327751167289676,
+          "NMAE": 0.15935256147751042
+        },
+        "month_2020-07": {
+          "NMSE": 0.13792337221613105,
+          "NMAE": 0.4413484345377694
+        },
+        "month_2020-08": {
+          "NMSE": 2.0193235180294478,
+          "NMAE": 6.525681426610753
+        }
+      },
+      "channel_nmse_delta": {
+        "TP2": 0.0,
+        "TP3": 0.0,
+        "H1": 0.0,
+        "DV_pressure": 0.0,
+        "Reservoirs": 0.0,
+        "Oil_temperature": -0.002786233158989456,
+        "Motor_current": 0.0,
+        "COMP": 0.0,
+        "DV_eletric": 0.0,
+        "Towers": 0.0,
+        "MPG": 0.0,
+        "LPS": 0.0,
+        "Pressure_switch": 0.0,
+        "Oil_level": -0.018344517307841285,
+        "Caudal_impulses": 0.0
+      }
+    }
+  ],
+  "relative_reduction_of_seed_means_pct": {
+    "NMSE": 0.647325004303223,
+    "NMAE": 1.8800807979862943
+  }
+}

@@ -1,0 +1,4 @@
+[
+  {"id":"S002_downweight_quiet_s2026","recipe":"downweight_quiet","seed":2026,"parent":"S001_drop_quiet_s2026","decision":"S-D002"},
+  {"id":"S003_random_drop_s2026","recipe":"random_drop","seed":2026,"parent":"S001_drop_quiet_s2026","decision":"S-D002"}
+]

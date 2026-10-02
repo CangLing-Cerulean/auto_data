@@ -1,0 +1,39 @@
+{
+  "recipe": "future_conflict_downweight",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "eligible_windows": 1053433,
+  "retained_windows": 1053433,
+  "removed_windows": 0,
+  "low_variation_threshold": 0.003951953111203282,
+  "quiet_windows": 263359,
+  "expected_quiet_sampling_mass": 0.25000071195795087,
+  "expected_loss_weight": 0.8500289054928037,
+  "sampling_method": "common_uniform_inverse_cdf",
+  "expected_quiet_loss_mass": 0.2755781041567433,
+  "high_variation_threshold": 0.12934430480698564,
+  "high_variation_windows": 105344,
+  "expected_high_sampling_mass": 0.10000066449408743,
+  "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+  "alignment": {
+    "recipe_sha256": "24caa9ac2b8d1a1ab28c725b235a81351f9c0ff8952cc09b998a99f9183bd1c9",
+    "asset_sha256": "904d21d9d7cd0f0ef7c3c3cdf14d61fd242cd34cbe57fa0894f5ba5ad165ce5e",
+    "downweighted_windows": 210646,
+    "teacher_run": "T005_prefix80_full",
+    "source_rows": [
+      0,
+      849490
+    ],
+    "future_rows": [
+      849490,
+      1061863
+    ],
+    "actual_downweighted_draws": 153696,
+    "actual_mean_loss_weight": 0.84990625
+  },
+  "unique_windows_seen": 545347,
+  "actual_quiet_draws": 192044,
+  "actual_high_draws": 76791,
+  "total_draws": 768000,
+  "sampling_weights_sha256": "da331148897898ee99adae428f60cfc9f26aba4728667bb6a5cb059cf9ff8d92"
+}

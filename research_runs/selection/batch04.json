@@ -1,0 +1,12 @@
+[
+  {"id":"S005_uniform_s2027","recipe":"uniform","seed":2027,"parent":"S000_uniform_s2026","decision":"S-D004"},
+  {"id":"S006_drop_quiet_s2027","recipe":"drop_quiet","seed":2027,"parent":"S001_drop_quiet_s2026","decision":"S-D004"},
+  {"id":"S007_downweight_quiet_s2027","recipe":"downweight_quiet","seed":2027,"parent":"S002_downweight_quiet_s2026","decision":"S-D004"},
+  {"id":"S008_random_drop_s2027","recipe":"random_drop","seed":2027,"parent":"S003_random_drop_s2026","decision":"S-D004"},
+  {"id":"S009_oversample_high_s2027","recipe":"oversample_high","seed":2027,"parent":"S004_oversample_high_s2026","decision":"S-D004"},
+  {"id":"S010_uniform_s2028","recipe":"uniform","seed":2028,"parent":"S000_uniform_s2026","decision":"S-D004"},
+  {"id":"S011_drop_quiet_s2028","recipe":"drop_quiet","seed":2028,"parent":"S001_drop_quiet_s2026","decision":"S-D004"},
+  {"id":"S012_downweight_quiet_s2028","recipe":"downweight_quiet","seed":2028,"parent":"S002_downweight_quiet_s2026","decision":"S-D004"},
+  {"id":"S013_random_drop_s2028","recipe":"random_drop","seed":2028,"parent":"S003_random_drop_s2026","decision":"S-D004"},
+  {"id":"S014_oversample_high_s2028","recipe":"oversample_high","seed":2028,"parent":"S004_oversample_high_s2026","decision":"S-D004"}
+]

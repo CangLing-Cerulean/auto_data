@@ -1,0 +1,182 @@
+{
+  "scope": "reversible input-output representation, NOT data-selection improvement",
+  "runs": [
+    {
+      "id": "R000_pca_rotation_s2026",
+      "recipe": "pca_rotation",
+      "seed": 2026,
+      "parent": "S000_uniform_s2026",
+      "decision": "R-D001",
+      "baseline": "S000_uniform_s2026",
+      "metrics": {
+        "NMAE": 0.2273284960613014,
+        "NMSE": 0.28990032687171896,
+        "windows": 300535
+      },
+      "baseline_metrics": {
+        "NMAE": 0.19500733246096835,
+        "NMSE": 0.2880167633442773,
+        "windows": 300535
+      },
+      "best_step": 2000,
+      "elapsed_seconds": 71.67313538771123,
+      "group_contrasts": {
+        "all": {
+          "NMSE": 0.28990032687171896,
+          "baseline_NMSE": 0.2880167633442773,
+          "NMSE_reduction_pct": -0.6539770482699936
+        },
+        "high_input_variation": {
+          "NMSE": 0.5506370597539476,
+          "baseline_NMSE": 0.5406053890686947,
+          "NMSE_reduction_pct": -1.8556364564797478
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.26959469200990904,
+          "baseline_NMSE": 0.26834568613352194,
+          "NMSE_reduction_pct": -0.46544660150251715
+        },
+        "month_2020-06": {
+          "NMSE": 0.20565813384623063,
+          "baseline_NMSE": 0.20758156726945945,
+          "NMSE_reduction_pct": 0.9265916278260011
+        },
+        "month_2020-07": {
+          "NMSE": 0.3090822396540715,
+          "baseline_NMSE": 0.3087049081561941,
+          "NMSE_reduction_pct": -0.1222304822203979
+        },
+        "month_2020-08": {
+          "NMSE": 0.24252358311276478,
+          "baseline_NMSE": 0.23519311903235585,
+          "NMSE_reduction_pct": -3.116785095826069
+        },
+        "low_quartile": {
+          "NMSE": 0.6604310077094473,
+          "baseline_NMSE": 0.6458878606372911,
+          "NMSE_reduction_pct": -2.251652021731232
+        },
+        "middle": {
+          "NMSE": 0.2626294081574998,
+          "baseline_NMSE": 0.261617323629726,
+          "NMSE_reduction_pct": -0.3868568463784916
+        }
+      },
+      "channel_contrasts": [
+        {
+          "channel": "TP2",
+          "NMSE": 0.465887669361744,
+          "baseline_NMSE": 0.46653056952266414,
+          "NMSE_reduction_pct": 0.1378045090545621
+        },
+        {
+          "channel": "TP3",
+          "NMSE": 0.11219948838193428,
+          "baseline_NMSE": 0.09655951482894752,
+          "NMSE_reduction_pct": -16.19723709330203
+        },
+        {
+          "channel": "H1",
+          "NMSE": 0.41737795054092197,
+          "baseline_NMSE": 0.42749627109960825,
+          "NMSE_reduction_pct": 2.3668792554984996
+        },
+        {
+          "channel": "DV_pressure",
+          "NMSE": 0.17505404347068523,
+          "baseline_NMSE": 0.14392287259604566,
+          "NMSE_reduction_pct": -21.630454084957517
+        },
+        {
+          "channel": "Reservoirs",
+          "NMSE": 0.1117845227984216,
+          "baseline_NMSE": 0.09674030492613665,
+          "NMSE_reduction_pct": -15.551137536491687
+        },
+        {
+          "channel": "Oil_temperature",
+          "NMSE": 0.03134526853677282,
+          "baseline_NMSE": 0.02871667590384019,
+          "NMSE_reduction_pct": -9.153540757066247
+        },
+        {
+          "channel": "Motor_current",
+          "NMSE": 0.33247633879391747,
+          "baseline_NMSE": 0.29998079703585473,
+          "NMSE_reduction_pct": -10.832540642319444
+        },
+        {
+          "channel": "COMP",
+          "NMSE": 0.4531051192110826,
+          "baseline_NMSE": 0.43626728188675723,
+          "NMSE_reduction_pct": -3.8595232838698257
+        },
+        {
+          "channel": "DV_eletric",
+          "NMSE": 0.4633645638349562,
+          "baseline_NMSE": 0.43146402540220824,
+          "NMSE_reduction_pct": -7.393556949043556
+        },
+        {
+          "channel": "Towers",
+          "NMSE": 0.5391331771410538,
+          "baseline_NMSE": 0.7627699736298555,
+          "NMSE_reduction_pct": 29.319035124647485
+        },
+        {
+          "channel": "MPG",
+          "NMSE": 0.4444454325201541,
+          "baseline_NMSE": 0.4204139630693648,
+          "NMSE_reduction_pct": -5.716144458033701
+        },
+        {
+          "channel": "LPS",
+          "NMSE": 0.22839920242631095,
+          "baseline_NMSE": 0.20017239828143812,
+          "NMSE_reduction_pct": -14.101246918761777
+        },
+        {
+          "channel": "Pressure_switch",
+          "NMSE": 0.3803463343694708,
+          "baseline_NMSE": 0.37350932393130776,
+          "NMSE_reduction_pct": -1.8304791875611848
+        },
+        {
+          "channel": "Oil_level",
+          "NMSE": 0.14992125114834112,
+          "baseline_NMSE": 0.12066795721265806,
+          "NMSE_reduction_pct": -24.242801992685425
+        },
+        {
+          "channel": "Caudal_impulses",
+          "NMSE": 0.04366454054001914,
+          "baseline_NMSE": 0.015039520837475192,
+          "NMSE_reduction_pct": -190.33199270030377
+        }
+      ],
+      "NMSE_reduction_pct": -0.6539770482699936,
+      "NMAE_reduction_pct": -16.574332458397322
+    }
+  ],
+  "summary": {
+    "seeds": [
+      2026
+    ],
+    "all_seeds_NMSE_improve": false,
+    "NMSE": {
+      "mean": 0.28990032687171896,
+      "baseline_mean": 0.2880167633442773,
+      "relative_reduction_pct": -0.6539770482699936,
+      "sample_std": null
+    },
+    "NMAE": {
+      "mean": 0.2273284960613014,
+      "baseline_mean": 0.19500733246096835,
+      "relative_reduction_pct": -16.574332458397322,
+      "sample_std": null
+    }
+  },
+  "pending": [],
+  "budget_used_seconds": 3491.8963886471465,
+  "budget_remaining_seconds": 3708.1036113528535
+}

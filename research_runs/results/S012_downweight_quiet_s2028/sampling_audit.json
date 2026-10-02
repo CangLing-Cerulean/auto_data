@@ -1,0 +1,23 @@
+{
+  "recipe": "downweight_quiet",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "eligible_windows": 1053433,
+  "retained_windows": 1053433,
+  "removed_windows": 0,
+  "low_variation_threshold": 0.003951953111203282,
+  "quiet_windows": 263359,
+  "expected_quiet_sampling_mass": 0.25000071195795087,
+  "expected_loss_weight": 0.8124994660315378,
+  "sampling_method": "common_uniform_inverse_cdf",
+  "expected_quiet_loss_mass": 0.07692334654046619,
+  "high_variation_threshold": 0.12934430480698564,
+  "high_variation_windows": 105344,
+  "expected_high_sampling_mass": 0.10000066449408743,
+  "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+  "unique_windows_seen": 544434,
+  "actual_quiet_draws": 191860,
+  "actual_high_draws": 77255,
+  "total_draws": 768000,
+  "sampling_weights_sha256": "bc685ac7453626655a6c6b9cfdd2c273481e70e38bee506c38a7e1dacf8380ed"
+}

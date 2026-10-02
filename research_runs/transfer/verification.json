@@ -1,0 +1,62 @@
+[
+  {
+    "run": "T000_prefix60_full",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T001_prefix60_drop0",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T002_prefix60_drop1",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T003_prefix60_drop2",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T004_prefix60_drop3",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T005_prefix80_full",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T006_prefix80_drop0",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T007_prefix60_disjoint",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T008_prefix60_matched_random",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  },
+  {
+    "run": "T009_prefix60_state_balance",
+    "source_probe_disjoint": true,
+    "prefix_only_normalization": true,
+    "actual_membership_and_draws_verified": true
+  }
+]

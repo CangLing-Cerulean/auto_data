@@ -1,0 +1,110 @@
+[
+  {
+    "run": "I000_adaptive_is_s2026",
+    "initialization_reproduced": true,
+    "uniform_warmup_identical": false,
+    "warmup_different_draws_vs_numpy_cdf": 1,
+    "warmup_total_draws": 128000,
+    "warmup_NMSE_difference": 1.0106415779809197e-06,
+    "numerical_pairing_note": "I000 used CUDA cumulative sum; baseline uses NumPy. Same probabilities and uniform RNG, but floating-point boundary-bin choices differ; not a bitwise warmup match.",
+    "all_768000_draws_replayed": true,
+    "phase_checks": [
+      {
+        "start_step": 0,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": null
+      },
+      {
+        "start_step": 500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.4763301915260383e-07
+      },
+      {
+        "start_step": 1000,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 1.5919881194817948e-07
+      },
+      {
+        "start_step": 1500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.0965234489054112e-07
+      },
+      {
+        "start_step": 2000,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.6984038860143666e-07
+      },
+      {
+        "start_step": 2500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 1.7564484559963943e-07
+      }
+    ]
+  },
+  {
+    "run": "I001_adaptive_is_numpy_cdf_s2026",
+    "initialization_reproduced": true,
+    "uniform_warmup_identical": true,
+    "warmup_different_draws_vs_numpy_cdf": 0,
+    "warmup_total_draws": 128000,
+    "warmup_NMSE_difference": 0.0,
+    "numerical_pairing_note": "NumPy CDF matches baseline; uniform warmup verified exactly.",
+    "all_768000_draws_replayed": true,
+    "phase_checks": [
+      {
+        "start_step": 0,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": null
+      },
+      {
+        "start_step": 500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.3676806118790103e-07
+      },
+      {
+        "start_step": 1000,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.1154949500461904e-07
+      },
+      {
+        "start_step": 1500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.769113752933434e-07
+      },
+      {
+        "start_step": 2000,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.1009220738244084e-07
+      },
+      {
+        "start_step": 2500,
+        "draws_replayed": true,
+        "positive_support": true,
+        "loss_weights_verified": true,
+        "score_autograd_max_relative_error": 2.620372934971858e-07
+      }
+    ]
+  }
+]

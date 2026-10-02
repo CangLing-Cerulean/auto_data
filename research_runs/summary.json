@@ -1,0 +1,455 @@
+{
+  "completed": [
+    {
+      "id": "E000_baseline_s2026",
+      "parent": null,
+      "recipe": "baseline",
+      "seed": 2026,
+      "data_round": 0,
+      "decision": "D000",
+      "purpose": "Unmodified full eligible training-window baseline",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.1992694365875478,
+        "NMSE": 0.2859968726100614,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1992694365875478,
+          "NMSE": 0.2859968726100614,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30308072494656474,
+          "NMSE": 0.5378212384356885,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.19118482920349975,
+          "NMSE": 0.2663853143718452,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1673915313162228,
+          "NMSE": 0.2058815429065672,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20476350866433857,
+          "NMSE": 0.3060017425939697,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18698371850606896,
+          "NMSE": 0.2353049963427904,
+          "windows": 68880
+        }
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 65.96746912878007
+    },
+    {
+      "id": "E001_last_center_s2026",
+      "parent": "E000_baseline_s2026",
+      "recipe": "last_center",
+      "seed": 2026,
+      "data_round": 1,
+      "decision": "D001",
+      "purpose": "Causal per-window last-value centering and inverse output transform",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.1815340482898374,
+        "NMSE": 0.30441882617924976,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1815340482898374,
+          "NMSE": 0.30441882617924976,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29533301945856166,
+          "NMSE": 0.5581510579406717,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.17267162092619662,
+          "NMSE": 0.28465868730711497,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1528758468661463,
+          "NMSE": 0.224851923596193,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19048973731628158,
+          "NMSE": 0.32639286252493804,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1576464114779326,
+          "NMSE": 0.24733970024130628,
+          "windows": 68880
+        }
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 67.0691313399002
+    },
+    {
+      "id": "E002_mean_center_s2026",
+      "parent": "E001_last_center_s2026",
+      "recipe": "mean_center",
+      "seed": 2026,
+      "data_round": 2,
+      "decision": "D002",
+      "purpose": "Replace noisy last-value anchor with causal input-window mean",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.18642378460849565,
+        "NMSE": 0.30519630604198766,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.18642378460849565,
+          "NMSE": 0.30519630604198766,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3064521653686081,
+          "NMSE": 0.5664173607861233,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.17707622377260065,
+          "NMSE": 0.28485295320014953,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.15709542832919507,
+          "NMSE": 0.22558645614296916,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.195651163682884,
+          "NMSE": 0.3273682544733741,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.16177845290667922,
+          "NMSE": 0.2474914739960206,
+          "windows": 68880
+        }
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 66.90556209441274
+    },
+    {
+      "id": "E003_selective_center_s2026",
+      "parent": "E002_mean_center_s2026",
+      "recipe": "selective_center",
+      "seed": 2026,
+      "data_round": 3,
+      "decision": "D003",
+      "purpose": "Center only Oil_temperature and Oil_level after observing conditional effects",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.19516159217652293,
+        "NMSE": 0.28370452890649894,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19516159217652293,
+          "NMSE": 0.28370452890649894,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29809619869825066,
+          "NMSE": 0.5352827848766875,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18714525895193504,
+          "NMSE": 0.2641121371923286,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16738951456333953,
+          "NMSE": 0.20573456543546767,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20387671089125423,
+          "NMSE": 0.30535096335188355,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17189636364332112,
+          "NMSE": 0.22740832625807514,
+          "windows": 68880
+        }
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 70.46751253306866
+    },
+    {
+      "id": "E004_baseline_s2027",
+      "parent": "E000_baseline_s2026",
+      "recipe": "baseline",
+      "seed": 2027,
+      "data_round": 0,
+      "decision": "D004",
+      "purpose": "Paired baseline confirmation",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.19517469445877747,
+        "NMSE": 0.2896458414567915,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19517469445877747,
+          "NMSE": 0.2896458414567915,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2951331789043425,
+          "NMSE": 0.5355622891081036,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18739013543613942,
+          "NMSE": 0.27049437960743095,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16352596656634968,
+          "NMSE": 0.20921882527200372,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.2011426846060653,
+          "NMSE": 0.31004987448722254,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18133565887078817,
+          "NMSE": 0.23772928602676205,
+          "windows": 68880
+        }
+      },
+      "best_step": 2000,
+      "elapsed_seconds": 65.66006632428616
+    },
+    {
+      "id": "E005_selective_center_s2027",
+      "parent": "E003_selective_center_s2026",
+      "recipe": "selective_center",
+      "seed": 2027,
+      "data_round": 3,
+      "decision": "D004",
+      "purpose": "Paired recipe confirmation",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.19155373617534582,
+        "NMSE": 0.287753899079629,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19155373617534582,
+          "NMSE": 0.287753899079629,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29081241245963063,
+          "NMSE": 0.5338355963965912,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18382367675788105,
+          "NMSE": 0.2685895679297496,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16349533049729403,
+          "NMSE": 0.2089748786202118,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20032905998481815,
+          "NMSE": 0.30946939175687116,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.16814344122511796,
+          "NMSE": 0.2313709276477039,
+          "windows": 68880
+        }
+      },
+      "best_step": 2000,
+      "elapsed_seconds": 70.77626775018871
+    },
+    {
+      "id": "E006_baseline_s2028",
+      "parent": "E000_baseline_s2026",
+      "recipe": "baseline",
+      "seed": 2028,
+      "data_round": 0,
+      "decision": "D004",
+      "purpose": "Paired baseline confirmation",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.1956313281921909,
+        "NMSE": 0.28837501139300636,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1956313281921909,
+          "NMSE": 0.28837501139300636,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29932525732248766,
+          "NMSE": 0.5370225162764047,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18755586050096518,
+          "NMSE": 0.2690108604824287,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16436647116561579,
+          "NMSE": 0.2086862534550593,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.2019331682971649,
+          "NMSE": 0.30905263599993976,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1806612117309175,
+          "NMSE": 0.23546133585994883,
+          "windows": 68880
+        }
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 67.6686299201101
+    },
+    {
+      "id": "E007_selective_center_s2028",
+      "parent": "E003_selective_center_s2026",
+      "recipe": "selective_center",
+      "seed": 2028,
+      "data_round": 3,
+      "decision": "D004",
+      "purpose": "Paired recipe confirmation",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.1922662354838746,
+        "NMSE": 0.28696629469521767,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1922662354838746,
+          "NMSE": 0.28696629469521767,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29558207788158514,
+          "NMSE": 0.5357441772071244,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18422021240159633,
+          "NMSE": 0.2675919902458987,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1641045489836032,
+          "NMSE": 0.20851246473597854,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20104193942007284,
+          "NMSE": 0.3086263801824458,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1688718365919031,
+          "NMSE": 0.23070660972906257,
+          "windows": 68880
+        }
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 71.57421324122697
+    }
+  ],
+  "aggregates": {
+    "baseline": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "NMSE": {
+        "mean": 0.2880059084866198,
+        "sample_std": 0.0018522745821635052
+      },
+      "NMAE": {
+        "mean": 0.19669181974617206,
+        "sample_std": 0.0022439273667680735
+      }
+    },
+    "last_center": {
+      "seeds": [
+        2026
+      ],
+      "NMSE": {
+        "mean": 0.30441882617924976,
+        "sample_std": null
+      },
+      "NMAE": {
+        "mean": 0.1815340482898374,
+        "sample_std": null
+      }
+    },
+    "mean_center": {
+      "seeds": [
+        2026
+      ],
+      "NMSE": {
+        "mean": 0.30519630604198766,
+        "sample_std": null
+      },
+      "NMAE": {
+        "mean": 0.18642378460849565,
+        "sample_std": null
+      }
+    },
+    "selective_center": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "NMSE": {
+        "mean": 0.2861415742271152,
+        "sample_std": 0.002146968231632506
+      },
+      "NMAE": {
+        "mean": 0.19299385461191446,
+        "sample_std": 0.0019108187846900947
+      }
+    }
+  },
+  "completed_elapsed_seconds": 546.0888523319736
+}

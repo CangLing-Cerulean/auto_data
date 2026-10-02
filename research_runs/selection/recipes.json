@@ -1,0 +1,19 @@
+{
+  "selection_unit": "eligible 32-input + 8-target training window; original CSV unchanged",
+  "score": "mean absolute adjacent difference across 31 input transitions and 15 train-standardized channels",
+  "threshold_fit": "training windows only",
+  "low_quartile_threshold": 0.003951953111203282,
+  "high_decile_threshold": 0.12934430480698564,
+  "policies": {
+    "uniform": {"retained":1053433,"sampling_weight":"1 for every eligible window","loss_weight":"1"},
+    "drop_quiet": {"retained":790074,"removed":263359,"sampling_weight":"0 if score <= train Q25, otherwise 1","loss_weight":"1","decision":"S-D001"},
+    "downweight_quiet": {"retained":1053433,"sampling_weight":"1 for all","loss_weight":"0.25 if score <= train Q25, otherwise 1; divide batch weighted loss by fixed population expected loss weight","decision":"S-D002"},
+    "random_drop": {"retained":790074,"removed":263359,"mask_seed":20260926,"sampling_weight":"0 for fixed equal-count random mask, otherwise 1","loss_weight":"1","decision":"S-D002; control"},
+    "oversample_high": {"retained":1053433,"sampling_weight":"2 if score > train Q90, otherwise 1; normalize across candidate pool","loss_weight":"1","decision":"S-D003"},
+    "month_matched_drop": {"retained":790074,"removed":263359,"mask_seed":20260926,"sampling_weight":"0 for month-stratified random removal matching drop_quiet month counts; otherwise 1","loss_weight":"1","decision":"S-D006; control"},
+    "protect_lps_matched": {"retained":790074,"removed":263359,"restored":422,"replacement_removed":422,"removal_seed":20260927,"sampling_weight":"restore all month_matched_drop exclusions with any raw LPS=1 in the 32 input rows; remove equal-count original non-LPS retained windows per month; 0/1 weights","loss_weight":"1","decision":"S-D009"},
+    "placebo_matched_swap": {"retained":790074,"removed":263359,"restored":422,"replacement_removed":422,"removal_seed":20260927,"restore_seed":20260928,"sampling_weight":"same replacement removals as protect_lps_matched; restore equal-count ordinary excluded windows per month instead of rare LPS windows; 0/1 weights","loss_weight":"1","decision":"S-D009; control"},
+    "future_conflict_downweight": {"retained":1053433,"downweighted":210646,"sampling_weight":"1 for all; same uniform draw sequence","loss_weight":"0.25 for negative lowest-quartile source gradient alignment, 1 otherwise; population expectation normalization","asset":"research_runs/transfer/alignment_scores.npz","decision":"transfer/T-D005"},
+    "future_conflict_shuffled": {"retained":1053433,"downweighted":210646,"sampling_weight":"1 for all; same uniform draw sequence","loss_weight":"month-shuffled control of future_conflict_downweight within scored historical source","shuffle_seed":20260929,"asset":"research_runs/transfer/alignment_scores.npz","decision":"transfer/T-D005; control"}
+  }
+}

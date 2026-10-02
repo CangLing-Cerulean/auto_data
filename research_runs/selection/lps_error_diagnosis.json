@@ -1,0 +1,348 @@
+{
+  "scope": "full unchanged validation; target states used only for post-hoc error diagnosis, never selection",
+  "identity": {
+    "code_sha256": "21786d32bc255dbe21c2d7454fd085686819e76f20ba694d1d6b009cbe9c1e1d",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087"
+  },
+  "validation_windows": 300535,
+  "results": {
+    "S000_uniform_s2026": {
+      "recipe": "uniform",
+      "seed": 2026,
+      "checkpoint_sha256": "dac0dda87e6694a13cc8d867b733ba7aeefc0b4457df0ac11b420af490f34998",
+      "LPS_NMSE": 0.20017239828143757,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 3.459435800395553e-07,
+          "contribution_to_overall_LPS_NMSE": 3.429599483179171e-07
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.93080234423448,
+          "contribution_to_overall_LPS_NMSE": 0.0683359908997172
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.833874335925955,
+          "contribution_to_overall_LPS_NMSE": 0.031758841033326456
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 18.623348811793495,
+          "contribution_to_overall_LPS_NMSE": 0.10007722338844557
+        }
+      }
+    },
+    "S005_uniform_s2027": {
+      "recipe": "uniform",
+      "seed": 2027,
+      "checkpoint_sha256": "306e916c185bbf2521dbceb60249408947fdde4d49566bfb464e23eadfe9bd3b",
+      "LPS_NMSE": 0.19986518606231496,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.4261303148285155e-06,
+          "contribution_to_overall_LPS_NMSE": 2.4052058641787226e-06
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.9010409058334,
+          "contribution_to_overall_LPS_NMSE": 0.06832648419305574
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 13.57421094759537,
+          "contribution_to_overall_LPS_NMSE": 0.039791970468769096
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 17.072681778886626,
+          "contribution_to_overall_LPS_NMSE": 0.09174432619462593
+        }
+      }
+    },
+    "S010_uniform_s2028": {
+      "recipe": "uniform",
+      "seed": 2028,
+      "checkpoint_sha256": "271959880402aa5a32d789883762c1b91943a659648c783bc78e8c7e4ab47860",
+      "LPS_NMSE": 0.19182146299935457,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.8158489743708704e-07,
+          "contribution_to_overall_LPS_NMSE": 2.791563348598267e-07
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.93791174603948,
+          "contribution_to_overall_LPS_NMSE": 0.06833826185841844
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.052257513955302,
+          "contribution_to_overall_LPS_NMSE": 0.029467579050009556
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 17.495294791856047,
+          "contribution_to_overall_LPS_NMSE": 0.0940153429345917
+        }
+      }
+    },
+    "S015_month_matched_drop_s2026": {
+      "recipe": "month_matched_drop",
+      "seed": 2026,
+      "checkpoint_sha256": "15b18761bc5721d144530f975278a6bd71e2ababf979ad17d4db1b18be86c379",
+      "LPS_NMSE": 0.19284053460799544,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 7.452692740205511e-06,
+          "contribution_to_overall_LPS_NMSE": 7.388416101602311e-06
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.88369439312126,
+          "contribution_to_overall_LPS_NMSE": 0.06832094319044252
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 12.116316684845854,
+          "contribution_to_overall_LPS_NMSE": 0.03551824246543397
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 16.560866829530635,
+          "contribution_to_overall_LPS_NMSE": 0.08899396053601735
+        }
+      }
+    },
+    "S016_month_matched_drop_s2027": {
+      "recipe": "month_matched_drop",
+      "seed": 2027,
+      "checkpoint_sha256": "58566803eb82743bfc135dded77030fde0eaff88fefbb8297567e44ae7704660",
+      "LPS_NMSE": 0.21235669301895863,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 6.996670208111925e-07,
+          "contribution_to_overall_LPS_NMSE": 6.936326590298937e-07
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.92337049354168,
+          "contribution_to_overall_LPS_NMSE": 0.06833361694105512
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 12.397117368725619,
+          "contribution_to_overall_LPS_NMSE": 0.0363413925228252
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 20.038332078225555,
+          "contribution_to_overall_LPS_NMSE": 0.10768098992241926
+        }
+      }
+    },
+    "S017_month_matched_drop_s2028": {
+      "recipe": "month_matched_drop",
+      "seed": 2028,
+      "checkpoint_sha256": "1a9b05f1899a60530dcd6759ee0f865db87724e2ac6ca97eb025226f49ec3e91",
+      "LPS_NMSE": 0.2228412189923279,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.382167933213261e-06,
+          "contribution_to_overall_LPS_NMSE": 2.361622641374079e-06
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.8988426719006,
+          "contribution_to_overall_LPS_NMSE": 0.06832578201042294
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 9.36392124564,
+          "contribution_to_overall_LPS_NMSE": 0.02744976331345381
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 23.64518420166405,
+          "contribution_to_overall_LPS_NMSE": 0.12706331204580978
+        }
+      }
+    },
+    "S018_protect_lps_matched_s2026": {
+      "recipe": "protect_lps_matched",
+      "seed": 2026,
+      "checkpoint_sha256": "cbcd3aab0bd27307e1bc21be6a651ab5131d4a6e2a105612450279abb72f7a01",
+      "LPS_NMSE": 0.19319041867149303,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 4.197984619802717e-06,
+          "contribution_to_overall_LPS_NMSE": 4.161778600089443e-06
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.91153397517633,
+          "contribution_to_overall_LPS_NMSE": 0.06832983599786024
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 11.535310668784104,
+          "contribution_to_overall_LPS_NMSE": 0.033815058809119725
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 16.941867340241398,
+          "contribution_to_overall_LPS_NMSE": 0.09104136208591299
+        }
+      }
+    },
+    "S019_placebo_matched_swap_s2026": {
+      "recipe": "placebo_matched_swap",
+      "seed": 2026,
+      "checkpoint_sha256": "536e258f542719323a79abe59a70f529cfacd5945c1884dec4219d0e90174847",
+      "LPS_NMSE": 0.19618241414818352,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.5193850788487706e-05,
+          "contribution_to_overall_LPS_NMSE": 2.4976563413493912e-05
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.81634390229658,
+          "contribution_to_overall_LPS_NMSE": 0.06829942939963889
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.220641909234967,
+          "contribution_to_overall_LPS_NMSE": 0.029961187622193772
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 18.21759812252779,
+          "contribution_to_overall_LPS_NMSE": 0.09789682056293737
+        }
+      }
+    },
+    "S020_protect_lps_matched_s2027": {
+      "recipe": "protect_lps_matched",
+      "seed": 2027,
+      "checkpoint_sha256": "1592ab841f4eef21d5575f247ddd5f52f6bcdb859267854a2f020be3cddf887d",
+      "LPS_NMSE": 0.19674846727404033,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 1.480162674562198e-06,
+          "contribution_to_overall_LPS_NMSE": 1.4673968348015537e-06
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.9538542841361,
+          "contribution_to_overall_LPS_NMSE": 0.06834335438892995
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.446044266458651,
+          "contribution_to_overall_LPS_NMSE": 0.030621940867952394
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 18.196176221714445,
+          "contribution_to_overall_LPS_NMSE": 0.09778170462032319
+        }
+      }
+    },
+    "S021_placebo_matched_swap_s2027": {
+      "recipe": "placebo_matched_swap",
+      "seed": 2027,
+      "checkpoint_sha256": "a84b5e33f0b42aed2111a7adc7aa56a8bafc7e5585b9b2b1b5c0eee564a2297e",
+      "LPS_NMSE": 0.21131615907079193,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.1190861200865855e-05,
+          "contribution_to_overall_LPS_NMSE": 2.1008098087642286e-05
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.8316032715821,
+          "contribution_to_overall_LPS_NMSE": 0.0683043037052985
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.017444919802521,
+          "contribution_to_overall_LPS_NMSE": 0.029365528056119992
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 21.144511027346,
+          "contribution_to_overall_LPS_NMSE": 0.11362531921128582
+        }
+      }
+    },
+    "S022_protect_lps_matched_s2028": {
+      "recipe": "protect_lps_matched",
+      "seed": 2028,
+      "checkpoint_sha256": "0dc3bfe9ff49b7009b25f05b841a24c973919a429e2dc2aebac6cd7da0c095e3",
+      "LPS_NMSE": 0.194324943631502,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 1.0234254119193062e-05,
+          "contribution_to_overall_LPS_NMSE": 1.0145987572278565e-05
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.86690365801132,
+          "contribution_to_overall_LPS_NMSE": 0.06831557972006284
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 10.5199619292378,
+          "contribution_to_overall_LPS_NMSE": 0.030838625982526166
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 17.70841393132559,
+          "contribution_to_overall_LPS_NMSE": 0.09516059194134072
+        }
+      }
+    },
+    "S023_placebo_matched_swap_s2028": {
+      "recipe": "placebo_matched_swap",
+      "seed": 2028,
+      "checkpoint_sha256": "e82a9dc0cd4cee694931f02f6d5644e642a9bee51930749aff0bf3b2f205f1a4",
+      "LPS_NMSE": 0.19873420481907744,
+      "groups": {
+        "input_any_1_0_target_any_1_0": {
+          "windows": 297943,
+          "LPS_NMSE": 2.0004182821985426e-05,
+          "contribution_to_overall_LPS_NMSE": 1.9831654358163954e-05
+        },
+        "input_any_1_0_target_any_1_1": {
+          "windows": 96,
+          "LPS_NMSE": 213.83515651533332,
+          "contribution_to_overall_LPS_NMSE": 0.06830543871919077
+        },
+        "input_any_1_1_target_any_1_0": {
+          "windows": 881,
+          "LPS_NMSE": 13.620629394139804,
+          "contribution_to_overall_LPS_NMSE": 0.039928043310220665
+        },
+        "input_any_1_1_target_any_1_1": {
+          "windows": 1615,
+          "LPS_NMSE": 16.83756942250758,
+          "contribution_to_overall_LPS_NMSE": 0.09048089113530786
+        }
+      }
+    }
+  }
+}

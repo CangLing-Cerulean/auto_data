@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "run_id": "T010_prefix60_sources",
+      "baseline": "T000_prefix60_full",
+      "NMSE": 0.43296964251281966,
+      "NMAE": 0.20957066547403777,
+      "NMSE_reduction_pct": 3.303427655183433,
+      "NMAE_not_worse": true
+    },
+    {
+      "run_id": "T011_prefix80_sources",
+      "baseline": "T005_prefix80_full",
+      "NMSE": 0.51711211026981,
+      "NMAE": 0.25250101829349164,
+      "NMSE_reduction_pct": 2.4379419776190736,
+      "NMAE_not_worse": true
+    },
+    {
+      "run_id": "R001_sources_s2026",
+      "baseline": "S000_uniform_s2026",
+      "NMSE": 0.2736735069613985,
+      "NMAE": 0.19863202164921018,
+      "NMSE_reduction_pct": 4.980007488568894,
+      "NMAE_not_worse": false
+    }
+  ],
+  "phase": "stopped_formal_gate"
+}

@@ -1,0 +1,30 @@
+{
+  "diagnostic_sha256": "1237800ab09add9765369eeadcf6eb85455c8c507baa34f1771c68ae697d9502",
+  "mapping_reproduced": true,
+  "identity_transform_exact": true,
+  "independent_transform_agrees": true,
+  "parameter_count": 7920,
+  "checks": [
+    {
+      "run_id": "T010_prefix60_sources",
+      "baseline": "T000_prefix60_full",
+      "identical_actual_draw_counts": true,
+      "identical_data_audit": true,
+      "source_identity_verified": true
+    },
+    {
+      "run_id": "T011_prefix80_sources",
+      "baseline": "T005_prefix80_full",
+      "identical_actual_draw_counts": true,
+      "identical_data_audit": true,
+      "source_identity_verified": true
+    },
+    {
+      "run_id": "R001_sources_s2026",
+      "baseline": "S000_uniform_s2026",
+      "identical_actual_draw_counts": true,
+      "identical_data_audit": true,
+      "source_identity_verified": true
+    }
+  ]
+}

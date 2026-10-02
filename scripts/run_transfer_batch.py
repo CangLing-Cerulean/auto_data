@@ -1,0 +1,31 @@
+"""Run only a preregistered train-only temporal probe queue."""
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+
+
+def main():
+    parser=argparse.ArgumentParser(); parser.add_argument('batch'); args=parser.parse_args()
+    if Path(args.batch).name!=args.batch: raise ValueError('Invalid batch')
+    queue=json.loads((ROOT/'research_runs/transfer'/f'{args.batch}.json').read_text())
+    for item in queue:
+        run=ROOT/'research_runs/results'/item['id']
+        if (run/'result.json').exists(): continue
+        run.mkdir(parents=True,exist_ok=True)
+        used=sum(json.loads(f.read_text()).get('elapsed_seconds',0) for f in run.parent.glob('*/status.json'))
+        remaining=int(7200-used)
+        if remaining<=0: raise RuntimeError('Shared budget exhausted')
+        print('Starting',item['id'],flush=True)
+        with (run/'process.log').open('ab') as log:
+            subprocess.run([sys.executable,'-u','scripts/run_temporal_probe.py','--run-id',item['id'],
+                '--origin',str(item['origin']),'--drop-block',str(item['drop_block']),'--seed',str(item['seed']),
+                '--thin',item.get('thin','none')]+(['--state-balance'] if item.get('state_balance') else []),
+                cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=remaining)
+        print('Completed',item['id'],flush=True)
+
+
+if __name__=='__main__': main()

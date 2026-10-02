@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "input": "fixed training-row standardization only",
+    "output": "DLinear output in the same standardized space",
+    "training_rows": "all eligible original training windows"
+  },
+  "last_center": {
+    "input": "subtract each input window's last observed value per channel",
+    "output": "add the same causal anchor to DLinear output",
+    "channels": "all 15",
+    "training_rows": "same windows and paired random sample stream as baseline"
+  },
+  "mean_center": {
+    "input": "subtract the mean of the 32 observed input values per channel",
+    "output": "add the same causal anchor to DLinear output",
+    "channels": "all 15",
+    "training_rows": "same windows and paired random sample stream as baseline"
+  },
+  "selective_center": {
+    "input": "subtract last observed value only for named channels; leave remaining standardized channels unchanged",
+    "output": "add the same anchor only to named output channels",
+    "channels": ["Oil_temperature", "Oil_level"],
+    "selection_basis": "D003; both channels improved NMSE in preceding two development runs; this is validation-driven selection",
+    "training_rows": "same windows and paired random sample stream as baseline"
+  }
+}

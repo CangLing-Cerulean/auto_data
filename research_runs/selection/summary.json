@@ -1,0 +1,3592 @@
+{
+  "completed": [
+    {
+      "id": "S000_uniform_s2026",
+      "recipe": "uniform",
+      "seed": 2026,
+      "parent": null,
+      "decision": "S-D001",
+      "metrics": {
+        "NMAE": 0.19500733246096835,
+        "NMSE": 0.2880167633442773,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19500733246096835,
+          "NMSE": 0.2880167633442773,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3019753904780872,
+          "NMSE": 0.5406053890686947,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.186676882416733,
+          "NMSE": 0.26834568613352194,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16345829388679076,
+          "NMSE": 0.20758156726945945,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20144509887759773,
+          "NMSE": 0.3087049081561941,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17964967623725778,
+          "NMSE": 0.23519311903235585,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3001454392900624,
+          "NMSE": 0.6458878606372911,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1846547041410746,
+          "NMSE": 0.261617323629726,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "uniform",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.999999999999999,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 545347,
+        "actual_quiet_draws": 192044,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "01c1ca76b6215b8b259864da53d8c973e9bdf2e638d866f3febcbc6cf5054631"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 72.39157727453858,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "high_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-06": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-07": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-08": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "low_quartile": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "middle": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        }
+      }
+    },
+    {
+      "id": "S001_drop_quiet_s2026",
+      "recipe": "drop_quiet",
+      "seed": 2026,
+      "parent": "S000_uniform_s2026",
+      "decision": "S-D001",
+      "metrics": {
+        "NMAE": 0.19064831433697974,
+        "NMSE": 0.28782575427271634,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19064831433697974,
+          "NMSE": 0.28782575427271634,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29559941634197856,
+          "NMSE": 0.5362703747752171,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18247494063508315,
+          "NMSE": 0.2684774035760639,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1601951493631285,
+          "NMSE": 0.2090749072484024,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.1984755588235101,
+          "NMSE": 0.309307951625063,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17066625439555502,
+          "NMSE": 0.23218407417353837,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3016162960634662,
+          "NMSE": 0.6612534094798574,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18035166466049984,
+          "NMSE": 0.26147755156221303,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "drop_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.0,
+        "expected_loss_weight": 1.0000000000000033,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 491436,
+        "actual_quiet_draws": 0,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "f764d2751c479f4769821069354153924f7f5080d08b77123148f2d6a8706078"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 68.79771955497563,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.06631873414000289,
+          "NMAE": 2.2353098568030028
+        },
+        "high_input_variation": {
+          "NMSE": 0.8018814427554255,
+          "NMAE": 2.111421770500632
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.049084986026737276,
+          "NMAE": 2.250917053708623
+        },
+        "month_2020-06": {
+          "NMSE": -0.7193991251662757,
+          "NMAE": 1.9963162749773167
+        },
+        "month_2020-07": {
+          "NMSE": -0.19534625233874614,
+          "NMAE": 1.4741187899994568
+        },
+        "month_2020-08": {
+          "NMSE": 1.279393237011972,
+          "NMAE": 5.000522143907804
+        },
+        "low_quartile": {
+          "NMSE": -2.3789809004004736,
+          "NMAE": -0.49004801701562073
+        },
+        "middle": {
+          "NMSE": 0.05342615143896223,
+          "NMAE": 2.330316739338123
+        }
+      }
+    },
+    {
+      "id": "S002_downweight_quiet_s2026",
+      "recipe": "downweight_quiet",
+      "seed": 2026,
+      "parent": "S001_drop_quiet_s2026",
+      "decision": "S-D002",
+      "metrics": {
+        "NMAE": 0.19122074207413028,
+        "NMSE": 0.28940913618765574,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19122074207413028,
+          "NMSE": 0.28940913618765574,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29969930793980487,
+          "NMSE": 0.5394979599576418,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1827726568179721,
+          "NMSE": 0.2699327383577163,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.15886927783903443,
+          "NMSE": 0.2086825254027413,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19787885968981805,
+          "NMSE": 0.3101975372267683,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1752914608868334,
+          "NMSE": 0.23631320518039864,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.2999487759546309,
+          "NMSE": 0.6603968836629942,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18068440427406582,
+          "NMSE": 0.2629740871347057,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "downweight_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.8124994660315378,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.07692334654046619,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 545347,
+        "actual_quiet_draws": 192044,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "ce988e5a05e921d5ddd0e6705ca2372e23893fe8995b14702aca64615ff2fd02"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 70.07385811116546,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.483434654014947,
+          "NMAE": 1.9417682089446386
+        },
+        "high_input_variation": {
+          "NMSE": 0.204849809758767,
+          "NMAE": 0.7537311350699238
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.591420807638654,
+          "NMAE": 2.0914349694597933
+        },
+        "month_2020-06": {
+          "NMSE": -0.5303737454938284,
+          "NMAE": 2.807453778353164
+        },
+        "month_2020-07": {
+          "NMSE": -0.48351322934554464,
+          "NMAE": 1.770328098151741
+        },
+        "month_2020-08": {
+          "NMSE": -0.4762410365792613,
+          "NMAE": 2.4259522431137714
+        },
+        "low_quartile": {
+          "NMSE": -2.2463687444732594,
+          "NMAE": 0.06552267990367344
+        },
+        "middle": {
+          "NMSE": -0.5186061405092479,
+          "NMAE": 2.150121160182039
+        }
+      }
+    },
+    {
+      "id": "S003_random_drop_s2026",
+      "recipe": "random_drop",
+      "seed": 2026,
+      "parent": "S001_drop_quiet_s2026",
+      "decision": "S-D002",
+      "metrics": {
+        "NMAE": 0.19583653504402232,
+        "NMSE": 0.28744768764631157,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19583653504402232,
+          "NMSE": 0.28744768764631157,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2988874686820458,
+          "NMSE": 0.5404083006790092,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18781114250538258,
+          "NMSE": 0.26774764083709723,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16450606378156524,
+          "NMSE": 0.20762957870509197,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20181356129307373,
+          "NMSE": 0.3080277519446608,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18191587804456422,
+          "NMSE": 0.2348673908689579,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3028758812597086,
+          "NMSE": 0.6428405552424472,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18576051789698939,
+          "NMSE": 0.2610629277873782,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "random_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2501284689788551,
+        "expected_loss_weight": 1.0000000000000075,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2501284689788533,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 491436,
+        "actual_quiet_draws": 191810,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "df6c55dc26f1f394e67644ca2b3aa8cff98923f3592be6cd844bb6eb96fe1d5b"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 69.48615322168916,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.19758422786158025,
+          "NMAE": -0.4252161047431091
+        },
+        "high_input_variation": {
+          "NMSE": 0.036456978356247394,
+          "NMAE": 1.022573988944131
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.2228637639164921,
+          "NMAE": -0.6076060806059047
+        },
+        "month_2020-06": {
+          "NMSE": -0.02312894938798493,
+          "NMAE": -0.6410013648497692
+        },
+        "month_2020-07": {
+          "NMSE": 0.21935388574731984,
+          "NMAE": -0.18290959548232788
+        },
+        "month_2020-08": {
+          "NMSE": 0.1384939171426791,
+          "NMAE": -1.261456104331371
+        },
+        "low_quartile": {
+          "NMSE": 0.47180100146752,
+          "NMAE": -0.909706299754065
+        },
+        "middle": {
+          "NMSE": 0.21191098305570755,
+          "NMAE": -0.5988549065448989
+        }
+      }
+    },
+    {
+      "id": "S004_oversample_high_s2026",
+      "recipe": "oversample_high",
+      "seed": 2026,
+      "parent": "S002_downweight_quiet_s2026",
+      "decision": "S-D003",
+      "metrics": {
+        "NMAE": 0.19378296366893286,
+        "NMSE": 0.2910870865062728,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19378296366893286,
+          "NMSE": 0.2910870865062728,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.28752324966132076,
+          "NMSE": 0.5168291325313589,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18648266501840532,
+          "NMSE": 0.27350676512664684,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16194274278952422,
+          "NMSE": 0.21098653694772174,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20035510542806534,
+          "NMSE": 0.31192215468064605,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17804388677025695,
+          "NMSE": 0.23773821240107137,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.2984409777997109,
+          "NMSE": 0.6534685260224287,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1844874015363953,
+          "NMSE": 0.26673528199831104,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "oversample_high",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.227273237214753,
+        "expected_loss_weight": 1.0000000000000089,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.22727323721475123,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.18181928015485282,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 536783,
+        "actual_quiet_draws": 174596,
+        "actual_high_draws": 139908,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "12259ecfa3b75c45ce525a54ce228c9f64d711fc227a47f5c2f1ac575c7882d0"
+      },
+      "best_step": 2000,
+      "elapsed_seconds": 70.78652157541364,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -1.066022382289411,
+          "NMAE": 0.6278578228747111
+        },
+        "high_input_variation": {
+          "NMSE": 4.398079822751189,
+          "NMAE": 4.7858670846938285
+        },
+        "ordinary_input_variation": {
+          "NMSE": -1.9232949362774088,
+          "NMAE": 0.10403934103319079
+        },
+        "month_2020-06": {
+          "NMSE": -1.640304446609342,
+          "NMAE": 0.9271790749976749
+        },
+        "month_2020-07": {
+          "NMSE": -1.0421753718357296,
+          "NMAE": 0.5410871029404851
+        },
+        "month_2020-08": {
+          "NMSE": -1.0821291792832533,
+          "NMAE": 0.8938448989354697
+        },
+        "low_quartile": {
+          "NMSE": -1.173681353549183,
+          "NMAE": 0.567878523952603
+        },
+        "middle": {
+          "NMSE": -1.9562765559931306,
+          "NMAE": 0.09060294751628284
+        }
+      }
+    },
+    {
+      "id": "S005_uniform_s2027",
+      "recipe": "uniform",
+      "seed": 2027,
+      "parent": "S000_uniform_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.1980166072475031,
+        "NMSE": 0.28843843433606425,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1980166072475031,
+          "NMSE": 0.28843843433606425,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30153897091980625,
+          "NMSE": 0.5390610142033622,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1899545007175777,
+          "NMSE": 0.268920468690584,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16570915079194642,
+          "NMSE": 0.20765182007975666,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20335076838969252,
+          "NMSE": 0.3082927047955033,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1863133703228749,
+          "NMSE": 0.23833931634963582,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30188231253558756,
+          "NMSE": 0.6454759951804058,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18795978080805206,
+          "NMSE": 0.2622096897203633,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "uniform",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.999999999999999,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.25000071195795115,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 545399,
+        "actual_quiet_draws": 192414,
+        "actual_high_draws": 76823,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "b6131cae0c60884ccb7999074f07f7330155106feedf2734a23b29d3eeba7698"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 70.95692719053477,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "high_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-06": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-07": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-08": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "low_quartile": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "middle": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        }
+      }
+    },
+    {
+      "id": "S006_drop_quiet_s2027",
+      "recipe": "drop_quiet",
+      "seed": 2027,
+      "parent": "S001_drop_quiet_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.19353847604056806,
+        "NMSE": 0.2885317223519248,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19353847604056806,
+          "NMSE": 0.2885317223519248,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29411278363959825,
+          "NMSE": 0.5342105065896948,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1857059579906173,
+          "NMSE": 0.2693987692352695,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16234777172658932,
+          "NMSE": 0.20809467570660925,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20054201508450262,
+          "NMSE": 0.3094562607825081,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17631239979169827,
+          "NMSE": 0.23495251879137544,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3066716762859898,
+          "NMSE": 0.6553937649826216,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1835501691590963,
+          "NMSE": 0.26251976489766665,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "drop_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.0,
+        "expected_loss_weight": 1.0000000000000033,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.0,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.13333434589671347,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 491348,
+        "actual_quiet_draws": 0,
+        "actual_high_draws": 102139,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "cf2acac5219e37cb0e640a320a5ddec9178049a95ae26a415ad324688c182d98"
+      },
+      "best_step": 1500,
+      "elapsed_seconds": 70.96538578066975,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.032342435943144565,
+          "NMAE": 2.2614927450695044
+        },
+        "high_input_variation": {
+          "NMSE": 0.8998067910430452,
+          "NMAE": 2.462762029582899
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.17785947905506472,
+          "NMAE": 2.236610720415144
+        },
+        "month_2020-06": {
+          "NMSE": -0.21326835790915766,
+          "NMAE": 2.028481257246584
+        },
+        "month_2020-07": {
+          "NMSE": -0.37741924116452275,
+          "NMAE": 1.3812356488406952
+        },
+        "month_2020-08": {
+          "NMSE": 1.4209982684065703,
+          "NMAE": 5.367822241552112
+        },
+        "low_quartile": {
+          "NMSE": -1.5365048237686807,
+          "NMAE": -1.5865002855500743
+        },
+        "middle": {
+          "NMSE": -0.11825466009056651,
+          "NMAE": 2.3460400038766482
+        }
+      }
+    },
+    {
+      "id": "S007_downweight_quiet_s2027",
+      "recipe": "downweight_quiet",
+      "seed": 2027,
+      "parent": "S002_downweight_quiet_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.194848602290598,
+        "NMSE": 0.28937694480161325,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.194848602290598,
+          "NMSE": 0.28937694480161325,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29929342911907203,
+          "NMSE": 0.5377189149976755,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18671465624724587,
+          "NMSE": 0.2700365882974859,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16178018591049204,
+          "NMSE": 0.20834200974591496,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20036724146379123,
+          "NMSE": 0.30930663592838437,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18268157442050775,
+          "NMSE": 0.2390778117589618,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3015306564651585,
+          "NMSE": 0.6577299107124468,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1846684645291487,
+          "NMSE": 0.26312731725528365,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "downweight_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.8124994660315378,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.07692334654046619,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 545399,
+        "actual_quiet_draws": 192414,
+        "actual_high_draws": 76823,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "8441364b50705e0fd15882c0d540e5812cf6309689ee0c1ae0e1c73a4fbb4b1c"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 70.76258077844977,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.3253763555156164,
+          "NMAE": 1.5998683145527215
+        },
+        "high_input_variation": {
+          "NMSE": 0.24896981423707665,
+          "NMAE": 0.7446937269449672
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.41503705996663864,
+          "NMAE": 1.7055897375913176
+        },
+        "month_2020-06": {
+          "NMSE": -0.3323783369166833,
+          "NMAE": 2.3710005528827627
+        },
+        "month_2020-07": {
+          "NMSE": -0.32888586629178373,
+          "NMAE": 1.46718251891913
+        },
+        "month_2020-08": {
+          "NMSE": -0.30985043535269874,
+          "NMAE": 1.9492942970616434
+        },
+        "low_quartile": {
+          "NMSE": -1.8984308670713768,
+          "NMAE": 0.11648780197668351
+        },
+        "middle": {
+          "NMSE": -0.3499594297598163,
+          "NMAE": 1.751074759054183
+        }
+      }
+    },
+    {
+      "id": "S008_random_drop_s2027",
+      "recipe": "random_drop",
+      "seed": 2027,
+      "parent": "S003_random_drop_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.1952918497264439,
+        "NMSE": 0.29076207640001633,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1952918497264439,
+          "NMSE": 0.29076207640001633,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30285193313228226,
+          "NMSE": 0.543825863204446,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18691529397535497,
+          "NMSE": 0.271053994631888,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16366998173691844,
+          "NMSE": 0.21013365465704795,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20203515620625337,
+          "NMSE": 0.3120218230151322,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17896929903631317,
+          "NMSE": 0.23614275548215619,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.29882630455737225,
+          "NMSE": 0.6496822493973559,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18492087348881825,
+          "NMSE": 0.2643062765641246,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "random_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2501284689788551,
+        "expected_loss_weight": 1.0000000000000075,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2501284689788533,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.09992861428170019,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 491348,
+        "actual_quiet_draws": 192159,
+        "actual_high_draws": 76365,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "799c12cdc727c99bcb9595efef58b422695bf0b9c374299f5372f8e48a1d705d"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 71.21454424224794,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.8055937723073336,
+          "NMAE": 1.3760247480927301
+        },
+        "high_input_variation": {
+          "NMSE": -0.8839164538963162,
+          "NMAE": -0.43542040634780843
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.7933668834107177,
+          "NMAE": 1.5999656395303763
+        },
+        "month_2020-06": {
+          "NMSE": -1.1951903799051866,
+          "NMAE": 1.2305711816652964
+        },
+        "month_2020-07": {
+          "NMSE": -1.2096031341716218,
+          "NMAE": 0.6469669103575604
+        },
+        "month_2020-08": {
+          "NMSE": 0.9216107946946273,
+          "NMAE": 3.9417843570940136
+        },
+        "low_quartile": {
+          "NMSE": -0.6516515328776062,
+          "NMAE": 1.0123176653004662
+        },
+        "middle": {
+          "NMSE": -0.7995840451194614,
+          "NMAE": 1.6167859454662814
+        }
+      }
+    },
+    {
+      "id": "S009_oversample_high_s2027",
+      "recipe": "oversample_high",
+      "seed": 2027,
+      "parent": "S004_oversample_high_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.1949896512276228,
+        "NMSE": 0.29075422112449606,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1949896512276228,
+          "NMSE": 0.29075422112449606,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2856111092794238,
+          "NMSE": 0.5157940177917084,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1879322404151776,
+          "NMSE": 0.2732285894653605,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16334475920437322,
+          "NMSE": 0.21112583906082175,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.2010481894850834,
+          "NMSE": 0.3106104208071821,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1808604535843508,
+          "NMSE": 0.2404570392051697,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3010557998770888,
+          "NMSE": 0.6496549608102535,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18591621050598958,
+          "NMSE": 0.26652011223172173,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "oversample_high",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.227273237214753,
+        "expected_loss_weight": 1.0000000000000089,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.22727323721475123,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.18181928015485282,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 536928,
+        "actual_quiet_draws": 174803,
+        "actual_high_draws": 139542,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "fe324d852364c370293d5f0507c6f4d3149dee3c5fbb4a0ccc37e5be35b51fa0"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 70.6871678698808,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.8028703919997104,
+          "NMAE": 1.5286374521591983
+        },
+        "high_input_variation": {
+          "NMSE": 4.316208332379279,
+          "NMAE": 5.282190090321171
+        },
+        "ordinary_input_variation": {
+          "NMSE": -1.6020055281598333,
+          "NMAE": 1.0646024678334864
+        },
+        "month_2020-06": {
+          "NMSE": -1.6730019412932506,
+          "NMAE": 1.4268322396641664
+        },
+        "month_2020-07": {
+          "NMSE": -0.7517907415993452,
+          "NMAE": 1.132318762718687
+        },
+        "month_2020-08": {
+          "NMSE": -0.8885327389406728,
+          "NMAE": 2.9267447253379486
+        },
+        "low_quartile": {
+          "NMSE": -0.6474238641019925,
+          "NMAE": 0.27378638104255115
+        },
+        "middle": {
+          "NMSE": -1.6438837618683477,
+          "NMAE": 1.0872380746971722
+        }
+      }
+    },
+    {
+      "id": "S010_uniform_s2028",
+      "recipe": "uniform",
+      "seed": 2028,
+      "parent": "S000_uniform_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.19582507235031132,
+        "NMSE": 0.2868006574591469,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19582507235031132,
+          "NMSE": 0.2868006574591469,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3024158826181165,
+          "NMSE": 0.5407544185629481,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18752400157675003,
+          "NMSE": 0.2670232663422367,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16527379784169433,
+          "NMSE": 0.20817130536669817,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20303596749132222,
+          "NMSE": 0.3080896338726741,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17783003701568123,
+          "NMSE": 0.23175666985511847,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3006127797407336,
+          "NMSE": 0.6461317015556457,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18550859152196933,
+          "NMSE": 0.26026699074543663,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "uniform",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.999999999999999,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.25000071195795115,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 544434,
+        "actual_quiet_draws": 191860,
+        "actual_high_draws": 77255,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "cd5235e9cfd717236204f75cadb419b84adfb1cc47bff5d427610d7ea8802f7f"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 69.05321855191141,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "high_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-06": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-07": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "month_2020-08": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "low_quartile": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        },
+        "middle": {
+          "NMSE": 0.0,
+          "NMAE": 0.0
+        }
+      }
+    },
+    {
+      "id": "S011_drop_quiet_s2028",
+      "recipe": "drop_quiet",
+      "seed": 2028,
+      "parent": "S001_drop_quiet_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.1901179607424941,
+        "NMSE": 0.28905670108347564,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1901179607424941,
+          "NMSE": 0.28905670108347564,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2941006288914477,
+          "NMSE": 0.5365802710791713,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.182020006656588,
+          "NMSE": 0.2697800798860533,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.15833817103031006,
+          "NMSE": 0.20940832698482026,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19679784030513173,
+          "NMSE": 0.31020016753871954,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1740243812663246,
+          "NMSE": 0.23464681087893993,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30124960147225477,
+          "NMSE": 0.6652506293026733,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.17989515812501689,
+          "NMSE": 0.2627322071032369,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "drop_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.0,
+        "expected_loss_weight": 1.0000000000000033,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.0,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.13333434589671347,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 490838,
+        "actual_quiet_draws": 0,
+        "actual_high_draws": 101959,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "feffa01f670044a7bf0885f43d3c2220f94ed85cb9b738e0d3a5903a117a336e"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 70.9554003411904,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.7866242861211292,
+          "NMAE": 2.9143926971760714
+        },
+        "high_input_variation": {
+          "NMSE": 0.771911858782337,
+          "NMAE": 2.7496088018528764
+        },
+        "ordinary_input_variation": {
+          "NMSE": -1.0324244705640195,
+          "NMAE": 2.935088241442718
+        },
+        "month_2020-06": {
+          "NMSE": -0.5942325316849351,
+          "NMAE": 4.19644668541318
+        },
+        "month_2020-07": {
+          "NMSE": -0.685038843896213,
+          "NMAE": 3.0724246857676163
+        },
+        "month_2020-08": {
+          "NMSE": -1.2470584020853437,
+          "NMAE": 2.140052273070736
+        },
+        "low_quartile": {
+          "NMSE": -2.958983083633937,
+          "NMAE": -0.21184120384716287
+        },
+        "middle": {
+          "NMSE": -0.9471874826460391,
+          "NMAE": 3.025969498715997
+        }
+      }
+    },
+    {
+      "id": "S012_downweight_quiet_s2028",
+      "recipe": "downweight_quiet",
+      "seed": 2028,
+      "parent": "S002_downweight_quiet_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.19203207316487106,
+        "NMSE": 0.2881711517186182,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19203207316487106,
+          "NMSE": 0.2881711517186182,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2998945139355551,
+          "NMSE": 0.5393238069182833,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18363197045060406,
+          "NMSE": 0.2686119049079205,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1606564450562393,
+          "NMSE": 0.2092417718246499,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.199442631463221,
+          "NMSE": 0.30955309363237976,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17353519564849768,
+          "NMSE": 0.23287961644622257,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30028285105892155,
+          "NMSE": 0.6608453094798351,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18155307843767493,
+          "NMSE": 0.26162172285600366,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "downweight_quiet",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.8124994660315378,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.07692334654046619,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 544434,
+        "actual_quiet_draws": 191860,
+        "actual_high_draws": 77255,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "bc685ac7453626655a6c6b9cfdd2c273481e70e38bee506c38a7e1dacf8380ed"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 69.77621710021049,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.47785603827164014,
+          "NMAE": 1.9369323549412343
+        },
+        "high_input_variation": {
+          "NMSE": 0.26455847526252185,
+          "NMAE": 0.8337421502908726
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.5949438741595037,
+          "NMAE": 2.075484254506499
+        },
+        "month_2020-06": {
+          "NMSE": -0.5142238292958234,
+          "NMAE": 2.793759716151567
+        },
+        "month_2020-07": {
+          "NMSE": -0.47501103536333744,
+          "NMAE": 1.7698026967831737
+        },
+        "month_2020-08": {
+          "NMSE": -0.48453690321237364,
+          "NMAE": 2.415138319295762
+        },
+        "low_quartile": {
+          "NMSE": -2.2771840305567004,
+          "NMAE": 0.10975204783262305
+        },
+        "middle": {
+          "NMSE": -0.5205163000835844,
+          "NMAE": 2.132253310664567
+        }
+      }
+    },
+    {
+      "id": "S013_random_drop_s2028",
+      "recipe": "random_drop",
+      "seed": 2028,
+      "parent": "S003_random_drop_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.19343828663011894,
+        "NMSE": 0.28807662421836855,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19343828663011894,
+          "NMSE": 0.28807662421836855,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2985383792327599,
+          "NMSE": 0.5375884021326542,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18525330985012844,
+          "NMSE": 0.26864516552038403,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1637701517757032,
+          "NMSE": 0.208904444167362,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20132914821251968,
+          "NMSE": 0.3096950901829524,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1731227484109831,
+          "NMSE": 0.2320690330352129,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.2999160292213267,
+          "NMSE": 0.6468004359213994,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18320984982446506,
+          "NMSE": 0.2619058767367576,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "random_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2501284689788551,
+        "expected_loss_weight": 1.0000000000000075,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2501284689788533,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.09992861428170019,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 490838,
+        "actual_quiet_draws": 191299,
+        "actual_high_draws": 76943,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "5dcec3f18c7156d2cd26ca97ce00f28f2079c22e91d43577a3d694961e253095"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 69.49284515995532,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.44489673438192767,
+          "NMAE": 1.2188356125933941
+        },
+        "high_input_variation": {
+          "NMSE": 0.5854813796450475,
+          "NMAE": 1.282175840695865
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.6073999469651259,
+          "NMAE": 1.2108805846339776
+        },
+        "month_2020-06": {
+          "NMSE": -0.35218052717322923,
+          "NMAE": 0.9097909563567819
+        },
+        "month_2020-07": {
+          "NMSE": -0.5211003986397733,
+          "NMAE": 0.84064872834686
+        },
+        "month_2020-08": {
+          "NMSE": -0.13478066469012617,
+          "NMAE": 2.6470717116721
+        },
+        "low_quartile": {
+          "NMSE": -0.10349815125052508,
+          "NMAE": 0.23177674615423305
+        },
+        "middle": {
+          "NMSE": -0.6296941408616474,
+          "NMAE": 1.239156460972879
+        }
+      }
+    },
+    {
+      "id": "S014_oversample_high_s2028",
+      "recipe": "oversample_high",
+      "seed": 2028,
+      "parent": "S004_oversample_high_s2026",
+      "decision": "S-D004",
+      "metrics": {
+        "NMAE": 0.19065171257346417,
+        "NMSE": 0.29127067731943485,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19065171257346417,
+          "NMSE": 0.29127067731943485,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2817850849454276,
+          "NMSE": 0.5148083101910701,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18355443493768783,
+          "NMSE": 0.2738620310547177,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16071718221450132,
+          "NMSE": 0.21268886086423733,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19863168162619668,
+          "NMSE": 0.3126999078016013,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17009539051155226,
+          "NMSE": 0.23577035328202112,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.2971098879432528,
+          "NMSE": 0.6534361492276727,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1815307080438421,
+          "NMSE": 0.2670974562956643,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "oversample_high",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.227273237214753,
+        "expected_loss_weight": 1.0000000000000089,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.22727323721475123,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.18181928015485282,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "unique_windows_seen": 536742,
+        "actual_quiet_draws": 174584,
+        "actual_high_draws": 139416,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "64aff5d9b5265e4aaae736f26d306e3764005fb2bc38e76949c14a41250e9f0b"
+      },
+      "best_step": 2000,
+      "elapsed_seconds": 71.11604147776961,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -1.5585807577601862,
+          "NMAE": 2.6418270728849946
+        },
+        "high_input_variation": {
+          "NMSE": 4.7981315512556915,
+          "NMAE": 6.82199542367985
+        },
+        "ordinary_input_variation": {
+          "NMSE": -2.5611119233767132,
+          "NMAE": 2.116831235300587
+        },
+        "month_2020-06": {
+          "NMSE": -2.1701144111006876,
+          "NMAE": 2.7570102984851297
+        },
+        "month_2020-07": {
+          "NMSE": -1.4964067018342186,
+          "NMAE": 2.1692146074137164
+        },
+        "month_2020-08": {
+          "NMSE": -1.731852390445443,
+          "NMAE": 4.349460099053415
+        },
+        "low_quartile": {
+          "NMSE": -1.1304889783987582,
+          "NMAE": 1.1652504595785484
+        },
+        "middle": {
+          "NMSE": -2.624407163837539,
+          "NMAE": 2.144312263648518
+        }
+      }
+    },
+    {
+      "id": "S015_month_matched_drop_s2026",
+      "recipe": "month_matched_drop",
+      "seed": 2026,
+      "parent": "S001_drop_quiet_s2026",
+      "decision": "S-D006",
+      "metrics": {
+        "NMAE": 0.19583832323779293,
+        "NMSE": 0.28878003427207244,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19583832323779293,
+          "NMSE": 0.28878003427207244,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30576470908545184,
+          "NMSE": 0.5450690402156634,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18727748477047504,
+          "NMSE": 0.2688207791404317,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1642032425719766,
+          "NMSE": 0.2088450582480017,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20200840767848383,
+          "NMSE": 0.3090331491178978,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1813508324289543,
+          "NMSE": 0.2372645170449756,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.29906124080886065,
+          "NMSE": 0.6471536523399642,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18528533214898116,
+          "NMSE": 0.2620783252110528,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "month_matched_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21918706349025532,
+        "expected_loss_weight": 1.000000000000005,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21918706349025427,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893536554803726,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "unique_windows_seen": 491436,
+        "actual_quiet_draws": 168304,
+        "actual_high_draws": 83359,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "47d995c6bc9eea68ffc7be89c381afee2eabf9bf5a420b8b01a95d9f76609f5e"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 71.01292180642486,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.26500920256602445,
+          "NMAE": -0.4261330927086693
+        },
+        "high_input_variation": {
+          "NMSE": -0.82567640597484,
+          "NMAE": -1.2548435160114835
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.1770451441776899,
+          "NMAE": -0.3217336533407833
+        },
+        "month_2020-06": {
+          "NMSE": -0.6086720488539976,
+          "NMAE": -0.4557423593946064
+        },
+        "month_2020-07": {
+          "NMSE": -0.10632839097510782,
+          "NMAE": -0.2796339072157705
+        },
+        "month_2020-08": {
+          "NMSE": -0.8807222001825599,
+          "NMAE": -0.9469297286402334
+        },
+        "low_quartile": {
+          "NMSE": -0.19597700774622862,
+          "NMAE": 0.36122437301269184
+        },
+        "middle": {
+          "NMSE": -0.1762121769807834,
+          "NMAE": -0.3415174343052607
+        }
+      }
+    },
+    {
+      "id": "S016_month_matched_drop_s2027",
+      "recipe": "month_matched_drop",
+      "seed": 2027,
+      "parent": "S006_drop_quiet_s2027",
+      "decision": "S-D006",
+      "metrics": {
+        "NMAE": 0.19925442784455932,
+        "NMSE": 0.28864722883226657,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19925442784455932,
+          "NMSE": 0.28864722883226657,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30367391204352906,
+          "NMSE": 0.5407276660211895,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1911224554325227,
+          "NMSE": 0.26901572828847575,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16708423959171526,
+          "NMSE": 0.20729845743411512,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20529162788713534,
+          "NMSE": 0.3092816033875255,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18528048968202174,
+          "NMSE": 0.23614687494175837,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3049492476737369,
+          "NMSE": 0.6408653747054487,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18909389287034065,
+          "NMSE": 0.26238881509317424,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "month_matched_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21918706349025532,
+        "expected_loss_weight": 1.000000000000005,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21918706349025427,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893536554803726,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "unique_windows_seen": 491348,
+        "actual_quiet_draws": 168637,
+        "actual_high_draws": 83388,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "2367d44d3a58054fa593103207106e636eacd2c9b23db2b0861af9058da7950d"
+      },
+      "best_step": 1500,
+      "elapsed_seconds": 72.146474073641,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.07238788987429245,
+          "NMAE": -0.6251094866548401
+        },
+        "high_input_variation": {
+          "NMSE": -0.30917684156595016,
+          "NMAE": -0.7080149929577839
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.035422962913744804,
+          "NMAE": -0.6148602483925902
+        },
+        "month_2020-06": {
+          "NMSE": 0.17017074326910464,
+          "NMAE": -0.8298206786994555
+        },
+        "month_2020-07": {
+          "NMSE": -0.32076613446891944,
+          "NMAE": -0.9544392247996969
+        },
+        "month_2020-08": {
+          "NMSE": 0.9198823934953304,
+          "NMAE": 0.5543781635548806
+        },
+        "low_quartile": {
+          "NMSE": 0.714297744514647,
+          "NMAE": -1.015937340743589
+        },
+        "middle": {
+          "NMSE": -0.06831378848051184,
+          "NMAE": -0.6033801792133087
+        }
+      }
+    },
+    {
+      "id": "S017_month_matched_drop_s2028",
+      "recipe": "month_matched_drop",
+      "seed": 2028,
+      "parent": "S011_drop_quiet_s2028",
+      "decision": "S-D006",
+      "metrics": {
+        "NMAE": 0.19609494653783183,
+        "NMSE": 0.2910432001859124,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19609494653783183,
+          "NMSE": 0.2910432001859124,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3040188784719822,
+          "NMSE": 0.5397795710364128,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18769005501955252,
+          "NMSE": 0.27167212857850925,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16283453034987283,
+          "NMSE": 0.2086795019724079,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.2017010576595404,
+          "NMSE": 0.31163420040513073,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18368003854942475,
+          "NMSE": 0.23884968774008217,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.2986489608985876,
+          "NMSE": 0.648889216399513,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.1857126024534651,
+          "NMSE": 0.2649495596024156,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "month_matched_drop",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21918706349025532,
+        "expected_loss_weight": 1.000000000000005,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21918706349025427,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893536554803726,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "unique_windows_seen": 490838,
+        "actual_quiet_draws": 168083,
+        "actual_high_draws": 83827,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "7bf4deb5a5cbe92570602e07b2b5c95f6cef4429d9be627d3f7aa0a7aca8d2ad"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 71.7241613548249,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -1.4792653421200175,
+          "NMAE": -0.1378139092616859
+        },
+        "high_input_variation": {
+          "NMSE": 0.18027546203430722,
+          "NMAE": -0.5300633815882971
+        },
+        "ordinary_input_variation": {
+          "NMSE": -1.7409951948959446,
+          "NMAE": -0.08855050095255557
+        },
+        "month_2020-06": {
+          "NMSE": -0.24412423451662946,
+          "NMAE": 1.4758948627524804
+        },
+        "month_2020-07": {
+          "NMSE": -1.1504984727663814,
+          "NMAE": 0.6574745589541187
+        },
+        "month_2020-08": {
+          "NMSE": -3.060545307885998,
+          "NMAE": -3.2896588404959237
+        },
+        "low_quartile": {
+          "NMSE": -0.4267728757509026,
+          "NMAE": 0.653271908080455
+        },
+        "middle": {
+          "NMSE": -1.7991405070491462,
+          "NMAE": -0.10997384532005494
+        }
+      }
+    },
+    {
+      "id": "S018_protect_lps_matched_s2026",
+      "recipe": "protect_lps_matched",
+      "seed": 2026,
+      "parent": "S015_month_matched_drop_s2026",
+      "decision": "S-D009",
+      "metrics": {
+        "NMAE": 0.194852403188638,
+        "NMSE": 0.2891224747871388,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.194852403188638,
+          "NMSE": 0.2891224747871388,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30417833344202677,
+          "NMSE": 0.5426003961748137,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18633832695506125,
+          "NMSE": 0.26938214107837244,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16312061813857656,
+          "NMSE": 0.20883604863524424,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20095843850562173,
+          "NMSE": 0.3091143887939255,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18058573063743089,
+          "NMSE": 0.23850037227042445,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.29822187802457756,
+          "NMSE": 0.6501462828918834,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18434439583783657,
+          "NMSE": 0.26259635832990086,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "protect_lps_matched",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21906935299731417,
+        "expected_loss_weight": 1.0000000000000047,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21906935299731314,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10918217787194617,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2663,
+          "expected_draws": 2588.598030057944,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2581,
+          "distinct_seen": 1650
+        },
+        "unique_windows_seen": 491436,
+        "actual_quiet_draws": 168014,
+        "actual_high_draws": 83868,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "35400cd6bd8e686f08ee9c699da47209ae25a407fc16b31fb741ecbe838712fc"
+      },
+      "best_step": 3000,
+      "elapsed_seconds": 72.28489085566252,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.3839052387168973,
+          "NMAE": 0.07944792145769819
+        },
+        "high_input_variation": {
+          "NMSE": -0.36903204194020933,
+          "NMAE": -0.729510759287999
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.38623872057879094,
+          "NMAE": 0.18135907204405166
+        },
+        "month_2020-06": {
+          "NMSE": -0.6043317729441666,
+          "NMAE": 0.20658220527376425
+        },
+        "month_2020-07": {
+          "NMSE": -0.13264468005289576,
+          "NMAE": 0.24158461768867268
+        },
+        "month_2020-08": {
+          "NMSE": -1.4061862233365918,
+          "NMAE": -0.52104430120814
+        },
+        "low_quartile": {
+          "NMSE": -0.6593129417838073,
+          "NMAE": 0.6408763931361583
+        },
+        "middle": {
+          "NMSE": -0.3742239568051309,
+          "NMAE": 0.16804787328946746
+        }
+      }
+    },
+    {
+      "id": "S019_placebo_matched_swap_s2026",
+      "recipe": "placebo_matched_swap",
+      "seed": 2026,
+      "parent": "S015_month_matched_drop_s2026",
+      "decision": "S-D009",
+      "metrics": {
+        "NMAE": 0.19215868824537818,
+        "NMSE": 0.2874200876744733,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19215868824537818,
+          "NMSE": 0.2874200876744733,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.29464067154340934,
+          "NMSE": 0.5319816820408613,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1841776043767549,
+          "NMSE": 0.26837413898312057,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16222012781901124,
+          "NMSE": 0.20817516330340502,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19928973807894299,
+          "NMSE": 0.30838330258500884,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17431744322638715,
+          "NMSE": 0.23351970636468208,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30066630678918926,
+          "NMSE": 0.6451771464481483,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18210160262024158,
+          "NMSE": 0.26165894953421315,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "placebo_matched_swap",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2191642808142022,
+        "expected_loss_weight": 1.0000000000000049,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2191642808142011,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893789695648762,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2241,
+          "expected_draws": 2178.3883534960014,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2205,
+          "distinct_seen": 1395
+        },
+        "unique_windows_seen": 491436,
+        "actual_quiet_draws": 168089,
+        "actual_high_draws": 83402,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "c844c91538094cc0eacbd6af33cada3d9eaf60283e7bace310ee1228f280a607"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 73.87744489870965,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.20716699364152769,
+          "NMAE": 1.4607882583904108
+        },
+        "high_input_variation": {
+          "NMSE": 1.5951944250296113,
+          "NMAE": 2.428912807452799
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.0106030583195027,
+          "NMAE": 1.3388256797640108
+        },
+        "month_2020-06": {
+          "NMSE": -0.2859579690787317,
+          "NMAE": 0.7574813356592713
+        },
+        "month_2020-07": {
+          "NMSE": 0.10417896272078009,
+          "NMAE": 1.0699494853257274
+        },
+        "month_2020-08": {
+          "NMSE": 0.7115057934341862,
+          "NMAE": 2.9681283721483154
+        },
+        "low_quartile": {
+          "NMSE": 0.11003677766006081,
+          "NMAE": -0.17353836871847328
+        },
+        "middle": {
+          "NMSE": -0.01591098934490276,
+          "NMAE": 1.3826355156825398
+        }
+      }
+    },
+    {
+      "id": "S020_protect_lps_matched_s2027",
+      "recipe": "protect_lps_matched",
+      "seed": 2027,
+      "parent": "S018_protect_lps_matched_s2026",
+      "decision": "S-D010",
+      "metrics": {
+        "NMAE": 0.19431120521307735,
+        "NMSE": 0.2884422119884007,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19431120521307735,
+          "NMSE": 0.2884422119884007,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30110917992582825,
+          "NMSE": 0.5409011986816673,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18599400090309817,
+          "NMSE": 0.2687812307959596,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1641907350580826,
+          "NMSE": 0.20915855280286008,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20160743945710594,
+          "NMSE": 0.3095735344627019,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.1759719236625723,
+          "NMSE": 0.2340107262584047,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30019423036378,
+          "NMSE": 0.6474141471947931,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18395878313481026,
+          "NMSE": 0.26203342965096355,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "protect_lps_matched",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21906935299731417,
+        "expected_loss_weight": 1.0000000000000047,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21906935299731314,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10918217787194617,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2663,
+          "expected_draws": 2588.598030057944,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2592,
+          "distinct_seen": 1666
+        },
+        "unique_windows_seen": 491348,
+        "actual_quiet_draws": 168510,
+        "actual_high_draws": 83644,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "e07bb84dcf3a70810ab4a47ea5f2ff29e5fda6d82fa0fe1223e16dbfbc317cd7"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 73.34051106125116,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.0013096910420840047,
+          "NMAE": 1.8712582171425352
+        },
+        "high_input_variation": {
+          "NMSE": -0.3413684962962238,
+          "NMAE": 0.14253248681819208
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.05177660715168786,
+          "NMAE": 2.084972874829616
+        },
+        "month_2020-06": {
+          "NMSE": -0.7256053534829165,
+          "NMAE": 0.9163137500899032
+        },
+        "month_2020-07": {
+          "NMSE": -0.4154589606809589,
+          "NMAE": 0.8573013745616809
+        },
+        "month_2020-08": {
+          "NMSE": 1.8161460549300346,
+          "NMAE": 5.550566039560778
+        },
+        "low_quartile": {
+          "NMSE": -0.30026709418460307,
+          "NMAE": 0.559185517571037
+        },
+        "middle": {
+          "NMSE": 0.06722103580066863,
+          "NMAE": 2.1286456368704187
+        }
+      }
+    },
+    {
+      "id": "S021_placebo_matched_swap_s2027",
+      "recipe": "placebo_matched_swap",
+      "seed": 2027,
+      "parent": "S019_placebo_matched_swap_s2026",
+      "decision": "S-D010",
+      "metrics": {
+        "NMAE": 0.1940791851766596,
+        "NMSE": 0.28810820757528793,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.1940791851766596,
+          "NMSE": 0.28810820757528793,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2998059278745912,
+          "NMSE": 0.540164871538042,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18584540618962883,
+          "NMSE": 0.26847855844094287,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16346737603451955,
+          "NMSE": 0.20782257149762912,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20127895653425693,
+          "NMSE": 0.30952009319085877,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17612974735463285,
+          "NMSE": 0.23294563143254826,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3003353862484534,
+          "NMSE": 0.646941886016663,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.183805024635169,
+          "NMSE": 0.2617337796207506,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "placebo_matched_swap",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2191642808142022,
+        "expected_loss_weight": 1.0000000000000049,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2191642808142011,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893789695648762,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2241,
+          "expected_draws": 2178.3883534960014,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2162,
+          "distinct_seen": 1401
+        },
+        "unique_windows_seen": 491348,
+        "actual_quiet_draws": 168636,
+        "actual_high_draws": 83280,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "b3d4dfe1312aa37125da330e11d9dc80cb151fc0c9fe207a1c046ac15550ca13"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 72.78332492895424,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": 0.11448778022126183,
+          "NMAE": 1.9884302259164044
+        },
+        "high_input_variation": {
+          "NMSE": -0.20477409896004772,
+          "NMAE": 0.5747326920724771
+        },
+        "ordinary_input_variation": {
+          "NMSE": 0.1643274875255396,
+          "NMAE": 2.1631993516480152
+        },
+        "month_2020-06": {
+          "NMSE": -0.08222967552458105,
+          "NMAE": 1.3528370320607719
+        },
+        "month_2020-07": {
+          "NMSE": -0.3981243721513428,
+          "NMAE": 1.018836501992093
+        },
+        "month_2020-08": {
+          "NMSE": 2.263027770531656,
+          "NMAE": 5.465857308358579
+        },
+        "low_quartile": {
+          "NMSE": -0.227102300814086,
+          "NMAE": 0.5124269368884549
+        },
+        "middle": {
+          "NMSE": 0.1814998141831503,
+          "NMAE": 2.210449573319073
+        }
+      }
+    },
+    {
+      "id": "S022_protect_lps_matched_s2028",
+      "recipe": "protect_lps_matched",
+      "seed": 2028,
+      "parent": "S018_protect_lps_matched_s2026",
+      "decision": "S-D010",
+      "metrics": {
+        "NMAE": 0.19421290695523707,
+        "NMSE": 0.2883326899342955,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19421290695523707,
+          "NMSE": 0.2883326899342955,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3035508918927827,
+          "NMSE": 0.54079220471283,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18569789192791172,
+          "NMSE": 0.2686716676156711,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16300030145787275,
+          "NMSE": 0.20884365811764088,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20111707199903084,
+          "NMSE": 0.30925307007621705,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.17730820649350154,
+          "NMSE": 0.23460971588514326,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.29838665406482917,
+          "NMSE": 0.6504364717539838,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18368961075307913,
+          "NMSE": 0.26186805157778237,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "protect_lps_matched",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.21906935299731417,
+        "expected_loss_weight": 1.0000000000000047,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.21906935299731314,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10918217787194617,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2663,
+          "expected_draws": 2588.598030057944,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2624,
+          "distinct_seen": 1684
+        },
+        "unique_windows_seen": 490838,
+        "actual_quiet_draws": 168244,
+        "actual_high_draws": 83933,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "b1142a913dc677ce84ee1a095a61aeb71ab086a2d4d0c4debcab2ba64c198d70"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 71.64614841900766,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.5341802521379613,
+          "NMAE": 0.8232681217603455
+        },
+        "high_input_variation": {
+          "NMSE": -0.006987672885272467,
+          "NMAE": -0.3753140426488333
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.6173249604855213,
+          "NMAE": 0.9738004913951825
+        },
+        "month_2020-06": {
+          "NMSE": -0.3229805134566277,
+          "NMAE": 1.3755939619655932
+        },
+        "month_2020-07": {
+          "NMSE": -0.3776291298472456,
+          "NMAE": 0.9451012625993904
+        },
+        "month_2020-08": {
+          "NMSE": -1.2310523929293327,
+          "NMAE": 0.29344340862599294
+        },
+        "low_quartile": {
+          "NMSE": -0.6662372683423179,
+          "NMAE": 0.740529287485503
+        },
+        "middle": {
+          "NMSE": -0.6151609267698976,
+          "NMAE": 0.9805372106848065
+        }
+      }
+    },
+    {
+      "id": "S023_placebo_matched_swap_s2028",
+      "recipe": "placebo_matched_swap",
+      "seed": 2028,
+      "parent": "S019_placebo_matched_swap_s2026",
+      "decision": "S-D010",
+      "metrics": {
+        "NMAE": 0.19525022991517135,
+        "NMSE": 0.2898343327469551,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19525022991517135,
+          "NMSE": 0.2898343327469551,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.30246804015256884,
+          "NMSE": 0.5451366624675302,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18690032968708656,
+          "NMSE": 0.2699519179089316,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.16322232182849467,
+          "NMSE": 0.20941915254433116,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.20137539196676482,
+          "NMSE": 0.3103279668367229,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18097146135181585,
+          "NMSE": 0.2376293179914332,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.30048065360980947,
+          "NMSE": 0.6487753608329994,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18487615955654388,
+          "NMSE": 0.26320072129817046,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "placebo_matched_swap",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 790074,
+        "removed_windows": 263359,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.2191642808142022,
+        "expected_loss_weight": 1.0000000000000049,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2191642808142011,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10893789695648762,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "month_matching": {
+          "2020-02": {
+            "eligible": 213491,
+            "quiet_reference_removed": 107185,
+            "actual_removed": 107185
+          },
+          "2020-03": {
+            "eligible": 228798,
+            "quiet_reference_removed": 45109,
+            "actual_removed": 45109
+          },
+          "2020-04": {
+            "eligible": 196720,
+            "quiet_reference_removed": 58402,
+            "actual_removed": 58402
+          },
+          "2020-05": {
+            "eligible": 210836,
+            "quiet_reference_removed": 45551,
+            "actual_removed": 45551
+          },
+          "2020-06": {
+            "eligible": 203588,
+            "quiet_reference_removed": 7112,
+            "actual_removed": 7112
+          }
+        },
+        "lps_support": {
+          "definition": "any raw LPS=1 in 32 input records; training only",
+          "eligible": 2663,
+          "retained": 2241,
+          "expected_draws": 2178.3883534960014,
+          "restored_windows": 422,
+          "replacement_removed_windows": 422,
+          "swap_removal_seed": 20260927,
+          "placebo_restore_seed": 20260928,
+          "actual_draws": 2214,
+          "distinct_seen": 1408
+        },
+        "unique_windows_seen": 490838,
+        "actual_quiet_draws": 168016,
+        "actual_high_draws": 84052,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "491c28007d2d2ca9f275f33f25d6fe6263c95eec576b7b1c9800ec4bdd28a836"
+      },
+      "best_step": 1500,
+      "elapsed_seconds": 74.32214090880007,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -1.0577644119383889,
+          "NMAE": 0.29354894561797185
+        },
+        "high_input_variation": {
+          "NMSE": -0.8103944700494248,
+          "NMAE": -0.017246956079408626
+        },
+        "ordinary_input_variation": {
+          "NMSE": -1.0967776729018386,
+          "NMAE": 0.3325824344721062
+        },
+        "month_2020-06": {
+          "NMSE": -0.599432844711667,
+          "NMAE": 1.2412590743298813
+        },
+        "month_2020-07": {
+          "NMSE": -0.7265200506466618,
+          "NMAE": 0.8178725893127181
+        },
+        "month_2020-08": {
+          "NMSE": -2.5339715745768876,
+          "NMAE": -1.766531902514079
+        },
+        "low_quartile": {
+          "NMSE": -0.4091517675094192,
+          "NMAE": 0.043952266779234694
+        },
+        "middle": {
+          "NMSE": -1.1272003969198252,
+          "NMAE": 0.34091788430755665
+        }
+      }
+    },
+    {
+      "id": "S024_future_conflict_downweight_s2026",
+      "recipe": "future_conflict_downweight",
+      "seed": 2026,
+      "parent": "T005_prefix80_full",
+      "decision": "transfer/T-D005",
+      "metrics": {
+        "NMAE": 0.18367938293224573,
+        "NMSE": 0.2992177902266913,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.18367938293224573,
+          "NMSE": 0.2992177902266913,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.2995232013889456,
+          "NMSE": 0.5504688946223849,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.1746577071116698,
+          "NMSE": 0.2796508763972161,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.15222202091320977,
+          "NMSE": 0.2167332039147333,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.19070361826131635,
+          "NMSE": 0.32038837232079104,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.16643131025194258,
+          "NMSE": 0.24519110014018233,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.28919277372661834,
+          "NMSE": 0.6647236467115697,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.17261652204779007,
+          "NMSE": 0.2727883074870768,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "future_conflict_downweight",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.8500289054928037,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.2755781041567433,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "alignment": {
+          "recipe_sha256": "24caa9ac2b8d1a1ab28c725b235a81351f9c0ff8952cc09b998a99f9183bd1c9",
+          "asset_sha256": "904d21d9d7cd0f0ef7c3c3cdf14d61fd242cd34cbe57fa0894f5ba5ad165ce5e",
+          "downweighted_windows": 210646,
+          "teacher_run": "T005_prefix80_full",
+          "source_rows": [
+            0,
+            849490
+          ],
+          "future_rows": [
+            849490,
+            1061863
+          ],
+          "actual_downweighted_draws": 153696,
+          "actual_mean_loss_weight": 0.84990625
+        },
+        "unique_windows_seen": 545347,
+        "actual_quiet_draws": 192044,
+        "actual_high_draws": 76791,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "da331148897898ee99adae428f60cfc9f26aba4728667bb6a5cb059cf9ff8d92"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 74.54767170548439,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -3.8890190808182235,
+          "NMAE": 5.808986454901621
+        },
+        "high_input_variation": {
+          "NMSE": -1.8245296390186017,
+          "NMAE": 0.8120493147667718
+        },
+        "ordinary_input_variation": {
+          "NMSE": -4.212920441012402,
+          "NMAE": 6.438491552602576
+        },
+        "month_2020-06": {
+          "NMSE": -4.40869426204602,
+          "NMAE": 6.87409167586387
+        },
+        "month_2020-07": {
+          "NMSE": -3.784670685794689,
+          "NMAE": 5.332212437100859
+        },
+        "month_2020-08": {
+          "NMSE": -4.250966673243117,
+          "NMAE": 7.357856836801702
+        },
+        "low_quartile": {
+          "NMSE": -2.9162625932764197,
+          "NMAE": 3.6491194366806035
+        },
+        "middle": {
+          "NMSE": -4.269971002822959,
+          "NMAE": 6.519293483088018
+        }
+      }
+    },
+    {
+      "id": "S025_future_conflict_shuffled_s2026",
+      "recipe": "future_conflict_shuffled",
+      "seed": 2026,
+      "parent": "S024_future_conflict_downweight_s2026",
+      "decision": "transfer/T-D005",
+      "metrics": {
+        "NMAE": 0.19572374543798024,
+        "NMSE": 0.2888611463184397,
+        "windows": 300535
+      },
+      "groups": {
+        "all": {
+          "NMAE": 0.19572374543798024,
+          "NMSE": 0.2888611463184397,
+          "windows": 300535
+        },
+        "high_input_variation": {
+          "NMAE": 0.3041586941366762,
+          "NMSE": 0.5419624889197784,
+          "windows": 21714
+        },
+        "ordinary_input_variation": {
+          "NMAE": 0.18727905699613576,
+          "NMSE": 0.269150139782901,
+          "windows": 278821
+        },
+        "month_2020-06": {
+          "NMAE": 0.1639153947696474,
+          "NMSE": 0.207898534376055,
+          "windows": 11412
+        },
+        "month_2020-07": {
+          "NMAE": 0.2019238310132935,
+          "NMSE": 0.3093323877070972,
+          "windows": 220243
+        },
+        "month_2020-08": {
+          "NMAE": 0.18116903362705258,
+          "NMSE": 0.23681843015009515,
+          "windows": 68880
+        },
+        "low_quartile": {
+          "NMAE": 0.3004829196788703,
+          "NMSE": 0.6449769202868284,
+          "windows": 4882
+        },
+        "middle": {
+          "NMAE": 0.18526159596423786,
+          "NMSE": 0.2624523481489234,
+          "windows": 273939
+        }
+      },
+      "sampling": {
+        "recipe": "future_conflict_shuffled",
+        "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+        "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+        "eligible_windows": 1053433,
+        "retained_windows": 1053433,
+        "removed_windows": 0,
+        "low_variation_threshold": 0.003951953111203282,
+        "quiet_windows": 263359,
+        "expected_quiet_sampling_mass": 0.25000071195795087,
+        "expected_loss_weight": 0.8500289054928035,
+        "sampling_method": "common_uniform_inverse_cdf",
+        "expected_quiet_loss_mass": 0.24331829245344622,
+        "high_variation_threshold": 0.12934430480698564,
+        "high_variation_windows": 105344,
+        "expected_high_sampling_mass": 0.10000066449408743,
+        "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+        "alignment": {
+          "recipe_sha256": "24caa9ac2b8d1a1ab28c725b235a81351f9c0ff8952cc09b998a99f9183bd1c9",
+          "asset_sha256": "904d21d9d7cd0f0ef7c3c3cdf14d61fd242cd34cbe57fa0894f5ba5ad165ce5e",
+          "downweighted_windows": 210646,
+          "teacher_run": "T005_prefix80_full",
+          "source_rows": [
+            0,
+            849490
+          ],
+          "future_rows": [
+            849490,
+            1061863
+          ],
+          "actual_downweighted_draws": 153663,
+          "actual_mean_loss_weight": 0.8499384765625
+        },
+        "unique_windows_seen": 545347,
+        "actual_quiet_draws": 192044,
+        "actual_high_draws": 76791,
+        "total_draws": 768000,
+        "sampling_weights_sha256": "6e73e4aa15548b3dd756e25a76752bc0b779a212b3ed075443109f301d571779"
+      },
+      "best_step": 2500,
+      "elapsed_seconds": 65.10780010465533,
+      "relative_reduction_pct": {
+        "all": {
+          "NMSE": -0.29317146834022534,
+          "NMAE": -0.3673774560017051
+        },
+        "high_input_variation": {
+          "NMSE": -0.25103335603471333,
+          "NMAE": -0.7230071480766709
+        },
+        "ordinary_input_variation": {
+          "NMSE": -0.2997825904973883,
+          "NMAE": -0.32257587099535634
+        },
+        "month_2020-06": {
+          "NMSE": -0.15269520832941197,
+          "NMAE": -0.279643737853541
+        },
+        "month_2020-07": {
+          "NMSE": -0.20326192889217332,
+          "NMAE": -0.2376489367888146
+        },
+        "month_2020-08": {
+          "NMSE": -0.6910538558382306,
+          "NMAE": -0.8457334416724693
+        },
+        "low_quartile": {
+          "NMSE": 0.14103692079981967,
+          "NMAE": -0.1124389527977332
+        },
+        "middle": {
+          "NMSE": -0.31917783868899985,
+          "NMAE": -0.3286630719678829
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "downweight_quiet": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2889857442359624,
+          "sample_std": 0.00070564140915816
+        },
+        "NMAE": {
+          "mean": 0.19270047250986644,
+          "sample_std": 0.0019040511287384048
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -0.483434654014947,
+          -0.3253763555156164,
+          -0.47785603827164014
+        ],
+        "NMAE": [
+          1.9417682089446386,
+          1.5998683145527215,
+          1.9369323549412343
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.42876947157233225,
+        "NMAE": 1.8251868151407447
+      }
+    },
+    "drop_quiet": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.28847139256937226,
+          "sample_std": 0.0006176870362301232
+        },
+        "NMAE": {
+          "mean": 0.19143491704001397,
+          "sample_std": 0.0018409342968734865
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          0.06631873414000289,
+          -0.032342435943144565,
+          -0.7866242861211292
+        ],
+        "NMAE": [
+          2.2353098568030028,
+          2.2614927450695044,
+          2.9143926971760714
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.2500211907951133,
+        "NMAE": 2.469947412816398
+      }
+    },
+    "future_conflict_downweight": {
+      "seeds": [
+        2026
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2992177902266913,
+          "sample_std": null
+        },
+        "NMAE": {
+          "mean": 0.18367938293224573,
+          "sample_std": null
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -3.8890190808182235
+        ],
+        "NMAE": [
+          5.808986454901621
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -3.8890190808182235,
+        "NMAE": 5.808986454901621
+      }
+    },
+    "future_conflict_shuffled": {
+      "seeds": [
+        2026
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2888611463184397,
+          "sample_std": null
+        },
+        "NMAE": {
+          "mean": 0.19572374543798024,
+          "sample_std": null
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -0.29317146834022534
+        ],
+        "NMAE": [
+          -0.3673774560017051
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.29317146834022534,
+        "NMAE": -0.3673774560017051
+      }
+    },
+    "month_matched_drop": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2894901544300838,
+          "sample_std": 0.0013466152609351424
+        },
+        "NMAE": {
+          "mean": 0.19706256587339469,
+          "sample_std": 0.0019025398957732745
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -0.26500920256602445,
+          -0.07238788987429245,
+          -1.4792653421200175
+        ],
+        "NMAE": [
+          -0.4261330927086693,
+          -0.6251094866548401,
+          -0.1378139092616859
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.6040628765756173,
+        "NMAE": -0.3971621779961243
+      }
+    },
+    "oversample_high": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.29103732831673457,
+          "sample_std": 0.0002617988892112685
+        },
+        "NMAE": {
+          "mean": 0.19314144249000662,
+          "sample_std": 0.0022389930792811956
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -1.066022382289411,
+          -0.8028703919997104,
+          -1.5585807577601862
+        ],
+        "NMAE": [
+          0.6278578228747111,
+          1.5286374521591983,
+          2.6418270728849946
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -1.141739120798979,
+        "NMAE": 1.6005265179628192
+      }
+    },
+    "placebo_matched_swap": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.28845420933223875,
+          "sample_std": 0.0012437575042428645
+        },
+        "NMAE": {
+          "mean": 0.1938293677790697,
+          "sample_std": 0.0015608376030583127
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          0.20716699364152769,
+          0.11448778022126183,
+          -1.0577644119383889
+        ],
+        "NMAE": [
+          1.4607882583904108,
+          1.9884302259164044,
+          0.29354894561797185
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.2440496458477437,
+        "NMAE": 1.2500502795848911
+      }
+    },
+    "protect_lps_matched": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2886324589032783,
+          "sample_std": 0.00042788485005960226
+        },
+        "NMAE": {
+          "mean": 0.19445883845231748,
+          "sample_std": 0.00034436250976244864
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          -0.3839052387168973,
+          -0.0013096910420840047,
+          -0.5341802521379613
+        ],
+        "NMAE": [
+          0.07944792145769819,
+          1.8712582171425352,
+          0.8232681217603455
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.305995210414145,
+        "NMAE": 0.9293548243711758
+      }
+    },
+    "random_drop": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2887621294215655,
+          "sample_std": 0.0017603213457714794
+        },
+        "NMAE": {
+          "mean": 0.1948555571335284,
+          "sample_std": 0.0012572439236966776
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          0.19758422786158025,
+          -0.8055937723073336,
+          -0.44489673438192767
+        ],
+        "NMAE": [
+          -0.4252161047431091,
+          1.3760247480927301,
+          1.2188356125933941
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": -0.35105850799219684,
+        "NMAE": 0.7272391683608825
+      }
+    },
+    "uniform": {
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "metrics": {
+        "NMSE": {
+          "mean": 0.2877519517131628,
+          "sample_std": 0.0008503953049149661
+        },
+        "NMAE": {
+          "mean": 0.19628300401959425,
+          "sample_std": 0.0015560236969653291
+        }
+      },
+      "paired_relative_reduction_pct": {
+        "NMSE": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "NMAE": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "relative_reduction_of_paired_means_pct": {
+        "NMSE": 0.0,
+        "NMAE": 0.0
+      }
+    }
+  },
+  "completed_training_seconds": 1849.3096483480185
+}

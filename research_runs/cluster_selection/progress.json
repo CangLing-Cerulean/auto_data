@@ -1,0 +1,42 @@
+{
+  "phase": "stopped_no_prefix60_candidate",
+  "rows": [
+    {
+      "run_id": "T017_prefix60_cluster1",
+      "stage": 60,
+      "group": 1,
+      "random_control": false,
+      "seed": 2026,
+      "mask": "mask_60_g1_target.npz",
+      "NMAE": 0.2605168624223245,
+      "NMSE": 0.5539915285515151,
+      "windows": 210311
+    },
+    {
+      "run_id": "T018_prefix60_cluster2",
+      "stage": 60,
+      "group": 2,
+      "random_control": false,
+      "seed": 2026,
+      "mask": "mask_60_g2_target.npz",
+      "NMAE": 0.2697651849132395,
+      "NMSE": 0.5996915238388406,
+      "windows": 210311
+    },
+    {
+      "run_id": "T019_prefix60_cluster3",
+      "stage": 60,
+      "group": 3,
+      "random_control": false,
+      "seed": 2026,
+      "mask": "mask_60_g3_target.npz",
+      "NMAE": 0.2228847484635604,
+      "NMSE": 0.522990282695478,
+      "windows": 210311
+    }
+  ],
+  "selected_group": null,
+  "stages": [],
+  "budget_used_seconds": 4071.854171650484,
+  "round_limit_seconds": 5665.628097515553
+}

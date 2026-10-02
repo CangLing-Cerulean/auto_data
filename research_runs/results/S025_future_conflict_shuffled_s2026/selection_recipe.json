@@ -1,0 +1,35 @@
+{
+  "scope": "train only; offline training-label-based scoring; no external validation/test",
+  "teacher_run": "T005_prefix80_full",
+  "teacher_sha256": "99aca011ffa40f569901761cb0f33327a05d0be7a6daf3da6176f9ac8a0233c1",
+  "teacher_identity_sha256": "08112d7c531a1ccff0e697c16d7e753a8fcdca1ed6088618712b4ff74040b5a7",
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "code_sha256": "1282c774c27156b2b5ffb77561419e53677a7128c8ad3bc2b8c79549a4c43b69",
+  "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+  "alignment_protocol_sha256": "c2bd9969e9bd99b6d386de6a10de11fc36101f90651e03960ec164728b1942ea",
+  "source_rows": [
+    0,
+    849490
+  ],
+  "future_rows": [
+    849490,
+    1061863
+  ],
+  "scored_windows": 842581,
+  "eligible_windows": 1053433,
+  "negative_scores": 246918,
+  "quarter_threshold": -0.01482169327566518,
+  "downweighted_windows": 210646,
+  "expected_loss_weight": 0.8500289054928031,
+  "gradient_norm": 0.07537297305829946,
+  "finite_difference_max_absolute_error": 2.617003835858611e-12,
+  "shuffle_seed": 20260929,
+  "monthly_downweighted": {
+    "2020-02": 43766,
+    "2020-03": 60978,
+    "2020-04": 44532,
+    "2020-05": 61370
+  },
+  "artifact_sha256": "904d21d9d7cd0f0ef7c3c3cdf14d61fd242cd34cbe57fa0894f5ba5ad165ce5e"
+}

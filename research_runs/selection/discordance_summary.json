@@ -1,0 +1,99 @@
+{
+  "phase": "stopped_internal_gate",
+  "rows": [
+    {
+      "run_id": "T012_prefix60_discordance",
+      "policy": "targeted",
+      "origin": 0.6,
+      "NMAE": 0.20897782783050717,
+      "NMSE": 0.4330261551169938,
+      "windows": 210311
+    },
+    {
+      "run_id": "T013_prefix60_discordance_shuffle",
+      "policy": "shuffle",
+      "origin": 0.6,
+      "NMAE": 0.20937990313472354,
+      "NMSE": 0.43299827316366346,
+      "windows": 210311
+    }
+  ],
+  "folds": [
+    {
+      "origin": 0.6,
+      "source_baseline": "T010_prefix60_sources",
+      "original_baseline": "T000_prefix60_full",
+      "checks": {
+        "NMAE_reduction_vs_source_at_least_1pct": false,
+        "NMSE_vs_source_within_half_pct": true,
+        "NMSE_reduction_vs_original_at_least_1pct": true,
+        "NMAE_vs_original_not_worse": true,
+        "NMAE_better_than_shuffle": true,
+        "NMSE_not_worse_than_shuffle": false
+      },
+      "NMAE_reduction_vs_source_pct": 0.2828819778711078,
+      "NMSE_reduction_vs_source_pct": -0.013052324834172957,
+      "gate_passed": false
+    }
+  ],
+  "all_internal_gates_passed": false,
+  "verification": {
+    "train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+    "checks": [
+      {
+        "run_id": "T012_prefix60_discordance",
+        "eligible_windows": 632231,
+        "rule_counts": [
+          301,
+          6180,
+          0,
+          0,
+          6180,
+          0,
+          0,
+          0,
+          457233,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "min_weight": 0.5803138056879346,
+        "max_weight": 1.999048269494666,
+        "all_inputs_and_weights_verified": true,
+        "identical_actual_draws_to_source_baseline": true,
+        "month_count_matched": true
+      },
+      {
+        "run_id": "T013_prefix60_discordance_shuffle",
+        "eligible_windows": 632231,
+        "rule_counts": [
+          301,
+          6180,
+          0,
+          0,
+          6180,
+          0,
+          0,
+          0,
+          457233,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "min_weight": 0.5803138056879346,
+        "max_weight": 1.999048269494666,
+        "all_inputs_and_weights_verified": true,
+        "identical_actual_draws_to_source_baseline": true,
+        "month_count_matched": true
+      }
+    ]
+  },
+  "formal_validation_run": false,
+  "test_accessed": false
+}

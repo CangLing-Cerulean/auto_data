@@ -1,0 +1,29 @@
+{
+  "teacher": "S000_uniform_s2026/latest.pt",
+  "teacher_sha256": "a401902906f1d8c70eefb960cdfe51ce976086c676ed03caead12d4cbe82a0c9",
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "code_sha256": "d26f5efea0385198d414aa22fb4c9dae3e6e85126462295cd81a32f66bfb39f7",
+  "helper_sha256": "57959329541cb0a8e0b84ce5e2a68ebac99527612c731bab0a8beadfc8f193ec",
+  "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+  "research_sha256": "cccea3cb071a1dc532112219851990c61cd400088f226521f6ad7ac0c5fadc08",
+  "windows": 1053433,
+  "scoring_forward_presentations": 1053433,
+  "verification_windows": 48,
+  "max_autograd_relative_error": 2.3572573328059135e-07,
+  "uniform_gradient_second_moment": 2.422256296856464,
+  "corrected_gradient_second_moment": 0.3825419129202177,
+  "second_moment_reduction_pct": 84.20720741167358,
+  "gradient_norm_quantiles": [
+    0.020015358342392306,
+    0.08385316480643927,
+    0.942324022372622,
+    5.97431234421216,
+    107.22286478461763
+  ],
+  "top_one_percent_probability_mass": 0.0841583261020456,
+  "loss_weight_min": 0.009656626193664232,
+  "loss_weight_max": 1.9259009733842645,
+  "scores_sha256": "bc3621914c74e0ea93ad8ddabddcc06e9db33a5a0a360da2a6c1fb34c626ad08"
+}

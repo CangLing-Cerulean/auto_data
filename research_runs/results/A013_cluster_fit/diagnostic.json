@@ -1,0 +1,72 @@
+{
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "code_sha256": "6150d8b08092b5c082af62c0b9bcccba0f433c3a00cd58d9cd33183e9ca1e596",
+  "helper_sha256": "a112051eef250305372ae5165f1996895846433184a802b3e18cd5aa8fcf9952",
+  "protocol_sha256": "b0a8421532c8041b23ea2ac59312fc62389cbb5ea203898ca394cf6d85a5899b",
+  "raw_rows": 1061863,
+  "fit_raw_rows": [
+    0,
+    637117
+  ],
+  "fit_windows": 632231,
+  "feature_columns": [
+    "mean_TP2",
+    "mean_TP3",
+    "mean_H1",
+    "mean_DV_pressure",
+    "mean_Reservoirs",
+    "mean_Oil_temperature",
+    "mean_Motor_current",
+    "mean_COMP",
+    "mean_DV_eletric",
+    "mean_Towers",
+    "mean_MPG",
+    "mean_LPS",
+    "mean_Pressure_switch",
+    "mean_Oil_level",
+    "mean_Caudal_impulses",
+    "std_TP2",
+    "std_TP3",
+    "std_H1",
+    "std_DV_pressure",
+    "std_Reservoirs",
+    "std_Oil_temperature",
+    "std_Motor_current",
+    "std_COMP",
+    "std_DV_eletric",
+    "std_Towers",
+    "std_MPG",
+    "std_LPS",
+    "std_Pressure_switch",
+    "std_Oil_level",
+    "std_Caudal_impulses"
+  ],
+  "sample_size": 32768,
+  "seed": 20261002,
+  "k": 4,
+  "fit": {
+    "iterations": 19,
+    "converged": true,
+    "initial_sample_indices": [
+      23477,
+      28000,
+      7540,
+      26222
+    ]
+  },
+  "prefix60_group_counts": [
+    451313,
+    30435,
+    139555,
+    10928
+  ],
+  "eligible_groups": [
+    1,
+    2,
+    3
+  ],
+  "model_sha256": "e662d6fc2d112f4344d753dc70b521ff42677bc33a1d473af1bb61e7bd8a2b05",
+  "window_groups_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714"
+}

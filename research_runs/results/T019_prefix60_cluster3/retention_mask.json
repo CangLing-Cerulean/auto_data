@@ -1,0 +1,29 @@
+{
+  "stage": 60,
+  "group": 3,
+  "random_control": false,
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "fit_sha256": "7164db87ebd8a329ea9c0043e799c62609b3aca55c5e975ce66b0bafab23936c",
+  "model_sha256": "e662d6fc2d112f4344d753dc70b521ff42677bc33a1d473af1bb61e7bd8a2b05",
+  "window_groups_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714",
+  "asset_sha256": "49469ce4bcc2b6c42eedaf235ab7b2ad5b995d7b2b35288072ae6afdb3a18601",
+  "eligible_windows": 632231,
+  "removed_windows": 10928,
+  "month_counts": {
+    "2020-02": {
+      "eligible": 213491,
+      "target_removed": 0,
+      "actual_removed": 0
+    },
+    "2020-03": {
+      "eligible": 228798,
+      "target_removed": 145,
+      "actual_removed": 145
+    },
+    "2020-04": {
+      "eligible": 189942,
+      "target_removed": 10783,
+      "actual_removed": 10783
+    }
+  }
+}

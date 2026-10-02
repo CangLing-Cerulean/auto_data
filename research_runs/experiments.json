@@ -1,0 +1,58 @@
+[
+  {
+    "id": "E000_baseline_s2026",
+    "parent": null,
+    "recipe": "baseline",
+    "seed": 2026,
+    "data_round": 0,
+    "decision": "D000",
+    "purpose": "Unmodified full eligible training-window baseline",
+    "status": "completed"
+  },
+  {
+    "id": "E001_last_center_s2026",
+    "parent": "E000_baseline_s2026",
+    "recipe": "last_center",
+    "seed": 2026,
+    "data_round": 1,
+    "decision": "D001",
+    "purpose": "Causal per-window last-value centering and inverse output transform",
+    "status": "completed"
+  },
+  {
+    "id": "E002_mean_center_s2026",
+    "parent": "E001_last_center_s2026",
+    "recipe": "mean_center",
+    "seed": 2026,
+    "data_round": 2,
+    "decision": "D002",
+    "purpose": "Replace noisy last-value anchor with causal input-window mean",
+    "status": "completed"
+  },
+  {
+    "id": "E003_selective_center_s2026",
+    "parent": "E002_mean_center_s2026",
+    "recipe": "selective_center",
+    "seed": 2026,
+    "data_round": 3,
+    "decision": "D003",
+    "purpose": "Center only Oil_temperature and Oil_level after observing conditional effects",
+    "status": "completed"
+  },
+  {
+    "id": "E004_baseline_s2027", "parent": "E000_baseline_s2026", "recipe": "baseline", "seed": 2027,
+    "data_round": 0, "decision": "D004", "purpose": "Paired baseline confirmation", "status": "completed"
+  },
+  {
+    "id": "E005_selective_center_s2027", "parent": "E003_selective_center_s2026", "recipe": "selective_center", "seed": 2027,
+    "data_round": 3, "decision": "D004", "purpose": "Paired recipe confirmation", "status": "completed"
+  },
+  {
+    "id": "E006_baseline_s2028", "parent": "E000_baseline_s2026", "recipe": "baseline", "seed": 2028,
+    "data_round": 0, "decision": "D004", "purpose": "Paired baseline confirmation", "status": "completed"
+  },
+  {
+    "id": "E007_selective_center_s2028", "parent": "E003_selective_center_s2026", "recipe": "selective_center", "seed": 2028,
+    "data_round": 3, "decision": "D004", "purpose": "Paired recipe confirmation", "status": "completed"
+  }
+]

@@ -1,0 +1,2587 @@
+{
+  "protect_lps_matched_vs_uniform": {
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "groups": {
+      "all": {
+        "NMSE": {
+          "candidate_mean": 0.2886324589032783,
+          "reference_mean": 0.2877519517131628,
+          "paired_reduction_pct": [
+            -0.3839052387168973,
+            -0.0013096910420840047,
+            -0.5341802521379613
+          ],
+          "mean_reduction_pct": -0.305995210414145
+        },
+        "NMAE": {
+          "candidate_mean": 0.19445883845231748,
+          "reference_mean": 0.19628300401959425,
+          "paired_reduction_pct": [
+            0.07944792145769819,
+            1.8712582171425352,
+            0.8232681217603455
+          ],
+          "mean_reduction_pct": 0.9293548243711758
+        }
+      },
+      "high_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.5414312665231037,
+          "reference_mean": 0.5401402739450016,
+          "paired_reduction_pct": [
+            -0.36903204194020933,
+            -0.3413684962962238,
+            -0.006987672885272467
+          ],
+          "mean_reduction_pct": -0.23901061268272183
+        },
+        "NMAE": {
+          "candidate_mean": 0.30294613508687923,
+          "reference_mean": 0.30197674800533664,
+          "paired_reduction_pct": [
+            -0.729510759287999,
+            0.14253248681819208,
+            -0.3753140426488333
+          ],
+          "mean_reduction_pct": -0.3210138157807574
+        }
+      },
+      "ordinary_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.26894501316333436,
+          "reference_mean": 0.2680964737221142,
+          "paired_reduction_pct": [
+            -0.38623872057879094,
+            0.05177660715168786,
+            -0.6173249604855213
+          ],
+          "mean_reduction_pct": -0.3165052600056395
+        },
+        "NMAE": {
+          "candidate_mean": 0.1860100732620237,
+          "reference_mean": 0.1880517949036869,
+          "paired_reduction_pct": [
+            0.18135907204405166,
+            2.084972874829616,
+            0.9738004913951825
+          ],
+          "mean_reduction_pct": 1.085723027907759
+        }
+      },
+      "month_2020-06": {
+        "NMSE": {
+          "candidate_mean": 0.20894608651858174,
+          "reference_mean": 0.2078015642386381,
+          "paired_reduction_pct": [
+            -0.6043317729441666,
+            -0.7256053534829165,
+            -0.3229805134566277
+          ],
+          "mean_reduction_pct": -0.5507765469124459
+        },
+        "NMAE": {
+          "candidate_mean": 0.1634372182181773,
+          "reference_mean": 0.1648137475068105,
+          "paired_reduction_pct": [
+            0.20658220527376425,
+            0.9163137500899032,
+            1.3755939619655932
+          ],
+          "mean_reduction_pct": 0.8352029545207085
+        }
+      },
+      "month_2020-07": {
+        "NMSE": {
+          "candidate_mean": 0.3093136644442815,
+          "reference_mean": 0.30836241560812383,
+          "paired_reduction_pct": [
+            -0.13264468005289576,
+            -0.4154589606809589,
+            -0.3776291298472456
+          ],
+          "mean_reduction_pct": -0.3084840395616073
+        },
+        "NMAE": {
+          "candidate_mean": 0.20122764998725284,
+          "reference_mean": 0.20261061158620416,
+          "paired_reduction_pct": [
+            0.24158461768867268,
+            0.8573013745616809,
+            0.9451012625993904
+          ],
+          "mean_reduction_pct": 0.6825711586004091
+        }
+      },
+      "month_2020-08": {
+        "NMSE": {
+          "candidate_mean": 0.2357069381379908,
+          "reference_mean": 0.23509636841237005,
+          "paired_reduction_pct": [
+            -1.4061862233365918,
+            1.8161460549300346,
+            -1.2310523929293327
+          ],
+          "mean_reduction_pct": -0.2597104029058217
+        },
+        "NMAE": {
+          "candidate_mean": 0.17795528693116824,
+          "reference_mean": 0.18126436119193798,
+          "paired_reduction_pct": [
+            -0.52104430120814,
+            5.550566039560778,
+            0.29344340862599294
+          ],
+          "mean_reduction_pct": 1.825551497829081
+        }
+      },
+      "low_quartile": {
+        "NMSE": {
+          "candidate_mean": 0.6493323006135534,
+          "reference_mean": 0.6458318524577809,
+          "paired_reduction_pct": [
+            -0.6593129417838073,
+            -0.30026709418460307,
+            -0.6662372683423179
+          ],
+          "mean_reduction_pct": -0.5420061185355429
+        },
+        "NMAE": {
+          "candidate_mean": 0.29893425415106223,
+          "reference_mean": 0.3008801771887945,
+          "paired_reduction_pct": [
+            0.6408763931361583,
+            0.559185517571037,
+            0.740529287485503
+          ],
+          "mean_reduction_pct": 0.6467435162773372
+        }
+      },
+      "middle": {
+        "NMSE": {
+          "candidate_mean": 0.26216594651954894,
+          "reference_mean": 0.261364668031842,
+          "paired_reduction_pct": [
+            -0.3742239568051309,
+            0.06722103580066863,
+            -0.6151609267698976
+          ],
+          "mean_reduction_pct": -0.3065749069071977
+        },
+        "NMAE": {
+          "candidate_mean": 0.18399759657524198,
+          "reference_mean": 0.18604102549036533,
+          "paired_reduction_pct": [
+            0.16804787328946746,
+            2.1286456368704187,
+            0.9805372106848065
+          ],
+          "mean_reduction_pct": 1.0983754307617333
+        }
+      }
+    },
+    "channels": {
+      "TP2": {
+        "NMSE": {
+          "candidate_mean": 0.4738680786673085,
+          "reference_mean": 0.4669343012874061,
+          "paired_reduction_pct": [
+            -1.3009138552416921,
+            -1.9162833395562684,
+            -1.2376364418299923
+          ],
+          "mean_reduction_pct": -1.4849578111492345
+        },
+        "NMAE": {
+          "candidate_mean": 0.3490924655284042,
+          "reference_mean": 0.3509581048069639,
+          "paired_reduction_pct": [
+            0.5415210023144934,
+            0.7935644162759159,
+            0.2593855643397758
+          ],
+          "mean_reduction_pct": 0.5315846116691891
+        }
+      },
+      "TP3": {
+        "NMSE": {
+          "candidate_mean": 0.09678195252736031,
+          "reference_mean": 0.09699264944923458,
+          "paired_reduction_pct": [
+            0.3457731427549904,
+            0.7409242845286768,
+            -0.43845636836858937
+          ],
+          "mean_reduction_pct": 0.21722978294819173
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499958697142255,
+          "reference_mean": 0.15722053264288993,
+          "paired_reduction_pct": [
+            1.3859136908775826,
+            1.05271033929768,
+            1.795926116999158
+          ],
+          "mean_reduction_pct": 1.4126308021815692
+        }
+      },
+      "H1": {
+        "NMSE": {
+          "candidate_mean": 0.431746553694713,
+          "reference_mean": 0.42781425161525544,
+          "paired_reduction_pct": [
+            -0.7096454755079584,
+            -1.0452836869645932,
+            -1.0023979308912745
+          ],
+          "mean_reduction_pct": -0.9191610762406155
+        },
+        "NMAE": {
+          "candidate_mean": 0.29369108792510173,
+          "reference_mean": 0.2967713090943956,
+          "paired_reduction_pct": [
+            -0.5213227505638685,
+            2.593228613961207,
+            1.0125481299467332
+          ],
+          "mean_reduction_pct": 1.0379106992159048
+        }
+      },
+      "DV_pressure": {
+        "NMSE": {
+          "candidate_mean": 0.14426406798988226,
+          "reference_mean": 0.144396761881816,
+          "paired_reduction_pct": [
+            -0.411476129222077,
+            0.27072864490151893,
+            0.41364285628920916
+          ],
+          "mean_reduction_pct": 0.09189533768239055
+        },
+        "NMAE": {
+          "candidate_mean": 0.032692197878793385,
+          "reference_mean": 0.03334237000006049,
+          "paired_reduction_pct": [
+            0.30458683923769714,
+            3.456292379032555,
+            2.0627496354807984
+          ],
+          "mean_reduction_pct": 1.9499877221263118
+        }
+      },
+      "Reservoirs": {
+        "NMSE": {
+          "candidate_mean": 0.09672271891458636,
+          "reference_mean": 0.09703844480373912,
+          "paired_reduction_pct": [
+            0.5947792102640403,
+            0.7896961288200388,
+            -0.4122874687931155
+          ],
+          "mean_reduction_pct": 0.32536165412719864
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499181836563175,
+          "reference_mean": 0.156927397207401,
+          "paired_reduction_pct": [
+            0.9031806219747862,
+            0.9994146009121074,
+            1.7902436388189447
+          ],
+          "mean_reduction_pct": 1.2334231474005364
+        }
+      },
+      "Oil_temperature": {
+        "NMSE": {
+          "candidate_mean": 0.027956972377247574,
+          "reference_mean": 0.0283557768757932,
+          "paired_reduction_pct": [
+            3.2348339302681883,
+            0.49801110857108366,
+            0.45116506637563614
+          ],
+          "mean_reduction_pct": 1.406431219615356
+        },
+        "NMAE": {
+          "candidate_mean": 0.0878253300409626,
+          "reference_mean": 0.08782252908911965,
+          "paired_reduction_pct": [
+            -0.15366140032877507,
+            -1.3503978573206288,
+            1.4841969989062842
+          ],
+          "mean_reduction_pct": -0.0031893317944620136
+        }
+      },
+      "Motor_current": {
+        "NMSE": {
+          "candidate_mean": 0.30248210151987526,
+          "reference_mean": 0.3009684096654297,
+          "paired_reduction_pct": [
+            -1.196029842740698,
+            0.01870209118842725,
+            -0.33559788797308254
+          ],
+          "mean_reduction_pct": -0.5029404435263674
+        },
+        "NMAE": {
+          "candidate_mean": 0.2611139596007661,
+          "reference_mean": 0.2658941104791121,
+          "paired_reduction_pct": [
+            3.4721789597422115,
+            1.2683874771494796,
+            0.6395994217491929
+          ],
+          "mean_reduction_pct": 1.7977648582485295
+        }
+      },
+      "COMP": {
+        "NMSE": {
+          "candidate_mean": 0.44155144225431986,
+          "reference_mean": 0.4376465382054995,
+          "paired_reduction_pct": [
+            -0.9677267798310574,
+            -0.8715571906600772,
+            -0.8378713396341553
+          ],
+          "mean_reduction_pct": -0.8922506424549503
+        },
+        "NMAE": {
+          "candidate_mean": 0.328907269828234,
+          "reference_mean": 0.33228460036170404,
+          "paired_reduction_pct": [
+            -0.9169355133886503,
+            2.1104352827949424,
+            1.8195460488363735
+          ],
+          "mean_reduction_pct": 1.0163969470128098
+        }
+      },
+      "DV_eletric": {
+        "NMSE": {
+          "candidate_mean": 0.43579279188325765,
+          "reference_mean": 0.4324176008277807,
+          "paired_reduction_pct": [
+            -0.7729143732199795,
+            -0.846364865961502,
+            -0.722099403261689
+          ],
+          "mean_reduction_pct": -0.7805397025967054
+        },
+        "NMAE": {
+          "candidate_mean": 0.32553547123815074,
+          "reference_mean": 0.3266363890496419,
+          "paired_reduction_pct": [
+            -1.5644945735562077,
+            1.4974817474668112,
+            1.0445084915741365
+          ],
+          "mean_reduction_pct": 0.3370468963039608
+        }
+      },
+      "Towers": {
+        "NMSE": {
+          "candidate_mean": 0.7592051213112715,
+          "reference_mean": 0.7575547815863591,
+          "paired_reduction_pct": [
+            0.10500611738385457,
+            -1.0682242075831683,
+            0.2984182642796096
+          ],
+          "mean_reduction_pct": -0.21785087561014826
+        },
+        "NMAE": {
+          "candidate_mean": 0.4259829418862309,
+          "reference_mean": 0.4219914575475579,
+          "paired_reduction_pct": [
+            -1.0462502014527697,
+            -1.8363553636495444,
+            0.04436882775132878
+          ],
+          "mean_reduction_pct": -0.9458685163604708
+        }
+      },
+      "MPG": {
+        "NMSE": {
+          "candidate_mean": 0.42378150031634276,
+          "reference_mean": 0.4209678227696477,
+          "paired_reduction_pct": [
+            -0.5572334624329711,
+            -0.7863948405201437,
+            -0.6613663607470288
+          ],
+          "mean_reduction_pct": -0.6683830436690297
+        },
+        "NMAE": {
+          "candidate_mean": 0.3189123502071315,
+          "reference_mean": 0.32255975805652826,
+          "paired_reduction_pct": [
+            -1.0241477865851056,
+            2.332736460966689,
+            2.0379239693345985
+          ],
+          "mean_reduction_pct": 1.130769650675878
+        }
+      },
+      "LPS": {
+        "NMSE": {
+          "candidate_mean": 0.19475460985901175,
+          "reference_mean": 0.19728634911436904,
+          "paired_reduction_pct": [
+            3.4879831934316874,
+            1.5594105455177476,
+            -1.3051097583155258
+          ],
+          "mean_reduction_pct": 1.2832815178153156
+        },
+        "NMAE": {
+          "candidate_mean": 0.0199485058806283,
+          "reference_mean": 0.01966426921277524,
+          "paired_reduction_pct": [
+            31.010051126278537,
+            -35.428716459314245,
+            -10.472151989530865
+          ],
+          "mean_reduction_pct": -1.4454473989219174
+        }
+      },
+      "Pressure_switch": {
+        "NMSE": {
+          "candidate_mean": 0.37229954510204644,
+          "reference_mean": 0.3728015050262613,
+          "paired_reduction_pct": [
+            0.3114926013350616,
+            0.02837517934030087,
+            0.06358761240995436
+          ],
+          "mean_reduction_pct": 0.13464535884304407
+        },
+        "NMAE": {
+          "candidate_mean": 0.08769023051901104,
+          "reference_mean": 0.08708656163845058,
+          "paired_reduction_pct": [
+            0.4325279541266269,
+            -2.858288845277035,
+            0.32940567150636646
+          ],
+          "mean_reduction_pct": -0.6931825866161256
+        }
+      },
+      "Oil_level": {
+        "NMSE": {
+          "candidate_mean": 0.11334579373944045,
+          "reference_mean": 0.12014212833619173,
+          "paired_reduction_pct": [
+            -3.525857754709727,
+            20.32191117573856,
+            -2.0629648165529035
+          ],
+          "mean_reduction_pct": 5.656912101418088
+        },
+        "NMAE": {
+          "candidate_mean": 0.06365188297877944,
+          "reference_mean": 0.07352605373612968,
+          "paired_reduction_pct": [
+            -3.399345496573769,
+            39.9761199075219,
+            -6.509203592119683
+          ],
+          "mean_reduction_pct": 13.42948554370491
+        }
+      },
+      "Caudal_impulses": {
+        "NMSE": {
+          "candidate_mean": 0.014933633392512297,
+          "reference_mean": 0.014961954252660116,
+          "paired_reduction_pct": [
+            0.4432476137894992,
+            0.03392774181603109,
+            0.08843074263742423
+          ],
+          "mean_reduction_pct": 0.18928583572419555
+        },
+        "NMAE": {
+          "candidate_mean": 0.011847477935513186,
+          "reference_mean": 0.011559617371183916,
+          "paired_reduction_pct": [
+            -0.4803150146934332,
+            -8.116731900336616,
+            1.5520325746478991
+          ],
+          "mean_reduction_pct": -2.4902257149692186
+        }
+      }
+    }
+  },
+  "protect_lps_matched_vs_month_matched_drop": {
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "groups": {
+      "all": {
+        "NMSE": {
+          "candidate_mean": 0.2886324589032783,
+          "reference_mean": 0.2894901544300838,
+          "paired_reduction_pct": [
+            -0.11858178351200621,
+            0.07102678404198315,
+            0.9313085651496023
+          ],
+          "mean_reduction_pct": 0.29627796098765646
+        },
+        "NMAE": {
+          "candidate_mean": 0.19445883845231748,
+          "reference_mean": 0.19706256587339469,
+          "paired_reduction_pct": [
+            0.5034357080139995,
+            2.480859614993469,
+            0.9597593491434853
+          ],
+          "mean_reduction_pct": 1.3212694199617792
+        }
+      },
+      "high_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.5414312665231037,
+          "reference_mean": 0.5418587590910886,
+          "paired_reduction_pct": [
+            0.4529048356650245,
+            -0.03209243236150794,
+            -0.1876013340913918
+          ],
+          "mean_reduction_pct": 0.07889372660543348
+        },
+        "NMAE": {
+          "candidate_mean": 0.30294613508687923,
+          "reference_mean": 0.304485833200321,
+          "paired_reduction_pct": [
+            0.5188223481283893,
+            0.8445678130339918,
+            0.15393339438380949
+          ],
+          "mean_reduction_pct": 0.5056715109726717
+        }
+      },
+      "ordinary_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.26894501316333436,
+          "reference_mean": 0.2698362120024722,
+          "paired_reduction_pct": [
+            -0.20882386389018404,
+            0.08716869233187374,
+            1.10444195307694
+          ],
+          "mean_reduction_pct": 0.3302739956672962
+        },
+        "NMAE": {
+          "candidate_mean": 0.1860100732620237,
+          "reference_mean": 0.18869666507418342,
+          "paired_reduction_pct": [
+            0.5014792977195315,
+            2.6833343668688725,
+            1.0614111074948918
+          ],
+          "mean_reduction_pct": 1.4237622117505455
+        }
+      },
+      "month_2020-06": {
+        "NMSE": {
+          "candidate_mean": 0.20894608651858174,
+          "reference_mean": 0.2082743392181749,
+          "paired_reduction_pct": [
+            0.004314017689976968,
+            -0.8973030440113883,
+            -0.07866424046512055
+          ],
+          "mean_reduction_pct": -0.3225300355907734
+        },
+        "NMAE": {
+          "candidate_mean": 0.1634372182181773,
+          "reference_mean": 0.16470733750452157,
+          "paired_reduction_pct": [
+            0.6593197652144278,
+            1.7317638938916025,
+            -0.10180341211643018
+          ],
+          "mean_reduction_pct": 0.7711370395440897
+        }
+      },
+      "month_2020-07": {
+        "NMSE": {
+          "candidate_mean": 0.3093136644442815,
+          "reference_mean": 0.309982984303518,
+          "paired_reduction_pct": [
+            -0.026288337111912696,
+            -0.09439005488167673,
+            0.7640786299508151
+          ],
+          "mean_reduction_pct": 0.21592148380027432
+        },
+        "NMAE": {
+          "candidate_mean": 0.20122764998725284,
+          "reference_mean": 0.20300036440838654,
+          "paired_reduction_pct": [
+            0.5197650854875446,
+            1.794612117380101,
+            0.2895302916533615
+          ],
+          "mean_reduction_pct": 0.873256767937336
+        }
+      },
+      "month_2020-08": {
+        "NMSE": {
+          "candidate_mean": 0.2357069381379908,
+          "reference_mean": 0.2374203599089387,
+          "paired_reduction_pct": [
+            -0.5208765477623389,
+            0.9045847775375093,
+            1.7751632397162154
+          ],
+          "mean_reduction_pct": 0.7216827451550833
+        },
+        "NMAE": {
+          "candidate_mean": 0.17795528693116824,
+          "reference_mean": 0.1834371202201336,
+          "paired_reduction_pct": [
+            0.4218904216076069,
+            5.024040057010204,
+            3.468984494038352
+          ],
+          "mean_reduction_pct": 2.988399121392049
+        }
+      },
+      "low_quartile": {
+        "NMSE": {
+          "candidate_mean": 0.6493323006135534,
+          "reference_mean": 0.6456360811483086,
+          "paired_reduction_pct": [
+            -0.46242967819132286,
+            -1.0218639901327542,
+            -0.23844676646900265
+          ],
+          "mean_reduction_pct": -0.5724927049725714
+        },
+        "NMAE": {
+          "candidate_mean": 0.29893425415106223,
+          "reference_mean": 0.30088648312706173,
+          "paired_reduction_pct": [
+            0.2806658535933648,
+            1.559281534953716,
+            0.08783115567159161
+          ],
+          "mean_reduction_pct": 0.6488257484052906
+        }
+      },
+      "middle": {
+        "NMSE": {
+          "candidate_mean": 0.26216594651954894,
+          "reference_mean": 0.2631388999688809,
+          "paired_reduction_pct": [
+            -0.19766347271599205,
+            0.1354422985158532,
+            1.163054593960211
+          ],
+          "mean_reduction_pct": 0.3697489992726344
+        },
+        "NMAE": {
+          "candidate_mean": 0.18399759657524198,
+          "reference_mean": 0.1866972758242623,
+          "paired_reduction_pct": [
+            0.5078309762739375,
+            2.7156401814898756,
+            1.0893130965050624
+          ],
+          "mean_reduction_pct": 1.4460196256754765
+        }
+      }
+    },
+    "channels": {
+      "TP2": {
+        "NMSE": {
+          "candidate_mean": 0.4738680786673085,
+          "reference_mean": 0.4689415843881908,
+          "paired_reduction_pct": [
+            -0.3687537118643114,
+            -2.1674026274199454,
+            -0.6267214389061193
+          ],
+          "mean_reduction_pct": -1.0505560699090255
+        },
+        "NMAE": {
+          "candidate_mean": 0.3490924655284042,
+          "reference_mean": 0.3507663496617119,
+          "paired_reduction_pct": [
+            0.4310476530774876,
+            1.1478671678422092,
+            -0.1538575255409791
+          ],
+          "mean_reduction_pct": 0.47720772956755253
+        }
+      },
+      "TP3": {
+        "NMSE": {
+          "candidate_mean": 0.09678195252736031,
+          "reference_mean": 0.0982431644961656,
+          "paired_reduction_pct": [
+            -0.11353578216855009,
+            4.940909302743313,
+            -0.5590198022845438
+          ],
+          "mean_reduction_pct": 1.4873421232907469
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499958697142255,
+          "reference_mean": 0.15587767063095687,
+          "paired_reduction_pct": [
+            -0.6580859703959163,
+            4.382818745722384,
+            -2.2933289385881572
+          ],
+          "mean_reduction_pct": 0.5633158719783538
+        }
+      },
+      "H1": {
+        "NMSE": {
+          "candidate_mean": 0.431746553694713,
+          "reference_mean": 0.42898076914970995,
+          "paired_reduction_pct": [
+            -0.26231529178903923,
+            -1.0169047977900858,
+            -0.656763734019461
+          ],
+          "mean_reduction_pct": -0.6447339237339644
+        },
+        "NMAE": {
+          "candidate_mean": 0.29369108792510173,
+          "reference_mean": 0.29521817037740405,
+          "paired_reduction_pct": [
+            -0.012706109787719022,
+            1.111163314402297,
+            0.4542197256797831
+          ],
+          "mean_reduction_pct": 0.5172725142053802
+        }
+      },
+      "DV_pressure": {
+        "NMSE": {
+          "candidate_mean": 0.14426406798988226,
+          "reference_mean": 0.1443238964391272,
+          "paired_reduction_pct": [
+            -0.23484999733909273,
+            -0.10843712129497973,
+            0.464722191258804
+          ],
+          "mean_reduction_pct": 0.04145429185399285
+        },
+        "NMAE": {
+          "candidate_mean": 0.032692197878793385,
+          "reference_mean": 0.033993835938115564,
+          "paired_reduction_pct": [
+            2.4559730436673255,
+            5.999217269919632,
+            3.013975512473377
+          ],
+          "mean_reduction_pct": 3.829041422956092
+        }
+      },
+      "Reservoirs": {
+        "NMSE": {
+          "candidate_mean": 0.09672271891458636,
+          "reference_mean": 0.09831791388039761,
+          "paired_reduction_pct": [
+            0.02350814875977658,
+            4.99146880135426,
+            -0.3348588908284933
+          ],
+          "mean_reduction_pct": 1.622486587491856
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499181836563175,
+          "reference_mean": 0.1559090029910975,
+          "paired_reduction_pct": [
+            -0.7322783425670609,
+            4.603160905733416,
+            -2.4001272226081616
+          ],
+          "mean_reduction_pct": 0.588282015707664
+        }
+      },
+      "Oil_temperature": {
+        "NMSE": {
+          "candidate_mean": 0.027956972377247574,
+          "reference_mean": 0.028674478437931288,
+          "paired_reduction_pct": [
+            -1.679481248684822,
+            10.931316078489484,
+            -3.0995827488564887
+          ],
+          "mean_reduction_pct": 2.502246247431583
+        },
+        "NMAE": {
+          "candidate_mean": 0.0878253300409626,
+          "reference_mean": 0.08893069988322558,
+          "paired_reduction_pct": [
+            -1.5621062443052836,
+            5.736070801146864,
+            -0.8359080148266251
+          ],
+          "mean_reduction_pct": 1.2429564185533537
+        }
+      },
+      "Motor_current": {
+        "NMSE": {
+          "candidate_mean": 0.30248210151987526,
+          "reference_mean": 0.3017631105226491,
+          "paired_reduction_pct": [
+            -0.6683786796828572,
+            -0.3550669866111189,
+            0.3061551013703645
+          ],
+          "mean_reduction_pct": -0.23826338348014175
+        },
+        "NMAE": {
+          "candidate_mean": 0.2611139596007661,
+          "reference_mean": 0.2626674517278316,
+          "paired_reduction_pct": [
+            2.605670700117446,
+            1.7321492815009054,
+            -2.663303155498742
+          ],
+          "mean_reduction_pct": 0.5914292451716485
+        }
+      },
+      "COMP": {
+        "NMSE": {
+          "candidate_mean": 0.44155144225431986,
+          "reference_mean": 0.4388109119580883,
+          "paired_reduction_pct": [
+            -0.2545532453799071,
+            -1.2134114307511101,
+            -0.4105372002246144
+          ],
+          "mean_reduction_pct": -0.624535585043362
+        },
+        "NMAE": {
+          "candidate_mean": 0.328907269828234,
+          "reference_mean": 0.3313240803189446,
+          "paired_reduction_pct": [
+            0.5319775708689911,
+            1.1844834362445322,
+            0.4686614595897143
+          ],
+          "mean_reduction_pct": 0.7294400359865505
+        }
+      },
+      "DV_eletric": {
+        "NMSE": {
+          "candidate_mean": 0.43579279188325765,
+          "reference_mean": 0.43441824867504314,
+          "paired_reduction_pct": [
+            0.2647897048345227,
+            -1.3595999474701026,
+            0.13490451184702268
+          ],
+          "mean_reduction_pct": -0.31641009842628964
+        },
+        "NMAE": {
+          "candidate_mean": 0.32553547123815074,
+          "reference_mean": 0.32777668885029027,
+          "paired_reduction_pct": [
+            0.2465779087103548,
+            1.8477039702418985,
+            -0.05856464679687701
+          ],
+          "mean_reduction_pct": 0.6837635769648021
+        }
+      },
+      "Towers": {
+        "NMSE": {
+          "candidate_mean": 0.7592051213112715,
+          "reference_mean": 0.7592794462244351,
+          "paired_reduction_pct": [
+            0.6175505306379336,
+            -1.1865731190857876,
+            0.5757560837898468
+          ],
+          "mean_reduction_pct": 0.009788874640714873
+        },
+        "NMAE": {
+          "candidate_mean": 0.4259829418862309,
+          "reference_mean": 0.4303600918036928,
+          "paired_reduction_pct": [
+            0.8336683340889328,
+            1.3856952002138323,
+            0.8225370349534633
+          ],
+          "mean_reduction_pct": 1.0170901068258131
+        }
+      },
+      "MPG": {
+        "NMSE": {
+          "candidate_mean": 0.42378150031634276,
+          "reference_mean": 0.4216204642556758,
+          "paired_reduction_pct": [
+            -0.13931650087055658,
+            -1.0954759687033633,
+            -0.3066090109018038
+          ],
+          "mean_reduction_pct": -0.512554831626133
+        },
+        "NMAE": {
+          "candidate_mean": 0.3189123502071315,
+          "reference_mean": 0.32155577797358614,
+          "paired_reduction_pct": [
+            0.6410808276318236,
+            1.4179794325889006,
+            0.4028417829790243
+          ],
+          "mean_reduction_pct": 0.8220744105776223
+        }
+      },
+      "LPS": {
+        "NMSE": {
+          "candidate_mean": 0.19475460985901175,
+          "reference_mean": 0.20934614887309352,
+          "paired_reduction_pct": [
+            -0.18143699103960742,
+            7.3500041477496225,
+            12.796678949152218
+          ],
+          "mean_reduction_pct": 6.970053708954172
+        },
+        "NMAE": {
+          "candidate_mean": 0.0199485058806283,
+          "reference_mean": 0.02345744426555282,
+          "paired_reduction_pct": [
+            8.62440390864836,
+            12.851348342880332,
+            20.74945696444981
+          ],
+          "mean_reduction_pct": 14.958741221768069
+        }
+      },
+      "Pressure_switch": {
+        "NMSE": {
+          "candidate_mean": 0.37229954510204644,
+          "reference_mean": 0.37245374068733206,
+          "paired_reduction_pct": [
+            0.25277243973396146,
+            -0.2878875151091753,
+            0.15798477402508837
+          ],
+          "mean_reduction_pct": 0.041399929290830695
+        },
+        "NMAE": {
+          "candidate_mean": 0.08769023051901104,
+          "reference_mean": 0.08660784456409834,
+          "paired_reduction_pct": [
+            -0.18277904360504138,
+            -4.340848200329761,
+            0.7084766654457564
+          ],
+          "mean_reduction_pct": -1.249755100545924
+        }
+      },
+      "Oil_level": {
+        "NMSE": {
+          "candidate_mean": 0.11334579373944045,
+          "reference_mean": 0.12227178065859981,
+          "paired_reduction_pct": [
+            -3.4606932417187597,
+            12.75240960169458,
+            12.414571614292125
+          ],
+          "mean_reduction_pct": 7.300120167614132
+        },
+        "NMAE": {
+          "candidate_mean": 0.06365188297877944,
+          "reference_mean": 0.07970313079670231,
+          "paired_reduction_pct": [
+            -1.3625173897104936,
+            29.456201923155124,
+            30.294830126959948
+          ],
+          "mean_reduction_pct": 20.138792112024518
+        }
+      },
+      "Caudal_impulses": {
+        "NMSE": {
+          "candidate_mean": 0.014933633392512297,
+          "reference_mean": 0.014906657804817241,
+          "paired_reduction_pct": [
+            0.18699339433403406,
+            -0.7504950057411586,
+            0.010642674262306695
+          ],
+          "mean_reduction_pct": -0.18096335240445072
+        },
+        "NMAE": {
+          "candidate_mean": 0.011847477935513186,
+          "reference_mean": 0.011790248317710039,
+          "paired_reduction_pct": [
+            4.362806901070682,
+            -25.177210647820214,
+            15.294526318247959
+          ],
+          "mean_reduction_pct": -0.48539790054449306
+        }
+      }
+    }
+  },
+  "protect_lps_matched_vs_placebo_matched_swap": {
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "groups": {
+      "all": {
+        "NMSE": {
+          "candidate_mean": 0.2886324589032783,
+          "reference_mean": 0.28845420933223875,
+          "paired_reduction_pct": [
+            -0.592299280972175,
+            -0.11593019717270892,
+            0.5181038417455541
+          ],
+          "mean_reduction_pct": -0.06179475468643947
+        },
+        "NMAE": {
+          "candidate_mean": 0.19445883845231748,
+          "reference_mean": 0.1938293677790697,
+          "paired_reduction_pct": [
+            -1.4018179286382715,
+            -0.11954916041436725,
+            0.5312787392798279
+          ],
+          "mean_reduction_pct": -0.32475505670805926
+        }
+      },
+      "high_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.5414312665231037,
+          "reference_mean": 0.5390944053488111,
+          "paired_reduction_pct": [
+            -1.9960676264670463,
+            -0.13631525899280295,
+            0.7969483716313119
+          ],
+          "mean_reduction_pct": -0.4334790254001186
+        },
+        "NMAE": {
+          "candidate_mean": 0.30294613508687923,
+          "reference_mean": 0.29897154652352315,
+          "paired_reduction_pct": [
+            -3.237048656133079,
+            -0.43469855999052065,
+            -0.35800534154539765
+          ],
+          "mean_reduction_pct": -1.3294203443682484
+        }
+      },
+      "ordinary_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.26894501316333436,
+          "reference_mean": 0.268934871777665,
+          "paired_reduction_pct": [
+            -0.37559583761357374,
+            -0.11273613683504546,
+            0.4742512308034019
+          ],
+          "mean_reduction_pct": -0.0037709448396539003
+        },
+        "NMAE": {
+          "candidate_mean": 0.1860100732620237,
+          "reference_mean": 0.18564111341782344,
+          "paired_reduction_pct": [
+            -1.1731733538494549,
+            -0.07995608636015561,
+            0.6433577517963696
+          ],
+          "mean_reduction_pct": -0.19874899337080087
+        }
+      },
+      "month_2020-06": {
+        "NMSE": {
+          "candidate_mean": 0.20894608651858174,
+          "reference_mean": 0.20847229578178844,
+          "paired_reduction_pct": [
+            -0.31746598458337605,
+            -0.6428470669010977,
+            0.2748050594696405
+          ],
+          "mean_reduction_pct": -0.22726796144136863
+        },
+        "NMAE": {
+          "candidate_mean": 0.1634372182181773,
+          "reference_mean": 0.16296994189400849,
+          "paired_reduction_pct": [
+            -0.5551039391178403,
+            -0.4425097172969128,
+            0.13602328905429895
+          ],
+          "mean_reduction_pct": -0.2867254652840989
+        }
+      },
+      "month_2020-07": {
+        "NMSE": {
+          "candidate_mean": 0.3093136644442815,
+          "reference_mean": 0.3094104542041968,
+          "paired_reduction_pct": [
+            -0.2370706204870121,
+            -0.01726584897678851,
+            0.34637444103496895
+          ],
+          "mean_reduction_pct": 0.03128199406328136
+        },
+        "NMAE": {
+          "candidate_mean": 0.20122764998725284,
+          "reference_mean": 0.20064802885998825,
+          "paired_reduction_pct": [
+            -0.8373238094265156,
+            -0.16319784666267712,
+            0.12827782243454156
+          ],
+          "mean_reduction_pct": -0.2888745683462757
+        }
+      },
+      "month_2020-08": {
+        "NMSE": {
+          "candidate_mean": 0.2357069381379908,
+          "reference_mean": 0.23469821859622117,
+          "paired_reduction_pct": [
+            -2.1328674925465085,
+            -0.457228933337972,
+            1.2707195104598945
+          ],
+          "mean_reduction_pct": -0.4297942897917961
+        },
+        "NMAE": {
+          "candidate_mean": 0.17795528693116824,
+          "reference_mean": 0.1771395506442786,
+          "paired_reduction_pct": [
+            -3.595903711657278,
+            0.08960649432079304,
+            2.0242168742798605
+          ],
+          "mean_reduction_pct": -0.46050488664033384
+        }
+      },
+      "low_quartile": {
+        "NMSE": {
+          "candidate_mean": 0.6493323006135534,
+          "reference_mean": 0.6469647977659368,
+          "paired_reduction_pct": [
+            -0.7701972196460183,
+            -0.0729990109371137,
+            -0.256037917169305
+          ],
+          "mean_reduction_pct": -0.3659399793917606
+        },
+        "NMAE": {
+          "candidate_mean": 0.29893425415106223,
+          "reference_mean": 0.30049411554915073,
+          "paired_reduction_pct": [
+            0.8130038881694834,
+            0.04699941836244781,
+            0.6968833167207755
+          ],
+          "mean_reduction_pct": 0.5190988167065647
+        }
+      },
+      "middle": {
+        "NMSE": {
+          "candidate_mean": 0.26216594651954894,
+          "reference_mean": 0.2621978168177114,
+          "paired_reduction_pct": [
+            -0.35825596539174054,
+            -0.11448657129664586,
+            0.5063320927902626
+          ],
+          "mean_reduction_pct": 0.012155058554375042
+        },
+        "NMAE": {
+          "candidate_mean": 0.18399759657524198,
+          "reference_mean": 0.18359426227065148,
+          "paired_reduction_pct": [
+            -1.231616408270808,
+            -0.0836530448209638,
+            0.6418073624586795
+          ],
+          "mean_reduction_pct": -0.2196878593057061
+        }
+      }
+    },
+    "channels": {
+      "TP2": {
+        "NMSE": {
+          "candidate_mean": 0.4738680786673085,
+          "reference_mean": 0.4700063296368721,
+          "paired_reduction_pct": [
+            -0.6139036837230494,
+            -1.2653382692471737,
+            -0.5856958005502788
+          ],
+          "mean_reduction_pct": -0.8216376646289048
+        },
+        "NMAE": {
+          "candidate_mean": 0.3490924655284042,
+          "reference_mean": 0.34419214579387225,
+          "paired_reduction_pct": [
+            -2.313209453866527,
+            -0.5541051694396337,
+            -1.4277658134346227
+          ],
+          "mean_reduction_pct": -1.4237163149755983
+        }
+      },
+      "TP3": {
+        "NMSE": {
+          "candidate_mean": 0.09678195252736031,
+          "reference_mean": 0.09872361341616968,
+          "paired_reduction_pct": [
+            0.13790067709784637,
+            -0.10624216906824913,
+            5.622073622997037
+          ],
+          "mean_reduction_pct": 1.96676440582082
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499958697142255,
+          "reference_mean": 0.15871941059440556,
+          "paired_reduction_pct": [
+            0.5772513429763926,
+            0.28413882358210296,
+            5.937179165403828
+          ],
+          "mean_reduction_pct": 2.3436475784859856
+        }
+      },
+      "H1": {
+        "NMSE": {
+          "candidate_mean": 0.431746553694713,
+          "reference_mean": 0.42909182708655774,
+          "paired_reduction_pct": [
+            -0.6871356589136957,
+            -0.3777602208628661,
+            -0.7917101851562469
+          ],
+          "mean_reduction_pct": -0.6186849621863555
+        },
+        "NMAE": {
+          "candidate_mean": 0.29369108792510173,
+          "reference_mean": 0.28893800590043794,
+          "paired_reduction_pct": [
+            -3.1081805706986154,
+            -0.4207229929096279,
+            -1.4259623116902764
+          ],
+          "mean_reduction_pct": -1.6450179372739182
+        }
+      },
+      "DV_pressure": {
+        "NMSE": {
+          "candidate_mean": 0.14426406798988226,
+          "reference_mean": 0.14392748880441097,
+          "paired_reduction_pct": [
+            -0.10490154509854577,
+            0.03265517643322724,
+            -0.6311018615178465
+          ],
+          "mean_reduction_pct": -0.2338533022893774
+        },
+        "NMAE": {
+          "candidate_mean": 0.032692197878793385,
+          "reference_mean": 0.032989171604932095,
+          "paired_reduction_pct": [
+            6.546864984890566,
+            -0.5770548252922003,
+            -3.762785305639116
+          ],
+          "mean_reduction_pct": 0.9002157729062543
+        }
+      },
+      "Reservoirs": {
+        "NMSE": {
+          "candidate_mean": 0.09672271891458636,
+          "reference_mean": 0.09877117017253166,
+          "paired_reduction_pct": [
+            0.286589840614615,
+            -0.1128383058297322,
+            5.795585556814531
+          ],
+          "mean_reduction_pct": 2.0739364071186928
+        },
+        "NMAE": {
+          "candidate_mean": 0.15499181836563175,
+          "reference_mean": 0.15825067970616694,
+          "paired_reduction_pct": [
+            0.4639630533770478,
+            0.16966984665037765,
+            5.3570209310721655
+          ],
+          "mean_reduction_pct": 2.059303218530306
+        }
+      },
+      "Oil_temperature": {
+        "NMSE": {
+          "candidate_mean": 0.027956972377247574,
+          "reference_mean": 0.029197565032540066,
+          "paired_reduction_pct": [
+            2.0482177979379457,
+            0.20655690514533864,
+            9.931115644351662
+          ],
+          "mean_reduction_pct": 4.248959301605726
+        },
+        "NMAE": {
+          "candidate_mean": 0.0878253300409626,
+          "reference_mean": 0.09016732962903903,
+          "paired_reduction_pct": [
+            0.5892296202756997,
+            0.46843117513624133,
+            6.555337341569933
+          ],
+          "mean_reduction_pct": 2.597392645109653
+        }
+      },
+      "Motor_current": {
+        "NMSE": {
+          "candidate_mean": 0.30248210151987526,
+          "reference_mean": 0.30263621304968263,
+          "paired_reduction_pct": [
+            -0.37648659057856193,
+            0.05701848139879617,
+            0.47102515636160414
+          ],
+          "mean_reduction_pct": 0.050923030081029275
+        },
+        "NMAE": {
+          "candidate_mean": 0.2611139596007661,
+          "reference_mean": 0.25890573021408003,
+          "paired_reduction_pct": [
+            0.10182071724914588,
+            -0.2428802457947965,
+            -2.4265537476603427
+          ],
+          "mean_reduction_pct": -0.852908657085405
+        }
+      },
+      "COMP": {
+        "NMSE": {
+          "candidate_mean": 0.44155144225431986,
+          "reference_mean": 0.439451061202756,
+          "paired_reduction_pct": [
+            -0.25252815278484775,
+            -0.6358191170809935,
+            -0.5456162390303998
+          ],
+          "mean_reduction_pct": -0.47795562168293504
+        },
+        "NMAE": {
+          "candidate_mean": 0.328907269828234,
+          "reference_mean": 0.3238834858536589,
+          "paired_reduction_pct": [
+            -2.8809225805546346,
+            -0.5747423632853632,
+            -1.2131596548534018
+          ],
+          "mean_reduction_pct": -1.551108405954671
+        }
+      },
+      "DV_eletric": {
+        "NMSE": {
+          "candidate_mean": 0.43579279188325765,
+          "reference_mean": 0.43367549310535664,
+          "paired_reduction_pct": [
+            -0.04438993108029088,
+            -1.1219244341206913,
+            -0.30119770758219033
+          ],
+          "mean_reduction_pct": -0.48822191052115826
+        },
+        "NMAE": {
+          "candidate_mean": 0.32553547123815074,
+          "reference_mean": 0.3219612085036397,
+          "paired_reduction_pct": [
+            -2.5411227114573665,
+            -0.35070729660779953,
+            -0.4531142283566325
+          ],
+          "mean_reduction_pct": -1.1101532234653266
+        }
+      },
+      "Towers": {
+        "NMSE": {
+          "candidate_mean": 0.7592051213112715,
+          "reference_mean": 0.7612523301263904,
+          "paired_reduction_pct": [
+            -0.12196539706108567,
+            -0.2131305632165681,
+            1.1339779025250518
+          ],
+          "mean_reduction_pct": 0.2689264431911753
+        },
+        "NMAE": {
+          "candidate_mean": 0.4259829418862309,
+          "reference_mean": 0.4299339071719489,
+          "paired_reduction_pct": [
+            2.6281404498597505,
+            -0.4085849416337828,
+            0.514474936050191
+          ],
+          "mean_reduction_pct": 0.9189703858685894
+        }
+      },
+      "MPG": {
+        "NMSE": {
+          "candidate_mean": 0.42378150031634276,
+          "reference_mean": 0.42183619314418863,
+          "paired_reduction_pct": [
+            -0.1580119927705903,
+            -0.5846990648390893,
+            -0.641040657170544
+          ],
+          "mean_reduction_pct": -0.4611522680532998
+        },
+        "NMAE": {
+          "candidate_mean": 0.3189123502071315,
+          "reference_mean": 0.31404841426386876,
+          "paired_reduction_pct": [
+            -2.72404368677448,
+            -0.7520392383433716,
+            -1.1786713606910748
+          ],
+          "mean_reduction_pct": -1.5487853854202038
+        }
+      },
+      "LPS": {
+        "NMSE": {
+          "candidate_mean": 0.19475460985901175,
+          "reference_mean": 0.20207759267935121,
+          "paired_reduction_pct": [
+            1.5251089093188064,
+            6.893789789105287,
+            2.2186725186990386
+          ],
+          "mean_reduction_pct": 3.6238470199708384
+        },
+        "NMAE": {
+          "candidate_mean": 0.0199485058806283,
+          "reference_mean": 0.025505846692795875,
+          "paired_reduction_pct": [
+            37.39310185497345,
+            25.28265372541333,
+            -0.6095173791064834
+          ],
+          "mean_reduction_pct": 21.788497669192232
+        }
+      },
+      "Pressure_switch": {
+        "NMSE": {
+          "candidate_mean": 0.37229954510204644,
+          "reference_mean": 0.37167022227656743,
+          "paired_reduction_pct": [
+            -0.00024018061790531675,
+            -0.35340851796119566,
+            -0.15481034629658552
+          ],
+          "mean_reduction_pct": -0.16932290717945886
+        },
+        "NMAE": {
+          "candidate_mean": 0.08769023051901104,
+          "reference_mean": 0.08687777753324472,
+          "paired_reduction_pct": [
+            -1.5548446881860523,
+            -0.5191722982767821,
+            -0.7460436617898747
+          ],
+          "mean_reduction_pct": -0.9351677826420213
+        }
+      },
+      "Oil_level": {
+        "NMSE": {
+          "candidate_mean": 0.11334579373944045,
+          "reference_mean": 0.1096245579863075,
+          "paired_reduction_pct": [
+            -18.46031771853123,
+            0.9913285476946365,
+            6.193666045285662
+          ],
+          "mean_reduction_pct": -3.3945274868043107
+        },
+        "NMAE": {
+          "candidate_mean": 0.06365188297877944,
+          "reference_mean": 0.06151215353786908,
+          "paired_reduction_pct": [
+            -39.04441360784796,
+            1.8270311590196098,
+            18.390643767012282
+          ],
+          "mean_reduction_pct": -3.4785474379352754
+        }
+      },
+      "Caudal_impulses": {
+        "NMSE": {
+          "candidate_mean": 0.014933633392512297,
+          "reference_mean": 0.014871482263901717,
+          "paired_reduction_pct": [
+            -0.2708584074689657,
+            -0.6275234971799826,
+            -0.3579188947881784
+          ],
+          "mean_reduction_pct": -0.4179215461356023
+        },
+        "NMAE": {
+          "candidate_mean": 0.011847477935513186,
+          "reference_mean": 0.011555249686086018,
+          "paired_reduction_pct": [
+            -4.996818278493675,
+            -13.351151619133184,
+            10.750571410017551
+          ],
+          "mean_reduction_pct": -2.5289652527287876
+        }
+      }
+    }
+  },
+  "placebo_matched_swap_vs_uniform": {
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "groups": {
+      "all": {
+        "NMSE": {
+          "candidate_mean": 0.28845420933223875,
+          "reference_mean": 0.2877519517131628,
+          "paired_reduction_pct": [
+            0.20716699364152769,
+            0.11448778022126183,
+            -1.0577644119383889
+          ],
+          "mean_reduction_pct": -0.2440496458477437
+        },
+        "NMAE": {
+          "candidate_mean": 0.1938293677790697,
+          "reference_mean": 0.19628300401959425,
+          "paired_reduction_pct": [
+            1.4607882583904108,
+            1.9884302259164044,
+            0.29354894561797185
+          ],
+          "mean_reduction_pct": 1.2500502795848911
+        }
+      },
+      "high_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.5390944053488111,
+          "reference_mean": 0.5401402739450016,
+          "paired_reduction_pct": [
+            1.5951944250296113,
+            -0.20477409896004772,
+            -0.8103944700494248
+          ],
+          "mean_reduction_pct": 0.19362907130620055
+        },
+        "NMAE": {
+          "candidate_mean": 0.29897154652352315,
+          "reference_mean": 0.30197674800533664,
+          "paired_reduction_pct": [
+            2.428912807452799,
+            0.5747326920724771,
+            -0.017246956079408626
+          ],
+          "mean_reduction_pct": 0.9951764503935867
+        }
+      },
+      "ordinary_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.268934871777665,
+          "reference_mean": 0.2680964737221142,
+          "paired_reduction_pct": [
+            -0.0106030583195027,
+            0.1643274875255396,
+            -1.0967776729018386
+          ],
+          "mean_reduction_pct": -0.31272252257215083
+        },
+        "NMAE": {
+          "candidate_mean": 0.18564111341782344,
+          "reference_mean": 0.1880517949036869,
+          "paired_reduction_pct": [
+            1.3388256797640108,
+            2.1631993516480152,
+            0.3325824344721062
+          ],
+          "mean_reduction_pct": 1.2819242098157657
+        }
+      },
+      "month_2020-06": {
+        "NMSE": {
+          "candidate_mean": 0.20847229578178844,
+          "reference_mean": 0.2078015642386381,
+          "paired_reduction_pct": [
+            -0.2859579690787317,
+            -0.08222967552458105,
+            -0.599432844711667
+          ],
+          "mean_reduction_pct": -0.3227750212602132
+        },
+        "NMAE": {
+          "candidate_mean": 0.16296994189400849,
+          "reference_mean": 0.1648137475068105,
+          "paired_reduction_pct": [
+            0.7574813356592713,
+            1.3528370320607719,
+            1.2412590743298813
+          ],
+          "mean_reduction_pct": 1.1187207624933193
+        }
+      },
+      "month_2020-07": {
+        "NMSE": {
+          "candidate_mean": 0.3094104542041968,
+          "reference_mean": 0.30836241560812383,
+          "paired_reduction_pct": [
+            0.10417896272078009,
+            -0.3981243721513428,
+            -0.7265200506466618
+          ],
+          "mean_reduction_pct": -0.33987235247401326
+        },
+        "NMAE": {
+          "candidate_mean": 0.20064802885998825,
+          "reference_mean": 0.20261061158620416,
+          "paired_reduction_pct": [
+            1.0699494853257274,
+            1.018836501992093,
+            0.8178725893127181
+          ],
+          "mean_reduction_pct": 0.9686475505163217
+        }
+      },
+      "month_2020-08": {
+        "NMSE": {
+          "candidate_mean": 0.23469821859622117,
+          "reference_mean": 0.23509636841237005,
+          "paired_reduction_pct": [
+            0.7115057934341862,
+            2.263027770531656,
+            -2.5339715745768876
+          ],
+          "mean_reduction_pct": 0.169356004449428
+        },
+        "NMAE": {
+          "candidate_mean": 0.1771395506442786,
+          "reference_mean": 0.18126436119193798,
+          "paired_reduction_pct": [
+            2.9681283721483154,
+            5.465857308358579,
+            -1.766531902514079
+          ],
+          "mean_reduction_pct": 2.2755772400795737
+        }
+      },
+      "low_quartile": {
+        "NMSE": {
+          "candidate_mean": 0.6469647977659368,
+          "reference_mean": 0.6458318524577809,
+          "paired_reduction_pct": [
+            0.11003677766006081,
+            -0.227102300814086,
+            -0.4091517675094192
+          ],
+          "mean_reduction_pct": -0.1754241918921151
+        },
+        "NMAE": {
+          "candidate_mean": 0.30049411554915073,
+          "reference_mean": 0.3008801771887945,
+          "paired_reduction_pct": [
+            -0.17353836871847328,
+            0.5124269368884549,
+            0.043952266779234694
+          ],
+          "mean_reduction_pct": 0.12831075920349821
+        }
+      },
+      "middle": {
+        "NMSE": {
+          "candidate_mean": 0.2621978168177114,
+          "reference_mean": 0.261364668031842,
+          "paired_reduction_pct": [
+            -0.01591098934490276,
+            0.1814998141831503,
+            -1.1272003969198252
+          ],
+          "mean_reduction_pct": -0.3187687119851734
+        },
+        "NMAE": {
+          "candidate_mean": 0.18359426227065148,
+          "reference_mean": 0.18604102549036533,
+          "paired_reduction_pct": [
+            1.3826355156825398,
+            2.210449573319073,
+            0.34091788430755665
+          ],
+          "mean_reduction_pct": 1.3151740124333844
+        }
+      }
+    },
+    "channels": {
+      "TP2": {
+        "NMSE": {
+          "candidate_mean": 0.4700063296368721,
+          "reference_mean": 0.4669343012874061,
+          "paired_reduction_pct": [
+            -0.6828183246703645,
+            -0.642811332519666,
+            -0.648144486242308
+          ],
+          "mean_reduction_pct": -0.657914473405774
+        },
+        "NMAE": {
+          "candidate_mean": 0.34419214579387225,
+          "reference_mean": 0.3509581048069639,
+          "paired_reduction_pct": [
+            2.7901875734513304,
+            1.3402432287022426,
+            1.6634018941891537
+          ],
+          "mean_reduction_pct": 1.9278537581609911
+        }
+      },
+      "TP3": {
+        "NMSE": {
+          "candidate_mean": 0.09872361341616968,
+          "reference_mean": 0.09699264944923458,
+          "paired_reduction_pct": [
+            0.2081595190433494,
+            0.8462673607966931,
+            -6.421554513876648
+          ],
+          "mean_reduction_pct": -1.7846341725525017
+        },
+        "NMAE": {
+          "candidate_mean": 0.15871941059440556,
+          "reference_mean": 0.15722053264288993,
+          "paired_reduction_pct": [
+            0.8133574647898878,
+            0.7707615485121333,
+            -4.4026460313015825
+          ],
+          "mean_reduction_pct": -0.9533601790550961
+        }
+      },
+      "H1": {
+        "NMSE": {
+          "candidate_mean": 0.42909182708655774,
+          "reference_mean": 0.42781425161525544,
+          "paired_reduction_pct": [
+            -0.02235619917774212,
+            -0.66501131787855,
+            -0.2090328116746809
+          ],
+          "mean_reduction_pct": -0.2986285441587633
+        },
+        "NMAE": {
+          "candidate_mean": 0.28893800590043794,
+          "reference_mean": 0.2967713090943956,
+          "paired_reduction_pct": [
+            2.5088773808408127,
+            3.001324345258527,
+            2.404227069735143
+          ],
+          "mean_reduction_pct": 2.6395082522839397
+        }
+      },
+      "DV_pressure": {
+        "NMSE": {
+          "candidate_mean": 0.14392748880441097,
+          "reference_mean": 0.144396761881816,
+          "paired_reduction_pct": [
+            -0.3062533196592998,
+            0.2381512371749661,
+            1.0381926645747885
+          ],
+          "mean_reduction_pct": 0.32498864329735255
+        },
+        "NMAE": {
+          "candidate_mean": 0.032989171604932095,
+          "reference_mean": 0.03334237000006049,
+          "paired_reduction_pct": [
+            -6.6795813159650885,
+            4.010206116425763,
+            5.614281578853597
+          ],
+          "mean_reduction_pct": 1.0593080069825622
+        }
+      },
+      "Reservoirs": {
+        "NMSE": {
+          "candidate_mean": 0.09877117017253166,
+          "reference_mean": 0.09703844480373912,
+          "paired_reduction_pct": [
+            0.309075147622373,
+            0.901517177939426,
+            -6.589789939569779
+          ],
+          "mean_reduction_pct": -1.7856071089113135
+        },
+        "NMAE": {
+          "candidate_mean": 0.15825067970616694,
+          "reference_mean": 0.156927397207401,
+          "paired_reduction_pct": [
+            0.44126487458333585,
+            0.831154973630921,
+            -3.7686654914524276
+          ],
+          "mean_reduction_pct": -0.8432450434496364
+        }
+      },
+      "Oil_temperature": {
+        "NMSE": {
+          "candidate_mean": 0.029197565032540066,
+          "reference_mean": 0.0283557768757932,
+          "paired_reduction_pct": [
+            1.2114288333033074,
+            0.2920574682935051,
+            -10.525222606891905
+          ],
+          "mean_reduction_pct": -2.968665469594245
+        },
+        "NMAE": {
+          "candidate_mean": 0.09016732962903903,
+          "reference_mean": 0.08782252908911965,
+          "paired_reduction_pct": [
+            -0.7472942999705356,
+            -1.8273890926579162,
+            -5.426891379768017
+          ],
+          "mean_reduction_pct": -2.6699305568164133
+        }
+      },
+      "Motor_current": {
+        "NMSE": {
+          "candidate_mean": 0.30263621304968263,
+          "reference_mean": 0.3009684096654297,
+          "paired_reduction_pct": [
+            -0.8164693545261725,
+            -0.03833825009835756,
+            -0.8104404226024764
+          ],
+          "mean_reduction_pct": -0.5541456613692208
+        },
+        "NMAE": {
+          "candidate_mean": 0.25890573021408003,
+          "reference_mean": 0.2658941104791121,
+          "paired_reduction_pct": [
+            3.3737934631957955,
+            1.507606045674914,
+            2.9935139446001013
+          ],
+          "mean_reduction_pct": 2.628256884832747
+        }
+      },
+      "COMP": {
+        "NMSE": {
+          "candidate_mean": 0.439451061202756,
+          "reference_mean": 0.4376465382054995,
+          "paired_reduction_pct": [
+            -0.7133970985312654,
+            -0.2342486757173745,
+            -0.29066916245157337
+          ],
+          "mean_reduction_pct": -0.41232429363105005
+        },
+        "NMAE": {
+          "candidate_mean": 0.3238834858536589,
+          "reference_mean": 0.33228460036170404,
+          "paired_reduction_pct": [
+            1.908990527984622,
+            2.6698329848871882,
+            2.996355132110884
+          ],
+          "mean_reduction_pct": 2.528288852056404
+        }
+      },
+      "DV_eletric": {
+        "NMSE": {
+          "candidate_mean": 0.43367549310535664,
+          "reference_mean": 0.4324176008277807,
+          "paired_reduction_pct": [
+            -0.7282011941314837,
+            0.2725022982911107,
+            -0.41963775637712253
+          ],
+          "mean_reduction_pct": -0.2908975664191127
+        },
+        "NMAE": {
+          "candidate_mean": 0.3219612085036397,
+          "reference_mean": 0.3266363890496419,
+          "paired_reduction_pct": [
+            0.952425828854353,
+            1.841729962711569,
+            1.490867387671302
+          ],
+          "mean_reduction_pct": 1.431310381432016
+        }
+      },
+      "Towers": {
+        "NMSE": {
+          "candidate_mean": 0.7612523301263904,
+          "reference_mean": 0.7575547815863591,
+          "paired_reduction_pct": [
+            0.22669502495762384,
+            -0.8532750544372858,
+            -0.845143377389701
+          ],
+          "mean_reduction_pct": -0.488089921667223
+        },
+        "NMAE": {
+          "candidate_mean": 0.4299339071719489,
+          "reference_mean": 0.4219914575475579,
+          "paired_reduction_pct": [
+            -3.773565245942989,
+            -1.4219605055142637,
+            -0.4725371937240874
+          ],
+          "mean_reduction_pct": -1.8821351670361475
+        }
+      },
+      "MPG": {
+        "NMSE": {
+          "candidate_mean": 0.42183619314418863,
+          "reference_mean": 0.4209678227696477,
+          "paired_reduction_pct": [
+            -0.39859164705784433,
+            -0.20052331771758247,
+            -0.020196237483016688
+          ],
+          "mean_reduction_pct": -0.20627951296317004
+        },
+        "NMAE": {
+          "candidate_mean": 0.31404841426386876,
+          "reference_mean": 0.32255975805652826,
+          "paired_reduction_pct": [
+            1.654817936658226,
+            3.0617501369005318,
+            3.1791239070128374
+          ],
+          "mean_reduction_pct": 2.6386874308009345
+        }
+      },
+      "LPS": {
+        "NMSE": {
+          "candidate_mean": 0.20207759267935121,
+          "reference_mean": 0.19728634911436904,
+          "paired_reduction_pct": [
+            1.993273881669344,
+            -5.729348484386443,
+            -3.6037374085440277
+          ],
+          "mean_reduction_pct": -2.428573282688018
+        },
+        "NMAE": {
+          "candidate_mean": 0.025505846692795875,
+          "reference_mean": 0.01966426921277524,
+          "paired_reduction_pct": [
+            -10.195443182488972,
+            -81.25471956888421,
+            -9.802884326798832
+          ],
+          "mean_reduction_pct": -29.706557700224877
+        }
+      },
+      "Pressure_switch": {
+        "NMSE": {
+          "candidate_mean": 0.37167022227656743,
+          "reference_mean": 0.3728015050262613,
+          "paired_reduction_pct": [
+            0.31173203323303644,
+            0.38043919278851757,
+            0.2180603786791635
+          ],
+          "mean_reduction_pct": 0.30345444812894806
+        },
+        "NMAE": {
+          "candidate_mean": 0.08687777753324472,
+          "reference_mean": 0.08708656163845058,
+          "paired_reduction_pct": [
+            1.9569451840674934,
+            -2.3270352247422466,
+            1.0674854259355215
+          ],
+          "mean_reduction_pct": 0.23974319490606133
+        }
+      },
+      "Oil_level": {
+        "NMSE": {
+          "candidate_mean": 0.1096245579863075,
+          "reference_mean": 0.12014212833619173,
+          "paired_reduction_pct": [
+            12.607141574030445,
+            19.524130911458492,
+            -8.801783966767651
+          ],
+          "mean_reduction_pct": 8.754273372328713
+        },
+        "NMAE": {
+          "candidate_mean": 0.06151215353786908,
+          "reference_mean": 0.07352605373612968,
+          "paired_reduction_pct": [
+            25.635742700030562,
+            38.85905580618206,
+            -30.511020437466808
+          ],
+          "mean_reduction_pct": 16.339650488214808
+        }
+      },
+      "Caudal_impulses": {
+        "NMSE": {
+          "candidate_mean": 0.014871482263901717,
+          "reference_mean": 0.014961954252660116,
+          "paired_reduction_pct": [
+            0.7121770298969321,
+            0.6573263616236558,
+            0.4447577653473922
+          ],
+          "mean_reduction_pct": 0.6046802926316541
+        },
+        "NMAE": {
+          "candidate_mean": 0.011555249686086018,
+          "reference_mean": 0.011559617371183916,
+          "paired_reduction_pct": [
+            4.301562026213657,
+            4.617879610420306,
+            -10.306552076236052
+          ],
+          "mean_reduction_pct": 0.037783993688111916
+        }
+      }
+    }
+  },
+  "placebo_matched_swap_vs_month_matched_drop": {
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "groups": {
+      "all": {
+        "NMSE": {
+          "candidate_mean": 0.28845420933223875,
+          "reference_mean": 0.2894901544300838,
+          "paired_reduction_pct": [
+            0.47092819315821544,
+            0.18674049259341796,
+            0.4153567024363092
+          ],
+          "mean_reduction_pct": 0.35785158216675717
+        },
+        "NMAE": {
+          "candidate_mean": 0.1938293677790697,
+          "reference_mean": 0.19706256587339469,
+          "paired_reduction_pct": [
+            1.8789146738898643,
+            2.5973037206164395,
+            0.4307691950121262
+          ],
+          "mean_reduction_pct": 1.640696232688954
+        }
+      },
+      "high_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.5390944053488111,
+          "reference_mean": 0.5418587590910886,
+          "paired_reduction_pct": [
+            2.401045961007786,
+            0.10408094841690696,
+            -0.9924590922978815
+          ],
+          "mean_reduction_pct": 0.5101613097321489
+        },
+        "NMAE": {
+          "candidate_mean": 0.29897154652352315,
+          "reference_mean": 0.304485833200321,
+          "paired_reduction_pct": [
+            3.638103813652893,
+            1.273729489276454,
+            0.5101125059101541
+          ],
+          "mean_reduction_pct": 1.8110158422937284
+        }
+      },
+      "ordinary_input_variation": {
+        "NMSE": {
+          "candidate_mean": 0.268934871777665,
+          "reference_mean": 0.2698362120024722,
+          "paired_reduction_pct": [
+            0.16614792901771258,
+            0.1996797179668497,
+            0.633193650956565
+          ],
+          "mean_reduction_pct": 0.3340323443315141
+        },
+        "NMAE": {
+          "candidate_mean": 0.18564111341782344,
+          "reference_mean": 0.18869666507418342,
+          "paired_reduction_pct": [
+            1.655233888643537,
+            2.761082799481396,
+            0.42076035002690526
+          ],
+          "mean_reduction_pct": 1.619292876828926
+        }
+      },
+      "month_2020-06": {
+        "NMSE": {
+          "candidate_mean": 0.20847229578178844,
+          "reference_mean": 0.2082743392181749,
+          "paired_reduction_pct": [
+            0.32076169300648827,
+            -0.2528306626114585,
+            -0.3544433281334358
+          ],
+          "mean_reduction_pct": -0.09504606489529888
+        },
+        "NMAE": {
+          "candidate_mean": 0.16296994189400849,
+          "reference_mean": 0.16470733750452157,
+          "paired_reduction_pct": [
+            1.2077196052301398,
+            2.164694627113739,
+            -0.23815064150620735
+          ],
+          "mean_reduction_pct": 1.0548380156199078
+        }
+      },
+      "month_2020-07": {
+        "NMSE": {
+          "candidate_mean": 0.3094104542041968,
+          "reference_mean": 0.309982984303518,
+          "paired_reduction_pct": [
+            0.21028376235490143,
+            -0.07711089205471033,
+            0.41915603830057213
+          ],
+          "mean_reduction_pct": 0.18469726672499798
+        },
+        "NMAE": {
+          "candidate_mean": 0.20064802885998825,
+          "reference_mean": 0.20300036440838654,
+          "paired_reduction_pct": [
+            1.3458200234258921,
+            1.9546200661843316,
+            0.16145958605993105
+          ],
+          "mean_reduction_pct": 1.1587839042820458
+        }
+      },
+      "month_2020-08": {
+        "NMSE": {
+          "candidate_mean": 0.23469821859622117,
+          "reference_mean": 0.2374203599089387,
+          "paired_reduction_pct": [
+            1.5783273145658083,
+            1.3556154448368773,
+            0.5109362964614728
+          ],
+          "mean_reduction_pct": 1.146549231818872
+        },
+        "NMAE": {
+          "candidate_mean": 0.1771395506442786,
+          "reference_mean": 0.1834371202201336,
+          "paired_reduction_pct": [
+            3.8783330125173543,
+            4.93885910118943,
+            1.4746170672650827
+          ],
+          "mean_reduction_pct": 3.433094440371498
+        }
+      },
+      "low_quartile": {
+        "NMSE": {
+          "candidate_mean": 0.6469647977659368,
+          "reference_mean": 0.6456360811483086,
+          "paired_reduction_pct": [
+            0.30541524175431434,
+            -0.948172822413329,
+            0.017546225709441643
+          ],
+          "mean_reduction_pct": -0.20579962248470363
+        },
+        "NMAE": {
+          "candidate_mean": 0.30049411554915073,
+          "reference_mean": 0.30088648312706173,
+          "paired_reduction_pct": [
+            -0.5367014381360224,
+            1.5129932146019986,
+            -0.6133263299194391
+          ],
+          "mean_reduction_pct": 0.1304038565751453
+        }
+      },
+      "middle": {
+        "NMSE": {
+          "candidate_mean": 0.2621978168177114,
+          "reference_mean": 0.2631388999688809,
+          "paired_reduction_pct": [
+            0.16001921429478205,
+            0.2496430620303025,
+            0.6600646201750493
+          ],
+          "mean_reduction_pct": 0.357637411755074
+        },
+        "NMAE": {
+          "candidate_mean": 0.18359426227065148,
+          "reference_mean": 0.1866972758242623,
+          "paired_reduction_pct": [
+            1.7182847081385066,
+            2.796953489554599,
+            0.45039641137484265
+          ],
+          "mean_reduction_pct": 1.6620561494060992
+        }
+      }
+    },
+    "channels": {
+      "TP2": {
+        "NMSE": {
+          "candidate_mean": 0.4700063296368721,
+          "reference_mean": 0.4689415843881908,
+          "paired_reduction_pct": [
+            0.24365416993398226,
+            -0.8907928157750655,
+            -0.040786752061849896
+          ],
+          "mean_reduction_pct": -0.22705285351702909
+        },
+        "NMAE": {
+          "candidate_mean": 0.34419214579387225,
+          "reference_mean": 0.3507663496617119,
+          "paired_reduction_pct": [
+            2.682211927074185,
+            1.6925935887092014,
+            1.2559758934618248
+          ],
+          "mean_reduction_pct": 1.8742401813001686
+        }
+      },
+      "TP3": {
+        "NMSE": {
+          "candidate_mean": 0.09872361341616968,
+          "reference_mean": 0.0982431644961656,
+          "paired_reduction_pct": [
+            -0.25178367065306073,
+            5.041794959486623,
+            -6.549299886702875
+          ],
+          "mean_reduction_pct": -0.48904055815794933
+        },
+        "NMAE": {
+          "candidate_mean": 0.15871941059440556,
+          "reference_mean": 0.15587767063095687,
+          "paired_reduction_pct": [
+            -1.242509717402629,
+            4.1103590479842245,
+            -8.750011993011375
+          ],
+          "mean_reduction_pct": -1.8230577554475769
+        }
+      },
+      "H1": {
+        "NMSE": {
+          "candidate_mean": 0.42909182708655774,
+          "reference_mean": 0.42898076914970995,
+          "paired_reduction_pct": [
+            0.4219211961335012,
+            -0.6367392294078789,
+            0.13388645840900493
+          ],
+          "mean_reduction_pct": -0.025888791487771456
+        },
+        "NMAE": {
+          "candidate_mean": 0.28893800590043794,
+          "reference_mean": 0.29521817037740405,
+          "paired_reduction_pct": [
+            3.002161849600682,
+            1.52546831137641,
+            1.8537482854657283
+          ],
+          "mean_reduction_pct": 2.1272960498798565
+        }
+      },
+      "DV_pressure": {
+        "NMSE": {
+          "candidate_mean": 0.14392748880441097,
+          "reference_mean": 0.1443238964391272,
+          "paired_reduction_pct": [
+            -0.1298122771560717,
+            -0.14113838671740986,
+            1.0889516585882664
+          ],
+          "mean_reduction_pct": 0.2746652803151006
+        },
+        "NMAE": {
+          "candidate_mean": 0.032989171604932095,
+          "reference_mean": 0.033993835938115564,
+          "paired_reduction_pct": [
+            -4.377479621803837,
+            6.538541128128261,
+            6.531012827143323
+          ],
+          "mean_reduction_pct": 2.955430905215939
+        }
+      },
+      "Reservoirs": {
+        "NMSE": {
+          "candidate_mean": 0.09877117017253166,
+          "reference_mean": 0.09831791388039761,
+          "paired_reduction_pct": [
+            -0.26383782425485336,
+            5.0985539852452355,
+            -6.507597848655267
+          ],
+          "mean_reduction_pct": -0.4610108923643663
+        },
+        "NMAE": {
+          "candidate_mean": 0.15825067970616694,
+          "reference_mean": 0.1559090029910975,
+          "paired_reduction_pct": [
+            -1.2018173845776081,
+            4.441026141326743,
+            -8.19622145244483
+          ],
+          "mean_reduction_pct": -1.5019509265947528
+        }
+      },
+      "Oil_temperature": {
+        "NMSE": {
+          "candidate_mean": 0.029197565032540066,
+          "reference_mean": 0.028674478437931288,
+          "paired_reduction_pct": [
+            -3.8056469855066055,
+            10.746957756683628,
+            -14.467480624890161
+          ],
+          "mean_reduction_pct": -1.8242235712884858
+        },
+        "NMAE": {
+          "candidate_mean": 0.09016732962903903,
+          "reference_mean": 0.08893069988322558,
+          "paired_reduction_pct": [
+            -2.164087308008411,
+            5.292431022844202,
+            -7.909756583330929
+          ],
+          "mean_reduction_pct": -1.39055438384863
+        }
+      },
+      "Motor_current": {
+        "NMSE": {
+          "candidate_mean": 0.30263621304968263,
+          "reference_mean": 0.3017631105226491,
+          "paired_reduction_pct": [
+            -0.29079727635306085,
+            -0.41232056693567554,
+            -0.1656503096211459
+          ],
+          "mean_reduction_pct": -0.28933375107424997
+        },
+        "NMAE": {
+          "candidate_mean": 0.25890573021408003,
+          "reference_mean": 0.2626674517278316,
+          "paired_reduction_pct": [
+            2.5064020193815817,
+            1.9702441933561188,
+            -0.23114065559761698
+          ],
+          "mean_reduction_pct": 1.4321231995083172
+        }
+      },
+      "COMP": {
+        "NMSE": {
+          "candidate_mean": 0.439451061202756,
+          "reference_mean": 0.4388109119580883,
+          "paired_reduction_pct": [
+            -0.0020199915477192576,
+            -0.573943073885208,
+            0.13434602507647053
+          ],
+          "mean_reduction_pct": -0.1458827087528869
+        },
+        "NMAE": {
+          "candidate_mean": 0.3238834858536589,
+          "reference_mean": 0.3313240803189446,
+          "paired_reduction_pct": [
+            3.317330429994292,
+            1.7491725637987732,
+            1.6616624954485015
+          ],
+          "mean_reduction_pct": 2.2457149682942212
+        }
+      },
+      "DV_eletric": {
+        "NMSE": {
+          "candidate_mean": 0.43367549310535664,
+          "reference_mean": 0.43441824867504314,
+          "paired_reduction_pct": [
+            0.3090424521832835,
+            -0.23503855833386655,
+            0.4347926339829278
+          ],
+          "mean_reduction_pct": 0.1709770646034947
+        },
+        "NMAE": {
+          "candidate_mean": 0.3219612085036397,
+          "reference_mean": 0.32777668885029027,
+          "paired_reduction_pct": [
+            2.7186172205390213,
+            2.1907282231223624,
+            0.39276988532466195
+          ],
+          "mean_reduction_pct": 1.7742202372746374
+        }
+      },
+      "Towers": {
+        "NMSE": {
+          "candidate_mean": 0.7612523301263904,
+          "reference_mean": 0.7592794462244351,
+          "paired_reduction_pct": [
+            0.7386150728926122,
+            -0.9713722646905509,
+            -0.5646245362080471
+          ],
+          "mean_reduction_pct": -0.25983633717012733
+        },
+        "NMAE": {
+          "candidate_mean": 0.4299339071719489,
+          "reference_mean": 0.4303600918036928,
+          "paired_reduction_pct": [
+            -1.8429062812000296,
+            1.7869788154972976,
+            0.3096551972814665
+          ],
+          "mean_reduction_pct": 0.0990297752651026
+        }
+      },
+      "MPG": {
+        "NMSE": {
+          "candidate_mean": 0.42183619314418863,
+          "reference_mean": 0.4216204642556758,
+          "paired_reduction_pct": [
+            0.018665997385591826,
+            -0.507807756659906,
+            0.3323014588133777
+          ],
+          "mean_reduction_pct": -0.05116660760138281
+        },
+        "NMAE": {
+          "candidate_mean": 0.31404841426386876,
+          "reference_mean": 0.32155577797358614,
+          "paired_reduction_pct": [
+            3.2758878969632588,
+            2.1538210912027123,
+            1.563089455911293
+          ],
+          "mean_reduction_pct": 2.3347002989739685
+        }
+      },
+      "LPS": {
+        "NMSE": {
+          "candidate_mean": 0.20207759267935121,
+          "reference_mean": 0.20934614887309352,
+          "paired_reduction_pct": [
+            -1.7329756666467633,
+            0.48999347907187074,
+            10.818022932319105
+          ],
+          "mean_reduction_pct": 3.4720276598680266
+        },
+        "NMAE": {
+          "candidate_mean": 0.025505846692795875,
+          "reference_mean": 0.02345744426555282,
+          "paired_reduction_pct": [
+            -45.951322935187555,
+            -16.637776905041402,
+            21.229576385973093
+          ],
+          "mean_reduction_pct": -8.73241945735379
+        }
+      },
+      "Pressure_switch": {
+        "NMSE": {
+          "candidate_mean": 0.37167022227656743,
+          "reference_mean": 0.37245374068733206,
+          "paired_reduction_pct": [
+            0.253012012666054,
+            0.06529026150645656,
+            0.3123116296063433
+          ],
+          "mean_reduction_pct": 0.21036663756383023
+        },
+        "NMAE": {
+          "candidate_mean": 0.08687777753324472,
+          "reference_mean": 0.08660784456409834,
+          "paired_reduction_pct": [
+            1.3510587789226647,
+            -3.8019372968100873,
+            1.4437493268902424
+          ],
+          "mean_reduction_pct": -0.31167265564102653
+        }
+      },
+      "Oil_level": {
+        "NMSE": {
+          "candidate_mean": 0.1096245579863075,
+          "reference_mean": 0.12227178065859981,
+          "paired_reduction_pct": [
+            12.6621511453755,
+            11.878839379907758,
+            6.631647679579544
+          ],
+          "mean_reduction_pct": 10.343533564465822
+        },
+        "NMAE": {
+          "candidate_mean": 0.06151215353786908,
+          "reference_mean": 0.07970313079670231,
+          "paired_reduction_pct": [
+            27.100618601199677,
+            28.143358696719233,
+            14.58679115904582
+          ],
+          "mean_reduction_pct": 22.823416190805233
+        }
+      },
+      "Caudal_impulses": {
+        "NMSE": {
+          "candidate_mean": 0.014871482263901717,
+          "reference_mean": 0.014906657804817241,
+          "paired_reduction_pct": [
+            0.4566150216271603,
+            -0.12220464569479006,
+            0.36724712220953526
+          ],
+          "mean_reduction_pct": 0.2359720158341405
+        },
+        "NMAE": {
+          "candidate_mean": 0.011555249686086018,
+          "reference_mean": 0.011790248317710039,
+          "paired_reduction_pct": [
+            8.914198861473,
+            -10.433117669967151,
+            5.091298599911065
+          ],
+          "mean_reduction_pct": 1.9931610029877866
+        }
+      }
+    }
+  }
+}

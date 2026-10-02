@@ -1,0 +1,57 @@
+{
+  "train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "checks": [
+    {
+      "run_id": "T012_prefix60_discordance",
+      "eligible_windows": 632231,
+      "rule_counts": [
+        301,
+        6180,
+        0,
+        0,
+        6180,
+        0,
+        0,
+        0,
+        457233,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "min_weight": 0.5803138056879346,
+      "max_weight": 1.999048269494666,
+      "all_inputs_and_weights_verified": true,
+      "identical_actual_draws_to_source_baseline": true,
+      "month_count_matched": true
+    },
+    {
+      "run_id": "T013_prefix60_discordance_shuffle",
+      "eligible_windows": 632231,
+      "rule_counts": [
+        301,
+        6180,
+        0,
+        0,
+        6180,
+        0,
+        0,
+        0,
+        457233,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "min_weight": 0.5803138056879346,
+      "max_weight": 1.999048269494666,
+      "all_inputs_and_weights_verified": true,
+      "identical_actual_draws_to_source_baseline": true,
+      "month_count_matched": true
+    }
+  ]
+}

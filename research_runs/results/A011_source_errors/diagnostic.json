@@ -1,0 +1,158 @@
+{
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "code_sha256": "7ece7618b68e0c07871333301f755c4eb87804da34ef511efe27d6caaf88b202",
+  "protocol_sha256": "79c50ad9b4da908de53441a85af889dae0240df2f1e8173e9b3ff0a3f69a906a",
+  "source_diagnostic_sha256": "1237800ab09add9765369eeadcf6eb85455c8c507baa34f1771c68ae697d9502",
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "folds": [
+    {
+      "origin": 60,
+      "baseline": "T000_prefix60_full",
+      "candidate": "T010_prefix60_sources",
+      "baseline_checkpoint_sha256": "bd836bfeb60d4fe811de76b0513c7c868c03b32e4135430f71466d93be773caf",
+      "candidate_checkpoint_sha256": "e5bdb4b462fbbdeb87b9f06171c8ca8f60699d68f9bb46fabb73d1b1590c3224",
+      "probe_windows": 210311,
+      "groups": [
+        {
+          "type": 0,
+          "group": "zero",
+          "scalar_targets": 12971232,
+          "NMAE_delta_contribution": -0.0012197394864227264,
+          "NMSE_delta_contribution": -0.0009622609611679795
+        },
+        {
+          "type": 0,
+          "group": "small",
+          "scalar_targets": 6899296,
+          "NMAE_delta_contribution": -0.0018682690242256747,
+          "NMSE_delta_contribution": -0.0023190799106342073
+        },
+        {
+          "type": 0,
+          "group": "medium",
+          "scalar_targets": 2932672,
+          "NMAE_delta_contribution": 0.002378823936635281,
+          "NMSE_delta_contribution": 0.0008341177273376716
+        },
+        {
+          "type": 0,
+          "group": "tail",
+          "scalar_targets": 2434120,
+          "NMAE_delta_contribution": -0.004460694925661905,
+          "NMSE_delta_contribution": -0.012344241084809263
+        },
+        {
+          "type": 1,
+          "group": "neither_changes",
+          "scalar_targets": 10340048,
+          "NMAE_delta_contribution": -0.0015029270172724131,
+          "NMSE_delta_contribution": -0.0003986248300036293
+        },
+        {
+          "type": 1,
+          "group": "source_only",
+          "scalar_targets": 1088616,
+          "NMAE_delta_contribution": 0.0016949004584978838,
+          "NMSE_delta_contribution": -0.0011827906215466318
+        },
+        {
+          "type": 1,
+          "group": "target_only",
+          "scalar_targets": 2188568,
+          "NMAE_delta_contribution": -0.0014253500960670874,
+          "NMSE_delta_contribution": -0.0004155581404682803
+        },
+        {
+          "type": 1,
+          "group": "both_change",
+          "scalar_targets": 11620088,
+          "NMAE_delta_contribution": -0.003936502844833427,
+          "NMSE_delta_contribution": -0.012794490637255242
+        }
+      ]
+    },
+    {
+      "origin": 80,
+      "baseline": "T005_prefix80_full",
+      "candidate": "T011_prefix80_sources",
+      "baseline_checkpoint_sha256": "99aca011ffa40f569901761cb0f33327a05d0be7a6daf3da6176f9ac8a0233c1",
+      "candidate_checkpoint_sha256": "5ec01db03d9014caf8aa32318d0dd8f6d98c05b740cc92a028a90707b0b168fe",
+      "probe_windows": 210813,
+      "groups": [
+        {
+          "type": 0,
+          "group": "zero",
+          "scalar_targets": 13208440,
+          "NMAE_delta_contribution": -0.0007201493161249054,
+          "NMSE_delta_contribution": -0.0008599054251116081
+        },
+        {
+          "type": 0,
+          "group": "small",
+          "scalar_targets": 6238688,
+          "NMAE_delta_contribution": 0.0024894444844770834,
+          "NMSE_delta_contribution": -0.00032871907100635373
+        },
+        {
+          "type": 0,
+          "group": "medium",
+          "scalar_targets": 2982184,
+          "NMAE_delta_contribution": 0.001534571926406172,
+          "NMSE_delta_contribution": 0.0004973634242485807
+        },
+        {
+          "type": 0,
+          "group": "tail",
+          "scalar_targets": 2868248,
+          "NMAE_delta_contribution": -0.005038252260924284,
+          "NMSE_delta_contribution": -0.012230661100710891
+        },
+        {
+          "type": 1,
+          "group": "neither_changes",
+          "scalar_targets": 10228512,
+          "NMAE_delta_contribution": -0.0030642025833637716,
+          "NMSE_delta_contribution": -0.0019463569419631472
+        },
+        {
+          "type": 1,
+          "group": "source_only",
+          "scalar_targets": 1260648,
+          "NMAE_delta_contribution": 0.0038852990218884676,
+          "NMSE_delta_contribution": 0.0003438299946166805
+        },
+        {
+          "type": 1,
+          "group": "target_only",
+          "scalar_targets": 2081528,
+          "NMAE_delta_contribution": 0.00017364886724979036,
+          "NMSE_delta_contribution": 0.0027732887952193436
+        },
+        {
+          "type": 1,
+          "group": "both_change",
+          "scalar_targets": 11726872,
+          "NMAE_delta_contribution": -0.002729130471940404,
+          "NMSE_delta_contribution": -0.014092684020453064
+        }
+      ]
+    }
+  ]
+}

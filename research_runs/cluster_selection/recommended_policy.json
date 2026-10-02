@@ -1,0 +1,14 @@
+{
+  "dataset_id": "metropt3_v1",
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "adopt_new_deletion_rule": false,
+  "retained_set": "all start_row_zero_based entries in research_runs/selection/window_table.npz",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "retained_windows": 1053433,
+  "deleted_windows": 0,
+  "sampling_probability": "1 / 1053433 for every retained window",
+  "loss_weight": 1,
+  "input_representation": "original physical sensor columns",
+  "reason": "All three eligible cluster deletion interventions failed the first internal gate; experimental masks are not adopted policies.",
+  "test_accessed": false
+}

@@ -1,0 +1,62 @@
+{
+  "recipe": "placebo_matched_swap",
+  "window_table_sha256": "06d74e78da034870ea83cda920511d96efa1349f82c38b576f895630f0e7dbe1",
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "eligible_windows": 1053433,
+  "retained_windows": 790074,
+  "removed_windows": 263359,
+  "low_variation_threshold": 0.003951953111203282,
+  "quiet_windows": 263359,
+  "expected_quiet_sampling_mass": 0.2191642808142022,
+  "expected_loss_weight": 1.0000000000000049,
+  "sampling_method": "common_uniform_inverse_cdf",
+  "expected_quiet_loss_mass": 0.2191642808142011,
+  "high_variation_threshold": 0.12934430480698564,
+  "high_variation_windows": 105344,
+  "expected_high_sampling_mass": 0.10893789695648762,
+  "mapping": "window_table start row s refers to original train.csv data rows [s,s+40), input [s,s+32), targets [s+32,s+40)",
+  "month_matching": {
+    "2020-02": {
+      "eligible": 213491,
+      "quiet_reference_removed": 107185,
+      "actual_removed": 107185
+    },
+    "2020-03": {
+      "eligible": 228798,
+      "quiet_reference_removed": 45109,
+      "actual_removed": 45109
+    },
+    "2020-04": {
+      "eligible": 196720,
+      "quiet_reference_removed": 58402,
+      "actual_removed": 58402
+    },
+    "2020-05": {
+      "eligible": 210836,
+      "quiet_reference_removed": 45551,
+      "actual_removed": 45551
+    },
+    "2020-06": {
+      "eligible": 203588,
+      "quiet_reference_removed": 7112,
+      "actual_removed": 7112
+    }
+  },
+  "lps_support": {
+    "definition": "any raw LPS=1 in 32 input records; training only",
+    "eligible": 2663,
+    "retained": 2241,
+    "expected_draws": 2178.3883534960014,
+    "restored_windows": 422,
+    "replacement_removed_windows": 422,
+    "swap_removal_seed": 20260927,
+    "placebo_restore_seed": 20260928,
+    "actual_draws": 2214,
+    "distinct_seen": 1408
+  },
+  "unique_windows_seen": 490838,
+  "actual_quiet_draws": 168016,
+  "actual_high_draws": 84052,
+  "total_draws": 768000,
+  "sampling_weights_sha256": "491c28007d2d2ca9f275f33f25d6fe6263c95eec576b7b1c9800ec4bdd28a836"
+}
