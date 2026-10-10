@@ -1,0 +1,63 @@
+{
+  "policy": "balanced",
+  "retained_windows": 1053433,
+  "removed_windows": 0,
+  "uniform_mix": 0.5,
+  "half_life_days": 30.0,
+  "shuffle_seed": null,
+  "probability_sum": 0.9999999999999999,
+  "min_relative_to_uniform": 0.690442693983689,
+  "max_relative_to_uniform": 3.346870000432394,
+  "effective_sample_size": 727382.7940540473,
+  "groups": [
+    {
+      "group": 0,
+      "windows": 691437,
+      "uniform_mass": 0.6563654261827757,
+      "sampling_mass": 0.4531827130913878
+    },
+    {
+      "group": 1,
+      "windows": 65079,
+      "uniform_mass": 0.06177801530804522,
+      "sampling_mass": 0.15588900765402255
+    },
+    {
+      "group": 2,
+      "windows": 250663,
+      "uniform_mass": 0.2379486877665689,
+      "sampling_mass": 0.24397434388328454
+    },
+    {
+      "group": 3,
+      "windows": 46254,
+      "uniform_mass": 0.043907870742610114,
+      "sampling_mass": 0.14695393537130497
+    }
+  ],
+  "months": {
+    "2020-02": {
+      "windows": 213491,
+      "sampling_mass": 0.1528754032170167
+    },
+    "2020-03": {
+      "windows": 228798,
+      "sampling_mass": 0.19756842018384135
+    },
+    "2020-04": {
+      "windows": 196720,
+      "sampling_mass": 0.19386875326886677
+    },
+    "2020-05": {
+      "windows": 210836,
+      "sampling_mass": 0.21390195405975856
+    },
+    "2020-06": {
+      "windows": 203588,
+      "sampling_mass": 0.2417854692705164
+    }
+  },
+  "asset_sha256": "8efc36821737ad51190e9a3e6885eebb9986f1e9a3e8ccfbc301950583a84003",
+  "uses_targets": false,
+  "loss_weight": 1
+}

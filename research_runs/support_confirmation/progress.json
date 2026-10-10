@@ -1,0 +1,51 @@
+{
+  "phase": "stopped_no_formal_signal",
+  "rows": [
+    {
+      "run_id": "T050_prefix80_balanced",
+      "origin": 0.8,
+      "policy": "balanced",
+      "seed": 2026,
+      "baseline": "T005_prefix80_full",
+      "NMAE": 0.24285059667988307,
+      "NMSE": 0.5274009644015832,
+      "windows": 210813,
+      "NMSE_reduction_pct": 0.4967733918280204,
+      "NMAE_reduction_pct": 4.478057196145424
+    },
+    {
+      "run_id": "T051_prefix80_reshuffle",
+      "origin": 0.8,
+      "policy": "reshuffle",
+      "seed": 2026,
+      "baseline": "T005_prefix80_full",
+      "NMAE": 0.2558697757227722,
+      "NMSE": 0.5297077037658069,
+      "windows": 210813,
+      "NMSE_reduction_pct": 0.06156749503036796,
+      "NMAE_reduction_pct": -0.6428578557014175
+    },
+    {
+      "run_id": "S041_support_balanced_s2026",
+      "origin": 1.0,
+      "policy": "balanced",
+      "seed": 2026,
+      "baseline": "S000_uniform_s2026",
+      "NMAE": 0.19799573221888572,
+      "NMSE": 0.3038753346880713,
+      "windows": 300535,
+      "NMSE_reduction_pct": -5.506127893270474,
+      "NMAE_reduction_pct": -1.5324550724345354
+    }
+  ],
+  "winner": "balanced",
+  "adopt_default": false,
+  "stage_start_seconds": 5738.295780045912,
+  "round_start_seconds": 5391.239370419644,
+  "round_limit_seconds": 6591.239370419644,
+  "reused_prefix60_runs": [
+    "T023_prefix60_balanced",
+    "T042_prefix60_reshuffle"
+  ],
+  "budget_used_seconds": 5945.514959004708
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "actual_training_records_only_no_training",
+  "checks": [
+    "baseline_identity",
+    "six_changed_channels",
+    "window_dependent_rotation",
+    "unchanged_channels_exact",
+    "last_observation_preserved_exactly",
+    "legacy_source_formula",
+    "half_source_formula",
+    "scramble_formula",
+    "input_not_mutated",
+    "finite_output_and_shape"
+  ],
+  "real_input_windows": 138,
+  "source_train_sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+  "code_sha256": "4c0dc9f2059017725a15b0b3c587fc5eed7e85d9def5d2a544e5e5eab339cedd",
+  "training_calls": 0,
+  "generated_sensor_records": 0
+}

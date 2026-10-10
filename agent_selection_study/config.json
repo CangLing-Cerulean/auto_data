@@ -1,0 +1,25 @@
+{
+  "model": "deepseek-flash",
+  "max_calls": 60,
+  "max_candidates": 12,
+  "max_llm_tokens": 500000,
+  "max_call_tokens": 32768,
+  "timeout_seconds": 120,
+  "candidate_seconds": 600,
+  "total_seconds": 10800,
+  "confirmation_seconds": 86400,
+  "search_seed": 2026,
+  "confirmation_seeds": [
+    2036,
+    2037,
+    2038
+  ],
+  "min_retention": 0.5,
+  "min_group_retention": 0.2,
+  "rare_group_size": 64,
+  "max_rule_nodes": 7,
+  "max_nmae_regression": 0.01,
+  "substantive_nmse_gain": 0.01,
+  "independent_runs": 5,
+  "random_seed": 20261007
+}

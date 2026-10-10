@@ -1,0 +1,19 @@
+{
+  "run_type": "main_model",
+  "run_id": "C109_prefix60_coverage_core_20261022",
+  "score_run": "A100_completion_prefix60",
+  "policy": "coverage_core_20261022",
+  "origin": 0.6,
+  "seed": 2026,
+  "model": "dlinear",
+  "policy_sha256": "68824a077a614a42b75d0a4ee1e192d25a18452356095dfff3d4c8ab4b3a7934",
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "sources_sha256": {
+    "code_snapshot.py": "7f5812c2c5be1c32d6cfc1c5dee3d7eb10684cf6a6ffff40568724b33443a644",
+    "core_snapshot.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "data_helper.py": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+    "protocol.json": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "study_protocol.md": "253732d4bb30f04b4823011c1bde96b8e3066eeb30c6e15b943c103e4d83f736",
+    "policies.md": "0514bfe3bd6d970b59812be17442a4171a2a60bfbf1de4f644d7f757d299a56c"
+  }
+}

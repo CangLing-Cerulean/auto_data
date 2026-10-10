@@ -1,0 +1,13 @@
+{
+  "operation": "model_weight_export_and_validation_probes",
+  "models": [
+    "M001_residual_mlp_s2026",
+    "M002_residual_mlp_s2027",
+    "M003_residual_mlp_s2028",
+    "S000_uniform_s2026",
+    "S005_uniform_s2027",
+    "S010_uniform_s2028"
+  ],
+  "test_accessed": false,
+  "export_manifest_sha256": "acfeec4d067c6fe7184c2641b5199a52b0c3db06835a29f31cdcfbe3f2cdbbb1"
+}

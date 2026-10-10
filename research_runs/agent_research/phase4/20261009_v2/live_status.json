@@ -1,0 +1,550 @@
+{
+  "launch": {
+    "status": "started",
+    "pid": 78533,
+    "started_ns": 1791555981146072295,
+    "protocol_sha256": "dd122ab26e951a39a626adb33fe2bbfa6bc1880d02fc1c5e844747206b2e96e7",
+    "output": "/tmp/auto_data_phase4_20261009_v2",
+    "log": "/tmp/auto_data_phase4_20261009_v2/batch.log"
+  },
+  "process_exists": false,
+  "batch": {
+    "phase": "superseded_by_user_budget_change",
+    "queue_active": false,
+    "preserve_all_run_assets": true,
+    "previous_progress_available_in_local_live_snapshots": true
+  },
+  "batch_failure": null,
+  "runs": [
+    {
+      "run_id": "p4v2_full_r1",
+      "budget": {
+        "calls_used": 10,
+        "tokens_charged_or_reserved": 70415,
+        "closing_calls_used": 0,
+        "max_calls": 48,
+        "max_tokens": 400000,
+        "closing_calls_reserved": 2,
+        "closing_reservation_per_call": 7000,
+        "remaining_calls": 38,
+        "remaining_tokens": 329585
+      },
+      "training": [
+        {
+          "job_id": "5b4fff91c16ac2d27e6b10b8eb72a853f1360d90d0c52c44c98fc9b1f4e5150b",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.19534979098331073,
+            "NMSE": 0.2880874386290667,
+            "windows": 300535
+          }
+        }
+      ],
+      "tools": [
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_NONFINITE_JSON"
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009_v2/runs/p4v2_full_r1/diagnostics/decision-4492b7d8d81ce312cffee65046e4a58a/code/agent.py\", line 58, in <module>\n    pathlib.Path(sys.argv[2]).write_text(json.dumps({'facts': facts}))\n  File \"/opt/miniconda3/lib/python3.12/pathlib.py\", line 1047, in write_text\n    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/miniconda3/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIsADirectoryError: [Errno 21] Is a directory: '/tmp/auto_data_phase4_20261009_v2/runs/p4v2_full_r1/diagnostics/decision-4492b7d8d81ce312cffee65046e4a58a/outputs'\n"
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_processing",
+          "outcome": "failed",
+          "error": "INPUT_PROCESSOR_FILES"
+        },
+        {
+          "tool": "run_processing",
+          "outcome": "failed",
+          "error": "INPUT_PROCESSOR_FILES"
+        }
+      ],
+      "search_completed": false,
+      "failure": {
+        "status": "failed",
+        "error": "AGENT_DECISION_SCHEMA",
+        "group": "full",
+        "repeat": 1,
+        "elapsed_seconds": 135.86920233815908,
+        "API": {
+          "calls_used": 10,
+          "tokens_charged_or_reserved": 70415,
+          "closing_calls_used": 0,
+          "max_calls": 48,
+          "max_tokens": 400000,
+          "closing_calls_reserved": 2,
+          "closing_reservation_per_call": 7000,
+          "remaining_calls": 38,
+          "remaining_tokens": 329585
+        }
+      },
+      "confirmation": null
+    },
+    {
+      "run_id": "p4v2_no_feedback_r1",
+      "budget": {
+        "calls_used": 46,
+        "tokens_charged_or_reserved": 323272,
+        "closing_calls_used": 0,
+        "max_calls": 48,
+        "max_tokens": 400000,
+        "closing_calls_reserved": 2,
+        "closing_reservation_per_call": 7000,
+        "remaining_calls": 2,
+        "remaining_tokens": 76728
+      },
+      "training": [
+        {
+          "job_id": "5b4fff91c16ac2d27e6b10b8eb72a853f1360d90d0c52c44c98fc9b1f4e5150b",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.19534979098331073,
+            "NMSE": 0.2880874386290667,
+            "windows": 300535
+          }
+        }
+      ],
+      "tools": [
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009_v2/runs/p4v2_no_feedback_r1/diagnostics/decision-61ec91ccdf20460b8df1df6925822e90/code/agent.py\", line 2, in <module>\n    p = pathlib.Path(sys.argv[1]) / 'train_inputs.npz'\n                     ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009_v2/runs/p4v2_no_feedback_r1/diagnostics/decision-3bb9fa4111d5c878053e99045c6a8187/code/agent.py\", line 25, in <module>\n    X = z[feat_key]\n        ~^^^^^^^^^^\n  File \"/opt/miniconda3/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py\", line 243, in __getitem__\n    raise KeyError(f\"{key} is not a file in the archive\") from None\nKeyError: 'None is not a file in the archive'\n"
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "PROCESSING_IMMUTABLE"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_BUDGET"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "RESEARCH_EXPECTATION_SCHEMA"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "RESEARCH_TOOL_ARGUMENTS"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "inspect_results",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "inspect_results",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "inspect_results",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "update_hypothesis",
+          "outcome": "failed",
+          "error": "PILOT_OUTCOME_WITHHELD"
+        },
+        {
+          "tool": "inspect_results",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "update_hypothesis",
+          "outcome": "failed",
+          "error": "PILOT_OUTCOME_WITHHELD"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "RESEARCH_TOOL_ARGUMENTS"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "update_hypothesis",
+          "outcome": "failed",
+          "error": "PILOT_OUTCOME_WITHHELD"
+        },
+        {
+          "tool": "update_hypothesis",
+          "outcome": "failed",
+          "error": "PILOT_OUTCOME_WITHHELD"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        },
+        {
+          "tool": "submit_policy",
+          "outcome": "failed",
+          "error": "POST_RESULT_UPDATE_REQUIRED"
+        }
+      ],
+      "search_completed": false,
+      "failure": {
+        "status": "failed",
+        "error": "AGENT_CALL_BUDGET",
+        "group": "no_feedback",
+        "repeat": 1,
+        "elapsed_seconds": 252.2053575310856,
+        "API": {
+          "calls_used": 46,
+          "tokens_charged_or_reserved": 323272,
+          "closing_calls_used": 0,
+          "max_calls": 48,
+          "max_tokens": 400000,
+          "closing_calls_reserved": 2,
+          "closing_reservation_per_call": 7000,
+          "remaining_calls": 2,
+          "remaining_tokens": 76728
+        }
+      },
+      "confirmation": null
+    },
+    {
+      "run_id": "p4v2_no_memory_r1",
+      "budget": {
+        "calls_used": 17,
+        "tokens_charged_or_reserved": 132093,
+        "closing_calls_used": 0,
+        "max_calls": 48,
+        "max_tokens": 400000,
+        "closing_calls_reserved": 2,
+        "closing_reservation_per_call": 7000,
+        "remaining_calls": 31,
+        "remaining_tokens": 267907
+      },
+      "training": [
+        {
+          "job_id": "5b4fff91c16ac2d27e6b10b8eb72a853f1360d90d0c52c44c98fc9b1f4e5150b",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.19534979098331073,
+            "NMSE": 0.2880874386290667,
+            "windows": 300535
+          }
+        }
+      ],
+      "tools": [
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_NONFINITE_JSON"
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_diagnostic",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_processing",
+          "outcome": "failed",
+          "error": "INPUT_PROCESSOR_FILES"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "completed",
+          "error": null
+        },
+        {
+          "tool": "run_processing",
+          "outcome": "failed",
+          "error": "PROCESSING_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009_v2/runs/p4v2_no_memory_r1/processing/smooth_ma3_chmask_v2/code/agent.py\", line 8, in <module>\n    _STATE = _load_state()\n             ^^^^^^^^^^^^^\n  File \"/tmp/auto_data_phase4_20261009_v2/runs/p4v2_no_memory_r1/processing/smooth_ma3_chmask_v2/code/agent.py\", line 5, in _load_state\n    with open(p, 'r') as f:\n         ^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/auto_data_phase4_20261009_v2/runs/p4v2_no_memory_r1/processing/smooth_ma3_chmask_v2/code/processor_state.json'\n"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "RESEARCH_EXPECTATION_SCHEMA"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "RESEARCH_EXPECTATION_SCHEMA"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_JOB_ALREADY_EXISTS"
+        },
+        {
+          "tool": "propose_processing",
+          "outcome": "failed",
+          "error": "DIAGNOSTIC_JOB_ALREADY_EXISTS"
+        },
+        {
+          "tool": "update_hypothesis",
+          "outcome": "failed",
+          "error": "RESEARCH_UPDATE_SCHEMA"
+        }
+      ],
+      "search_completed": false,
+      "failure": {
+        "status": "failed",
+        "error": "AGENT_DECISION_SCHEMA",
+        "group": "no_memory",
+        "repeat": 1,
+        "elapsed_seconds": 176.54911194182932,
+        "API": {
+          "calls_used": 17,
+          "tokens_charged_or_reserved": 132093,
+          "closing_calls_used": 0,
+          "max_calls": 48,
+          "max_tokens": 400000,
+          "closing_calls_reserved": 2,
+          "closing_reservation_per_call": 7000,
+          "remaining_calls": 31,
+          "remaining_tokens": 267907
+        }
+      },
+      "confirmation": null
+    },
+    {
+      "run_id": "p4v2_no_memory_r2",
+      "budget": null,
+      "training": [
+        {
+          "job_id": "60a471dd9988ad253f343dfb7194f873cf37708bc6e35807b41497ce48dc07c6",
+          "completed": false,
+          "last_step": 2000,
+          "metrics": null
+        }
+      ],
+      "tools": [],
+      "search_completed": false,
+      "failure": null,
+      "confirmation": null
+    },
+    {
+      "run_id": "p4v2_random_reference_r1",
+      "budget": {
+        "calls_used": 0,
+        "tokens_charged_or_reserved": 0,
+        "closing_calls_used": 0,
+        "max_calls": 48,
+        "max_tokens": 400000,
+        "closing_calls_reserved": 2,
+        "closing_reservation_per_call": 7000,
+        "remaining_calls": 48,
+        "remaining_tokens": 400000
+      },
+      "training": [
+        {
+          "job_id": "44718c7c913edf747796ddc5c6b885864cab62aff977e8bfbe033703ee2caaeb",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.19441669741002196,
+            "NMSE": 0.29066145484247047,
+            "windows": 300535
+          }
+        },
+        {
+          "job_id": "481ec2fb00ce3bb70e2e2e9152a706fb85fca26f9112172963b44125892bc08f",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.20694773721406226,
+            "NMSE": 0.301721752012643,
+            "windows": 300535
+          }
+        },
+        {
+          "job_id": "5b4fff91c16ac2d27e6b10b8eb72a853f1360d90d0c52c44c98fc9b1f4e5150b",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.19534979098331073,
+            "NMSE": 0.2880874386290667,
+            "windows": 300535
+          }
+        },
+        {
+          "job_id": "e7673b4c771cdb39b79945bb86930814a5ed78692becbc75734f1c0007a3938e",
+          "completed": true,
+          "last_step": 3000,
+          "metrics": {
+            "NMAE": 0.20506441663293054,
+            "NMSE": 0.29343713928571036,
+            "windows": 300535
+          }
+        }
+      ],
+      "tools": [],
+      "search_completed": true,
+      "failure": null,
+      "confirmation": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "version": "historical_capability_cases_v1",
+  "cases": [
+    {
+      "case_id": "C01",
+      "sources": [
+        {
+          "source_id": "C01_confirmation",
+          "sha256": "0433c452bdeb73bf352cf0f763b1a93944be6bb801fceeb29efd8d36ef36e640",
+          "artifact": "sources/C01_confirmation.json"
+        }
+      ],
+      "measurement": {
+        "execution_status": "completed",
+        "baseline": {
+          "NMSE": 0.2871756450961915,
+          "NMAE": 0.19477452655878277
+        },
+        "candidate": {
+          "NMSE": 0.275003692951688,
+          "NMAE": 0.19487997119232317
+        },
+        "matched_control": {
+          "NMSE": 0.3014272522503193,
+          "NMAE": 0.20830013697621622
+        },
+        "confirmation_seeds": [
+          3026,
+          3027,
+          3028
+        ],
+        "seed_measurements": {
+          "3026": {
+            "baseline": {
+              "NMSE": 0.28613429609352,
+              "NMAE": 0.19595510422942097,
+              "windows": 300535
+            },
+            "candidate": {
+              "NMSE": 0.27405048264660964,
+              "NMAE": 0.19537542873631825,
+              "windows": 300535
+            },
+            "control": {
+              "NMSE": 0.30089068823627607,
+              "NMAE": 0.20850457827147068,
+              "windows": 300535
+            }
+          },
+          "3027": {
+            "baseline": {
+              "NMSE": 0.2870305311283774,
+              "NMAE": 0.19527894413164473,
+              "windows": 300535
+            },
+            "candidate": {
+              "NMSE": 0.2750697638619124,
+              "NMAE": 0.19732822666640767,
+              "windows": 300535
+            },
+            "control": {
+              "NMSE": 0.3010438220648548,
+              "NMAE": 0.2106825071156792,
+              "windows": 300535
+            }
+          },
+          "3028": {
+            "baseline": {
+              "NMSE": 0.28836210806667695,
+              "NMAE": 0.1930895313152826,
+              "windows": 300535
+            },
+            "candidate": {
+              "NMSE": 0.27589083234654177,
+              "NMAE": 0.19193625817424367,
+              "windows": 300535
+            },
+            "control": {
+              "NMSE": 0.302347246449827,
+              "NMAE": 0.20571332554149882,
+              "windows": 300535
+            }
+          }
+        },
+        "evaluation_dataset": "previously_explored_metropt3_v1_development",
+        "model": "fixed_original_DLinear",
+        "dose": "3000_steps_per_training",
+        "independent_dataset_used": false
+      }
+    },
+    {
+      "case_id": "C02",
+      "sources": [
+        {
+          "source_id": "shared_baseline",
+          "sha256": "28444a230677e237074de655fa256ce6dd689c09bde2d365620600316c432909",
+          "artifact": "sources/shared_baseline.json"
+        },
+        {
+          "source_id": "C02_candidate",
+          "sha256": "758e0610fb7fec280e275d916f3740070503becef92235602e06ded5452743e4",
+          "artifact": "sources/C02_candidate.json"
+        }
+      ],
+      "measurement": {
+        "execution_status": "completed",
+        "baseline": {
+          "NMAE": 0.19534979098331073,
+          "NMSE": 0.2880874386290667,
+          "windows": 300535
+        },
+        "candidate": {
+          "NMAE": 0.20506441663293054,
+          "NMSE": 0.29343713928571036,
+          "windows": 300535
+        },
+        "training_seeds": [
+          20261101
+        ],
+        "evaluation_dataset": "metropt3_v1_development",
+        "model": "fixed_original_DLinear",
+        "matched_control": null,
+        "independent_dataset_used": false
+      }
+    },
+    {
+      "case_id": "C03",
+      "sources": [
+        {
+          "source_id": "shared_baseline",
+          "sha256": "28444a230677e237074de655fa256ce6dd689c09bde2d365620600316c432909",
+          "artifact": "sources/shared_baseline.json"
+        },
+        {
+          "source_id": "C03_candidate",
+          "sha256": "c42f701232a3fa28e12358e54dfbad65b4eee0e375fb9851454c5af9b60b916b",
+          "artifact": "sources/C03_candidate.json"
+        }
+      ],
+      "measurement": {
+        "execution_status": "completed",
+        "baseline": {
+          "NMAE": 0.19534979098331073,
+          "NMSE": 0.2880874386290667,
+          "windows": 300535
+        },
+        "candidate": {
+          "NMAE": 0.19441669741002196,
+          "NMSE": 0.29066145484247047,
+          "windows": 300535
+        },
+        "training_seeds": [
+          20261101
+        ],
+        "evaluation_dataset": "metropt3_v1_development",
+        "model": "fixed_original_DLinear",
+        "matched_control": null,
+        "independent_dataset_used": false
+      }
+    },
+    {
+      "case_id": "C04",
+      "sources": [
+        {
+          "source_id": "C04_execution",
+          "sha256": "b7cb020355813306e9bbf3f40ecec0fa3e23d1e20bbe798e1866d2ffa6ad8228",
+          "artifact": "sources/C04_execution.json"
+        }
+      ],
+      "measurement": {
+        "execution_status": "failed",
+        "error": "PROCESSING_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009/runs/p4_full_r1/processing/ewma_denoise_v1/code/agent.py\", line 1, in <module>\n    import torch\n  File \"/opt/miniconda3/lib/python3.12/site-packages/torch/__init__.py\", line 496, in <module>\n    from torch._C import *  # noqa: F403\n    ^^^^^^^^^^^^^^^^^^^^^^\nImportError: libtorch_cpu.so: failed to map segment from shared object\n",
+        "stage": "proposed",
+        "baseline": null,
+        "candidate": null,
+        "evaluation_dataset": "metropt3_v1_development",
+        "independent_dataset_used": false
+      }
+    }
+  ],
+  "test_data_used": false
+}

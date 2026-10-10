@@ -1,0 +1,147 @@
+{
+  "run_id": "T035_prefix60_rho",
+  "identity": {
+    "policy": "rho",
+    "origin": 0.6,
+    "seed": 2026,
+    "run_type": "main_model",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "study_protocol_sha256": "2251296dfa10bcad4b859ff4cb0eb0e320ea24be5dd951024a5eae866f50491c",
+    "code_sha256": "4a9f715f541f82c078e7b554d16a61800386a295a6820776868e2e1e21df04c4",
+    "helper_sha256": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "group_labels_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714",
+    "reference_run": "P000_reference_prefix60",
+    "control_source_run": null,
+    "round_limit_seconds": 6589.922976038419,
+    "reference_result_sha256": "ed85826d689e6f8de72103dcd7ff585882d9bc6d426c3d8ed583680a00ec0397",
+    "reference_checkpoint_sha256": "8fa93488f880ad06cfec4e8f50d552f36408a96486d61117b521189670ec794d"
+  },
+  "dataset_id": "metropt3_v1",
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.37663692289590833
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.2843782652318478
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.2737125438600779
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.2578679220974445
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.2509597337245941
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.24821324038505554
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "phase_assets": [
+    {
+      "phase_start": 0,
+      "file": "phase_0000.npz",
+      "sha256": "6f33ada919ba3b1eace628473c465364c71b7a953119a9bff588a5fa3bc05443"
+    },
+    {
+      "phase_start": 500,
+      "file": "phase_0500.npz",
+      "sha256": "7499fd7a86af04ceeb3e9ed3e8aeaa37a1eaacfc199826fb34017e9669f45fd8"
+    },
+    {
+      "phase_start": 1000,
+      "file": "phase_1000.npz",
+      "sha256": "0bb97a8a994461a7f56dc63800a51dd1951ecc25a9b554c3eaee0072d5cbea79"
+    },
+    {
+      "phase_start": 1500,
+      "file": "phase_1500.npz",
+      "sha256": "869cbaf55bc01cd7a8ca15beab56cc0e5ce4f70ffa52115eb5f00c905d9a09e9"
+    },
+    {
+      "phase_start": 2000,
+      "file": "phase_2000.npz",
+      "sha256": "fe12cecb109466064ca92600e9ca47819f92c0167f0cd2b18bc5d5959809376d"
+    },
+    {
+      "phase_start": 2500,
+      "file": "phase_2500.npz",
+      "sha256": "d1810364a873ed47aab0cbbd08df3790f4a484e4e0979b007fcd973e524c4e58"
+    }
+  ],
+  "windows_sha256": "18b429f19945996023bbce35c41f8b8c87f4b4643dd96c7dba6c43b4ccf18e77",
+  "additional_reference_updates": 0,
+  "selection_forward_presentations": 1024000,
+  "selection_reference_forward_presentations": 1024000,
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.22346295003966257,
+        "NMSE": 0.4703107694934512,
+        "windows": 210311
+      }
+    },
+    "per_channel_NMAE": [
+      0.3349251051325165,
+      0.14931605284570326,
+      0.29597285503926785,
+      0.11731523503995128,
+      0.14900616045545553,
+      0.07022211888320144,
+      0.24735979826303972,
+      0.36419571133690404,
+      0.30388781672886156,
+      0.46409632153834396,
+      0.35456573181853523,
+      0.010933299379545491,
+      0.2626512613926685,
+      0.17302310328056592,
+      0.05447367946037882
+    ],
+    "per_channel_NMSE": [
+      0.44383568935019563,
+      0.08032020714440313,
+      0.42021839290247914,
+      0.27199384591748427,
+      0.0803173161590456,
+      0.017551701175397234,
+      0.26178711645661845,
+      0.5455372037989622,
+      0.3969988370393387,
+      0.9120491812780371,
+      0.530258068397887,
+      0.11024081360918928,
+      2.0157631578293733,
+      0.8850661009518809,
+      0.08272391039147405
+    ]
+  },
+  "elapsed_seconds": 75.10327098704875
+}

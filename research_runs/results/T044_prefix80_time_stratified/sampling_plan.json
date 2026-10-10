@@ -1,0 +1,11 @@
+{
+  "policy": "time_stratified",
+  "seed": 3026,
+  "shape": [
+    3000,
+    256
+  ],
+  "sha256": "4702e511cfd94d1578d5b50f8db44a1e5981563dfcb9f40dd0bc6ba443135f72",
+  "eligible_windows": 842581,
+  "source_mapping": "candidate_indices index train_start in windows.npz; source unchanged"
+}

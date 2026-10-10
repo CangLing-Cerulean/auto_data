@@ -1,0 +1,59 @@
+{
+  "phases": [
+    {
+      "start_step": 0,
+      "asset_sha256": "ac3d4e9ef0c5568030e6feff01791c987cdd1028eca7faa53e8da94f7d2a45ca",
+      "scoring_seconds": 0.030169627629220486,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 1.0,
+      "max_relative_to_uniform": 1.0
+    },
+    {
+      "start_step": 500,
+      "asset_sha256": "af751aba7021fe9540837c3c01bf2767cac3012c7cf741bb55ac1ca8f4d2182a",
+      "scoring_seconds": 0.7708934238180518,
+      "scoring_forward_presentations": 632231,
+      "min_relative_to_uniform": 1.0,
+      "max_relative_to_uniform": 1.0
+    },
+    {
+      "start_step": 1000,
+      "asset_sha256": "82f5e4d859e90a3cfc2db1b33133b39a5298a36785f092b979bee7d68a3f7b0f",
+      "scoring_seconds": 0.8138205306604505,
+      "scoring_forward_presentations": 632231,
+      "min_relative_to_uniform": 0.5,
+      "max_relative_to_uniform": 29.815177310338825
+    },
+    {
+      "start_step": 1500,
+      "asset_sha256": "46f9f36faf8876d1640946c92c32ed2210cecdb1bd808ad5a836bbe7a300cb8f",
+      "scoring_seconds": 0.81676927767694,
+      "scoring_forward_presentations": 632231,
+      "min_relative_to_uniform": 0.5,
+      "max_relative_to_uniform": 54.449346859962134
+    },
+    {
+      "start_step": 2000,
+      "asset_sha256": "98fe68768020197f4e1356099ba603b355066620d9a3b6b91e61634cd590e05e",
+      "scoring_seconds": 0.8120147734880447,
+      "scoring_forward_presentations": 632231,
+      "min_relative_to_uniform": 0.5,
+      "max_relative_to_uniform": 128.36985362095683
+    },
+    {
+      "start_step": 2500,
+      "asset_sha256": "f153b0944794fc1a97fd4cfa3af8c3310fd6788d7f50e5dc89ff7e54959b5791",
+      "scoring_seconds": 0.8130225213244557,
+      "scoring_forward_presentations": 632231,
+      "min_relative_to_uniform": 0.5000000000000001,
+      "max_relative_to_uniform": 288.70611184055275
+    }
+  ],
+  "retained_windows": 632231,
+  "removed_windows": 0,
+  "total_draws": 768000,
+  "stratum_mass_matches_uniform": true,
+  "scoring_forward_presentations": 3161155,
+  "scoring_seconds": 4.056690154597163,
+  "windows_sha256": "1d5a58e50d4c64b8cfff2ac86d9b758e1f503ec0ca0c1f8d3e91bf4b87671ef4"
+}

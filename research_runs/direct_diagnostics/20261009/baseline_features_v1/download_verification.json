@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "date": "2026-10-09",
+  "protected_source_checks": [
+    {
+      "path": "data/metropt3_v1/manifest.json",
+      "sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+      "matches": true
+    },
+    {
+      "path": "research_runs/protocol.json",
+      "sha256": "573ee4e87ef442b7140afb26f4befe80a8de1a43fec3b5c1fe6b878e527f8afe",
+      "matches": true
+    },
+    {
+      "path": "scripts/run_research.py",
+      "sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+      "matches": true
+    },
+    {
+      "path": "scripts/diagnose_feature_errors.py",
+      "sha256": "acb50840032f93ce0d42bf9849f824d84a7f9762e09713a346f2a53f22f6ac7d",
+      "matches": true
+    },
+    {
+      "path": "research_runs/direct_diagnostics/20261009/PROTOCOL.md",
+      "sha256": "ddcf75af5a91dc99a024bbdc1d6937c65a98f255ad469fe1cd5208ee4f242656",
+      "matches": true
+    },
+    {
+      "path": "data/metropt3_v1/train.csv",
+      "sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+      "matches": true
+    },
+    {
+      "path": "data/metropt3_v1/validation.csv",
+      "sha256": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S000_uniform_s2026/best.pt",
+      "sha256": "dac0dda87e6694a13cc8d867b733ba7aeefc0b4457df0ac11b420af490f34998",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S000_uniform_s2026/result.json",
+      "sha256": "f2a42f47cdc622eeaea15a756ed6743c60e5e5fcc6b016b0fee0fbc88d8588a5",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S005_uniform_s2027/best.pt",
+      "sha256": "306e916c185bbf2521dbceb60249408947fdde4d49566bfb464e23eadfe9bd3b",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S005_uniform_s2027/result.json",
+      "sha256": "9e995ed5326dadd6b8e4f9f1689b487a6a449e7ba876b4e91989c33c39b7e6c7",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S010_uniform_s2028/best.pt",
+      "sha256": "271959880402aa5a32d789883762c1b91943a659648c783bc78e8c7e4ab47860",
+      "matches": true
+    },
+    {
+      "path": "research_runs/results/S010_uniform_s2028/result.json",
+      "sha256": "48f4f039a08565bb1ad70307aa6bcfd90e8573600844847b3925a0b2503ac74e",
+      "matches": true
+    }
+  ],
+  "source_snapshot_files": [
+    {
+      "name": "audit_feature_diagnostics.py",
+      "sha256": "050602248eccffbd1d97405b63a19cb399cfc6e7679879060a0d1d1c24e93765"
+    },
+    {
+      "name": "diagnose_feature_errors.py",
+      "sha256": "acb50840032f93ce0d42bf9849f824d84a7f9762e09713a346f2a53f22f6ac7d"
+    },
+    {
+      "name": "inspect_constant_response.py",
+      "sha256": "4bf27a1653df648acf4d0f1b6bc6df9b00a12eab3464670764983e462c476fcd"
+    },
+    {
+      "name": "PROTOCOL.md",
+      "sha256": "ddcf75af5a91dc99a024bbdc1d6937c65a98f255ad469fe1cd5208ee4f242656"
+    }
+  ],
+  "complete_D_partitions": 4,
+  "model_metric_reproduction": "all_three_models_overall_groups_and_channels_passed_atol_1e-10",
+  "window_evidence_sha256": "7e388299fe246c3fa319efa2ad8462ad03c03b2e4327e323c4d25ae200f95ca0",
+  "training_calls": 0,
+  "api_calls": 0,
+  "test_access": false
+}

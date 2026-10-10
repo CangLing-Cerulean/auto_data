@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "archive_name": "direct_processing_complete_20261009",
+      "location": "research_partition",
+      "asset_verification": "passed_before_tar_creation",
+      "archive_creation": "failed_no_space_left_on_device",
+      "original_experiment_assets": "preserved",
+      "repair": "remove_only_incomplete_generated_tar_and_create_archive_in_server_tmp",
+      "additional_training": 0
+    },
+    {
+      "location": "server_tmp",
+      "archive_creation": "completed",
+      "archive_sha256": "f328d098b08722b8af1de4d99428f0f834bcab2011f9a39af6144d50ca9ae65b",
+      "pre_download_review": "retry_manifest_would_include_its_previous_version_and_duplicate_member",
+      "repair": "exclude_current_manifest_and_receipt_from_input_files_then_repackage",
+      "additional_training": 0
+    }
+  ]
+}

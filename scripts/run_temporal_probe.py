@@ -22,6 +22,7 @@ def main():
     parser.add_argument('--source-map',action='store_true')
     parser.add_argument('--discordance',choices=['targeted','shuffle'])
     parser.add_argument('--retention-mask')
+    parser.add_argument('--coverage-policy',choices=['balanced','recent','balanced_recent','recent_shuffle'])
     args=parser.parse_args()
     if Path(args.run_id).name!=args.run_id: raise ValueError('Invalid ID')
     protocol=ROOT/'research_runs/selection/protocol.json'
@@ -55,6 +56,10 @@ def main():
         assert args.drop_block==-1 and args.thin=='none' and not args.state_balance and not args.source_map and not args.discordance
         from cluster_selection import mask_identity
         identity.update(mask_identity(args.retention_mask))
+    if args.coverage_policy:
+        assert args.drop_block==-1 and args.thin=='none' and not args.state_balance and not args.source_map and not args.discordance and not args.retention_mask
+        from coverage_sampling import identity as coverage_identity
+        identity.update(coverage_identity(args.coverage_policy))
     if (run/'identity.json').exists():
         assert json.loads((run/'identity.json').read_text())==identity,'Resume identity mismatch'
     else:
@@ -76,12 +81,18 @@ def main():
         if args.retention_mask:
             from cluster_selection import snapshot_mask
             snapshot_mask(args.retention_mask,run)
+        if args.coverage_policy:
+            from coverage_sampling import snapshot
+            snapshot(run)
     used=sum(json.loads(f.read_text()).get('elapsed_seconds',0) for f in run.parent.glob('*/status.json'))
     old=json.loads((run/'status.json').read_text()).get('elapsed_seconds',0) if (run/'status.json').exists() else 0
     remaining=p['session_gpu_wall_budget_seconds']-used
     if args.retention_mask:
         from cluster_selection import ROUND_LIMIT
         remaining=min(remaining,ROUND_LIMIT-used-60)
+    if args.coverage_policy:
+        from coverage_sampling import ROUND_LIMIT
+        remaining=min(remaining,ROUND_LIMIT-used-20)
     if remaining<=0: raise RuntimeError('Shared budget exhausted')
     begun=time.monotonic()
     def status(phase,step): write_json(run/'status.json',{'phase':phase,'step':step,'elapsed_seconds':old+time.monotonic()-begun})
@@ -116,6 +127,9 @@ def main():
             begin=stop
         if args.thin=='disjoint': assert np.all(np.diff(train_starts[retained])>=40)
     probability=retained.astype(np.float64)/retained.sum()
+    if args.coverage_policy:
+        from coverage_sampling import build
+        probability=build(train_starts,args.coverage_policy,run,times[:cut])
     if args.retention_mask:
         from cluster_selection import load_mask
         retained,probability,mask_meta=load_mask(args.retention_mask,train_starts)

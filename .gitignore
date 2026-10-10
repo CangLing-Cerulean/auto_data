@@ -29,3 +29,18 @@ research_runs/**/*.npz
 research_runs/**/*.csv.gz
 .handoff_packages/
 .handoff_verify/
+
+# Large experiment assets are published through GitHub Releases.
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.npz
+*.npy
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.lock
+/archives/*/
+!/archives/20261005/

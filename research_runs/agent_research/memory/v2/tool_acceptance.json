@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+  "records": 144,
+  "coverage": {
+    "historical_completed": 134,
+    "historical_main": 131,
+    "historical_auxiliary": 3,
+    "engineering_receipts": 0,
+    "conditional_summaries": 10
+  },
+  "all_pages_have_unique_ids": true,
+  "actual_gateway_tools": [
+    "list_experience",
+    "retrieve_experience",
+    "read_experience"
+  ],
+  "chinese_retrieval_ids": [
+    "experience:quiet_selection",
+    "experience:run:S002_downweight_quiet_s2026",
+    "experience:run:S007_downweight_quiet_s2027",
+    "experience:run:S012_downweight_quiet_s2028",
+    "experience:bilevel_control"
+  ],
+  "hidden_scopes": {
+    "none:experience_combination": 0,
+    "full:new_task_discovery": 0,
+    "other_tasks:experience_combination": 0
+  },
+  "api_calls": 0,
+  "trainings": 0,
+  "correct_signal": "unassessed",
+  "exploration_effect": "not_evaluated",
+  "v1_library_sha256": "660504e7a79251a0dcd90ec41b2f1c7026fee4978a69230ba0a9d9a6fb37fdd2"
+}

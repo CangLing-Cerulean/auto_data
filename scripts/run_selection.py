@@ -96,7 +96,7 @@ def sampling_policy(recipe, score, threshold, months=None, rare=None, aligned_lo
                     restore=restore_rng.choice(restore_pool,count,replace=False)
                 sampling[remove]=0
                 sampling[restore]=1
-    elif recipe not in ('uniform','pca_rotation','leading_sources','frozen_mask'):
+    elif recipe not in ('uniform','pca_rotation','leading_sources','frozen_mask','coverage_sampling'):
         raise ValueError(recipe)
     if sampling.sum()<=0:
         raise ValueError('Empty candidate pool')
@@ -110,6 +110,7 @@ def main():
     parser.add_argument('--recipe',required=True)
     parser.add_argument('--seed',type=int,default=2026)
     parser.add_argument('--retention-mask')
+    parser.add_argument('--coverage-policy',choices=['balanced','recent','balanced_recent','recent_shuffle'])
     args=parser.parse_args()
     if Path(args.run_id).name!=args.run_id:
         raise ValueError('Invalid run ID')
@@ -125,6 +126,10 @@ def main():
               'code_sha256':digest(Path(__file__)),'core_sha256':digest(ROOT/'scripts/run_research.py'),
               'recipe':args.recipe,'seed':args.seed,'preprocessing':'baseline'}
     assert bool(args.retention_mask)==(args.recipe=='frozen_mask')
+    assert bool(args.coverage_policy)==(args.recipe=='coverage_sampling')
+    if args.coverage_policy:
+        from coverage_sampling import identity as coverage_identity
+        identity.update(coverage_identity(args.coverage_policy))
     if args.retention_mask:
         from cluster_selection import mask_identity
         identity.update(mask_identity(args.retention_mask))
@@ -153,6 +158,9 @@ def main():
         (run/'code_snapshot.py').write_bytes(Path(__file__).read_bytes())
         (run/'core_snapshot.py').write_bytes((ROOT/'scripts/run_research.py').read_bytes())
         (run/'protocol.json').write_bytes(config_path.read_bytes())
+        if args.coverage_policy:
+            from coverage_sampling import snapshot
+            snapshot(run)
         if args.retention_mask:
             from cluster_selection import snapshot_mask
             snapshot_mask(args.retention_mask,run)
@@ -169,6 +177,9 @@ def main():
     if args.retention_mask:
         from cluster_selection import ROUND_LIMIT
         remaining=min(remaining,ROUND_LIMIT-used-60)
+    if args.coverage_policy:
+        from coverage_sampling import ROUND_LIMIT
+        remaining=min(remaining,ROUND_LIMIT-used-20)
     if remaining<=0:
         raise RuntimeError('Budget exhausted')
     begun=time.monotonic()
@@ -198,6 +209,10 @@ def main():
     rare=training_lps_mask(indices['train'],p['input_length']) if args.recipe in MONTH_RECIPES[1:] else None
     aligned_loss=alignment_loss_weights(args.recipe) if alignment is not None else None
     sampling,loss_weight,prob=sampling_policy(args.recipe,scores['train'],threshold,months,rare,aligned_loss)
+    if args.coverage_policy:
+        from coverage_sampling import build
+        prob=build(indices['train'],args.coverage_policy,run)
+        sampling=prob*len(prob)
     if args.retention_mask:
         from cluster_selection import load_mask
         retained,prob,mask_meta=load_mask(args.retention_mask,indices['train'])

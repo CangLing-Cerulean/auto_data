@@ -1,0 +1,59 @@
+{
+  "phases": [
+    {
+      "start_step": 0,
+      "asset_sha256": "ac3d4e9ef0c5568030e6feff01791c987cdd1028eca7faa53e8da94f7d2a45ca",
+      "scoring_seconds": 0.04061256814748049,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 1.0,
+      "max_relative_to_uniform": 1.0
+    },
+    {
+      "start_step": 500,
+      "asset_sha256": "af751aba7021fe9540837c3c01bf2767cac3012c7cf741bb55ac1ca8f4d2182a",
+      "scoring_seconds": 0.06918505113571882,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 1.0,
+      "max_relative_to_uniform": 1.0
+    },
+    {
+      "start_step": 1000,
+      "asset_sha256": "d2b910a5825c38a919c2d8f7c37e91a54fcc90c7a678c1b7bd53606c9649e6cf",
+      "scoring_seconds": 0.1429974241182208,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 0.5736156117038069,
+      "max_relative_to_uniform": 19.768329958228126
+    },
+    {
+      "start_step": 1500,
+      "asset_sha256": "bbe43dda733f6d5d2b5146f32d9e6a8f61dbb57a7d890d15b722853dc165717c",
+      "scoring_seconds": 0.14526022411882877,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 0.5960371246290882,
+      "max_relative_to_uniform": 9.860447479644622
+    },
+    {
+      "start_step": 2000,
+      "asset_sha256": "224df0bff0a410b4eee3da01bf43e49764702eb783022bf7dbe0a52bbe4abb49",
+      "scoring_seconds": 0.14396867621690035,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 0.613447663419333,
+      "max_relative_to_uniform": 15.344837345989502
+    },
+    {
+      "start_step": 2500,
+      "asset_sha256": "f3d13c24ec24256cc47333a62f96c11340ae7227b95e98556f72302bfe595e61",
+      "scoring_seconds": 0.1452449792996049,
+      "scoring_forward_presentations": 0,
+      "min_relative_to_uniform": 0.5993115499868553,
+      "max_relative_to_uniform": 11.258484044839209
+    }
+  ],
+  "retained_windows": 632231,
+  "removed_windows": 0,
+  "total_draws": 768000,
+  "stratum_mass_matches_uniform": true,
+  "scoring_forward_presentations": 0,
+  "scoring_seconds": 0.6872689230367541,
+  "windows_sha256": "aeac30b7319fd0013f5ebb514f264a75501304d5f2972bcf1b70c7721d6d2dc0"
+}

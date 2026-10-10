@@ -1,0 +1,87 @@
+{
+  "scope": "registered_development_mechanism_ablation",
+  "records": {
+    "0.6/2026": {
+      "own_half": {
+        "NMSE": 0.4479146628675861,
+        "NMAE": 0.21301448388460165,
+        "windows": 210311
+      },
+      "candidate": {
+        "NMSE": 0.43729425689979246,
+        "NMAE": 0.208072711472132,
+        "windows": 210311
+      },
+      "candidate_NMSE_improvement_vs_own_half_pct": 2.371077986105863,
+      "candidate_NMAE_improvement_vs_own_half_pct": 2.3199231913013096
+    },
+    "0.8/2026": {
+      "own_half": {
+        "NMSE": 0.5305409573297627,
+        "NMAE": 0.2549481469524145,
+        "windows": 210813
+      },
+      "candidate": {
+        "NMSE": 0.5198418245068935,
+        "NMAE": 0.2518803829381976,
+        "windows": 210813
+      },
+      "candidate_NMSE_improvement_vs_own_half_pct": 2.016645967677666,
+      "candidate_NMAE_improvement_vs_own_half_pct": 1.2032893946820944
+    },
+    "full/3026": {
+      "own_half": {
+        "NMSE": 0.2870322450775033,
+        "NMAE": 0.19548542512409559,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.27405048264660964,
+        "NMAE": 0.19537542873631825,
+        "windows": 300535
+      },
+      "candidate_NMSE_improvement_vs_own_half_pct": 4.522754029739195,
+      "candidate_NMAE_improvement_vs_own_half_pct": 0.05626833187564184
+    },
+    "full/3027": {
+      "own_half": {
+        "NMSE": 0.28760407778341396,
+        "NMAE": 0.1991850108593418,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.2750697638619124,
+        "NMAE": 0.19732822666640767,
+        "windows": 300535
+      },
+      "candidate_NMSE_improvement_vs_own_half_pct": 4.358183659322378,
+      "candidate_NMAE_improvement_vs_own_half_pct": 0.9321907230485871
+    },
+    "full/3028": {
+      "own_half": {
+        "NMSE": 0.2885948143604359,
+        "NMAE": 0.19258158622507038,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.27589083234654177,
+        "NMAE": 0.19193625817424367,
+        "windows": 300535
+      },
+      "candidate_NMSE_improvement_vs_own_half_pct": 4.402013266263227,
+      "candidate_NMAE_improvement_vs_own_half_pct": 0.33509333030028454
+    }
+  },
+  "gates": {
+    "each_origin_candidate_better": true,
+    "each_confirmation_seed_candidate_better": true,
+    "mean_source_increment_at_least_0_25pct": true
+  },
+  "source_increment_supported": true,
+  "mean_candidate_NMSE_improvement_vs_own_half_pct": 4.427557894785328,
+  "protocol_sha256": "74581da02d45ed85b6ddec04a0f4f2f7ad8fa11638fc1f9b799a2e9563dfb227",
+  "does_not_prove": [
+    "all_possible_processing_mechanisms",
+    "independent_dataset_generalization"
+  ]
+}

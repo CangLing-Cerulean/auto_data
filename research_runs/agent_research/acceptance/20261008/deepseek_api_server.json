@@ -1,0 +1,36 @@
+{
+  "scope": "engineering_only",
+  "started_at": "2026-10-08T15:07:38.653202+00:00",
+  "model_requested": "deepseek-flash",
+  "request_sha256": "b4d8bc5c592ca9585976a04c7de81bfacfaebcc9a88af9ef9172a987f25d94c1",
+  "script_sha256": "23a18ae01bd0dac130585085b015664bf7d971c78af022978acb9388e74da24b",
+  "network_requests": 1,
+  "research_experiment": false,
+  "model_returned": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 101,
+    "total_tokens": 224,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 123
+  },
+  "status": "passed",
+  "decision": {
+    "action": {
+      "tool": "report_readiness",
+      "arguments": {
+        "ready": true
+      }
+    },
+    "reason": "接口检查",
+    "hypotheses": [],
+    "evidence_refs": []
+  },
+  "elapsed_seconds": 0.6440617348998785
+}

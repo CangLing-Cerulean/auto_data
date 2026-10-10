@@ -1,0 +1,113 @@
+{
+  "run_id": "T043_prefix60_time_stratified",
+  "identity": {
+    "policy": "time_stratified",
+    "origin": 0.6,
+    "seed": 2026,
+    "run_type": "main_model",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "study_protocol_sha256": "132ad04d6bf96ce4fc126e6dab225c96fdf40a9c098a742fba948a5be791ed34",
+    "code_sha256": "5615356699c218c63a6dfd41a06590a63acace33bf85478b1edd5a636677774d",
+    "data_helper_sha256": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "round_limit_seconds": 6589.922976038419
+  },
+  "dataset_id": "metropt3_v1",
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.37503166842460633
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.28397118392586707
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.2802432564496994
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.2791008704602718
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.27676185342669485
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.27813956290483477
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sampling_plan_sha256": "09bec298ff24a8937ca745cf24037f3baf5f6070c23253654f0cbfd4b3bd1742",
+  "windows_sha256": "e539fa0d5bfa292258df306cf0f381de1714a6548ed2872a6fec7b5361932067",
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "unique_windows_presented": 444204,
+  "unique_fraction": 0.7025976265004406,
+  "minimum_presentations": 0,
+  "maximum_presentations": 10,
+  "additional_model_forward_presentations": 0,
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.22000705069465443,
+        "NMSE": 0.44477964481036014,
+        "windows": 210311
+      }
+    },
+    "per_channel_NMAE": [
+      0.3319462019908419,
+      0.1563271471437911,
+      0.2887795775564407,
+      0.07465737636036718,
+      0.1558971540485138,
+      0.07078523510327865,
+      0.25446852990165314,
+      0.36639737223867747,
+      0.305018877918199,
+      0.45097929471622134,
+      0.34937562900968383,
+      0.01310350329326525,
+      0.2780863348553945,
+      0.15362392913501124,
+      0.05065959714847886
+    ],
+    "per_channel_NMSE": [
+      0.44122061733440643,
+      0.08122669314693469,
+      0.4162772919459569,
+      0.23046172012089353,
+      0.08126031041460961,
+      0.018176771373061448,
+      0.26172536706398886,
+      0.5293929957503537,
+      0.3949478933351797,
+      0.8932484674847966,
+      0.5118630000547495,
+      0.11763650902894889,
+      1.918881019127043,
+      0.7019451397573506,
+      0.07343087621712781
+    ]
+  },
+  "elapsed_seconds": 64.44018961116672
+}

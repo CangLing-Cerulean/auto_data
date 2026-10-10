@@ -1,0 +1,129 @@
+{
+  "scope": "existing_train_internal_result_only",
+  "top_NMSE_costs": [
+    {
+      "sensor": "Oil_level",
+      "baseline_NMSE": 0.7034429221862019,
+      "drop_NMSE": 1.278515275904897,
+      "delta": 0.5750723537186951
+    },
+    {
+      "sensor": "Pressure_switch",
+      "baseline_NMSE": 1.9499322000440606,
+      "drop_NMSE": 2.3670793632708347,
+      "delta": 0.41714716322677403
+    },
+    {
+      "sensor": "Caudal_impulses",
+      "baseline_NMSE": 0.07391739793689701,
+      "drop_NMSE": 0.12101036116040317,
+      "delta": 0.04709296322350616
+    },
+    {
+      "sensor": "Towers",
+      "baseline_NMSE": 0.8933119415247917,
+      "drop_NMSE": 0.9227428329062068,
+      "delta": 0.029430891381415192
+    },
+    {
+      "sensor": "LPS",
+      "baseline_NMSE": 0.1189669854873682,
+      "drop_NMSE": 0.14411446929963992,
+      "delta": 0.02514748381227172
+    }
+  ],
+  "high_removal_cells": [
+    {
+      "cell": "11",
+      "windows": 10783,
+      "flagged": 10774,
+      "applied": 10774,
+      "flagged_fraction": 0.9991653528702588
+    },
+    {
+      "cell": "10",
+      "windows": 145,
+      "flagged": 109,
+      "applied": 109,
+      "flagged_fraction": 0.7517241379310344
+    },
+    {
+      "cell": "8",
+      "windows": 37990,
+      "flagged": 97,
+      "applied": 97,
+      "flagged_fraction": 0.002553303500921295
+    },
+    {
+      "cell": "4",
+      "windows": 16038,
+      "flagged": 39,
+      "applied": 39,
+      "flagged_fraction": 0.0024317246539468764
+    },
+    {
+      "cell": "1",
+      "windows": 151783,
+      "flagged": 175,
+      "applied": 175,
+      "flagged_fraction": 0.0011529617941403187
+    }
+  ],
+  "rule_changed": false,
+  "matched_control_mask_overlap": {
+    "flagged_intersection": 10845,
+    "flagged_count": 11321,
+    "unchanged_flagged_fraction": 0.9579542443247063,
+    "swapped_members_total": 952
+  },
+  "cell_descriptors": {
+    "0": {
+      "frozen_cluster": 0,
+      "month": "2020-02"
+    },
+    "1": {
+      "frozen_cluster": 0,
+      "month": "2020-03"
+    },
+    "2": {
+      "frozen_cluster": 0,
+      "month": "2020-04"
+    },
+    "4": {
+      "frozen_cluster": 1,
+      "month": "2020-03"
+    },
+    "5": {
+      "frozen_cluster": 1,
+      "month": "2020-04"
+    },
+    "6": {
+      "frozen_cluster": 2,
+      "month": "2020-02"
+    },
+    "7": {
+      "frozen_cluster": 2,
+      "month": "2020-03"
+    },
+    "8": {
+      "frozen_cluster": 2,
+      "month": "2020-04"
+    },
+    "10": {
+      "frozen_cluster": 3,
+      "month": "2020-03"
+    },
+    "11": {
+      "frozen_cluster": 3,
+      "month": "2020-04"
+    }
+  },
+  "prior_deletion_overlap": {
+    "prior_run": "T019_prefix60_cluster3",
+    "prior_removed": 10928,
+    "cadence_removed": 11321,
+    "intersection": 10883,
+    "jaccard": 0.9575048389934894,
+    "cadence_removed_already_in_prior": 0.9613108382651709
+  }
+}

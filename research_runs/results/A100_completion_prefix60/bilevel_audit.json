@@ -1,0 +1,114 @@
+{
+  "fit_raw_rows": [
+    0,
+    382270
+  ],
+  "meta_raw_rows": [
+    382270,
+    509693
+  ],
+  "held_diagnostic_raw_rows": [
+    509693,
+    637117
+  ],
+  "fit_windows": 379478,
+  "meta_windows": 126397,
+  "held_windows": 126278,
+  "gradient_checks": [
+    {
+      "parameter": 0,
+      "analytic": -0.0001232278392835403,
+      "finite_difference": -0.00012322783987661623,
+      "absolute_difference": 5.930759355843307e-13
+    },
+    {
+      "parameter": 5,
+      "analytic": -0.005635999954024396,
+      "finite_difference": -0.0056359999364707924,
+      "absolute_difference": 1.7553603536002438e-11
+    },
+    {
+      "parameter": 11,
+      "analytic": -4.6317796133620465e-05,
+      "finite_difference": -4.6317796542627576e-05,
+      "absolute_difference": 4.090071109488086e-13
+    }
+  ],
+  "history": [
+    {
+      "step": 1,
+      "objective_before_update": 0.2724369397989836,
+      "meta_NMSE_before_update": 0.2724369397989836
+    },
+    {
+      "step": 20,
+      "objective_before_update": 0.26433073705269,
+      "meta_NMSE_before_update": 0.2642190076174257
+    },
+    {
+      "step": 40,
+      "objective_before_update": 0.2624215654156179,
+      "meta_NMSE_before_update": 0.2622303106488825
+    },
+    {
+      "step": 60,
+      "objective_before_update": 0.26204078266918396,
+      "meta_NMSE_before_update": 0.2618294483960062
+    },
+    {
+      "step": 80,
+      "objective_before_update": 0.2619034518260068,
+      "meta_NMSE_before_update": 0.26168467009475926
+    },
+    {
+      "step": 100,
+      "objective_before_update": 0.2618302353664357,
+      "meta_NMSE_before_update": 0.2616077089054624
+    },
+    {
+      "step": 120,
+      "objective_before_update": 0.26178336544341935,
+      "meta_NMSE_before_update": 0.261558124256587
+    },
+    {
+      "step": 140,
+      "objective_before_update": 0.26175065031577327,
+      "meta_NMSE_before_update": 0.2615236225628311
+    },
+    {
+      "step": 160,
+      "objective_before_update": 0.2617266285307434,
+      "meta_NMSE_before_update": 0.2614982484047738
+    },
+    {
+      "step": 180,
+      "objective_before_update": 0.2617083510812931,
+      "meta_NMSE_before_update": 0.261478921733888
+    },
+    {
+      "step": 200,
+      "objective_before_update": 0.2616940569469985,
+      "meta_NMSE_before_update": 0.26146380455853774
+    }
+  ],
+  "baseline_meta_NMSE": 0.2724369397989836,
+  "weighted_meta_NMSE": 0.2614631358664259,
+  "baseline_held_NMSE": 0.5309678561995484,
+  "weighted_held_NMSE": 0.5068670216952217,
+  "group_weights": [
+    1.1246996251300878,
+    1.1247669513152752,
+    0.9216006258704733,
+    0.9999997167853891,
+    0.9999997167853891,
+    1.1229608631900185,
+    0.9999997167853891,
+    0.9999997167853891,
+    0.6285754702882941,
+    0.9999997167853891,
+    0.9999997167853891,
+    1.120892274523785
+  ],
+  "final_objective": 0.2616934248193436,
+  "outer_evaluation_used": false
+}

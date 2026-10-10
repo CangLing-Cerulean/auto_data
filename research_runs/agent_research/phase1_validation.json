@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-08",
+  "scope": "engineering_acceptance_only",
+  "new_component_tests_passed": 15,
+  "existing_selection_tests_passed": 27,
+  "experience_source_cases_verified": 10,
+  "python_files_parsed": 6,
+  "experience_sha256": "660504e7a79251a0dcd90ec41b2f1c7026fee4978a69230ba0a9d9a6fb37fdd2",
+  "selection_v1_sha256_preserved": "e84d8c435b92da5f54c7f3e9e8f587a997df10e2a14fc3c8c8e5bc1a19139a6a",
+  "dataset_integrity": "PASS exact reconstruction, checksums, counts and chronological boundaries",
+  "sandbox_runtime_verified": false,
+  "sandbox_limitation": "Docker CLI exists; dockerDesktopLinuxEngine pipe absent. Preparation and command construction only.",
+  "agent_loop_integrated": false,
+  "new_model_trainings": 0,
+  "api_calls": 0,
+  "historical_completed_trainings": 134,
+  "independent_evaluation_performed": false,
+  "assets": {
+    "online_ts/agent_research/__init__.py": "534654b2702f76248f4fb962afb0e9ed30d61f51c50adb3bbef33a2ffc40988f",
+    "online_ts/agent_research/__main__.py": "6934b31126a8992b29b88512834de8fefa98cc94e0490c9375c98d9e24c163e5",
+    "online_ts/agent_research/evidence.py": "3b2a36b142b7405a563f9c8d51e68a1d2045083ec4f845da3dded82352d5ae79",
+    "online_ts/agent_research/experience.py": "bd31d50ab940d69ef76136b062177d1b3afc08631be003858ad77b6ac1206581",
+    "online_ts/agent_research/sandbox.py": "d82da79a8f2f9732792a28452c806c642e4e09b13a55a9aeb0d9c33b5e1f4c14",
+    "tests/test_agent_research.py": "216440dd9a37fb84ee626188f9b747f8edca1e32d3acfa008a2dbc550bd05df1",
+    "research_runs/agent_research/ROADMAP.md": "5f5ba60876031ecca5967035c83673438ea373694b18679dddc44b8aa3b51262",
+    "research_runs/agent_research/EXECUTION_CONTRACT.md": "de02188105218e6bd71063b0a016b54a2374eda6ec6e9714139524de6cafb9e3",
+    "research_runs/agent_research/experience_specs.json": "4b5d0809f5c37d346f571092546b66da39c13985620a09d1bbc08562cb5b9748",
+    "research_runs/agent_research/experience_library.json": "47c5ec8c4d92bb948dc1787627b641161a7c5440ff46a7cd65b052537dcccff8",
+    "research_runs/agent_research/progress.json": "353eebc43b9a8cc91873a032893914c7654dfacf24999ce7b71fb71f71a40841",
+    "research_runs/agent_research/README.md": "e8dbd63cc1982cb602caf34c6261058162e05cdafd6011e1888dc7321f7418bd"
+  }
+}

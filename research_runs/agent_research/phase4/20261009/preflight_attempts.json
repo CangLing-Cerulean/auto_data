@@ -1,0 +1,19 @@
+{
+  "attempts": [{
+    "stage": "server_script_import_before_any_job",
+    "status": "failed",
+    "error": "ModuleNotFoundError_online_ts_script_import_path",
+    "repair": "bind_script_import_path_to_project_root",
+    "API_calls": 0,
+    "training_calls": 0,
+    "formal_searches": 0
+  }, {
+    "stage": "fixture_code_parse_before_job_creation",
+    "status": "failed",
+    "error": "DIAGNOSTIC_CODE_SYNTAX_fixture_state_literal",
+    "repair": "serialize_fixture_state_literal_before_embedding_in_code",
+    "API_calls": 0,
+    "training_calls": 0,
+    "formal_searches": 0
+  }]
+}

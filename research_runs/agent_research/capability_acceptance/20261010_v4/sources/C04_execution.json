@@ -1,0 +1,7 @@
+{
+  "candidate_id": "ewma_denoise_v1",
+  "status": "failed",
+  "error": "PROCESSING_WORKER_FAILED: Traceback (most recent call last):\n  File \"/tmp/auto_data_phase4_20261009/runs/p4_full_r1/processing/ewma_denoise_v1/code/agent.py\", line 1, in <module>\n    import torch\n  File \"/opt/miniconda3/lib/python3.12/site-packages/torch/__init__.py\", line 496, in <module>\n    from torch._C import *  # noqa: F403\n    ^^^^^^^^^^^^^^^^^^^^^^\nImportError: libtorch_cpu.so: failed to map segment from shared object\n",
+  "stage": "proposed",
+  "scope": "development_only"
+}

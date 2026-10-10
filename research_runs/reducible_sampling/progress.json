@@ -1,0 +1,60 @@
+{
+  "phase": "stopped_no_prefix60_signal",
+  "rows": [
+    {
+      "run_id": "T035_prefix60_rho",
+      "origin": 0.6,
+      "policy": "rho",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.22346295003966257,
+      "NMSE": 0.4703107694934512,
+      "windows": 210311,
+      "NMSE_reduction_pct": -5.036092329552466,
+      "NMAE_reduction_pct": -4.061834278672238
+    },
+    {
+      "run_id": "T036_prefix60_adarho",
+      "origin": 0.6,
+      "policy": "adarho",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.1800732917658601,
+      "NMSE": 0.4815199667684456,
+      "windows": 210311,
+      "NMSE_reduction_pct": -7.539480208984961,
+      "NMAE_reduction_pct": 16.143785614447616
+    },
+    {
+      "run_id": "T037_prefix60_hard_rank",
+      "origin": 0.6,
+      "policy": "hard_rank",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.26146947216139405,
+      "NMSE": 0.45347623940175275,
+      "windows": 210311,
+      "NMSE_reduction_pct": -1.2763798761447953,
+      "NMAE_reduction_pct": -21.760644778749906
+    },
+    {
+      "run_id": "T038_prefix60_shuffle",
+      "origin": 0.6,
+      "policy": "shuffle",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.20961662477767087,
+      "NMSE": 0.4484471605967026,
+      "windows": 210311,
+      "NMSE_reduction_pct": -0.15321872406490744,
+      "NMAE_reduction_pct": 2.386098161699779
+    }
+  ],
+  "auxiliary_runs": [
+    "P000_reference_prefix60"
+  ],
+  "winner": "hard_rank",
+  "round_limit_seconds": 6589.922976038419,
+  "adopt_default": false,
+  "budget_used_seconds": 5198.112471712753
+}

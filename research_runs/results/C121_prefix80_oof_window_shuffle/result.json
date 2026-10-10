@@ -1,0 +1,125 @@
+{
+  "run_id": "C121_prefix80_oof_window_shuffle",
+  "identity": {
+    "run_type": "main_model",
+    "run_id": "C121_prefix80_oof_window_shuffle",
+    "score_run": "A101_completion_prefix80",
+    "policy": "oof_window_shuffle",
+    "origin": 0.8,
+    "seed": 2026,
+    "model": "dlinear",
+    "policy_sha256": "3cfbe66b08bdfc7c8cb4d22025a43670a46daabb3fbe8246d5fb2658faf68b94",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "sources_sha256": {
+      "code_snapshot.py": "7f5812c2c5be1c32d6cfc1c5dee3d7eb10684cf6a6ffff40568724b33443a644",
+      "core_snapshot.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+      "data_helper.py": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+      "protocol.json": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+      "study_protocol.md": "253732d4bb30f04b4823011c1bde96b8e3066eeb30c6e15b943c103e4d83f736",
+      "policies.md": "0514bfe3bd6d970b59812be17442a4171a2a60bfbf1de4f644d7f757d299a56c"
+    }
+  },
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.3707958649992943,
+      "elapsed_seconds": 15.532221333123744
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.2797354061901569,
+      "elapsed_seconds": 25.772346179001033
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.27830367523431776,
+      "elapsed_seconds": 35.98319485038519
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.2749722470343113,
+      "elapsed_seconds": 45.57809645589441
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.27487991204857826,
+      "elapsed_seconds": 55.52655143849552
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.2758844387829304,
+      "elapsed_seconds": 65.74301278404891
+    }
+  ],
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "expected_loss_weight": 1.0000000000264564,
+  "weights_shape": [
+    842581
+  ],
+  "weights_min": 0.5,
+  "weights_max": 1.5,
+  "retained_windows": 842581,
+  "windows_sha256": "50e3f324e150bf7670418828e557977ee6fae3ab78f9aa02b9fc4b9f20cd2a5f",
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.2545684422195377,
+        "NMSE": 0.5305299670921382,
+        "windows": 210813
+      }
+    },
+    "per_channel_NMAE": [
+      0.37329119916400494,
+      0.14584246855466876,
+      0.3180155258715895,
+      0.058475701406347856,
+      0.1454961253470801,
+      0.07703008550652198,
+      0.2643415761760748,
+      0.3628980558154008,
+      0.39663109822806997,
+      0.529177378874609,
+      0.35046695446409026,
+      0.008376575959133572,
+      0.4081084864997342,
+      0.27784249979593223,
+      0.10253290162980819
+    ],
+    "per_channel_NMSE": [
+      0.47148784351407164,
+      0.07629593443400748,
+      0.43283008093597725,
+      0.16388775269167827,
+      0.07637399377770568,
+      0.02471495959759613,
+      0.2801376034730961,
+      0.46141419746417955,
+      0.5868076759509184,
+      1.0390689038648326,
+      0.44479200303672245,
+      0.09458112707387967,
+      2.326687074766662,
+      1.3078928414750546,
+      0.1709775143256939
+    ]
+  },
+  "elapsed_seconds": 67.96692932210863
+}

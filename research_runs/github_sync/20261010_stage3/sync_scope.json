@@ -1,0 +1,17 @@
+{
+  "repository": "CangLing-Cerulean/auto_data",
+  "branch": "main",
+  "stage": "phase3_historical_feedback_and_known_processing_engineering",
+  "status": "prepared_locally_pending_publication_scope_confirmation",
+  "included": ["primary_source_code", "tests", "scripts", "research_markdown", "protocols_and_scientific_summary_json"],
+  "excluded": ["raw_model_calls", "raw_execution_traces", "agent_runtime_databases", "agent_run_directories", "server_snapshot_directories", "source_snapshot_directories", "expanded_archives", "large_binary_assets", "private_credentials"],
+  "raw_release_status": "not_uploaded",
+  "initial_bulk_push": "rejected_by_automatic_approval_review_before_execution",
+  "initial_bulk_rejection_reason": "raw_call_logs_execution_traces_and_research_snapshots_not_sufficiently_reviewed_for_publication",
+  "narrowed_text_push": "also_rejected_before_execution_scope_still_too_broad",
+  "known_actual_credentials_check": "passed_without_exposing_values",
+  "publication_review": "publication_review.json",
+  "additional_training": 0,
+  "model_API_calls": 0,
+  "test_access": false
+}

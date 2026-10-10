@@ -1,0 +1,347 @@
+{
+  "phase": "stopped_no_prefix60_signal",
+  "rows": [
+    {
+      "run_id": "T035_prefix60_rho",
+      "origin": 0.6,
+      "policy": "rho",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.22346295003966257,
+      "NMSE": 0.4703107694934512,
+      "windows": 210311,
+      "NMSE_reduction_pct": -5.036092329552466,
+      "NMAE_reduction_pct": -4.061834278672238
+    },
+    {
+      "run_id": "T036_prefix60_adarho",
+      "origin": 0.6,
+      "policy": "adarho",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.1800732917658601,
+      "NMSE": 0.4815199667684456,
+      "windows": 210311,
+      "NMSE_reduction_pct": -7.539480208984961,
+      "NMAE_reduction_pct": 16.143785614447616
+    },
+    {
+      "run_id": "T037_prefix60_hard_rank",
+      "origin": 0.6,
+      "policy": "hard_rank",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.26146947216139405,
+      "NMSE": 0.45347623940175275,
+      "windows": 210311,
+      "NMSE_reduction_pct": -1.2763798761447953,
+      "NMAE_reduction_pct": -21.760644778749906
+    },
+    {
+      "run_id": "T038_prefix60_shuffle",
+      "origin": 0.6,
+      "policy": "shuffle",
+      "seed": 2026,
+      "baseline": "T000_prefix60_full",
+      "NMAE": 0.20961662477767087,
+      "NMSE": 0.4484471605967026,
+      "windows": 210311,
+      "NMSE_reduction_pct": -0.15321872406490744,
+      "NMAE_reduction_pct": 2.386098161699779
+    }
+  ],
+  "auxiliary_runs": [
+    "P000_reference_prefix60"
+  ],
+  "winner": "hard_rank",
+  "round_limit_seconds": 6589.922976038419,
+  "adopt_default": false,
+  "budget_used_seconds": 5198.112471712753,
+  "sampling_profiles": [
+    {
+      "run_id": "T035_prefix60_rho",
+      "warmup_training_matches": true,
+      "warmup_validation_matches": null,
+      "eligible_windows": 632231,
+      "ever_selected_windows": 432550,
+      "total_presentations": 768000,
+      "proposed_presentations": 1536000,
+      "reference_day_population_share": 0.19177642349078106,
+      "reference_day_actual_training_share": 0.19709505208333333,
+      "reference_update_presentations": 0,
+      "selection_forward_presentations": 1024000,
+      "selection_reference_forward_presentations": 1024000,
+      "cell_profile": [
+        {
+          "cell": 0,
+          "candidate_population_share": 0.2732513907100411,
+          "actual_training_share": 0.27555729166666665
+        },
+        {
+          "cell": 1,
+          "candidate_population_share": 0.2400752256690988,
+          "actual_training_share": 0.25048567708333336
+        },
+        {
+          "cell": 2,
+          "candidate_population_share": 0.20051531797713176,
+          "actual_training_share": 0.21007421875
+        },
+        {
+          "cell": 4,
+          "candidate_population_share": 0.025367310365989645,
+          "actual_training_share": 0.02826171875
+        },
+        {
+          "cell": 5,
+          "candidate_population_share": 0.022771740076016518,
+          "actual_training_share": 0.010046875
+        },
+        {
+          "cell": 6,
+          "candidate_population_share": 0.06442740074434819,
+          "actual_training_share": 0.06378515625
+        },
+        {
+          "cell": 7,
+          "candidate_population_share": 0.09621799627035055,
+          "actual_training_share": 0.09386328125
+        },
+        {
+          "cell": 8,
+          "candidate_population_share": 0.06008879665818348,
+          "actual_training_share": 0.05823697916666667
+        },
+        {
+          "cell": 10,
+          "candidate_population_share": 0.0002293465521304713,
+          "actual_training_share": 0.000203125
+        },
+        {
+          "cell": 11,
+          "candidate_population_share": 0.01705547497670946,
+          "actual_training_share": 0.009485677083333333
+        }
+      ]
+    },
+    {
+      "run_id": "T036_prefix60_adarho",
+      "warmup_training_matches": true,
+      "warmup_validation_matches": null,
+      "eligible_windows": 632231,
+      "ever_selected_windows": 413349,
+      "total_presentations": 768000,
+      "proposed_presentations": 1536000,
+      "reference_day_population_share": 0.19177642349078106,
+      "reference_day_actual_training_share": 0.1933828125,
+      "reference_update_presentations": 256000,
+      "selection_forward_presentations": 1024000,
+      "selection_reference_forward_presentations": 1024000,
+      "cell_profile": [
+        {
+          "cell": 0,
+          "candidate_population_share": 0.2732513907100411,
+          "actual_training_share": 0.25741015625
+        },
+        {
+          "cell": 1,
+          "candidate_population_share": 0.2400752256690988,
+          "actual_training_share": 0.26378515625
+        },
+        {
+          "cell": 2,
+          "candidate_population_share": 0.20051531797713176,
+          "actual_training_share": 0.21944140625
+        },
+        {
+          "cell": 4,
+          "candidate_population_share": 0.025367310365989645,
+          "actual_training_share": 0.02431640625
+        },
+        {
+          "cell": 5,
+          "candidate_population_share": 0.022771740076016518,
+          "actual_training_share": 0.01831640625
+        },
+        {
+          "cell": 6,
+          "candidate_population_share": 0.06442740074434819,
+          "actual_training_share": 0.06104947916666666
+        },
+        {
+          "cell": 7,
+          "candidate_population_share": 0.09621799627035055,
+          "actual_training_share": 0.09079947916666667
+        },
+        {
+          "cell": 8,
+          "candidate_population_share": 0.06008879665818348,
+          "actual_training_share": 0.05608333333333333
+        },
+        {
+          "cell": 10,
+          "candidate_population_share": 0.0002293465521304713,
+          "actual_training_share": 0.00018880208333333333
+        },
+        {
+          "cell": 11,
+          "candidate_population_share": 0.01705547497670946,
+          "actual_training_share": 0.008609375
+        }
+      ]
+    },
+    {
+      "run_id": "T037_prefix60_hard_rank",
+      "warmup_training_matches": true,
+      "warmup_validation_matches": null,
+      "eligible_windows": 632231,
+      "ever_selected_windows": 385065,
+      "total_presentations": 768000,
+      "proposed_presentations": 1536000,
+      "reference_day_population_share": 0.19177642349078106,
+      "reference_day_actual_training_share": 0.19125651041666666,
+      "reference_update_presentations": 0,
+      "selection_forward_presentations": 1024000,
+      "selection_reference_forward_presentations": 0,
+      "cell_profile": [
+        {
+          "cell": 0,
+          "candidate_population_share": 0.2732513907100411,
+          "actual_training_share": 0.19818619791666667
+        },
+        {
+          "cell": 1,
+          "candidate_population_share": 0.2400752256690988,
+          "actual_training_share": 0.19232682291666667
+        },
+        {
+          "cell": 2,
+          "candidate_population_share": 0.20051531797713176,
+          "actual_training_share": 0.14797526041666667
+        },
+        {
+          "cell": 4,
+          "candidate_population_share": 0.025367310365989645,
+          "actual_training_share": 0.04203385416666667
+        },
+        {
+          "cell": 5,
+          "candidate_population_share": 0.022771740076016518,
+          "actual_training_share": 0.037759114583333336
+        },
+        {
+          "cell": 6,
+          "candidate_population_share": 0.06442740074434819,
+          "actual_training_share": 0.09944401041666667
+        },
+        {
+          "cell": 7,
+          "candidate_population_share": 0.09621799627035055,
+          "actual_training_share": 0.15659635416666667
+        },
+        {
+          "cell": 8,
+          "candidate_population_share": 0.06008879665818348,
+          "actual_training_share": 0.096625
+        },
+        {
+          "cell": 10,
+          "candidate_population_share": 0.0002293465521304713,
+          "actual_training_share": 0.00037630208333333336
+        },
+        {
+          "cell": 11,
+          "candidate_population_share": 0.01705547497670946,
+          "actual_training_share": 0.028677083333333332
+        }
+      ]
+    },
+    {
+      "run_id": "T038_prefix60_shuffle",
+      "warmup_training_matches": true,
+      "warmup_validation_matches": null,
+      "eligible_windows": 632231,
+      "ever_selected_windows": 426115,
+      "total_presentations": 768000,
+      "proposed_presentations": 1536000,
+      "reference_day_population_share": 0.19177642349078106,
+      "reference_day_actual_training_share": 0.19039192708333333,
+      "reference_update_presentations": 0,
+      "selection_forward_presentations": 0,
+      "selection_reference_forward_presentations": 0,
+      "cell_profile": [
+        {
+          "cell": 0,
+          "candidate_population_share": 0.2732513907100411,
+          "actual_training_share": 0.19818619791666667
+        },
+        {
+          "cell": 1,
+          "candidate_population_share": 0.2400752256690988,
+          "actual_training_share": 0.19232682291666667
+        },
+        {
+          "cell": 2,
+          "candidate_population_share": 0.20051531797713176,
+          "actual_training_share": 0.14797526041666667
+        },
+        {
+          "cell": 4,
+          "candidate_population_share": 0.025367310365989645,
+          "actual_training_share": 0.04203385416666667
+        },
+        {
+          "cell": 5,
+          "candidate_population_share": 0.022771740076016518,
+          "actual_training_share": 0.037759114583333336
+        },
+        {
+          "cell": 6,
+          "candidate_population_share": 0.06442740074434819,
+          "actual_training_share": 0.09944401041666667
+        },
+        {
+          "cell": 7,
+          "candidate_population_share": 0.09621799627035055,
+          "actual_training_share": 0.15659635416666667
+        },
+        {
+          "cell": 8,
+          "candidate_population_share": 0.06008879665818348,
+          "actual_training_share": 0.096625
+        },
+        {
+          "cell": 10,
+          "candidate_population_share": 0.0002293465521304713,
+          "actual_training_share": 0.00037630208333333336
+        },
+        {
+          "cell": 11,
+          "candidate_population_share": 0.01705547497670946,
+          "actual_training_share": 0.028677083333333332
+        }
+      ]
+    }
+  ],
+  "auxiliary_profiles": [
+    {
+      "run_id": "P000_reference_prefix60",
+      "origin": 0.6,
+      "eligible_windows": 121247,
+      "eligible_fraction": 0.19177642349078106,
+      "elapsed_seconds": 66.112409286201,
+      "training_presentations": 768000
+    }
+  ],
+  "comparisons": [
+    {
+      "origin": 0.6,
+      "winner_vs_shuffle_NMSE_reduction_pct": -1.1214428915902852
+    }
+  ],
+  "round_used_seconds": 408.18949567433447,
+  "remaining_total_seconds": 2001.8875282872468,
+  "completed_main_models": 4,
+  "completed_auxiliary_pretraining_models": 1,
+  "test_accessed": false
+}

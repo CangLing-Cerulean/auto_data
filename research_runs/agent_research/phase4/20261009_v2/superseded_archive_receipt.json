@@ -1,0 +1,175 @@
+{
+  "archive": "/tmp/phase4_v2_superseded_20261009.tar",
+  "sha256": "8e7cd5aa8a96767a76cfca78174625d69c9d44f1eabf0e617be97d182d90ba10",
+  "bytes": 1237524480,
+  "members": 339,
+  "summary": {
+    "status": "superseded_preserved",
+    "reason": "user_removed_exploration_caps_20261009",
+    "timestamp_ns": 1791556933788841657,
+    "stopped_processes": [
+      {
+        "pid": 78533,
+        "kind": "controller"
+      },
+      {
+        "pid": 84237,
+        "kind": "worker"
+      }
+    ],
+    "runs": [
+      {
+        "run_id": "p4v2_full_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_DECISION_SCHEMA",
+          "group": "full",
+          "repeat": 1,
+          "elapsed_seconds": 135.86920233815908,
+          "API": {
+            "calls_used": 10,
+            "tokens_charged_or_reserved": 70415,
+            "closing_calls_used": 0,
+            "max_calls": 48,
+            "max_tokens": 400000,
+            "closing_calls_reserved": 2,
+            "closing_reservation_per_call": 7000,
+            "remaining_calls": 38,
+            "remaining_tokens": 329585
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "training_attempts": 1,
+        "API_calls": 10,
+        "API_actual_known_tokens": 70415,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4v2_no_feedback_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CALL_BUDGET",
+          "group": "no_feedback",
+          "repeat": 1,
+          "elapsed_seconds": 252.2053575310856,
+          "API": {
+            "calls_used": 46,
+            "tokens_charged_or_reserved": 323272,
+            "closing_calls_used": 0,
+            "max_calls": 48,
+            "max_tokens": 400000,
+            "closing_calls_reserved": 2,
+            "closing_reservation_per_call": 7000,
+            "remaining_calls": 2,
+            "remaining_tokens": 76728
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "training_attempts": 1,
+        "API_calls": 46,
+        "API_actual_known_tokens": 323272,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4v2_no_memory_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_DECISION_SCHEMA",
+          "group": "no_memory",
+          "repeat": 1,
+          "elapsed_seconds": 176.54911194182932,
+          "API": {
+            "calls_used": 17,
+            "tokens_charged_or_reserved": 132093,
+            "closing_calls_used": 0,
+            "max_calls": 48,
+            "max_tokens": 400000,
+            "closing_calls_reserved": 2,
+            "closing_reservation_per_call": 7000,
+            "remaining_calls": 31,
+            "remaining_tokens": 267907
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "training_attempts": 1,
+        "API_calls": 17,
+        "API_actual_known_tokens": 132093,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4v2_no_memory_r2",
+        "search_completed": false,
+        "failure": null,
+        "final_policy": null,
+        "completed_trainings": 0,
+        "training_attempts": 1,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4v2_random_reference_r1",
+        "search_completed": true,
+        "failure": null,
+        "final_policy": {
+          "run_id": "p4v2_random_reference_r1",
+          "selected_candidate": "B0",
+          "reason": "Fixed reference selects the measured eligible best",
+          "group": "random_reference",
+          "scope": "preregistered_development_pilot",
+          "formal_agent_run": false,
+          "independent_evaluation": false,
+          "human_strategy_intervention": false,
+          "correct_signal": "unassessed_pending_external_scoring",
+          "journal": {
+            "identity": {
+              "run_id": "p4v2_random_reference_r1",
+              "target_dataset": "metropt3_v1",
+              "track": "experience_combination",
+              "scope": "development_only",
+              "harness_sha256": "daaeded253a2d5788b13e762a4849e792f9bbb1c6c4f08cf223289a4ea581596",
+              "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+            },
+            "proposals": 3,
+            "receipts": 3,
+            "updates": 3,
+            "interventions": [],
+            "autonomy_eligible": true,
+            "completed_agent_experiment": false,
+            "diagnosis_correctness": "unassessed",
+            "pending_execution": [],
+            "pending_update": []
+          }
+        },
+        "completed_trainings": 4,
+        "training_attempts": 4,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      }
+    ],
+    "started_searches": 5,
+    "registered_searches": 12,
+    "not_started": 7,
+    "completed_trainings": 7,
+    "API_calls": 73,
+    "API_actual_known_tokens": 525780,
+    "API_unresolved_calls": 0,
+    "API_unresolved_reserved_tokens": 0,
+    "same_ID_replay": false,
+    "old_failures_and_costs_retained": true,
+    "test_access": false,
+    "scope": "incomplete_bounded_pilot_not_pooled_with_new_unbounded_runs"
+  }
+}

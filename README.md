@@ -2,11 +2,21 @@
 
 已根据 `research.md` 建立 `metropt3_v1`。全部记录来自用户提供的 `share_20260727.zip` 中 v0.7.0 包的原始 MetroPT3 CSV，没有合成、插值、补点、清洗、重采样或数值改写。没有混用不同版本，没有引入问答评测答案。
 
-## 下一位 agent 从这里开始（2026-10-02）
+## 当前研究入口（2026-10-10）
 
-当前目标仍是探索**如何处理训练数据来提升训练效果**，具体延续训练窗口保留、删除、损失权重和采样概率研究。尚未找到通过既定门槛的新筛选方案；默认保留全部合法窗口并均匀采样。最新状态与建议见 [接续指南](research_runs/CONTINUE.md)，完整历史见 [HANDOFF](research_runs/HANDOFF.md)。
+主线为自主诊断时序数据、编写处理方案、执行固定模型实验并根据反馈修正。当前累计196次完整可信训练，阶段3历史案例12/12回归及已知处理自主复用完成；本次开发NMSE改善4.082989%、NMAE改善0.233700%，尚未证明从零发现数据问题或独立任务泛化。先读[最新报告](research_runs/agent_research/capability_acceptance/20261010_v4/REPORT.md)、[长期规划](research_runs/agent_research/ROADMAP.md)、[独立进度](research_runs/agent_research/progress.json)和[接续入口](research_runs/HANDOFF.md)。阶段4新的正式对照尚未登记或启动，当前没有后台任务。
 
-数据和研究资产已配套发布到 [handoff-20261002 Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/handoff-20261002)。只克隆 Git 仓库不会自动下载这些大文件。在项目根目录运行：
+每个阶段验收完成后同步到 GitHub，代码和报告进入 Git，完整大型资产进入 Release；见[同步约定](research_runs/GITHUB_SYNC.md)。以下134次训练及早期Release说明保留为历史记录，不能用于覆盖最新账本或重跑已完成实验。
+
+本次同步公开主代码、协议、报告及汇总结果；原始API调用、运行追踪、服务器备份和v3/v4完整归档仍保存在本地和服务器，未随本次同步发布。完整归档Release清单仅已准备，不能据此声称资产已上传。
+
+## 2026-10-05历史研究入口
+
+当前目标是探索**如何处理训练数据来提升训练效果**，主线为固定DLinear下的训练窗口保留、删除、损失权重和采样概率。累计134次训练；重要性采样三种子开发验证NMSE平均改善0.3508%，双层权重内部两原点改善0.5283%/0.5751%，尚待正式确认。默认仍保留全部合法窗口、均匀采样。先读[总体数据结论](research_runs/OVERVIEW.md)和[下一步计划](research_runs/NEXT_STEPS.md)，再读[接续指南](research_runs/CONTINUE.md)、[HANDOFF](research_runs/HANDOFF.md)及state.json。
+
+残差MLP的一次冻结测试NMSE降低29.2698%，NMAE退化0.7691%，完整保留为[独立模型成果](research_runs/model_exploration/REPORT.md)。模型收益与训练数据策略收益分别报告。长训练、额外原点与模型迁移的协议和代码已准备，远程启动仍待此前审批拒绝后的本次服务器确认；当前无登记队列。本次只整理归档，没有新实验。
+
+数据和早期研究资产配套发布到 [handoff-20261002 Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/handoff-20261002)，它只对应55次训练的历史快照，未覆盖当前全部134次训练。只克隆 Git 仓库不会自动下载这些大文件。在项目根目录运行：
 
 ```powershell
 python scripts/download_handoff.py --include-test
@@ -20,6 +30,8 @@ python scripts/verify_importance_assets.py
 下载与完整性校验仅需 Python 3.11+ 标准库。脚本按 [资产清单](research_runs/handoff_assets.json) 校验压缩包及每个原文件 SHA256，拒绝覆盖内容不同的现有文件。`--include-test` 用于完整归档恢复和校验；**不授权测试分布探索、调参或评分**。开发用训练服务器可省略该参数，完整三分区校验应在持有测试归档的机器执行。
 
 Release 包括固定 train/validation/test CSV、123 个检查点文件、79 个 NPZ、16 份压缩窗口清单和73份研究日志。原始输入包内其他数据集和问答 ground_truth 不属于本研究，不随接续包分发。三份固定 CSV 已包含全部 MetroPT3 原始行，校验器可以验证其字节级重构源文件的哈希，无须下载整个混合输入包。
+
+2026-10-05已保存代码与研究元数据快照及资产哈希索引，旧Release离线包集中到 `archives/20261005/release_20261002/`，经核验的冗余包和字节码清理约1.56 GiB。大文件、历史实验和冻结成果保留原位；详见[归档说明](archives/20261005/README.md)。
 
 ## 固定划分
 
@@ -63,7 +75,7 @@ python scripts/verify_dataset.py
 
 研究接续从 `research_runs/CONTINUE.md` 和 `research_runs/HANDOFF.md` 开始；实际状态见 `research_runs/state.json`，各阶段汇总与决策见对应目录。完整配置、源码快照、结果和可恢复检查点保存在 `research_runs/results/`；检查点通过 Release 下载恢复。
 
-用户随后指出中心化不等于数据筛选。训练窗口保留、删除、损失降权、采样概率研究独立保存在 `research_runs/selection/`，最新已完成阶段在 `research_runs/cluster_selection/`。各阶段 NPZ/压缩 CSV 是可追溯的筛选元数据，已纳入 Release。
+用户随后指出中心化不等于数据筛选。训练窗口保留、删除、损失降权、采样概率研究从 `research_runs/selection/` 延续，最新阶段在 `research_runs/completion_study/`。各阶段NPZ/压缩CSV是可追溯的筛选元数据；Release仅包含55次训练时的资产，后续成果以本地及服务器逐运行资产为准。
 
 Git 管理代码、文档、固定清单、来源许可和训练结果；CSV、检查点及二进制研究资产由同仓库 Release 分发。`.gitattributes` 禁止自动换行转换，保留已有 manifest、协议和实验快照的字节身份。不会修改历史哈希来适应另一份数据。
 

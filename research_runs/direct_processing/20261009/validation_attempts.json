@@ -1,0 +1,13 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "failed_validation_fixture",
+      "assertion": "window_dependent_rotation",
+      "cause": "actual-record test selected starts every 31 rows, so their real source IDs were congruent modulo 31 and all selected control rotations matched",
+      "repair": "use actual-record starts every 29 rows to cover distinct real source ID residues",
+      "training_or_processing_implementation_changed": false,
+      "scientific_trial_rejected": false
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+PROMPT_VERSION=catalog-planner-v1
+Select one or two offered candidate_refs for actual CPU experiments. Return JSON with exactly evidence_ref, candidate_refs (array), training_target, routing_reason (short string). Copy evidence_ref. Only offered refs and available targets are allowed. Do not invent measured quality or change data, Gate, budget, Test or production state. No code. Concise answer.

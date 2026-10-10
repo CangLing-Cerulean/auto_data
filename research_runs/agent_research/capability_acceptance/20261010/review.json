@@ -1,0 +1,18 @@
+{
+  "reviewer": "primary_research_assistant_not_blind_independent_grader",
+  "structured_scores_unchanged": true,
+  "reviewed_assessments": 12,
+  "strict_passed": 10,
+  "known_loop_started": false,
+  "issues": [
+    {"run_id": "CA2_C01_r3", "kind": "evidence_scope_error", "finding": "Three confirmation training seeds incorrectly labelled single_seed_development; same configuration/dataset is not a single seed."},
+    {"run_id": "CA2_C02_r3", "kind": "valid_reference_exact_set_format_failure", "finding": "case:C02 is a real visible ID, supplied in addition to both required source IDs. Frozen exact-set score fails; this is not fabricated evidence."},
+    {"run_id": "CA2_C01_r1", "kind": "understated_seed_heterogeneity", "finding": "Aggregate NMAE deterioration is 0.0541%, but seed3027 deteriorates about 1.0494%; describing every seed change as minor obscures this difference."},
+    {"run_id": "CA2_C03_r2", "kind": "criterion_wording", "finding": "NMAE deterioration <=1% is a one-sided constraint, not a symmetric +/-1% tolerance."},
+    {"run_id": "CA2_C03_r3", "kind": "criterion_wording", "finding": "NMAE deterioration <=1% is a one-sided constraint, not a symmetric +/-1% tolerance."},
+    {"run_id": "CA2_C04_r3", "kind": "unsupported_repair_suggestion", "finding": "Reinstalling PyTorch is not established by the known 2GiB address-space mapping failure; execution remains scientifically inconclusive."}
+  ],
+  "scope": "four_supplied_historical_cases_only_not_memory_effect_or_new_task_discovery",
+  "new_training_calls": 0,
+  "test_access": false
+}

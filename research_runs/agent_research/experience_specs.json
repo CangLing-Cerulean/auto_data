@@ -1,0 +1,16 @@
+{
+  "version": "development-experience-specs-v1",
+  "dataset_id": "metropt3_v1",
+  "cases": [
+    {"id":"centering_feedback","tags":["centering","feedback","metric_tradeoff"],"source":"research_runs/decisions.md","start":27,"end":85,"anchors":["否定当前预算下","0.6473%"],"lesson":"全通道中心化失败后，通道条件方案有小幅开发收益；反馈可否定一般性假设，仍不能证明物理机制。","status":"conditional_development_signal","limits":"通道由开发反馈选择；三个种子不能代替独立时间评价。"},
+    {"id":"quiet_selection","tags":["variation","deletion","weighting","control"],"source":"research_runs/selection/decisions.md","start":49,"end":85,"anchors":["低变化组整体标记为无用或低质量","等量随机删除"],"lesson":"低变化删除和降权未建立稳健优势；随机控制与局部组误差能够反驳简单的数据价值解释。","status":"current_recipe_not_supported","limits":"此摘录主要为早期单种子开发结果；不能宣称全部筛选无效。"},
+    {"id":"cluster_coverage","tags":["coverage","cluster","deletion"],"source":"research_runs/cluster_selection/REPORT.md","start":9,"end":45,"anchors":["-33.9311%","未运行随机删除对照"],"lesson":"直接删除完整输入状态组造成退化；组号不具有普遍好坏含义。","status":"current_recipe_not_supported","limits":"只完成首内部原点；未运行的随机对照和第二原点不能记录为阴性。"},
+    {"id":"learning_sampling","tags":["feedback","sampling","cost"],"source":"research_runs/learning_sampling/REPORT.md","start":3,"end":23,"anchors":["-78.8406%","不能称总计算量完全相同"],"lesson":"训练误差或学习进展评分不自动等于未来价值；控制和额外评分成本应分别报告。","status":"current_recipe_not_supported","limits":"训练内部开发反馈；控制复用评分，不能声称总成本匹配。"},
+    {"id":"recent_proxy","tags":["drift","sampling","time","control"],"source":"research_runs/covariate_sampling/REPORT.md","start":3,"end":40,"anchors":["-2.1527%","不能作为预测泛化"],"lesson":"近期分布代理首原点改善未迁移到第二原点；可区分输入分布不能证明训练价值。","status":"failed_temporal_confirmation","limits":"近期代理来自训练历史；未证明未来分布或条件输出不变。"},
+    {"id":"cadence_overlap","tags":["cadence","coverage","overlap","diagnosis"],"source":"research_runs/cadence_selection/decisions.md","start":3,"end":27,"anchors":["99.9165%","95.7505%"],"lesson":"少量总体删除可能几乎清空局部单元；新评分名称可能重复旧失败成员，训练前检查覆盖与重合。","status":"current_recipe_not_supported","limits":"局部覆盖及集合重合是实测事实；尚未独立证明退化的唯一机制。"},
+    {"id":"leverage_temporal","tags":["geometry","sampling","time","control"],"source":"research_runs/leverage_sampling/REPORT.md","start":3,"end":25,"anchors":["0.8672%","-0.7038%"],"lesson":"逆概率校正首原点改善，但第二原点退化；保持期望训练目标不能保证Adam或泛化优势。","status":"failed_temporal_confirmation","limits":"冻结概率边界下的单一适配，不推广到所有杠杆方法。"},
+    {"id":"importance_weak_signal","tags":["sampling","gradient","cost","confirmation"],"source":"research_runs/completion_study/REPORT.md","start":15,"end":31,"anchors":["+0.3508%","0.0162%"],"lesson":"重要性采样有小幅三种子同向开发信号，但部分种子收益很弱，成本与长训练确认未完成。","status":"weak_development_signal","limits":"正式验证已反复使用；改善主要由一个通道贡献，不声称独立泛化。"},
+    {"id":"bilevel_control","tags":["weighting","control","confirmation"],"source":"research_runs/completion_study/REPORT.md","start":33,"end":82,"anchors":["0.1098","0.0611"],"lesson":"双层权重两原点略优于控制，但控制贡献了大部分收益；正式确认待完成。","status":"awaiting_formal_confirmation","limits":"解析代理、内部原点和数值实现校验不能替代正式预测泛化。"},
+    {"id":"measurement_uncertainty","tags":["constant","quality","diagnosis"],"source":"research_runs/completion_study/REPORT.md","start":84,"end":90,"anchors":["6452次","经核实测量故障数量为0"],"lesson":"模拟信号长期恒定是可验证现象；缺少独立采集证据时不能判为测量故障或触发删除。","status":"phenomenon_verified_cause_unknown","limits":"经核实故障为0表示证据不足，不保证全部记录健康。"}
+  ]
+}

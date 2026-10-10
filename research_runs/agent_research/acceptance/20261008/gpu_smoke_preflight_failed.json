@@ -1,0 +1,19 @@
+{
+  "scope": "engineering_only",
+  "research_experiment": false,
+  "seed": 20261008,
+  "steps": 100,
+  "recipe": "all_training_windows_uniform_sampling",
+  "started_at": "2026-10-08T14:52:32.876662+00:00",
+  "source_sha256": {
+    "manifest": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "core": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "protocol": "573ee4e87ef442b7140afb26f4befe80a8de1a43fec3b5c1fe6b878e527f8afe"
+  },
+  "worker_sha256": "5434a74b098c6ce2e9cab7b16bfc86f2c06260b67632b9ddb2941cbbade3676b",
+  "test_feedback_used": false,
+  "status": "failed",
+  "error_type": "CalledProcessError",
+  "error_message": "Command '['/opt/miniconda3/bin/python', '-B', '/root/data/auto_data_research/metropt3_v1/session_20260926/scripts/verify_dataset.py']' returned non-zero exit status 1.",
+  "elapsed_seconds": 3.538630001246929
+}

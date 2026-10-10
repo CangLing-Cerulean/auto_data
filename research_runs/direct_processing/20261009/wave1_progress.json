@@ -1,0 +1,23 @@
+{
+  "wave": 1,
+  "candidate": "source_half",
+  "prior_is_historical_reference": true,
+  "origins": {
+    "0.6": {
+      "NMSE_improvement_pct": 2.337596920477879,
+      "NMAE_improvement_pct": 3.1050649994378334,
+      "local_NMSE_improvement_pct": 10.931942916982873,
+      "candidate_vs_control_NMSE_improvement_pct": 4.645445565145781,
+      "passes_origin_gate": true
+    },
+    "0.8": {
+      "NMSE_improvement_pct": 1.9229346252600275,
+      "NMAE_improvement_pct": 0.9263149386012518,
+      "local_NMSE_improvement_pct": 9.172814924749165,
+      "candidate_vs_control_NMSE_improvement_pct": 4.294427749624742,
+      "passes_origin_gate": true
+    }
+  },
+  "status": "eligible_for_frozen_full_development_confirmation",
+  "two_origin_average_NMSE_improvement_pct": 2.1302657728689534
+}

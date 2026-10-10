@@ -1,0 +1,8 @@
+{
+  "ridge_alpha": {"id": "ridge_alpha", "version": 1, "fact": "For Ridge, increasing alpha strengthens L2 regularization; decreasing alpha weakens it. Validation must determine quality."},
+  "windows": {"id": "windows", "version": 1, "fact": "D/history_steps is training history; L/input_steps is model input context; H is the fixed business forecast horizon. Changing D or L does not change H."},
+  "adaptation": {"id": "adaptation", "version": 1, "fact": "Zero-shot does not update base weights on task data. Chronos LoRA, planning-LLM SFT and encoder/GP adaptation are separate procedures."},
+  "batch": {"id": "batch", "version": 1, "fact": "Physical batch controls each device step. Effective batch also depends on accumulation and devices; unsupported accumulation cannot be proposed. Smaller physical batch may reduce activation memory, but must be measured."},
+  "labels": {"id": "labels", "version": 1, "fact": "Missing or immature labels mean insufficient evaluation evidence, not poor predictions. Never impute supervised truth or invent a quality score for an execution failure."},
+  "correlation": {"id": "correlation", "version": 1, "fact": "Correlation and autocorrelation suggest testable features, not causal roots, machine states or calibrated uncertainty."}
+}

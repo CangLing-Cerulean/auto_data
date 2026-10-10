@@ -1,0 +1,255 @@
+{
+  "scope": "controlled_researcher_guided_development_only",
+  "effective_result": true,
+  "gates": {
+    "each_extra_seed_NMSE_improves": true,
+    "mean_NMSE_at_least_1pct": true,
+    "mean_NMAE_degradation_at_most_1pct": true,
+    "local_NMSE_at_least_3pct": true,
+    "candidate_vs_control_at_least_0_25pct": true,
+    "main_7day_interval_positive": true
+  },
+  "seeds": {
+    "2026": {
+      "baseline": {
+        "NMSE": 0.28801676334427745,
+        "NMAE": 0.19500733246096827,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.27611829810622623,
+        "NMAE": 0.1946981291151815,
+        "windows": 300535
+      },
+      "control": {
+        "NMSE": 0.30234426397150094,
+        "NMAE": 0.20854245274692854,
+        "windows": 300535
+      },
+      "NMSE_improvement_pct": 4.131171081812523,
+      "NMAE_improvement_pct": 0.15855985612677204,
+      "local_NMSE_improvement_pct": 11.533190923022019,
+      "candidate_vs_control_NMSE_improvement_pct": 8.67420652231946
+    },
+    "3026": {
+      "baseline": {
+        "NMSE": 0.28613429609352,
+        "NMAE": 0.19595510422942097,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.27405048264660964,
+        "NMAE": 0.19537542873631825,
+        "windows": 300535
+      },
+      "control": {
+        "NMSE": 0.30089068823627607,
+        "NMAE": 0.20850457827147068,
+        "windows": 300535
+      },
+      "NMSE_improvement_pct": 4.223126556965006,
+      "NMAE_improvement_pct": 0.29582056327762674,
+      "local_NMSE_improvement_pct": 11.687246007225571,
+      "candidate_vs_control_NMSE_improvement_pct": 8.920251320170468
+    },
+    "3027": {
+      "baseline": {
+        "NMSE": 0.2870305311283774,
+        "NMAE": 0.19527894413164473,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.2750697638619124,
+        "NMAE": 0.19732822666640767,
+        "windows": 300535
+      },
+      "control": {
+        "NMSE": 0.3010438220648548,
+        "NMAE": 0.2106825071156792,
+        "windows": 300535
+      },
+      "NMSE_improvement_pct": 4.167071432939451,
+      "NMAE_improvement_pct": -1.0494129532887309,
+      "local_NMSE_improvement_pct": 11.813376835839652,
+      "candidate_vs_control_NMSE_improvement_pct": 8.627999081591097
+    },
+    "3028": {
+      "baseline": {
+        "NMSE": 0.28836210806667695,
+        "NMAE": 0.1930895313152826,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMSE": 0.27589083234654177,
+        "NMAE": 0.19193625817424367,
+        "windows": 300535
+      },
+      "control": {
+        "NMSE": 0.302347246449827,
+        "NMAE": 0.20571332554149882,
+        "windows": 300535
+      },
+      "NMSE_improvement_pct": 4.324866329958821,
+      "NMAE_improvement_pct": 0.5972737792582894,
+      "local_NMSE_improvement_pct": 11.961643524234189,
+      "candidate_vs_control_NMSE_improvement_pct": 8.750340680769375
+    }
+  },
+  "confirmation_seed_means": {
+    "baseline": {
+      "NMSE": 0.2871756450961915,
+      "NMAE": 0.19477452655878277
+    },
+    "source_half": {
+      "NMSE": 0.275003692951688,
+      "NMAE": 0.19487997119232317
+    },
+    "source_half_scramble": {
+      "NMSE": 0.3014272522503193,
+      "NMAE": 0.20830013697621622
+    }
+  },
+  "confirmation_NMSE_improvement_pct": 4.238504327352144,
+  "confirmation_NMAE_improvement_pct": -0.05413676798673439,
+  "confirmation_local_NMSE_improvement_pct": 11.82114616114076,
+  "confirmation_vs_control_improvement_pct": 8.766148084277381,
+  "daily_block_sensitivity": {
+    "dates": [
+      "2020-06-29",
+      "2020-06-30",
+      "2020-07-01",
+      "2020-07-02",
+      "2020-07-03",
+      "2020-07-04",
+      "2020-07-05",
+      "2020-07-06",
+      "2020-07-07",
+      "2020-07-08",
+      "2020-07-09",
+      "2020-07-10",
+      "2020-07-11",
+      "2020-07-12",
+      "2020-07-13",
+      "2020-07-14",
+      "2020-07-15",
+      "2020-07-16",
+      "2020-07-17",
+      "2020-07-18",
+      "2020-07-19",
+      "2020-07-20",
+      "2020-07-21",
+      "2020-07-22",
+      "2020-07-23",
+      "2020-07-24",
+      "2020-07-25",
+      "2020-07-26",
+      "2020-07-27",
+      "2020-07-28",
+      "2020-07-29",
+      "2020-07-30",
+      "2020-07-31",
+      "2020-08-01",
+      "2020-08-02",
+      "2020-08-03",
+      "2020-08-04",
+      "2020-08-05",
+      "2020-08-06",
+      "2020-08-07",
+      "2020-08-08",
+      "2020-08-09",
+      "2020-08-10"
+    ],
+    "daily_windows": [
+      2763,
+      8649,
+      8715,
+      8717,
+      7829,
+      8654,
+      8716,
+      5828,
+      3808,
+      3036,
+      7479,
+      7079,
+      5178,
+      5540,
+      7255,
+      3524,
+      8583,
+      8564,
+      7042,
+      8658,
+      8599,
+      8649,
+      8124,
+      8305,
+      7199,
+      6860,
+      6050,
+      6302,
+      7310,
+      6636,
+      7763,
+      7193,
+      7048,
+      8645,
+      7466,
+      3837,
+      2793,
+      5640,
+      8614,
+      8669,
+      7870,
+      7619,
+      7727
+    ],
+    "intervals": {
+      "3": {
+        "block_days": 3,
+        "repetitions": 10000,
+        "NMSE_improvement_95pct_interval": [
+          3.5258366124331397,
+          4.819531099467197
+        ],
+        "candidate_vs_control_95pct_interval": [
+          7.481021576819364,
+          9.817215704935757
+        ]
+      },
+      "7": {
+        "block_days": 7,
+        "repetitions": 10000,
+        "NMSE_improvement_95pct_interval": [
+          3.5851319254009466,
+          4.793323400920316
+        ],
+        "candidate_vs_control_95pct_interval": [
+          7.540681432934948,
+          9.619084717745226
+        ]
+      },
+      "14": {
+        "block_days": 14,
+        "repetitions": 10000,
+        "NMSE_improvement_95pct_interval": [
+          3.8154681579587324,
+          4.577235335299272
+        ],
+        "candidate_vs_control_95pct_interval": [
+          7.722992637921192,
+          9.471501744336026
+        ]
+      }
+    },
+    "scope": "descriptive_development_time_variation_not_independent_or_selection_corrected_inference"
+  },
+  "test_access": false,
+  "API_calls": 0,
+  "does_not_establish": [
+    "independent_dataset_generalization",
+    "row_deletion_or_sampling_effect",
+    "self_assembled_agent_discovery",
+    "novelty_or_SOTA"
+  ]
+}

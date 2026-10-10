@@ -1,0 +1,132 @@
+{
+  "version": "phase4-open-development-v3",
+  "scope": "unbounded_experience_combination_and_feedback_development_pilot_on_previously_explored_metropt3",
+  "date": "2026-10-09",
+  "registered_searches": 12,
+  "repeats_per_group": 3,
+  "groups": [
+    "full",
+    "no_memory",
+    "no_feedback",
+    "random_reference"
+  ],
+  "search_order": [
+    {
+      "group": "full",
+      "repeat": 1
+    },
+    {
+      "group": "no_memory",
+      "repeat": 1
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 1
+    },
+    {
+      "group": "random_reference",
+      "repeat": 1
+    },
+    {
+      "group": "no_memory",
+      "repeat": 2
+    },
+    {
+      "group": "random_reference",
+      "repeat": 2
+    },
+    {
+      "group": "full",
+      "repeat": 2
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 2
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 3
+    },
+    {
+      "group": "full",
+      "repeat": 3
+    },
+    {
+      "group": "random_reference",
+      "repeat": 3
+    },
+    {
+      "group": "no_memory",
+      "repeat": 3
+    }
+  ],
+  "training_seeds": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "external_confirmation_seeds": [
+    20261201,
+    20261202,
+    20261203
+  ],
+  "search_budget": {
+    "candidate_proposals": null,
+    "coded_diagnostics": null,
+    "API_calls": null,
+    "API_tokens": null,
+    "wall_seconds": null,
+    "baseline_trainings": 1,
+    "steps_per_training": 3000,
+    "samples_per_training": 768000
+  },
+  "confirmation_budget_max_training_jobs_including_search": null,
+  "model": "original_DLinear_7920_parameters",
+  "fixed_parameters": {
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "weight_decay": 0.0,
+    "moving_average_kernel": 25
+  },
+  "effective_processing_gates": {
+    "each_extra_seed_NMSE_improves": true,
+    "mean_NMSE_gain_at_least_pct": 1.0,
+    "mean_NMAE_deterioration_at_most_pct": 1.0,
+    "matched_control_advantage_at_least_pct": 0.25,
+    "no_human_strategy_intervention": true
+  },
+  "independent_task": false,
+  "test_access": false,
+  "historical_trainings": 134,
+  "previous_engineering_trainings": 5,
+  "previous_direct_trainings": 25,
+  "previous_total_trainings": 173,
+  "memory_v2_logical_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+  "known_case_sha256": "cba88dbebc91e53db8a9e75e6158f43e854f25e8422930d35becadea40a3e062",
+  "protocol_document_sha256": "83348cd3d0a58d7cb15ddca70ea5d674ff10acf55a630cb53c4ec453cec74b4c",
+  "implementation_identity": "bound_after_engineering_checks_before_first_search_in_batch_started_and_each_preregistration",
+  "output_directory": "/tmp/auto_data_phase4_20261009_open",
+  "statistical_agent_superiority": "not_established_by_three_repeats",
+  "input_program_contract": "agent_written_transform_x_state_with_T_fitted_JSON_state_same_shape_no_new_trainable_model",
+  "preregistration_revision": "user_removed_cumulative_exploration_caps_before_new_batch",
+  "input_control": "identity_input_with_same_candidate_window_weights_and_sampling",
+  "supersedes": "v2_superseded_by_user_removing_cumulative_caps_all_five_attempts_and_costs_preserved",
+  "CPU_fit_virtual_address_bytes": 8589934592,
+  "run_prefix": "p4open",
+  "previous_aborted_phase4": {
+    "completed_trainings": 2,
+    "API_calls": 48,
+    "known_tokens": 257868,
+    "unresolved_calls": 1,
+    "unresolved_reserved_tokens": 21848,
+    "old_attempts_preserved": true
+  },
+  "execution_profile": "research_open",
+  "random_reference_candidates": 3,
+  "previous_API_attempts": 148,
+  "previous_API_actual_known_tokens": 939994,
+  "previous_API_unresolved_calls": 1,
+  "previous_API_unresolved_reserved_tokens": 21848,
+  "format_recovery": "unbounded_schema_only_all_errors_and_calls_preserved",
+  "isolated_server_project": "/tmp/auto_data_phase4_open_project_20261009"
+}

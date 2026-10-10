@@ -1,0 +1,14 @@
+{
+  "scope": "engineering_only",
+  "user_confirmation": "All research code runs on the dedicated 4090 server partition",
+  "execution_mode": "native_server_processes",
+  "docker_or_virtual_machine_required": false,
+  "security_sandbox": false,
+  "server_api_json_check": "passed",
+  "server_api_tokens": 224,
+  "credentials": "root_private_configuration; value_not_in_records",
+  "new_worker_account_or_existing_data_permissions_modified": false,
+  "approval_review": {"action": "create_system_worker_account_and_modify_project_and_T_D_file_permissions", "status": "rejected_before_execution", "reason": "Persistent system account and access-control changes were not explicitly authorized", "resolution": "Remove the account/permission plan and use user-requested native execution; do not retry the rejected action"},
+  "generated_code_executor": "not_yet_implemented",
+  "new_formal_agent_runs": 0
+}

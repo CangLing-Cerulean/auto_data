@@ -1,0 +1,147 @@
+{
+  "run_id": "T038_prefix60_shuffle",
+  "identity": {
+    "policy": "shuffle",
+    "origin": 0.6,
+    "seed": 2026,
+    "run_type": "main_model",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "study_protocol_sha256": "2251296dfa10bcad4b859ff4cb0eb0e320ea24be5dd951024a5eae866f50491c",
+    "code_sha256": "4a9f715f541f82c078e7b554d16a61800386a295a6820776868e2e1e21df04c4",
+    "helper_sha256": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "group_labels_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714",
+    "reference_run": null,
+    "control_source_run": "T037_prefix60_hard_rank",
+    "round_limit_seconds": 6589.922976038419,
+    "control_source_result_sha256": "87d95ec5235c603e3ae2f0280052c18712ced872b9bb618e798f54e676d6609a",
+    "control_source_checkpoint_sha256": "b8a4d6d46451226cbc551f2c55f7b8dbdeedea34cabef1a2bec0768e86c4ad30"
+  },
+  "dataset_id": "metropt3_v1",
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.37663692289590833
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.2843782652318478
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.3778874280154705
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.37728070411086084
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.3746079024374485
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.37314445412158964
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "phase_assets": [
+    {
+      "phase_start": 0,
+      "file": "phase_0000.npz",
+      "sha256": "6f33ada919ba3b1eace628473c465364c71b7a953119a9bff588a5fa3bc05443"
+    },
+    {
+      "phase_start": 500,
+      "file": "phase_0500.npz",
+      "sha256": "7499fd7a86af04ceeb3e9ed3e8aeaa37a1eaacfc199826fb34017e9669f45fd8"
+    },
+    {
+      "phase_start": 1000,
+      "file": "phase_1000.npz",
+      "sha256": "17dad1fd1606fe32dfd2d4d6d68b90f468522b97b94aea80b77c927342ed9f23"
+    },
+    {
+      "phase_start": 1500,
+      "file": "phase_1500.npz",
+      "sha256": "d7d5725d77e19d9bfb8208b6029e1138437a99768d852dfd8d95f5bc18a4c2b8"
+    },
+    {
+      "phase_start": 2000,
+      "file": "phase_2000.npz",
+      "sha256": "82d90af47a35a0d3c568322c81325e8723eea31e2850cd74e56fe2799b584906"
+    },
+    {
+      "phase_start": 2500,
+      "file": "phase_2500.npz",
+      "sha256": "935fde30ee01b893266c8e6056993356283f25bfdb7a8e655a52d71c792f7dee"
+    }
+  ],
+  "windows_sha256": "263f577895d28de5794ba27a6feac3708dd57a604d58f340d21833d984ab3c34",
+  "additional_reference_updates": 0,
+  "selection_forward_presentations": 0,
+  "selection_reference_forward_presentations": 0,
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.20961662477767087,
+        "NMSE": 0.4484471605967026,
+        "windows": 210311
+      }
+    },
+    "per_channel_NMAE": [
+      0.2931962821178509,
+      0.15749707792110687,
+      0.3063033515563297,
+      0.09389297085206862,
+      0.1573828656734174,
+      0.07549245639060302,
+      0.22821807071712397,
+      0.32822131519701325,
+      0.26426360512509595,
+      0.42792400059399505,
+      0.31479184872876814,
+      0.011320340275313768,
+      0.28178621998644837,
+      0.15329444626908298,
+      0.050664520260844836
+    ],
+    "per_channel_NMSE": [
+      0.4548497988765594,
+      0.0813192406383102,
+      0.4312498298124387,
+      0.23716840212915594,
+      0.08135510874617849,
+      0.017532030904274166,
+      0.2642297819962644,
+      0.5313811434757184,
+      0.40678069739713013,
+      0.8950944940194121,
+      0.5118737358132014,
+      0.1115500790799207,
+      1.9311580300486342,
+      0.6978087629529356,
+      0.0733562730604039
+    ]
+  },
+  "elapsed_seconds": 72.74374328460544
+}

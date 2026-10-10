@@ -1,0 +1,226 @@
+{
+  "scope": "descriptive_T_and_full_D_development",
+  "source_hashes": {
+    "train": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+    "validation": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21"
+  },
+  "baseline_evidence_sha256": "7e388299fe246c3fa319efa2ad8462ad03c03b2e4327e323c4d25ae200f95ca0",
+  "code_sha256": "a00f69f4177f54e98bee7b57761625acfd37589bebb20bdcea88656043f3f276",
+  "training_calls": 0,
+  "API_calls": 0,
+  "test_access": false,
+  "binary_states": {
+    "COMP": {
+      "0": {
+        "T_row_share": 0.17274544832996347,
+        "D_row_share": 0.1446888318297631,
+        "T_constant_windows": 82994,
+        "T_constant_window_share": 0.07878431755982583,
+        "D_constant_windows": 3362,
+        "D_constant_window_share": 0.011186717021311994,
+        "D_NMSE": 0.3789663624880289,
+        "D_NMAE": 0.45390359364448496,
+        "D_persistence_NMSE": 0.32573981961527315,
+        "D_future_changes_POSTHOC_windows": 271
+      },
+      "1": {
+        "T_row_share": 0.8272545516700365,
+        "D_row_share": 0.8553111681702369,
+        "T_constant_windows": 649314,
+        "T_constant_window_share": 0.6163790198332499,
+        "D_constant_windows": 172825,
+        "D_constant_window_share": 0.5750578135658077,
+        "D_NMSE": 0.4341254337123925,
+        "D_NMAE": 0.23469209091956741,
+        "D_persistence_NMSE": 0.4585136907978738,
+        "D_future_changes_POSTHOC_windows": 20054
+      }
+    },
+    "DV_eletric": {
+      "0": {
+        "T_row_share": 0.8313191061370441,
+        "D_row_share": 0.8532576988618572,
+        "T_constant_windows": 670847,
+        "T_constant_window_share": 0.6368198072397581,
+        "D_constant_windows": 175265,
+        "D_constant_window_share": 0.5831766682749098,
+        "D_NMSE": 0.43673542311716373,
+        "D_NMAE": 0.23330485944418766,
+        "D_persistence_NMSE": 0.46067970683857395,
+        "D_future_changes_POSTHOC_windows": 20043
+      },
+      "1": {
+        "T_row_share": 0.16868089386295596,
+        "D_row_share": 0.14674230113814277,
+        "T_constant_windows": 64517,
+        "T_constant_window_share": 0.06124452148356849,
+        "D_constant_windows": 3362,
+        "D_constant_window_share": 0.011186717021311994,
+        "D_NMSE": 0.38881754862165074,
+        "D_NMAE": 0.4592056343438676,
+        "D_persistence_NMSE": 0.3319578678187238,
+        "D_future_changes_POSTHOC_windows": 271
+      }
+    },
+    "Towers": {
+      "0": {
+        "T_row_share": 0.08391383822583516,
+        "D_row_share": 0.07401059366028433,
+        "T_constant_windows": 0,
+        "T_constant_window_share": 0.0,
+        "D_constant_windows": 0,
+        "D_constant_window_share": 0.0,
+        "D_NMSE": null,
+        "D_NMAE": null,
+        "D_persistence_NMSE": null,
+        "D_future_changes_POSTHOC_windows": 0
+      },
+      "1": {
+        "T_row_share": 0.9160861617741648,
+        "D_row_share": 0.9259894063397157,
+        "T_constant_windows": 671293,
+        "T_constant_window_share": 0.6372431849011755,
+        "D_constant_windows": 181936,
+        "D_constant_window_share": 0.6053737501455737,
+        "D_NMSE": 0.6001646645276856,
+        "D_NMAE": 0.2504536574678759,
+        "D_persistence_NMSE": 0.6245870643188419,
+        "D_future_changes_POSTHOC_windows": 20420
+      }
+    },
+    "MPG": {
+      "0": {
+        "T_row_share": 0.17746451284205214,
+        "D_row_share": 0.14963627554064254,
+        "T_constant_windows": 89164,
+        "T_constant_window_share": 0.08464135830185689,
+        "D_constant_windows": 5223,
+        "D_constant_window_share": 0.017379007436737818,
+        "D_NMSE": 0.2805664516936358,
+        "D_NMAE": 0.3943881105259038,
+        "D_persistence_NMSE": 0.21117359565398555,
+        "D_future_changes_POSTHOC_windows": 279
+      },
+      "1": {
+        "T_row_share": 0.8225354871579479,
+        "D_row_share": 0.8503637244593575,
+        "T_constant_windows": 649304,
+        "T_constant_window_share": 0.6163695270605725,
+        "D_constant_windows": 172812,
+        "D_constant_window_share": 0.5750145573726854,
+        "D_NMSE": 0.4260071686764449,
+        "D_NMAE": 0.22896232553116444,
+        "D_persistence_NMSE": 0.4488856874621359,
+        "D_future_changes_POSTHOC_windows": 20051
+      }
+    },
+    "LPS": {
+      "0": {
+        "T_row_share": 0.9975411140608534,
+        "D_row_share": 0.9922673531340952,
+        "T_constant_windows": 1050770,
+        "T_constant_window_share": 0.9974720746359759,
+        "D_constant_windows": 298039,
+        "D_constant_window_share": 0.991694810920525,
+        "D_NMSE": 0.06890687269774297,
+        "D_NMAE": 0.004214316632165561,
+        "D_persistence_NMSE": 0.06890850025552583,
+        "D_future_changes_POSTHOC_windows": 96
+      },
+      "1": {
+        "T_row_share": 0.0024588859391465752,
+        "D_row_share": 0.007732646865904829,
+        "T_constant_windows": 1126,
+        "T_constant_window_share": 0.0010688862034889737,
+        "D_constant_windows": 1377,
+        "D_constant_window_share": 0.004581829071489177,
+        "D_NMSE": 14.905235940577317,
+        "D_NMAE": 1.731927221146313,
+        "D_persistence_NMSE": 14.396486369437719,
+        "D_future_changes_POSTHOC_windows": 84
+      }
+    },
+    "Pressure_switch": {
+      "0": {
+        "T_row_share": 0.010648266301773393,
+        "D_row_share": 0.004650794854131165,
+        "T_constant_windows": 0,
+        "T_constant_window_share": 0.0,
+        "D_constant_windows": 0,
+        "D_constant_window_share": 0.0,
+        "D_NMSE": null,
+        "D_NMAE": null,
+        "D_persistence_NMSE": null,
+        "D_future_changes_POSTHOC_windows": 0
+      },
+      "1": {
+        "T_row_share": 0.9893517336982266,
+        "D_row_share": 0.9953492051458689,
+        "T_constant_windows": 954771,
+        "T_constant_window_share": 0.9063424062090327,
+        "D_constant_windows": 280476,
+        "D_constant_window_share": 0.9332556940123446,
+        "D_NMSE": 0.16618231040505016,
+        "D_NMAE": 0.024579478757815097,
+        "D_persistence_NMSE": 0.16634056648875484,
+        "D_future_changes_POSTHOC_windows": 3862
+      }
+    },
+    "Oil_level": {
+      "0": {
+        "T_row_share": 0.014262668536336608,
+        "D_row_share": 0.17906713822847894,
+        "T_constant_windows": 6867,
+        "T_constant_window_share": 0.006518686997654336,
+        "D_constant_windows": 53510,
+        "D_constant_window_share": 0.17804914569018584,
+        "D_NMSE": 0.1285613781530134,
+        "D_NMAE": 0.27082938721252287,
+        "D_persistence_NMSE": 0.011963148249674904,
+        "D_future_changes_POSTHOC_windows": 16
+      },
+      "1": {
+        "T_row_share": 0.9857373314636634,
+        "D_row_share": 0.820932861771521,
+        "T_constant_windows": 1006203,
+        "T_constant_window_share": 0.9551656346440638,
+        "D_constant_windows": 244360,
+        "D_constant_window_share": 0.8130833347197498,
+        "D_NMSE": 0.005630317253107852,
+        "D_NMAE": 0.005216741584158914,
+        "D_persistence_NMSE": 0.005603231211542171,
+        "D_future_changes_POSTHOC_windows": 40
+      }
+    },
+    "Caudal_impulses": {
+      "0": {
+        "T_row_share": 0.08760357974616312,
+        "D_row_share": 0.00785460250701245,
+        "T_constant_windows": 84237,
+        "T_constant_window_share": 0.0799642692036418,
+        "D_constant_windows": 1861,
+        "D_constant_window_share": 0.0061922904154258235,
+        "D_NMSE": 0.030611410994256343,
+        "D_NMAE": 0.02256728939614628,
+        "D_persistence_NMSE": 0.030252461636911233,
+        "D_future_changes_POSTHOC_windows": 8
+      },
+      "1": {
+        "T_row_share": 0.9123964202538369,
+        "D_row_share": 0.9921453974929876,
+        "T_constant_windows": 929117,
+        "T_constant_window_share": 0.8819896471821179,
+        "D_constant_windows": 296157,
+        "D_constant_window_share": 0.9854326451162094,
+        "D_NMSE": 0.00025984593223365613,
+        "D_NMAE": 0.003321962138006755,
+        "D_persistence_NMSE": 0.0002429072184019346,
+        "D_future_changes_POSTHOC_windows": 16
+      }
+    }
+  },
+  "limits": [
+    "distribution shift and error association do not prove causal usefulness of upweighting",
+    "future changes are post-hoc only"
+  ]
+}

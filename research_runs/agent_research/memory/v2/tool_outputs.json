@@ -1,0 +1,369 @@
+{
+  "list_experience": {
+    "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+    "track": "experience_combination",
+    "mode": "full",
+    "policy": {
+      "evidence_is_advisory": true,
+      "method_family_bans": false,
+      "revisiting_and_replication_allowed": true,
+      "automatic_strategy_selection": false,
+      "interpretations_are_correctness_labels": false,
+      "human_curation": "prepared_before_runs; no online human strategy additions",
+      "independent_search_memory": "freeze each run; do not pool peer run discoveries",
+      "new_task_history": "exclude target dataset family",
+      "test_metrics": "excluded",
+      "exploration_effect": "unassessed_until_controlled_comparison",
+      "research_goal": "diagnose measured performance deficits; test processing hypotheses; assess signal and feedback independently",
+      "distribution_phenomena_are_performance_causes": false
+    },
+    "records": [
+      {
+        "record_id": "experience:bilevel_control",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "双层权重两原点略优于控制，但控制贡献了大部分收益；正式确认待完成。",
+        "limits": "解析代理、内部原点和数值实现校验不能替代正式预测泛化。",
+        "status": "awaiting_formal_confirmation",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "解析代理、内部原点和数值实现校验不能替代正式预测泛化。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/completion_study/REPORT.md",
+          "sha256": "fcee100a5013c95582e3d621bc039ff29f83f011fd59bd437f29749854c20803",
+          "excerpt_sha256": "493eab6150225bc0b427558c073bc6bd2b80d3c5d01ed96485eea4b75fb619c9"
+        }
+      },
+      {
+        "record_id": "experience:cadence_overlap",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "少量总体删除可能几乎清空局部单元；新评分名称可能重复旧失败成员，训练前检查覆盖与重合。",
+        "limits": "局部覆盖及集合重合是实测事实；尚未独立证明退化的唯一机制。",
+        "status": "current_recipe_not_supported",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "局部覆盖及集合重合是实测事实；尚未独立证明退化的唯一机制。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/cadence_selection/decisions.md",
+          "sha256": "70b8266975347ff669c7c302c8bd63af920556d2cabe0f04ce62e81a4a69be6f",
+          "excerpt_sha256": "ea1f7e2764bb2f7d802a11127772dd52d4a990a5c42b3ac064ff0a89f8337963"
+        }
+      },
+      {
+        "record_id": "experience:centering_feedback",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "全通道中心化失败后，通道条件方案有小幅开发收益；反馈可否定一般性假设，仍不能证明物理机制。",
+        "limits": "通道由开发反馈选择；三个种子不能代替独立时间评价。",
+        "status": "conditional_development_signal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "通道由开发反馈选择；三个种子不能代替独立时间评价。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [
+          "E000_baseline_s2026",
+          "E001_last_center_s2026",
+          "E002_mean_center_s2026",
+          "E003_selective_center_s2026",
+          "E004_baseline_s2027",
+          "E005_selective_center_s2027",
+          "E006_baseline_s2028",
+          "E007_selective_center_s2028"
+        ],
+        "source": {
+          "path": "research_runs/decisions.md",
+          "sha256": "be45590a4c472dbb6c1997cbc17f53a89137aa1e1ddce9eec4d7f98944463cd6",
+          "excerpt_sha256": "5469603b3ec8498374ab47965adfaf3e9270fd659eecad4716a506c20271c8d6"
+        }
+      },
+      {
+        "record_id": "experience:cluster_coverage",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "直接删除完整输入状态组造成退化；组号不具有普遍好坏含义。",
+        "limits": "只完成首内部原点；未运行的随机对照和第二原点不能记录为阴性。",
+        "status": "current_recipe_not_supported",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "只完成首内部原点；未运行的随机对照和第二原点不能记录为阴性。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [
+          "T017_prefix60_cluster1",
+          "T018_prefix60_cluster2",
+          "T019_prefix60_cluster3"
+        ],
+        "source": {
+          "path": "research_runs/cluster_selection/REPORT.md",
+          "sha256": "124087833dd64d3f9467f5f517360c7d49eba18c6ce84a3e3e754fec6231b2bc",
+          "excerpt_sha256": "6c1f21b664c3ec4c682f3b1dfed9b93e3693eac564608267628edfb4bfa45278"
+        }
+      },
+      {
+        "record_id": "experience:importance_weak_signal",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "重要性采样有小幅三种子同向开发信号，但部分种子收益很弱，成本与长训练确认未完成。",
+        "limits": "正式验证已反复使用；改善主要由一个通道贡献，不声称独立泛化。",
+        "status": "weak_development_signal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "正式验证已反复使用；改善主要由一个通道贡献，不声称独立泛化。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [
+          "C001_drop_earliest_s2026",
+          "C004_adaptive_is_s2027",
+          "C006_reshuffle_s2026",
+          "S005_uniform_s2027",
+          "S010_uniform_s2028"
+        ],
+        "source": {
+          "path": "research_runs/completion_study/REPORT.md",
+          "sha256": "fcee100a5013c95582e3d621bc039ff29f83f011fd59bd437f29749854c20803",
+          "excerpt_sha256": "6e3ca127ef22eb334a1a7ed444fd2533a425db8f091159b304bf6a59cf86701e"
+        }
+      }
+    ],
+    "total": 144,
+    "offset": 0,
+    "next_offset": 5,
+    "access_created_at": 1791523452024334025
+  },
+  "retrieve_experience": {
+    "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+    "track": "experience_combination",
+    "mode": "full",
+    "policy": {
+      "evidence_is_advisory": true,
+      "method_family_bans": false,
+      "revisiting_and_replication_allowed": true,
+      "automatic_strategy_selection": false,
+      "interpretations_are_correctness_labels": false,
+      "human_curation": "prepared_before_runs; no online human strategy additions",
+      "independent_search_memory": "freeze each run; do not pool peer run discoveries",
+      "new_task_history": "exclude target dataset family",
+      "test_metrics": "excluded",
+      "exploration_effect": "unassessed_until_controlled_comparison",
+      "research_goal": "diagnose measured performance deficits; test processing hypotheses; assess signal and feedback independently",
+      "distribution_phenomena_are_performance_causes": false
+    },
+    "records": [
+      {
+        "record_id": "experience:quiet_selection",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "低变化删除和降权未建立稳健优势；随机控制与局部组误差能够反驳简单的数据价值解释。",
+        "limits": "此摘录主要为早期单种子开发结果；不能宣称全部筛选无效。",
+        "status": "current_recipe_not_supported",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "此摘录主要为早期单种子开发结果；不能宣称全部筛选无效。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [
+          "S000_uniform_s2026",
+          "S001_drop_quiet_s2026",
+          "S002_downweight_quiet_s2026",
+          "S003_random_drop_s2026",
+          "S004_oversample_high_s2026"
+        ],
+        "source": {
+          "path": "research_runs/selection/decisions.md",
+          "sha256": "7087a01366b5781bea3b6b445f0036086a00aade13c3505cf89c051c768f5afd",
+          "excerpt_sha256": "51dd63cfee8dfeb0e2620761b36cee7bccfc91535fbf38b56a7640865051b0a7"
+        }
+      },
+      {
+        "record_id": "experience:run:S002_downweight_quiet_s2026",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "measured_run",
+        "evaluation_scope": "development_validation",
+        "lesson": "S002_downweight_quiet_s2026：development_validation；recipe=downweight_quiet；NMSE=0.28940914, NMAE=0.19122074。",
+        "limits": "单次记录不证明机制或整个方法族有效/无效；不同评价范围与模型不可直接混排。",
+        "status": "observed_not_causal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "model": "original_DLinear",
+          "scope": "development_validation"
+        },
+        "unknowns": [
+          "跨种子稳定性须结合其他记录",
+          "机制及方法族外推未由该单次结果确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/results/S002_downweight_quiet_s2026/result.json",
+          "sha256": "80d2aa7a0fea40251fd954d52ddb6450421c12b269a1e0e4b9ab0c3f66546563",
+          "excerpt_sha256": "d6aae2c7b2042407aa908c799cdae8a613952205ee6d5a2e406b00590db227be"
+        }
+      },
+      {
+        "record_id": "experience:run:S007_downweight_quiet_s2027",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "measured_run",
+        "evaluation_scope": "development_validation",
+        "lesson": "S007_downweight_quiet_s2027：development_validation；recipe=downweight_quiet；NMSE=0.28937694, NMAE=0.1948486。",
+        "limits": "单次记录不证明机制或整个方法族有效/无效；不同评价范围与模型不可直接混排。",
+        "status": "observed_not_causal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "model": "original_DLinear",
+          "scope": "development_validation"
+        },
+        "unknowns": [
+          "跨种子稳定性须结合其他记录",
+          "机制及方法族外推未由该单次结果确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/results/S007_downweight_quiet_s2027/result.json",
+          "sha256": "e33db2ab425a67ed590b9375244d8eaea8b25bb38c8243e9a1064afde0f7c8e8",
+          "excerpt_sha256": "1c78e1eec7037ee0dd5d0d3b08495aadd1e18b53b4c3b4eb1bf91dc27cbf5bad"
+        }
+      },
+      {
+        "record_id": "experience:run:S012_downweight_quiet_s2028",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "measured_run",
+        "evaluation_scope": "development_validation",
+        "lesson": "S012_downweight_quiet_s2028：development_validation；recipe=downweight_quiet；NMSE=0.28817115, NMAE=0.19203207。",
+        "limits": "单次记录不证明机制或整个方法族有效/无效；不同评价范围与模型不可直接混排。",
+        "status": "observed_not_causal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "model": "original_DLinear",
+          "scope": "development_validation"
+        },
+        "unknowns": [
+          "跨种子稳定性须结合其他记录",
+          "机制及方法族外推未由该单次结果确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/results/S012_downweight_quiet_s2028/result.json",
+          "sha256": "beada6166008590b3ac34a094c205b32e9a744c04ece776ccb4af27d3875d9c0",
+          "excerpt_sha256": "db835ecf6f01b8cce8e59603d1e85bd0455dbd889ed615ce005c93972d3579c1"
+        }
+      },
+      {
+        "record_id": "experience:bilevel_control",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "conditional_interpretation",
+        "evaluation_scope": "historical_development",
+        "lesson": "双层权重两原点略优于控制，但控制贡献了大部分收益；正式确认待完成。",
+        "limits": "解析代理、内部原点和数值实现校验不能替代正式预测泛化。",
+        "status": "awaiting_formal_confirmation",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "scope": "historical_development_only"
+        },
+        "unknowns": [
+          "解析代理、内部原点和数值实现校验不能替代正式预测泛化。",
+          "独立机制检验及跨任务外推未由摘要确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/completion_study/REPORT.md",
+          "sha256": "fcee100a5013c95582e3d621bc039ff29f83f011fd59bd437f29749854c20803",
+          "excerpt_sha256": "493eab6150225bc0b427558c073bc6bd2b80d3c5d01ed96485eea4b75fb619c9"
+        }
+      }
+    ],
+    "matched": 13,
+    "query": "低变化降权",
+    "no_match": false,
+    "access_created_at": 1791523452048604127
+  },
+  "read_experience": {
+    "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+    "records": [
+      {
+        "record_id": "experience:run:S002_downweight_quiet_s2026",
+        "dataset_id": "metropt3_v1",
+        "dataset_family": "metropt3",
+        "record_type": "measured_run",
+        "evaluation_scope": "development_validation",
+        "lesson": "S002_downweight_quiet_s2026：development_validation；recipe=downweight_quiet；NMSE=0.28940914, NMAE=0.19122074。",
+        "limits": "单次记录不证明机制或整个方法族有效/无效；不同评价范围与模型不可直接混排。",
+        "status": "observed_not_causal",
+        "applicability": {
+          "dataset": "metropt3_v1",
+          "model": "original_DLinear",
+          "scope": "development_validation"
+        },
+        "unknowns": [
+          "跨种子稳定性须结合其他记录",
+          "机制及方法族外推未由该单次结果确认"
+        ],
+        "related_runs": [],
+        "source": {
+          "path": "research_runs/results/S002_downweight_quiet_s2026/result.json",
+          "sha256": "80d2aa7a0fea40251fd954d52ddb6450421c12b269a1e0e4b9ab0c3f66546563",
+          "excerpt_sha256": "d6aae2c7b2042407aa908c799cdae8a613952205ee6d5a2e406b00590db227be"
+        }
+      }
+    ],
+    "record_id": "experience:run:S002_downweight_quiet_s2026",
+    "text": "{\"applicability\":{\"dataset\":\"metropt3_v1\",\"model\":\"original_DLinear\",\"scope\":\"development_validation\"},\"dataset_family\":\"metropt3\",\"dataset_id\":\"metropt3_v1\",\"evaluation_scope\":\"development_validation\",\"historical_intervention\":\"unknown\",\"interpretation\":{\"text\":\"此记录未自动生成因果结论。\",\"verification\":\"unassessed\"},\"lesson\":\"S002_downweight_quiet_s2026：development_validation；recipe=downweight_quiet；NMSE=0.28940914, NMAE=0.19122074。\",\"limits\":\"单次记录不证明机制或整个方法族有效/无效；不同评价范围与模型不可直接混排。\",\"observation\":{\"best_step\":2500,\"elapsed_seconds\":70.07385811116546,\"evaluation_scope\":\"development_validation\",\"groups\":{\"all\":{\"NMAE\":0.19122074207413028,\"NMSE\":0.28940913618765574,\"windows\":300535},\"high_input_variation\":{\"NMAE\":0.29969930793980487,\"NMSE\":0.5394979599576418,\"windows\":21714},\"low_quartile\":{\"NMAE\":0.2999487759546309,\"NMSE\":0.6603968836629942,\"windows\":4882},\"middle\":{\"NMAE\":0.18068440427406582,\"NMSE\":0.2629740871347057,\"windows\":273939},\"month_2020-06\":{\"NMAE\":0.15886927783903443,\"NMSE\":0.2086825254",
+    "total_chars": 3054,
+    "next_offset": 1000,
+    "policy": {
+      "evidence_is_advisory": true,
+      "method_family_bans": false,
+      "revisiting_and_replication_allowed": true,
+      "automatic_strategy_selection": false,
+      "interpretations_are_correctness_labels": false,
+      "human_curation": "prepared_before_runs; no online human strategy additions",
+      "independent_search_memory": "freeze each run; do not pool peer run discoveries",
+      "new_task_history": "exclude target dataset family",
+      "test_metrics": "excluded",
+      "exploration_effect": "unassessed_until_controlled_comparison",
+      "research_goal": "diagnose measured performance deficits; test processing hypotheses; assess signal and feedback independently",
+      "distribution_phenomena_are_performance_causes": false
+    },
+    "access_created_at": 1791523452077415953
+  }
+}

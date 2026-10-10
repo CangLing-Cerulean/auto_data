@@ -1,0 +1,110 @@
+{
+  "run_id": "T031_prefix60_learning_hard",
+  "identity": {
+    "policy": "hard",
+    "origin": 0.6,
+    "seed": 2026,
+    "preprocessing": "baseline",
+    "dataset_id": "metropt3_v1",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "formal_protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "code_sha256": "5fcbf0ef8dcbc5f451194a98fda2e7338b0adefa878822d72a6c1b25d8404aa3",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "study_protocol_sha256": "894da01127124903847e048fd2006b8e43c88c57f0018b654bb905579cec2b20",
+    "group_fit_sha256": "7164db87ebd8a329ea9c0043e799c62609b3aca55c5e975ce66b0bafab23936c",
+    "group_labels_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714",
+    "reference": null,
+    "reference_result_sha256": null,
+    "round_total_limit_seconds": 5314.524273328483,
+    "budget_helper_sha256": "4f7aa5e970a7f4c0ed23da4f4fbb44d9f86d7374a1861f643946c436aab658cb"
+  },
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.27137105307427006,
+        "NMSE": 0.4613730549402339,
+        "windows": 210311
+      }
+    },
+    "per_channel_NMAE": [
+      0.42171348706530204,
+      0.19036074608161677,
+      0.3677148757748832,
+      0.09849741054721416,
+      0.1904897131023682,
+      0.07591416318748831,
+      0.3117619703090739,
+      0.4593284732954777,
+      0.4045179312653564,
+      0.5509188497469555,
+      0.445935614406354,
+      0.03480923477651886,
+      0.3080720416342205,
+      0.15805128715857547,
+      0.05247999776264702
+    ],
+    "per_channel_NMSE": [
+      0.45686190116378506,
+      0.097389818501872,
+      0.4287581122604786,
+      0.23523230747851165,
+      0.09734247984370639,
+      0.017903297693249134,
+      0.270646521151046,
+      0.5490047287106502,
+      0.4150514769905414,
+      0.9055183055828632,
+      0.5310830706265943,
+      0.17095101303717639,
+      1.9489291607917754,
+      0.7220151036915157,
+      0.07390852657974124
+    ]
+  },
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.37663692289590833
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.2843782652318478
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.7133873327970505
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.478362107694149
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.6063828469514847
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.5202931369543076
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "elapsed_seconds": 72.07537931576371
+}

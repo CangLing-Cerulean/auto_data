@@ -1,0 +1,25 @@
+{
+  "scope": "engineering_only",
+  "date": "2026-10-08",
+  "purpose": "Validate local DeepSeek JSON response and trusted remote DLinear training before autonomous code execution is connected",
+  "api": {"model": "deepseek-flash", "completion_requests": 1, "max_tokens": 512, "timeout_seconds": 45, "credentials_location": "local_windows_user_environment_only"},
+  "gpu": {
+    "host": "instance-lcpdyopw.zju.smartml.cn",
+    "port": 20000,
+    "root": "/root/data/auto_data_research/metropt3_v1/session_20260926",
+    "model": "fixed_original_DLinear_7920_parameters",
+    "seed": 20261008,
+    "steps": 100,
+    "training_sampling": "all_legal_training_windows_uniform_with_replacement",
+    "validation": "full_existing_development_validation_once_after_last_step",
+    "test": "full_integrity_verified_locally_only; no_test_file_uploaded_or_used_for_predictions",
+    "remote_verification": "manifest_core_protocol_and_train_validation_hashes; remote_snapshot_intentionally_contains_no_test_csv",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "protocol_sha256": "573ee4e87ef442b7140afb26f4befe80a8de1a43fec3b5c1fe6b878e527f8afe"
+  },
+  "scientific_comparison_eligible": false,
+  "counts_as_independent_agent_run": false,
+  "historical_training_ledger_modified": false,
+  "autonomous_generated_code_execution": "not_started_requires_container_runtime_acceptance"
+}

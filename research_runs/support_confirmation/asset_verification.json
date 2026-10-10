@@ -1,0 +1,22 @@
+{
+  "verified_runs": [
+    "P003_covariate_prefix60",
+    "P004_covariate_prefix80",
+    "T045_prefix60_covariate_global",
+    "T046_prefix60_covariate_state_matched",
+    "T047_prefix60_covariate_shuffle",
+    "T048_prefix80_covariate_global",
+    "T049_prefix80_covariate_shuffle",
+    "T050_prefix80_balanced",
+    "T051_prefix80_reshuffle",
+    "S041_support_balanced_s2026"
+  ],
+  "verified_asset_files": 144,
+  "main_training_runs": 8,
+  "auxiliary_domain_classifier_fits": 2,
+  "auxiliary_domain_classifier_seconds": 18.681030621752143,
+  "budget_used_seconds": 5945.514959004708,
+  "round_used_seconds": 554.2755885850638,
+  "remaining_seconds": 1254.4850409952924,
+  "test_accessed": false
+}

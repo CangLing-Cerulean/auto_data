@@ -1,0 +1,436 @@
+{
+  "source": "current train prefix only",
+  "rows": 1061863,
+  "sensors": [
+    {
+      "sensor": "TP2",
+      "nonfinite": 0,
+      "min": -0.032,
+      "max": 10.676,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": 8.39,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "TP3",
+      "nonfinite": 0,
+      "min": 0.7300000000000004,
+      "max": 10.302,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": 8.506,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "H1",
+      "nonfinite": 0,
+      "min": -0.0360000000000013,
+      "max": 10.288,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": -0.0139999999999993,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "DV_pressure",
+      "nonfinite": 0,
+      "min": -0.032,
+      "max": 9.844,
+      "longest_constant_rows": 18541,
+      "longest_constant_source_rows": [
+        1018525,
+        1037066
+      ],
+      "constant_value": -0.0139999999999993,
+      "source_index_first_last": [
+        "10185250",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:01:53",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223602,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "Reservoirs",
+      "nonfinite": 0,
+      "min": 0.7119999999999997,
+      "max": 10.3,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": 8.506,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "Oil_temperature",
+      "nonfinite": 0,
+      "min": 15.400000000000006,
+      "max": 83.125,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": 65.14999999999999,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "Motor_current",
+      "nonfinite": 0,
+      "min": 0.0199999999999995,
+      "max": 9.295,
+      "longest_constant_rows": 18515,
+      "longest_constant_source_rows": [
+        1018551,
+        1037066
+      ],
+      "constant_value": 5.575000000000001,
+      "source_index_first_last": [
+        "10185510",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:06:11",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223344,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "COMP",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 18518,
+      "longest_constant_source_rows": [
+        1018548,
+        1037066
+      ],
+      "constant_value": 0.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        183432,
+        878431
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "10185480",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:05:41",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223374,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "DV_eletric",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 17951,
+      "longest_constant_source_rows": [
+        890740,
+        908691
+      ],
+      "constant_value": 1.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        882747,
+        179116
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "8907400",
+        "9086900"
+      ],
+      "timestamp_first_last": [
+        "2020-06-05 09:48:30",
+        "2020-06-08 13:54:18"
+      ],
+      "elapsed_seconds_first_to_last": 273948,
+      "gaps_over_30_seconds_inside_segment": 4
+    },
+    {
+      "sensor": "Towers",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 466,
+      "longest_constant_source_rows": [
+        143959,
+        144425
+      ],
+      "constant_value": 1.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        89105,
+        972758
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "1439590",
+        "1444240"
+      ],
+      "timestamp_first_last": [
+        "2020-02-19 19:33:50",
+        "2020-02-20 05:04:33"
+      ],
+      "elapsed_seconds_first_to_last": 34243,
+      "gaps_over_30_seconds_inside_segment": 2
+    },
+    {
+      "sensor": "MPG",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 18518,
+      "longest_constant_source_rows": [
+        1018548,
+        1037066
+      ],
+      "constant_value": 0.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        188443,
+        873420
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "10185480",
+        "10370650"
+      ],
+      "timestamp_first_last": [
+        "2020-06-22 15:05:41",
+        "2020-06-25 05:08:35"
+      ],
+      "elapsed_seconds_first_to_last": 223374,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "LPS",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 254011,
+      "longest_constant_source_rows": [
+        39815,
+        293826
+      ],
+      "constant_value": 0.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        1059252,
+        2611
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "398150",
+        "2938250"
+      ],
+      "timestamp_first_last": [
+        "2020-02-06 07:52:30",
+        "2020-03-11 19:21:46"
+      ],
+      "elapsed_seconds_first_to_last": 2978956,
+      "gaps_over_30_seconds_inside_segment": 47
+    },
+    {
+      "sensor": "Pressure_switch",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 7275,
+      "longest_constant_source_rows": [
+        21119,
+        28394
+      ],
+      "constant_value": 1.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        11307,
+        1050556
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "211190",
+        "283930"
+      ],
+      "timestamp_first_last": [
+        "2020-02-03 19:07:16",
+        "2020-02-04 15:08:59"
+      ],
+      "elapsed_seconds_first_to_last": 72103,
+      "gaps_over_30_seconds_inside_segment": 0
+    },
+    {
+      "sensor": "Oil_level",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 233669,
+      "longest_constant_source_rows": [
+        299526,
+        533195
+      ],
+      "constant_value": 1.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        15145,
+        1046718
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "2995260",
+        "5331940"
+      ],
+      "timestamp_first_last": [
+        "2020-03-12 14:11:12",
+        "2020-04-13 18:31:09"
+      ],
+      "elapsed_seconds_first_to_last": 2780397,
+      "gaps_over_30_seconds_inside_segment": 48
+    },
+    {
+      "sensor": "Caudal_impulses",
+      "nonfinite": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "longest_constant_rows": 239426,
+      "longest_constant_source_rows": [
+        293769,
+        533195
+      ],
+      "constant_value": 1.0,
+      "observed_values": [
+        0.0,
+        1.0
+      ],
+      "counts": [
+        93023,
+        968840
+      ],
+      "outside_binary_count": 0,
+      "source_index_first_last": [
+        "2937690",
+        "5331940"
+      ],
+      "timestamp_first_last": [
+        "2020-03-11 19:12:30",
+        "2020-04-13 18:31:09"
+      ],
+      "elapsed_seconds_first_to_last": 2848719,
+      "gaps_over_30_seconds_inside_segment": 50
+    }
+  ],
+  "confirmed_measurement_faults": [],
+  "conclusion": "Ranges and constant segments are diagnostic only; no independently verified sensor-error labels are available.",
+  "longest_joint_analog_constant_segment": {
+    "source_rows_zero_based_half_open": [
+      1018551,
+      1037066
+    ],
+    "rows": 18515,
+    "source_index_first_last": [
+      "10185510",
+      "10370650"
+    ],
+    "timestamp_first_last": [
+      "2020-06-22 15:06:11",
+      "2020-06-25 05:08:35"
+    ],
+    "elapsed_seconds_first_to_last": 223344,
+    "digital_change_counts_inside_segment": {
+      "COMP": 0,
+      "DV_eletric": 6452,
+      "Towers": 6452,
+      "MPG": 0,
+      "LPS": 0,
+      "Pressure_switch": 6452,
+      "Oil_level": 6452,
+      "Caudal_impulses": 6452
+    }
+  }
+}

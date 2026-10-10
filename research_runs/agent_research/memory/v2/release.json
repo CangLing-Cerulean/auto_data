@@ -1,0 +1,32 @@
+{
+  "version": "evidence-memory-v2-deployment",
+  "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+  "code": {
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/__init__.py": "534654b2702f76248f4fb962afb0e9ed30d61f51c50adb3bbef33a2ffc40988f",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/__main__.py": "4df0b217e63f4da56d7720e766acc3c4b79154a60257f3c633811d229618fa27",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/evidence.py": "3b2a36b142b7405a563f9c8d51e68a1d2045083ec4f845da3dded82352d5ae79",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/experience.py": "bd31d50ab940d69ef76136b062177d1b3afc08631be003858ad77b6ac1206581",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/gpu_smoke.py": "8f3b206a6953ac7f1de4c33c5d42ae2800362987b3c8196008d33dbf778962e6",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/jobs.py": "15c09c8bf857b8e4714eb718927f2ff473d881de3f46f4398f466c3448e25873",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/memory.py": "c91f5b380568bf8dff4585e24e63f2d487b81ff1c998c35e39a581a086c3b4bb",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/native.py": "979b161bb189b23240bb5024161b6d74a15fac68359ec1e805797acfbbc940cb",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/processing.py": "071e9a581c904834ab8e0c54df1902fbd54107b70f3b5a18ae94d7e492e908d5",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/runtime.py": "8fa66430f64eb8624217fdd586e43abd726c2be7b152495eaf3b6176c87f1a9a",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/task.py": "96cda4cae7cb8cde05c5a01ffcaf24a6715c096bcf54261a73d5ca0a583d32a8",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/trainer.py": "38a58312ebace9b37f2f8b6446b2799e70da633b26012c341262c89a28fc45af",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/training.py": "6316f968b911b3d051a9ca54d95284e458984439859b8e030cbb5b9462a63ae8",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/budget.py": "f83accd315eea47d366cacee13c379ad6052f94078e1584cea38615af3b0e9a0",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/controller.py": "e6a71588640ef1c44241b08efd774baf6052f6c67449b9b37080ab31bddb9ac3",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/llm.py": "570745f1a00278358e47be14437edf818baba56a6261c6686423a501a5948379",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/state.py": "e26f1a49c2f6d1613e5991a47a2cbefa6b1ab54fc6fb3400b58ba5fe17b97b25",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/config.py": "90192657de3d188cef5c040c797f9675e2be0cbceead0427c3774cd8b85fa077",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/llm_transport.py": "730402177df2176dc69580934c6080b1c2140fb999dfe5f29c8f272b2d362620",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/store.py": "d9c07b7cdffbf9406e7e653718f2a7b6c3610b5f951f00970e69ed0a67c1b446"
+  },
+  "API_calls_added": 0,
+  "trainings_added": 0,
+  "active_training_queue": false,
+  "correct_signal": "unassessed",
+  "exploration_effect": "not_evaluated",
+  "prior_engineering_runs_preserved": true
+}

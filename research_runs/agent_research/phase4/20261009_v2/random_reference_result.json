@@ -1,0 +1,45 @@
+{
+  "run_id": "p4v2_random_reference_r1",
+  "status": "search_completed",
+  "selected_candidate": "B0",
+  "training_results": [
+    {
+      "candidate_id": "R3",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.19441669741002196,
+        "NMSE": 0.29066145484247047,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "R2",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.20694773721406226,
+        "NMSE": 0.301721752012643,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "R1",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.20506441663293054,
+        "NMSE": 0.29343713928571036,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "B0",
+      "status": "completed",
+      "metrics": {
+        "NMAE": 0.19534979098331073,
+        "NMSE": 0.2880874386290667,
+        "windows": 300535
+      }
+    }
+  ],
+  "external_confirmation": "not_required_for_retained_baseline",
+  "scope": "single_development_seed_fixed_random_recipes_no_Agent_discovery_claim"
+}

@@ -1,0 +1,947 @@
+[
+  {
+    "policy": "coverage_core_20261021",
+    "seed": 20261021,
+    "protected_windows": 205672,
+    "dropped_windows": 106638,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103980,
+        "union": 619028,
+        "deletion_jaccard_on_common_rows": 0.16797301576019177
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137073,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246193,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117566,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 64,
+        "union": 117895,
+        "deletion_jaccard_on_common_rows": 0.0005428559311251537
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96806
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "supervised_core_20261021",
+    "seed": 20261021,
+    "protected_windows": 205672,
+    "dropped_windows": 106638,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103951,
+        "union": 619057,
+        "deletion_jaccard_on_common_rows": 0.1679183015457381
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137073,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246193,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117566,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 64,
+        "union": 117895,
+        "deletion_jaccard_on_common_rows": 0.0005428559311251537
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96806
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "coreset_random_20261021",
+    "seed": 20261021,
+    "protected_windows": 205672,
+    "dropped_windows": 106638,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103972,
+        "union": 619036,
+        "deletion_jaccard_on_common_rows": 0.1679579216717606
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137073,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246193,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117566,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 65,
+        "union": 117894,
+        "deletion_jaccard_on_common_rows": 0.0005513427316063583
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96806
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "coverage_core_20261022",
+    "seed": 20261022,
+    "protected_windows": 205672,
+    "dropped_windows": 106637,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103940,
+        "union": 619067,
+        "deletion_jaccard_on_common_rows": 0.16789782042977577
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137072,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246192,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117565,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 65,
+        "union": 117893,
+        "deletion_jaccard_on_common_rows": 0.0005513474082430678
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "supervised_core_20261022",
+    "seed": 20261022,
+    "protected_windows": 205672,
+    "dropped_windows": 106637,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103866,
+        "union": 619141,
+        "deletion_jaccard_on_common_rows": 0.16775823277734797
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137072,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246192,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117565,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 65,
+        "union": 117893,
+        "deletion_jaccard_on_common_rows": 0.0005513474082430678
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "coreset_random_20261022",
+    "seed": 20261022,
+    "protected_windows": 205672,
+    "dropped_windows": 106637,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103940,
+        "union": 619067,
+        "deletion_jaccard_on_common_rows": 0.16789782042977577
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137072,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246192,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117565,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 64,
+        "union": 117894,
+        "deletion_jaccard_on_common_rows": 0.0005428605357354912
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116254
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "coverage_core_20261023",
+    "seed": 20261023,
+    "protected_windows": 205672,
+    "dropped_windows": 106636,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103957,
+        "union": 619049,
+        "deletion_jaccard_on_common_rows": 0.16793016384809603
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137071,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246191,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117564,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 66,
+        "union": 117891,
+        "deletion_jaccard_on_common_rows": 0.0005598391734738021
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116255
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "supervised_core_20261023",
+    "seed": 20261023,
+    "protected_windows": 205672,
+    "dropped_windows": 106636,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103983,
+        "union": 619023,
+        "deletion_jaccard_on_common_rows": 0.16797921886585798
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137071,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246191,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117564,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 66,
+        "union": 117891,
+        "deletion_jaccard_on_common_rows": 0.0005598391734738021
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116255
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  },
+  {
+    "policy": "coreset_random_20261023",
+    "seed": 20261023,
+    "protected_windows": 205672,
+    "dropped_windows": 106636,
+    "deletion_overlap": [
+      {
+        "run": "T007_prefix60_disjoint",
+        "common_windows": 632231,
+        "intersection": 103921,
+        "union": 619085,
+        "deletion_jaccard_on_common_rows": 0.16786224831808233
+      },
+      {
+        "run": "T017_prefix60_cluster1",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 137071,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T018_prefix60_cluster2",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 246191,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T019_prefix60_cluster3",
+        "common_windows": 632231,
+        "intersection": 0,
+        "union": 117564,
+        "deletion_jaccard_on_common_rows": 0.0
+      },
+      {
+        "run": "T052_prefix60_cadence_drop",
+        "common_windows": 632231,
+        "intersection": 67,
+        "union": 117890,
+        "deletion_jaccard_on_common_rows": 0.0005683264059716685
+      }
+    ],
+    "cells": [
+      {
+        "cell": 0,
+        "windows": 172758,
+        "protected": 8182,
+        "retained": 131615
+      },
+      {
+        "cell": 1,
+        "windows": 151783,
+        "protected": 9665,
+        "retained": 116255
+      },
+      {
+        "cell": 2,
+        "windows": 126772,
+        "protected": 6907,
+        "retained": 96807
+      },
+      {
+        "cell": 4,
+        "windows": 16038,
+        "protected": 16038,
+        "retained": 16038
+      },
+      {
+        "cell": 5,
+        "windows": 14397,
+        "protected": 14397,
+        "retained": 14397
+      },
+      {
+        "cell": 6,
+        "windows": 40733,
+        "protected": 40733,
+        "retained": 40733
+      },
+      {
+        "cell": 7,
+        "windows": 60832,
+        "protected": 60832,
+        "retained": 60832
+      },
+      {
+        "cell": 8,
+        "windows": 37990,
+        "protected": 37990,
+        "retained": 37990
+      },
+      {
+        "cell": 10,
+        "windows": 145,
+        "protected": 145,
+        "retained": 145
+      },
+      {
+        "cell": 11,
+        "windows": 10783,
+        "protected": 10783,
+        "retained": 10783
+      }
+    ]
+  }
+]

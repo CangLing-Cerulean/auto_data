@@ -1,0 +1,606 @@
+{
+  "status": "completed",
+  "registered": 12,
+  "passed": 12,
+  "outcomes": [
+    {
+      "run_id": "CA3_C01_r1",
+      "case_id": "C01",
+      "assessment": {
+        "action": "reuse_as_known_example",
+        "assessment": "supported",
+        "claim_scope": "confirmed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": true,
+        "nmae_change_pct": 0.05413676798673439,
+        "nmse_change_pct": -4.238504327352144,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C01_confirmation"
+        ],
+        "summary": "在 MetroPT3 开发集上，固定原 DLinear 模型的处理使 NMSE 下降 4.24%（≥1%），NMAE 上升 0.054%（≤1%），满足单侧处理准则。逐种子：3026 NMSE -4.22%、NMAE -0.30%；3027 NMSE -4.17%、NMAE +1.05%（略超 1%）；3028 NMSE -4.32%、NMAE -0.60%。匹配对照的 NMSE 约 0.3014、NMAE 约 0.2083，均差于候选（约 0.2750、0.1949），方向一致。三个确认训练种子在 NMSE 上均改善，NMAE 变化不一致（两个改善、一个轻微恶化），聚合指标仍满足 NMSE 下降≥1% 且 NMAE 恶化≤1%。局限：仅单一历史开发数据集、无独立数据集验证，不能证明传感器物理因果；属多确认种子的开发证据，非独立泛化。未执行新训练，无执行失败。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 12,
+        "tokens_charged_or_reserved": 22862,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 39.68667146842927
+    },
+    {
+      "run_id": "CA3_C02_r1",
+      "case_id": "C02",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": 4.9729388502134375,
+        "nmse_change_pct": 1.8569711619852214,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C02_candidate"
+        ],
+        "summary": "案例C02在单一开发数据集(metropt3_v1_development,300535窗口)上比较固定DLinear模型基线与候选配置，执行成功且仅用单一训练种子20261101。计算得NMSE变化+1.857%（恶化），NMAE变化+4.973%（恶化）。判据要求NMSE下降≥1%（即变化≤-1%）且NMAE恶化≤1%；该候选NMSE反而上升，NMAE恶化远超1%，两项均不满足。由于仅单种子、无匹配对照、无独立数据集评估，结论属single_seed_development，不能作为确认性开发证据，也不能证明传感器物理因果。未记录执行错误，无需修复重测。结论：证据与处理判据相矛盾，应保留基线。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 10,
+        "tokens_charged_or_reserved": 15372,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 24.70598667766899
+    },
+    {
+      "run_id": "CA3_C03_r1",
+      "case_id": "C03",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": -0.47765271137070187,
+        "nmse_change_pct": 0.8934843621272837,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C03_candidate"
+        ],
+        "summary": "C03采用单一训练种子20261101、固定原始DLinear、开发集metropt3_v1_development（300535窗口），无匹配对照、非独立数据集，执行完成。精确复算：NMAE变化-0.478%（0.195350→0.194417，改善），NMSE变化+0.893%（0.288087→0.290661，恶化）。准则要求NMSE下降≥1%且NMAE恶化≤1%；此处NMSE未下降反而上升0.893%，虽未超过NMAE 1%恶化限，但核心NMSE下降条件不满足，故判定contradicted、保留baseline。证据受限：单种子、无匹配对照、非独立任务评估，不能推广为独立数据集泛化或传感器物理因果结论。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 26,
+        "tokens_charged_or_reserved": 42406,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 69.92324975319207
+    },
+    {
+      "run_id": "CA3_C04_r1",
+      "case_id": "C04",
+      "assessment": {
+        "action": "repair_execution_and_retest",
+        "assessment": "inconclusive",
+        "claim_scope": "execution_only",
+        "execution_status": "failed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": null,
+        "nmae_change_pct": null,
+        "nmse_change_pct": null,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C04_execution"
+        ],
+        "summary": "C04 处理阶段执行失败：processing worker 在 import torch 时因 ImportError（libtorch_cpu.so: failed to map segment from shared object）崩溃，baseline 与 candidate 指标均为 null，未产生任何可比较的 NMSE/NMAE 结果。因此科学假设未被检验：无法判断 NMSE 下降是否≥1%、NMAE 恶化是否≤1%，评估为 inconclusive，满足处理准则为 null。证据仅来自开发数据集 metropt3_v1_development，未使用独立数据集，不能证明传感器物理因果。该失败是已记录的执行层错误，不能据此断定为安装缺陷；建议在修复环境中重跑该案例以检验假设，即 repair_execution_and_retest。限制：单案例、失败执行、无指标、无匹配对照，无法得出开发或泛化证据。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 20,
+        "tokens_charged_or_reserved": 37833,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 47.25763615593314
+    },
+    {
+      "run_id": "CA3_C01_r2",
+      "case_id": "C01",
+      "assessment": {
+        "action": "reuse_as_known_example",
+        "assessment": "supported",
+        "claim_scope": "confirmed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": true,
+        "nmae_change_pct": 0.05413676798673439,
+        "nmse_change_pct": -4.238504327352144,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C01_confirmation"
+        ],
+        "summary": "案例C01在固定的原始DLinear模型上使用3个确认训练种子(3026-3028)，每个种子训练3000步，并在先前探索的metropt3_v1开发集上评估。执行完成，有匹配对照。聚合指标：NMSE变化-4.24%（下降，即改善），NMAE变化+0.054%（略恶化），满足处理标准（NMSE改善>=1%且NMAE恶化<=1%）。按种子看，3026的NMAE改善（-0.30%），3027恶化（+1.05%），3028改善（-0.60%）；NMSE在三个种子上均改善（约-4.2%至-4.4%），存在NMAE方向的种子间不一致。匹配对照的NMAE/NMSE均差于基线（约0.208/0.301），支持该效应不是对照伪影。但评估仅限单一开发数据集、单一模型配置，未做独立数据集评估，也未证明物理因果。因此结论为confirmed_development的支持证据，而非独立泛化或传感器物理因果。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 31,
+        "tokens_charged_or_reserved": 62004,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 94.17592599056661
+    },
+    {
+      "run_id": "CA3_C02_r2",
+      "case_id": "C02",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": 4.9729388502134375,
+        "nmse_change_pct": 1.8569711619852214,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C02_candidate"
+        ],
+        "summary": "C02候选相对共享基线在metropt3_v1_development上NMSE恶化+1.857%，NMAE恶化+4.973%，均为正即恶化，未满足NMSE下降≥1%且NMAE恶化≤1%的处理标准，判定contradicted，建议保留基线。仅单一训练种子20261101、无匹配对照、无独立数据集评估，证据属single_seed_development，不能外推为泛化或传感器物理因果性。执行状态completed，指标有效。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 9,
+        "tokens_charged_or_reserved": 13581,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 20.755492669530213
+    },
+    {
+      "run_id": "CA3_C03_r2",
+      "case_id": "C03",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": -0.47765271137070187,
+        "nmse_change_pct": 0.8934843621272837,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C03_candidate"
+        ],
+        "summary": "单训练种子(20261101)的开发集评估，无匹配对照、未使用独立数据集。基线 NMSE=0.288087，候选 NMSE=0.290661，NMSE 恶化 +0.893%，未达到“NMSE 下降≥1%”的处理标准；NMAE 轻微下降 -0.478%（未超过 1% 恶化阈值，此项不构成问题）。因 NMSE 未改善反而升高，假设未获支持，判定为 contradicted。执行已完成，故不属执行失败；但仅为单种子开发证据，不能外推为独立数据集泛化或传感器物理因果。建议保留基线，如需验证该假设应补充多确认种子与匹配对照后重测。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 16,
+        "tokens_charged_or_reserved": 25808,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 43.36978891026229
+    },
+    {
+      "run_id": "CA3_C04_r2",
+      "case_id": "C04",
+      "assessment": {
+        "action": "repair_execution_and_retest",
+        "assessment": "inconclusive",
+        "claim_scope": "execution_only",
+        "execution_status": "failed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": null,
+        "nmae_change_pct": null,
+        "nmse_change_pct": null,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C04_execution"
+        ],
+        "summary": "案例C04的候选运行在执行阶段失败：processing worker 在 import torch 时抛出 ImportError: libtorch_cpu.so: failed to map segment from shared object，baseline 与 candidate 指标均为 null，评测数据集 metropt3_v1_development 未产生任何结果。由于执行失败，科学假设未被检验，NMSE/NMAE 变化无法计算，处理准则（NMSE下降≥1% 且 NMAE恶化≤1%）判定为 null，评估结论为 inconclusive。失败记录仅表明 torch 共享库映射失败（可能与环境/内存/库加载有关），这不能直接证明存在安装缺陷，需进一步排查（例如确认 libtorch_cpu.so 可加载性、内存与挂载限制）后再重跑以获取指标。该证据为 execution_only 范畴，不构成 confirmed_development 或单种子开发证据，也未证明独立任务泛化或传感器物理因果性。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 3,
+        "tokens_charged_or_reserved": 3802,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 6.043324971571565
+    },
+    {
+      "run_id": "CA3_C01_r3",
+      "case_id": "C01",
+      "assessment": {
+        "action": "reuse_as_known_example",
+        "assessment": "supported",
+        "claim_scope": "confirmed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": true,
+        "nmae_change_pct": 0.05413676798673439,
+        "nmse_change_pct": -4.238504327352144,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C01_confirmation"
+        ],
+        "summary": "计算显示候选相较基线 NMSE 下降 4.24%（-4.2385%），满足 NMSE 改善≥1%；NMAE 仅恶化 0.054%（+0.0541%），远低于 1% 上限，故加工准则达成。证据来自 C01_confirmation：三个确认训练种子 3026/3027/3028，均 300535 窗口，固定原始 DLinear 配置、剂量 3000 步，并配匹配对照（对照 NMSE≈0.3014，候选≈0.2750）。逐种子看 NMSE 均改善（约 0.286/0.287/0.288→0.274/0.275/0.276），但 NMAE 存在分歧：种子 3026 由 0.19596 微降至 0.19538，种子 3027 由 0.19528 升至 0.19733，种子 3028 由 0.19309 降至 0.19194；聚合层面满足准则，不应声称全部种子一致改善。限制：评估仅在先前探索过的 metropt3_v1 开发数据集（independent_dataset_used=false），不支持独立数据集泛化；未验证物理因果性，仅统计关联。结论定位为 confirmed_development（多种子+匹配对照的范围性开发证据）。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 10,
+        "tokens_charged_or_reserved": 19427,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 28.374146624468267
+    },
+    {
+      "run_id": "CA3_C02_r3",
+      "case_id": "C02",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": 4.9729388502134375,
+        "nmse_change_pct": 1.8569711619852214,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C02_candidate"
+        ],
+        "summary": "C02为单一训练种子(20261101)、单数据集(metropt3_v1_development)的DLinear开发实验，无匹配对照、无独立数据集。精确计算显示候选相对基线NMSE恶化+1.857%、NMAE恶化+4.973%，两项均朝不利方向变化：NMSE未下降≥1%，NMAE恶化超过1%阈值，故判据不满足，历史假设被矛盾。结论仅限single_seed_development范围，不能外推到独立数据集或传感器物理因果。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 9,
+        "tokens_charged_or_reserved": 13383,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 19.937131284736097
+    },
+    {
+      "run_id": "CA3_C03_r3",
+      "case_id": "C03",
+      "assessment": {
+        "action": "retain_baseline",
+        "assessment": "contradicted",
+        "claim_scope": "single_seed_development",
+        "execution_status": "completed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": false,
+        "nmae_change_pct": -0.47765271137070187,
+        "nmse_change_pct": 0.8934843621272837,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "shared_baseline",
+          "C03_candidate"
+        ],
+        "summary": "案例C03在单一开发数据集metropt3_v1_development上完成，执行状态completed，仅使用一个训练种子(20261101)，无匹配对照，因此证据层级为single_seed_development，不能作为confirmed_development。依据calculate_case_metrics：NMSE变化+0.8935%（正值为恶化），未达到NMSE下降≥1%的判定阈值；NMAE变化-0.4777%（改善，落在单向≤1%恶化容差内）。NMSE恶化且未满足主要目标，故处理准则meets_processing_criterion为false，结论为contradicted。仅有一条种子记录，不存在多种子间不一致可报告。局限：单种子、单数据集、无独立任务评估、无匹配对照，未证明传感器物理因果。建议retain_baseline，不采用该候选。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 3,
+        "tokens_charged_or_reserved": 3700,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 6.02007513307035
+    },
+    {
+      "run_id": "CA3_C04_r3",
+      "case_id": "C04",
+      "assessment": {
+        "action": "repair_execution_and_retest",
+        "assessment": "inconclusive",
+        "claim_scope": "execution_only",
+        "execution_status": "failed",
+        "independent_task_proven": false,
+        "meets_processing_criterion": null,
+        "nmae_change_pct": null,
+        "nmse_change_pct": null,
+        "physical_causality_proven": false,
+        "source_refs": [
+          "C04_execution"
+        ],
+        "summary": "案例C04的候选执行失败：处理worker在import torch时抛出ImportError（libtorch_cpu.so: failed to map segment from shared object），未产生任何baseline或candidate指标。由于执行失败，科学假设未被检验，NMSE与NMAE变化量及‘NMSE下降≥1%且NMAE恶化≤1%’判据均为null，结论inconclusive，范围仅execution_only。该记录只表明运行环境导致进程失败（疑似共享库映射/内存或文件系统限制），不能据此认定安装缺陷，也不能推断传感器物理因果或独立数据集泛化。建议修复执行环境后重跑并重新评估：仅依据记录的失败信息排查torch动态库加载问题，不预先断言根因。证据来源为C04_execution日志。"
+      },
+      "passed": true,
+      "checks": {
+        "case_read": true,
+        "execution_status": true,
+        "nmse_change_pct": true,
+        "nmae_change_pct": true,
+        "meets_processing_criterion": true,
+        "assessment": true,
+        "claim_scope": true,
+        "physical_causality_proven": true,
+        "independent_task_proven": true,
+        "action": true,
+        "source_refs": true,
+        "summary_present": true
+      },
+      "free_text_truth": "unassessed_requires_independent_review",
+      "structured_score_only": true,
+      "API": {
+        "calls_used": 3,
+        "tokens_charged_or_reserved": 4244,
+        "closing_calls_used": 0,
+        "execution_profile": "research_open",
+        "max_calls": null,
+        "max_tokens": null,
+        "remaining_calls": null,
+        "remaining_tokens": null,
+        "closing_calls_reserved": 0,
+        "closing_reservation_per_call": 0
+      },
+      "elapsed_seconds": 6.04552027117461
+    }
+  ],
+  "all_structured_checks_passed": true,
+  "new_training_calls": 0,
+  "scope": "four_known_historical_cases_three_fresh_contexts_not_new_task_discovery",
+  "free_text_truth": "requires_review_not_scored_as_correct_by_presence",
+  "test_access": false
+}

@@ -1,0 +1,166 @@
+{
+  "groups": {
+    "all": {
+      "NMAE": 0.15755413901979978,
+      "NMSE": 0.17644374583163536,
+      "windows": 300535
+    },
+    "high_input_variation": {
+      "NMAE": 0.2312015754018325,
+      "NMSE": 0.4651483875811369,
+      "windows": 21714
+    },
+    "ordinary_input_variation": {
+      "NMAE": 0.15181862973750243,
+      "NMSE": 0.15396002835358064,
+      "windows": 278821
+    },
+    "month_2020-06": {
+      "NMAE": 0.10187067406617842,
+      "NMSE": 0.0923935624714457,
+      "windows": 11412
+    },
+    "month_2020-07": {
+      "NMAE": 0.14568132316470322,
+      "NMSE": 0.1775627663334608,
+      "windows": 220243
+    },
+    "month_2020-08": {
+      "NMAE": 0.20474293525128615,
+      "NMSE": 0.18679107829567312,
+      "windows": 68880
+    }
+  },
+  "per_channel_NMAE": [
+    0.2309676616931623,
+    0.09846360592067424,
+    0.21586312062615878,
+    0.08397589475556107,
+    0.09869479779480428,
+    0.060939462644008936,
+    0.22704678710913662,
+    0.24092806168731062,
+    0.22609147351609932,
+    0.29086156365507776,
+    0.22801101667649426,
+    0.040670640997289814,
+    0.1726745336072582,
+    0.09791029692840275,
+    0.05021316768555952
+  ],
+  "per_channel_NMSE": [
+    0.22828470517730978,
+    0.04258116392466368,
+    0.20092215882046457,
+    0.14702144502788198,
+    0.04295532237694846,
+    0.010154779007360526,
+    0.1815971528324722,
+    0.2370679123474193,
+    0.2267905160431388,
+    0.39875476486225947,
+    0.22207898030152534,
+    0.1872863493684419,
+    0.3953143602301479,
+    0.10575244557388414,
+    0.020094131580611733
+  ],
+  "run_id": "M002_residual_mlp_s2027",
+  "identity": {
+    "run_type": "main_model",
+    "model": "residual_mlp",
+    "seed": 2027,
+    "dataset_id": "metropt3_v1",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "baseline": "S005_uniform_s2027",
+    "round_limit_seconds": 6945.514959004708,
+    "sources_sha256": {
+      "code_snapshot.py": "4e472547869655070b7d085cd7af670e5fa3f4332888dd07ef92d422f8888c45",
+      "model_snapshot.py": "4e217ec50e4cdbe2af90d706a62c34921f98a9624af742b187b66ae1f057182c",
+      "core_snapshot.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+      "budget_helper.py": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+      "protocol.json": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+      "study_protocol.md": "633f3e6eb27c26d4c6a1c863aa0ee0fd32525ae421986173ae551294072b64c5"
+    }
+  },
+  "parameter_count": 77048,
+  "best_step": 2500,
+  "history": [
+    {
+      "step": 500,
+      "train_loss": 0.2318810373097658,
+      "validation": {
+        "NMAE": 0.18096435872253977,
+        "NMSE": 0.1954078021231531,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 1000,
+      "train_loss": 0.18605982749164104,
+      "validation": {
+        "NMAE": 0.17054982042149985,
+        "NMSE": 0.19811229759917337,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 1500,
+      "train_loss": 0.17679269674420356,
+      "validation": {
+        "NMAE": 0.16133271942878488,
+        "NMSE": 0.1827665985020924,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 2000,
+      "train_loss": 0.17405894470214844,
+      "validation": {
+        "NMAE": 0.1709177087284967,
+        "NMSE": 0.18053835771037788,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 2500,
+      "train_loss": 0.17014714728295804,
+      "validation": {
+        "NMAE": 0.15755413901979978,
+        "NMSE": 0.17644374583163536,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 3000,
+      "train_loss": 0.1695091417133808,
+      "validation": {
+        "NMAE": 0.1628141635517385,
+        "NMSE": 0.18181698707335872,
+        "windows": 300535
+      }
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "paired_sampling_exact": true,
+  "raw_unit_MSE": 0.42803210226906224,
+  "elapsed_seconds": 18.81501119490713
+}

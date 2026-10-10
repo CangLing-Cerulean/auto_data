@@ -1,0 +1,113 @@
+{
+  "version": "phase4-controlled-development-v1",
+  "scope": "experience_combination_and_feedback_pilot_on_previously_explored_metropt3",
+  "date": "2026-10-09",
+  "registered_searches": 12,
+  "repeats_per_group": 3,
+  "groups": [
+    "full",
+    "no_memory",
+    "no_feedback",
+    "random_reference"
+  ],
+  "search_order": [
+    {
+      "group": "full",
+      "repeat": 1
+    },
+    {
+      "group": "no_memory",
+      "repeat": 1
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 1
+    },
+    {
+      "group": "random_reference",
+      "repeat": 1
+    },
+    {
+      "group": "no_memory",
+      "repeat": 2
+    },
+    {
+      "group": "random_reference",
+      "repeat": 2
+    },
+    {
+      "group": "full",
+      "repeat": 2
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 2
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 3
+    },
+    {
+      "group": "full",
+      "repeat": 3
+    },
+    {
+      "group": "random_reference",
+      "repeat": 3
+    },
+    {
+      "group": "no_memory",
+      "repeat": 3
+    }
+  ],
+  "training_seeds": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "external_confirmation_seeds": [
+    20261201,
+    20261202,
+    20261203
+  ],
+  "search_budget": {
+    "candidate_proposals": 3,
+    "coded_diagnostics": 4,
+    "API_calls": 48,
+    "API_tokens": 400000,
+    "wall_seconds": 1800,
+    "baseline_trainings": 1,
+    "steps_per_training": 3000,
+    "samples_per_training": 768000
+  },
+  "confirmation_budget_max_training_jobs_including_search": 17,
+  "model": "original_DLinear_7920_parameters",
+  "fixed_parameters": {
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "weight_decay": 0.0,
+    "moving_average_kernel": 25
+  },
+  "effective_processing_gates": {
+    "each_extra_seed_NMSE_improves": true,
+    "mean_NMSE_gain_at_least_pct": 1.0,
+    "mean_NMAE_deterioration_at_most_pct": 1.0,
+    "matched_control_advantage_at_least_pct": 0.25,
+    "no_human_strategy_intervention": true
+  },
+  "independent_task": false,
+  "test_access": false,
+  "historical_trainings": 134,
+  "previous_engineering_trainings": 5,
+  "previous_direct_trainings": 25,
+  "previous_total_trainings": 164,
+  "memory_v2_logical_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+  "known_case_sha256": "cba88dbebc91e53db8a9e75e6158f43e854f25e8422930d35becadea40a3e062",
+  "protocol_document_sha256": "b6c9442bd73a56aaba83893143646f001013a802b8d237945fb017e229af830b",
+  "implementation_identity": "bound_after_engineering_checks_before_first_search_in_batch_started_and_each_preregistration",
+  "output_directory": "/tmp/auto_data_phase4_20261009",
+  "statistical_agent_superiority": "not_established_by_three_repeats",
+  "input_program_contract": "agent_written_transform_x_state_with_T_fitted_JSON_state_same_shape_no_new_trainable_model",
+  "preregistration_revision": "user_clarification_before_any_phase4_API_or_training_replaced_fixed_recipe_with_agent_code",
+  "input_control": "identity_input_with_same_candidate_window_weights_and_sampling"
+}

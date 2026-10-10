@@ -1,5 +1,7 @@
 # 自动生成的验证实验汇总
 
+历史范围：本汇总仅覆盖首轮E000至E007的8次变换训练；下文测试状态属于该阶段。当前134次训练的总体结论见[OVERVIEW.md](OVERVIEW.md)，机器状态见state.json，原始指标保留。
+
 所有结果均来自固定验证集；未评估测试集。
 
 | ID | recipe | seed | NMSE | NMAE | best step | seconds |

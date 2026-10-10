@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "run_type": "input_geometry_diagnostic",
+    "origin": 0.6,
+    "ridge_fraction": 0.001,
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "sources_sha256": {
+      "code_snapshot.py": "e44cb9ac2540dd351718c5e1bd7f33d7880cfb02b8745bbbf13cc7215e82f000",
+      "normalization_helper.py": "41ccf241aa82176412cdb7a9d4dc640b1dae538eea8514f73e7b07283ed36c39",
+      "data_helper.py": "0a8c40cc70aa5c2f06dc2428b4f3c0dbb51948d8adde9167b71a9d41d29bc607",
+      "core_snapshot.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+      "budget_helper.py": "bb360f1034f99edcad50643a65957058d0dad59848181e19272caaca783d4fff",
+      "study_protocol.md": "a8fac09286c79544c49a37060cd9c14d6302a270630cc8a354dfa6d5d5d325ee"
+    },
+    "round_limit_seconds": 7015.669168795459
+  },
+  "dataset_id": "metropt3_v1",
+  "windows": 632231,
+  "score_mean": 0.9999999999981535,
+  "score_quantiles": [
+    0.045988035033626674,
+    0.06695368870797376,
+    0.17018049871530852,
+    1.2941502500383009,
+    2.468216030339191,
+    7.960491931299075,
+    276.50585649006564
+  ],
+  "min_relative_probability": 0.5,
+  "max_relative_probability": 2.0,
+  "effective_df": [
+    32.482196788588325,
+    20.568822432801312,
+    32.462438608204714,
+    32.800892406873665,
+    20.565242361153565,
+    12.811070759331187,
+    31.843832626740557,
+    32.656602923972315,
+    32.584427281605905,
+    32.85581711865723,
+    32.549996006338866,
+    31.840002420631304,
+    32.95588534068488,
+    32.565788035725376,
+    28.976843839620585
+  ],
+  "test_accessed": false,
+  "future_target_values_used_in_score": false,
+  "model_fitted": false,
+  "weights_sha256": "087a4d48036a2e5d67e5130788c0f01339cd28278a9fe5c866235a5f771ea6ea",
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "numpy": "2.4.4",
+    "device": "NVIDIA GeForce RTX 4090"
+  }
+}

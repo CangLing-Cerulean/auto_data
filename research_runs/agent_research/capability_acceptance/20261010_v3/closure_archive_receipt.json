@@ -1,0 +1,398 @@
+{
+  "archive": "/tmp/capability_acceptance_v3_closed_20261010.tar",
+  "sha256": "bb3d525247713d46ae06518f015ea055a4aae77530d11aa58091c740eca871b7",
+  "bytes": 549457920,
+  "members": 283,
+  "summary": {
+    "status": "bank_completed_known_loop_interrupted_preserved",
+    "timestamp_ns": 1791623417690180261,
+    "bank_passed": 12,
+    "bank_registered": 12,
+    "strict_gate_passed": true,
+    "known_loop": null,
+    "known_loop_interruption": {
+      "status": "interrupted_scope_violation",
+      "reason": "generated_processing_program_created_and_attempted_to_train_new_linear_forecast_model",
+      "source_evidence": "/tmp/auto_data_capability_acceptance_20261010_v3/known_loop/processing/src_half_rep_20261010f/code/agent.py",
+      "previous_result_summary_exists": false,
+      "stopped_pids": [
+        47256
+      ],
+      "timestamp_ns": 1791623341206405757,
+      "counts_as_autonomous_completion": false,
+      "scientific_hypothesis_refuted": false,
+      "cumulative_budget_limit_triggered": false,
+      "human_intervention": "primary_assistant_stopped_protocol_violation_no_candidate_code_or_strategy_injected",
+      "same_ID_replay": false,
+      "all_attempts_and_costs_preserved": true
+    },
+    "cost": {
+      "runs": [
+        {
+          "run_id": "CA3_C01_r1",
+          "API_attempts": 12,
+          "actual_known_tokens": 22862,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 16,
+            "model_response": 12,
+            "decision": 4,
+            "case_read": 1,
+            "tool_evidence": 4,
+            "invalid_response": 8,
+            "format_failure": 3,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 3
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 2,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C01_r2",
+          "API_attempts": 31,
+          "actual_known_tokens": 62004,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 38,
+            "model_response": 31,
+            "decision": 7,
+            "case_read": 1,
+            "tool_evidence": 7,
+            "invalid_response": 24,
+            "format_failure": 12,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 12
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 5,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C01_r3",
+          "API_attempts": 10,
+          "actual_known_tokens": 19427,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 13,
+            "model_response": 10,
+            "decision": 3,
+            "case_read": 1,
+            "tool_evidence": 3,
+            "invalid_response": 7,
+            "format_failure": 3,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 3
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 1,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C02_r1",
+          "API_attempts": 10,
+          "actual_known_tokens": 15372,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 13,
+            "model_response": 10,
+            "decision": 3,
+            "case_read": 1,
+            "tool_evidence": 3,
+            "invalid_response": 7,
+            "format_failure": 3,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"], \"missing_fields\": [\"evidence_refs\", \"hypotheses\", \"reason\"], \"path\": \"$\", \"unexpected_fields\": []}, {\"expected_fields\": [\"arguments\", \"tool\"], \"missing_fields\": [], \"path\": \"$.action\", \"unexpected_fields\": [\"evidence_refs\", \"hypotheses\", \"reason\"]}]": 1,
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 2
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 1,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C02_r2",
+          "API_attempts": 9,
+          "actual_known_tokens": 13581,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 13,
+            "model_response": 9,
+            "decision": 4,
+            "case_read": 1,
+            "tool_evidence": 4,
+            "invalid_response": 5,
+            "format_failure": 2,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 2
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 2,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C02_r3",
+          "API_attempts": 9,
+          "actual_known_tokens": 13383,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 13,
+            "model_response": 9,
+            "decision": 4,
+            "case_read": 1,
+            "tool_evidence": 4,
+            "invalid_response": 5,
+            "format_failure": 2,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 2
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 2,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C03_r1",
+          "API_attempts": 26,
+          "actual_known_tokens": 42406,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 34,
+            "model_response": 26,
+            "decision": 8,
+            "case_read": 2,
+            "tool_evidence": 8,
+            "invalid_response": 18,
+            "format_failure": 8,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 8
+          },
+          "tool_counts": {
+            "read_case": 2,
+            "calculate_case_metrics": 4,
+            "submit_assessment": 2
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C03_r2",
+          "API_attempts": 16,
+          "actual_known_tokens": 25808,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 19,
+            "model_response": 16,
+            "decision": 3,
+            "case_read": 1,
+            "tool_evidence": 3,
+            "invalid_response": 13,
+            "format_failure": 6,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 6
+          },
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 1,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C03_r3",
+          "API_attempts": 3,
+          "actual_known_tokens": 3700,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 6,
+            "model_response": 3,
+            "decision": 3,
+            "case_read": 1,
+            "tool_evidence": 3,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {},
+          "tool_counts": {
+            "read_case": 1,
+            "calculate_case_metrics": 1,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C04_r1",
+          "API_attempts": 20,
+          "actual_known_tokens": 37833,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 30,
+            "model_response": 20,
+            "decision": 10,
+            "case_read": 9,
+            "tool_evidence": 10,
+            "invalid_response": 10,
+            "format_failure": 5,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 5
+          },
+          "tool_counts": {
+            "read_case": 9,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C04_r2",
+          "API_attempts": 3,
+          "actual_known_tokens": 3802,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 6,
+            "model_response": 3,
+            "decision": 3,
+            "case_read": 2,
+            "tool_evidence": 3,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {},
+          "tool_counts": {
+            "read_case": 2,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "CA3_C04_r3",
+          "API_attempts": 3,
+          "actual_known_tokens": 4244,
+          "unresolved_calls": 0,
+          "unresolved_reserved_tokens": 0,
+          "records": {
+            "run_identity": 1,
+            "context": 5,
+            "model_response": 3,
+            "decision": 2,
+            "case_read": 1,
+            "tool_evidence": 2,
+            "invalid_response": 1,
+            "case_assessment": 1
+          },
+          "format_validation_counts": {},
+          "tool_counts": {
+            "read_case": 1,
+            "submit_assessment": 1
+          },
+          "completed_trainings": []
+        },
+        {
+          "run_id": "known_loop",
+          "API_attempts": 54,
+          "actual_known_tokens": 361557,
+          "unresolved_calls": 1,
+          "unresolved_reserved_tokens": 27901,
+          "records": {
+            "run_identity": 1,
+            "research_training": 1,
+            "baseline": 1,
+            "context": 91,
+            "model_response": 53,
+            "decision": 37,
+            "known_case_read": 7,
+            "tool_evidence": 37,
+            "invalid_response": 16,
+            "format_failure": 5,
+            "diagnostic_job": 1,
+            "processing_candidate": 9
+          },
+          "format_validation_counts": {
+            "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 5
+          },
+          "tool_counts": {
+            "read_registered_case": 7,
+            "run_diagnostic": 1,
+            "propose_processing": 11,
+            "run_processing": 9,
+            "read_candidate": 1,
+            "update_hypothesis": 7,
+            "inspect_results": 1
+          },
+          "completed_trainings": [
+            {
+              "job_id": "bddc9ed03a4d71c786f8d097d45b5dec21067a734fd765bdcd65924b77506441",
+              "metrics": {
+                "NMAE": 0.1959773520325639,
+                "NMSE": 0.28828123800031946,
+                "windows": 300535
+              }
+            }
+          ]
+        }
+      ],
+      "API_attempts": 206,
+      "actual_known_tokens": 625979,
+      "unresolved_calls": 1,
+      "unresolved_reserved_tokens": 27901,
+      "new_completed_trainings": 1,
+      "invalid_responses": 114,
+      "format_failure_records": 49
+    },
+    "active_queue": false,
+    "test_access": false,
+    "same_ID_replay": false
+  }
+}

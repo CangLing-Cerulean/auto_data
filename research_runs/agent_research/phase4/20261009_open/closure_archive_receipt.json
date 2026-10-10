@@ -1,0 +1,399 @@
+{
+  "archive": "/tmp/phase4_open_closed_20261010.tar",
+  "sha256": "34a09111d09262840a78bfdea0b44e26c1cd9e7d7b5039c8f245694e54bedf20",
+  "bytes": 3479603200,
+  "members": 895,
+  "summary": {
+    "status": "closed_preserved_unexpected_controller_exit",
+    "timestamp_ns": 1791617173534593732,
+    "previous_progress": {
+      "phase": "search",
+      "active": {
+        "group": "no_memory",
+        "repeat": 3
+      },
+      "completed_searches": 11,
+      "queue_active": true
+    },
+    "controller_pid": 85235,
+    "controller_exists": false,
+    "remaining_workers_stopped": [],
+    "exit_cause": "not_established_from_stale_progress",
+    "cgroup_events": {
+      "/sys/fs/cgroup/memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\n"
+    },
+    "runs": [
+      {
+        "run_id": "p4open_full_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CONTEXT_BUDGET",
+          "group": "full",
+          "repeat": 1,
+          "elapsed_seconds": 111.146594658494,
+          "API": {
+            "calls_used": 7,
+            "tokens_charged_or_reserved": 43127,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 7,
+        "API_actual_known_tokens": 43127,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_full_r2",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CONTEXT_BUDGET",
+          "group": "full",
+          "repeat": 2,
+          "elapsed_seconds": 151.04401317238808,
+          "API": {
+            "calls_used": 15,
+            "tokens_charged_or_reserved": 102171,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 15,
+        "API_actual_known_tokens": 102171,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_full_r3",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CONTEXT_BUDGET",
+          "group": "full",
+          "repeat": 3,
+          "elapsed_seconds": 144.18205838371068,
+          "API": {
+            "calls_used": 12,
+            "tokens_charged_or_reserved": 90647,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 12,
+        "API_actual_known_tokens": 90647,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_feedback_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CONTEXT_BUDGET",
+          "group": "no_feedback",
+          "repeat": 1,
+          "elapsed_seconds": 111.86380778998137,
+          "API": {
+            "calls_used": 6,
+            "tokens_charged_or_reserved": 37123,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 6,
+        "API_actual_known_tokens": 37123,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_feedback_r2",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "ENGINEERING_CONTEXT_TOO_LARGE",
+          "group": "no_feedback",
+          "repeat": 2,
+          "elapsed_seconds": 218.83159224130213,
+          "API": {
+            "calls_used": 19,
+            "tokens_charged_or_reserved": 147990,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 19,
+        "API_actual_known_tokens": 147990,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_feedback_r3",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "AGENT_CONTEXT_BUDGET",
+          "group": "no_feedback",
+          "repeat": 3,
+          "elapsed_seconds": 144.14169371593744,
+          "API": {
+            "calls_used": 11,
+            "tokens_charged_or_reserved": 83807,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 11,
+        "API_actual_known_tokens": 83807,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_memory_r1",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "ENGINEERING_CONTEXT_TOO_LARGE",
+          "group": "no_memory",
+          "repeat": 1,
+          "elapsed_seconds": 213.76256284303963,
+          "API": {
+            "calls_used": 20,
+            "tokens_charged_or_reserved": 160734,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 20,
+        "API_actual_known_tokens": 160734,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_memory_r2",
+        "search_completed": false,
+        "failure": {
+          "status": "failed",
+          "error": "ENGINEERING_CONTEXT_TOO_LARGE",
+          "group": "no_memory",
+          "repeat": 2,
+          "elapsed_seconds": 187.56183139700443,
+          "API": {
+            "calls_used": 14,
+            "tokens_charged_or_reserved": 108994,
+            "closing_calls_used": 0,
+            "execution_profile": "research_open",
+            "max_calls": null,
+            "max_tokens": null,
+            "remaining_calls": null,
+            "remaining_tokens": null,
+            "closing_calls_reserved": 0,
+            "closing_reservation_per_call": 0
+          }
+        },
+        "final_policy": null,
+        "completed_trainings": 1,
+        "API_calls": 14,
+        "API_actual_known_tokens": 108994,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_no_memory_r3",
+        "search_completed": false,
+        "failure": null,
+        "final_policy": null,
+        "completed_trainings": 0,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_random_reference_r1",
+        "search_completed": true,
+        "failure": null,
+        "final_policy": {
+          "run_id": "p4open_random_reference_r1",
+          "selected_candidate": "B0",
+          "reason": "Fixed reference selects the measured eligible best",
+          "group": "random_reference",
+          "scope": "preregistered_development_pilot",
+          "formal_agent_run": false,
+          "independent_evaluation": false,
+          "human_strategy_intervention": false,
+          "correct_signal": "unassessed_pending_external_scoring",
+          "journal": {
+            "identity": {
+              "run_id": "p4open_random_reference_r1",
+              "target_dataset": "metropt3_v1",
+              "track": "experience_combination",
+              "scope": "development_only",
+              "harness_sha256": "6e2f4dcb576e1f8f57487d73c83e6def3530b8d836a079522feeb06f8698b41b",
+              "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+            },
+            "proposals": 3,
+            "receipts": 3,
+            "updates": 3,
+            "interventions": [],
+            "autonomy_eligible": true,
+            "completed_agent_experiment": false,
+            "diagnosis_correctness": "unassessed",
+            "pending_execution": [],
+            "pending_update": []
+          }
+        },
+        "completed_trainings": 4,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_random_reference_r2",
+        "search_completed": true,
+        "failure": null,
+        "final_policy": {
+          "run_id": "p4open_random_reference_r2",
+          "selected_candidate": "B0",
+          "reason": "Fixed reference selects the measured eligible best",
+          "group": "random_reference",
+          "scope": "preregistered_development_pilot",
+          "formal_agent_run": false,
+          "independent_evaluation": false,
+          "human_strategy_intervention": false,
+          "correct_signal": "unassessed_pending_external_scoring",
+          "journal": {
+            "identity": {
+              "run_id": "p4open_random_reference_r2",
+              "target_dataset": "metropt3_v1",
+              "track": "experience_combination",
+              "scope": "development_only",
+              "harness_sha256": "60cc5ba089aa02b8312ca1542df756273257e6dbbc7d3182ff976a85cf0f701d",
+              "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+            },
+            "proposals": 3,
+            "receipts": 3,
+            "updates": 3,
+            "interventions": [],
+            "autonomy_eligible": true,
+            "completed_agent_experiment": false,
+            "diagnosis_correctness": "unassessed",
+            "pending_execution": [],
+            "pending_update": []
+          }
+        },
+        "completed_trainings": 4,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      },
+      {
+        "run_id": "p4open_random_reference_r3",
+        "search_completed": true,
+        "failure": null,
+        "final_policy": {
+          "run_id": "p4open_random_reference_r3",
+          "selected_candidate": "B0",
+          "reason": "Fixed reference selects the measured eligible best",
+          "group": "random_reference",
+          "scope": "preregistered_development_pilot",
+          "formal_agent_run": false,
+          "independent_evaluation": false,
+          "human_strategy_intervention": false,
+          "correct_signal": "unassessed_pending_external_scoring",
+          "journal": {
+            "identity": {
+              "run_id": "p4open_random_reference_r3",
+              "target_dataset": "metropt3_v1",
+              "track": "experience_combination",
+              "scope": "development_only",
+              "harness_sha256": "e3dca3782cfc0814298cfec9f2a26c2eb563f2d08adb98bed4689b1c5657af3d",
+              "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+            },
+            "proposals": 3,
+            "receipts": 3,
+            "updates": 3,
+            "interventions": [],
+            "autonomy_eligible": true,
+            "completed_agent_experiment": false,
+            "diagnosis_correctness": "unassessed",
+            "pending_execution": [],
+            "pending_update": []
+          }
+        },
+        "completed_trainings": 4,
+        "API_calls": 0,
+        "API_actual_known_tokens": 0,
+        "API_unresolved_calls": 0,
+        "API_unresolved_reserved_tokens": 0
+      }
+    ],
+    "completed_trainings": 20,
+    "API_calls": 104,
+    "API_actual_known_tokens": 774593,
+    "API_unresolved_calls": 0,
+    "API_unresolved_reserved_tokens": 0,
+    "no_same_ID_replay": true,
+    "formal_comparison_completed": false,
+    "test_access": false
+  }
+}

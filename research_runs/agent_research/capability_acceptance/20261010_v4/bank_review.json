@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "reviewer": "primary_research_assistant_not_blind_independent_expert",
+  "bank_summary_sha256": "f598204dba76402a47d373d86ebc13d5383e129a7a0ca02c0e047c4a65686aa7",
+  "reviewed_assessments": 12,
+  "structured_passed": 12,
+  "material_fact_scope_criterion_or_unsupported_repair_errors": [],
+  "review_checks": [
+    "aggregate_metric_changes_and_frozen_processing_criterion",
+    "confirmation_training_seeds_distinct_from_dataset_and_configuration",
+    "C01_seed3027_NMAE_deterioration_not_hidden",
+    "single_seed_negative_and_conflicting_metrics_scoped",
+    "execution_failures_inconclusive_no_installed_library_defect_asserted",
+    "source_references_original_IDs_only",
+    "no_independent_task_or_sensor_physical_causality_claim"
+  ],
+  "minor_notes": [
+    {
+      "run_id": "CA3_C01_r2",
+      "note": "Approximate per-seed NMSE range is coarser than exact changes; aggregate and all directions correct. Matching-control support remains scoped, not universal proof."
+    },
+    {
+      "run_id": "CA3_C03_r1",
+      "note": "Sentence linking NMSE failure and NMAE tolerance is awkward; separate numeric fields and final criterion are correct."
+    }
+  ],
+  "scope": "same_four_supplied_cases_prompt_regression_not_full_memory_understanding_or_new_task_discovery",
+  "previous_scores_unchanged": true,
+  "review_does_not_provide_runtime_strategy_or_answers": true
+}

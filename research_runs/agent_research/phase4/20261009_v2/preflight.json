@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "component_tests": 61,
+  "processor_program_execution": "passed",
+  "real_T_history_validation": {
+    "status": "passed",
+    "real_T_windows": 17,
+    "records_per_window": 32,
+    "channels": 15,
+    "checks": [
+      {
+        "device": "cpu",
+        "mean_abs_input_change": 0.14966021478176117
+      },
+      {
+        "device": "cuda",
+        "mean_abs_input_change": 0.14966021478176117
+      }
+    ],
+    "batch_independence": "checked_on_real_T_windows_not_a_universal_proof",
+    "state_immutable": true,
+    "sources": {
+      "/tmp/auto_data_phase4_preflight_20261009_v2/inputs/train_inputs.npz": "76444dfff129babf0eb80de8c4fcb5f8fee9f967ddbf5b08725aaa43211cb1c9",
+      "/tmp/auto_data_phase4_preflight_20261009_v2/outputs/processor.py": "929648f7df74db689db70a575bf34cadbb1936c8d7990f28041e7c96dbf5f26d",
+      "/tmp/auto_data_phase4_preflight_20261009_v2/outputs/processor_state.json": "c0d973f9728a82e016f43f17366ac42867f4b6fa50bef1b1f8169574ef95afa3"
+    },
+    "training_calls": 0,
+    "test_access": false,
+    "security_sandbox": false
+  },
+  "fixed_DLinear_parameters": 7920,
+  "forward_and_gradient_only": "passed_no_optimizer_steps",
+  "code": {
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/__init__.py": "534654b2702f76248f4fb962afb0e9ed30d61f51c50adb3bbef33a2ffc40988f",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/__main__.py": "4df0b217e63f4da56d7720e766acc3c4b79154a60257f3c633811d229618fa27",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/evidence.py": "3b2a36b142b7405a563f9c8d51e68a1d2045083ec4f845da3dded82352d5ae79",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/experience.py": "bd31d50ab940d69ef76136b062177d1b3afc08631be003858ad77b6ac1206581",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/gpu_smoke.py": "8f3b206a6953ac7f1de4c33c5d42ae2800362987b3c8196008d33dbf778962e6",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/jobs.py": "15c09c8bf857b8e4714eb718927f2ff473d881de3f46f4398f466c3448e25873",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/memory.py": "c91f5b380568bf8dff4585e24e63f2d487b81ff1c998c35e39a581a086c3b4bb",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/native.py": "ae6799d48b84d1726dd6c2e21e47b65a3249e2ab295151c267e07f85205c7493",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/phase4.py": "09a6b50a9362aa838d4fcd41381c0d4f44c67559ea4b83e9d297eeb3e04db4d9",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/processing.py": "071e9a581c904834ab8e0c54df1902fbd54107b70f3b5a18ae94d7e492e908d5",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/processor_check.py": "1b4c9fa541668b7e34787c8f468db03000139c0d5007b976720750fee2d1865e",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/runtime.py": "3bc62a63f4b0b546a69eab1ceb00c1477f9cc41ba3d3e5256a72d12141e9df55",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/task.py": "96cda4cae7cb8cde05c5a01ffcaf24a6715c096bcf54261a73d5ca0a583d32a8",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/trainer.py": "c8b03509ebc004b48cb7f1d556b4af825bd92087c44fd7d36ef119861f823a69",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/training.py": "b816f2807cbe871a187bf14a17122597fc290e3c6b195d7825cee4ebc5485f82",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_research/transforms.py": "469f5b8dc6e391e4229b2b3f383b2e5294013b758a147a397880a8d2ff11ea14",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/budget.py": "f83accd315eea47d366cacee13c379ad6052f94078e1584cea38615af3b0e9a0",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/controller.py": "e6a71588640ef1c44241b08efd774baf6052f6c67449b9b37080ab31bddb9ac3",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/llm.py": "570745f1a00278358e47be14437edf818baba56a6261c6686423a501a5948379",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/agent_runtime/state.py": "e26f1a49c2f6d1613e5991a47a2cbefa6b1ab54fc6fb3400b58ba5fe17b97b25",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/config.py": "90192657de3d188cef5c040c797f9675e2be0cbceead0427c3774cd8b85fa077",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/llm_transport.py": "730402177df2176dc69580934c6080b1c2140fb999dfe5f29c8f272b2d362620",
+    "/root/data/auto_data_research/agent_system_20261008_native/online_ts/store.py": "d9c07b7cdffbf9406e7e653718f2a7b6c3610b5f951f00970e69ed0a67c1b446"
+  },
+  "protocol_sha256": "dd122ab26e951a39a626adb33fe2bbfa6bc1880d02fc1c5e844747206b2e96e7",
+  "cpu_fit_torch_import": "passed_under_8GiB_virtual_address_limit",
+  "API_calls": 0,
+  "training_calls": 0,
+  "test_access": false,
+  "fixture_scope": "engineering_known_prior_not_agent_candidate",
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "numpy": "2.4.4",
+    "device": "NVIDIA GeForce RTX 4090"
+  }
+}

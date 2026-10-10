@@ -1,0 +1,65 @@
+{
+  "runs": [
+    {
+      "run_id": "known_loop",
+      "API_attempts": 49,
+      "actual_known_tokens": 297391,
+      "unresolved_calls": 0,
+      "unresolved_reserved_tokens": 0,
+      "records": {
+        "run_identity": 1,
+        "research_training": 2,
+        "baseline": 1,
+        "context": 92,
+        "model_response": 49,
+        "decision": 43,
+        "known_case_read": 10,
+        "tool_evidence": 43,
+        "processing_candidate": 4,
+        "diagnostic_job": 3,
+        "invalid_response": 6,
+        "format_failure": 1,
+        "final_policy": 1
+      },
+      "format_validation_counts": {
+        "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 1
+      },
+      "tool_counts": {
+        "read_registered_case": 10,
+        "propose_processing": 4,
+        "run_processing": 4,
+        "read_candidate": 6,
+        "read_experience": 1,
+        "run_diagnostic": 3,
+        "evaluate_candidate": 1,
+        "update_hypothesis": 7,
+        "submit_policy": 7
+      },
+      "completed_trainings": [
+        {
+          "job_id": "b73336e946d853f43be14cdf783b083675c2178a8307c7adb389fe5daf7ee644",
+          "metrics": {
+            "NMAE": 0.1959773520325639,
+            "NMSE": 0.28828123800031946,
+            "windows": 300535
+          }
+        },
+        {
+          "job_id": "016e64dcfa0cceddee2fd0aa1804d1510311363bf19ecfc613b1f3453d01994b",
+          "metrics": {
+            "NMAE": 0.19551935302786358,
+            "NMSE": 0.2765107457974497,
+            "windows": 300535
+          }
+        }
+      ]
+    }
+  ],
+  "API_attempts": 49,
+  "actual_known_tokens": 297391,
+  "unresolved_calls": 0,
+  "unresolved_reserved_tokens": 0,
+  "new_completed_trainings": 2,
+  "invalid_responses": 6,
+  "format_failure_records": 1
+}

@@ -1,0 +1,110 @@
+{
+  "run_id": "T030_prefix60_learning_progress",
+  "identity": {
+    "policy": "progress",
+    "origin": 0.6,
+    "seed": 2026,
+    "preprocessing": "baseline",
+    "dataset_id": "metropt3_v1",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "formal_protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "code_sha256": "5fcbf0ef8dcbc5f451194a98fda2e7338b0adefa878822d72a6c1b25d8404aa3",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "study_protocol_sha256": "894da01127124903847e048fd2006b8e43c88c57f0018b654bb905579cec2b20",
+    "group_fit_sha256": "7164db87ebd8a329ea9c0043e799c62609b3aca55c5e975ce66b0bafab23936c",
+    "group_labels_sha256": "11d3a3696356b58bae14ccb53f1194c986e99ffebf51a1b038ffce3e3e39e714",
+    "reference": null,
+    "reference_result_sha256": null,
+    "round_total_limit_seconds": 5314.524273328483,
+    "budget_helper_sha256": "4f7aa5e970a7f4c0ed23da4f4fbb44d9f86d7374a1861f643946c436aab658cb"
+  },
+  "future": {
+    "groups": {
+      "all": {
+        "NMAE": 0.5053725454680031,
+        "NMSE": 0.8007784355265272,
+        "windows": 210311
+      }
+    },
+    "per_channel_NMAE": [
+      0.9040515647162327,
+      0.27695216567671194,
+      0.8492408861652999,
+      0.14430187328155075,
+      0.27648196373453093,
+      0.08734069408215753,
+      0.6682500320027717,
+      0.9707403940828826,
+      0.9336096282033722,
+      0.9171360674618652,
+      0.9465770112245605,
+      0.037345209185490336,
+      0.340544804741784,
+      0.1735646052301448,
+      0.05445128223069112
+    ],
+    "per_channel_NMSE": [
+      1.0627054990358666,
+      0.1870332593063919,
+      0.9650648179293125,
+      0.33637540061191923,
+      0.18637840048272333,
+      0.019130588753931643,
+      0.6937960656575526,
+      1.2163698259494031,
+      1.0945719851634879,
+      1.3204315721073463,
+      1.1645864692604846,
+      0.5631453910785766,
+      2.222604991852813,
+      0.8910296137013121,
+      0.08845265200678683
+    ]
+  },
+  "history": [
+    {
+      "step": 500,
+      "training_loss": 0.37663692289590833
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.2843782652318478
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.3984988999068737
+    },
+    {
+      "step": 2000,
+      "training_loss": 0.7598232690095902
+    },
+    {
+      "step": 2500,
+      "training_loss": 0.926975625872612
+    },
+    {
+      "step": 3000,
+      "training_loss": 0.9410279111862183
+    }
+  ],
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "elapsed_seconds": 70.70014453027397
+}

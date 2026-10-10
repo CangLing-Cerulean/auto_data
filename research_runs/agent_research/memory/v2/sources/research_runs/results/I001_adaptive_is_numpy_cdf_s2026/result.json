@@ -1,0 +1,171 @@
+{
+  "groups": {
+    "all": {
+      "NMAE": 0.1953365172722955,
+      "NMSE": 0.28662138100312534,
+      "windows": 300535
+    },
+    "high_input_variation": {
+      "NMAE": 0.2972180309387095,
+      "NMSE": 0.5351495376557946,
+      "windows": 21714
+    },
+    "ordinary_input_variation": {
+      "NMAE": 0.18740219673061292,
+      "NMSE": 0.2672665246847131,
+      "windows": 278821
+    },
+    "month_2020-06": {
+      "NMAE": 0.16683870717887053,
+      "NMSE": 0.20835541749791836,
+      "windows": 11412
+    },
+    "month_2020-07": {
+      "NMAE": 0.20325572725711252,
+      "NMSE": 0.3080834984932592,
+      "windows": 220243
+    },
+    "month_2020-08": {
+      "NMAE": 0.17473643661172802,
+      "NMSE": 0.2309635707990295,
+      "windows": 68880
+    },
+    "low_quartile": {
+      "NMAE": 0.3033143210916778,
+      "NMSE": 0.6388522599272506,
+      "windows": 4882
+    },
+    "middle": {
+      "NMAE": 0.18533647045165763,
+      "NMSE": 0.2606443147786606,
+      "windows": 273939
+    }
+  },
+  "per_channel_NMAE": [
+    0.3507283842145307,
+    0.15882561276897175,
+    0.29412109976506123,
+    0.03576309803157552,
+    0.1588948066700584,
+    0.09135404110909721,
+    0.27537152414005506,
+    0.3344822520630719,
+    0.32721687421509577,
+    0.42746632612023444,
+    0.3237729801925523,
+    0.020650758904466437,
+    0.08505152064298464,
+    0.0371652731132476,
+    0.009183207133430906
+  ],
+  "per_channel_NMSE": [
+    0.47007462826511776,
+    0.09711771607625191,
+    0.43085971544215196,
+    0.1444448911996543,
+    0.09721342555141942,
+    0.02984450184151333,
+    0.2982401723489773,
+    0.4383307219186378,
+    0.43481564240991377,
+    0.757324181163253,
+    0.42202577781187584,
+    0.19277944556809765,
+    0.3717425607203697,
+    0.09957834387438257,
+    0.014928990855264244
+  ],
+  "run_id": "I001_adaptive_is_numpy_cdf_s2026",
+  "identity": {
+    "recipe": "adaptive_is",
+    "seed": 2026,
+    "preprocessing": "baseline",
+    "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "protocol_sha256": "31e150dbb81015d474f1d2d012ea547bea5174af170da536cd3fdb48e9d600cf",
+    "sampling_protocol_sha256": "c16801ab09027e6b828214ef3adab8e786c6e61e7b948f47d4156e5b6dff0b3a",
+    "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "code_sha256": "36845e6fb0fc73c797ffa6a79cc4b51d930ed5a6749ed908cbf08b6ed692cc21",
+    "helper_sha256": "57959329541cb0a8e0b84ce5e2a68ebac99527612c731bab0a8beadfc8f193ec",
+    "reference": null,
+    "reference_result_sha256": null,
+    "cdf_backend": "numpy",
+    "correction_note_sha256": "6d34110da7baa541c7a691bcba58bce935c4f6c510952a6a365f7c3fda7e3af1"
+  },
+  "steps_completed": 3000,
+  "samples_presented": 768000,
+  "best_step": 2000,
+  "history": [
+    {
+      "step": 500,
+      "train_loss": 0.37447705715894697,
+      "validation": {
+        "NMAE": 0.20726528282198206,
+        "NMSE": 0.3086443229612506,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 1000,
+      "train_loss": 0.2770631692111492,
+      "validation": {
+        "NMAE": 0.19415201571566046,
+        "NMSE": 0.291202062788993,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 1500,
+      "train_loss": 0.27525517633557317,
+      "validation": {
+        "NMAE": 0.19194095703641798,
+        "NMSE": 0.2907084544031577,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 2000,
+      "train_loss": 0.27320135715603827,
+      "validation": {
+        "NMAE": 0.1953365172722955,
+        "NMSE": 0.28662138100312534,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 2500,
+      "train_loss": 0.2726628398001194,
+      "validation": {
+        "NMAE": 0.19034864932024442,
+        "NMSE": 0.2870225423744676,
+        "windows": 300535
+      }
+    },
+    {
+      "step": 3000,
+      "train_loss": 0.27321371346712114,
+      "validation": {
+        "NMAE": 0.19350720914218517,
+        "NMSE": 0.2871154366065379,
+        "windows": 300535
+      }
+    }
+  ],
+  "sensor_columns": [
+    "TP2",
+    "TP3",
+    "H1",
+    "DV_pressure",
+    "Reservoirs",
+    "Oil_temperature",
+    "Motor_current",
+    "COMP",
+    "DV_eletric",
+    "Towers",
+    "MPG",
+    "LPS",
+    "Pressure_switch",
+    "Oil_level",
+    "Caudal_impulses"
+  ],
+  "elapsed_seconds": 85.73152327351272
+}

@@ -1,0 +1,21 @@
+{
+  "reviewer": "primary_research_assistant_not_blind_independent_grader",
+  "engineering_closed_loop": "passed",
+  "registered_recipe_implementation": "source_formula_review_and_128_real_T_window_check_passed",
+  "max_absolute_sample_error": 0.0,
+  "correct_data_performance_signal": "not_established_by_interface_diagnostic_and_supplied_recipe",
+  "feedback_core": "measured_metric_direction_eligibility_receipt_and_execution_failure_classification_correct",
+  "selected_candidate": "src_half_rep_stream_20261013",
+  "issues": [
+    {"kind": "failure_cause_precision", "finding": "Early programs recreated 1061832 continuous windows rather than retaining 1053433 legal starts. PROCESSING_EXPANDED_SIZE did not establish that full-window tensor construction was the failure cause. Preserve original wording but do not promote it to verified experience."},
+    {"kind": "single_seed_scope", "finding": "One update used reproducibly lowers; this new run alone establishes a single-seed engineering replication, not independent confirmation."},
+    {"kind": "workflow_cost", "finding": "Repeated final submissions and changes to an already immutable update caused failures before pending failed-candidate updates were correctly completed."}
+  ],
+  "runtime_human_strategy_or_code_interventions_v4": 0,
+  "previous_v3_scope_interruption_preserved": true,
+  "autonomous_discovery": false,
+  "independent_task": false,
+  "test_access": false,
+  "formal_processing_effectiveness": "not_established_by_single_seed",
+  "original_agent_records_unchanged": true
+}

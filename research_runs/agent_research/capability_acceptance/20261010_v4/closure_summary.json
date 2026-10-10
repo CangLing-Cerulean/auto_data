@@ -1,0 +1,178 @@
+{
+  "status": "known_loop_finished_preserved",
+  "timestamp_ns": 1791624247343738853,
+  "bank_passed": 12,
+  "accepted_bank_inherited_from_v3": true,
+  "new_historical_assessments": 0,
+  "bank_registered": 12,
+  "strict_gate_passed": true,
+  "known_loop": {
+    "status": "completed_engineering",
+    "final_policy": {
+      "baseline": {
+        "NMAE": 0.1959773520325639,
+        "NMSE": 0.28828123800031946,
+        "windows": 300535
+      },
+      "candidate_statuses": [
+        {
+          "candidate_id": "src_half_rep_20261010",
+          "status": "failed"
+        },
+        {
+          "candidate_id": "src_half_rep_20261011",
+          "status": "failed"
+        },
+        {
+          "candidate_id": "src_half_rep_20261012",
+          "status": "failed"
+        },
+        {
+          "candidate_id": "src_half_rep_stream_20261013",
+          "status": "trained"
+        }
+      ],
+      "correct_signal": "unassessed",
+      "data_gain_attribution": "unassessed_without_matched_parameter_controls",
+      "formal_agent_run": false,
+      "full_chain_passed": true,
+      "independent_evaluation": false,
+      "journal": {
+        "autonomy_eligible": false,
+        "completed_agent_experiment": false,
+        "diagnosis_correctness": "unassessed",
+        "identity": {
+          "harness_sha256": "4e90fa36a58b59fdedc3afea4161c8ccf7a6b0fec3bd6798724b07941078925b",
+          "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+          "run_id": "CA4_known_loop_20261010",
+          "scope": "engineering_only",
+          "target_dataset": "metropt3_v1",
+          "track": "experience_combination"
+        },
+        "interventions": [],
+        "pending_execution": [],
+        "pending_update": [],
+        "proposals": 4,
+        "receipts": 4,
+        "updates": 4
+      },
+      "metrics": {
+        "NMAE": 0.19551935302786358,
+        "NMSE": 0.2765107457974497,
+        "windows": 300535
+      },
+      "parameters": {
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "moving_average_kernel": 25,
+        "weight_decay": 0.0
+      },
+      "reason": "最低合格已测 NMSE：src_half_rep_stream_20261013 NMSE 0.27651 < B0 0.28828，NMAE 0.19552 <= 1.01*B0 0.19794；全部4个候选均已更新（3个 inconclusive 失败，1个 supported 训练）。仅工程复现注册配方，机制与泛化未验证。",
+      "run_id": "CA4_known_loop_20261010",
+      "scope": "engineering_development_only",
+      "selected_candidate": "src_half_rep_stream_20261013"
+    },
+    "baseline": {
+      "NMAE": 0.1959773520325639,
+      "NMSE": 0.28828123800031946,
+      "windows": 300535
+    },
+    "known_case_reads": 10,
+    "feedback_checks": [
+      {
+        "candidate_id": "src_half_rep_stream_20261013",
+        "NMSE_gain_pct": 4.082989335177167,
+        "NMAE_deterioration_pct": -0.23369996581248387,
+        "recorded_assessment": "supported",
+        "criterion_supported": true,
+        "receipt_traceable": true
+      }
+    ],
+    "API": {
+      "calls_used": 49,
+      "tokens_charged_or_reserved": 297391,
+      "closing_calls_used": 0,
+      "execution_profile": "research_open",
+      "max_calls": null,
+      "max_tokens": null,
+      "remaining_calls": null,
+      "remaining_tokens": null,
+      "closing_calls_reserved": 0,
+      "closing_reservation_per_call": 0
+    },
+    "elapsed_seconds": 322.7419873410836,
+    "independent_task": false,
+    "autonomous_discovery": false,
+    "formal_processing_effectiveness": "not_established_by_single_seed",
+    "diagnosis_facts": "requires_recomputation_review"
+  },
+  "known_loop_interruption": null,
+  "cost": {
+    "runs": [
+      {
+        "run_id": "known_loop",
+        "API_attempts": 49,
+        "actual_known_tokens": 297391,
+        "unresolved_calls": 0,
+        "unresolved_reserved_tokens": 0,
+        "records": {
+          "run_identity": 1,
+          "research_training": 2,
+          "baseline": 1,
+          "context": 92,
+          "model_response": 49,
+          "decision": 43,
+          "known_case_read": 10,
+          "tool_evidence": 43,
+          "processing_candidate": 4,
+          "diagnostic_job": 3,
+          "invalid_response": 6,
+          "format_failure": 1,
+          "final_policy": 1
+        },
+        "format_validation_counts": {
+          "[{\"expected\": \"JSON object\", \"path\": \"$\", \"required_fields\": [\"action\", \"evidence_refs\", \"hypotheses\", \"reason\"]}, {\"expected\": \"JSON object\", \"path\": \"$.action\", \"required_fields\": [\"arguments\", \"tool\"]}]": 1
+        },
+        "tool_counts": {
+          "read_registered_case": 10,
+          "propose_processing": 4,
+          "run_processing": 4,
+          "read_candidate": 6,
+          "read_experience": 1,
+          "run_diagnostic": 3,
+          "evaluate_candidate": 1,
+          "update_hypothesis": 7,
+          "submit_policy": 7
+        },
+        "completed_trainings": [
+          {
+            "job_id": "b73336e946d853f43be14cdf783b083675c2178a8307c7adb389fe5daf7ee644",
+            "metrics": {
+              "NMAE": 0.1959773520325639,
+              "NMSE": 0.28828123800031946,
+              "windows": 300535
+            }
+          },
+          {
+            "job_id": "016e64dcfa0cceddee2fd0aa1804d1510311363bf19ecfc613b1f3453d01994b",
+            "metrics": {
+              "NMAE": 0.19551935302786358,
+              "NMSE": 0.2765107457974497,
+              "windows": 300535
+            }
+          }
+        ]
+      }
+    ],
+    "API_attempts": 49,
+    "actual_known_tokens": 297391,
+    "unresolved_calls": 0,
+    "unresolved_reserved_tokens": 0,
+    "new_completed_trainings": 2,
+    "invalid_responses": 6,
+    "format_failure_records": 1
+  },
+  "active_queue": false,
+  "test_access": false,
+  "same_ID_replay": false
+}

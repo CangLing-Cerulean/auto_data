@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "downloaded_asset_files": 170,
+  "new_main_runs": [
+    "T052_prefix60_cadence_drop",
+    "T053_prefix60_cadence_soft",
+    "T054_prefix60_cadence_shuffle",
+    "T057_prefix60_leverage_uncorrected",
+    "T058_prefix60_leverage_corrected",
+    "T059_prefix60_leverage_shuffle",
+    "T060_prefix80_leverage_corrected",
+    "T061_prefix80_leverage_shuffle"
+  ],
+  "new_diagnostic_runs": [
+    "A016_leverage_prefix60",
+    "A017_leverage_prefix80"
+  ],
+  "total_training_runs": 95,
+  "budget_used_seconds": 6566.439622849226,
+  "shared_round_seconds": 550.770454053767,
+  "remaining_seconds": 633.560377150774,
+  "new_formal_validation": false,
+  "new_test_evaluation": false,
+  "metadata_scope": "local updates; server run artifacts and reports downloaded and verified",
+  "frozen_model_preserved": true
+}
