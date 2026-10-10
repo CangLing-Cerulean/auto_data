@@ -1,5 +1,7 @@
 # 接续研究入口
 
+2026-10-10信号v2已启动，PID79401；新首轮B0完整3000步及scope审计通过，Agent自主诊断执行成功。[启动摘要](agent_research/phase4/20261010_signal_v2/startup_summary.json)、[启动收据](agent_research/phase4/20261010_signal_v2/launch.json)、[冻结收据](agent_research/phase4/20261010_signal_v2/batch_started.json)。本批前198次完整训练、1053次API尝试、3464696实际tokens为固定加计基数；全局progress是实时快照，最新账本需从基数追加v2逐运行成本，不能再次加到快照上。启动摘要时新增1次完整训练、4次API尝试、16113已知tokens，另1请求进行中预约31310不代表实际费用。旧批次197成员/196资产完整核验，关闭与修复验收已推送cfa2861937b0e210b0717ef514c7693037e2cd1b；原始调用及归档未发布。科研设计和代码已冻结，不修改保护源码、不重跑ID、不向Agent注入方向；尚无已确认处理收益，所有搜索结束后外部确认及语义审查，再同步科学结果阶段。
+
 2026-10-10信号v1已因NumPy内部延迟导入的文件审计误拦停止，[关闭报告](agent_research/phase4/20261010_signal/CLOSURE_REPORT.md)。新增2次完整训练、1次训练中断、34次调用及204780实际tokens保留；累计198次完整训练、1053次API尝试、3464696实际已知tokens，旧未知38行/293757预约不变。登记9次中启动3次、结束2次，不据此评价科研能力。新[信号v2协议](agent_research/phase4/20261010_signal_v2/PROTOCOL.md)使用独立项目和p4signal2编号，87项检查与扩大真实T预检通过；修复依赖预加载和异常打印，不扩大文件白名单或提供科学配方，科研设计不变。旧冻结源码、ID、日志虚警和成本不修改；v2尚未启动，先同步故障收尾和新验收。
 
 2026-10-10阶段4信号批次已启动，PID75836，冻结9次full/no_memory/no_feedback独立搜索，首轮B0训练中；[启动收据](agent_research/phase4/20261010_signal/launch.json)、[冻结收据](agent_research/phase4/20261010_signal/batch_started.json)。工程阶段27个代码/协议/报告文件已推送ac60bcf8363789a6d88dae0c41191b8f20a2c34a并核对远端，[同步回执](agent_research/phase4/20261010_signal/preparation_sync_receipt.json)。科研代码、数据处理和训练均在4090服务器，冻结后不修改源码/协议、不重跑ID；所有搜索结束后再外部确认。正式用量在新账本追加，启动时既有196次训练和1019次API尝试不变；旧测试、阶段5与旧被拒队列不动。

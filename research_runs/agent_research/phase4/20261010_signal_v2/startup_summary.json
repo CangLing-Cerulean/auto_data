@@ -1,0 +1,26 @@
+{
+  "status": "running_healthy_first_autonomous_diagnostic_completed",
+  "observed_at": "2026-10-10T15:04:51.3099506Z",
+  "pid": 79401,
+  "registered_searches": 9,
+  "started_searches": 1,
+  "ended_searches": 0,
+  "active": {
+    "group": "full",
+    "repeat": 1,
+    "training_seed": 20261111
+  },
+  "new_completed_trainings": 1,
+  "new_failed_trainings": 0,
+  "new_API_attempts": 4,
+  "new_API_actual_known_tokens": 16113,
+  "current_inflight_or_unsettled_calls": 1,
+  "current_reserved_tokens_not_actual_usage": 31310,
+  "baseline_scope_audit": "passed",
+  "generated_diagnostic": "completed",
+  "result_effect_confirmed": false,
+  "cumulative_limits": null,
+  "test_access": false,
+  "independent_data": false,
+  "raw_trace_published": false
+}
