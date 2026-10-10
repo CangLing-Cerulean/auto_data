@@ -270,6 +270,20 @@
     "clarify_actionable_failure_feedback_and_autonomous_search_termination_before_launch",
     "run_new_full_no_memory_no_feedback_searches_only_after_new_protocol_and_checks"
   ],
+  "phase4_next_plan": {
+    "artifact": "phase4/20261010_plan/PLAN.md",
+    "status": "planning_completed_execution_protocol_not_frozen",
+    "primary_objective": "recomputable_prediction_deficits_targeted_processing_and_evidence_based_updates",
+    "score_dimensions": ["F_fact", "P_prediction_deficit", "L_local_intervention", "C_matched_control", "E_overall_effect", "U_feedback_update"],
+    "proposed_groups": ["full", "no_memory", "no_feedback"],
+    "proposed_repetitions_per_group": 3,
+    "memory_version": "frozen_evidence_memory_v2",
+    "extra_source_half_recipe_injection": false,
+    "cumulative_limits": null,
+    "new_API_calls": 0,
+    "new_trainings": 0,
+    "independent_task_claim": false
+  },
   "capability_acceptance": {
     "artifact": "capability_acceptance/20261010_v4/PROTOCOL.md",
     "status": "completed_known_case_engineering_acceptance_with_scoped_effect",
