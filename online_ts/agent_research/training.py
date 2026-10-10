@@ -10,6 +10,8 @@ from .processing import parameters
 
 
 class TrainingAdapter:
+    worker_module='online_ts.agent_research.trainer'
+    worker_path=Path(__file__).with_name('trainer.py')
     def __init__(self,repo,task,guards):
         self.repo,self.task,self.guards=repo,task,guards
 
@@ -25,7 +27,7 @@ class TrainingAdapter:
             'input_state_sha256':file_hash(Path(transform).with_name('processor_state.json')) if transform else None,
             'control':control,'control_seed':control_seed,
             'scope':self.repo.config['scope'],
-            'worker_sha256':file_hash(Path(__file__).with_name('trainer.py')),
+            'worker_sha256':file_hash(self.worker_path),
             'torch_runtime':'2.14.0+cu130','numpy_runtime':'2.4.4'}
         job_id=digest(identity); folder=self.repo.folder/'training'/job_id
         if (folder/'result.json').exists():
@@ -47,7 +49,7 @@ class TrainingAdapter:
         record={'record_id':'training:'+job_id,'candidate_id':candidate_id,'job_id':job_id,
                 'status':'started','identity':identity}
         self.repo.put(record['record_id'],'research_training',record,time.time_ns())
-        execution=run_process([sys.executable,'-B','-m','online_ts.agent_research.trainer','--job',str(folder/'job.json')],
+        execution=run_process([sys.executable,'-B','-m',self.worker_module,'--job',str(folder/'job.json')],
             cwd=Path(__file__).resolve().parents[2],outputs=folder,seconds=310,gpu=True)
         write_json(folder/'execution.json',execution)
         if execution['status']!='completed' or not (folder/'result.json').exists():

@@ -2,7 +2,7 @@
   "version": "autonomous-data-research-progress-v1",
   "updated_date": "2026-10-10",
   "active_phase": 4,
-  "current_research_mode": "phase4_preregistration_pending_after_known_case_engineering_replication",
+  "current_research_mode": "phase4_signal_executor_accepted_registered_batch_ready",
   "self_assembled_agent_discovery": "new_phase4_batch_not_started_new_task_phase5_not_started",
   "phase4": {
     "artifact": "phase4/20261009_open/PROTOCOL.md",
@@ -274,8 +274,19 @@
     "artifact": "phase4/20261010_plan/PLAN.md",
     "status": "planning_completed_execution_protocol_not_frozen",
     "primary_objective": "recomputable_prediction_deficits_targeted_processing_and_evidence_based_updates",
-    "score_dimensions": ["F_fact", "P_prediction_deficit", "L_local_intervention", "C_matched_control", "E_overall_effect", "U_feedback_update"],
-    "proposed_groups": ["full", "no_memory", "no_feedback"],
+    "score_dimensions": [
+      "F_fact",
+      "P_prediction_deficit",
+      "L_local_intervention",
+      "C_matched_control",
+      "E_overall_effect",
+      "U_feedback_update"
+    ],
+    "proposed_groups": [
+      "full",
+      "no_memory",
+      "no_feedback"
+    ],
     "proposed_repetitions_per_group": 3,
     "memory_version": "frozen_evidence_memory_v2",
     "extra_source_half_recipe_injection": false,
@@ -346,5 +357,26 @@
   "api_interrupted_v3_usage_unknown_calls": 1,
   "api_interrupted_v3_reserved_tokens": 27901,
   "new_agent_experiment_count_scope": "formal_search_attempts_v1_2_v2_4_open_v3_9_engineering_loops_separate",
-  "engineering_agent_loop_attempts": 5
+  "engineering_agent_loop_attempts": 5,
+  "phase4_signal": {
+    "server_outputs": "/tmp/auto_data_signal_study_20261010",
+    "server_project": "/tmp/auto_data_signal_project_20261010",
+    "artifact": "phase4/20261010_signal/PROTOCOL.md",
+    "cumulative_limits": null,
+    "preflight_API_calls": 0,
+    "groups": [
+      "full",
+      "no_memory",
+      "no_feedback"
+    ],
+    "test_access": false,
+    "pre_batch_training_count": 196,
+    "pre_batch_API_attempts": 1019,
+    "independent_data": false,
+    "component_checks": 87,
+    "status": "ready_not_launched",
+    "registered_searches": 9,
+    "preflight_training_calls": 0,
+    "preparation": "phase4/20261010_signal/PREPARATION_REPORT.md"
+  }
 }

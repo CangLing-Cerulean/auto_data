@@ -258,6 +258,9 @@ class ResearchGateway:
     def candidate(self,name):return self.repo.get('candidate:'+name)
     def save(self,value):self.repo.put('candidate:'+value['candidate_id'],'processing_candidate',value,time.time_ns(),replace=True)
 
+    def execute_generated(self,folder,*,seconds=30):
+        return execute_job(folder,self.guards,seconds=seconds)
+
     def baseline(self):
         try:result=self.repo.get('baseline')['result']
         except GateError:
@@ -353,7 +356,7 @@ class ResearchGateway:
             if not folder.exists():prepare_job(folder,args['code'],self.assets())
             value={'record_id':diagnostic_id,'purpose':args['purpose'],'status':'started'}
             self.repo.put(value['record_id'],'diagnostic_job',value,time.time_ns())
-            execution=execute_job(folder,self.guards)
+            execution=self.execute_generated(folder)
             if execution['status']=='completed':
                 try:
                     facts=diagnostic_json(folder/'outputs/diagnostic.json')
@@ -388,7 +391,7 @@ class ResearchGateway:
             value=self.candidate(args['candidate_id'])
             if value['status']!='proposed':return value
             try:
-                folder=Path(value['folder']);execution=execute_job(folder,self.guards,seconds=45)
+                folder=Path(value['folder']);execution=self.execute_generated(folder,seconds=45)
                 if execution['status']!='completed':raise GateError((execution['error'] or 'PROCESSING_WORKER_FAILED')+': '+execution['stdout'][-1000:])
                 asset=folder/'outputs/processing.npz'
                 probability,weight,audit=validate_processing(asset,self.task.data)
