@@ -1,0 +1,110 @@
+{
+  "version": "signal-study-development-v2",
+  "scope": "previously_explored_development_dataset",
+  "registration_date": "2026-10-10",
+  "groups": [
+    "full",
+    "no_memory",
+    "no_feedback"
+  ],
+  "repetitions_per_group": 3,
+  "project": "/tmp/auto_data_signal_project_20261010_v2",
+  "outputs": "/tmp/auto_data_signal_study_20261010_v2",
+  "run_prefix": "p4signal2",
+  "previous_total_trainings": 198,
+  "previous_API_attempts": 1053,
+  "previous_actual_known_tokens": 3464696,
+  "dataset_id": "metropt3_v1",
+  "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+  "base_protocol_sha256": "573ee4e87ef442b7140afb26f4befe80a8de1a43fec3b5c1fe6b878e527f8afe",
+  "memory_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726",
+  "extra_known_recipe": false,
+  "fixed_parameters": {
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "weight_decay": 0.0,
+    "moving_average_kernel": 25
+  },
+  "steps": 3000,
+  "input_length": 32,
+  "prediction_length": 8,
+  "D_windows": 300535,
+  "cumulative_limits": null,
+  "model": "deepseek-flash",
+  "temperature": 0.8,
+  "reasoning_effort": "none",
+  "confirmation_seeds": [
+    20261211,
+    20261212,
+    20261213
+  ],
+  "control_seed": 20261010,
+  "search_order": [
+    {
+      "group": "full",
+      "repeat": 1,
+      "training_seed": 20261111
+    },
+    {
+      "group": "no_memory",
+      "repeat": 1,
+      "training_seed": 20261111
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 1,
+      "training_seed": 20261111
+    },
+    {
+      "group": "no_memory",
+      "repeat": 2,
+      "training_seed": 20261112
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 2,
+      "training_seed": 20261112
+    },
+    {
+      "group": "full",
+      "repeat": 2,
+      "training_seed": 20261112
+    },
+    {
+      "group": "no_feedback",
+      "repeat": 3,
+      "training_seed": 20261113
+    },
+    {
+      "group": "full",
+      "repeat": 3,
+      "training_seed": 20261113
+    },
+    {
+      "group": "no_memory",
+      "repeat": 3,
+      "training_seed": 20261113
+    }
+  ],
+  "score_dimensions": [
+    "F",
+    "P",
+    "L",
+    "C",
+    "E",
+    "U"
+  ],
+  "E_mean_NMSE_gain_pct": 1,
+  "E_mean_NMAE_deterioration_pct_max": 1,
+  "L_min_gain_pct": 3,
+  "C_overall_advantage_pct": 0.25,
+  "F_atol": 1E-06,
+  "F_rtol": 0.0001,
+  "human_strategy_intervention": false,
+  "independent_data": false,
+  "test_access": false,
+  "protocol_document_sha256": "6e5794549250a9b94b43b2af185cd0c30c03840e4ef31bcf660378cdc1df3370",
+  "previous_signal_platform_failure": "../20261010_signal/closure_summary.json",
+  "previous_signal_started_attempts": 3,
+  "previous_signal_costs_retained": true
+}

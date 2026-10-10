@@ -17,9 +17,9 @@ from .runtime import CONFIG,PROMPT,EngineeringModel,ResearchRepository,code_iden
 from .signal_gateway import SignalGateway
 from .task import TaskAssets
 
-PILOT=STUDY/'phase4/20261010_signal'
-OUTPUT=Path('/tmp/auto_data_signal_study_20261010')
-RUN_PREFIX='p4signal'
+PILOT=STUDY/'phase4/20261010_signal_v2'
+OUTPUT=Path('/tmp/auto_data_signal_study_20261010_v2')
+RUN_PREFIX='p4signal2'
 GROUPS=('full','no_memory','no_feedback')
 
 FORMAL_PROMPT='''You are the autonomous data researcher in a registered DEVELOPMENT comparison on MetroPT3.
@@ -133,7 +133,7 @@ def run_search(entry,protocol):
     if folder.exists():raise GateError('SIGNAL_RUN_NOT_REPLAYED')
     if shutil.disk_usage(OUTPUT.parent).free<6*1024**3:raise GateError('SIGNAL_DISK_RESERVE')
     task=TaskAssets(STUDY/'tasks/metropt3_dev');library=read_json(MEMORY/'library.json');verify_memory(library)
-    config=CONFIG|{'version':'signal-study-development-v1','scope':'development_only','seed':entry['training_seed'],
+    config=CONFIG|{'version':'signal-study-development-v2','scope':'development_only','seed':entry['training_seed'],
         'group':group,'max_candidates':None,'max_diagnostics':None,'max_calls':None,'max_llm_tokens':None,
         'max_training_jobs':None,'execution_profile':'research_open','experience_mode':'none' if group=='no_memory' else 'full',
         'feedback_mode':'withheld' if group=='no_feedback' else 'visible','input_transforms_allowed':True,
@@ -178,7 +178,8 @@ def run_batch():
     if (OUTPUT/'batch_started.json').exists():raise GateError('SIGNAL_BATCH_NOT_REPLAYED')
     frozen={'code':study_code(),'protocol_sha256':file_hash(PILOT/'protocol.json'),
         'document_sha256':file_hash(PILOT/'PROTOCOL.md'),'library_sha256':file_hash(MEMORY/'library.json'),
-        'started_ns':time.time_ns(),'previous_total_trainings':196,'previous_API_attempts':1019}
+        'started_ns':time.time_ns(),'previous_total_trainings':protocol['previous_total_trainings'],
+        'previous_API_attempts':protocol['previous_API_attempts']}
     write_json(OUTPUT/'batch_started.json',frozen);searches=[]
     for entry in protocol['search_order']:
         if study_code()!=frozen['code'] or file_hash(PILOT/'protocol.json')!=frozen['protocol_sha256'] or file_hash(MEMORY/'library.json')!=frozen['library_sha256']:

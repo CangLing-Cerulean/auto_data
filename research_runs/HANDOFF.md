@@ -1,5 +1,9 @@
 # 接续研究入口
 
+2026-10-10信号v1已因NumPy内部延迟导入的文件审计误拦停止，[关闭报告](agent_research/phase4/20261010_signal/CLOSURE_REPORT.md)。新增2次完整训练、1次训练中断、34次调用及204780实际tokens保留；累计198次完整训练、1053次API尝试、3464696实际已知tokens，旧未知38行/293757预约不变。登记9次中启动3次、结束2次，不据此评价科研能力。新[信号v2协议](agent_research/phase4/20261010_signal_v2/PROTOCOL.md)使用独立项目和p4signal2编号，87项检查与扩大真实T预检通过；修复依赖预加载和异常打印，不扩大文件白名单或提供科学配方，科研设计不变。旧冻结源码、ID、日志虚警和成本不修改；v2尚未启动，先同步故障收尾和新验收。
+
+2026-10-10阶段4信号批次已启动，PID75836，冻结9次full/no_memory/no_feedback独立搜索，首轮B0训练中；[启动收据](agent_research/phase4/20261010_signal/launch.json)、[冻结收据](agent_research/phase4/20261010_signal/batch_started.json)。工程阶段27个代码/协议/报告文件已推送ac60bcf8363789a6d88dae0c41191b8f20a2c34a并核对远端，[同步回执](agent_research/phase4/20261010_signal/preparation_sync_receipt.json)。科研代码、数据处理和训练均在4090服务器，冻结后不修改源码/协议、不重跑ID；所有搜索结束后再外部确认。正式用量在新账本追加，启动时既有196次训练和1019次API尝试不变；旧测试、阶段5与旧被拒队列不动。
+
 2026-10-10阶段4信号执行器已验收，见[准备报告](agent_research/phase4/20261010_signal/PREPARATION_REPORT.md)和[冻结协议](agent_research/phase4/20261010_signal/PROTOCOL.md)。服务器87项检查及真实T CPU/CUDA、文件越界拒绝、固定模型梯度预检通过，准备阶段API/训练均0，累计196次训练及1019次API尝试不变。新项目/tmp/auto_data_signal_project_20261010，拟启动full/no_memory/no_feedback各3次；原始调用、追踪及完整归档不公开。三份旧冗余传输tar已在完整本地备份和服务器原研究目录保留后清理，见清理回执，旧下载收据不改。正式批次尚未启动，先同步本工程验收阶段。
 
 2026-10-10下一阶段规划已完成，见[阶段4实施方案](agent_research/phase4/20261010_plan/PLAN.md)。主目标转到可复算的预测不足、针对性数据处理与反馈判断；F/P/L/C/E/U分别评价，拟执行full/no_memory/no_feedback各3次独立搜索。固定原模型和训练参数，使用冻结v2经验，不额外给source_half配方；累计配额仍取消。先登记评分、信息边界、匹配控制和B0/全失败结束路径，再验收新执行器；正式协议未冻结，未启动新API或训练。累计196次训练和既有成本保持。当前仅规划收尾及授权范围内的GitHub同步，不自动执行旧被拒队列。

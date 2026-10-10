@@ -1,0 +1,25 @@
+{
+  "status": "closed_for_platform_failure",
+  "reason": "NumPy percentile/quantile lazy imports denied by audit",
+  "targets": [
+    75836,
+    75992,
+    78452
+  ],
+  "source_PID": 75836,
+  "closed_ns": 1791644090058524006,
+  "human_runtime_strategy": false,
+  "maintenance_interruption": true,
+  "old_IDs_not_replayed": true,
+  "all_assets_and_costs_retained": true,
+  "progress_before_close": {
+    "phase": "search",
+    "active": {
+      "group": "no_feedback",
+      "repeat": 1,
+      "training_seed": 20261111
+    },
+    "completed_searches": 2,
+    "queue_active": true
+  }
+}

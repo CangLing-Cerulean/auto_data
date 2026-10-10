@@ -27,7 +27,7 @@ def main():
     if protocol['protocol_document_sha256']!=file_hash(PILOT/'PROTOCOL.md') or protocol['memory_sha256']!=library['sha256']:
         raise GateError('SIGNAL_PROTOCOL_OR_MEMORY_BINDING')
     guards=task.guards|study_code()|{str(inputs):file_hash(inputs)}
-    root=Path('/tmp/auto_data_signal_preflight_20261010_v3')
+    root=Path('/tmp/auto_data_signal_preflight_20261010_signal2')
     if root.exists():raise GateError('SIGNAL_PREFLIGHT_NOT_REPLAYED')
     root.mkdir();hidden=root/'private_metric.json';hidden.write_text('{"fixture_only":123}',encoding='utf-8')
     asset=[{'path':str(inputs),'name':'train_inputs.npz','role':'training','sha256':file_hash(inputs)}]
@@ -35,6 +35,8 @@ def main():
     builder=f'''import numpy as np,json,sys,pathlib
 inp=np.load(pathlib.Path(sys.argv[1])/'train_inputs.npz',allow_pickle=False);out=pathlib.Path(sys.argv[2]);n=len(inp['start_row'])
 np.savez_compressed(out/'processing.npz',start_row=inp['start_row'],weight=np.ones(n),sampling_multiplier=np.ones(n))
+sample=inp['values'][:1000,0];np.unique(sample);np.quantile(sample,[.1,.5,.9]);np.percentile(sample,95)
+np.random.default_rng(0).permutation(1000);np.fft.rfft(sample);np.linalg.svd(np.eye(2))
 (out/'processor.py').write_text({processor!r})
 (out/'processor_state.json').write_text('{{}}')
 (out/'diagnostic.json').write_text(json.dumps({{'legal_windows':n,'mean_variation':float(inp['input_variation'].mean())}}))
@@ -56,6 +58,10 @@ pathlib.Path(sys.argv[2],'diagnostic.json').write_text(json.dumps({{'observed':t
     rejected=execute_bounded_job(root/'outside_read',guards)
     if rejected['status']!='failed' or not rejected.get('information_boundary',{}).get('violations'):
         raise GateError('SIGNAL_PREFLIGHT_HIDDEN_READ_NOT_REJECTED')
+    prepare_job(root/'ordinary_failure','raise ValueError("ordinary_fixture_failure")',asset)
+    ordinary=execute_bounded_job(root/'ordinary_failure',guards)
+    if ordinary['status']!='failed' or ordinary.get('information_boundary',{}).get('violations'):
+        raise GateError('SIGNAL_PREFLIGHT_EXCEPTION_MISLABELED_INFORMATION_VIOLATION')
     with np.load(inputs,allow_pickle=False) as saved:
         ids=saved['start_row'][::max(1,len(saved['start_row'])//17)][:17]
         x=saved['values'][ids[:,None]+np.arange(32)].copy()
@@ -71,6 +77,8 @@ pathlib.Path(sys.argv[2],'diagnostic.json').write_text(json.dumps({{'observed':t
     result={'status':'passed','component_tests':checks['tests_run'],'code':study_code(),
         'protocol_sha256':file_hash(PILOT/'protocol.json'),'base_assets':task.guards,
         'builder_and_cpu_import':'passed','processor_real_T_CPU_CUDA':'passed',
+        'quantile_unique_random_fft_linalg_lazy_imports':'passed',
+        'ordinary_exception_does_not_trigger_information_violation':'passed',
         'fixed_model_forward_backward_without_optimizer':'passed',
         'outside_file_read':'denied_and_violation_preserved_even_if_agent_catches_error',
         'security_sandbox':False,'API_calls':0,'training_calls':0,'test_access':False,

@@ -4,7 +4,7 @@ from pathlib import Path
 import shutil
 
 old=Path('/tmp/auto_data_capability_project_20261010_v4')
-new=Path('/tmp/auto_data_signal_project_20261010')
+new=Path('/tmp/auto_data_signal_project_20261010_v2')
 study=Path('research_runs/agent_research')
 if new.exists():raise RuntimeError('Existing study project will not be overwritten')
 folders=('online_ts','tests','scripts',str(study/'memory/v2'),str(study/'tasks/metropt3_dev'))
@@ -18,6 +18,6 @@ library=json.loads((old/study/'experience_library.json').read_text())
 sources={row['source']['path'] for row in library['records']}
 for value in sources:
     target=new/value;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(old/value,target)
-(new/study/'phase4/20261010_signal').mkdir(parents=True)
+(new/study/'phase4/20261010_signal_v2').mkdir(parents=True)
 print(json.dumps({'status':'created','project':str(new),'previous_project_changed':False,
     'source_half_case_copied':False,'disk_free':shutil.disk_usage('/tmp').free}),flush=True)

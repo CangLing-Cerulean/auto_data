@@ -6,7 +6,7 @@ import subprocess
 import time
 
 def main():
-    project=Path('/tmp/auto_data_signal_project_20261010');output=Path('/tmp/auto_data_signal_study_20261010')
+    project=Path('/tmp/auto_data_signal_project_20261010_v2');output=Path('/tmp/auto_data_signal_study_20261010_v2')
     if output.exists():raise RuntimeError('Existing batch preserved; no relaunch')
     subprocess.run(['/opt/miniconda3/bin/python','-B','-c',
         'from online_ts.agent_research.signal_study import require_ready; require_ready()'],cwd=project,check=True)
