@@ -10,6 +10,8 @@
 
 本次同步公开主代码、协议、报告及汇总结果；原始API调用、运行追踪、服务器备份和v3/v4完整归档仍保存在本地和服务器，未随本次同步发布。完整归档Release清单仅已准备，不能据此声称资产已上传。
 
+用户确认公开范围后，2026-10-10已完成上述代码和汇总同步，源提交为[fe62623](https://github.com/CangLing-Cerulean/auto_data/commit/fe626238311cbf8ce0c103db6c2ed314d3987f1e)，远端main核验一致；[同步回执](research_runs/github_sync/20261010_stage3/sync_receipt.json)保留范围与授权记录。
+
 ## 2026-10-05历史研究入口
 
 当前目标是探索**如何处理训练数据来提升训练效果**，主线为固定DLinear下的训练窗口保留、删除、损失权重和采样概率。累计134次训练；重要性采样三种子开发验证NMSE平均改善0.3508%，双层权重内部两原点改善0.5283%/0.5751%，尚待正式确认。默认仍保留全部合法窗口、均匀采样。先读[总体数据结论](research_runs/OVERVIEW.md)和[下一步计划](research_runs/NEXT_STEPS.md)，再读[接续指南](research_runs/CONTINUE.md)、[HANDOFF](research_runs/HANDOFF.md)及state.json。
