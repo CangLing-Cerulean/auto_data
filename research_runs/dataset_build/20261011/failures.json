@@ -1,0 +1,26 @@
+{
+  "failures": [
+    {
+      "step": "initial local source extraction",
+      "error": "System.IO.File has no CreateNew method",
+      "classification": "packaging implementation error",
+      "fix": "Use File.Open(path, FileMode.CreateNew)",
+      "dataset_written": false,
+      "training_started": false
+    },
+    {
+      "step": "independent contract review",
+      "error": "Initial VerifyOnly accepted an in-memory altered sensor_columns and boundary contract",
+      "classification": "verifier coverage defect; generated tables were correct",
+      "fix": "Verify complete manifest, including sensors, excluded fields, sources, boundary contract and builder identity",
+      "sensor_data_changed": false
+    },
+    {
+      "step": "first complete-manifest verification",
+      "error": "JSON object key order caused false mismatch for quality and builder",
+      "classification": "verifier implementation error",
+      "fix": "Compare JSON objects semantically by keys and values; compare arrays in order",
+      "sensor_data_changed": false
+    }
+  ]
+}

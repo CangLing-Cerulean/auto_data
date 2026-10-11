@@ -6,6 +6,7 @@ source/metropt3/*
 !source/metropt3/dataset_manifest.yaml
 !source/metropt3/sensor_dictionary.csv
 data/**/*.csv
+/data/raw_sources/
 __pycache__/
 *.pyc
 .venv/

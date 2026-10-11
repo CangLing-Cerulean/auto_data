@@ -1,0 +1,27 @@
+{
+  "status": "PASS_AFTER_VERIFIER_REPAIR",
+  "scope": "Independent source-byte/token/provenance/train-profile review followed by focused static-contract probes",
+  "initial_evidence": {
+    "archive_bytes_match": true,
+    "all_sensor_tokens_and_source_positions_match": true,
+    "duplicate_sample_keys": 0,
+    "split_sample_key_overlap": 0,
+    "train_profiles_recomputed_only_from_train": true,
+    "metropt3_five_file_hashes_unchanged": true
+  },
+  "defect": "Initial verifier did not compare static input, boundary, source and builder contracts",
+  "repair": "Compare complete expected manifest by JSON object semantics; preserve array order",
+  "final_probes": {
+    "skab_altered_contract_rejected": true,
+    "hydraulic_altered_contract_rejected": true,
+    "manifest_and_profile_object_key_reordering_accepted": true,
+    "key_reordering_reads_covered": 4,
+    "remaining_fields_review": "Full recursive comparison reviewed; combined corruption probes stop at first sensor_columns error"
+  },
+  "review_harness_failure": "First combined probe had a PowerShell counter scope error; fixed harness passed; audited artifacts never changed",
+  "sensor_data_changed": false,
+  "new_trainings": 0,
+  "new_model_api_calls": 0,
+  "test_distribution_or_model_scoring": false,
+  "window_builder_validation": "Not applicable: no task/window protocol or window builder registered for new data yet"
+}

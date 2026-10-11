@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-11T15:12:55.9620015Z",
+  "finished_utc": "2026-10-11T15:12:58.7707356Z",
+  "local_wall_seconds": 2.8060514,
+  "datasets": [
+    {
+      "dataset_id": "skab_v1",
+      "status": "PASS",
+      "rows": 46860,
+      "source_files": 35,
+      "split_rows": [
+        32802,
+        9372,
+        4686
+      ],
+      "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+      "checks": [
+        "raw SHA256 and bytes",
+        "complete source scope",
+        "all original numeric tokens and provenance",
+        "exact 7:2:1 counts",
+        "strictly disjoint split order boundaries",
+        "series chronology",
+        "finite sensors (integrity only)",
+        "train-only profile",
+        "all split CSV SHA256"
+      ]
+    },
+    {
+      "dataset_id": "uci_hydraulic_v1",
+      "status": "PASS",
+      "rows": 132300,
+      "source_files": 8,
+      "split_rows": [
+        92610,
+        26460,
+        13230
+      ],
+      "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+      "checks": [
+        "raw SHA256 and bytes",
+        "complete source scope",
+        "all original numeric tokens and provenance",
+        "exact 7:2:1 counts",
+        "strictly disjoint split order boundaries",
+        "series chronology",
+        "finite sensors (integrity only)",
+        "train-only profile",
+        "all split CSV SHA256"
+      ]
+    }
+  ],
+  "metropt3_file_sha256": {
+    "validation.csv": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21",
+    "manifest.json": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "test.csv": "07f9a254130984754a75eaf9927006f8c83ba10a1ef85dc308e6ebc62db102b4",
+    "train.csv": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+    "train_profile.json": "29cce2ac0b99840e03ab326bf65b3ff031265dba8b5b531cd4d42dddc5e3ce08"
+  },
+  "metropt3_source_reconstruction": "PASS",
+  "new_trainings": 0,
+  "model_api_calls": 0,
+  "gpu_seconds": 0,
+  "test_access": "integrity and deterministic packaging only; no distribution summaries, model scores or selection feedback",
+  "ground_truth_access": false
+}

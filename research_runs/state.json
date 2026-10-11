@@ -331,5 +331,15 @@
   "server_runtime_changed": false,
   "new_trainings": 0,
   "new_API_calls": 0,
-  "historical_deferred_followup": "Separate completion_study followup archived; not launched by cleanup; not part of current phase4 batch"
+  "historical_deferred_followup": "Separate completion_study followup archived; not launched by cleanup; not part of current phase4 batch",
+  "additional_dataset_build": {
+    "date": "2026-10-11",
+    "datasets": ["data/skab_v1/manifest.json", "data/uci_hydraulic_v1/manifest.json"],
+    "report": "research_runs/dataset_build/20261011/REPORT.md",
+    "stage": "datasets_built_integrity_passed",
+    "new_trainings": 0,
+    "model_api_calls": 0,
+    "new_task_protocols_frozen": false,
+    "existing_active_study_changed": false
+  }
 }

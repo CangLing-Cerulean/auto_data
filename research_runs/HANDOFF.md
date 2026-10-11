@@ -29,3 +29,5 @@ v2批次前固定基数为198次完整训练、1053次API尝试、3464696个实�
 历史训练资产、旧协议、失败追踪和原始发送包已移至 `C:/Users/31227/Desktop/auto_data_history/20261011_204809/files/`，相对路径不变；原入口文档和旧state另存该归档的 `metadata_before_cleanup/`。恢复映射与SHA256在 `archive_manifest.json`。历史ID仍被占用，不因工作树目录移走而允许重跑。
 
 先执行[下一步](NEXT_STEPS.md)。每个阶段验收后同步现有GitHub；公开范围沿用[GITHUB_SYNC.md](GITHUB_SYNC.md)，原始调用、追踪和完整私有归档不随清理自动公开。
+
+2026-10-11新增数据建库：用户另行要求从data发送包挑选一到两个数据集。已建立 `data/skab_v1/`（46860行、8通道）与 `data/uci_hydraulic_v1/`（132300行、8通道），详见[建库报告](dataset_build/20261011/REPORT.md)。仅建库和完整性验收，没有启动新数据实验；原有MetroPT3冻结研究和账本保持。新任务须按各自manifest中的原实验/周期边界与原生时间尺度另行冻结。同步状态见建库阶段收据。

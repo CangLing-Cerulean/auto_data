@@ -1,0 +1,658 @@
+{
+  "dataset_id": "skab_v1",
+  "schema_version": "multiseries-raw-v1",
+  "created_date": "2026-10-11",
+  "source_archive": "industrial_timeseries_eval_120_v0.7.0.zip",
+  "source_archive_sha256": "b0c2489d1103f224c55e070da956f00e7905d4389850f31f5d2a34f42227a940",
+  "sources": [
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/anomaly-free/anomaly-free.csv",
+      "local_file": "data/raw_sources/20261011/skab/anomaly-free/anomaly-free.csv",
+      "sha256": "1612b06916a19c40eef213cced8cd827fc75923adb5c9d4564a37a9d3d1a4733",
+      "bytes": 994197
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/11.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/11.csv",
+      "sha256": "de8491754bcec701fcd4278eeb8c2d308daea197dd8cd52dddfe84b5e55c3925",
+      "bytes": 75065
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/12.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/12.csv",
+      "sha256": "6563558a1d48e763edffd2e64235eb0c7fabd3e4fd281e4d8fb5073dbc941a24",
+      "bytes": 127924
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/13.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/13.csv",
+      "sha256": "7b74db55748fbc004355a6c87130868bbed8f4056a1a656bfb342efc74b7da42",
+      "bytes": 108305
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/14.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/14.csv",
+      "sha256": "f35279f735fcd595d49bdd967b79c26c995a57c9266205446ce0e67e4be3cd94",
+      "bytes": 129126
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/15.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/15.csv",
+      "sha256": "8c2903170d63246f396ee4abb1b826ba48daf9190bcbec3199a37f93f68b3c85",
+      "bytes": 128253
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/16.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/16.csv",
+      "sha256": "823ef8b7cb225639ca32999a7a1c575de1e6dccad31f8fd2b3af2fe615d82b04",
+      "bytes": 122295
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/17.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/17.csv",
+      "sha256": "593a6607a2fb2b5321b04c5287fd1450002d753fc29516eba13e6a9e1e875fb4",
+      "bytes": 131862
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/18.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/18.csv",
+      "sha256": "2d4eccd0632c843d298d0426390538e9771210a8350b930b84ac63cb8f43a09c",
+      "bytes": 129379
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/19.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/19.csv",
+      "sha256": "c0733f5ecb73905c8917afd613fdfb36900ff604b84bc31d0a9894f89e859072",
+      "bytes": 151869
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/20.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/20.csv",
+      "sha256": "f9e892b7da69c7dea6c1981d384a9a14da4847631102e32f620f399c3ce635ca",
+      "bytes": 135762
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/21.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/21.csv",
+      "sha256": "fdcd07cd21bc3c2f7d7849d6ac1b28dc28caa091502a88115251e264535edbb6",
+      "bytes": 127460
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/22.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/22.csv",
+      "sha256": "15bbcb300470add00c7a06c77fec7d11c02447df81690b8bb77d5fc5e5f1dbfd",
+      "bytes": 122301
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/23.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/23.csv",
+      "sha256": "2913b7362ebb762c97ab6ecc3d598f0a497d1f91704d758af9c4d710bf5ab8c1",
+      "bytes": 119880
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/other/9.csv",
+      "local_file": "data/raw_sources/20261011/skab/other/9.csv",
+      "sha256": "274a5e585404b391a4aba04ba076adbae81091c689ac1e963566204c26ab62d1",
+      "bytes": 84477
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/0.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/0.csv",
+      "sha256": "90f70a75cf359e5e7b0fffa0644fdbac6733a71510e7891b6d0427effd750cb6",
+      "bytes": 132924
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/1.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/1.csv",
+      "sha256": "39483f67a026d0d937e75a9c979bac87fd518ad3ad8d6f97d3d5150f85099e9b",
+      "bytes": 131848
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/10.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/10.csv",
+      "sha256": "222005e48291677242f48dcb637f44c205beead30f8990d8154bc7d003e1e331",
+      "bytes": 132900
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/11.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/11.csv",
+      "sha256": "edf8fb8d057c087ddbd37711411f45308d9cf519f30f1a1fab13cf9dfed2c6ab",
+      "bytes": 132554
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/12.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/12.csv",
+      "sha256": "e1750cb01b9e4033591045480c402fd4b90433b2f531a770fa1dbd751fa9d616",
+      "bytes": 131610
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/13.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/13.csv",
+      "sha256": "50235d160941ac6a7fac968e805e027f365b1b0b08faf13bae6231f742b9a32f",
+      "bytes": 132500
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/14.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/14.csv",
+      "sha256": "f86abfe6e386a517988acfa0e218369e8cf8be74515ea6b81661aa23e30ea729",
+      "bytes": 132341
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/15.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/15.csv",
+      "sha256": "370953cbbf401dcb100f15743425dae2f9d52edebbc22ffd03f299f7721ce3ed",
+      "bytes": 133218
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/2.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/2.csv",
+      "sha256": "56c85752551485622eb972ec36756bade69f287b1530d33041895406fc33dbc3",
+      "bytes": 124381
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/3.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/3.csv",
+      "sha256": "8af9eccf9d2399979429e54bf598a67f69673e4692112f4a495f880e9ea84731",
+      "bytes": 133147
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/4.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/4.csv",
+      "sha256": "0f049378e76618a161836876484725d8205bf858919c3776ed94679ed81b859e",
+      "bytes": 126959
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/5.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/5.csv",
+      "sha256": "a41f71c3fe0ee765879f61a725b474e99850cbff9b8ca0900c46303e73e71adb",
+      "bytes": 133357
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/6.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/6.csv",
+      "sha256": "f5136c0614c4a4667b60b6386a625ef29c7258d11ff82711529dcd61ca9ffb98",
+      "bytes": 134591
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/7.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/7.csv",
+      "sha256": "0978e0bf41cc40449b1aa11d5e6c7a8607f45717e730b733d927524949b7ff37",
+      "bytes": 127522
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/8.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/8.csv",
+      "sha256": "aae2971e604011b7b91a01deeb1bbdfe6f91c2a1d89a34019b6a039324b3de42",
+      "bytes": 132313
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve1/9.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve1/9.csv",
+      "sha256": "2b755c9b6a13aa617ad956176ee52dfb049e028ece5c1511af0833df891398e8",
+      "bytes": 132172
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve2/0.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve2/0.csv",
+      "sha256": "cda7215c6712099a07ef57183e287e80dba4317d1ed2c6400ffef68be6127966",
+      "bytes": 131047
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve2/1.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve2/1.csv",
+      "sha256": "ae6642f9fb856e425ed2412ee15f5f5fed324a7bcc30f16a413293852cb39bfe",
+      "bytes": 123334
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve2/2.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve2/2.csv",
+      "sha256": "0e6f376764431846710f5a2d852ec4ec8cc795a4aeae4cc4dd3188b1f83cc760",
+      "bytes": 130528
+    },
+    {
+      "family": "skab",
+      "archive_entry": "version2_v0.7.0/raw/skab_v0_9/SKAB/valve2/3.csv",
+      "local_file": "data/raw_sources/20261011/skab/valve2/3.csv",
+      "sha256": "da5834d37670c73c56ccf0006da7a61f7c32f52bfaef77c0df4e63ed8127dafe",
+      "bytes": 115397
+    }
+  ],
+  "sensor_columns": [
+    "Accelerometer1RMS",
+    "Accelerometer2RMS",
+    "Current",
+    "Pressure",
+    "Temperature",
+    "Thermocouple",
+    "Voltage",
+    "Volume Flow RateRMS"
+  ],
+  "split_rule": "chronological; floor(N*0.7), floor(N*0.2), remainder",
+  "ordering": "datetime, source_file (ordinal), source_row",
+  "transforms": [
+    "lossless table assembly; original numeric strings retained; provenance added"
+  ],
+  "window_protocol": null,
+  "boundary_contract": "Group by source_file within each partition; retain source_row order; never cross files, partitions, or timestamp gaps >30s. Equal timestamps from overlapping experiments remain separate observations in one partition.",
+  "excluded_input_fields": [
+    "source_file",
+    "source_row",
+    "datetime",
+    "anomaly",
+    "changepoint"
+  ],
+  "quality": {
+    "raw_sources_byte_identical": true,
+    "table_raw_bytes_preserved": false,
+    "strictly_increasing_time_within_series": true,
+    "all_source_samples_retained": true,
+    "sensor_numeric_tokens_preserved": true,
+    "missing_or_nonfinite_sensor_values": 0
+  },
+  "builder": {
+    "table_code_sha256": "279d5280f6f4ff26104e4e3ee2fe012abe56db42e6cc3f11cf5cbbd94a16eccf",
+    "sha256": "8e584fc85f9003d09b8b779f320f5c05f0a8fd8b59e7490dbae4610a98cc6b2b",
+    "file": "scripts/build_additional_datasets.ps1",
+    "table_code": "scripts/dataset_tables.cs"
+  },
+  "rows": 46860,
+  "columns_raw": [
+    "source_file",
+    "source_row",
+    "datetime",
+    "Accelerometer1RMS",
+    "Accelerometer2RMS",
+    "Current",
+    "Pressure",
+    "Temperature",
+    "Thermocouple",
+    "Voltage",
+    "Volume Flow RateRMS"
+  ],
+  "splits": [
+    {
+      "name": "train",
+      "file": "train.csv",
+      "rows": 32802,
+      "row_start_inclusive": 0,
+      "row_end_exclusive": 32802,
+      "sha256": "b0b88e9f6550a6e8405d169909f053ea44fc5e08425b01f95f61a8f41ba86235",
+      "first_order_key": "2020-02-08 13:30:47",
+      "last_order_key": "2020-03-09 12:43:11",
+      "within_series_interval_seconds_counts": {
+        "1": 31072,
+        "2": 1704,
+        "242": 1,
+        "54": 1,
+        "76": 1
+      },
+      "series_coverage": [
+        {
+          "series_id": "anomaly-free/anomaly-free.csv",
+          "rows": 9401,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 9401,
+          "first_time": "2020-02-08 13:30:47",
+          "last_time": "2020-02-08 16:16:47"
+        },
+        {
+          "series_id": "other/11.csv",
+          "rows": 665,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 665,
+          "first_time": "2020-03-01 16:28:16",
+          "last_time": "2020-03-01 16:43:52"
+        },
+        {
+          "series_id": "other/12.csv",
+          "rows": 1137,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1137,
+          "first_time": "2020-03-01 16:43:54",
+          "last_time": "2020-03-01 17:03:52"
+        },
+        {
+          "series_id": "other/13.csv",
+          "rows": 968,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 968,
+          "first_time": "2020-03-01 17:03:54",
+          "last_time": "2020-03-01 17:20:54"
+        },
+        {
+          "series_id": "other/14.csv",
+          "rows": 1153,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1153,
+          "first_time": "2020-02-08 16:06:48",
+          "last_time": "2020-02-08 16:26:56"
+        },
+        {
+          "series_id": "other/15.csv",
+          "rows": 1147,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1147,
+          "first_time": "2020-02-08 16:27:09",
+          "last_time": "2020-02-08 16:47:09"
+        },
+        {
+          "series_id": "other/16.csv",
+          "rows": 1091,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1091,
+          "first_time": "2020-02-08 16:47:11",
+          "last_time": "2020-02-08 17:06:13"
+        },
+        {
+          "series_id": "other/17.csv",
+          "rows": 1147,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1147,
+          "first_time": "2020-02-08 17:07:11",
+          "last_time": "2020-02-08 17:27:13"
+        },
+        {
+          "series_id": "other/18.csv",
+          "rows": 1145,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1145,
+          "first_time": "2020-02-08 17:27:18",
+          "last_time": "2020-02-08 17:47:18"
+        },
+        {
+          "series_id": "other/19.csv",
+          "rows": 1326,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1326,
+          "first_time": "2020-02-08 17:47:44",
+          "last_time": "2020-02-08 18:11:02"
+        },
+        {
+          "series_id": "other/20.csv",
+          "rows": 1191,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1191,
+          "first_time": "2020-02-08 18:10:42",
+          "last_time": "2020-02-08 18:31:36"
+        },
+        {
+          "series_id": "other/21.csv",
+          "rows": 1141,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1141,
+          "first_time": "2020-02-08 18:34:51",
+          "last_time": "2020-02-08 18:54:54"
+        },
+        {
+          "series_id": "other/22.csv",
+          "rows": 1079,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1079,
+          "first_time": "2020-02-08 18:47:29",
+          "last_time": "2020-02-08 19:06:26"
+        },
+        {
+          "series_id": "other/23.csv",
+          "rows": 1044,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1044,
+          "first_time": "2020-02-08 19:16:28",
+          "last_time": "2020-02-08 19:34:45"
+        },
+        {
+          "series_id": "other/9.csv",
+          "rows": 751,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 751,
+          "first_time": "2020-03-01 15:44:06",
+          "last_time": "2020-03-01 15:57:13"
+        },
+        {
+          "series_id": "valve1/0.csv",
+          "rows": 1148,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1148,
+          "first_time": "2020-03-09 10:14:33",
+          "last_time": "2020-03-09 10:34:32"
+        },
+        {
+          "series_id": "valve1/1.csv",
+          "rows": 1145,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1145,
+          "first_time": "2020-03-09 10:34:33",
+          "last_time": "2020-03-09 10:54:33"
+        },
+        {
+          "series_id": "valve1/2.csv",
+          "rows": 1075,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1075,
+          "first_time": "2020-03-09 10:54:34",
+          "last_time": "2020-03-09 11:14:33"
+        },
+        {
+          "series_id": "valve1/3.csv",
+          "rows": 1149,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1149,
+          "first_time": "2020-03-09 11:14:34",
+          "last_time": "2020-03-09 11:34:35"
+        },
+        {
+          "series_id": "valve1/4.csv",
+          "rows": 1095,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1095,
+          "first_time": "2020-03-09 11:34:36",
+          "last_time": "2020-03-09 11:54:35"
+        },
+        {
+          "series_id": "valve1/5.csv",
+          "rows": 1154,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1154,
+          "first_time": "2020-03-09 11:54:36",
+          "last_time": "2020-03-09 12:14:35"
+        },
+        {
+          "series_id": "valve1/6.csv",
+          "rows": 1154,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1154,
+          "first_time": "2020-03-09 12:14:36",
+          "last_time": "2020-03-09 12:34:35"
+        },
+        {
+          "series_id": "valve1/7.csv",
+          "rows": 496,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 496,
+          "first_time": "2020-03-09 12:34:37",
+          "last_time": "2020-03-09 12:43:11"
+        }
+      ]
+    },
+    {
+      "name": "validation",
+      "file": "validation.csv",
+      "rows": 9372,
+      "row_start_inclusive": 32802,
+      "row_end_exclusive": 42174,
+      "sha256": "f850e940636fb687ce51157382374fafc3c501bf0fbd155f82b60f3cf41d007a",
+      "first_order_key": "2020-03-09 12:43:12",
+      "last_order_key": "2020-03-09 15:28:11",
+      "within_series_interval_seconds_counts": {
+        "1": 8899,
+        "2": 463,
+        "65": 1
+      },
+      "series_coverage": [
+        {
+          "series_id": "valve1/10.csv",
+          "rows": 1146,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1146,
+          "first_time": "2020-03-09 13:34:39",
+          "last_time": "2020-03-09 13:54:38"
+        },
+        {
+          "series_id": "valve1/11.csv",
+          "rows": 1141,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1141,
+          "first_time": "2020-03-09 13:54:39",
+          "last_time": "2020-03-09 14:14:39"
+        },
+        {
+          "series_id": "valve1/12.csv",
+          "rows": 1140,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1140,
+          "first_time": "2020-03-09 14:14:40",
+          "last_time": "2020-03-09 14:34:40"
+        },
+        {
+          "series_id": "valve1/13.csv",
+          "rows": 1140,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1140,
+          "first_time": "2020-03-09 14:34:41",
+          "last_time": "2020-03-09 14:54:40"
+        },
+        {
+          "series_id": "valve1/14.csv",
+          "rows": 1139,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1139,
+          "first_time": "2020-03-09 14:54:41",
+          "last_time": "2020-03-09 15:14:40"
+        },
+        {
+          "series_id": "valve1/15.csv",
+          "rows": 776,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 776,
+          "first_time": "2020-03-09 15:14:41",
+          "last_time": "2020-03-09 15:28:11"
+        },
+        {
+          "series_id": "valve1/7.csv",
+          "rows": 598,
+          "source_row_start_inclusive": 496,
+          "source_row_end_exclusive": 1094,
+          "first_time": "2020-03-09 12:43:12",
+          "last_time": "2020-03-09 12:54:37"
+        },
+        {
+          "series_id": "valve1/8.csv",
+          "rows": 1144,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1144,
+          "first_time": "2020-03-09 12:54:39",
+          "last_time": "2020-03-09 13:14:37"
+        },
+        {
+          "series_id": "valve1/9.csv",
+          "rows": 1148,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1148,
+          "first_time": "2020-03-09 13:14:38",
+          "last_time": "2020-03-09 13:34:38"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "file": "test.csv",
+      "rows": 4686,
+      "row_start_inclusive": 42174,
+      "row_end_exclusive": 46860,
+      "sha256": "43c2c95e7485b4b0254c17b92bc243f750284aa5b137e5aa7a9c916f2b9c4acb",
+      "first_order_key": "2020-03-09 15:28:12",
+      "last_order_key": "2020-03-09 17:14:09",
+      "within_series_interval_seconds_counts": {
+        "1": 4379,
+        "2": 301,
+        "64": 1
+      },
+      "series_coverage": [
+        {
+          "series_id": "valve1/15.csv",
+          "rows": 374,
+          "source_row_start_inclusive": 776,
+          "source_row_end_exclusive": 1150,
+          "first_time": "2020-03-09 15:28:12",
+          "last_time": "2020-03-09 15:34:41"
+        },
+        {
+          "series_id": "valve2/0.csv",
+          "rows": 1125,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1125,
+          "first_time": "2020-03-09 15:56:30",
+          "last_time": "2020-03-09 16:16:29"
+        },
+        {
+          "series_id": "valve2/1.csv",
+          "rows": 1063,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1063,
+          "first_time": "2020-03-09 16:16:30",
+          "last_time": "2020-03-09 16:36:30"
+        },
+        {
+          "series_id": "valve2/2.csv",
+          "rows": 1129,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 1129,
+          "first_time": "2020-03-09 16:36:31",
+          "last_time": "2020-03-09 16:56:30"
+        },
+        {
+          "series_id": "valve2/3.csv",
+          "rows": 995,
+          "source_row_start_inclusive": 0,
+          "source_row_end_exclusive": 995,
+          "first_time": "2020-03-09 16:56:31",
+          "last_time": "2020-03-09 17:14:09"
+        }
+      ]
+    }
+  ],
+  "table_sha256": "fd77c704e87a55861bb2706e90ecc0e2177e66d876753ad2decc1e8e6e0d1c68"
+}
