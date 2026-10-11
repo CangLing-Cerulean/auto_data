@@ -1,0 +1,40 @@
+{
+  "status": "source_commit_and_published_release_verified",
+  "verified_utc": "2026-10-11T15:19:21.9284587Z",
+  "repository": "CangLing-Cerulean/auto_data",
+  "source_commit": "36ae2ee16a2a64ffce313af0bea0146f19b929ce",
+  "verified_remote_branch": "main",
+  "verified_remote_source_head": "36ae2ee16a2a64ffce313af0bea0146f19b929ce",
+  "commit_url": "https://github.com/CangLing-Cerulean/auto_data/commit/36ae2ee16a2a64ffce313af0bea0146f19b929ce",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/datasets-20261011-v1",
+  "assets": [
+    {
+      "name": "datasets_skab_hydraulic_v1.zip",
+      "bytes": 6311337,
+      "sha256": "b24dfc11401df84186329b701b89c906611668b32baf2b7d74f47872b3997566",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/datasets-20261011-v1/datasets_skab_hydraulic_v1.zip",
+      "asset_id": 631065127
+    }
+  ],
+  "dataset_identity": [
+    {
+      "dataset_id": "skab_v1",
+      "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2"
+    },
+    {
+      "dataset_id": "uci_hydraulic_v1",
+      "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326"
+    }
+  ],
+  "published_scope": "30 code/metadata/report files plus 71-entry selected sensor data asset; final sync receipts documented in follow-up commit",
+  "transient_failures": [
+    "Initial sandbox git ls-remote: getaddrinfo() thread failed to start; approved network execution succeeded",
+    "Initial git whitespace check treated CRLF as trailing whitespace; command-scoped cr-at-eol check passed without changing registered bytes",
+    "Initial draft asset URL was untagged; post-publication API refresh verified canonical download URL"
+  ],
+  "outstanding_data_assets": [],
+  "additional_training": 0,
+  "model_api_calls": 0,
+  "test_access": "integrity/packaging only",
+  "ground_truth_access": false
+}

@@ -18,3 +18,5 @@ SKAB 不同原文件有时间重叠，排序保留独立身份与所有重复时
 首次本地提取遇到 `File.CreateNew` API 调用错误，在生成数据集前修正为 `File.Open(..., FileMode.CreateNew)`。独立审查另发现初版校验器遗漏输入列及窗口边界等静态契约，已改为验证完整manifest；同时修正JSON对象键序导致的误报。修复后正常验收通过。准备层CSV、profile和全部源文件未改变；新manifest仅更新建库脚本身份。初始manifest保留在 `initial_build/`，初版建库收据保留原哈希，最终身份以最新verification为准。[failures.json](failures.json)保留故障链，它们不计为科学负结果。
 
 新增训练0、模型API调用0、GPU秒0；本地建库与校验耗时分别见收据，历史训练/成本无重置。独立审查与最终同步状态见本目录相应收据。Git只公开本阶段代码、清单、profile、文档和收据；选定原始文件及CSV准备层走Release，不包含私有运行追踪或评测答案。
+
+GitHub同步完成：源提交 `36ae2ee16a2a64ffce313af0bea0146f19b929ce` 已推送main并核对远端一致。[数据Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/datasets-20261011-v1)包含71个登记文件，ZIP为6,311,337字节、SHA256 `b24dfc11401df84186329b701b89c906611668b32baf2b7d74f47872b3997566`；发布后API再次核对大小、digest和正式下载入口。身份与源提交见[release_receipt.json](release_receipt.json)，阶段汇总见[sync_receipt.json](sync_receipt.json)。初次沙箱Git网络错误和Windows CRLF空白误报均已解决，没有未同步数据资产。
