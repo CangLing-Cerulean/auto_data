@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-11T14:09:34.2244409Z",
+  "scope": "local_document_static_checks_only",
+  "json_parse": "pass",
+  "draft_launch_guards": "pass",
+  "empty_registries": "pass",
+  "unresolved_registration_fields": 15,
+  "template_record_types_checked": [
+    "task",
+    "action_rule",
+    "action_instance",
+    "decision",
+    "response",
+    "experience",
+    "visibility",
+    "cost"
+  ],
+  "required_response_fields": "pass",
+  "no_fabricated_results_or_freeze": "pass",
+  "local_markdown_links_checked": 10,
+  "tracked_diff_whitespace": "pass",
+  "runtime_visibility_and_replay": "not_implemented_or_tested",
+  "dataset_verification": "not_run_no_experiment",
+  "research_trainings": 0,
+  "research_API_calls": 0,
+  "test_evaluations": 0,
+  "formatting_attempts": [
+    "Initial staged diff check rejected CRLF in newly generated verification.json as trailing whitespace; normalized receipt to LF before commit."
+  ]
+}
