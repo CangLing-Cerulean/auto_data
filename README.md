@@ -1,90 +1,40 @@
-# MetroPT3 固定实验基础数据集
+# 时序数据诊断与处理研究
 
-已根据 `research.md` 建立 `metropt3_v1`。全部记录来自用户提供的 `share_20260727.zip` 中 v0.7.0 包的原始 MetroPT3 CSV，没有合成、插值、补点、清洗、重采样或数值改写。没有混用不同版本，没有引入问答评测答案。
+当前目标是让 Agent 定位预测性能不足，编写针对性的数据处理代码，执行受控训练，并依据实际反馈修正判断。主要研究变量是数据处理；当前批次固定原 DLinear、训练参数和预测任务。
 
-## 当前研究入口（2026-10-10）
+## 已保留的成果
 
-主线为自主诊断时序数据、编写处理方案、执行固定模型实验并根据反馈修正。当前累计196次完整可信训练，阶段3历史案例12/12回归及已知处理自主复用完成；本次开发NMSE改善4.082989%、NMAE改善0.233700%，尚未证明从零发现数据问题或独立任务泛化。先读[最新报告](research_runs/agent_research/capability_acceptance/20261010_v4/REPORT.md)、[长期规划](research_runs/agent_research/ROADMAP.md)、[独立进度](research_runs/agent_research/progress.json)和[接续入口](research_runs/HANDOFF.md)。阶段4新的正式对照尚未登记或启动，当前没有后台任务。
+| 成果 | 实测结果 | 证据范围 |
+| --- | --- | --- |
+| [数据输入变换](research_runs/direct_processing/20261009/REPORT.md) | 三个额外种子平均 NMSE 改善 **4.2385%**，NMAE 退化 **0.0541%** | 现有 MetroPT3 上的受控开发验证，保留全部对照、消融及失败记录；研究助手直接探索 |
+| [冻结残差 MLP](research_runs/model_exploration/REPORT.md) | 已冻结测试平均 NMSE 改善 **29.2698%**，NMAE 退化 **0.7691%** | 独立模型成果，检查点和测试记录保留，不能计入数据处理或 Agent 发现收益 |
+| [Agent 已知方案工程复现](research_runs/agent_research/capability_acceptance/20261010_v4/REPORT.md) | 单种子 NMSE 改善 **4.082989%**，NMAE 改善 **0.233700%** | 已提供注册配方的工程验收，自主发现、机制及泛化尚未证实 |
 
-每个阶段验收完成后同步到 GitHub，代码和报告进入 Git，完整大型资产进入 Release；见[同步约定](research_runs/GITHUB_SYNC.md)。以下134次训练及早期Release说明保留为历史记录，不能用于覆盖最新账本或重跑已完成实验。
+数据处理成果的诊断入口为[数据特征与误差报告](research_runs/direct_diagnostics/20261009/REPORT.md)。完整研究路线见[长期规划](research_runs/agent_research/ROADMAP.md)。
 
-本次同步公开主代码、协议、报告及汇总结果；原始API调用、运行追踪、服务器备份和v3/v4完整归档仍保存在本地和服务器，未随本次同步发布。完整归档Release清单仅已准备，不能据此声称资产已上传。
+## 当前阶段
 
-用户确认公开范围后，2026-10-10已完成上述代码和汇总同步，源提交为[fe62623](https://github.com/CangLing-Cerulean/auto_data/commit/fe626238311cbf8ce0c103db6c2ed314d3987f1e)，远端main核验一致；[同步回执](research_runs/github_sync/20261010_stage3/sync_receipt.json)保留范围与授权记录。
+阶段4 signal v2 比较 `full / no_memory / no_feedback`，每组3次独立搜索，分别评价事实、预测不足定位、局部命中、匹配控制、总体效果和反馈更新。
 
-## 2026-10-05历史研究入口
+以[冻结 v2 机器协议](research_runs/agent_research/phase4/20261010_signal_v2/protocol.json)和[接续说明](research_runs/HANDOFF.md)为准。[原冻结说明](research_runs/agent_research/phase4/20261010_signal_v2/PROTOCOL.md)保留早期批次描述，其末尾记录 v2 更换；项目路径、ID和批次前计数以机器协议为准。
 
-当前目标是探索**如何处理训练数据来提升训练效果**，主线为固定DLinear下的训练窗口保留、删除、损失权重和采样概率。累计134次训练；重要性采样三种子开发验证NMSE平均改善0.3508%，双层权重内部两原点改善0.5283%/0.5751%，尚待正式确认。默认仍保留全部合法窗口、均匀采样。先读[总体数据结论](research_runs/OVERVIEW.md)和[下一步计划](research_runs/NEXT_STEPS.md)，再读[接续指南](research_runs/CONTINUE.md)、[HANDOFF](research_runs/HANDOFF.md)及state.json。
+最后核对的[服务器快照](research_runs/agent_research/phase4/20261010_signal_v2/progress_snapshot.json)来自 **2026-10-10 23:09（北京时间）**：9次注册、3次启动、1次选择基线结束、1次平台失败、另1次搜索当时运行。尚无确认的正确信号或自主处理收益。2026-10-11 接续时 SSH 连接被关闭，当前服务器状态未核实。
 
-残差MLP的一次冻结测试NMSE降低29.2698%，NMAE退化0.7691%，完整保留为[独立模型成果](research_runs/model_exploration/REPORT.md)。模型收益与训练数据策略收益分别报告。长训练、额外原点与模型迁移的协议和代码已准备，远程启动仍待此前审批拒绝后的本次服务器确认；当前无登记队列。本次只整理归档，没有新实验。
+累计 **200次完整训练、1079次 API 尝试、3632209 个实际已知 tokens** 仅为该快照，不能当作最终计数。38条旧未知用量和293757个预约 tokens 分列保留；没有新增预算上限，也没有因整理重置成本。[最新进度账本](research_runs/agent_research/progress.json)保存基数和接续步骤。
 
-数据和早期研究资产配套发布到 [handoff-20261002 Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/handoff-20261002)，它只对应55次训练的历史快照，未覆盖当前全部134次训练。只克隆 Git 仓库不会自动下载这些大文件。在项目根目录运行：
+## 项目入口
 
-```powershell
-python scripts/download_handoff.py --include-test
-python scripts/verify_dataset.py
-python scripts/audit_assets.py
-python scripts/verify_selection_metadata.py
-python scripts/verify_transfer_assets.py
-python scripts/verify_importance_assets.py
-```
+- [下一步](research_runs/NEXT_STEPS.md)：先核实服务器状态，再收齐当前批次、确认与评分。
+- [研究概览](research_runs/OVERVIEW.md)：有效成果及尚未证明的结论。
+- [冻结经验库 v2](research_runs/agent_research/memory/v2/README.md)：144条可质疑的历史证据；其来源报告仍保留原路径和哈希。
+- `online_ts/`、`scripts/`、`tests/`：当前运行组件、有效成果的复现依赖及测试。
+- `data/metropt3_v1/`：[不可变基础数据身份](data/metropt3_v1/manifest.json)，[原任务协议](research_runs/PROTOCOL.md)。
+- `archives/capability_acceptance_20261010_v4/`：最新成功工程复现的完整冻结资产。
 
-下载与完整性校验仅需 Python 3.11+ 标准库。脚本按 [资产清单](research_runs/handoff_assets.json) 校验压缩包及每个原文件 SHA256，拒绝覆盖内容不同的现有文件。`--include-test` 用于完整归档恢复和校验；**不授权测试分布探索、调参或评分**。开发用训练服务器可省略该参数，完整三分区校验应在持有测试归档的机器执行。
+所有研究 Python、API 调用和模型训练在专用4090服务器执行。本地负责编辑、文件整理、同步与审阅。预处理仅在训练分区拟合，验证真值及困难样本不得删除，旧测试已用过且不能再用于探索或称为未见数据。
 
-Release 包括固定 train/validation/test CSV、123 个检查点文件、79 个 NPZ、16 份压缩窗口清单和73份研究日志。原始输入包内其他数据集和问答 ground_truth 不属于本研究，不随接续包分发。三份固定 CSV 已包含全部 MetroPT3 原始行，校验器可以验证其字节级重构源文件的哈希，无须下载整个混合输入包。
+## 本次整理
 
-2026-10-05已保存代码与研究元数据快照及资产哈希索引，旧Release离线包集中到 `archives/20261005/release_20261002/`，经核验的冗余包和字节码清理约1.56 GiB。大文件、历史实验和冻结成果保留原位；详见[归档说明](archives/20261005/README.md)。
+2026-10-11 将5633个历史文件约 **18.3 GB** 移至项目旁的 `../auto_data_history/20261011_204809/`，完整清单为该目录的 `archive_manifest.json`。项目主体由约20.1 GB降至约1.8 GB（不含 Git 历史），原始数据、冻结代码和保留成果哈希未改变。这里是移出工作树，磁盘上的历史证据仍可恢复。
 
-## 固定划分
-
-按原始时间顺序划分 **记录条数**，不是按日历时长或预测窗口数。训练取 floor(N×0.7)，验证取 floor(N×0.2)，其余归测试，因此仅有不可避免的整数舍入。
-
-| 分区 | 记录数 | 起始时间 | 结束时间 |
-|---|---:|---|---|
-| train | 1,061,863 | 2020-02-01 00:00:00 | 2020-06-29 16:18:07 |
-| validation | 303,389 | 2020-06-29 16:18:17 | 2020-08-10 21:17:42 |
-| test | 151,696 | 2020-08-10 21:17:52 | 2020-09-01 03:59:50 |
-
-文件位于 `data/metropt3_v1/`，每份保留原 CSV 表头与原始数据行字节。总计 1,516,948 条、17 列：无名原始索引列、timestamp 和 15 个传感器。无名列读取时可在内存中命名为 source_index，不得作为模型传感器输入。源时间没有时区标记，不擅自转换时区。
-
-## 探索结论
-
-- 全量结构校验：时间戳和源索引严格递增，无重复时间戳，15 个传感器均无空值、NaN 或无穷值。不存在记录不等于不存在时间缺口。
-- 训练段相邻间隔众数为 10 秒，同时存在 9、12、13 秒等间隔，最大间断为 172,918 秒（约 48.03 小时）。未填补缺失时间。后续窗口协议需要处理间断。
-- 按随包字段说明，包含 7 个连续信号和 8 个离散信号，完整字段统计见 `train_profile.json`，传感器分布只探索训练段。
-- 训练段油温范围 15.4–83.125 °C，电流范围约 0.02–9.295 A；TP2、H1、DV_pressure 存在负值。本次保留这些真实观测，不凭范围判定或删除异常。
-- 训练段 LPS 均值约 0.00246，离散状态明显不均衡；不据此改变基础数据构成。
-
-## 使用与重现
-
-Python 3.11 或更高版本，仅使用标准库。在项目根目录运行（不要使用 `python -O`，校验使用 assert）：
-
-```powershell
-python scripts/verify_dataset.py
-```
-
-在新的空目录中复制代码及用户原始 ZIP 后，可重现：
-
-```powershell
-python scripts/extract_source.py
-python scripts/build_dataset.py
-python scripts/verify_dataset.py
-```
-
-构建器拒绝覆盖已有版本。校验器检查各文件 SHA256、行数、时间边界、分区连续性和 7:2:1 比例，并将三个文件的数据行按顺序串联，验证其与原始 CSV 的 SHA256 完全一致，证明无遗漏、无新增、无字节改写。
-
-数据集构建阶段按用户确认未固定输入窗口或预测长度。2026-09-26 用户进一步授权远程训练并确认首轮研究协议，见 `research_runs/PROTOCOL.md`。后续所有实验必须遵守 `AGENTS.md`：固定基础版本，训练参数仅从训练集拟合，验证集用于开发，测试集只用于最终评价。当前测试隔离是项目流程约定，不是操作系统权限隔离。
-
-研究接续从 `research_runs/CONTINUE.md` 和 `research_runs/HANDOFF.md` 开始；实际状态见 `research_runs/state.json`，各阶段汇总与决策见对应目录。完整配置、源码快照、结果和可恢复检查点保存在 `research_runs/results/`；检查点通过 Release 下载恢复。
-
-用户随后指出中心化不等于数据筛选。训练窗口保留、删除、损失降权、采样概率研究从 `research_runs/selection/` 延续，最新阶段在 `research_runs/completion_study/`。各阶段NPZ/压缩CSV是可追溯的筛选元数据；Release仅包含55次训练时的资产，后续成果以本地及服务器逐运行资产为准。
-
-Git 管理代码、文档、固定清单、来源许可和训练结果；CSV、检查点及二进制研究资产由同仓库 Release 分发。`.gitattributes` 禁止自动换行转换，保留已有 manifest、协议和实验快照的字节身份。不会修改历史哈希来适应另一份数据。
-
-## 来源与署名
-
-随包元数据声明：Davari, N., Veloso, B., Ribeiro, R., & Gama, J. (2021). MetroPT-3 Dataset. UCI Machine Learning Repository. DOI: 10.24432/C5VW3R，CC BY 4.0。
-
-随包清单说明完整 CSV 来自 CC BY 4.0 镜像，曾与获取到的 UCI 前缀逐字节比较；本次验证用户提供包的哈希，不将该说明扩大为独立验证了上游全文件。源文件 SHA256 为 `db30ccb4ea402e3c8bf2c99db06e288d4f2a772f6928f9dbe26a920d69793e24`。
-
-原始来源说明、字段字典和许可保留于 `source/metropt3/` 并纳入 Git。对外分发时保留上述署名、许可和来源说明；随包来源清单提到的其他数据集不包含在此次发布中。
+[整理报告](research_runs/cleanup/20261011/REPORT.md)记录路径映射、核验和公开同步范围。旧下载回执中的已迁移本地路径按归档清单解释，不改写旧收据。Git 历史继续保留原有公开内容。

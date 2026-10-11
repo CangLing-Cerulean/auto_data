@@ -1,0 +1,28 @@
+{
+  "scope": "cleanup_metadata_checks_only",
+  "repairs": [
+    {
+      "check": "memory_source_verification",
+      "initial_failure": "v1_source: labels were incorrectly treated as physical memory-directory paths",
+      "resolution": "verify original reports for conditional summaries and memory copies for measured runs, matching the frozen memory implementation",
+      "frozen_memory_changed": false
+    },
+    {
+      "check": "git_diff_check",
+      "initial_failure": "PowerShell-generated current JSON used CRLF; exact-byte Git attributes reported CR as trailing whitespace",
+      "resolution": "write only new mutable metadata with explicit UTF-8 and LF; frozen files unchanged"
+    },
+    {
+      "check": "PowerShell_verification_wrapper",
+      "initial_failure": "wrapper inspected stale LASTEXITCODE after a PowerShell-only script whose checks had passed",
+      "resolution": "verification CLI now exits explicitly with zero after successful checks; terminating failures still fail"
+    },
+    {
+      "check": "git_restage",
+      "initial_failure": "first staging already removed historical files from the index, so replaying their pathspecs no longer matched",
+      "resolution": "refresh only existing authorized current files; keep staged deletions and verify against archive plan"
+    }
+  ],
+  "new_API_calls": 0,
+  "new_trainings": 0
+}
