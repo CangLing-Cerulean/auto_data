@@ -1,0 +1,57 @@
+{
+  "recorded_at_utc": "2026-10-11T14:12:51.7495521Z",
+  "status": "pending_network_unavailable",
+  "repository": "https://github.com/CangLing-Cerulean/auto_data",
+  "branch": "main",
+  "source_commit": "009d1f8bd37daf5abd723d913a1a7a221c89d381",
+  "local_commit_saved": true,
+  "remote_head_verified": false,
+  "remote_head": null,
+  "push_attempted": false,
+  "uploaded_assets": [],
+  "failure_attempts": [
+    "Sandbox read-only remote lookup: getaddrinfo thread failed",
+    "Escalated read-only remote lookup: connection reset",
+    "Bounded HTTP/1.1 read-only retry: port 443 connection failed after 21 seconds"
+  ],
+  "approval_rejection": false,
+  "pending_scope": "All seven E1 documentation-stage files and this sync receipt",
+  "next_action": "Verify remote main, reconcile if necessary without force push, push these documentation commits and verify the remote head before declaring sync complete.",
+  "files": [
+    {
+      "path": "research_runs/NEXT_STEPS.md",
+      "bytes": 2370,
+      "sha256": "a1697758b4ef3b4b1436fdc315abd7b1af2bd2d70f74ef82ea81335acf372537"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/PROTOCOL.md",
+      "bytes": 13805,
+      "sha256": "7d5e5a71514f4695632af84af7da9182a7c05ad30be935670a493bfd637f7d42"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/protocol.json",
+      "bytes": 3282,
+      "sha256": "baa61c53da1edfdf26974872f05487082c45a8c5ae56fe936e071333d4ae8712"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/EVIDENCE_CONTRACT.md",
+      "bytes": 7772,
+      "sha256": "58f01ff61f8cfc3ce0b0add49b6cd14ebcda54f3dc57816cc9b9c6dc8c41ffb3"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/record_templates.json",
+      "bytes": 5689,
+      "sha256": "e54cdb3a1424fe0acd30d1564ea77e1359c41873759fdba3c4a3d9aaaf3dcb29"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/REPORT.md",
+      "bytes": 2204,
+      "sha256": "e69d455ff477bfb87d88a5de71ef89a3c45c8ddb8e0e983e7c5b1b2ed4cddcfb"
+    },
+    {
+      "path": "research_runs/agent_research/e1/20261011/verification.json",
+      "bytes": 936,
+      "sha256": "fe20d326ff1df76cd6ff2dc93bf4bb26e098b3dcc831a711b959f7a004d5fc5c"
+    }
+  ]
+}
