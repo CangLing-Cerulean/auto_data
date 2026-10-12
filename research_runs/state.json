@@ -2,14 +2,14 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_confirmation_stopped_transport_output_failure",
+  "phase": "stage1_confirmation_recovery_preflight",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/candidate_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md",
-  "next_action": "stop; preserve_failed_status; no_new_training_or_signal_stage",
+  "next_action": "accept_and_sync_recovery_then_run_nine_missing_C2_confirmations",
   "last_verified_snapshot_at": "2026-10-12T13:56:38.2814869Z",
   "snapshot_only": false,
   "total_training_runs_completed": 255,
@@ -525,7 +525,7 @@
   },
   "intervention_stage1a": {
     "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1",
-    "status": "confirmation_interrupted_stopped",
+    "status": "recovery_preflight_passed",
     "fixed_references": 6,
     "new_candidates_completed": 4,
     "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_cost_summary.json",
@@ -545,6 +545,7 @@
     "confirmation_cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_interruption_cost_summary.json",
     "confirmation_sync": "source_and_release_verified",
     "confirmation_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-interrupted-20261012-r1",
-    "confirmation_source_commit": "06168f82855a96f987da9bce01d106987368f5c0"
+    "confirmation_source_commit": "06168f82855a96f987da9bce01d106987368f5c0",
+    "recovery_protocol": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_recovery_protocol.json"
   }
 }

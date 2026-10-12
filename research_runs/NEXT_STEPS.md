@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+用户已明确继续：[恢复协议](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_RECOVERY_PROTOCOL.md)仅补9项C2、用服务器普通文件接收日志，旧C1失败状态保持且不重跑。锁定已保存计算后使用同一科学门槛完成18格验收，再按原顺序决定是否进入新信号。当前成功计数255，完成补齐后应为264，失败交付另列。以progress为当前状态。
+
 当前停止边界：[确认中断报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。SSH/stdout故障触发用户要求的停止条件；累计成功255，另1失败交付保留，9项未启动，无队列。先完成证据归档与GitHub同步。以后收到继续指令时，处理输出故障并明确恢复边界，不覆盖旧ID/status、不改候选或门槛；完整矩阵之前不得进入信号/S/方法比较。下文运行中计划仅保留历史。
 
 最新：[初始响应报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)完成4次共同池运行，累计247。推进依据是事前登记的整体类别差异，尚无采用收益；下一步仅运行三个额外种子的18次确认，稳定门槛失败即结束本批。确认通过后才构建新信号并另行冻结S决策/启动协议。当前S未运行。

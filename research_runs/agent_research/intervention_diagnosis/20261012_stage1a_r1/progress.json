@@ -1,5 +1,5 @@
 {
-  "status": "stopped_on_confirmation_transport_output_failure",
+  "status": "confirmation_recovery_preflight_passed_awaiting_acceptance_and_source_sync",
   "new_trainings": 18,
   "new_candidate_trainings": 4,
   "new_confirmation_successful_trainings": 8,
@@ -23,6 +23,9 @@
   "initial_sync_receipt": "initial_sync_receipt.json",
   "interruption_sync": "source_and_release_verified",
   "report": "CONFIRMATION_INTERRUPTION_REPORT.md",
-  "next": "stop per user instruction; preserve failure and unstarted IDs",
-  "interruption_sync_receipt": "confirmation_interruption_sync_receipt.json"
+  "next": "run only nine frozen missing C2 jobs after recovery acceptance and source sync",
+  "interruption_sync_receipt": "confirmation_interruption_sync_receipt.json",
+  "recovery_protocol": "confirmation_recovery_protocol.json",
+  "recovery_preflight": "confirmation_recovery_preflight.json",
+  "user_continue_authorized": true
 }
