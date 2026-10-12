@@ -2,15 +2,15 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "skab_intervention_pilot_complete_pending_github_sync",
+  "phase": "skab_intervention_pilot_complete_and_synced",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
-  "next_action": "verify_stage_GitHub_sync_then_freeze_next_multi_task_evidence_and_feedback_study; no_active_queue",
-  "last_verified_snapshot_at": "2026-10-12T09:29:48.6490342Z",
+  "next_action": "no_active_queue; next_scientific_stage_requires_separate_multitask_evidence_and_feedback_protocol; preserve_Hydraulic_for_source_confirmation",
+  "last_verified_snapshot_at": "2026-10-12T09:32:52.3841286Z",
   "snapshot_only": false,
   "total_training_runs_completed": 237,
   "historical_completed_trainings": 134,
@@ -478,7 +478,7 @@
     "new_trainings": 0
   },
   "intervention_skab_pilot": {
-    "status": "accepted_final_B0_pending_github_sync",
+    "status": "complete_and_synced",
     "completed_trainings": 9,
     "failed_trainings": 0,
     "cumulative_completed_trainings": 237,
@@ -495,7 +495,7 @@
     "background_queue": false,
     "test_access": false,
     "external_API_calls": 0,
-    "updated_utc": "2026-10-12T09:27:05.4458574Z",
+    "updated_utc": "2026-10-12T09:32:52.3841286Z",
     "report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
     "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/cost_summary.json",
     "completed_run_ids": [
@@ -508,6 +508,9 @@
       "CW_DOWN_s2026101301",
       "CS_UP_s2026101301",
       "CS_DOWN_s2026101301"
-    ]
+    ],
+    "github_sync": "source_and_release_verified",
+    "source_commit": "c8c98e6516f131e937ad1a45155e192cbb8eb811",
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/skab-intervention-20261012-pilot-r1"
   }
 }
