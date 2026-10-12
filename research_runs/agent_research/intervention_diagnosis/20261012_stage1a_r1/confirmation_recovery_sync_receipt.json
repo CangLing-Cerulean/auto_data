@@ -1,0 +1,25 @@
+{
+  "status": "source_and_release_verified",
+  "verified_utc": "2026-10-12T14:29:46.3956185Z",
+  "scope": "complete_recovered_construction_confirmation",
+  "source_commit": "2cb651f33e03141f7773fceb1eb64b3f593e0f41",
+  "source_receipt": "confirmation_result_source_sync_receipt.json",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-recovered-20261012-r1",
+  "assets": [
+    {
+      "name": "stage1-confirmation-recovered-20261012-r1.tar.gz",
+      "bytes": 399404987,
+      "sha256": "6a2b34a3d447f1bad0b03a48eae65ae1788ee8835e3f97151d3702b021dd6be2",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-confirmation-recovered-20261012-r1/stage1-confirmation-recovered-20261012-r1.tar.gz",
+      "asset_id": 634018784
+    }
+  ],
+  "new_successful_trainings": 9,
+  "cumulative_successful_trainings": 264,
+  "preserved_failed_delivery_count": 1,
+  "scientific_confirmation_cells": 18,
+  "construction_gate_passed": true,
+  "confirmed_adoption_cells": [],
+  "background_model_queue": false,
+  "pending_assets": null
+}

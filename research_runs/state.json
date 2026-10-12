@@ -2,7 +2,7 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_construction_confirmation_accepted_signal_build_pending",
+  "phase": "stage1_construction_confirmed_signal_proposal_running",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/candidate_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
@@ -391,7 +391,7 @@
     "FPR1_O80_DOWN_s2026101101",
     "FPR1_O80_UP_s2026101101"
   ],
-  "latest_stage_sync": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_interruption_sync_receipt.json",
+  "latest_stage_sync": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_recovery_sync_receipt.json",
   "current_autonomous_memory": {
     "status": "completed_and_synced",
     "updated_at_utc": "2026-10-12T05:19:20.9513953Z",
@@ -545,10 +545,13 @@
     "confirmation_cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_interruption_cost_summary.json",
     "confirmation_sync": "source_and_release_verified",
     "confirmation_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-interrupted-20261012-r1",
-    "confirmation_source_commit": "06168f82855a96f987da9bce01d106987368f5c0",
+    "confirmation_source_commit": "2cb651f33e03141f7773fceb1eb64b3f593e0f41",
     "recovery_protocol": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_recovery_protocol.json",
     "recovery_source_commit": "345054cde316f5e9481e097f70e7daaaf573f6a6",
     "recovery_completed_observed": 9,
-    "cumulative_last_phase_audited": 264
+    "cumulative_last_phase_audited": 264,
+    "recovery_sync": "source_and_release_verified",
+    "recovery_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-recovered-20261012-r1",
+    "signal_status": "proposal_running"
   }
 }
