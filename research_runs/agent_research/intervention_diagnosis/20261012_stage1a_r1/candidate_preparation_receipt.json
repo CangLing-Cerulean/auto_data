@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "synthetic_contract_checks": true,
+  "tasks": [
+    {
+      "task": "C1",
+      "status": "PASS",
+      "controls": "same structural support and endpoints; nonlinear median versus linear smoothing; unequal realized edit magnitude is disclosed",
+      "local_groups": {
+        "train": {
+          "target": 106790,
+          "complement": 419651
+        },
+        "validation": {
+          "target": 39752,
+          "complement": 106247
+        }
+      },
+      "realized_input_changes": {
+        "train": {
+          "max_absolute_change": {
+            "P1": 33.89004898071289,
+            "CP1": 17.184484481811523
+          },
+          "changed_elements": {
+            "P1": 17198648,
+            "CP1": 104967358
+          },
+          "total_elements": 252691680
+        },
+        "validation": {
+          "max_absolute_change": {
+            "P1": 32.514244079589844,
+            "CP1": 16.259300231933594
+          },
+          "changed_elements": {
+            "P1": 4600596,
+            "CP1": 29950876
+          },
+          "total_elements": 70079520
+        }
+      },
+      "fit_scope": "all legal T input windows only",
+      "numpy_torch_target_identity": true,
+      "all_windows_retained": true,
+      "uniform_sampling": true,
+      "unit_loss_weight": true,
+      "original_targets_unchanged": true,
+      "params_sha256": "4c52f4141efe4ca9afbefb0b351ec576e5c63826a09dd0a6a5fd2039713b1cb7",
+      "arrays_sha256": "04a0b423a83df3c3646aea06ffed1a691025ecf9d097039f970035464317c112",
+      "proposal_sha256": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+      "test_access": false
+    },
+    {
+      "task": "C2",
+      "status": "PASS",
+      "controls": "same structural support and endpoints; nonlinear median versus linear smoothing; unequal realized edit magnitude is disclosed",
+      "local_groups": {
+        "train": {
+          "target": 183854,
+          "complement": 343138
+        },
+        "validation": {
+          "target": 38682,
+          "complement": 115854
+        }
+      },
+      "realized_input_changes": {
+        "train": {
+          "max_absolute_change": {
+            "P1": 13.78260326385498,
+            "CP1": 6.892174243927002
+          },
+          "changed_elements": {
+            "P1": 18641420,
+            "CP1": 102910867
+          },
+          "total_elements": 252956160
+        },
+        "validation": {
+          "max_absolute_change": {
+            "P1": 12.804865837097168,
+            "CP1": 6.402432441711426
+          },
+          "changed_elements": {
+            "P1": 4489353,
+            "CP1": 30878149
+          },
+          "total_elements": 74177280
+        }
+      },
+      "fit_scope": "all legal T input windows only",
+      "numpy_torch_target_identity": true,
+      "all_windows_retained": true,
+      "uniform_sampling": true,
+      "unit_loss_weight": true,
+      "original_targets_unchanged": true,
+      "params_sha256": "088a1d15090ed3e1dc3c10692618b08c9d31b9911cd2aea3ffa4f72dfb77c527",
+      "arrays_sha256": "8df9b27d1de2cbc6016bdf1f1ec806616e34049d3a5c7126d137664400667593",
+      "proposal_sha256": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+      "test_access": false
+    },
+    {
+      "task": "S1",
+      "status": "PASS",
+      "controls": "same structural support and endpoints; nonlinear median versus linear smoothing; unequal realized edit magnitude is disclosed",
+      "local_groups": {
+        "train": {
+          "target": 12807,
+          "complement": 11
+        },
+        "validation": {
+          "target": 2199,
+          "complement": 11
+        }
+      },
+      "realized_input_changes": {
+        "train": {
+          "max_absolute_change": {
+            "P1": 32.54298400878906,
+            "CP1": 16.274518966674805
+          },
+          "changed_elements": {
+            "P1": 1759845,
+            "CP1": 2901009
+          },
+          "total_elements": 3281408
+        },
+        "validation": {
+          "max_absolute_change": {
+            "P1": 30.777782440185547,
+            "CP1": 15.41003131866455
+          },
+          "changed_elements": {
+            "P1": 296225,
+            "CP1": 498951
+          },
+          "total_elements": 565760
+        }
+      },
+      "fit_scope": "all legal T input windows only",
+      "numpy_torch_target_identity": true,
+      "all_windows_retained": true,
+      "uniform_sampling": true,
+      "unit_loss_weight": true,
+      "original_targets_unchanged": true,
+      "params_sha256": "a6cbddb9f5b867d145acbb63201807eea5ff585e54a1fe936918f70a0be058a9",
+      "arrays_sha256": "6a6c5b51757e15f1f243e15bdc092cc4c64128f594aff08ac34d0354bc1a4108",
+      "proposal_sha256": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+      "test_access": false
+    },
+    {
+      "task": "S2",
+      "status": "PASS",
+      "controls": "same structural support and endpoints; nonlinear median versus linear smoothing; unequal realized edit magnitude is disclosed",
+      "local_groups": {
+        "train": {
+          "target": 18969,
+          "complement": 1
+        },
+        "validation": {
+          "target": 6772,
+          "complement": 0
+        }
+      },
+      "realized_input_changes": {
+        "train": {
+          "max_absolute_change": {
+            "P1": 41.05244064331055,
+            "CP1": 20.533832550048828
+          },
+          "changed_elements": {
+            "P1": 2638560,
+            "CP1": 4328798
+          },
+          "total_elements": 4856320
+        },
+        "validation": {
+          "max_absolute_change": {
+            "P1": 41.64693069458008,
+            "CP1": 20.832475662231445
+          },
+          "changed_elements": {
+            "P1": 916204,
+            "CP1": 1530462
+          },
+          "total_elements": 1733632
+        }
+      },
+      "fit_scope": "all legal T input windows only",
+      "numpy_torch_target_identity": true,
+      "all_windows_retained": true,
+      "uniform_sampling": true,
+      "unit_loss_weight": true,
+      "original_targets_unchanged": true,
+      "params_sha256": "1d6e898758c8c0f0f014066795cdd2a8362f94b3092de1128f65ef4b3c339ba6",
+      "arrays_sha256": "cfdd75f2e0953eb76b0403855d00b9d0ea7c12d102278b647ec364462de6547b",
+      "proposal_sha256": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+      "test_access": false
+    }
+  ],
+  "process_seconds": 8.21634775865823,
+  "new_trainings": 0,
+  "candidate_responses_generated": false,
+  "test_access": false
+}

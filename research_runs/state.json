@@ -391,7 +391,7 @@
     "FPR1_O80_DOWN_s2026101101",
     "FPR1_O80_UP_s2026101101"
   ],
-  "latest_stage_sync": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/sync_receipt.json",
+  "latest_stage_sync": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_sync_receipt.json",
   "current_autonomous_memory": {
     "status": "completed_and_synced",
     "updated_at_utc": "2026-10-12T05:19:20.9513953Z",
@@ -531,6 +531,9 @@
     "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_cost_summary.json",
     "source_commit": "6942e03b7a7fd5f8cf4c344f894fcc1b97c3e203",
     "test_model_access": false,
-    "Hydraulic": "reserved"
+    "Hydraulic": "reserved",
+    "baseline_sync": "source_and_release_verified",
+    "baseline_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-fixed-references-20261012-r1",
+    "candidate_status": "one_median3_proposal_locked_contract_validation_pending"
   }
 }

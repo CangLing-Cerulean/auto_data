@@ -1,0 +1,33 @@
+{
+  "candidate": "P1",
+  "prediction_reference": "fixed_source_half_parent",
+  "category_band_percent": 0.25,
+  "tasks": {
+    "C1": {
+      "operation": {
+        "overall": "uncertain",
+        "target": "uncertain",
+        "complement": "unchanged"
+      },
+      "control": {
+        "overall": "uncertain",
+        "target": "harm",
+        "complement": "uncertain"
+      },
+      "reason": "较大的NMSE与较低的NMAE提示误差可能集中，但现有汇总不能区分输入折返是噪声还是真实信号，因此对主操作整体和目标弃权。中值保留单调局部结构，预计补集响应较小。线性控制会同时平滑折返和真实阶跃，预测目标退化。"
+    },
+    "C2": {
+      "operation": {
+        "overall": "uncertain",
+        "target": "harm",
+        "complement": "unchanged"
+      },
+      "control": {
+        "overall": "harm",
+        "target": "harm",
+        "complement": "uncertain"
+      },
+      "reason": "多个通道的相邻变化强于C1，短时折返可能包含真实状态信息，预警删除这些信息会损害登记目标。整体损失份额未知，因此对主操作整体弃权。线性控制额外平滑持续阶跃，预测整体及目标退化；补集仍可能含阶跃，故不预测其不变。"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "accepted_for_C1_C2_initial_four_responses_only",
+  "reviewer": "Sol high read-only check",
+  "main_acceptance": {
+    "synthetic_contract_checks": "PASS",
+    "all_four_task_preprocessing_checks": "PASS",
+    "C_parent_denominators_positive": {
+      "C2": {
+        "NMSE": 0.2187090542072894,
+        "NMAE": 0.1766799856677625
+      },
+      "C1": {
+        "NMSE": 0.4426872216691914,
+        "NMAE": 0.22759393302723657
+      }
+    },
+    "proposal_predictions_locked_before_any_response": true,
+    "meanings_of_target_and_control_masks": "shared diagnostic slice; neither is a sparse treatment support",
+    "unequal_edit_amounts_disclosed": true
+  },
+  "review_findings": [
+    {
+      "finding": "S activation guard verifies flags/hash but does not validate executable signal identity",
+      "disposition": "S execution NOT accepted under current acceptance. If construction passes, require separately reviewed signal/selector activation implementation before any S training, as already required by protocol."
+    },
+    {
+      "finding": "zero global parent denominator would cause auditor to stop without a gate rather than emit unscorable",
+      "disposition": "Current two frozen C parent denominators verified strictly positive. No scope expansion to other or zero-loss parents is accepted; failure remains fail-closed."
+    }
+  ],
+  "source_files_unchanged": true,
+  "new_training_responses": 0,
+  "allowed_run_count": 4,
+  "Hydraulic": "reserved",
+  "test_access": false
+}

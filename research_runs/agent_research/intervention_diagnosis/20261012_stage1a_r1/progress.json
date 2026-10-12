@@ -1,12 +1,13 @@
 {
-  "status": "fixed_references_complete_pending_result_release_sync",
+  "status": "fixed_references_complete_and_synced_candidate_preflight",
   "new_trainings": 6,
   "failed_model_trainings": 0,
   "cumulative_completed_trainings": 243,
+  "baseline_sync_receipt": "baseline_sync_receipt.json",
   "test_model_access": false,
   "test_integrity_access": true,
   "background_model_queue": false,
   "LLM": "internal_gpt-6.1-sol_high",
-  "candidate_status": "construction_only_proposal_running",
-  "next": "freeze legal candidates and matched controls before response training"
+  "candidate_status": "one_median3_proposal_and_control_locked_zero_responses",
+  "next": "finish candidate contract checks and source synchronization before four construction responses"
 }
