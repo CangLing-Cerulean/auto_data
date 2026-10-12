@@ -1,0 +1,40 @@
+{
+  "completed_trainings": 11,
+  "failed_trainings": 1,
+  "training_process_seconds": 913.9632334448397,
+  "evaluation_process_seconds": 106.24366659671068,
+  "tool_decisions": 11,
+  "execution_categories": {
+    "diagnostics": {
+      "attempts": 2,
+      "failures": 1,
+      "process_seconds": 33.201950596645474
+    },
+    "processing": {
+      "attempts": 1,
+      "failures": 0,
+      "process_seconds": 2.532461965456605
+    },
+    "controls": {
+      "attempts": 1,
+      "failures": 0,
+      "process_seconds": 2.350053877569735
+    },
+    "processor_checks": {
+      "attempts": 1,
+      "failures": 0,
+      "process_seconds": 2.418599491007626
+    },
+    "control_processor_checks": {
+      "attempts": 1,
+      "failures": 0,
+      "process_seconds": 2.3172776019200683
+    }
+  },
+  "external_API_calls": 0,
+  "external_API_tokens": 0,
+  "internal_model_cost": null,
+  "internal_model_cost_note": "Platform does not expose internal Sol high token/price usage; not zero or free",
+  "baseline_total_trainings": 217,
+  "cumulative_completed_trainings": 228
+}

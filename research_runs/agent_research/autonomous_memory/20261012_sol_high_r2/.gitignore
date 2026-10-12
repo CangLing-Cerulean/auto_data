@@ -1,0 +1,11 @@
+# Keep complete controller decisions and raw runtime snapshots locally.
+/context.json
+/decision_*.json
+!/decision_summary.json
+/result_*.json
+/confirmation_status_snapshot.json
+/recovery_audit.json
+/search_progress_final.json
+/archives/
+/private/
+/engineering/*.log

@@ -2,6 +2,7 @@
 import argparse
 import json
 import os
+import shutil
 from pathlib import Path
 import sys
 import time
@@ -28,6 +29,8 @@ def main():
     if os.name != 'posix':
         raise GateError('RESEARCH_SERVER_REQUIRED')
     folder = Path(args.folder)
+    if shutil.disk_usage(folder).free < 2 * 1024**3:
+        raise GateError('DISK_RESERVE_REQUIRES_ARCHIVE_BEFORE_NEXT_ACTION')
     protocol = read_json(folder / 'protocol.json')
     library = read_json(MEMORY / 'library.json')
     verify_memory(library)

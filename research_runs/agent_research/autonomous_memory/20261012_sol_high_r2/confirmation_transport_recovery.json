@@ -1,0 +1,12 @@
+{
+  "event": "SSH client_loop connection reset during frozen confirmation",
+  "after_reconnect": "No confirmation, training or scope-evaluation process remained active",
+  "verified_before_resume": {"completed_trainings": 5, "exploration_trainings": 2, "first_confirmation_seed": 2026101202, "first_confirmation_seed_completed_jobs": 3, "unfinished_training_records": 0, "verified_assets": 25},
+  "recovery": "Same unchanged confirmation script and freeze; completed job identities are reused from verified results. Continue only the remaining six planned trainings.",
+  "transport_hardening": "nohup process with durable server log, actively monitored in this task",
+  "resume_pid": 25333,
+  "server_log": "confirmation_resume_01.log",
+  "new_seeds_or_recipe_changes": false,
+  "repeated_completed_training": false,
+  "cause": "SSH connection reset observed; exact transport cause not established"
+}

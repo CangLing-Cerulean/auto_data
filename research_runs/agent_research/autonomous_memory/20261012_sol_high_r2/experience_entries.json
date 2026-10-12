@@ -1,0 +1,28 @@
+{
+  "version": "autonomous-memory-r2-outcomes-v1",
+  "frozen_memory_v2_modified": false,
+  "scope": "MetroPT3 T/D, fixed individual DLinear, development-only",
+  "entries": [
+    {
+      "id": "R2_known_recipe_reuse",
+      "status": "conditional_support",
+      "finding": "A historical source-half representation reused by an autonomous Sol high agent yields a candidate that improves three-seed mean NMSE versus unprocessed B0 by 3.940884%, with mean NMAE improving 0.361558%.",
+      "qualification": "This validates the combined candidate against B0 on reused development data, not autonomous rediscovery, independent transfer or causal feedback benefit.",
+      "sources": ["confirmation_result.json", "scientific_review.json", "memory/02_processing_recipe.json"]
+    },
+    {
+      "id": "R2_source_sign_increment",
+      "status": "incremental_hypothesis_not_supported",
+      "finding": "Changing the source coefficient signs for TP2 and DV_eletric from +0.5 to -0.5 produces 0.384154% worse global and 13.109430% worse preregistered local NMSE than the all-positive control. Every confirmation seed has the same direction.",
+      "qualification": "Do not turn this into a ban on sign processing in other settings. The tested sign choice and frozen training procedure failed their incremental criterion; correlations alone did not predict processing benefit.",
+      "sources": ["control_semantic_review.json", "confirmation_result.json", "recipe/candidate/processor_state.json", "recipe/control/processor_state.json"]
+    },
+    {
+      "id": "R2_monitor_atomic_rename",
+      "status": "engineering_defect_reproduced_and_repaired",
+      "finding": "An enumerated temporary output can disappear during atomic rename and trigger NATIVE_OUTPUT_TYPE. A single lstat snapshot that skips FileNotFoundError passes seven regression tests while preserving output boundaries.",
+      "qualification": "Original failure lacks event-level tracing; do not retroactively label every historical NATIVE_OUTPUT_TYPE as this race. One new recovery job replaced only the missing control in the confirmation summary.",
+      "sources": ["engineering/amendment.json", "engineering/regression_result.json", "confirmation_failed_execution.json"]
+    }
+  ]
+}

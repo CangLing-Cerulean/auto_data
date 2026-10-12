@@ -1,0 +1,17 @@
+{
+  "stage": "after_search_freeze_before_reading_confirmation_outcomes",
+  "reviewer": "primary_assistant",
+  "candidate_id": "src_signed_half_r2_01",
+  "control_kind": "known_all_positive_source_half",
+  "processor_source_sha256_both": "6ce243a1ea70777360231a26570f65a3ff3cedca3afe30a848a126d4a49de900",
+  "functional_differences": ["TP2 source-change coefficient changes from +0.5 to -0.5", "DV_eletric source-change coefficient changes from +0.5 to -0.5"],
+  "matched": ["six destination/source mappings", "own last-value anchor", "0.5 own-history coefficient", "absolute source coefficient 0.5", "all legal windows", "uniform weights and sampling", "original targets", "fixed DLinear and training parameters", "same paired seeds and evaluation windows"],
+  "nonfunctional_difference": "processor_state.origin text records candidate versus historical control provenance and is not read by transform",
+  "no_transform_leakage": "Code reads only the past x supplied by the trusted trainer, writes x.clone(), and reads each source from original x. No target, file, network, trainable state or batch mixing is present in transform.",
+  "runtime_validation": "Both processors passed CPU and CUDA checks on 17 real T windows, including state immutability and batch independence; these finite checks are not a universal proof.",
+  "control_appropriateness": "Appropriate matched comparison for whether the two sign changes add value beyond the already known source-half representation under the fixed training procedure.",
+  "limitations": ["The sign changes alter input magnitude and covariance, so the comparison does not separate informational effects from optimization-scale effects.", "The registered local scope includes H1, whose sign does not change against the control; the scope is preserved as preregistered.", "The source mapping and half-mixing method are inherited historical knowledge. Success cannot be called source-half rediscovery.", "The independent numeric T claim is a global Oil_temperature mean and establishes an arithmetic crosscheck only, not the correctness of the richer correlation interpretation.", "Same-source reused development data and random-seed confirmation do not establish independent generalization or the causal value of feedback."],
+  "C_semantic_appropriateness": true,
+  "C_numeric": "pending",
+  "physical_causality": false
+}

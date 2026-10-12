@@ -1,0 +1,192 @@
+{
+  "results": [
+    {
+      "seed": 2026101202,
+      "baseline": {
+        "NMAE": 0.19404482136355902,
+        "NMSE": 0.28878016687226016,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMAE": 0.19294675786049043,
+        "NMSE": 0.2775093846638088,
+        "windows": 300535
+      },
+      "control": {
+        "NMAE": 0.19353421300508206,
+        "NMSE": 0.2764832837178332,
+        "windows": 300535
+      },
+      "local_baseline": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.27779377622449225,
+        "NMAE": 0.3240719570546366,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_candidate": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.2701666443831831,
+        "NMAE": 0.3150431484148428,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_control": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.2322044162789572,
+        "NMAE": 0.290628898085789,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "jobs": {
+        "baseline": "543bf563cfa9e7adf5c64a694d3adc8ad1186df8f08f576ccb5376d3aee1a75f",
+        "candidate": "6a2b88ff6a6d8794a1ededbf65e11aa1cc649a30a558061373a873527c141a25",
+        "control": "75eb93949813cf808aef5363d19585d3bea9ddbe17fcdf39d2b32898d20ed9bd"
+      }
+    },
+    {
+      "seed": 2026101203,
+      "baseline": {
+        "NMAE": 0.19143659693624065,
+        "NMSE": 0.28992005650483704,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMAE": 0.19435289082037321,
+        "NMSE": 0.27915661866902763,
+        "windows": 300535
+      },
+      "control": {
+        "NMAE": 0.19361831677522992,
+        "NMSE": 0.2774316428861983,
+        "windows": 300535
+      },
+      "local_baseline": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.2701197620443951,
+        "NMAE": 0.3121978207231923,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_candidate": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.26940123325268445,
+        "NMAE": 0.3146066895840438,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_control": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.23922312383207778,
+        "NMAE": 0.29265689693987945,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "jobs": {
+        "baseline": "0dd93cf40573b24eef799c5ca73cf0efcecd52948429ce030be754862dfb3f2d",
+        "candidate": "d8e013ba8fd1ad9e3f3add36f25815580a5232d3ab8241cdb0d4530c5898ee5f",
+        "control": "c6921847a0a2805eea52c1e3510d6bdf1d82dc81f6ed50f50d4a2c5981e18fe6"
+      }
+    },
+    {
+      "seed": 2026101204,
+      "baseline": {
+        "NMAE": 0.19617011219995106,
+        "NMSE": 0.28760845927953693,
+        "windows": 300535
+      },
+      "candidate": {
+        "NMAE": 0.19224887389901502,
+        "NMSE": 0.27550246326503947,
+        "windows": 300535
+      },
+      "control": {
+        "NMAE": 0.1947300895966288,
+        "NMSE": 0.27506896205166625,
+        "windows": 300535
+      },
+      "local_baseline": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.28951085848355634,
+        "NMAE": 0.34786893729145046,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_candidate": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.26834355780180463,
+        "NMAE": 0.3152751766350403,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "local_control": {
+        "group": "high_input_variation",
+        "channels": [
+          "TP2",
+          "H1",
+          "DV_eletric"
+        ],
+        "windows": 21714,
+        "NMSE": 0.24284662658675846,
+        "NMAE": 0.30446140818538164,
+        "persistence_NMSE": 0.26376279767646693,
+        "persistence_NMAE": 0.10955232920258429
+      },
+      "jobs": {
+        "baseline": "aff03069c372b02a57fad0f52683b813edd81f7a93389219280c44eb3833c18d",
+        "candidate": "d4a9b096b470890843608e158f74277382c7364bdc10c21b1c629d80b10a4e45",
+        "control": "bea8c974dac0e919550c1c499f063ccd48305c013a4b591464991812a4fd312d"
+      }
+    }
+  ],
+  "completed_seeds": 3,
+  "engineering_amendment": "engineering/amendment.json"
+}

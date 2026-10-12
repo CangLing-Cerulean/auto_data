@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "real_T_windows": 17,
+  "records_per_window": 32,
+  "channels": 15,
+  "checks": [
+    {
+      "device": "cpu",
+      "mean_abs_input_change": 0.14824947714805603
+    },
+    {
+      "device": "cuda",
+      "mean_abs_input_change": 0.14824946224689484
+    }
+  ],
+  "batch_independence": "checked_on_real_T_windows_not_a_universal_proof",
+  "state_immutable": true,
+  "sources": {
+    "/tmp/auto_data_autonomous_memory_20261012_r2/research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/run/processing/src_signed_half_r2_01/inputs/train_inputs.npz": "76444dfff129babf0eb80de8c4fcb5f8fee9f967ddbf5b08725aaa43211cb1c9",
+    "/tmp/auto_data_autonomous_memory_20261012_r2/research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/run/processing/src_signed_half_r2_01/outputs/processor.py": "6ce243a1ea70777360231a26570f65a3ff3cedca3afe30a848a126d4a49de900",
+    "/tmp/auto_data_autonomous_memory_20261012_r2/research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/run/processing/src_signed_half_r2_01/outputs/processor_state.json": "155431a93a03ba6b33e8a0fd4dc7a8574211ecf8d8e1e6a174d97b7435a0bd45"
+  },
+  "training_calls": 0,
+  "test_access": false,
+  "security_sandbox": false
+}

@@ -1,0 +1,1001 @@
+{
+  "status": "execution_assets_verified",
+  "verified_assets": 55,
+  "trainings": [
+    {
+      "candidate_id": "B0",
+      "job_id": "744adfffeee5ec15b9909765a8a7143fc54b0cb6ab8147ac9006eeb40e48d34e",
+      "status": "completed",
+      "elapsed_seconds": 73.36173042096198,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "ae49d9117a2d0eb8810e71baeb99b2b8b553c36428722ca28d741b7c7749e4d1",
+      "loss_weight_sha256": "74ba1365ba128f0b6c96212ec75313369245039e00e16a3f88b7cf93a303d9a6",
+      "seed": 2026101201,
+      "metrics": {
+        "NMAE": 0.19536922023936432,
+        "NMSE": 0.2881444511817621,
+        "windows": 300535
+      },
+      "best_step": 2000,
+      "per_channel_NMSE": [
+        0.4726078103083825,
+        0.09812654300878032,
+        0.4323755125174111,
+        0.1439927881025104,
+        0.09817660499523197,
+        0.030109997491347525,
+        0.3025615663753422,
+        0.4414765709844339,
+        0.43527463925244697,
+        0.7479085440372147,
+        0.425241478213887,
+        0.19636755211119647,
+        0.37304608566483527,
+        0.10991881515931236,
+        0.014982259504098754
+      ],
+      "per_channel_NMAE": [
+        0.34987554873157556,
+        0.1603007861802323,
+        0.2949999240169451,
+        0.031789746342760584,
+        0.15970646862816054,
+        0.09095362788862033,
+        0.26270647316627926,
+        0.3325893844813178,
+        0.3282252389486752,
+        0.42599508650040635,
+        0.32180226320282734,
+        0.01944484803259916,
+        0.08529482260756395,
+        0.055605639558113366,
+        0.011248445304385735
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.29186391302072584,
+        "NMAE": 0.1935415191412065,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "src_signed_half_r2_01",
+      "job_id": "c9e753d1dcfc9db397a1f31de8af31b0add3b1d912001d51bd36ab8ec415335b",
+      "status": "completed",
+      "elapsed_seconds": 79.51860172115266,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "ae49d9117a2d0eb8810e71baeb99b2b8b553c36428722ca28d741b7c7749e4d1",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101201,
+      "metrics": {
+        "NMAE": 0.1903056738598273,
+        "NMSE": 0.27647199412073387,
+        "windows": 300535
+      },
+      "best_step": 2000,
+      "per_channel_NMSE": [
+        0.44843870232736743,
+        0.05999015611535455,
+        0.3986892567042104,
+        0.1439927881025104,
+        0.05981767815409258,
+        0.013427633089784443,
+        0.3025615663753422,
+        0.4414765709844339,
+        0.4112208252673673,
+        0.7479085440372147,
+        0.425241478213887,
+        0.19636755211119647,
+        0.37304608566483527,
+        0.10991881515931236,
+        0.014982259504098754
+      ],
+      "per_channel_NMAE": [
+        0.34732249497116585,
+        0.1305214542701127,
+        0.30131709795329586,
+        0.031789746342760584,
+        0.13012941357263644,
+        0.07590013136200448,
+        0.26270647316627926,
+        0.3325893844813178,
+        0.32291780657194125,
+        0.42599508650040635,
+        0.32180226320282734,
+        0.01944484803259916,
+        0.08529482260756395,
+        0.055605639558113366,
+        0.011248445304385735
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.2809659685751236,
+        "NMAE": 0.18971203727378982,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_baseline",
+      "job_id": "543bf563cfa9e7adf5c64a694d3adc8ad1186df8f08f576ccb5376d3aee1a75f",
+      "status": "completed",
+      "elapsed_seconds": 74.29833465255797,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "046ee84560306e6d987e5b16640d6dccb222ccb7e14943c8e8a00d9ede1700f5",
+      "loss_weight_sha256": "74ba1365ba128f0b6c96212ec75313369245039e00e16a3f88b7cf93a303d9a6",
+      "seed": 2026101202,
+      "metrics": {
+        "NMAE": 0.19404482136355902,
+        "NMSE": 0.28878016687226016,
+        "windows": 300535
+      },
+      "best_step": 2500,
+      "per_channel_NMSE": [
+        0.473659675626567,
+        0.09577847549773422,
+        0.43333004043493983,
+        0.14497303780464132,
+        0.09643277260008039,
+        0.02852908843818933,
+        0.30458296316144445,
+        0.44433376100244715,
+        0.4344494696295634,
+        0.7600729114973485,
+        0.4261039146814074,
+        0.19349998760927123,
+        0.3717510825307843,
+        0.10911800366864563,
+        0.015087318900839352
+      ],
+      "per_channel_NMAE": [
+        0.3481805273362908,
+        0.15566116014121734,
+        0.2936242672181638,
+        0.03404700490174647,
+        0.15630207014936573,
+        0.08791873108453463,
+        0.2576337846352177,
+        0.32846889112413136,
+        0.3292619914207097,
+        0.42461749362665446,
+        0.31987542552035525,
+        0.022599478782464773,
+        0.08392185448853483,
+        0.056049621497115926,
+        0.012510018526882057
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.2908854646240219,
+        "NMAE": 0.19623687575980012,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_candidate",
+      "job_id": "6a2b88ff6a6d8794a1ededbf65e11aa1cc649a30a558061373a873527c141a25",
+      "status": "completed",
+      "elapsed_seconds": 78.87089174147695,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "046ee84560306e6d987e5b16640d6dccb222ccb7e14943c8e8a00d9ede1700f5",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101202,
+      "metrics": {
+        "NMAE": 0.19294675786049043,
+        "NMSE": 0.2775093846638088,
+        "windows": 300535
+      },
+      "best_step": 1500,
+      "per_channel_NMSE": [
+        0.44156868923419396,
+        0.06084841804700141,
+        0.3927025594508775,
+        0.14427204724375162,
+        0.06087093729778035,
+        0.01392071605908257,
+        0.3001115586388964,
+        0.4401999317498878,
+        0.40893750093997344,
+        0.7497220281811035,
+        0.42268447628981914,
+        0.23522569304853655,
+        0.3712947655363673,
+        0.10519239427257476,
+        0.015089053967284133
+      ],
+      "per_channel_NMAE": [
+        0.3594831457458977,
+        0.13249446030785522,
+        0.3105337196009007,
+        0.03458950254966806,
+        0.1321954087447677,
+        0.078266780290148,
+        0.27059728768591956,
+        0.3304741953052338,
+        0.3212967559306954,
+        0.4237554368216681,
+        0.3219004246340236,
+        0.031226406463632127,
+        0.08638197687981224,
+        0.049732956323031235,
+        0.011272910624102404
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.27987224159924645,
+        "NMAE": 0.1915470151442256,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_control",
+      "job_id": "75eb93949813cf808aef5363d19585d3bea9ddbe17fcdf39d2b32898d20ed9bd",
+      "status": "completed",
+      "elapsed_seconds": 81.512825303711,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "046ee84560306e6d987e5b16640d6dccb222ccb7e14943c8e8a00d9ede1700f5",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101202,
+      "metrics": {
+        "NMAE": 0.19353421300508206,
+        "NMSE": 0.2764832837178332,
+        "windows": 300535
+      },
+      "best_step": 2500,
+      "per_channel_NMSE": [
+        0.4412984319817913,
+        0.05994680653639622,
+        0.40064848963000743,
+        0.14497303780464132,
+        0.05969449647091892,
+        0.012985247808357315,
+        0.30458296316144445,
+        0.44433376100244715,
+        0.40315280248319796,
+        0.7600729114973485,
+        0.4261039146814074,
+        0.19349998760927123,
+        0.3717510825307843,
+        0.10911800366864563,
+        0.015087318900839352
+      ],
+      "per_channel_NMAE": [
+        0.37053399623154526,
+        0.12852968995215114,
+        0.3101527768060481,
+        0.03404700490174647,
+        0.1274913358495023,
+        0.0750254590637347,
+        0.2576337846352177,
+        0.32846889112413136,
+        0.35155636407014734,
+        0.42461749362665446,
+        0.31987542552035525,
+        0.022599478782464773,
+        0.08392185448853483,
+        0.056049621497115926,
+        0.012510018526882057
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.2783734762773563,
+        "NMAE": 0.19512487305258103,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_baseline",
+      "job_id": "0dd93cf40573b24eef799c5ca73cf0efcecd52948429ce030be754862dfb3f2d",
+      "status": "completed",
+      "elapsed_seconds": 73.64463407732546,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "641097ce0ea5051ce2479a760c936b67fc819abe6aee30c44705a48c6959643b",
+      "loss_weight_sha256": "74ba1365ba128f0b6c96212ec75313369245039e00e16a3f88b7cf93a303d9a6",
+      "seed": 2026101203,
+      "metrics": {
+        "NMAE": 0.19143659693624065,
+        "NMSE": 0.28992005650483704,
+        "windows": 300535
+      },
+      "best_step": 3000,
+      "per_channel_NMSE": [
+        0.4760409557380902,
+        0.096396723761865,
+        0.43488598264195527,
+        0.1446681016379658,
+        0.09650979559964114,
+        0.027146407180233412,
+        0.30564035331036044,
+        0.4438245300195808,
+        0.4405164187438797,
+        0.7585988069867768,
+        0.4261381590092231,
+        0.19274331883699042,
+        0.37228889894331335,
+        0.11860521345610307,
+        0.014797181706579203
+      ],
+      "per_channel_NMAE": [
+        0.33799383633394914,
+        0.15430653265732597,
+        0.2846973924201091,
+        0.03149024951964933,
+        0.1550909884108956,
+        0.08549741670769893,
+        0.25227534510745,
+        0.32325546972069086,
+        0.31493015689018444,
+        0.42260380939404935,
+        0.3127914535228941,
+        0.019900622023382178,
+        0.08661851889781241,
+        0.07754300661189334,
+        0.012554155825626048
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.28992005650483693,
+        "NMAE": 0.1914365969362407,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_candidate",
+      "job_id": "d8e013ba8fd1ad9e3f3add36f25815580a5232d3ab8241cdb0d4530c5898ee5f",
+      "status": "completed",
+      "elapsed_seconds": 79.90888526011258,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "641097ce0ea5051ce2479a760c936b67fc819abe6aee30c44705a48c6959643b",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101203,
+      "metrics": {
+        "NMAE": 0.19435289082037321,
+        "NMSE": 0.27915661866902763,
+        "windows": 300535
+      },
+      "best_step": 1000,
+      "per_channel_NMSE": [
+        0.44619253706308953,
+        0.06345945698691743,
+        0.39448571410364514,
+        0.14284402483657255,
+        0.06415922740924737,
+        0.015051879533328734,
+        0.30233126176594494,
+        0.44179797489897255,
+        0.4079388523573798,
+        0.7554640676396461,
+        0.42428467229901395,
+        0.2287273496137061,
+        0.37428579711075954,
+        0.11134880321238431,
+        0.014977661204805561
+      ],
+      "per_channel_NMAE": [
+        0.3572299875313868,
+        0.1370820444721843,
+        0.31641489918752885,
+        0.031984234264460315,
+        0.1403207358916609,
+        0.08095504853209526,
+        0.26844531957946444,
+        0.3278779227666686,
+        0.33030353482955627,
+        0.41928361895742183,
+        0.31925680302609066,
+        0.02715907335429468,
+        0.08905925247608748,
+        0.059133322507561745,
+        0.010787564929136113
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.27925814998198023,
+        "NMAE": 0.18785763413466874,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_control",
+      "job_id": "c6921847a0a2805eea52c1e3510d6bdf1d82dc81f6ed50f50d4a2c5981e18fe6",
+      "status": "completed",
+      "elapsed_seconds": 79.3432508725673,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "641097ce0ea5051ce2479a760c936b67fc819abe6aee30c44705a48c6959643b",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101203,
+      "metrics": {
+        "NMAE": 0.19361831677522992,
+        "NMSE": 0.2774316428861983,
+        "windows": 300535
+      },
+      "best_step": 2000,
+      "per_channel_NMSE": [
+        0.44164653593773706,
+        0.059900850392225785,
+        0.407370277600447,
+        0.1434639071316719,
+        0.059720404398451804,
+        0.013519005418197385,
+        0.30027715022519,
+        0.44292043804086384,
+        0.4022087202334378,
+        0.7563511649486045,
+        0.4243500114604111,
+        0.20143850892675516,
+        0.3726229787913305,
+        0.12086993275672284,
+        0.014814757030928383
+      ],
+      "per_channel_NMAE": [
+        0.36836923933246124,
+        0.12877843123927893,
+        0.2953244118882528,
+        0.033013044134331385,
+        0.1287256335058118,
+        0.07646320764922529,
+        0.27201285961243954,
+        0.32733710737242633,
+        0.3456666513316929,
+        0.41769320004487603,
+        0.31837231769072216,
+        0.018405967109781183,
+        0.0883513805503609,
+        0.07391569781327664,
+        0.011845602353511907
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.2774348128810042,
+        "NMAE": 0.19134443120662487,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_baseline",
+      "job_id": "aff03069c372b02a57fad0f52683b813edd81f7a93389219280c44eb3833c18d",
+      "status": "completed",
+      "elapsed_seconds": 73.41495076566935,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "7d4f1dfe18073fe73d887b7c028e3c0509cfda9d1b36f4c1537e9d3a6c2bcafb",
+      "loss_weight_sha256": "74ba1365ba128f0b6c96212ec75313369245039e00e16a3f88b7cf93a303d9a6",
+      "seed": 2026101204,
+      "metrics": {
+        "NMAE": 0.19617011219995106,
+        "NMSE": 0.28760845927953693,
+        "windows": 300535
+      },
+      "best_step": 2500,
+      "per_channel_NMSE": [
+        0.46846559759689815,
+        0.09689145742234295,
+        0.43010204613542086,
+        0.14442783174541526,
+        0.09770551054880992,
+        0.028450820042879927,
+        0.30347815022745817,
+        0.44145624795810756,
+        0.4340494395440138,
+        0.7537086051524975,
+        0.423946320903512,
+        0.19315542194910365,
+        0.3725710507049392,
+        0.11090732470972167,
+        0.014811064551932767
+      ],
+      "per_channel_NMAE": [
+        0.35608215997213455,
+        0.15738693131859072,
+        0.3015829244184293,
+        0.03267105886203865,
+        0.15840802598362863,
+        0.08882862562207244,
+        0.25899132586958484,
+        0.3322308409930692,
+        0.3281381569620361,
+        0.42299925503173874,
+        0.3229301280467656,
+        0.017152372124689837,
+        0.08767205385849267,
+        0.06572628339450197,
+        0.011751540541493426
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.28898927750279985,
+        "NMAE": 0.19263728584537845,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_candidate",
+      "job_id": "d4a9b096b470890843608e158f74277382c7364bdc10c21b1c629d80b10a4e45",
+      "status": "completed",
+      "elapsed_seconds": 80.04353110305965,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "7d4f1dfe18073fe73d887b7c028e3c0509cfda9d1b36f4c1537e9d3a6c2bcafb",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101204,
+      "metrics": {
+        "NMAE": 0.19224887389901502,
+        "NMSE": 0.27550246326503947,
+        "windows": 300535
+      },
+      "best_step": 2500,
+      "per_channel_NMSE": [
+        0.43892337969036144,
+        0.059921876524097625,
+        0.3923345480662503,
+        0.14442783174541526,
+        0.05968696293727465,
+        0.013280771456866092,
+        0.30347815022745817,
+        0.44145624795810756,
+        0.40992739239805165,
+        0.7537086051524975,
+        0.423946320903512,
+        0.19315542194910365,
+        0.3725710507049392,
+        0.11090732470972167,
+        0.014811064551932767
+      ],
+      "per_channel_NMAE": [
+        0.3619811431488463,
+        0.1299017970167216,
+        0.31116369482498146,
+        0.03267105886203865,
+        0.1294114745460877,
+        0.07632603773072302,
+        0.25899132586958484,
+        0.3322308409930692,
+        0.32282410249549,
+        0.42299925503173874,
+        0.3229301280467656,
+        0.017152372124689837,
+        0.08767205385849267,
+        0.06572628339450197,
+        0.011751540541493426
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.2787106644907894,
+        "NMAE": 0.18875505127218634,
+        "windows": 300535
+      }
+    },
+    {
+      "candidate_id": "confirmation_control",
+      "job_id": "ad5444427bcea4c3dd470c902c611666714d8f041a40fc8624b9e288d9ff6c48",
+      "status": "failed",
+      "elapsed_seconds": 64.63650423102081,
+      "error": "NATIVE_OUTPUT_TYPE"
+    },
+    {
+      "candidate_id": "confirmation_control_recovery",
+      "job_id": "bea8c974dac0e919550c1c499f063ccd48305c013a4b591464991812a4fd312d",
+      "status": "completed",
+      "elapsed_seconds": 75.40909329522401,
+      "start_row_sha256": "e84102dd2e529fec5bb3397963cf9959704a95e0436fd813ff66817b310f61e0",
+      "probability_sha256": "76d2b2de450d1e07ed2731152b4b1915d6527893cd4e9ebedba14edc7beb1ace",
+      "draw_count_sha256": "7d4f1dfe18073fe73d887b7c028e3c0509cfda9d1b36f4c1537e9d3a6c2bcafb",
+      "loss_weight_sha256": "147892cf1db8e53263e02099d35896c06dcd0ec3594690dae2de73e5a7d51dfb",
+      "seed": 2026101204,
+      "metrics": {
+        "NMAE": 0.1947300895966288,
+        "NMSE": 0.27506896205166625,
+        "windows": 300535
+      },
+      "best_step": 2500,
+      "per_channel_NMSE": [
+        0.4400393141682863,
+        0.059921876524097625,
+        0.3923345480662503,
+        0.14442783174541526,
+        0.05968696293727465,
+        0.013280771456866092,
+        0.30347815022745817,
+        0.44145624795810756,
+        0.40230893971952975,
+        0.7537086051524975,
+        0.423946320903512,
+        0.19315542194910365,
+        0.3725710507049392,
+        0.11090732470972167,
+        0.014811064551932767
+      ],
+      "per_channel_NMAE": [
+        0.3743597367563581,
+        0.1299017970167216,
+        0.31116369482498146,
+        0.03267105886203865,
+        0.1294114745460877,
+        0.07632603773072302,
+        0.25899132586958484,
+        0.3322308409930692,
+        0.34766374435218467,
+        0.42299925503173874,
+        0.3229301280467656,
+        0.017152372124689837,
+        0.08767205385849267,
+        0.06572628339450197,
+        0.011751540541493426
+      ],
+      "fixed_step_3000_metrics": {
+        "NMSE": 0.27671045914064507,
+        "NMAE": 0.1925340680285127,
+        "windows": 300535
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "src_signed_half_r2_01",
+      "status": "trained",
+      "proposal": {
+        "control": "独立资产构建器复现已知全正号 source-half：相同六通道映射、0.5自身变化和0.5来源变化、原末值锚点、原窗口成员、均匀权重及采样。唯一处理规则差异为 TP2 和 DV_eletric 的来源项符号，因此检验新增符号取向是否超出已知复用收益。输入幅度及协方差可能随符号改变；此控制不能排除所有优化尺度解释。控制仅在搜索冻结后执行，不返回搜索反馈。",
+        "evidence_refs": [
+          "baseline",
+          "baseline_scope:5d80682afb9bac7a5cd357b0",
+          "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+          "history_extra_1",
+          "history_extra_2",
+          "history_extra_4"
+        ],
+        "expected_effect": {
+          "criterion": "探索种子整体 NMSE 相对本轮 B0 至少改善1%，整体 NMAE不超过1.01倍B0；已登记 TP2/H1/DV_eletric 高输入变化组 NMSE 至少改善3%。冻结后按协议进行额外种子确认。",
+          "direction": "decrease",
+          "metric": "NMSE",
+          "target_scope": "all"
+        },
+        "falsification": "整体 NMSE改善不足1%、整体 NMAE退化超过1%或登记局部改善不足3%，均不支持完整有效性预测。若冻结后的额外种子确认不符合协议，则不升级为确认有效；若未优于全正号 source-half 匹配控制，不能支持新增符号机制。",
+        "hypothesis": "复用已知六通道 source-half 映射、末值锚点和0.5幅度，仅对 TP2/DV_eletric 的来源变化反号，其余四个来源项保持正号；预期符号取向改善目标组的信息组合，在固定 individual DLinear 下降低开发预测误差。所有合法窗口保留，损失权重和采样均为1，不改变目标或模型。",
+        "observation": "本轮高输入变化组 TP2/H1/DV_eletric 的 B0 NMSE=0.28164229664045054，持久性 NMSE=0.26376279767646693，实测相对缺口6.778628040605916%。固定 T 分块抽样中，来源最近四条变化与未来自身变化的关联在三块中：TP2均为负、H1均为正、DV_eletric均为负；自身最近四条变化关联分别较弱。相关性仅为提出干预的依据。"
+      },
+      "signal_id": "src_sign_r2_01",
+      "post_result_update": {
+        "assessment": "supported",
+        "next_action": "完成不可改写的结果更新后，冻结提交当前唯一且最低合格NMSE候选，按协议进入额外种子及已登记控制确认；不将确认结果返回搜索。",
+        "reason": "仅支持本探索种子的事前处理有效性判据：完整 D 的300535个窗口上，NMSE从B0的0.2881444511817621降至0.27647199412073387，约改善4.05%；NMAE从0.19536922023936432降至0.1903056738598273，约改善2.59%。登记目标组21714个窗口的NMSE从0.28164229664045054降至0.2616915021598644，约改善7.08%，超过3%局部门槛。全正号 source-half 控制及额外种子尚未执行，因此符号机制、重复稳定性和独立泛化仍为证据不足。",
+        "receipt_sha256": "5e7c5375eb20610301351689cd9e58fd5746fdbed9f2c7972f988ebff539284e",
+        "revised_hypothesis": "既有 source-half 加两个来源反号的处理在当前固定模型与探索种子上达到总体及登记局部判据；新增符号规则是否优于已知 source-half，必须由已登记匹配控制的冻结确认检验，不能用本次B0差值归因。"
+      },
+      "receipt_sha256": "5e7c5375eb20610301351689cd9e58fd5746fdbed9f2c7972f988ebff539284e"
+    }
+  ],
+  "costs": {
+    "completed_trainings": 11,
+    "failed_trainings": 1,
+    "training_process_seconds": 913.9632334448397,
+    "evaluation_process_seconds": 106.24366659671068,
+    "tool_decisions": 11,
+    "execution_categories": {
+      "diagnostics": {
+        "attempts": 2,
+        "failures": 1,
+        "process_seconds": 33.201950596645474
+      },
+      "processing": {
+        "attempts": 1,
+        "failures": 0,
+        "process_seconds": 2.532461965456605
+      },
+      "controls": {
+        "attempts": 1,
+        "failures": 0,
+        "process_seconds": 2.350053877569735
+      },
+      "processor_checks": {
+        "attempts": 1,
+        "failures": 0,
+        "process_seconds": 2.418599491007626
+      },
+      "control_processor_checks": {
+        "attempts": 1,
+        "failures": 0,
+        "process_seconds": 2.3172776019200683
+      }
+    },
+    "external_API_calls": 0,
+    "external_API_tokens": 0,
+    "internal_model_cost": null,
+    "internal_model_cost_note": "Platform does not expose internal Sol high token/price usage; not zero or free",
+    "baseline_total_trainings": 217,
+    "cumulative_completed_trainings": 228
+  },
+  "information_violations": [],
+  "diagnostics": [
+    {
+      "record_id": "diagnostic:decision-5651d6e14f538f1486e5608bb6812a74",
+      "status": "failed",
+      "purpose": "仅在合法 T 窗口上检查六个既有来源映射的变化相位与预测期变化关联，并按三个时间块检查稳定性；不训练预测模型。",
+      "error": "STUDY_BOUNDARY_RECEIPT_MISSING: "
+    },
+    {
+      "record_id": "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+      "status": "completed",
+      "purpose": "新诊断：在三个 T 源行时间块各固定抽取8192个合法窗口，检查既有来源变化的相位与 T 内未来变化关联；替代超时的全量统计，不重跑旧诊断。",
+      "execution_sha256": "d145e0c82b8586c5453825f63851dad4e808b3ba08a1daad561368e66e771311"
+    }
+  ],
+  "final_policy": {
+    "run_id": "solhigh_memory_r2",
+    "group": "full_memory",
+    "selected_candidate": "src_signed_half_r2_01",
+    "reason": "冻结选择当前最低合格开发 NMSE 候选。探索种子整体 NMSE约改善4.05%、NMAE约改善2.59%，登记局部NMSE约改善7.08%；候选已有真实执行收据和不可改写结果更新。进入三个额外种子的 B0、候选及已登记全正号 source-half 控制确认，确认结果不返回搜索。当前仅支持单种子处理有效性，尚不支持新增符号机制、独立泛化或从零发现。",
+    "scope": "development_only",
+    "independent_task": false,
+    "candidate_count": 1,
+    "diagnostic_count": 2,
+    "registered_signals": 1,
+    "information_violations": 0,
+    "journal": {
+      "identity": {
+        "run_id": "solhigh_memory_r2",
+        "target_dataset": "metropt3_v1",
+        "track": "experience_combination",
+        "scope": "development_only",
+        "harness_sha256": "427480b01385f6025a5f9257760c49cf708ca4f21a0a676ece4167ce2e82f743",
+        "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+      },
+      "proposals": 1,
+      "receipts": 1,
+      "updates": 1,
+      "interventions": [],
+      "autonomy_eligible": true,
+      "completed_agent_experiment": false,
+      "diagnosis_correctness": "unassessed",
+      "pending_execution": [],
+      "pending_update": []
+    },
+    "diagnosis_correctness": "pending_external_scoring",
+    "empty_search": false
+  },
+  "confirmation": {
+    "selected_candidate": "src_signed_half_r2_01",
+    "independent_task": false,
+    "feedback_checks": [
+      {
+        "candidate_id": "src_signed_half_r2_01",
+        "execution_status": "trained",
+        "assessment": "supported",
+        "visible_criterion_supported": true,
+        "classification_appropriate": true,
+        "receipt_traceable": true,
+        "text_explanation": "requires_primary_review",
+        "withheld_outcome": false
+      }
+    ],
+    "information_violations": 0,
+    "registered_facts": [
+      {
+        "signal_id": "src_sign_r2_01",
+        "F": true,
+        "P": true,
+        "baseline_gap_pct": 6.778628040605916,
+        "interpretation": "registered comparative prediction weakness, not a physical fault",
+        "prediction_deficit_present": true,
+        "reported_gap_matches": true,
+        "training_claim": {
+          "array": "values",
+          "channel": "Oil_temperature",
+          "claimed": -3.1340329047391064e-10,
+          "independent_reference_calculation": true,
+          "matches": true,
+          "reference_value": -3.1340329047391064e-10,
+          "scope": "T_normalized_rows",
+          "statistic": "mean"
+        }
+      }
+    ],
+    "exploration_NMSE_gain_pct": 4.050904681022372,
+    "exploration_NMAE_deterioration_pct": -2.5917830727548608,
+    "status": "completed_pending_semantic_review",
+    "results": [
+      {
+        "seed": 2026101202,
+        "baseline": {
+          "NMAE": 0.19404482136355902,
+          "NMSE": 0.28878016687226016,
+          "windows": 300535
+        },
+        "candidate": {
+          "NMAE": 0.19294675786049043,
+          "NMSE": 0.2775093846638088,
+          "windows": 300535
+        },
+        "control": {
+          "NMAE": 0.19353421300508206,
+          "NMSE": 0.2764832837178332,
+          "windows": 300535
+        },
+        "local_baseline": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.27779377622449225,
+          "NMAE": 0.3240719570546366,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_candidate": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.2701666443831831,
+          "NMAE": 0.3150431484148428,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_control": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.2322044162789572,
+          "NMAE": 0.290628898085789,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "jobs": {
+          "baseline": "543bf563cfa9e7adf5c64a694d3adc8ad1186df8f08f576ccb5376d3aee1a75f",
+          "candidate": "6a2b88ff6a6d8794a1ededbf65e11aa1cc649a30a558061373a873527c141a25",
+          "control": "75eb93949813cf808aef5363d19585d3bea9ddbe17fcdf39d2b32898d20ed9bd"
+        }
+      },
+      {
+        "seed": 2026101203,
+        "baseline": {
+          "NMAE": 0.19143659693624065,
+          "NMSE": 0.28992005650483704,
+          "windows": 300535
+        },
+        "candidate": {
+          "NMAE": 0.19435289082037321,
+          "NMSE": 0.27915661866902763,
+          "windows": 300535
+        },
+        "control": {
+          "NMAE": 0.19361831677522992,
+          "NMSE": 0.2774316428861983,
+          "windows": 300535
+        },
+        "local_baseline": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.2701197620443951,
+          "NMAE": 0.3121978207231923,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_candidate": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.26940123325268445,
+          "NMAE": 0.3146066895840438,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_control": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.23922312383207778,
+          "NMAE": 0.29265689693987945,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "jobs": {
+          "baseline": "0dd93cf40573b24eef799c5ca73cf0efcecd52948429ce030be754862dfb3f2d",
+          "candidate": "d8e013ba8fd1ad9e3f3add36f25815580a5232d3ab8241cdb0d4530c5898ee5f",
+          "control": "c6921847a0a2805eea52c1e3510d6bdf1d82dc81f6ed50f50d4a2c5981e18fe6"
+        }
+      },
+      {
+        "seed": 2026101204,
+        "baseline": {
+          "NMAE": 0.19617011219995106,
+          "NMSE": 0.28760845927953693,
+          "windows": 300535
+        },
+        "candidate": {
+          "NMAE": 0.19224887389901502,
+          "NMSE": 0.27550246326503947,
+          "windows": 300535
+        },
+        "control": {
+          "NMAE": 0.1947300895966288,
+          "NMSE": 0.27506896205166625,
+          "windows": 300535
+        },
+        "local_baseline": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.28951085848355634,
+          "NMAE": 0.34786893729145046,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_candidate": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.26834355780180463,
+          "NMAE": 0.3152751766350403,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "local_control": {
+          "group": "high_input_variation",
+          "channels": [
+            "TP2",
+            "H1",
+            "DV_eletric"
+          ],
+          "windows": 21714,
+          "NMSE": 0.24284662658675846,
+          "NMAE": 0.30446140818538164,
+          "persistence_NMSE": 0.26376279767646693,
+          "persistence_NMAE": 0.10955232920258429
+        },
+        "jobs": {
+          "baseline": "aff03069c372b02a57fad0f52683b813edd81f7a93389219280c44eb3833c18d",
+          "candidate": "d4a9b096b470890843608e158f74277382c7364bdc10c21b1c629d80b10a4e45",
+          "control": "bea8c974dac0e919550c1c499f063ccd48305c013a4b591464991812a4fd312d"
+        }
+      }
+    ],
+    "gates": {
+      "mean_NMSE_gain_pct": 3.9408835144146726,
+      "mean_NMAE_deterioration_pct": -0.36155804800602764,
+      "each_seed_NMSE_improves": true,
+      "E_numeric": true,
+      "mean_local_NMSE_gain_pct": 3.5242538227001297,
+      "L_numeric": true,
+      "control_overall_advantage_pct": -0.38415438294492343,
+      "control_local_advantage_pct": -13.109429558789621,
+      "C_numeric": false,
+      "C_semantics": "unassessed_pending_primary_review",
+      "physical_causality": false
+    },
+    "E": true,
+    "information_conditions_valid": true,
+    "control_kind": "agent_registered_code",
+    "engineering_amendment": "engineering/amendment.json",
+    "original_failed_job": "ad5444427bcea4c3dd470c902c611666714d8f041a40fc8624b9e288d9ff6c48",
+    "recovery_job": "bea8c974dac0e919550c1c499f063ccd48305c013a4b591464991812a4fd312d"
+  },
+  "scope": "same-source development; no new evaluation and no test access"
+}

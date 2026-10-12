@@ -1,0 +1,18 @@
+{
+  "post_rejection_user_authorization": "用户明确回复：授权",
+  "preparation_attempts": [
+    {
+      "status": "failed_before_directory_creation",
+      "reason": "8GiB initial disk reserve exceeded 6.1GiB available",
+      "training_started": false
+    },
+    {
+      "status": "completed",
+      "reserve": "actual copy size plus 2GiB; next action also checks 2GiB free",
+      "previous_assets_changed": false
+    }
+  ],
+  "dataset_check_scope": "TaskAssets verifies manifest, frozen protocol/core, train and validation SHA256; server has no test.csv and no complete-three-split claim",
+  "external_API_enabled": false,
+  "updated_utc": "2026-10-12T04:18:11.4769943Z"
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "engineering_monitor_retry",
+  "original_failed_job": "ad5444427bcea4c3dd470c902c611666714d8f041a40fc8624b9e288d9ff6c48",
+  "original_failure": {
+    "status": "failed",
+    "returncode": -9,
+    "error": "NATIVE_OUTPUT_TYPE",
+    "stdout": "",
+    "elapsed_seconds": 64.63650423102081,
+    "output_bytes": 94808,
+    "files": [
+      "job.json",
+      "best.pt",
+      "history.json"
+    ],
+    "security_sandbox": false,
+    "total_output_limit": "polled_and_checked_after_exit"
+  },
+  "recovery_seed": 2026101204,
+  "original_native_sha256": "ae6799d48b84d1726dd6c2e21e47b65a3249e2ab295151c267e07f85205c7493",
+  "repaired_native_sha256": "a57f62113fa7a7b52b9330f6b9c0c2d5108f3ad608a6482ffd32c318dab5646e",
+  "regression_test_sha256": "ac0a6d203e15885fb217eb8262ba363dddf773fb38b0ffc58bc4eb211954cf53",
+  "recovery_runner_sha256": "abc50c71d488873b70e31f5c38cdb0e5c96a1108617c82d038630bff6dca206d",
+  "implementation": "Replace native.inventory in recovery controller memory only; original frozen server sources unchanged.",
+  "scientific_changes": [],
+  "candidate_feedback_after_freeze": false,
+  "retry_policy": "Only missing third-seed control, once under a new protected-asset identity; retain and count failed execution.",
+  "causal_limit": "Reproduced atomic-rename race fits the error; original event was not traced.",
+  "recovery_job": "bea8c974dac0e919550c1c499f063ccd48305c013a4b591464991812a4fd312d",
+  "scientific_identity_equal": true
+}

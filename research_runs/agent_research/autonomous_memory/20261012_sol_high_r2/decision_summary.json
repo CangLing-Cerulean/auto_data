@@ -1,0 +1,167 @@
+{
+  "model": "internal Sol high",
+  "decisions": [
+    {
+      "file": "decision_0001.json",
+      "sha256": "111dfbfd2aad339d78e8578c4ea7796e4aeb3b32aac57b1fabfe4316e197f2b6",
+      "tool": "describe_task",
+      "reason": "本轮 B0 已完成，整体 NMSE=0.2881444511817621、NMAE=0.19536922023936432。先读取可信评价器提供的输入定义分组和准确接口，随后选择与来源变化时间相位有关的局部基线误差观察；历史诊断不能替代本轮的不足定位。",
+      "evidence_refs": [
+        "baseline",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4",
+        "history_extra_7"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0002.json",
+      "sha256": "f7b6a4cc8e4e45953426c37526bcd6374e7a2b83eb899233822c8e2c8d7b05b8",
+      "tool": "read_baseline_error",
+      "reason": "先测量本轮高输入变化窗口中六个历史来源处理通道的 B0 局部误差，并与持久性及同通道总体误差比较。这能检验当前任务是否存在适合研究来源变化时间相位的预测不足；暂不把输入变化或历史收益当作本轮处理有效的证据。",
+      "evidence_refs": [
+        "baseline",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4",
+        "history_extra_7"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0003.json",
+      "sha256": "e1c289cc9cc31166117f0ad25db4970458ad8117d43181d872e2f62ff74c3a76",
+      "tool": "run_diagnostic",
+      "reason": "六通道高变化组 B0 NMSE=0.1706904606482865，仅比同组持久性差0.5811%，未显示预想的明显平方误差缺口；接口返回的 overall_NMSE 是全15通道总体值，不能当成这六通道的总体对照。因此暂不登记强局部机制预测，先用合法 T 窗口检验来源变化相位的关联及跨时间块稳定性。诊断不拟合预测器、不读取 D 或测试，也不把相关性直接解释成预测收益。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:ae98cdf12d498677fea40d7a",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": true
+    },
+    {
+      "file": "decision_0004.json",
+      "sha256": "67bb29ce4c8e78fb30d64e47bf02319b8b1eb62cbb59ba4b00200d1bd682aeaa",
+      "tool": "run_diagnostic",
+      "reason": "上一诊断在30.033秒被终止，未产生输出；时间相位假设仍为证据不足。保留该失败，另登记固定种子的分时间块抽样诊断，将工作量从1053433个窗口降至最多24576个；全部抽样成员来自原合法 start_row。明确区分抽样统计、全 T 行均值及真实预测反馈，避免把执行失败或相关性解释为科学结论。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:ae98cdf12d498677fea40d7a",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": true
+    },
+    {
+      "file": "decision_0005.json",
+      "sha256": "99ab1ce0abd6a46d77df19bd6abf6f1a5c78a3db26dcdc4f6fc28a093489845b",
+      "tool": "read_baseline_error",
+      "reason": "T 抽样诊断显示，TP2、H1、DV_eletric 的自身最近四条变化与未来变化关联较弱，而来源变化关联在三个时间块方向一致：TP2 和 DV_eletric 为负，H1 为正。没有发现适用于全部六通道的统一领先相位，因此收缩原时间对齐假设，转而检验来源变化的符号取向。先读取这三个通道的本轮局部预测误差，避免将六通道汇总或 T 相关性误当成它们的预测缺口。",
+      "evidence_refs": [
+        "baseline",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "baseline_scope:ae98cdf12d498677fea40d7a",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0006.json",
+      "sha256": "e259978a6bf5c34fc7c1e834d84fb0e8a04061f2586905363d7aa9b4779b490c",
+      "tool": "register_signal",
+      "reason": "本轮三个目标通道的高变化组 B0 NMSE=0.28164229664045054，比同组持久性高6.7786%，形成了明确局部不足。登记一个可被干预否定的符号取向假设，不继续寻找统一领先步数。training_claim 使用已完成诊断的全 T 行均值作接口数值复核；该均值本身不证明符号机制，机制依据仍需未来的候选与匹配控制结果。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0007.json",
+      "sha256": "3fb0136c20f8313548ed5ffed70d78c0b3156f76314686882c177e671fe33f83",
+      "tool": "propose_processing",
+      "reason": "提交已登记假设的候选和匹配控制，保持公式差异可核查。处理器从原始 x 读取全部来源后写克隆输出，避免串联使用已变换通道；输入已标准化，程序不再次拟合或应用旧均值尺度。既有映射与半混合来自历史成果，本轮新增部分仅为两个通道的来源符号规则。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": true
+    },
+    {
+      "file": "decision_0008.json",
+      "sha256": "be6cdc0cd277eb4eef6fe6eca09e944f62285c5d6de1162cfe124961f18f080a",
+      "tool": "run_processing",
+      "reason": "候选及全正号 source-half 匹配控制已事前登记。现在构建候选资产并执行窗口映射、权重、表示形状、有限值和输入不修改等边界校验；资产通过校验后才请求固定 DLinear 训练。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_2"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0009.json",
+      "sha256": "a4e74e486cf03a3eabe23fbca2e0c2735c8c896a6cf9cbdc32cf3550d262614f",
+      "tool": "evaluate_candidate",
+      "reason": "候选资产已通过执行器校验。请求使用本轮固定种子、原 individual DLinear 和原3000步训练协议，在完整 D 上评价登记的符号取向处理；匹配控制继续保留至搜索冻结后的确认阶段。",
+      "evidence_refs": [
+        "baseline",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_2"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0010.json",
+      "sha256": "9ba229a13ebf7fa1197f5665be0addd755b8f4564bd96c3cae30aa8c0c58211f",
+      "tool": "update_hypothesis",
+      "reason": "首个候选已成功训练，先将真实总体和登记局部响应与事前预测逐项对照，保存支持范围和未验证部分。现有结果足以进入冻结确认，不据单种子收益继续扫描符号、比例或相位。",
+      "evidence_refs": [
+        "baseline",
+        "result:src_signed_half_r2_01",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": false
+    },
+    {
+      "file": "decision_0011.json",
+      "sha256": "25e181d126af58a2b2c58d1f1c9bb51b6d26120821b8ae50071f96dde9ee4722",
+      "tool": "submit_policy",
+      "reason": "本轮自主探索已得到达到事前总体与局部门槛的可执行候选，没有待执行候选或待更新结果。停止搜索并冻结配方，让独立的确认阶段检验重复性及相对已知方法的增量；保留全量诊断超时记录与历史复用来源。",
+      "evidence_refs": [
+        "baseline",
+        "result:src_signed_half_r2_01",
+        "baseline_scope:5d80682afb9bac7a5cd357b0",
+        "diagnostic:decision-c8b1c718bdb1a4cc3f6aa0be1162f2c5",
+        "history_extra_1",
+        "history_extra_2",
+        "history_extra_4"
+      ],
+      "has_generated_code": false
+    }
+  ],
+  "search_frozen": true,
+  "raw_decisions_retained_locally": true,
+  "confirmation_feedback_returned_to_search": false
+}

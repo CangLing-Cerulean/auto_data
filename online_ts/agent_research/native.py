@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import selectors
 import signal
+import stat
 import subprocess
 import sys
 import time
@@ -14,13 +15,18 @@ from ..selection.common import file_hash, read_json, write_json
 def inventory(folder, maximum_bytes, maximum_files):
     total, files = 0, []
     for path in Path(folder).rglob('*'):
-        if path.is_symlink():
-            raise GateError('NATIVE_OUTPUT_LINK')
-        if path.is_dir():
+        try:
+            metadata = path.lstat()
+        except FileNotFoundError:
+            # Atomic writers can rename a temporary file after enumeration.
             continue
-        if not path.is_file():
+        if stat.S_ISLNK(metadata.st_mode):
+            raise GateError('NATIVE_OUTPUT_LINK')
+        if stat.S_ISDIR(metadata.st_mode):
+            continue
+        if not stat.S_ISREG(metadata.st_mode):
             raise GateError('NATIVE_OUTPUT_TYPE')
-        total += path.stat().st_size
+        total += metadata.st_size
         files.append(path)
         if total > maximum_bytes or len(files) > maximum_files:
             raise GateError('NATIVE_OUTPUT_LIMIT')

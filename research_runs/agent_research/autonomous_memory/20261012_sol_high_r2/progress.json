@@ -1,19 +1,32 @@
 {
-  "stage": "local_preparation",
-  "status": "awaiting_post_rejection_server_authorization",
-  "server_created": false,
-  "new_trainings": 0,
+  "status": "completed_pending_github_sync",
+  "updated_at_utc": "2026-10-12T05:14:03.4912911Z",
+  "search_completed": true,
+  "decision_version": 11,
+  "confirmation_completed_seeds": 3,
+  "scientific_review": "scientific_review.json",
+  "outcome": "effective_vs_B0_incremental_sign_hypothesis_not_supported",
+  "completed_trainings": 11,
+  "failed_trainings": 1,
+  "cumulative_completed_trainings": 228,
+  "cost_summary": "cost_summary.json",
+  "gates": {
+    "mean_NMSE_gain_pct": 3.9408835144146726,
+    "mean_NMAE_deterioration_pct": -0.36155804800602764,
+    "each_seed_NMSE_improves": true,
+    "E_numeric": true,
+    "mean_local_NMSE_gain_pct": 3.5242538227001297,
+    "L_numeric": true,
+    "control_overall_advantage_pct": -0.38415438294492343,
+    "control_local_advantage_pct": -13.109429558789621,
+    "C_numeric": false,
+    "C_semantics": "unassessed_pending_primary_review",
+    "physical_causality": false
+  },
+  "confirmation_feedback_returned_to_search": false,
+  "new_test_access": false,
   "external_API_calls": 0,
-  "internal_model_cost": "unknown",
-  "prior_total_trainings": 217,
-  "remote_actions": [
-    "upload preparation script",
-    "create isolated R2 directory",
-    "execute authorized experiments"
-  ],
-  "approval_rejections": [
-    "Initial request rejected: historical server confirmation requirement",
-    "Existing session authorization evidence submitted; retry still rejected: requires post-rejection approval"
-  ],
-  "updated_utc": "2026-10-12T01:40:25.1628318Z"
+  "internal_model_cost": null,
+  "background_queue": false,
+  "github_sync": "pending_final_source_and_release"
 }

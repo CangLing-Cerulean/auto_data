@@ -1,0 +1,10 @@
+{
+  "provider": "internal_collaboration_subagent",
+  "role": "check",
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "high",
+  "external_API_calls": 0,
+  "actual_token_and_price_usage": null,
+  "legacy_metadata_mismatch": "Frozen inherited executor config retains reasoning_effort=none from the old DeepSeek API configuration. This field is never consumed by the offline model callable. Actual model/effort are fixed by the collaboration role above. Preserve original frozen identity rather than rewriting it.",
+  "impact": "Metadata mismatch only; no effect on training configuration, evidence access, or actual internal model selection."
+}

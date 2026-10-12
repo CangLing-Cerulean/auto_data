@@ -1,0 +1,33 @@
+{
+  "run_id": "solhigh_memory_r2",
+  "group": "full_memory",
+  "selected_candidate": "src_signed_half_r2_01",
+  "reason": "冻结选择当前最低合格开发 NMSE 候选。探索种子整体 NMSE约改善4.05%、NMAE约改善2.59%，登记局部NMSE约改善7.08%；候选已有真实执行收据和不可改写结果更新。进入三个额外种子的 B0、候选及已登记全正号 source-half 控制确认，确认结果不返回搜索。当前仅支持单种子处理有效性，尚不支持新增符号机制、独立泛化或从零发现。",
+  "scope": "development_only",
+  "independent_task": false,
+  "candidate_count": 1,
+  "diagnostic_count": 2,
+  "registered_signals": 1,
+  "information_violations": 0,
+  "journal": {
+    "identity": {
+      "run_id": "solhigh_memory_r2",
+      "target_dataset": "metropt3_v1",
+      "track": "experience_combination",
+      "scope": "development_only",
+      "harness_sha256": "427480b01385f6025a5f9257760c49cf708ca4f21a0a676ece4167ce2e82f743",
+      "library_sha256": "742b5963c93618ab173d47557d8a7bb65658f103ebe0f3e0c4bbf2619d034726"
+    },
+    "proposals": 1,
+    "receipts": 1,
+    "updates": 1,
+    "interventions": [],
+    "autonomy_eligible": true,
+    "completed_agent_experiment": false,
+    "diagnosis_correctness": "unassessed",
+    "pending_execution": [],
+    "pending_update": []
+  },
+  "diagnosis_correctness": "pending_external_scoring",
+  "empty_search": false
+}
