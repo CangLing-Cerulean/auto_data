@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all_source_hashes",
+    "C_only_midpoint_thresholds",
+    "C_fit_not_prospective_score",
+    "zero_error_and_no_edit",
+    "conflicting_exact_tie_abstention",
+    "no_unobserved_adoption",
+    "closed_threshold_boundaries",
+    "nonfinite_signal_rejected",
+    "all_predictions_before_response",
+    "deterministic_predictions_recomputed",
+    "four_methods_four_cell_denominator",
+    "prediction_and_fact_identity"
+  ],
+  "new_trainings": 0,
+  "test_access": false,
+  "selection_protocol_sha256": "6baffbbd309022055e538762be2853c590aacdbef0b022322c410b071f8f7e09",
+  "prediction_lock_sha256": "aa4a0a2b5fbecf5819ee9b6a0ff26d96faf6bc6d5fdf936dcc994edce8ff2b07"
+}

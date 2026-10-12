@@ -1,0 +1,21 @@
+{
+  "external_api_calls": 0,
+  "files_sha256": {
+    "selection_common_facts.json": "2113842e887f36b236f60d0cfda5077e8551dde46ab0ecf33f98c1fc35abc544",
+    "selection_new_signal_values.json": "26b324b8b77354315fc17f4ac61ac677ac8e1855724563395375fae4963978db",
+    "selection_deterministic_predictions.json": "cdc0f6ba499f7971eb3acdc24adf1da4c3e2940cdf5a6fa446452bd57c998f3e",
+    "selection_strong_prompt_prediction.json": "5270650adced2c80df7fd58ac2064f723055afce511f2043b8253d361a66d002",
+    "selection_all_predictions.json": "8b2e86ebdc225c3226354ab81ea3c3ec0be9e7aabdc8e27147719da16eae243e",
+    "selection_preparation_receipt.json": "51d9c884bcdff35647855f662b25f538332e5fcabadbccc85ff68e73a3c6eb92",
+    "STRONG_PROMPT_BRIEF.md": "9777d7cc3a5f1b695b042ab589f23f906081540193f7bafcec2596056315332b"
+  },
+  "selection_protocol_sha256": "6baffbbd309022055e538762be2853c590aacdbef0b022322c410b071f8f7e09",
+  "S_candidate_responses_seen": 0,
+  "created_utc": "2026-10-12T15:08:25.0221738Z",
+  "strong_prompt_optional_statistic_requested": false,
+  "strong_prompt_agent": "stage1_strong_prompt_solhigh",
+  "LLM": "internal_gpt-6.1-sol_high",
+  "strong_prompt_calls": 1,
+  "internal_tokens": "unavailable",
+  "status": "all_four_methods_frozen_before_S_response"
+}

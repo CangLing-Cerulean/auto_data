@@ -1,0 +1,100 @@
+{
+  "generic_stats": {
+    "predictions": {
+      "S1_P1": "harm",
+      "S1_CP1": "harm",
+      "S2_P1": "harm",
+      "S2_CP1": "harm"
+    },
+    "ranking_score": {
+      "S1_P1": -2.3274464041638097,
+      "S1_CP1": -2.3274464041638097,
+      "S2_P1": -2.3274464041638097,
+      "S2_CP1": -2.3274464041638097
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C2_P1"
+      ],
+      "S1_CP1": [
+        "C2_P1"
+      ],
+      "S2_P1": [
+        "C2_P1"
+      ],
+      "S2_CP1": [
+        "C2_P1"
+      ]
+    },
+    "ranking": {
+      "S1": "tie",
+      "S2": "tie"
+    }
+  },
+  "case_match": {
+    "predictions": {
+      "S1_P1": "harm",
+      "S1_CP1": "unchanged",
+      "S2_P1": "harm",
+      "S2_CP1": "unchanged"
+    },
+    "ranking_score": {
+      "S1_P1": -2.3274464041638097,
+      "S1_CP1": -0.03930719317726631,
+      "S2_P1": -2.3274464041638097,
+      "S2_CP1": -0.03930719317726631
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C2_P1"
+      ],
+      "S1_CP1": [
+        "C2_CP1"
+      ],
+      "S2_P1": [
+        "C2_P1"
+      ],
+      "S2_CP1": [
+        "C2_CP1"
+      ]
+    },
+    "ranking": {
+      "S1": "CP1>P1",
+      "S2": "CP1>P1"
+    }
+  },
+  "new_signal": {
+    "predictions": {
+      "S1_P1": "improve",
+      "S1_CP1": "unchanged",
+      "S2_P1": "improve",
+      "S2_CP1": "unchanged"
+    },
+    "ranking_score": {
+      "S1_P1": 0.35582763225855035,
+      "S1_CP1": -0.002685269287398352,
+      "S2_P1": 0.35582763225855035,
+      "S2_CP1": -0.002685269287398352
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C1_P1"
+      ],
+      "S1_CP1": [
+        "C1_CP1",
+        "C2_CP1"
+      ],
+      "S2_P1": [
+        "C1_P1"
+      ],
+      "S2_CP1": [
+        "C1_CP1",
+        "C2_CP1"
+      ]
+    },
+    "ranking": {
+      "S1": "P1>CP1",
+      "S2": "P1>CP1"
+    }
+  }
+}

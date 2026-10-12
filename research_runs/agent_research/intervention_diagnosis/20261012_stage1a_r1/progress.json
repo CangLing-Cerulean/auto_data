@@ -1,5 +1,5 @@
 {
-  "status": "construction_confirmed_signal_proposal_running",
+  "status": "selection_predictions_pending",
   "new_trainings": 27,
   "new_candidate_trainings": 4,
   "new_confirmation_successful_trainings": 17,
@@ -16,14 +16,14 @@
   "LLM": "internal_gpt-6.1-sol_high",
   "candidate_status": "stable_construction_contrast_no_adoption",
   "confirmation_gate": true,
-  "new_signal": false,
+  "new_signal": true,
   "S_candidate_responses": 0,
   "Hydraulic": "reserved",
   "baseline_sync_receipt": "baseline_sync_receipt.json",
   "initial_sync_receipt": "initial_sync_receipt.json",
   "interruption_sync": "source_and_release_verified",
   "report": "CONFIRMATION_REPORT.md",
-  "next": "build at most one bounded C-only executable signal; null stops method comparison",
+  "next": "lock all four comparator predictions before four S responses",
   "interruption_sync_receipt": "confirmation_interruption_sync_receipt.json",
   "recovery_protocol": "confirmation_recovery_protocol.json",
   "recovery_preflight": "confirmation_recovery_preflight.json",
@@ -33,5 +33,5 @@
   "recovery_source_commit": "345054cde316f5e9481e097f70e7daaaf573f6a6",
   "recovery_sync": "source_and_release_verified",
   "recovery_sync_receipt": "confirmation_recovery_sync_receipt.json",
-  "signal_build_status": "one_internal_Sol_high_proposal_running"
+  "signal_build_status": "feature_and_C_midpoint_rule_frozen_before_S_values"
 }

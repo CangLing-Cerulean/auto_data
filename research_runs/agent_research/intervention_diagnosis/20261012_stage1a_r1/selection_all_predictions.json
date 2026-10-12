@@ -1,0 +1,138 @@
+{
+  "generic_stats": {
+    "predictions": {
+      "S1_P1": "harm",
+      "S1_CP1": "harm",
+      "S2_P1": "harm",
+      "S2_CP1": "harm"
+    },
+    "ranking_score": {
+      "S1_P1": -2.3274464041638097,
+      "S1_CP1": -2.3274464041638097,
+      "S2_P1": -2.3274464041638097,
+      "S2_CP1": -2.3274464041638097
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C2_P1"
+      ],
+      "S1_CP1": [
+        "C2_P1"
+      ],
+      "S2_P1": [
+        "C2_P1"
+      ],
+      "S2_CP1": [
+        "C2_P1"
+      ]
+    },
+    "ranking": {
+      "S1": "tie",
+      "S2": "tie"
+    }
+  },
+  "case_match": {
+    "predictions": {
+      "S1_P1": "harm",
+      "S1_CP1": "unchanged",
+      "S2_P1": "harm",
+      "S2_CP1": "unchanged"
+    },
+    "ranking_score": {
+      "S1_P1": -2.3274464041638097,
+      "S1_CP1": -0.03930719317726631,
+      "S2_P1": -2.3274464041638097,
+      "S2_CP1": -0.03930719317726631
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C2_P1"
+      ],
+      "S1_CP1": [
+        "C2_CP1"
+      ],
+      "S2_P1": [
+        "C2_P1"
+      ],
+      "S2_CP1": [
+        "C2_CP1"
+      ]
+    },
+    "ranking": {
+      "S1": "CP1>P1",
+      "S2": "CP1>P1"
+    }
+  },
+  "new_signal": {
+    "predictions": {
+      "S1_P1": "improve",
+      "S1_CP1": "unchanged",
+      "S2_P1": "improve",
+      "S2_CP1": "unchanged"
+    },
+    "ranking_score": {
+      "S1_P1": 0.35582763225855035,
+      "S1_CP1": -0.002685269287398352,
+      "S2_P1": 0.35582763225855035,
+      "S2_CP1": -0.002685269287398352
+    },
+    "matched_construction": {
+      "S1_P1": [
+        "C1_P1"
+      ],
+      "S1_CP1": [
+        "C1_CP1",
+        "C2_CP1"
+      ],
+      "S2_P1": [
+        "C1_P1"
+      ],
+      "S2_CP1": [
+        "C1_CP1",
+        "C2_CP1"
+      ]
+    },
+    "ranking": {
+      "S1": "P1>CP1",
+      "S2": "P1>CP1"
+    }
+  },
+  "strong_prompt": {
+    "predictions": {
+      "S1_P1": "uncertain",
+      "S1_CP1": "unchanged",
+      "S2_P1": "uncertain",
+      "S2_CP1": "unchanged"
+    },
+    "ranking": {
+      "S1": "tie",
+      "S2": "tie"
+    },
+    "reasons": {
+      "S1_P1": "主动弃权。C任务中同一中值处理分别稳定改善0.355828%和退化2.327446%，说明去掉折返的效用依赖任务。S1的误差加权改动比0.656980、改动比例0.536355均超出两个C中值案例；主要误差集中在三个通道。现有T统计不能辨别这些变化属于不可预测扰动还是有用动态，不能可靠确定整体响应是否越过±0.25%带。",
+      "S1_CP1": "预测基本不变。线性控制在两个C任务的全部确认种子均为unchanged；端点保留且训练重新拟合，使其相对中值处理更可能由线性预测器适应。该判断是对控制响应的有限外推；S1加权改动比0.446300较C控制更大，因此置信度有限。",
+      "S2_P1": "主动弃权。S2中值处理的误差加权改动比0.677432、改动比例0.543323同样超出C案例支持范围。高一步变化与接近1的通道NMSE可以支持不可预测扰动假说，也可以支持真实快速动态假说；两者对中值处理的预测相反，当前事实不能确定整体四分类。",
+      "S2_CP1": "预测基本不变。两个C任务的线性控制跨种子均保持在±0.25%带内，S2仍采用相同支撑、端点及重新训练流程，因此以unchanged作为弱先验。S2加权改动比0.478875较C控制更大，有限训练造成超带宽变化的风险无法排除。"
+    },
+    "optional_statistic_requested": false,
+    "files_read_completely": [
+      "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/STRONG_PROMPT_BRIEF.md",
+      "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/selection_common_facts.json",
+      "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/CANDIDATE_PROPOSAL.md",
+      "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/proposal_median3.py",
+      "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/CANDIDATE_PROTOCOL.md",
+      "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md"
+    ],
+    "files_searched": [],
+    "limitations": [
+      "明确分类2/4，弃权2/4，分类覆盖率50%；正确数和错误数须待冻结后的S响应产生才计算，统一分母为4。",
+      "两个tie均为未作方向区分的排序预测；现有证据不足以支持任一方向超过0.25个百分点，不能据此宣称实际差距已经验证落在不可辨别带内。",
+      "构建响应仅来自一个独立数据来源、两个任务；三种子支持重复性，但不增加独立来源数量。",
+      "已阅读旧SKAB先导报告，S来源不能称完全未见；旧先导研究权重和采样，不能直接确定本轮表示处理的响应。",
+      "P1与CP1的改动数量及幅度不同，不能把潜在响应差异唯一归因为非线性或消噪。",
+      "未读取S候选响应、其他比较方法预测、SIGNAL文件、原始数据或测试；未运行Python、SSH或训练。",
+      "未访问其他允许历史文件，也未完整使用整个记忆库。",
+      "四分类与采用门槛分开；unchanged预测及排序均不构成采用建议。"
+    ]
+  }
+}
