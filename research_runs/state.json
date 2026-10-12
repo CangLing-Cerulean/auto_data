@@ -517,8 +517,10 @@
   "next_stage_design": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md",
   "next_stage_preparation": {
     "trainings": 0,
-    "status": "audit_and_design_complete_pending_sync",
+    "status": "audit_and_design_complete_and_synced",
     "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness",
-    "frozen_protocol": false
+    "frozen_protocol": false,
+    "source_commit": "921772790fcd62c6b3e0cb03026bfd60b1314151",
+    "sync_receipt": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/source_sync_receipt.json"
   }
 }
