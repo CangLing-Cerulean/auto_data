@@ -1,5 +1,5 @@
 {
-  "status": "initial_construction_complete_pending_phase_sync",
+  "status": "construction_three_seed_confirmation_running",
   "new_trainings": 10,
   "new_candidate_trainings": 4,
   "failed_model_trainings": 0,
@@ -8,8 +8,19 @@
   "test_model_access": false,
   "test_integrity_access": true,
   "background_model_queue": false,
-  "active_model_queue": [],
+  "active_model_queue": "supervised sequential C-only confirmation; stop on any failure",
   "LLM": "internal_gpt-6.1-sol_high",
   "candidate_status": "first_seed_gate_passed_no_adoption",
-  "next": "synchronize initial responses then run frozen eighteen construction confirmations"
+  "next": "complete registered matrix then run frozen confirmation audit",
+  "confirmation_completed_observed": 4,
+  "confirmation_completed_ids_observed": [
+    "C1_CP1_s2026101402",
+    "C1_P1_s2026101402",
+    "C1_PARENT_s2026101402",
+    "C1_PARENT_s2026101403"
+  ],
+  "confirmation_registered_total": 18,
+  "cumulative_completed_observed": 251,
+  "cumulative_last_phase_audited": 247,
+  "initial_sync_receipt": "initial_sync_receipt.json"
 }
