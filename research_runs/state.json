@@ -2,7 +2,7 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "intervention_phase0_local_complete_pending_github_sync",
+  "phase": "intervention_phase0_local_complete_and_synced",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/progress.json",
@@ -460,6 +460,7 @@
     "prototype_variants": 2,
     "python_runtime_verified": false,
     "evidence_floor_complete": false,
-    "user_scope": "local_only"
+    "user_scope": "local_only",
+    "source_commit": "d8d050956957dea993f6f4759d381cbdbaf8700e"
   }
 }

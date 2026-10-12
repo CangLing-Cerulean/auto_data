@@ -1,6 +1,6 @@
 {
   "phase": "local_protocol_and_prototypes",
-  "status": "local_deliverable_complete_pending_github_sync",
+  "status": "local_deliverable_complete_and_synced",
   "evidence_floor_complete": false,
   "training_queue": [],
   "pending": [
@@ -11,5 +11,6 @@
   "user_scope": "local_only",
   "latest_report": "REPORT.md",
   "completed_trainings_total": 228,
-  "local_validation": "88 static/evidence checks passed; Python NOT_RUN"
+  "local_validation": "88 static/evidence checks passed; Python NOT_RUN",
+  "source_commit": "d8d050956957dea993f6f4759d381cbdbaf8700e"
 }
