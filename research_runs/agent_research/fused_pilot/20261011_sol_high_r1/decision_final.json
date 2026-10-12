@@ -1,0 +1,62 @@
+{
+  "decisions": [
+    {
+      "task_id": "O60",
+      "final_recommendation": "B0",
+      "final_locked": true,
+      "recommendation_change": {"initial": "B0", "after_UP": "B0", "final": "B0", "changed": false, "measured_gain_over_initial_pct": 0.0},
+      "initial_prediction_review": {
+        "UP": "目标NMSE下降预测得到单种子方向支持，改善1.80697%；整体初始为unknown，实测恶化0.61288%；NMAE退化4.48376%，超限。",
+        "DOWN": "目标NMSE上升预测得到单种子方向支持，恶化2.00227%；整体初始为unknown，实测恶化0.28770%；NMAE改善2.07584%。",
+        "ranking": "按本种子整体NMSE，B0优于DOWN优于UP；初始把DOWN置于UP之后的排序未获支持。"
+      },
+      "supported_explanations": [
+        "响应与目标和其余窗口之间的误差取舍相符：UP改善目标、损害其余窗口；DOWN方向相反。",
+        "DOWN的其余窗口NMSE改善2.54889%，不足以抵消目标损失。",
+        "整体NMAE改善可以伴随整体NMSE恶化，不能替代主要指标判断。"
+      ],
+      "rejected_or_weakened_explanations": [
+        "目标训练占比较低、高目标误差可通过当前UP获得合格整体收益的解释受到削弱。",
+        "当前DOWN能通过其余窗口收益实现整体NMSE改善的可能性未获本种子支持。",
+        "没有证据支持测量故障解释。"
+      ],
+      "unresolved": ["单种子不能确认稳定收益、稳定有害或等效。", "控制成绩未揭示，无法判定近期切换标记的针对性。", "状态混杂、模型能力和训练波动对响应的贡献未知。"],
+      "experience_update": {
+        "premise": "使用冻结近期切换标记、正损失权重、配对初始化和样本序列，以及既定检查点选择规则。",
+        "applicability": "仅适用于本任务、固定DLinear和探索种子2026101101。",
+        "evidence": "两个方向都未改善整体NMSE；UP还违反NMAE约束，因此保留B0。",
+        "prohibited_extrapolation": "不得推广为所有切换窗口应保持均匀权重、无改进空间、测量故障或独立泛化结论。"
+      }
+    },
+    {
+      "task_id": "O80",
+      "final_recommendation": "B0",
+      "final_locked": true,
+      "recommendation_change": {"initial": "B0", "after_UP": "B0", "final": "B0", "changed": false, "measured_gain_over_initial_pct": 0.0},
+      "initial_prediction_review": {
+        "UP": "整体NMSE弱下降预测被本种子否定，实测恶化0.14542%；目标下降预测得到方向支持，改善2.65759%；NMAE退化2.08102%，超限。",
+        "DOWN": "整体与目标NMSE弱上升预测得到单种子方向支持，分别恶化0.81143%和3.02235%；NMAE改善0.61469%。",
+        "ranking": "按本种子整体NMSE，B0优于UP优于DOWN；与初始弱排序相容，但不能确认稳定排序。"
+      },
+      "supported_explanations": [
+        "响应与切片误差取舍相符：UP目标收益伴随其余窗口NMSE恶化4.90268%；DOWN目标损失伴随其余窗口改善2.94094%。",
+        "DOWN的目标损失抵消其余窗口收益，整体NMSE仍恶化。"
+      ],
+      "rejected_or_weakened_explanations": [
+        "UP使目标损失份额接近开发目标占比，未带来预测的整体收益，削弱简单覆盖补偿解释。",
+        "当前DOWN可取得合格整体收益的可能性未获本种子支持。",
+        "没有证据支持测量故障解释。"
+      ],
+      "unresolved": ["整体差异较小，种子稳定性未知。", "未见控制成绩，误差取舍不能确立标记针对性或因果机制。", "两任务同源且时间重叠，不能作为独立重复证据。"],
+      "experience_update": {
+        "premise": "冻结动作、配对训练与固定任务尺度保持不变。",
+        "applicability": "仅适用于O80的固定模型、窗口、权重幅度和当前探索种子。",
+        "evidence": "UP与DOWN均未改善整体NMSE；UP局部收益不足3%且NMAE超限，故保留B0。",
+        "prohibited_extrapolation": "不得把占比接近当成处理有效的充分条件；不得宣称确认有害、确认等效或无改进空间。"
+      }
+    }
+  ],
+  "exploration_gate_review": "已揭示目标动作均无整体NMSE收益。UP与DOWN排序虽在两任务反转，但差值分别约为B0的0.32518%和0.66600%，均未达到1%差异门槛。",
+  "feedback_benefit_claim": "最终推荐与初始推荐均为B0，实际推荐收益为0；未运行独立反馈屏蔽分支，不能宣称反馈的因果增益。",
+  "closure": "最终推荐已锁定，动作池已耗尽；不请求新动作，不调整门槛，不接收控制或确认成绩用于重选。"
+}

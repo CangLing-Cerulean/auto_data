@@ -1,0 +1,24 @@
+{
+  "updated_at_utc": "2026-10-11T15:42:04.5162130Z",
+  "phase": "completed_no_confirmation_gate",
+  "completed_trainings": 10,
+  "failed_trainings": 0,
+  "new_DeepSeek_API_calls": 0,
+  "prior_completed_trainings": 207,
+  "cumulative_completed_trainings": 217,
+  "cumulative_API_attempts": 2544,
+  "cumulative_actual_known_tokens": 14389704,
+  "training_process_seconds": 665.7157458662987,
+  "preflight_seconds": 16.40707872621715,
+  "final_recommendations": {
+    "O60": "B0",
+    "O80": "B0"
+  },
+  "confirmation_gate_passed": false,
+  "confirmation_trainings": 0,
+  "scientific_status": "no_qualified_exploration_effect_single_seed",
+  "old_signal_review": "machine_complete_semantic_review_pending",
+  "autonomous_background_queue": false,
+  "pending": "github_stage_sync",
+  "DeepSeek_reproduction": "not_started_effectiveness_not_established"
+}

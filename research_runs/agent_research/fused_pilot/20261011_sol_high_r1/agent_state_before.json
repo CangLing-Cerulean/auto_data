@@ -1,0 +1,21 @@
+{
+  "packet_id": "FPR1_state_before_candidate_feedback",
+  "scope": "two_same_source_development_tasks_not_independent_generalization",
+  "candidate_results_available_to_agent": false,
+  "evidence_sources": ["preflight.json", "FPR1_O60_B0_s2026101101/result.json", "FPR1_O80_B0_s2026101101/result.json"],
+  "training_seed": 2026101101,
+  "tasks": {
+    "O60": {"train_windows": 632231, "development_windows": 210311, "train_target_fraction": 0.13417247809740426, "development_target_fraction": 0.20469685370712898, "baseline_best_step": 3000, "baseline": {"NMSE": 0.4466296306325078, "NMAE": 0.21261092466456205}, "target": {"windows": 43050, "NMSE": 1.359913713790347, "NMAE": 0.4853858152270294}, "complement": {"windows": 167261, "NMSE": 0.21156658676726162, "NMAE": 0.14240353000164474}, "UP_effective_sample_size": 579863.4391895931, "DOWN_effective_sample_size": 611814.9408012523, "target_control_jaccard": 0.38901761079408226},
+    "O80": {"train_windows": 842581, "development_windows": 210813, "train_target_fraction": 0.15176938478318405, "development_target_fraction": 0.2642484097280528, "baseline_best_step": 2500, "baseline": {"NMSE": 0.5303822423122914, "NMAE": 0.25300990273856416}, "target": {"windows": 55707, "NMSE": 1.2629790132485865, "NMAE": 0.49744749382760267}, "complement": {"windows": 155106, "NMSE": 0.2672668997817111, "NMAE": 0.16521907010283718}, "UP_effective_sample_size": 768046.9335972891, "DOWN_effective_sample_size": 811980.3048377973, "target_control_jaccard": 0.3752097044779972}
+  },
+  "registered_actions": {"B0": "uniform full retention weight 1", "UP": "recent-switch target weight 2, others 1; divide full-T mean", "DOWN": "same target weight 0.5, others 1; divide full-T mean"},
+  "control_actions": "CTRL_UP and CTRL_DOWN match month x last-input COMP state and target count; scores withheld until final recommendation",
+  "historical_context": [
+    "Past broad high-variation oversampling sometimes improved a local slice while degrading overall metrics; it is not this recent-switch weight rule.",
+    "No independent evidence establishes measurement faults in these windows.",
+    "All weights are positive, all training windows retained, same initialized model and sample stream are paired.",
+    "Training-versus-development target coverage differences and high target error do not alone determine an intervention response."
+  ],
+  "research_cost_snapshot": {"completed_baseline_trainings": 2, "training_process_seconds": 135.4047731999308, "preflight_seconds": 16.40707872621715, "DeepSeek_API_calls": 0},
+  "required_output": "For both tasks provide initial recommendation, ordinal gain-direction predictions for B0/UP/DOWN, uncertainty, first probe UP or DOWN, competing explanations and concise response-contingent update rules. Do not claim measured effects."
+}

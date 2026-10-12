@@ -1,0 +1,204 @@
+{
+  "study_id": "fused_pilot_20261011_sol_high_r1",
+  "computed_at": "2026-10-11T15:36:47.683540+00:00",
+  "completed_trainings": 10,
+  "failed_or_incomplete": [],
+  "training_process_seconds": 665.7157458662987,
+  "preflight_seconds": 16.40707872621715,
+  "DeepSeek_API_calls": 0,
+  "internal_agent_usage": "separate_unknown_billing_not_free",
+  "exploration": {
+    "O60": {
+      "B0": {
+        "NMSE_gain_pct": 0.0,
+        "NMAE_deterioration_pct": 0.0,
+        "local_NMSE_gain_pct": 0.0,
+        "other_NMSE_gain_pct": 0.0,
+        "best_step": 3000,
+        "raw_overall": {
+          "NMAE": 0.21261092466456205,
+          "NMSE": 0.4466296306325078,
+          "windows": 210311
+        },
+        "raw_local": {
+          "NMAE": 0.4853858152270294,
+          "NMSE": 1.359913713790347,
+          "windows": 43050
+        }
+      },
+      "UP": {
+        "NMSE_gain_pct": -0.6128804093366469,
+        "NMAE_deterioration_pct": 4.483758439505103,
+        "local_NMSE_gain_pct": 1.8069681561441064,
+        "other_NMSE_gain_pct": -4.6162983329892215,
+        "best_step": 3000,
+        "raw_overall": {
+          "NMAE": 0.2221438849425192,
+          "NMSE": 0.44936693614094714,
+          "windows": 210311
+        },
+        "raw_local": {
+          "NMAE": 0.47869789689995007,
+          "NMSE": 1.3353405060311188,
+          "windows": 43050
+        }
+      },
+      "DOWN": {
+        "NMSE_gain_pct": -0.2877012589054928,
+        "NMAE_deterioration_pct": -2.0758383499018485,
+        "local_NMSE_gain_pct": -2.0022683739656433,
+        "other_NMSE_gain_pct": 2.5488930708615576,
+        "best_step": 3000,
+        "raw_overall": {
+          "NMAE": 0.20819746555429414,
+          "NMSE": 0.4479145897024825,
+          "windows": 210311
+        },
+        "raw_local": {
+          "NMAE": 0.4946506742105647,
+          "NMSE": 1.3871428359947926,
+          "windows": 43050
+        }
+      },
+      "CTRL_UP": {
+        "NMSE_gain_pct": -0.23617346285595975,
+        "NMAE_deterioration_pct": 3.6418870420676708,
+        "local_NMSE_gain_pct": 1.2951621374019284,
+        "other_NMSE_gain_pct": -2.769628025530979,
+        "best_step": 3000,
+        "raw_overall": {
+          "NMAE": 0.22035397437994098,
+          "NMSE": 0.44768445129731343,
+          "windows": 210311
+        },
+        "raw_local": {
+          "NMAE": 0.48208064614516954,
+          "NMSE": 1.342300626267998,
+          "windows": 43050
+        }
+      },
+      "CTRL_DOWN": {
+        "NMSE_gain_pct": -0.749654297044855,
+        "NMAE_deterioration_pct": -0.6828134636796768,
+        "local_NMSE_gain_pct": -1.853108671951098,
+        "other_NMSE_gain_pct": 1.0759099491852497,
+        "best_step": 2000,
+        "raw_overall": {
+          "NMAE": 0.21115918864569858,
+          "NMSE": 0.44997780885042,
+          "windows": 210311
+        },
+        "raw_local": {
+          "NMAE": 0.4994492614000357,
+          "NMSE": 1.3851143927516483,
+          "windows": 43050
+        }
+      }
+    },
+    "O80": {
+      "B0": {
+        "NMSE_gain_pct": 0.0,
+        "NMAE_deterioration_pct": 0.0,
+        "local_NMSE_gain_pct": 0.0,
+        "other_NMSE_gain_pct": 0.0,
+        "best_step": 2500,
+        "raw_overall": {
+          "NMAE": 0.25300990273856416,
+          "NMSE": 0.5303822423122914,
+          "windows": 210813
+        },
+        "raw_local": {
+          "NMAE": 0.49744749382760267,
+          "NMSE": 1.2629790132485865,
+          "windows": 55707
+        }
+      },
+      "UP": {
+        "NMSE_gain_pct": -0.14542290230794563,
+        "NMAE_deterioration_pct": 2.081017006082586,
+        "local_NMSE_gain_pct": 2.6575874363503726,
+        "other_NMSE_gain_pct": -4.902682276001147,
+        "best_step": 2500,
+        "raw_overall": {
+          "NMAE": 0.2582750818416267,
+          "NMSE": 0.5311535395623879,
+          "windows": 210813
+        },
+        "raw_local": {
+          "NMAE": 0.4797192107364235,
+          "NMSE": 1.2294142416687501,
+          "windows": 55707
+        }
+      },
+      "DOWN": {
+        "NMSE_gain_pct": -0.8114259515789923,
+        "NMAE_deterioration_pct": -0.6146901623644063,
+        "local_NMSE_gain_pct": -3.0223481551578946,
+        "other_NMSE_gain_pct": 2.9409435036535037,
+        "best_step": 2500,
+        "raw_overall": {
+          "NMAE": 0.25145467575662245,
+          "NMSE": 0.5346859014689799,
+          "windows": 210813
+        },
+        "raw_local": {
+          "NMAE": 0.5138573943659814,
+          "NMSE": 1.3011506361555365,
+          "windows": 55707
+        }
+      },
+      "CTRL_UP": {
+        "NMSE_gain_pct": -0.06781288237807104,
+        "NMAE_deterioration_pct": 1.15004224289188,
+        "local_NMSE_gain_pct": 1.7865109532031354,
+        "other_NMSE_gain_pct": -3.214964830773459,
+        "best_step": 2500,
+        "raw_overall": {
+          "NMAE": 0.2559196234987573,
+          "NMSE": 0.5307419097984247,
+          "windows": 210813
+        },
+        "raw_local": {
+          "NMAE": 0.48247327428354964,
+          "NMSE": 1.2404157548402437,
+          "windows": 55707
+        }
+      },
+      "CTRL_DOWN": {
+        "NMSE_gain_pct": -0.6879666361846892,
+        "NMAE_deterioration_pct": 0.06009586165121039,
+        "local_NMSE_gain_pct": -1.9263690670463296,
+        "other_NMSE_gain_pct": 1.4138456516148756,
+        "best_step": 2500,
+        "raw_overall": {
+          "NMAE": 0.25316195121967777,
+          "NMSE": 0.5340310951836482,
+          "windows": 210813
+        },
+        "raw_local": {
+          "NMAE": 0.5110848624056181,
+          "NMSE": 1.2873086502830944,
+          "windows": 55707
+        }
+      }
+    }
+  },
+  "rank_gap_UP_minus_DOWN_pct": {
+    "O60": -0.3251791504311541,
+    "O80": 0.6660030492710467
+  },
+  "confirmation_gate": {
+    "exploration_matrix_complete": true,
+    "eligible_effect": false,
+    "rank_reversal": false,
+    "passes": false
+  },
+  "confirmation": {
+    "O60": {},
+    "O80": {}
+  },
+  "paired_initialization_and_exposure": "passed_for_available_pairs",
+  "independent_data": false,
+  "test_access": false,
+  "collector_seconds": 0.07506903354078531
+}

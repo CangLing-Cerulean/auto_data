@@ -1,0 +1,38 @@
+[
+  {
+    "experience_id": "FPR1_O60_counterexample",
+    "task_id": "O60",
+    "source_group_id": "metropt3",
+    "prior_hypothesis": "Target coverage shortfall and high error could motivate testing UP",
+    "update": {
+      "premise": "使用冻结近期切换标记、正损失权重、配对初始化和样本序列，以及既定检查点选择规则。",
+      "applicability": "仅适用于本任务、固定DLinear和探索种子2026101101。",
+      "evidence": "两个方向都未改善整体NMSE；UP还违反NMAE约束，因此保留B0。",
+      "prohibited_extrapolation": "不得推广为所有切换窗口应保持均匀权重、无改进空间、测量故障或独立泛化结论。"
+    },
+    "status": "single_seed_counterexample_not_general_rule",
+    "source_decision": "decision_final.json",
+    "source_responses": "adjudicated_responses.jsonl",
+    "edited_frozen_memory": false,
+    "independent_transfer_tested": false,
+    "semantic_note": "Use normalized weight mass, not observed loss contribution, for the 26.35 percent phrase"
+  },
+  {
+    "experience_id": "FPR1_O80_counterexample",
+    "task_id": "O80",
+    "source_group_id": "metropt3",
+    "prior_hypothesis": "Target coverage shortfall and high error could motivate testing UP",
+    "update": {
+      "premise": "冻结动作、配对训练与固定任务尺度保持不变。",
+      "applicability": "仅适用于O80的固定模型、窗口、权重幅度和当前探索种子。",
+      "evidence": "UP与DOWN均未改善整体NMSE；UP局部收益不足3%且NMAE超限，故保留B0。",
+      "prohibited_extrapolation": "不得把占比接近当成处理有效的充分条件；不得宣称确认有害、确认等效或无改进空间。"
+    },
+    "status": "single_seed_counterexample_not_general_rule",
+    "source_decision": "decision_final.json",
+    "source_responses": "adjudicated_responses.jsonl",
+    "edited_frozen_memory": false,
+    "independent_transfer_tested": false,
+    "semantic_note": "Use normalized weight mass, not observed loss contribution, for the 26.35 percent phrase"
+  }
+]

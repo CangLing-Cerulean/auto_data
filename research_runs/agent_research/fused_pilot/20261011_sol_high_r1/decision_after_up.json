@@ -1,0 +1,38 @@
+{
+  "stage": "after_UP",
+  "evidence_scope": "探索种子2026101101；两个同源开发任务；全部判断仅针对已揭示反馈",
+  "decisions": [
+    {
+      "task_id": "O60",
+      "recommendation_after_UP": "B0",
+      "prediction_update": {
+        "UP_target_NMSE": "单种子方向支持：改善1.80697%，未达到3%局部命中门槛",
+        "UP_overall_NMSE": "初始为unknown，无方向预测可验证；实测恶化0.61288%",
+        "UP_NMAE_constraint": "实测退化4.48376%，超过1%约束",
+        "DOWN_predictions": "证据不足，仍未验证",
+        "competitive_explanations": "局部改善伴随其余窗口NMSE恶化4.61630%，与误差取舍解释相符；不能确认机制"
+      },
+      "request_opposite_probe": true,
+      "reason": "UP未取得整体收益且NMAE超限，保持B0。DOWN可判别降低目标权重是否改善其余窗口并取得满足NMAE约束的整体收益，或目标损失是否抵消这些收益；不能假设响应对称。",
+      "remaining_uncertainty": "DOWN响应未知；种子稳定性和针对性控制尚未揭示。UP局部改善不足以证明目标窗口贡献不足，也不支持测量故障解释。",
+      "final_locked": false
+    },
+    {
+      "task_id": "O80",
+      "recommendation_after_UP": "B0",
+      "prediction_update": {
+        "UP_target_NMSE": "单种子方向支持：改善2.65759%，未达到3%局部命中门槛",
+        "UP_overall_NMSE": "本种子否定初始弱改善预测：实测恶化0.14542%",
+        "UP_NMAE_constraint": "实测退化2.08102%，超过1%约束",
+        "DOWN_predictions": "证据不足，仍未验证",
+        "competitive_explanations": "其余窗口NMSE恶化4.90268%，与误差取舍解释相符；损失份额接近开发目标占比未转化为合格整体收益"
+      },
+      "request_opposite_probe": true,
+      "reason": "UP未取得整体收益且NMAE超限，保持B0。DOWN可检验初始弱恶化预测，并判别其余窗口改善能否超过目标切片损失、同时满足NMAE约束。",
+      "remaining_uncertainty": "整体NMSE差异较小，无法确认稳定方向；DOWN、额外种子和针对性控制均未知。不能据此确认UP有害或两任务处理差异。",
+      "final_locked": false
+    }
+  ],
+  "next_action": "请求两个任务的冻结DOWN探针；等待真实反馈，不读取控制或其他未揭示成绩",
+  "protocol_status": "动作、幅度与门槛不变；当前UP反馈未触发收益推进门槛，后续仍按完整冻结规则判断"
+}

@@ -1,0 +1,159 @@
+{
+  "status": "passed",
+  "computed_at": "2026-10-11T15:37:46.582905+00:00",
+  "decision_before_execution": true,
+  "feedback_after_result": true,
+  "controls_hidden_until_final": true,
+  "paired_assets": "passed_for_available_pairs",
+  "controls": {
+    "O60": {
+      "target_count": 84828,
+      "control_count": 84828,
+      "matched_by_design": [
+        "target_start_month",
+        "last_COMP",
+        "treated_count"
+      ],
+      "target_equals_control": false,
+      "mean_standardized_analog_input_variation": {
+        "target": 0.09084213043528884,
+        "control": 0.0732568805505917
+      },
+      "mean_standardized_last_switch_channels": {
+        "channels": [
+          "COMP",
+          "DV_eletric",
+          "Towers",
+          "MPG",
+          "LPS",
+          "Pressure_switch",
+          "Oil_level",
+          "Caudal_impulses"
+        ],
+        "target": [
+          -1.7645450168549972,
+          1.798169870081852,
+          -1.2399459169907847,
+          -1.844001354161407,
+          0.0508379849946532,
+          -0.4802035804576731,
+          -0.5834803625618232,
+          -0.25085103112141305
+        ],
+        "control": [
+          -1.7645450168549972,
+          1.6831920010704757,
+          -1.21694342475489,
+          -1.7116777241439403,
+          0.054323635763863884,
+          -0.27244758170795275,
+          -0.11193345805437122,
+          -0.059835026112080365
+        ]
+      },
+      "limitations": [
+        "other_switch_channels_unmatched",
+        "input_variation_unmatched",
+        "temporal_dependence_unmatched",
+        "same_source_development_only"
+      ],
+      "observed_target_vs_control": {
+        "UP": {
+          "overall_NMSE_gain_pct": -0.3758193608820015,
+          "local_NMSE_gain_pct": 0.5185217156778332,
+          "single_seed_not_confirmation": true
+        },
+        "DOWN": {
+          "overall_NMSE_gain_pct": 0.45851575507879216,
+          "local_NMSE_gain_pct": -0.14644590033567884,
+          "single_seed_not_confirmation": true
+        }
+      }
+    },
+    "O80": {
+      "target_count": 127878,
+      "control_count": 127878,
+      "matched_by_design": [
+        "target_start_month",
+        "last_COMP",
+        "treated_count"
+      ],
+      "target_equals_control": false,
+      "mean_standardized_analog_input_variation": {
+        "target": 0.0804098711273563,
+        "control": 0.06857466644460196
+      },
+      "mean_standardized_last_switch_channels": {
+        "channels": [
+          "COMP",
+          "DV_eletric",
+          "Towers",
+          "MPG",
+          "LPS",
+          "Pressure_switch",
+          "Oil_level",
+          "Caudal_impulses"
+        ],
+        "target": [
+          -1.5901352357827279,
+          1.5776553402029765,
+          -1.124242631679451,
+          -1.6406552115688817,
+          0.04415107916252693,
+          -0.4855244890546153,
+          -0.530596275325297,
+          -0.2024473562007212
+        ],
+        "control": [
+          -1.5901352357827279,
+          1.5172905094505473,
+          -1.0977837019083836,
+          -1.5550778891833152,
+          0.04981914070845056,
+          -0.2934196317588027,
+          -0.1681426272208031,
+          -0.04354602948175373
+        ]
+      },
+      "limitations": [
+        "other_switch_channels_unmatched",
+        "input_variation_unmatched",
+        "temporal_dependence_unmatched",
+        "same_source_development_only"
+      ],
+      "observed_target_vs_control": {
+        "UP": {
+          "overall_NMSE_gain_pct": -0.07755742600381588,
+          "local_NMSE_gain_pct": 0.88692143167034,
+          "single_seed_not_confirmation": true
+        },
+        "DOWN": {
+          "overall_NMSE_gain_pct": -0.12261575987564388,
+          "local_NMSE_gain_pct": -1.0752655060150662,
+          "single_seed_not_confirmation": true
+        }
+      }
+    }
+  },
+  "choices": {
+    "O60": {
+      "initial": "B0",
+      "final": "B0",
+      "exploration_NMSE_gain_vs_initial_pct": 0.0,
+      "causal_feedback_value_identified": false,
+      "qualified_exploration_actions": []
+    },
+    "O80": {
+      "initial": "B0",
+      "final": "B0",
+      "exploration_NMSE_gain_vs_initial_pct": 0.0,
+      "causal_feedback_value_identified": false,
+      "qualified_exploration_actions": []
+    }
+  },
+  "initial_semantic_correction": "O80 initial response calls 26.35% a target loss share; it is normalized weight mass, not measured loss contribution. Original decision is preserved unchanged.",
+  "scientific_scope": "development pilot; no independent source or time audit; no masked-feedback branch",
+  "new_training": 0,
+  "DeepSeek_API_calls": 0,
+  "audit_process_seconds": 0.7612435221672058
+}

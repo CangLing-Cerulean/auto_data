@@ -1,0 +1,17 @@
+{
+  "decision_id": "FPR1_final",
+  "policy_run_id": "sol_high_r1",
+  "locked_at_utc": "2026-10-11T15:31:27.0072076Z",
+  "decision_file": "decision_final.json",
+  "decision_sha256": "2940b3651fd71025e6e86b7b2ef994f9ae755e2364f4074c8cf619a5051c3a29",
+  "evidence_file": "feedback_down.json",
+  "evidence_sha256": "932c6aa056119f62b775be6bfae1762fa237fe9ca9a4823d7ab3a79691d47207",
+  "completed_trainings": 6,
+  "DeepSeek_API_calls": 0,
+  "control_results_seen": false,
+  "confirmation_results_seen": false,
+  "recommendation": {
+    "O80": "B0",
+    "O60": "B0"
+  }
+}

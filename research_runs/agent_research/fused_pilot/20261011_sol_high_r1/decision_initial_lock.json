@@ -1,0 +1,19 @@
+{
+  "decision_id": "FPR1_initial",
+  "policy_run_id": "sol_high_r1",
+  "agent": "/root/pilot_decision_llm",
+  "locked_at_utc": "2026-10-11T15:20:24.1552501Z",
+  "response_source": "subagent final answer, JSON body preserved",
+  "decision_file": "decision_initial.json",
+  "decision_sha256": "fa2183f4445e4571832372626dcc50367afc90b80d8259b8bd0f927e6f4dfafc",
+  "visible_information": [
+    "PROTOCOL.md",
+    "agent_state_before.json"
+  ],
+  "protocol_sha256": "3c7eb7f2e9b948e695fcb93a2d7f9b4b0a91243eacff9a33877e83990f2af001",
+  "state_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+  "current_candidate_results_seen": false,
+  "candidate_trainings_before_lock": 0,
+  "baseline_trainings": 2,
+  "DeepSeek_API_calls": 0
+}

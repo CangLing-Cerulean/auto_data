@@ -1,0 +1,443 @@
+{
+  "status": "passed",
+  "scope": "manifest_core_train_validation_hashes_and_train_rows_only",
+  "full_three_partition_verification": false,
+  "test_opened": false,
+  "protocol_sha256": "1ccc461d9c52f5ab3aa890b74f177550322ec0dc697cb5a9d4a380fb24bbed78",
+  "runner_sha256": "0af38d2d3068b72a20f4fbf3a763861d7f4c19a28e3b9b7cf02d46d16b77fd97",
+  "verified_files": {
+    "train": {
+      "sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+      "bytes": 152853741
+    },
+    "validation": {
+      "sha256": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21",
+      "bytes": 43630139
+    }
+  },
+  "tasks": {
+    "O60": {
+      "task_id": "O60",
+      "source_group_id": "metropt3",
+      "audit_interval": null,
+      "train_row_range": [
+        0,
+        637117
+      ],
+      "development_row_range": [
+        637117,
+        849490
+      ],
+      "training_time_range": [
+        "2020-02-01T00:00:00",
+        "2020-04-29T15:40:12"
+      ],
+      "development_time_range": [
+        "2020-04-29T15:40:22",
+        "2020-05-30T23:52:00"
+      ],
+      "train_windows": 632231,
+      "development_windows": 210311,
+      "train_target_fraction": 0.13417247809740426,
+      "development_target_fraction": 0.20469685370712898,
+      "mean": [
+        1.126837588702071,
+        9.010619914394761,
+        7.832610475000901,
+        0.04228221817964167,
+        9.011182982089375,
+        59.394457925296905,
+        1.7351060911886904,
+        0.8678406007059928,
+        0.13654791820026776,
+        0.9320658528967207,
+        0.8599864703029428,
+        0.0013859306846309234,
+        0.9945033643742044,
+        0.9874151843381985,
+        0.8651801788368542
+      ],
+      "scale": [
+        3.0207984697283186,
+        0.5993309595837921,
+        3.061048319337928,
+        0.3167912263302325,
+        0.5986181115455231,
+        6.480060109291862,
+        2.242830819295705,
+        0.3386639816577259,
+        0.34336945734252283,
+        0.2516328650245329,
+        0.3470010680081586,
+        0.037202283273380606,
+        0.07393525967093664,
+        0.1114739345164101,
+        0.3415310190679909
+      ],
+      "strata": {
+        "2020-02:0": {
+          "windows": 12974,
+          "target": 10390,
+          "control": 10390
+        },
+        "2020-02:1": {
+          "windows": 200517,
+          "target": 4737,
+          "control": 4737
+        },
+        "2020-03:0": {
+          "windows": 38972,
+          "target": 28564,
+          "control": 28564
+        },
+        "2020-03:1": {
+          "windows": 189825,
+          "target": 6658,
+          "control": 6658
+        },
+        "2020-04:0": {
+          "windows": 30871,
+          "target": 22949,
+          "control": 22949
+        },
+        "2020-04:1": {
+          "windows": 159072,
+          "target": 11530,
+          "control": 11530
+        }
+      },
+      "target_control_overlap": {
+        "left": 84828,
+        "right": 84828,
+        "intersection": 47515,
+        "jaccard": 0.38901761079408226,
+        "left_covered": 0.560133446503513,
+        "right_covered": 0.560133446503513
+      },
+      "historical_overlap": {
+        "current_T_low_variation_proxy": {
+          "left": 84828,
+          "right": 158058,
+          "intersection": 0,
+          "jaccard": 0.0,
+          "left_covered": 0.0,
+          "right_covered": 0.0
+        },
+        "current_T_high_variation_proxy": {
+          "left": 84828,
+          "right": 63223,
+          "intersection": 24390,
+          "jaccard": 0.19723275729615644,
+          "left_covered": 0.287522987692743,
+          "right_covered": 0.3857773278711861
+        },
+        "mask_60_g1_target.npz": {
+          "asset_sha256": "823e0394833d866883d35a5f56c8356fac8c2f6e21c1ae6e323f60426c7fce66",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 30435,
+            "intersection": 20563,
+            "jaccard": 0.21713833157338966,
+            "left_covered": 0.24240816711463195,
+            "right_covered": 0.6756366025956957
+          },
+          "used_to_define_new_weights": false
+        },
+        "mask_60_g2_target.npz": {
+          "asset_sha256": "0e24b7222e1ba80213480f052b0482df6349a970e8cadde5ad51b03bc3ddbd61",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 139555,
+            "intersection": 40361,
+            "jaccard": 0.21932703698470835,
+            "left_covered": 0.4757980855377941,
+            "right_covered": 0.2892121385833542
+          },
+          "used_to_define_new_weights": false
+        },
+        "mask_60_g3_target.npz": {
+          "asset_sha256": "49469ce4bcc2b6c42eedaf235ab7b2ad5b995d7b2b35288072ae6afdb3a18601",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 10928,
+            "intersection": 9645,
+            "jaccard": 0.11200659613754341,
+            "left_covered": 0.11370066487480548,
+            "right_covered": 0.882595168374817
+          },
+          "used_to_define_new_weights": false
+        }
+      },
+      "historical_overlap_scope": "available_cluster_target_masks_and_current_T_variation_proxies_not_exhaustive_history",
+      "action_audit": {
+        "B0": {
+          "weight_min": 1.0,
+          "weight_max": 1.0,
+          "weight_mean": 1.0,
+          "ESS": 632231.0,
+          "retained_windows": 632231,
+          "weights_sha256": "796a48d4c60a089d1bcef85a76984a01515f22aadb5d0f08f64763a70db53812"
+        },
+        "UP": {
+          "weight_min": 0.881700111148455,
+          "weight_max": 1.76340022229691,
+          "weight_mean": 1.0,
+          "ESS": 579863.4391895931,
+          "retained_windows": 632231,
+          "weights_sha256": "2de8b99ad3d6eec1c2a07a6432e8ec8a740013bb79823ee09873c75ee64bf087"
+        },
+        "DOWN": {
+          "weight_min": 0.535955220008918,
+          "weight_max": 1.071910440017836,
+          "weight_mean": 1.0000000000000002,
+          "ESS": 611814.9408012523,
+          "retained_windows": 632231,
+          "weights_sha256": "79777e7ad6d5bbb60319024ee4e42844d7ab12eab294e26d32b3ee6f38deadc4"
+        },
+        "CTRL_UP": {
+          "weight_min": 0.881700111148455,
+          "weight_max": 1.76340022229691,
+          "weight_mean": 1.0,
+          "ESS": 579863.4391895931,
+          "retained_windows": 632231,
+          "weights_sha256": "d402167cea178866db35aeb85729ab2b6a982377c74c3467f6a2107a514c87f4"
+        },
+        "CTRL_DOWN": {
+          "weight_min": 0.535955220008918,
+          "weight_max": 1.071910440017836,
+          "weight_mean": 1.0000000000000002,
+          "ESS": 611814.9408012523,
+          "retained_windows": 632231,
+          "weights_sha256": "d85f273cf33a646a65390a8a1a386c85611c4a942253dbdbf9db2c1b2d9a57ce"
+        }
+      },
+      "prepared_sha256": "5b21fae2b4fe4d1063deb7b357fe2051a9301981f937724325656f619c71d766",
+      "new_sensor_records": 0,
+      "all_original_evaluation_windows_preserved": true
+    },
+    "O80": {
+      "task_id": "O80",
+      "source_group_id": "metropt3",
+      "audit_interval": null,
+      "train_row_range": [
+        0,
+        849490
+      ],
+      "development_row_range": [
+        849490,
+        1061863
+      ],
+      "training_time_range": [
+        "2020-02-01T00:00:00",
+        "2020-05-30T23:52:00"
+      ],
+      "development_time_range": [
+        "2020-05-30T23:52:10",
+        "2020-06-29T16:18:07"
+      ],
+      "train_windows": 842581,
+      "development_windows": 210813,
+      "train_target_fraction": 0.15176938478318405,
+      "development_target_fraction": 0.2642484097280528,
+      "mean": [
+        1.2025589000504013,
+        8.982842091130603,
+        7.72987859067994,
+        0.06579388574332565,
+        8.983487951593505,
+        60.04349230129593,
+        1.802791430742284,
+        0.855200178930888,
+        0.14513060777643055,
+        0.9246677418215635,
+        0.8493084085745565,
+        0.0019529364677630108,
+        0.9925390528434708,
+        0.9875960870640031,
+        0.8959199048841069
+      ],
+      "scale": [
+        3.0844955938875094,
+        0.6251317482830431,
+        3.1580924745325722,
+        0.3923121438019878,
+        0.6243867862558762,
+        6.549444534034219,
+        2.2624089224609483,
+        0.3518988958338424,
+        0.35223247218665604,
+        0.2639267115233318,
+        0.3577480058629113,
+        0.04414886756073893,
+        0.08605394484859724,
+        0.11067997054489039,
+        0.3053644198623797
+      ],
+      "strata": {
+        "2020-02:0": {
+          "windows": 12974,
+          "target": 10390,
+          "control": 10390
+        },
+        "2020-02:1": {
+          "windows": 200517,
+          "target": 4737,
+          "control": 4737
+        },
+        "2020-03:0": {
+          "windows": 38972,
+          "target": 28564,
+          "control": 28564
+        },
+        "2020-03:1": {
+          "windows": 189825,
+          "target": 6658,
+          "control": 6658
+        },
+        "2020-04:0": {
+          "windows": 31496,
+          "target": 23426,
+          "control": 23426
+        },
+        "2020-04:1": {
+          "windows": 165225,
+          "target": 11689,
+          "control": 11689
+        },
+        "2020-05:0": {
+          "windows": 37203,
+          "target": 27693,
+          "control": 27693
+        },
+        "2020-05:1": {
+          "windows": 166369,
+          "target": 14721,
+          "control": 14721
+        }
+      },
+      "target_control_overlap": {
+        "left": 127878,
+        "right": 127878,
+        "intersection": 69780,
+        "jaccard": 0.3752097044779972,
+        "left_covered": 0.5456763477689673,
+        "right_covered": 0.5456763477689673
+      },
+      "historical_overlap": {
+        "current_T_low_variation_proxy": {
+          "left": 127878,
+          "right": 210646,
+          "intersection": 0,
+          "jaccard": 0.0,
+          "left_covered": 0.0,
+          "right_covered": 0.0
+        },
+        "current_T_high_variation_proxy": {
+          "left": 127878,
+          "right": 84258,
+          "intersection": 38848,
+          "jaccard": 0.22418170906237017,
+          "left_covered": 0.3037895494142855,
+          "right_covered": 0.4610600773813763
+        },
+        "mask_60_g1_target.npz": {
+          "asset_sha256": "823e0394833d866883d35a5f56c8356fac8c2f6e21c1ae6e323f60426c7fce66",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 30435,
+            "intersection": 20563,
+            "jaccard": 0.21713833157338966,
+            "left_covered": 0.24240816711463195,
+            "right_covered": 0.6756366025956957
+          },
+          "used_to_define_new_weights": false
+        },
+        "mask_60_g2_target.npz": {
+          "asset_sha256": "0e24b7222e1ba80213480f052b0482df6349a970e8cadde5ad51b03bc3ddbd61",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 139555,
+            "intersection": 40361,
+            "jaccard": 0.21932703698470835,
+            "left_covered": 0.4757980855377941,
+            "right_covered": 0.2892121385833542
+          },
+          "used_to_define_new_weights": false
+        },
+        "mask_60_g3_target.npz": {
+          "asset_sha256": "49469ce4bcc2b6c42eedaf235ab7b2ad5b995d7b2b35288072ae6afdb3a18601",
+          "comparison_scope": "shared_legal_source_start_rows",
+          "common_windows": 632231,
+          "overlap": {
+            "left": 84828,
+            "right": 10928,
+            "intersection": 9645,
+            "jaccard": 0.11200659613754341,
+            "left_covered": 0.11370066487480548,
+            "right_covered": 0.882595168374817
+          },
+          "used_to_define_new_weights": false
+        }
+      },
+      "historical_overlap_scope": "available_cluster_target_masks_and_current_T_variation_proxies_not_exhaustive_history",
+      "action_audit": {
+        "B0": {
+          "weight_min": 1.0,
+          "weight_max": 1.0,
+          "weight_mean": 1.0,
+          "ESS": 842581.0,
+          "retained_windows": 842581,
+          "weights_sha256": "1afacb8ec5143a16f564f2cd220bf2b50c25883e6bc191c2a0db367ece08444f"
+        },
+        "UP": {
+          "weight_min": 0.8682293636310241,
+          "weight_max": 1.7364587272620482,
+          "weight_mean": 1.0,
+          "ESS": 768046.9335972891,
+          "retained_windows": 842581,
+          "weights_sha256": "e4d49055648934580348cab6c648383f20ee1bcce5b1a2f47a90f8da95a792e8"
+        },
+        "DOWN": {
+          "weight_min": 0.5410580215297917,
+          "weight_max": 1.0821160430595833,
+          "weight_mean": 1.0000000000000002,
+          "ESS": 811980.3048377973,
+          "retained_windows": 842581,
+          "weights_sha256": "e7c987ce9d21638198d97ee101a0d203a913ae66300e613dba26d2a1659294fc"
+        },
+        "CTRL_UP": {
+          "weight_min": 0.8682293636310241,
+          "weight_max": 1.7364587272620482,
+          "weight_mean": 0.9999999999999999,
+          "ESS": 768046.9335972889,
+          "retained_windows": 842581,
+          "weights_sha256": "ca3b004d1f26f78aeea80a245dfbf64776228a429f9b0b2fc55b891f98db2aba"
+        },
+        "CTRL_DOWN": {
+          "weight_min": 0.5410580215297917,
+          "weight_max": 1.0821160430595833,
+          "weight_mean": 1.0000000000000002,
+          "ESS": 811980.3048377971,
+          "retained_windows": 842581,
+          "weights_sha256": "95e80df9bce7195346aca8b380b39f4affda4d228e17131a30916a27ab8b5ed3"
+        }
+      },
+      "prepared_sha256": "ae1659c27b406e37d93488f0e74832e1e223aeba9336b2daad728ecaa42e50ed",
+      "new_sensor_records": 0,
+      "all_original_evaluation_windows_preserved": true
+    }
+  },
+  "new_trainings": 0,
+  "API_calls": 0,
+  "elapsed_seconds": 16.40707872621715
+}

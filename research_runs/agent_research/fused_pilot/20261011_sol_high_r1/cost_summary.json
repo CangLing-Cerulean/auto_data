@@ -1,0 +1,50 @@
+{
+  "completed_trainings": 10,
+  "failed_trainings": 0,
+  "training_process_seconds": 665.7157458662987,
+  "includes_loading_evaluation_artifact_writes": true,
+  "GPU_kernel_seconds": null,
+  "preparation_seconds": 16.40707872621715,
+  "final_audit_seconds": 0.7612435221672058,
+  "first_audit_seconds": 0.7673277677968144,
+  "recorded_collector_seconds": {
+    "after_down": 0.0454659815877676,
+    "after_up": 0.03065376915037632,
+    "final": 0.07506903354078531
+  },
+  "exact_all_diagnostic_total": null,
+  "missing_cost_components": [
+    "initial_baseline_collector_timer_not_retained_locally",
+    "orchestration_and_file_transfer",
+    "internal_LLM_tokens_and_money",
+    "hosting_billing"
+  ],
+  "milestones": [
+    {
+      "training_process_seconds": 135.4047731999308,
+      "stage": "baseline",
+      "completed_trainings": 2
+    },
+    {
+      "training_process_seconds": 267.4313673041761,
+      "stage": "UP_feedback",
+      "completed_trainings": 4
+    },
+    {
+      "training_process_seconds": 399.7608533138409,
+      "stage": "DOWN_feedback_final_choice",
+      "completed_trainings": 6
+    },
+    {
+      "training_process_seconds": 665.7157458662987,
+      "stage": "full_exploration",
+      "completed_trainings": 10
+    }
+  ],
+  "wall_seconds_design_lock_to_scientific_audit": 30459.0,
+  "internal_agent_decision_turns": 3,
+  "internal_agent_tokens": null,
+  "internal_agent_cost": null,
+  "DeepSeek_API_calls": 0,
+  "reset_historical_cost": false
+}

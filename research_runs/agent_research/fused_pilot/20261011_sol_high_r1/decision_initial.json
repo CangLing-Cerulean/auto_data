@@ -1,0 +1,51 @@
+{
+  "prediction_status": "全部为未验证预测；方向均相对各任务B0，不能视为实测效果",
+  "scope": "两个同源且存在时间重叠、历史暴露的开发任务；不支持独立泛化结论",
+  "decisions": [
+    {
+      "task_id": "O60",
+      "initial_recommendation": "B0",
+      "predictions": {
+        "B0": {"overall_NMSE": "参照，变化为0", "target_NMSE": "参照，变化为0", "NMAE_constraint_risk": "相对自身无退化"},
+        "UP": {"overall_NMSE": "unknown", "target_NMSE": "弱预测下降", "NMAE_constraint_risk": "unknown，可能因非目标切片损失而超限"},
+        "DOWN": {"overall_NMSE": "unknown", "target_NMSE": "弱预测上升", "NMAE_constraint_risk": "unknown"}
+      },
+      "ranking_tiers": [["B0", "UP"], ["DOWN"]],
+      "uncertainty": "高。目标开发占比20.47%，训练占比13.42%，目标误差较高；这些只支持检验增权假说。排序为低置信度总体效用预判，B0作为当前保留推荐。",
+      "first_probe": "UP",
+      "competitive_explanations": [
+        "近期切换窗口在训练损失中的贡献不足，增权可能改善目标切片并惠及总体。",
+        "切换后的未来本身更难预测或超出固定模型能力，增权可能仅转移误差；不能据此认定测量故障。",
+        "月份、其他通道状态或变化幅度可能解释目标误差，近期切换标记未必具有针对性。"
+      ],
+      "response_contingencies": [
+        "若UP整体NMSE改善至少1%且NMAE退化不超过1%，暂时转向UP，并按冻结门槛进入后续流程；机制仍待控制检验。",
+        "若UP仅目标切片改善、整体恶化或NMAE退化超过1%，保持B0并请求DOWN，以检验损失取舍。",
+        "若UP响应微弱或方向混合，保持B0并请求DOWN；不将单种子小差异视为等效或无改进空间。"
+      ]
+    },
+    {
+      "task_id": "O80",
+      "initial_recommendation": "B0",
+      "predictions": {
+        "B0": {"overall_NMSE": "参照，变化为0", "target_NMSE": "参照，变化为0", "NMAE_constraint_risk": "相对自身无退化"},
+        "UP": {"overall_NMSE": "弱预测下降", "target_NMSE": "弱预测下降", "NMAE_constraint_risk": "unknown"},
+        "DOWN": {"overall_NMSE": "弱预测上升", "target_NMSE": "弱预测上升", "NMAE_constraint_risk": "unknown，可能因目标覆盖减少而超限"}
+      },
+      "ranking_tiers": [["B0", "UP"], ["DOWN"]],
+      "uncertainty": "高。目标开发占比26.42%，训练占比15.18%；UP后的目标损失份额约26.35%，因此探针具有判断价值，但份额接近不证明处理有效，不能推断收益必然高于O60。",
+      "first_probe": "UP",
+      "competitive_explanations": [
+        "目标窗口贡献不足的假说可能成立，UP有机会降低占比较大的目标切片误差。",
+        "目标比例改变可能伴随状态条件改变；同一标记下的训练与开发响应未必相同。",
+        "增权可能放大难预测样本的梯度并损害其余窗口；DOWN可能通过改善其余窗口取得总体收益。"
+      ],
+      "response_contingencies": [
+        "若UP整体NMSE改善至少1%且NMAE退化不超过1%，暂时转向UP，后续确认与控制仍按协议执行。",
+        "若UP整体失败或NMAE超限，保持B0并请求DOWN；若目标改善而其余窗口恶化，优先解释为误差取舍。",
+        "若UP响应微弱，请求DOWN；若两任务响应相反，分别更新推荐，并仅在达到既定差值门槛时触发差异确认。"
+      ]
+    }
+  ],
+  "interpretation_limits": "一次探针不确立原因；历史宽泛高变化采样仅为注明来源的背景。最终锁定前不读取控制成绩，不改动作、幅度或门槛。"
+}
