@@ -1,0 +1,52 @@
+{
+  "status": "feature_frozen_before_any_feature_values",
+  "created_utc": "2026-10-12T14:36:48.1141457Z",
+  "LLM": "internal_gpt-6.1-sol_high",
+  "proposal_agent": "stage1_signal_solhigh",
+  "proposal_calls": 1,
+  "feature_file": "signal_mean_shift.py",
+  "feature_sha256": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+  "evaluator_sha256": "bb339d19bd5006a47292500701044411b165eeb08dde26bfe9c737402c9529d7",
+  "candidate_protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+  "construction_response_report_sha256": "df0ab962937da9b78241f398e96c21b66c4314dfdd2210a892aedc802b0eae03",
+  "proposal_record_sha256": "08904bb53e69bc91ea2e7ade2699958f34072c907ed4ec15834d08b70f34e480",
+  "tasks": [
+    "C1",
+    "C2"
+  ],
+  "actions": [
+    "P1",
+    "CP1"
+  ],
+  "task_array_sha256": {
+    "C1": "24e33c048e979a48da9bc96e3d9b0aa251af7ec2c1a55d4c95b586047f6835c7",
+    "C2": "7d0312a3dcc4603a561df447d5fd27c31a05a56ffce1b6830622e3309d4f5458"
+  },
+  "parent_result_sha256": {
+    "C1": "9db0f9e2fe0f2d349996b03883f35f8cde2e0154a6caa155917eb89a5956ce9a",
+    "C2": "f9d1614fba01c10efc0e2bd32969187159863bb436a7849ac71d11e20fbd9af7"
+  },
+  "candidate_params_sha256": {
+    "C1": "4c52f4141efe4ca9afbefb0b351ec576e5c63826a09dd0a6a5fd2039713b1cb7",
+    "C2": "088a1d15090ed3e1dc3c10692618b08c9d31b9911cd2aea3ffa4f72dfb77c527"
+  },
+  "sample": "train_starts[np.linspace(0, N-1, min(8192,N)).astype(int64)]; 32 input rows only",
+  "parent_metrics_keys": [
+    "NMSE",
+    "NMAE",
+    "signed_bias",
+    "channel_NMSE",
+    "channel_NMAE"
+  ],
+  "expected_strict_order": "max(C1_CP1,C2_CP1) < C1_P1 < C2_P1",
+  "expected_interval_categories": [
+    "unchanged",
+    "improve",
+    "harm"
+  ],
+  "thresholds_fitted": false,
+  "selection_feature_values_computed": false,
+  "new_training_authorized": false,
+  "test_model_access": false,
+  "code_changes_after_C_values_forbidden": true
+}

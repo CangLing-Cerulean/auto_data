@@ -1,5 +1,5 @@
 {
-  "status": "proposal_running",
+  "status": "feature_proposed_pending_C_only_evaluation",
   "agent": "stage1_signal_solhigh",
   "model": "internal_gpt-6.1-sol_high",
   "fresh_context": true,
@@ -10,5 +10,11 @@
   "S_new_information_provided": false,
   "feature_computed": false,
   "rule_fitted": false,
-  "test_access": false
+  "test_access": false,
+  "feature_file": "signal_mean_shift.py",
+  "feature_code_sha256": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+  "proposal_record": "SIGNAL_PROPOSAL.md",
+  "actual_full_read_count": 19,
+  "base_library_144_read": false,
+  "new_S_information_read": false
 }
