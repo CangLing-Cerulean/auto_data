@@ -107,6 +107,15 @@ try {
         $taskVerified += [ordered]@{name=$taskActual.name;bytes=$taskActual.size;sha256=$taskExpected.sha256;download_url=$taskActual.browser_download_url;asset_id=$taskActual.id}
     }
     $taskRelease = Invoke-StageApi -Method PATCH -Url "$taskApiRoot/releases/$($taskRelease.id)" -Body @{draft=$false}
+    # Publishing replaces draft-only untagged download URLs with the final tag.
+    $taskPublishedAssets = @(Invoke-StageApi -Method GET -Url "$taskApiRoot/releases/$($taskRelease.id)/assets?per_page=100")
+    foreach ($taskVerifiedAsset in $taskVerified) {
+        $taskPublishedAsset = $taskPublishedAssets | Where-Object { $_.id -eq $taskVerifiedAsset.asset_id } | Select-Object -First 1
+        if (-not $taskPublishedAsset -or $taskPublishedAsset.size -ne $taskVerifiedAsset.bytes -or $taskPublishedAsset.digest -ne "sha256:$($taskVerifiedAsset.sha256)") {
+            throw 'Published release asset identity changed'
+        }
+        $taskVerifiedAsset.download_url = $taskPublishedAsset.browser_download_url
+    }
     $taskReceipt = [ordered]@{
         status='release_assets_verified'; verified_utc=[DateTime]::UtcNow.ToString('o');
         repository=$taskRepository;tag=$Tag;source_commit=$TargetCommit;release_url=$taskRelease.html_url;

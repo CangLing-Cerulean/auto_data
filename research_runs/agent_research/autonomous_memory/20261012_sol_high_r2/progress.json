@@ -1,6 +1,6 @@
 {
-  "status": "completed_pending_github_sync",
-  "updated_at_utc": "2026-10-12T05:14:03.4912911Z",
+  "status": "completed_and_synced",
+  "updated_at_utc": "2026-10-12T05:19:20.9513953Z",
   "search_completed": true,
   "decision_version": 11,
   "confirmation_completed_seeds": 3,
@@ -28,5 +28,16 @@
   "external_API_calls": 0,
   "internal_model_cost": null,
   "background_queue": false,
-  "github_sync": "pending_final_source_and_release"
+  "github_sync": "source_and_release_verified",
+  "source_commit": "69b77a975c7f44d803b4873e6381ead542edf1fc",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/autonomous-memory-20261012-sol-high-r2",
+  "primary_scores": {
+    "U": true,
+    "P": true,
+    "C": false,
+    "operational_signal": false,
+    "E": true,
+    "L": true,
+    "F": true
+  }
 }

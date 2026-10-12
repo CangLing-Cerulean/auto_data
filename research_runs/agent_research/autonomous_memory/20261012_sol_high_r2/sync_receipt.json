@@ -1,11 +1,30 @@
 {
-  "status": "exact_commit_and_tree_verified",
-  "verified_at_utc": "2026-10-12T04:13:24.0125721Z",
-  "transport": "official_GitHub_Git_Data_API",
-  "source_commit": "82f530b3302c299c853f4dbc9c478a70271dbbfc",
-  "tree_sha": "c8d6c08cb3baef580a10e434d7685a12cb6d27d5",
-  "parent_sha": "989b4c273f4ee2ef5d8840b784dc1ba78a2ad8d7",
-  "files": 23,
-  "force": false,
-  "repository": "CangLing-Cerulean/auto_data"
+  "status": "source_and_release_verified",
+  "verified_at_utc": "2026-10-12T05:19:20.9513953Z",
+  "source_commit": "69b77a975c7f44d803b4873e6381ead542edf1fc",
+  "source_tree": "497660700dff8e728e7f66b81371b004f5b4f6a1",
+  "source_receipt": "source_sync_receipt.json",
+  "release_receipt": "release_receipt.json",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/autonomous-memory-20261012-sol-high-r2",
+  "assets": [
+    {
+      "name": "autonomous-memory-20261012-sol-high-r2-public_assets.tar.gz",
+      "bytes": 10832015,
+      "sha256": "4199b3779b9f4ba2ea292623b541783e9e599a4ea20a35cfdc4f7f6eb9d7321a",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/autonomous-memory-20261012-sol-high-r2/autonomous-memory-20261012-sol-high-r2-public_assets.tar.gz",
+      "asset_id": 632749772
+    }
+  ],
+  "private_controller_archive_published": false,
+  "preparation_receipt": {
+    "status": "exact_commit_and_tree_verified",
+    "verified_at_utc": "2026-10-12T04:13:24.0125721Z",
+    "transport": "official_GitHub_Git_Data_API",
+    "source_commit": "82f530b3302c299c853f4dbc9c478a70271dbbfc",
+    "tree_sha": "c8d6c08cb3baef580a10e434d7685a12cb6d27d5",
+    "parent_sha": "989b4c273f4ee2ef5d8840b784dc1ba78a2ad8d7",
+    "files": 23,
+    "force": false,
+    "repository": "CangLing-Cerulean/auto_data"
+  }
 }

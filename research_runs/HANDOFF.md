@@ -4,6 +4,8 @@
 
 R2最后一个对照遇到NATIVE_OUTPUT_TYPE；已复现文件原子重命名监控缺陷并通过7项回归，以新ID完成唯一缺失对照，科学身份不变。失败成本保留，冻结服务器源码不覆盖。公开包同时保留旧代码快照与独立修复。不要重跑旧ID、恢复搜索或将确认结果回灌已结束Agent。DeepSeek继续关闭；旧signal语义审查单独待补齐。
 
+R2源码提交 `69b77a975c7f44d803b4873e6381ead542edf1fc` 与 [Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/autonomous-memory-20261012-sol-high-r2) 均已核验。公开包10,832,015字节、SHA256 `4199b3779b9f4ba2ea292623b541783e9e599a4ea20a35cfdc4f7f6eb9d7321a`；正式下载入口见 [同步收据](agent_research/autonomous_memory/20261012_sol_high_r2/sync_receipt.json)。私有控制器包仅本地保留。
+
 当前主线是数据性能诊断与处理。用户要求融合signal与E1，并先用Sol high子代理替代DeepSeek。已完成[融合先导第一轮](agent_research/fused_pilot/20261011_sol_high_r1/REPORT.md)：新增10次训练、0次API、0次失败，两个任务最终均保留B0，未达到多种子确认门槛。累计217次完整训练；本轮关闭，无后台队列，DeepSeek继续关闭。
 
 ## 当前批次
