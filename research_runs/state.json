@@ -352,7 +352,7 @@
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
-    "updated_at_utc": "2026-10-11T15:42:04.5162130Z",
+    "updated_at_utc": "2026-10-12T00:56:39.7558115Z",
     "phase": "completed_no_confirmation_gate",
     "completed_trainings": 10,
     "failed_trainings": 0,
@@ -372,8 +372,11 @@
     "scientific_status": "no_qualified_exploration_effect_single_seed",
     "old_signal_review": "machine_complete_semantic_review_pending",
     "autonomous_background_queue": false,
-    "pending": "github_stage_sync",
-    "DeepSeek_reproduction": "not_started_effectiveness_not_established"
+    "pending": null,
+    "DeepSeek_reproduction": "not_started_effectiveness_not_established",
+    "github_sync": "source_and_release_verified",
+    "source_commit": "d56d62926dad01e588cba3b2b01a971e2f7cee32",
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/fused-pilot-20261011-sol-high-r1"
   },
   "current_pilot_cost_summary": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/cost_summary.json",
   "current_pilot_completed_run_ids": [
@@ -387,5 +390,6 @@
     "FPR1_O80_CTRL_UP_s2026101101",
     "FPR1_O80_DOWN_s2026101101",
     "FPR1_O80_UP_s2026101101"
-  ]
+  ],
+  "latest_stage_sync": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/sync_receipt.json"
 }

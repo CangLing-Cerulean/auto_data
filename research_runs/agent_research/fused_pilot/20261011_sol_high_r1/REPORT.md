@@ -63,4 +63,6 @@ UP的整体NMSE在两个任务均不如CTRL_UP。O60的DOWN整体优于CTRL_DOWN
 
 ## 保存与同步
 
-代码、协议、逐次结果、决策、报告和失败分母进入Git；检查点、优化器状态、采样次数、权重与源行映射进入同仓库Release。归档排除凭据、旧API调用日志、运行追踪及可重建的传感器缓存。文件清单见artifact_manifest.json，资产大小、SHA256及下载入口见release_receipt.json，远端提交核对见sync_receipt.json；只有相应回执存在并通过核验后才宣称同步完成。
+代码、协议、逐次结果、决策、报告和失败分母已同步GitHub，研究源提交为`d56d62926dad01e588cba3b2b01a971e2f7cee32`，远端树和提交SHA与本地完全一致。普通Git传输失败记录保留于[sync_transport_failures.json](sync_transport_failures.json)，随后通过官方Git Data API完成非强制同步，见[source_sync_receipt.json](source_sync_receipt.json)。
+
+检查点、优化器状态、采样次数、权重与源行映射已发布至[同仓库Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/fused-pilot-20261011-sol-high-r1)。归档11058839字节，SHA256为`e8a4667f5d2c4e0f5bfc1ee5e741aa3602bbf7f99e2646f0edfd56a5f3cd824b`，已核对GitHub返回值。归档排除凭据、旧API调用日志、运行追踪及可重建的传感器缓存。[文件清单](artifact_manifest.json)、[资产回执](release_receipt.json)和[同步回执](sync_receipt.json)均保留；归档中的进度为打包时快照，发布后的状态以仓库回执为准。

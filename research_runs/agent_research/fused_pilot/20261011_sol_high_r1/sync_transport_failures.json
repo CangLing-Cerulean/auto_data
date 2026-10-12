@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-12T00:56:39.4983448Z",
+  "scope": "Git_transport_only",
+  "scientific_work_repeated": false,
+  "attempts": [
+    {
+      "failure": "Recv failure: Connection was reset",
+      "commit_created": false,
+      "operation": "fetch"
+    },
+    {
+      "failure": "Could not connect to github.com:443 after 21116 ms",
+      "commit_created": false,
+      "operation": "fetch_HTTP_1_1"
+    },
+    {
+      "failure": "Less than 1 bytes/sec transferred the last 25 seconds",
+      "local_commit_preserved": "d56d62926dad01e588cba3b2b01a971e2f7cee32",
+      "operation": "push_HTTP_1_1"
+    }
+  ],
+  "resolution": "same exact commit and tree published through official GitHub Git Data API; non-forced branch update verified"
+}
