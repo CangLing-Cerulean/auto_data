@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "error_tensors_verified": 9,
+  "paired_responses_verified": 6,
+  "shared_information_sha256": "091bc8abd480bc8b5f6362b634ced7a7178178e91da53a6aaa479da410628a56",
+  "reviews": [
+    {
+      "seed": 2026101202,
+      "result": {
+        "recipe": "retain_parent",
+        "hypothesis": "retrospective_only",
+        "next_action": "stop_or_revise"
+      }
+    },
+    {
+      "seed": 2026101203,
+      "result": {
+        "recipe": "retain_parent",
+        "hypothesis": "retrospective_only",
+        "next_action": "stop_or_revise"
+      }
+    },
+    {
+      "seed": 2026101204,
+      "result": {
+        "recipe": "retain_parent",
+        "hypothesis": "retrospective_only",
+        "next_action": "stop_or_revise"
+      }
+    }
+  ],
+  "new_training_count": 0,
+  "external_API_calls": 0,
+  "test_access": false,
+  "scope": "real-history adapter regression, not blind LLM method evaluation",
+  "process_seconds": 10.215946952812374,
+  "source_sha256": "010b56a149ff1bc438623c490d9b3f644e1d57840d7e0daa4d6eb8404420f358"
+}

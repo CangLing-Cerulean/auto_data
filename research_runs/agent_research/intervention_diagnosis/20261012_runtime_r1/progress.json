@@ -1,14 +1,17 @@
 {
-  "status": "waiting_for_server_connectivity",
+  "status": "runtime_acceptance_complete_pending_sync",
   "requested_action": "start_experiment",
   "server": "instance-lcpdyopw.zju.smartml.cn:20000",
   "ssh_error": "kex_exchange_identification: Connection closed by remote host",
   "connection_attempts": 2,
-  "upload_started": false,
-  "remote_job_started": false,
+  "upload_started": true,
+  "remote_job_started": true,
   "new_trainings": 0,
-  "new_evaluations": 0,
+  "new_evaluations": 9,
   "total_training_runs_completed": 228,
-  "awaiting": "user confirmation of instance power and SSH endpoint",
-  "updated_utc": "2026-10-12T08:44:50.3106003Z"
+  "awaiting": "GitHub source and Release verification",
+  "updated_utc": "2026-10-12T09:02:02.4713391Z",
+  "unit_tests_passed": 9,
+  "paired_responses_verified": 6,
+  "adapter_regression": "passed_same_facts_real_history"
 }

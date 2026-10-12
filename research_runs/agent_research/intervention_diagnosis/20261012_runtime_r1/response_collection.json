@@ -1,0 +1,494 @@
+[
+  {
+    "seed": 2026101202,
+    "parent": "B0",
+    "child": "parent",
+    "action": "historical_source_half",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.28878016687226016,
+          "NMAE": 0.19404482136355897,
+          "signed_bias": -0.005512296091222583
+        },
+        "child": {
+          "NMSE": 0.27648328371783315,
+          "NMAE": 0.1935342130050821,
+          "signed_bias": -0.006048245995654257
+        },
+        "delta": {
+          "NMSE": 0.012296883154427007,
+          "NMAE": 0.000510608358476855,
+          "signed_bias": 0.0005359499044316736
+        },
+        "gain_pct": {
+          "NMSE": 4.258215959777614,
+          "NMAE": 0.26313938959504013
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.27779377622449214,
+          "NMAE": 0.3240719570546366,
+          "signed_bias": 0.03974126082435243
+        },
+        "child": {
+          "NMSE": 0.23220441627895724,
+          "NMAE": 0.29062889808578907,
+          "signed_bias": 0.0405385442083289
+        },
+        "delta": {
+          "NMSE": 0.045589359945534896,
+          "NMAE": 0.03344305896884753,
+          "signed_bias": -0.0007972833839764715
+        },
+        "gain_pct": {
+          "NMSE": 16.411224385636697,
+          "NMAE": 10.319639895040108
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.28894125044335056,
+          "NMAE": 0.19213835034616145,
+          "signed_bias": -0.0061758083206903385
+        },
+        "child": {
+          "NMSE": 0.27713250495159136,
+          "NMAE": 0.19211060091006915,
+          "signed_bias": -0.00673130622647012
+        },
+        "delta": {
+          "NMSE": 0.011808745491759198,
+          "NMAE": 2.7749436092294744e-05,
+          "signed_bias": 0.0005554979057797813
+        },
+        "gain_pct": {
+          "NMSE": 4.086901912980544,
+          "NMAE": 0.01444242445212038
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "confirmation_candidate",
+      "hypothesis": "retrospective_only",
+      "next_action": "confirm"
+    }
+  },
+  {
+    "seed": 2026101202,
+    "parent": "parent",
+    "child": "child",
+    "action": "source_sign_flip",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.27648328371783315,
+          "NMAE": 0.1935342130050821,
+          "signed_bias": -0.006048245995654257
+        },
+        "child": {
+          "NMSE": 0.27750938466380887,
+          "NMAE": 0.1929467578604904,
+          "signed_bias": -0.003852731356080109
+        },
+        "delta": {
+          "NMSE": -0.0010261009459757164,
+          "NMAE": 0.0005874551445917142,
+          "signed_bias": -0.002195514639574148
+        },
+        "gain_pct": {
+          "NMSE": -0.371125853316655,
+          "NMAE": 0.3035407205114105
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.23220441627895724,
+          "NMAE": 0.29062889808578907,
+          "signed_bias": 0.0405385442083289
+        },
+        "child": {
+          "NMSE": 0.27016664438318305,
+          "NMAE": 0.3150431484148428,
+          "signed_bias": 0.00733205875670437
+        },
+        "delta": {
+          "NMSE": -0.03796222810422581,
+          "NMAE": -0.024414250329053755,
+          "signed_bias": 0.03320648545162453
+        },
+        "gain_pct": {
+          "NMSE": -16.34862450618516,
+          "NMAE": -8.400489589939902
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.27713250495159136,
+          "NMAE": 0.19211060091006915,
+          "signed_bias": -0.00673130622647012
+        },
+        "child": {
+          "NMSE": 0.27761704466461473,
+          "NMAE": 0.19115656823058305,
+          "signed_bias": -0.0040167238801972205
+        },
+        "delta": {
+          "NMSE": -0.0004845397130233686,
+          "NMAE": 0.0009540326794860998,
+          "signed_bias": -0.0027145823462728993
+        },
+        "gain_pct": {
+          "NMSE": -0.17484044793230102,
+          "NMAE": 0.4966059524912432
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "retain_parent",
+      "hypothesis": "retrospective_only",
+      "next_action": "stop_or_revise"
+    }
+  },
+  {
+    "seed": 2026101203,
+    "parent": "B0",
+    "child": "parent",
+    "action": "historical_source_half",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.2899200565048371,
+          "NMAE": 0.19143659693624068,
+          "signed_bias": -0.00582449061891067
+        },
+        "child": {
+          "NMSE": 0.27743164288619826,
+          "NMAE": 0.19361831677522992,
+          "signed_bias": -0.0038331011628531106
+        },
+        "delta": {
+          "NMSE": 0.012488413618638838,
+          "NMAE": -0.002181719838989238,
+          "signed_bias": -0.0019913894560575594
+        },
+        "gain_pct": {
+          "NMSE": 4.307536970430495,
+          "NMAE": -1.139656614203122
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.2701197620443951,
+          "NMAE": 0.31219782072319224,
+          "signed_bias": 0.04538522706844474
+        },
+        "child": {
+          "NMSE": 0.2392231238320778,
+          "NMAE": 0.29265689693987945,
+          "signed_bias": 0.02652244745401475
+        },
+        "delta": {
+          "NMSE": 0.03089663821231728,
+          "NMAE": 0.01954092378331279,
+          "signed_bias": 0.018862779614429993
+        },
+        "gain_pct": {
+          "NMSE": 11.438125807040846,
+          "NMAE": 6.259148042112248
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.2902103704252672,
+          "NMAE": 0.18966598365654605,
+          "signed_bias": -0.006575332680155521
+        },
+        "child": {
+          "NMSE": 0.27799186005784643,
+          "NMAE": 0.19216620309384655,
+          "signed_bias": -0.004278177287522612
+        },
+        "delta": {
+          "NMSE": 0.012218510367420776,
+          "NMAE": -0.0025002194373004993,
+          "signed_bias": -0.002297155392632909
+        },
+        "gain_pct": {
+          "NMSE": 4.210225275380776,
+          "NMAE": -1.318222376569109
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "retain_parent",
+      "hypothesis": "retrospective_only",
+      "next_action": "stop_or_revise"
+    }
+  },
+  {
+    "seed": 2026101203,
+    "parent": "parent",
+    "child": "child",
+    "action": "source_sign_flip",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.27743164288619826,
+          "NMAE": 0.19361831677522992,
+          "signed_bias": -0.0038331011628531106
+        },
+        "child": {
+          "NMSE": 0.2791566186690275,
+          "NMAE": 0.1943528908203732,
+          "signed_bias": -0.0016189399125780858
+        },
+        "delta": {
+          "NMSE": -0.0017249757828292633,
+          "NMAE": -0.0007345740451432659,
+          "signed_bias": -0.0022141612502750247
+        },
+        "gain_pct": {
+          "NMSE": -0.6217660555529507,
+          "NMAE": -0.379392847421573
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.2392231238320778,
+          "NMAE": 0.29265689693987945,
+          "signed_bias": 0.02652244745401475
+        },
+        "child": {
+          "NMSE": 0.2694012332526844,
+          "NMAE": 0.3146066895840438,
+          "signed_bias": 0.005439382238967606
+        },
+        "delta": {
+          "NMSE": -0.030178109420606586,
+          "NMAE": -0.021949792644164356,
+          "signed_bias": 0.021083065215047145
+        },
+        "gain_pct": {
+          "NMSE": -12.615046964184804,
+          "NMAE": -7.5001795186373155
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.27799186005784643,
+          "NMAE": 0.19216620309384655,
+          "signed_bias": -0.004278177287522612
+        },
+        "child": {
+          "NMSE": 0.279299653116883,
+          "NMAE": 0.19258971745770237,
+          "signed_bias": -0.0017224297460029115
+        },
+        "delta": {
+          "NMSE": -0.001307793059036555,
+          "NMAE": -0.0004235143638558203,
+          "signed_bias": -0.0025557475415197003
+        },
+        "gain_pct": {
+          "NMSE": -0.4704429326687553,
+          "NMAE": -0.22038961952586025
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "retain_parent",
+      "hypothesis": "retrospective_only",
+      "next_action": "stop_or_revise"
+    }
+  },
+  {
+    "seed": 2026101204,
+    "parent": "B0",
+    "child": "parent",
+    "action": "historical_source_half",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.28760845927953693,
+          "NMAE": 0.1961701121999511,
+          "signed_bias": -0.005407358275474786
+        },
+        "child": {
+          "NMSE": 0.27506896205166614,
+          "NMAE": 0.19473008959662877,
+          "signed_bias": -0.005867051777386287
+        },
+        "delta": {
+          "NMSE": 0.012539497227870788,
+          "NMAE": 0.0014400226033223218,
+          "signed_bias": 0.0004596935019115008
+        },
+        "gain_pct": {
+          "NMSE": 4.359919474998197,
+          "NMAE": 0.7340682977509562
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.28951085848355623,
+          "NMAE": 0.3478689372914504,
+          "signed_bias": 0.038245463248711045
+        },
+        "child": {
+          "NMSE": 0.24284662658675832,
+          "NMAE": 0.30446140818538164,
+          "signed_bias": 0.029894886393388134
+        },
+        "delta": {
+          "NMSE": 0.046664231896797914,
+          "NMAE": 0.043407529106068765,
+          "signed_bias": 0.008350576855322912
+        },
+        "gain_pct": {
+          "NMSE": 16.118301103185868,
+          "NMAE": 12.478127378674575
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.28758056610995575,
+          "NMAE": 0.1939458886801982,
+          "signed_bias": -0.006047400360699294
+        },
+        "child": {
+          "NMSE": 0.27554140919395087,
+          "NMAE": 0.193121197902765,
+          "signed_bias": -0.0063913969326200816
+        },
+        "delta": {
+          "NMSE": 0.012039156916004878,
+          "NMAE": 0.0008246907774331902,
+          "signed_bias": 0.0003439965719207877
+        },
+        "gain_pct": {
+          "NMSE": 4.186359696990698,
+          "NMAE": 0.42521694223332657
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "confirmation_candidate",
+      "hypothesis": "retrospective_only",
+      "next_action": "confirm"
+    }
+  },
+  {
+    "seed": 2026101204,
+    "parent": "parent",
+    "child": "child",
+    "action": "source_sign_flip",
+    "response": {
+      "global": {
+        "elements": 36064200,
+        "parent": {
+          "NMSE": 0.27506896205166614,
+          "NMAE": 0.19473008959662877,
+          "signed_bias": -0.005867051777386287
+        },
+        "child": {
+          "NMSE": 0.27550246326503935,
+          "NMAE": 0.19224887389901502,
+          "signed_bias": -0.004320508173077086
+        },
+        "delta": {
+          "NMSE": -0.0004335012133732108,
+          "NMAE": 0.0024812156976137534,
+          "signed_bias": -0.0015465436043092008
+        },
+        "gain_pct": {
+          "NMSE": -0.1575972840191931,
+          "NMAE": 1.274181972982931
+        }
+      },
+      "target": {
+        "elements": 521136,
+        "parent": {
+          "NMSE": 0.24284662658675832,
+          "NMAE": 0.30446140818538164,
+          "signed_bias": 0.029894886393388134
+        },
+        "child": {
+          "NMSE": 0.26834355780180474,
+          "NMAE": 0.3152751766350403,
+          "signed_bias": 0.002214959160624381
+        },
+        "delta": {
+          "NMSE": -0.025496931215046426,
+          "NMAE": -0.010813768449658645,
+          "signed_bias": 0.027679927232763753
+        },
+        "gain_pct": {
+          "NMSE": -10.499191021678657,
+          "NMAE": -3.551769833198142
+        }
+      },
+      "complement": {
+        "elements": 35543064,
+        "parent": {
+          "NMSE": 0.27554140919395087,
+          "NMAE": 0.193121197902765,
+          "signed_bias": -0.0063913969326200816
+        },
+        "child": {
+          "NMSE": 0.2756074278611554,
+          "NMAE": 0.19044504980262755,
+          "signed_bias": -0.004416331856269279
+        },
+        "delta": {
+          "NMSE": -6.601866720451488e-05,
+          "NMAE": 0.002676148100137443,
+          "signed_bias": -0.0019750650763508022
+        },
+        "gain_pct": {
+          "NMSE": -0.023959617321273476,
+          "NMAE": 1.3857350354075904
+        }
+      }
+    },
+    "eligibility": "retrospective_mechanism_regression_only",
+    "prestate": null,
+    "prospective_prediction": null,
+    "update": {
+      "recipe": "retain_parent",
+      "hypothesis": "retrospective_only",
+      "next_action": "stop_or_revise"
+    }
+  }
+]

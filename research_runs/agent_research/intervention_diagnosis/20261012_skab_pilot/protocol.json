@@ -1,0 +1,77 @@
+{
+  "id": "skab_intervention_response_pilot_r1",
+  "created_utc": "2026-10-12T08:59:20.2558109Z",
+  "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+  "runner_sha256": "25acec845e1a0900bbef517831830d931d1db0d7a77169c1cbb1e84ba4e6802b",
+  "document_sha256": "f0a31cdc5ff468ef803f657c3db580491b91e944908b8f9cf703c51fb9f7edd7",
+  "frozen_core": "/root/data/auto_data_research/metropt3_v1/session_20260926/scripts/run_research.py",
+  "frozen_core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+  "training": {
+    "prediction_length": 8,
+    "steps": 3000,
+    "moving_average_kernel": 25,
+    "batch_size": 256,
+    "channels": 8,
+    "input_length": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0
+  },
+  "actions": {
+    "B0": {
+      "mask": null,
+      "multiplier": 1.0,
+      "family": "identity"
+    },
+    "W_UP": {
+      "mask": "target",
+      "multiplier": 2.0,
+      "family": "loss_weighting"
+    },
+    "W_DOWN": {
+      "mask": "target",
+      "multiplier": 0.5,
+      "family": "loss_weighting"
+    },
+    "S_UP": {
+      "mask": "target",
+      "multiplier": 2.0,
+      "family": "sampling"
+    },
+    "S_DOWN": {
+      "mask": "target",
+      "multiplier": 0.5,
+      "family": "sampling"
+    },
+    "CW_UP": {
+      "mask": "control",
+      "multiplier": 2.0,
+      "family": "loss_weighting"
+    },
+    "CW_DOWN": {
+      "mask": "control",
+      "multiplier": 0.5,
+      "family": "loss_weighting"
+    },
+    "CS_UP": {
+      "mask": "control",
+      "multiplier": 2.0,
+      "family": "sampling"
+    },
+    "CS_DOWN": {
+      "mask": "control",
+      "multiplier": 0.5,
+      "family": "sampling"
+    }
+  },
+  "control_seed": 2026101299,
+  "seeds": [
+    2026101301,
+    2026101302,
+    2026101303,
+    2026101304
+  ],
+  "Bfix": "B0",
+  "external_API_enabled": false,
+  "baseline_total_trainings": 228,
+  "test_access": false
+}

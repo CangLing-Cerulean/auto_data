@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "training_count": 0,
+  "external_API_calls": 0,
+  "test_access": false,
+  "manifest_sha256": "d4b1d1a3fd27c0e640bc3e935f60f5ffa76fbe7f2526fb881bfe1002b793dca5",
+  "source_project": "/tmp/auto_data_autonomous_memory_20261012_r2",
+  "attempts": [
+    {
+      "name": "unit_tests",
+      "exit_code": 0,
+      "process_seconds": 0.3652748353779316,
+      "log_sha256": "9f38b75a19aac8c6c443d66ac8e7f032f5562eecced5098addcd1ae00a26c007"
+    },
+    {
+      "name": "paired_evaluation",
+      "exit_code": 0,
+      "process_seconds": 67.82394003123045,
+      "log_sha256": "dfa055982e143d42a6b4783da02cda80415d022b2781aa77ec6b466e215ebaf5"
+    }
+  ],
+  "process_seconds": 68.20513581950217
+}
