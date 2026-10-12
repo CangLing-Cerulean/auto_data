@@ -1,0 +1,28 @@
+{
+  "status": "proposed",
+  "feature_sha256": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+  "feature_changed": false,
+  "thresholds": [0.004176092129984914, 0.04433037494712905],
+  "rules": [
+    {"condition": "0 <= s <= 0.004176092129984914", "prediction": "unchanged"},
+    {"condition": "0.004176092129984914 < s <= 0.04433037494712905", "prediction": "improve"},
+    {"condition": "0.04433037494712905 < s <= 1", "prediction": "harm"}
+  ],
+  "boundary_assignment": "等于阈值时归入较低信号区间。",
+  "invalid_signal_policy": "非有限或超出[0,1]时停止并报告工程错误，不记为uncertain。",
+  "uncertain_region": null,
+  "threshold_selection": "按固定信号坐标取相邻不同类别最近构建点的算术中点：第一阈值为C2_CP1与C1_P1的中点；第二阈值为C1_P1与C2_P1的中点。各自最大化这两个边界点的最小绝对距离，没有扫描其他公式或阈值准则。",
+  "construction_fit": {"C1_CP1": "unchanged", "C2_CP1": "unchanged", "C1_P1": "improve", "C2_P1": "harm"},
+  "limitations": [
+    "四格构建拟合一致不是独立预测验证。",
+    "只有两个同源任务；improve和harm区间各仅由一格支持，重复种子不增加独立任务数。",
+    "边界之间及构建值范围之外缺少响应证据；本规则仍作固定预测，可靠性须由隔离开发任务检验。",
+    "improve表示超过既定0.25%响应带宽，不保证达到整体NMSE至少改善1%的处理采用门槛。",
+    "后续不得依据S信号值或响应修改公式、阈值及边界归属。",
+    "保存完整计算的C1_CP1_s2026101404仍保留failed交付状态。"
+  ],
+  "additional_files_read_completely": ["research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/signal_feature_C_evaluation.json"],
+  "selection_information_used": false,
+  "files_written": 0,
+  "experiments_run": 0
+}

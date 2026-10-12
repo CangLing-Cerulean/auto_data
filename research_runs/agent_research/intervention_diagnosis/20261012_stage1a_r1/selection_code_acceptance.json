@@ -1,0 +1,10 @@
+{
+  "reviewer": "stage1_preparation_check",
+  "failed_preflight_count": 1,
+  "reviewer_role": "check_sol_high",
+  "review_scope": "six new Python files plus protocol; source/guard/scoring/training parity",
+  "new_trainings": 0,
+  "status": "accepted_after_static_review",
+  "blocking_findings": [],
+  "main_review": "Rule unchanged. Preflight exact midpoint assertion failed at <=1 ULP decimal serialization; comparison changed to <=1 ULP, categorical boundary remains exact. No S features or trainings occurred."
+}
