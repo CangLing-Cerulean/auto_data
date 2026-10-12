@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+2026-10-12评分复核补充：[阶段1启动设计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)与[审计](agent_research/intervention_diagnosis/20261012_stage1_readiness/scoring_audit.json)已整理。原6/7、4/4只表示原始差值符号命中；按阶段0的±0.25%基本不变带，分别仅3/7、2/4明确预测得到同方向超带宽响应，其余已预测项落在不变带，不能改称新的事前准确率。下一步先冻结分组任务与四类别评分，再构建可辨别的共同响应集合；信号学习和反馈因果比较依次推进。当前无新训练，237次保持，Hydraulic继续保留。
+
 用户要求开始实验并确认开机后，[runtime_r1](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)及首个[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)均已完成验收。八候选均未达1%整体收益门槛，两组全程保留B0；累计237次，无确认队列。先核对本阶段GitHub同步收据；后续应补足多任务事前状态/响应证据，另行冻结可学习规则与反馈对照，不重复旧ID或在本轮失败目标/倍率上补扫。Hydraulic保持未用于方法选择。
 
 早期[阶段0](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)是仅本地交付快照，后续真实运行已补齐。共同事实下的strong_prompt与full仍只是首个有限候选池先导；full未能从历史登记数值规则。主动诊断、反馈因果对照及更多来源验证仍待独立冻结，无LLM微调或多Agent方法扩展。

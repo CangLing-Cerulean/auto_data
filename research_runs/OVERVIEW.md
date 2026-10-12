@@ -1,5 +1,7 @@
 # 当前研究概览
 
+最新口径补充：SKAB先导的6/7、4/4是原始符号统计；[补充审计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)说明它与阶段0±0.25%不变带的差别。全部八个整体响应均在不变带内，当前优先登记更多合法开发任务以检验响应是否可辨别，再学习新信号。原始结果、B0选择及237次计数不变，暂无新训练队列。
+
 主课题为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。近期检验反例能否帮助发现有预测价值的干预前信号，以及事前响应预测与父子配对反馈能否减少错误归因；处理效果与假设支持分别更新。
 
 最新[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)完成9次固定DLinear训练，累计237次。最大整体NMSE改善0.1144%，八候选均未达推进门槛；strong_prompt与full全程保留B0。明确方向命中分别4/4和6/7，覆盖4/24与7/24；full历史规则为null，尚无方法优势、规则迁移或反馈因果收益证据。[阶段0真实运行](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)已完成9项测试、9检查点及6组父子逐元素审计。旧工作复用价值见[专项审查](agent_research/intervention_diagnosis/20261012_phase0/VALUE_REVIEW.md)，早期仅本地交付保持历史快照。

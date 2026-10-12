@@ -9,7 +9,7 @@
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
-  "next_action": "no_active_queue; next_scientific_stage_requires_separate_multitask_evidence_and_feedback_protocol; preserve_Hydraulic_for_source_confirmation",
+  "next_action": "prepare_and_freeze_grouped_development_tasks_and_four_class_scoring_before_stage1_response_corpus; no_new_training_started",
   "last_verified_snapshot_at": "2026-10-12T09:32:52.3841286Z",
   "snapshot_only": false,
   "total_training_runs_completed": 237,
@@ -512,5 +512,13 @@
     "github_sync": "source_and_release_verified",
     "source_commit": "c8c98e6516f131e937ad1a45155e192cbb8eb811",
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/skab-intervention-20261012-pilot-r1"
+  },
+  "latest_scoring_clarification": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/scoring_audit.json",
+  "next_stage_design": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md",
+  "next_stage_preparation": {
+    "trainings": 0,
+    "status": "audit_and_design_complete_pending_sync",
+    "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness",
+    "frozen_protocol": false
   }
 }

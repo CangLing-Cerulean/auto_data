@@ -1,0 +1,449 @@
+{
+  "status": "additive_retrospective_scoring_clarification",
+  "created_utc": "2026-10-12T11:00:08.6578527Z",
+  "unchanged_band_pct": 0.25,
+  "reason": "Phase0 dual-update contract defines unchanged band; SKAB pilot descriptive scorer used raw sign. Preserve raw-sign results; do not reinterpret these additional counts as a new preregistered benchmark.",
+  "methods": [
+    {
+      "variant": "strong_prompt",
+      "items": [
+        {
+          "action": "W_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.11790461908600669,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "W_UP",
+          "scope": "target",
+          "predicted_raw_direction": "improve",
+          "gain_pct": 0.2568926434562968,
+          "observed_with_band": "improve",
+          "review": "direction_supported_beyond_band"
+        },
+        {
+          "action": "W_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.1554033858689685,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.07397849109326282,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.5555340178658996,
+          "observed_with_band": "harm",
+          "review": "direction_supported_beyond_band"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "improve",
+          "gain_pct": 0.13696172261496997,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "S_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.009740115132572669,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_UP",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.02174199848852254,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.008539317074784947,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.11287219264105586,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.6246729234581583,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.18666417317179107,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.05357109639767543,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.6146709997592481,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.0025673990528107815,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.021800240965563766,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.06601638920338271,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.01737637986378715,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.027616472119074142,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.4971231037321555,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.08011708763359104,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.11437990683182964,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.3654690528379856,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.16238918018572912,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        }
+      ],
+      "declared_direction_count": 4,
+      "supported_beyond_band": 2,
+      "inside_unchanged_band": 2,
+      "opposite_beyond_band": 0,
+      "abstentions": 20
+    },
+    {
+      "variant": "full",
+      "items": [
+        {
+          "action": "W_UP",
+          "scope": "global",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.11790461908600669,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "W_UP",
+          "scope": "target",
+          "predicted_raw_direction": "improve",
+          "gain_pct": 0.2568926434562968,
+          "observed_with_band": "improve",
+          "review": "direction_supported_beyond_band"
+        },
+        {
+          "action": "W_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.1554033858689685,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.07397849109326282,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.5555340178658996,
+          "observed_with_band": "harm",
+          "review": "direction_supported_beyond_band"
+        },
+        {
+          "action": "W_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "improve",
+          "gain_pct": 0.13696172261496997,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "S_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.009740115132572669,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_UP",
+          "scope": "target",
+          "predicted_raw_direction": "improve",
+          "gain_pct": -0.02174199848852254,
+          "observed_with_band": "unchanged",
+          "review": "inside_unchanged_band"
+        },
+        {
+          "action": "S_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.008539317074784947,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.11287219264105586,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "harm",
+          "gain_pct": -0.6246729234581583,
+          "observed_with_band": "harm",
+          "review": "direction_supported_beyond_band"
+        },
+        {
+          "action": "S_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.18666417317179107,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.05357109639767543,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.6146709997592481,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.0025673990528107815,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.021800240965563766,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.06601638920338271,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CW_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.01737637986378715,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.027616472119074142,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.4971231037321555,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_UP",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.08011708763359104,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "global",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.11437990683182964,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "target",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": -0.3654690528379856,
+          "observed_with_band": "harm",
+          "review": "abstained"
+        },
+        {
+          "action": "CS_DOWN",
+          "scope": "complement",
+          "predicted_raw_direction": "uncertain",
+          "gain_pct": 0.16238918018572912,
+          "observed_with_band": "unchanged",
+          "review": "abstained"
+        }
+      ],
+      "declared_direction_count": 7,
+      "supported_beyond_band": 3,
+      "inside_unchanged_band": 4,
+      "opposite_beyond_band": 0,
+      "abstentions": 17
+    }
+  ],
+  "all_8_global_responses_inside_band": true,
+  "S_UP_target_review": "Raw sign differs from initial improve prediction, but observed magnitude lies inside unchanged band. It is not evidence of material opposite response.",
+  "recipe_gate_unchanged": true,
+  "final_recommendations_unchanged": {
+    "full": "B0",
+    "strong_prompt": "B0"
+  },
+  "inputs": [
+    {
+      "sha256": "476a1a5c74934337b0015c22eb562b207fb41c7c71808885c5b61be22a03c830",
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/PROTOCOL.md"
+    },
+    {
+      "sha256": "09273e764bb3c24931235703d9caf1121b3dffdf423084e2a4eab5017f228194",
+      "path": "online_ts/agent_research/intervention.py"
+    },
+    {
+      "sha256": "f0a31cdc5ff468ef803f657c3db580491b91e944908b8f9cf703c51fb9f7edd7",
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/PROTOCOL.md"
+    },
+    {
+      "sha256": "23e8c187e0896da28e1ce582b026781f36724bace5b475ea9f1bea9451b118cd",
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/common_feedback_node8.json"
+    },
+    {
+      "sha256": "faba423bfa01d5abe145071f299078379c28accf58b5de4592910ddd904ecf6d",
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/full_prediction_initial.json"
+    },
+    {
+      "sha256": "1ce1c0250bc630c0cef3501c1856b5c8b57534117500286ef6fd2632e264f0b9",
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/strong_prompt_prediction_initial.json"
+    }
+  ],
+  "new_trainings": 0,
+  "new_model_evaluations": 0,
+  "test_access": false,
+  "old_protocols_predictions_scores_modified": false
+}

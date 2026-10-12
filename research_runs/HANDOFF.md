@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+评分口径补审计：见[下一阶段设计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)。下文SKAB的6/7和4/4是原始正负统计，与阶段0±0.25%不变带没有统一；不能据此宣称有幅度的方向预测或机制成功。补审计分别为3项/2项同方向超过带宽，另4项/2项落在不变带，无超带宽反向。旧预测和评分文件未改写，B0结论不变；阶段1任务清单及四类别评分仍需另行冻结，没有新实验启动。
+
 最新：[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)已完成9次训练并通过逐元素审计，累计237次。八候选最大整体NMSE改善0.1144%，全部未达1%门槛，两组初始及2/4/8节点均保留B0，不追加确认。full明确预测7项、正确6项，strong_prompt明确预测4项、全部正确，其余弃权；规则始终null，未确立方法优势或反馈因果价值。无队列、外部API0、无测试访问。阶段同步以progress/sync_receipt为准。此前[阶段0真实运行](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)9项测试、9检查点和6组父子审计已完成并同步，原SSH故障已解除。
 
 当前主课题为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。[阶段0本地交付](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)保留当时的协议、三个任务定义、14条历史响应索引、两个原型及旧工作价值审查。其“仅本地、尚未运行”是旧快照；后续授权与运行结果另存runtime_r1。DeepSeek关闭，Hydraulic保留为方法冻结后的独立来源确认。
