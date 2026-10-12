@@ -1,0 +1,612 @@
+{
+  "status": "prepared",
+  "dataset_id": "skab_v1",
+  "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+  "train_rows": 32802,
+  "development_rows": 9372,
+  "train_windows": 31788,
+  "development_windows": 8982,
+  "channels": [
+    "Accelerometer1RMS",
+    "Accelerometer2RMS",
+    "Current",
+    "Pressure",
+    "Temperature",
+    "Thermocouple",
+    "Voltage",
+    "Volume Flow RateRMS"
+  ],
+  "normalization": {
+    "mean": [
+      0.17390024988415398,
+      0.21636219602463172,
+      2.1350367874824743,
+      0.0915905394488707,
+      84.0112359795135,
+      27.447406621547223,
+      228.92992592747237,
+      94.20949974489541
+    ],
+    "scale": [
+      0.12764484917856572,
+      0.14287917091002242,
+      6.406307422789127,
+      0.2577962843113951,
+      7.330446079625858,
+      2.5807590185075218,
+      12.740059413163621,
+      42.46877710451059
+    ]
+  },
+  "input_variation_threshold": 0.2998207761953264,
+  "train_target_fraction": 0.10000629168239587,
+  "development_target_fraction": 0.11534179470051213,
+  "forecast_elapsed_seconds": {
+    "train_min": 8,
+    "train_max": 12,
+    "development_min": 8,
+    "development_max": 9
+  },
+  "matched_control": {
+    "qualified": true,
+    "status": "exact_counts_per_source_time_stratum",
+    "strata": [
+      {
+        "stratum": 0,
+        "target": 184,
+        "eligible_control": 2157,
+        "matched": 184
+      },
+      {
+        "stratum": 1,
+        "target": 206,
+        "eligible_control": 2135,
+        "matched": 206
+      },
+      {
+        "stratum": 2,
+        "target": 213,
+        "eligible_control": 2127,
+        "matched": 213
+      },
+      {
+        "stratum": 3,
+        "target": 152,
+        "eligible_control": 2188,
+        "matched": 152
+      },
+      {
+        "stratum": 4,
+        "target": 4,
+        "eligible_control": 143,
+        "matched": 4
+      },
+      {
+        "stratum": 5,
+        "target": 0,
+        "eligible_control": 147,
+        "matched": 0
+      },
+      {
+        "stratum": 6,
+        "target": 32,
+        "eligible_control": 115,
+        "matched": 32
+      },
+      {
+        "stratum": 7,
+        "target": 2,
+        "eligible_control": 144,
+        "matched": 2
+      },
+      {
+        "stratum": 8,
+        "target": 3,
+        "eligible_control": 272,
+        "matched": 3
+      },
+      {
+        "stratum": 9,
+        "target": 26,
+        "eligible_control": 249,
+        "matched": 26
+      },
+      {
+        "stratum": 10,
+        "target": 29,
+        "eligible_control": 245,
+        "matched": 29
+      },
+      {
+        "stratum": 11,
+        "target": 8,
+        "eligible_control": 266,
+        "matched": 8
+      },
+      {
+        "stratum": 12,
+        "target": 30,
+        "eligible_control": 203,
+        "matched": 30
+      },
+      {
+        "stratum": 13,
+        "target": 1,
+        "eligible_control": 231,
+        "matched": 1
+      },
+      {
+        "stratum": 14,
+        "target": 40,
+        "eligible_control": 192,
+        "matched": 40
+      },
+      {
+        "stratum": 15,
+        "target": 1,
+        "eligible_control": 231,
+        "matched": 1
+      },
+      {
+        "stratum": 16,
+        "target": 0,
+        "eligible_control": 279,
+        "matched": 0
+      },
+      {
+        "stratum": 17,
+        "target": 20,
+        "eligible_control": 259,
+        "matched": 20
+      },
+      {
+        "stratum": 18,
+        "target": 47,
+        "eligible_control": 231,
+        "matched": 47
+      },
+      {
+        "stratum": 19,
+        "target": 52,
+        "eligible_control": 226,
+        "matched": 52
+      },
+      {
+        "stratum": 20,
+        "target": 39,
+        "eligible_control": 238,
+        "matched": 39
+      },
+      {
+        "stratum": 21,
+        "target": 27,
+        "eligible_control": 250,
+        "matched": 27
+      },
+      {
+        "stratum": 22,
+        "target": 0,
+        "eligible_control": 277,
+        "matched": 0
+      },
+      {
+        "stratum": 23,
+        "target": 0,
+        "eligible_control": 277,
+        "matched": 0
+      },
+      {
+        "stratum": 24,
+        "target": 0,
+        "eligible_control": 263,
+        "matched": 0
+      },
+      {
+        "stratum": 25,
+        "target": 3,
+        "eligible_control": 260,
+        "matched": 3
+      },
+      {
+        "stratum": 26,
+        "target": 28,
+        "eligible_control": 235,
+        "matched": 28
+      },
+      {
+        "stratum": 27,
+        "target": 58,
+        "eligible_control": 205,
+        "matched": 58
+      },
+      {
+        "stratum": 28,
+        "target": 65,
+        "eligible_control": 212,
+        "matched": 65
+      },
+      {
+        "stratum": 29,
+        "target": 86,
+        "eligible_control": 191,
+        "matched": 86
+      },
+      {
+        "stratum": 30,
+        "target": 48,
+        "eligible_control": 229,
+        "matched": 48
+      },
+      {
+        "stratum": 31,
+        "target": 32,
+        "eligible_control": 245,
+        "matched": 32
+      },
+      {
+        "stratum": 32,
+        "target": 7,
+        "eligible_control": 270,
+        "matched": 7
+      },
+      {
+        "stratum": 33,
+        "target": 0,
+        "eligible_control": 277,
+        "matched": 0
+      },
+      {
+        "stratum": 34,
+        "target": 40,
+        "eligible_control": 236,
+        "matched": 40
+      },
+      {
+        "stratum": 35,
+        "target": 54,
+        "eligible_control": 222,
+        "matched": 54
+      },
+      {
+        "stratum": 36,
+        "target": 32,
+        "eligible_control": 290,
+        "matched": 32
+      },
+      {
+        "stratum": 37,
+        "target": 1,
+        "eligible_control": 321,
+        "matched": 1
+      },
+      {
+        "stratum": 38,
+        "target": 62,
+        "eligible_control": 260,
+        "matched": 62
+      },
+      {
+        "stratum": 39,
+        "target": 17,
+        "eligible_control": 304,
+        "matched": 17
+      },
+      {
+        "stratum": 40,
+        "target": 43,
+        "eligible_control": 245,
+        "matched": 43
+      },
+      {
+        "stratum": 41,
+        "target": 18,
+        "eligible_control": 270,
+        "matched": 18
+      },
+      {
+        "stratum": 42,
+        "target": 18,
+        "eligible_control": 270,
+        "matched": 18
+      },
+      {
+        "stratum": 43,
+        "target": 17,
+        "eligible_control": 271,
+        "matched": 17
+      },
+      {
+        "stratum": 44,
+        "target": 50,
+        "eligible_control": 226,
+        "matched": 50
+      },
+      {
+        "stratum": 45,
+        "target": 0,
+        "eligible_control": 276,
+        "matched": 0
+      },
+      {
+        "stratum": 46,
+        "target": 71,
+        "eligible_control": 204,
+        "matched": 71
+      },
+      {
+        "stratum": 47,
+        "target": 114,
+        "eligible_control": 161,
+        "matched": 114
+      },
+      {
+        "stratum": 48,
+        "target": 88,
+        "eligible_control": 172,
+        "matched": 88
+      },
+      {
+        "stratum": 49,
+        "target": 60,
+        "eligible_control": 200,
+        "matched": 60
+      },
+      {
+        "stratum": 50,
+        "target": 35,
+        "eligible_control": 225,
+        "matched": 35
+      },
+      {
+        "stratum": 51,
+        "target": 63,
+        "eligible_control": 197,
+        "matched": 63
+      },
+      {
+        "stratum": 52,
+        "target": 21,
+        "eligible_control": 231,
+        "matched": 21
+      },
+      {
+        "stratum": 53,
+        "target": 3,
+        "eligible_control": 248,
+        "matched": 3
+      },
+      {
+        "stratum": 54,
+        "target": 50,
+        "eligible_control": 201,
+        "matched": 50
+      },
+      {
+        "stratum": 55,
+        "target": 6,
+        "eligible_control": 245,
+        "matched": 6
+      },
+      {
+        "stratum": 56,
+        "target": 15,
+        "eligible_control": 163,
+        "matched": 15
+      },
+      {
+        "stratum": 57,
+        "target": 25,
+        "eligible_control": 153,
+        "matched": 25
+      },
+      {
+        "stratum": 58,
+        "target": 9,
+        "eligible_control": 169,
+        "matched": 9
+      },
+      {
+        "stratum": 59,
+        "target": 0,
+        "eligible_control": 178,
+        "matched": 0
+      },
+      {
+        "stratum": 60,
+        "target": 14,
+        "eligible_control": 264,
+        "matched": 14
+      },
+      {
+        "stratum": 61,
+        "target": 32,
+        "eligible_control": 245,
+        "matched": 32
+      },
+      {
+        "stratum": 62,
+        "target": 75,
+        "eligible_control": 202,
+        "matched": 75
+      },
+      {
+        "stratum": 63,
+        "target": 1,
+        "eligible_control": 276,
+        "matched": 1
+      },
+      {
+        "stratum": 64,
+        "target": 16,
+        "eligible_control": 261,
+        "matched": 16
+      },
+      {
+        "stratum": 65,
+        "target": 35,
+        "eligible_control": 242,
+        "matched": 35
+      },
+      {
+        "stratum": 66,
+        "target": 37,
+        "eligible_control": 239,
+        "matched": 37
+      },
+      {
+        "stratum": 67,
+        "target": 27,
+        "eligible_control": 249,
+        "matched": 27
+      },
+      {
+        "stratum": 68,
+        "target": 0,
+        "eligible_control": 250,
+        "matched": 0
+      },
+      {
+        "stratum": 69,
+        "target": 9,
+        "eligible_control": 240,
+        "matched": 9
+      },
+      {
+        "stratum": 70,
+        "target": 0,
+        "eligible_control": 249,
+        "matched": 0
+      },
+      {
+        "stratum": 71,
+        "target": 0,
+        "eligible_control": 249,
+        "matched": 0
+      },
+      {
+        "stratum": 72,
+        "target": 18,
+        "eligible_control": 260,
+        "matched": 18
+      },
+      {
+        "stratum": 73,
+        "target": 69,
+        "eligible_control": 209,
+        "matched": 69
+      },
+      {
+        "stratum": 74,
+        "target": 20,
+        "eligible_control": 257,
+        "matched": 20
+      },
+      {
+        "stratum": 75,
+        "target": 42,
+        "eligible_control": 235,
+        "matched": 42
+      },
+      {
+        "stratum": 76,
+        "target": 21,
+        "eligible_control": 234,
+        "matched": 21
+      },
+      {
+        "stratum": 77,
+        "target": 9,
+        "eligible_control": 245,
+        "matched": 9
+      },
+      {
+        "stratum": 78,
+        "target": 60,
+        "eligible_control": 194,
+        "matched": 60
+      },
+      {
+        "stratum": 79,
+        "target": 2,
+        "eligible_control": 252,
+        "matched": 2
+      },
+      {
+        "stratum": 80,
+        "target": 0,
+        "eligible_control": 279,
+        "matched": 0
+      },
+      {
+        "stratum": 81,
+        "target": 13,
+        "eligible_control": 266,
+        "matched": 13
+      },
+      {
+        "stratum": 82,
+        "target": 42,
+        "eligible_control": 237,
+        "matched": 42
+      },
+      {
+        "stratum": 83,
+        "target": 40,
+        "eligible_control": 238,
+        "matched": 40
+      },
+      {
+        "stratum": 84,
+        "target": 0,
+        "eligible_control": 279,
+        "matched": 0
+      },
+      {
+        "stratum": 85,
+        "target": 86,
+        "eligible_control": 193,
+        "matched": 86
+      },
+      {
+        "stratum": 86,
+        "target": 44,
+        "eligible_control": 235,
+        "matched": 44
+      },
+      {
+        "stratum": 87,
+        "target": 25,
+        "eligible_control": 253,
+        "matched": 25
+      },
+      {
+        "stratum": 88,
+        "target": 0,
+        "eligible_control": 115,
+        "matched": 0
+      },
+      {
+        "stratum": 89,
+        "target": 14,
+        "eligible_control": 100,
+        "matched": 14
+      },
+      {
+        "stratum": 90,
+        "target": 41,
+        "eligible_control": 73,
+        "matched": 41
+      },
+      {
+        "stratum": 91,
+        "target": 32,
+        "eligible_control": 82,
+        "matched": 32
+      }
+    ]
+  },
+  "array_sha256": "011e6e1d8dc6b190fde7b7fc16ec1f5e867a8bad87e5da150230f532396249b9",
+  "new_trainings": 0,
+  "test_access": false,
+  "process_seconds": 0.7935054767876863
+}

@@ -1,8 +1,8 @@
 # 下一步：干预响应诊断与反馈决策
 
-用户随后要求“开始实验”。[runtime_r1](agent_research/intervention_diagnosis/20261012_runtime_r1/PLAN.md)已准备测试与配对评价入口，但服务器SSH握手被远端关闭，尚未上传或启动。等待开机/端点确认后按顺序验收；不要跳过阶段0直接开展新训练。上一轮本地范围作为历史记录保留。
+用户要求开始实验并确认开机后，[runtime_r1](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)及首个[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)均已完成验收。八候选均未达1%整体收益门槛，两组全程保留B0；累计237次，无确认队列。先核对本阶段GitHub同步收据；后续应补足多任务事前状态/响应证据，另行冻结可学习规则与反馈对照，不重复旧ID或在本轮失败目标/倍率上补扫。Hydraulic保持未用于方法选择。
 
-最新[阶段0](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)只完成本地协议、历史证据表与两个原型。用户明确选择本地范围；真实R2逐窗口导出、Python测试和新来源窗口索引均待执行，当前不上传服务器或启动实验。后续先完成这些证据验收，再冻结共同候选/Bfix，比较相同完整事实下的强提示词与full方法。主动诊断后置，无LLM微调或多Agent方法扩展。当前累计228次训练保持不变。
+早期[阶段0](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)是仅本地交付快照，后续真实运行已补齐。共同事实下的strong_prompt与full仍只是首个有限候选池先导；full未能从历史登记数值规则。主动诊断、反馈因果对照及更多来源验证仍待独立冻结，无LLM微调或多Agent方法扩展。
 
 以下保留R1/R2及旧signal的接续背景，不构成启动授权。
 

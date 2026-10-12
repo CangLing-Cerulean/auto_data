@@ -1,0 +1,28 @@
+{
+  "variant": "full",
+  "node": 8,
+  "rule": null,
+  "recommendation": "B0",
+  "final_locked": true,
+  "prediction_review": {
+    "total_directions": 24,
+    "correct": 6,
+    "incorrect": 1,
+    "abstained": 17,
+    "coverage": "7/24",
+    "accuracy_when_predicted": "6/7",
+    "correct_over_all_directions": "6/24，弃权不计正确",
+    "details": "W_UP三方向正确；W_DOWN目标/补集正确、整体弃权；S_UP目标预测错误，实测退化0.0217%；S_DOWN目标正确、整体/补集弃权。四控制12方向全部弃权。"
+  },
+  "hypothesis_update": {
+    "W_UP_vs_CW_UP": "目标增益+0.2569%对-0.6147%，支持局部针对性；整体-0.1179%对-0.0536%，目标动作更差，不能支持采用。",
+    "W_DOWN_vs_CW_DOWN": "目标-0.5555%对+0.0660%，补集+0.1370%对+0.0174%，支持局部取舍；整体+0.0740%对+0.0218%，均未达门槛。",
+    "S_UP_vs_CS_UP": "目标-0.0217%对-0.4971%，仅相对控制较好，仍未改善B0；整体-0.0097%对+0.0276%，不支持采用。",
+    "S_DOWN_vs_CS_DOWN": "目标-0.6247%对-0.3655%，整体+0.1129%对+0.1144%，对应控制整体略好，削弱目标降采样的整体针对性。",
+    "conclusion": "误差取舍有局部支持；目标贡献不足的解释未确立，抽样与加权差异的原因仍未解决。"
+  },
+  "processing_update": "全部候选整体NMSE改善均不足1%；最大为CS_DOWN的0.1144%，其NMAE改善0.9082%。无候选通过探索门槛，冻结B0，本轮结束。",
+  "confirmation_required": false,
+  "feedback_benefit_claim": "仅记录反馈后的假说更新；推荐始终为B0，未证明反馈带来处理收益或因果价值。",
+  "limitations": "单开发任务、单探索种子、固定候选池、小幅响应；24方向相关，不能视作24个独立样本。无三种子确认、未访问测试；数值规则始终null，不声称规则验证或来源泛化成功。"
+}

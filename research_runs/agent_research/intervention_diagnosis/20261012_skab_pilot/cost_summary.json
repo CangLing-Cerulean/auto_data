@@ -1,0 +1,20 @@
+{
+  "new_training_attempts": 9,
+  "new_training_completed": 9,
+  "new_training_failed": 0,
+  "prior_completed_trainings": 228,
+  "cumulative_completed_trainings": 237,
+  "training_process_seconds": 370.36099113244563,
+  "preparation_process_seconds": 0.7935054767876863,
+  "audit_process_seconds": 1.596687588840723,
+  "actual_shared_training_runs": 9,
+  "per_method_observed_training_responses": 9,
+  "internal_LLM_contexts": 2,
+  "internal_LLM_decision_stages_per_context": 5,
+  "internal_LLM_tokens": null,
+  "internal_LLM_cost": null,
+  "external_API_calls": 0,
+  "test_access": false,
+  "confirmation_runs": 0,
+  "accounting_note": "Training seconds include scheduled D evaluation; not GPU billable time. Transfer and packaging excluded; phase0 costs separate; historical accounting not reset."
+}

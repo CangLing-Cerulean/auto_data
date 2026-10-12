@@ -1,0 +1,127 @@
+{
+  "variant": "full",
+  "rule": null,
+  "predictions": [
+    {
+      "action": "W_UP",
+      "global": -1,
+      "target": 1,
+      "complement": -1,
+      "nmae_risk": "未知，补集损失可能使整体NMAE超限",
+      "reason": "低置信度预测误差取舍。目标基线NMSE低于补集，开发覆盖仅略高于训练覆盖；翻倍目标权重可能改善目标，却损害占开发窗口多数的补集。",
+      "falsifier": "整体NMSE不退化、目标NMSE不改善或补集NMSE不退化，分别否证对应方向预测。"
+    },
+    {
+      "action": "W_DOWN",
+      "global": 0,
+      "target": -1,
+      "complement": 1,
+      "nmae_risk": "未知，目标NMAE退化可能抵消补集收益",
+      "reason": "低置信度预测降权转移拟合资源；目标可能退化、补集可能改善，净效应无法由基线误差和占比确定。",
+      "falsifier": "目标NMSE不退化或补集NMSE不改善，分别否证局部方向预测；整体弃权不计方向正确。"
+    },
+    {
+      "action": "S_UP",
+      "global": 0,
+      "target": 1,
+      "complement": 0,
+      "nmae_risk": "未知，抽样波动和补集抽样减少可能增加风险",
+      "reason": "提高目标抽样概率可能改善目标；随机梯度及实际抽样组成与损失增权不同，历史没有合格抽样反例，整体和补集弃权。",
+      "falsifier": "目标NMSE不改善即否证目标方向预测；不能将整体或补集弃权计作成功。"
+    },
+    {
+      "action": "S_DOWN",
+      "global": 0,
+      "target": -1,
+      "complement": 0,
+      "nmae_risk": "未知，目标抽样减少可能损害目标NMAE",
+      "reason": "降低目标抽样概率可能损害目标拟合；补集收益与抽样噪声的净效应缺乏事前证据。",
+      "falsifier": "目标NMSE不退化即否证目标方向预测；整体和补集保留弃权。"
+    },
+    {
+      "action": "CW_UP",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "未知",
+      "reason": "控制匹配合格且与训练目标零重叠，但没有控制切片基线误差或梯度信息，不能预测其三个响应方向。",
+      "falsifier": "弃权没有方向性否证；若其目标改善不弱于W_UP，则削弱目标增权的针对性解释。"
+    },
+    {
+      "action": "CW_DOWN",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "未知",
+      "reason": "匹配数量与分层不足以确定控制降权的响应；开发补集内部可能存在收益与损失抵消。",
+      "falsifier": "弃权没有方向性否证；若其响应与W_DOWN相近，则削弱目标标记特有机制的解释。"
+    },
+    {
+      "action": "CS_UP",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "未知",
+      "reason": "没有合格历史抽样响应，控制窗口误差和实际抽样影响均未知。",
+      "falsifier": "弃权没有方向性否证；若其目标改善不弱于S_UP，则削弱目标抽样增加的针对性解释。"
+    },
+    {
+      "action": "CS_DOWN",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "未知",
+      "reason": "控制抽样减少的收益、覆盖代价和梯度噪声无法由现有事前事实识别。",
+      "falsifier": "弃权没有方向性否证；若其响应与S_DOWN相近，则削弱目标标记特有机制的解释。"
+    }
+  ],
+  "ranking_tiers": [
+    [
+      "B0"
+    ],
+    [
+      "W_DOWN",
+      "S_DOWN",
+      "CW_UP",
+      "CW_DOWN",
+      "CS_UP",
+      "CS_DOWN"
+    ],
+    [
+      "W_UP",
+      "S_UP"
+    ]
+  ],
+  "initial_recommendation": "B0",
+  "uncertainty": "高。排序是低置信度效用判断，第二层内部不排序。目标覆盖比1.1533、目标相对误差0.7674，不能确定最优干预。B0检查点轨迹较平，但这不证明候选无效。局部方向预测依据优化资源分配假说；数值规则保持null，不把历史同源响应当作新来源验证。",
+  "hypotheses": [
+    {
+      "claim": "目标窗口训练贡献不足",
+      "status": "待检验，支持较弱",
+      "evidence": "开发目标覆盖略高于训练，但目标基线NMSE低于补集。",
+      "test": "检查增权及增采样的目标响应，并与对应合格控制比较；单独目标改善不能确立该机制。"
+    },
+    {
+      "claim": "干预主要造成目标与补集之间的误差取舍",
+      "status": "待检验",
+      "test": "检查W_UP与W_DOWN局部方向及整体净效应；两个局部方向未形成预期取舍则削弱假说。"
+    },
+    {
+      "claim": "抽样与损失加权可能因实际抽样及梯度噪声产生不同响应",
+      "status": "待检验",
+      "test": "比较相同倍率下两类动作，响应差异本身不足以识别具体原因。"
+    }
+  ],
+  "processing_acceptance": {
+    "current": "保留B0",
+    "exploration_gate": "整体NMSE改善至少1%，整体NMAE退化不超过1%。",
+    "confirmation_gate": "三个额外种子平均NMSE改善至少1%、每个种子改善方向均正、平均NMAE退化不超过1%；确认后不重新选择。",
+    "mechanism_gate": "事前方向及否证检查、目标改善、合格匹配控制支持与处理通过分别登记。",
+    "update_nodes": [
+      2,
+      4,
+      8
+    ]
+  },
+  "record_form": "Score-bearing fields and reasoning transcribed from actual agent response; acceptance prose condensed."
+}

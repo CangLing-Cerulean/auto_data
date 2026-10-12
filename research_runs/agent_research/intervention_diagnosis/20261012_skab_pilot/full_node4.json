@@ -1,0 +1,21 @@
+{
+  "variant": "full",
+  "node": 4,
+  "rule": null,
+  "recommendation": "B0",
+  "prediction_review": {
+    "W_UP": "三个方向命中。",
+    "W_DOWN": "目标和补集方向命中；整体弃权。",
+    "S_UP": "目标改善预测错误，实测NMSE退化0.0217%；整体和补集弃权。",
+    "S_DOWN": "目标退化预测命中，实测退化0.6247%；整体和补集弃权。",
+    "total": "7个非弃权预测中6正确、1错误；另5个弃权不计正确。小幅响应不证明稳定性。"
+  },
+  "hypothesis_update": {
+    "supported": "权重动作及S_DOWN支持局部误差取舍。",
+    "weakened": "增加目标训练贡献必然改善目标的解释被S_UP反例削弱。",
+    "unresolved": "抽样与加权响应存在差异，原因及针对性仍未识别，待对应控制。",
+    "falsifier": "控制收益不弱于目标动作将削弱针对性；不得把S_UP小幅退化改记为改善或等效。"
+  },
+  "processing_update": "四动作均未达整体NMSE改善至少1%的门槛。S_DOWN当前整体改善最大，仅0.1129%，NMAE改善1.2910%；保持B0。固定候选池后续执行不属于主动选择。",
+  "next_unrevealed_predictions_changed": false
+}

@@ -1,0 +1,28 @@
+{
+  "locked_utc": "2026-10-12T09:13:16.4336027Z",
+  "phase": "B_before_nonbaseline_training",
+  "files": [
+    {
+      "sha256": "773ba2921808cb9e35268cde5dfac4b488bbd30aab0bc1cd92ce87026bec5e14",
+      "name": "common_prestate.json"
+    },
+    {
+      "sha256": "960439871bb06f564030576d7dafd30d83301699ed3666bb317477206b612f86",
+      "name": "full_history.json"
+    },
+    {
+      "sha256": "7e0c10e3090b0514dc24246eff7fb90981fa9583c83249abf0a371315a538496",
+      "name": "strong_prompt_history.json"
+    },
+    {
+      "sha256": "faba423bfa01d5abe145071f299078379c28accf58b5de4592910ddd904ecf6d",
+      "name": "full_prediction_initial.json"
+    },
+    {
+      "sha256": "1ce1c0250bc630c0cef3501c1856b5c8b57534117500286ef6fd2632e264f0b9",
+      "name": "strong_prompt_prediction_initial.json"
+    }
+  ],
+  "nonbaseline_runs_started": 0,
+  "rule": null
+}

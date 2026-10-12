@@ -119,7 +119,7 @@ try {
     $taskReceipt = [ordered]@{
         status='release_assets_verified'; verified_utc=[DateTime]::UtcNow.ToString('o');
         repository=$taskRepository;tag=$Tag;source_commit=$TargetCommit;release_url=$taskRelease.html_url;
-        assets=$taskVerified;additional_training=0;model_API_calls=0;test_access=$false
+        assets=$taskVerified;operation='release_publication';counts_scope='publication_only';additional_training=0;model_API_calls=0;test_access=$false
     }
     $taskReceipt | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath $ReceiptPath -Encoding utf8
     Write-Output "Release verified: $($taskRelease.html_url)"

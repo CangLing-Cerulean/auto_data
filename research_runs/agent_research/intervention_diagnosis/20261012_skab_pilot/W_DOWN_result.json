@@ -1,0 +1,75 @@
+{
+  "action": "W_DOWN",
+  "seed": 2026101301,
+  "metrics": {
+    "global": {
+      "windows": 8982,
+      "elements": 574848,
+      "NMSE": 0.3585077326035292,
+      "NMAE": 0.1974481576247446,
+      "signed_bias": 0.01815095215311562
+    },
+    "target": {
+      "windows": 1036,
+      "elements": 66304,
+      "NMSE": 0.28447691910971185,
+      "NMAE": 0.20645327515490042,
+      "signed_bias": 0.021959936172519044
+    },
+    "complement": {
+      "windows": 7946,
+      "elements": 508544,
+      "NMSE": 0.3681598749115577,
+      "NMAE": 0.1962740698118524,
+      "signed_bias": 0.01765433656739929
+    }
+  },
+  "best_step": 3000,
+  "history": [
+    {
+      "step": 500,
+      "NMSE": 0.3588525310467549,
+      "NMAE": 0.19697542930873393
+    },
+    {
+      "step": 1000,
+      "NMSE": 0.35851367745823054,
+      "NMAE": 0.19714203431606953
+    },
+    {
+      "step": 1500,
+      "NMSE": 0.35885574316419927,
+      "NMAE": 0.19818973710168747
+    },
+    {
+      "step": 2000,
+      "NMSE": 0.3587402264006871,
+      "NMAE": 0.19617238041618917
+    },
+    {
+      "step": 2500,
+      "NMSE": 0.3585794805527863,
+      "NMAE": 0.19660379586021054
+    },
+    {
+      "step": 3000,
+      "NMSE": 0.3585077326035292,
+      "NMAE": 0.1974481576247446
+    }
+  ],
+  "parameters": 4224,
+  "initialization_sha256": "5679d2ded88b494eed7fadde4231f502215eecfeb6eb019312ad1b53f3e19a6d",
+  "probability_sha256": "05562e32c57ad6d9d508f9679843da12a2a76080bd97f172d3e225502faf4789",
+  "draw_count_sha256": "18f854b14869dcb002c0257ec5e6fe73731a03252615384869dcb16e35a09124",
+  "prepared_sha256": "011e6e1d8dc6b190fde7b7fc16ec1f5e867a8bad87e5da150230f532396249b9",
+  "protocol_sha256": "69dd0abe1998d2ec5686de7d9438b3e6fd2bd9c41781984ebaf7d803f2790027",
+  "source_sha256": "25acec845e1a0900bbef517831830d931d1db0d7a77169c1cbb1e84ba4e6802b",
+  "assets": {
+    "best.pt": "1eabb01a778d3740e27d3222265ee75bafde779788f60c40120b5c6c5ecb8fc3",
+    "last.pt": "270e53b487a19d37b805c80d2c115f74ed0a7e3afe50e1ba674a32f647f3b481",
+    "best_errors.npz": "4ddb2f91e49d689bff37eb8295cfbaf53afa20bc4a3efccc60a2a82724be4119",
+    "sampling.npz": "fba90ff593bf01927de773207f32ac936479811b6510015c59e6c39c26c381e3"
+  },
+  "process_seconds": 41.09186714980751,
+  "test_access": false
+}

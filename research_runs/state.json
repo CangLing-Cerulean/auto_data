@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "intervention_phase0_runtime_waiting_server_connectivity",
+  "phase": "skab_intervention_pilot_complete_pending_github_sync",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/protocol.json",
-  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_runtime_r1/progress.json",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/protocol.json",
+  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/REPORT.md",
-  "next_action": "wait_for_user_server_power_or_endpoint_confirmation; then unit_tests_and_frozen_R2_paired_evaluation",
-  "last_verified_snapshot_at": "2026-10-12T08:31:09.4287146Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
+  "next_action": "verify_stage_GitHub_sync_then_freeze_next_multi_task_evidence_and_feedback_study; no_active_queue",
+  "last_verified_snapshot_at": "2026-10-12T09:29:48.6490342Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 228,
+  "total_training_runs_completed": 237,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -347,8 +347,8 @@
     "new_task_protocols_frozen": false,
     "existing_active_study_changed": false
   },
-  "latest_update_scope": "autonomous_memory_R2_confirmation_semantic_review_and_engineering_recovery",
-  "training_count_derivation": "198 frozen pre-v2 + 9 completed v2 + 10 fused pilot R1 + 11 autonomous memory R2 = 228; failures excluded from completed count but cost retained",
+  "latest_update_scope": "SKAB_prospective_prediction_common_pool_completed_and_audited",
+  "training_count_derivation": "198 frozen pre-v2 + 9 v2 + 10 fused pilot R1 + 11 autonomous memory R2 + 9 SKAB intervention pilot = 237; failed attempts retained separately",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -391,7 +391,7 @@
     "FPR1_O80_DOWN_s2026101101",
     "FPR1_O80_UP_s2026101101"
   ],
-  "latest_stage_sync": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/sync_receipt.json",
+  "latest_stage_sync": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/sync_receipt.json",
   "current_autonomous_memory": {
     "status": "completed_and_synced",
     "updated_at_utc": "2026-10-12T05:19:20.9513953Z",
@@ -458,17 +458,56 @@
     "historical_records": 14,
     "tasks_frozen": 3,
     "prototype_variants": 2,
-    "python_runtime_verified": false,
-    "evidence_floor_complete": false,
-    "user_scope": "local_only",
+    "python_runtime_verified": true,
+    "evidence_floor_complete": true,
+    "user_scope": "local_delivery_followed_by_authorized_server_runtime",
     "source_commit": "d8d050956957dea993f6f4759d381cbdbaf8700e"
   },
   "intervention_phase0_runtime": {
+    "runtime_acceptance": "research_runs/agent_research/intervention_diagnosis/20261012_runtime_r1/acceptance.json",
+    "upload_started": true,
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/intervention-phase0-20261012-runtime-r1",
+    "paired_comparisons": 6,
+    "new_evaluations": 9,
     "user_requested_start": true,
-    "server_connection_attempts": 2,
-    "upload_started": false,
-    "job_started": false,
-    "new_trainings": 0,
-    "new_evaluations": 0
+    "job_started": true,
+    "prior_connection_failures": 2,
+    "status": "accepted_and_synced",
+    "server_power_confirmed": true,
+    "unit_tests_passed": 9,
+    "new_trainings": 0
+  },
+  "intervention_skab_pilot": {
+    "status": "accepted_final_B0_pending_github_sync",
+    "completed_trainings": 9,
+    "failed_trainings": 0,
+    "cumulative_completed_trainings": 237,
+    "actual_decision_nodes": [
+      2,
+      4,
+      8
+    ],
+    "final_recommendations": {
+      "full": "B0",
+      "strong_prompt": "B0"
+    },
+    "confirmation_required": false,
+    "background_queue": false,
+    "test_access": false,
+    "external_API_calls": 0,
+    "updated_utc": "2026-10-12T09:27:05.4458574Z",
+    "report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
+    "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/cost_summary.json",
+    "completed_run_ids": [
+      "B0_s2026101301",
+      "W_UP_s2026101301",
+      "W_DOWN_s2026101301",
+      "S_UP_s2026101301",
+      "S_DOWN_s2026101301",
+      "CW_UP_s2026101301",
+      "CW_DOWN_s2026101301",
+      "CS_UP_s2026101301",
+      "CS_DOWN_s2026101301"
+    ]
   }
 }

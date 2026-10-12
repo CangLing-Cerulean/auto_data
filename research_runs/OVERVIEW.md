@@ -2,7 +2,7 @@
 
 主课题为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。近期检验反例能否帮助发现有预测价值的干预前信号，以及事前响应预测与父子配对反馈能否减少错误归因；处理效果与假设支持分别更新。
 
-最新[阶段0本地交付](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)冻结协议与三个任务定义，整理14条历史响应并实现两个离线原型。按用户本地范围限制，尚未运行Python原型或逐窗口导出，不产生新科学结论。旧工作的复用价值见[专项审查](agent_research/intervention_diagnosis/20261012_phase0/VALUE_REVIEW.md)。训练总数仍为228。
+最新[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)完成9次固定DLinear训练，累计237次。最大整体NMSE改善0.1144%，八候选均未达推进门槛；strong_prompt与full全程保留B0。明确方向命中分别4/4和6/7，覆盖4/24与7/24；full历史规则为null，尚无方法优势、规则迁移或反馈因果收益证据。[阶段0真实运行](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)已完成9项测试、9检查点及6组父子逐元素审计。旧工作复用价值见[专项审查](agent_research/intervention_diagnosis/20261012_phase0/VALUE_REVIEW.md)，早期仅本地交付保持历史快照。
 
 ## 已确认的成果
 

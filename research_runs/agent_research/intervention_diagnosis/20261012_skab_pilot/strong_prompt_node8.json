@@ -1,0 +1,77 @@
+{
+  "variant": "strong_prompt",
+  "node": 8,
+  "recommendation": "B0",
+  "final_locked": true,
+  "prediction_review": {
+    "order": [
+      "global",
+      "target",
+      "complement"
+    ],
+    "observed_directions": {
+      "W_UP": [
+        -1,
+        1,
+        -1
+      ],
+      "W_DOWN": [
+        1,
+        -1,
+        1
+      ],
+      "S_UP": [
+        -1,
+        -1,
+        -1
+      ],
+      "S_DOWN": [
+        1,
+        -1,
+        1
+      ],
+      "CW_UP": [
+        -1,
+        -1,
+        1
+      ],
+      "CW_DOWN": [
+        1,
+        1,
+        1
+      ],
+      "CS_UP": [
+        1,
+        -1,
+        1
+      ],
+      "CS_DOWN": [
+        1,
+        -1,
+        1
+      ]
+    },
+    "review": "冻结预测仅W_UP目标/补集及W_DOWN目标/补集有明确方向，4项均命中、0项错误；其余20项弃权。",
+    "total": 24,
+    "predicted": 4,
+    "correct": 4,
+    "incorrect": 0,
+    "abstained": 20,
+    "coverage_pct": 16.667,
+    "accuracy_on_predicted_pct": 100,
+    "correct_over_total_pct": 16.667,
+    "caution": "弃权不计命中；未对任何整体方向作明确预测，不能把局部命中解释为整体伤害预警能力。"
+  },
+  "hypothesis_update": {
+    "W_UP_vs_CW_UP": "目标收益0.257%对-0.615%，提供局部针对性线索；整体收益-0.118%对-0.054%，目标动作整体更差，未支持可用处理优势。",
+    "W_DOWN_vs_CW_DOWN": "整体收益0.074%对0.022%，但目标收益-0.556%对0.066%；支持目标损失取舍，未支持消除目标不足。",
+    "S_UP_vs_CS_UP": "目标收益-0.022%对-0.497%，仅相对控制少退化；整体收益-0.010%对0.028%，不能称目标改善或整体优势。",
+    "S_DOWN_vs_CS_DOWN": "整体收益0.113%对0.114%，目标收益-0.625%对-0.365%；控制两项更优，触发针对性解释的削弱条件。",
+    "H_tradeoff": "两个目标权重动作的登记取舍方向获支持、否证条件未触发；不能推广为所有动作规律。",
+    "H_optimizer_path": "S_UP与W_UP目标方向相反，直接互换解释受到反驳；尚未确立优化机制。"
+  },
+  "processing_update": "八候选整体NMSE最大改善为CS_DOWN的0.1144%，均不足1%；整体NMAE均未超过1%退化限制。无人同时通过两项门槛，冻结B0并结束本轮，不新增动作或重选目标。",
+  "confirmation_required": false,
+  "feedback_benefit_claim": "无因果收益主张。节点2/4/8均保留初始B0；反馈更新了假设判断，没有产生推荐收益提升证据。",
+  "limitations": "一个SKAB开发任务、一个探索种子；小差值没有跨种子确认。合格匹配控制提供比较条件，不能单凭点估计确立机制或来源泛化。候选池固定，未进行主动选择；测试未访问。"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "runtime_acceptance_complete_pending_sync",
+  "status": "runtime_acceptance_complete_and_synced",
   "requested_action": "start_experiment",
   "server": "instance-lcpdyopw.zju.smartml.cn:20000",
   "ssh_error": "kex_exchange_identification: Connection closed by remote host",
@@ -9,9 +9,10 @@
   "new_trainings": 0,
   "new_evaluations": 9,
   "total_training_runs_completed": 228,
-  "awaiting": "GitHub source and Release verification",
-  "updated_utc": "2026-10-12T09:02:02.4713391Z",
+  "awaiting": null,
+  "updated_utc": "2026-10-12T09:13:47.8341738Z",
   "unit_tests_passed": 9,
   "paired_responses_verified": 6,
-  "adapter_regression": "passed_same_facts_real_history"
+  "adapter_regression": "passed_same_facts_real_history",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/intervention-phase0-20261012-runtime-r1"
 }

@@ -1,0 +1,17 @@
+{
+  "variant": "strong_prompt",
+  "node": 2,
+  "recommendation": "B0",
+  "prediction_review": {
+    "W_UP": "目标NMSE改善0.257%、补集退化0.155%，两项登记方向命中；整体退化0.118%，原登记为弃权。",
+    "W_DOWN": "目标NMSE退化0.556%、补集改善0.137%，两项登记方向命中；整体改善0.074%，原登记为弃权。",
+    "caution": "四项局部方向命中仅为单种子观测；弃权不计方向命中。"
+  },
+  "hypothesis_update": {
+    "H_tradeoff": "局部误差转移获得支持，登记否证条件未触发；效应较小，尚未证明跨种子稳定性。",
+    "H_target_specificity": "未解决，控制尚未揭示；控制若取得相同或更好收益，将削弱针对性解释。",
+    "H_optimizer_path": "未解决，抽样尚未揭示；不能将权重观测当作抽样响应。"
+  },
+  "processing_update": "W_UP整体NMAE退化0.930%，未超1%但NMSE退化；W_DOWN整体NMAE改善0.882%，NMSE改善不足1%。两者均未达确认门槛，保留B0。后续按固定执行池揭示，不宣称主动选择。",
+  "next_unrevealed_predictions_changed": "无；抽样及控制继续弃权，初始登记保持冻结。"
+}

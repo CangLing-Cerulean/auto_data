@@ -1,0 +1,19 @@
+{
+  "variant": "full",
+  "node": 2,
+  "rule": null,
+  "recommendation": "B0",
+  "prediction_review": {
+    "W_UP": "整体/目标/补集三个方向均命中；NMSE增益分别为-0.1179%、+0.2569%、-0.1554%。",
+    "W_DOWN": "目标/补集两个方向均命中，增益为-0.5555%/+0.1370%；整体弃权，实测改善0.0740%，不计命中。",
+    "scope": "5个非弃权方向命中，仅单种子小幅响应，不证明稳定预测能力。"
+  },
+  "hypothesis_update": {
+    "supported": "目标与补集误差取舍获得局部支持。",
+    "weakened": "增权解决不足并惠及整体的解释被本次整体退化削弱。",
+    "unresolved": "针对性机制待匹配控制；抽样与权重差异待揭示。",
+    "falsifier": "对应控制若目标收益不弱于目标动作，则削弱针对性解释。"
+  },
+  "processing_update": "保持B0。W_UP整体NMSE退化，NMAE退化0.9297%仍在约束内；W_DOWN整体NMSE改善不足1%，NMAE改善0.8821%。两者均未达确认门槛。",
+  "next_unrevealed_predictions_changed": false
+}

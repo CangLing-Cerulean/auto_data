@@ -1,0 +1,15 @@
+{
+  "variant": "full",
+  "historical_lessons": [
+    {"record_ids":["R1_O60_UP","R1_O80_UP"],"lesson":"目标改善不能推出整体改善：目标NMSE分别改善1.807%和2.658%，整体分别退化0.613%和0.145%。"},
+    {"record_ids":["R1_O60_CTRL_UP","R1_O80_CTRL_UP"],"lesson":"对应控制也改善目标NMSE，分别为1.295%和1.787%；目标动作的局部收益不足以确立针对性机制。"},
+    {"record_ids":["R1_O60_DOWN","R1_O80_DOWN"],"lesson":"降权使补集改善，但整体NMSE仍退化；NMAE改善不能替代整体NMSE及约束共同验收。"},
+    {"record_ids":["R2_2026101202_historical_source_half","R2_2026101202_source_sign_flip"],"lesson":"输入表示方案收益与其父子增量必须分开：source_half相对baseline改善4.258%，sign_flip相对其control退化0.371%。两者没有合格事前预测，不能计作预测反例或权重机制证据。"}
+  ],
+  "counterexamples":[{"record_id":"R1_O80_UP","metric":"overall_NMSE","prospective_prediction":"弱预测下降","observed_parent":0.5303822423122914,"observed_child":0.5311535395623879,"observed_gain_pct":-0.1454229023079472,"interpretation":"事前方向错误；单种子小幅退化不确立普遍伤害机制。"}],
+  "rule":null,"rule_if_true":0,"rule_if_false":0,
+  "evidence_gap":"仅一个合格的整体方向错例；历史来自同一来源、重叠原点和单种子，缺少抽样动作及独立来源响应。覆盖比和基线目标相对误差没有足够独立变化来识别阈值，不能据此登记通用数值规则。两个分支值因rule=null均不触发。",
+  "scope":"阶段A规则锁定为null至本轮SKAB评分结束。历史用于构建假说；后续仅凭合法事前事实预测相对共同B0的整体、目标和补集响应。保留B0及不确定均合法。",
+  "falsifiers":["后续锁定的非零方向预测若与配对B0实测方向相反，记为预测反例；不将弃权记作错误或正确。","若目标动作没有优于合格匹配控制，或目标改善伴随整体失败，则不支持其针对性机制或方案采用。","没有登记数值规则，后续响应不得追溯补写阈值或声称规则验证成功。"],
+  "ready_for_prestate":true
+}

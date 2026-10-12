@@ -1,8 +1,8 @@
 # 研究接续：2026-10-12
 
-最新：用户随后要求“开始实验”，接续[真实运行清单](agent_research/intervention_diagnosis/20261012_runtime_r1/PLAN.md)。先执行阶段0原型测试与R2配对评价，再准备正式方法比较。此次上传审批已通过，但旧SSH端点两次在认证前关闭连接；没有文件上传、评价或训练启动，等待实例开机/端点确认。累计228次保持。后面的“仅本地”是上一轮交付范围，不能误认为用户本次仍要求停止启动。
+最新：[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)已完成9次训练并通过逐元素审计，累计237次。八候选最大整体NMSE改善0.1144%，全部未达1%门槛，两组初始及2/4/8节点均保留B0，不追加确认。full明确预测7项、正确6项，strong_prompt明确预测4项、全部正确，其余弃权；规则始终null，未确立方法优势或反馈因果价值。无队列、外部API0、无测试访问。阶段同步以progress/sync_receipt为准。此前[阶段0真实运行](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)9项测试、9检查点和6组父子审计已完成并同步，原SSH故障已解除。
 
-当前主课题改为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[阶段0本地交付](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)包括协议、三个任务定义、14条历史响应索引、两个离线原型和旧工作价值审查。用户在新代码上传审批被拒后明确选择“仅完成本地协议与原型”；不要上传或启动该阶段服务器评估。Python运行验证、真实逐窗口父子导出、新来源响应仍未执行，完整证据底座未完成。新增训练/模型评估/API均0，累计228次，无队列，DeepSeek关闭。同步看该阶段progress/sync_receipt。
+当前主课题为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。[阶段0本地交付](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)保留当时的协议、三个任务定义、14条历史响应索引、两个原型及旧工作价值审查。其“仅本地、尚未运行”是旧快照；后续授权与运行结果另存runtime_r1。DeepSeek关闭，Hydraulic保留为方法冻结后的独立来源确认。
 
 最新 [R2自主探索](agent_research/autonomous_memory/20261012_sol_high_r2/REPORT.md)已完成：Sol high复用144条历史索引与10份补充证据，自主提出1个候选，经3个额外种子确认，NMSE相对B0改善3.9409%、NMAE改善0.3616%。新增符号规则相对已知source-half对照的NMSE退化0.3842%、登记局部退化13.1094%，C失败；有效历史复用与新增机制未获支持必须分开表述。R2新增11次完整训练、1次保留失败，累计228次；外部API0、无测试访问、无活动队列。状态及同步见 [progress.json](agent_research/autonomous_memory/20261012_sol_high_r2/progress.json)。
 

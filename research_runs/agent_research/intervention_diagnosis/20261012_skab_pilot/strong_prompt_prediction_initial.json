@@ -1,0 +1,125 @@
+{
+  "variant": "strong_prompt",
+  "predictions": [
+    {
+      "action": "W_UP",
+      "global": 0,
+      "target": 1,
+      "complement": -1,
+      "nmae_risk": "unknown；补集损失可能导致整体NMAE超限",
+      "reason": "R1增权均呈目标改善、补集退化，支持低置信度误差转移预测。本轮目标NMSE低于补集，开发覆盖仅为训练的1.153倍；×2使目标期望损失份额约18.18%，超过开发占比11.53%，不足以支持整体收益。",
+      "falsifier": "目标NMSE未下降或补集NMSE未上升，分别否证对应方向；若目标改善且补集也改善，则否证本次误差转移预测。"
+    },
+    {
+      "action": "W_DOWN",
+      "global": 0,
+      "target": -1,
+      "complement": 1,
+      "nmae_risk": "unknown；目标NMAE可能退化，整体是否超限未知",
+      "reason": "R1降权均呈目标退化、补集改善，支持低置信度相反取舍。×0.5使目标期望损失份额约5.26%；补集占开发窗口88.47%，但其潜在收益不能保证抵消目标损失。",
+      "falsifier": "目标NMSE未上升或补集NMSE未下降，分别否证对应方向；整体改善也不能单独证明目标窗口应降权。"
+    },
+    {
+      "action": "S_UP",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown；存在目标重复暴露及补集抽样减少风险",
+      "reason": "目标期望抽样份额约18.18%，具有与增权相似的期望目标，但历史未提供同类抽样响应；有限步Adam、样本流变化与梯度方差可改变响应，不能照搬W_UP方向。",
+      "falsifier": "当前弃权无方向命中主张；若响应与W_UP出现相反目标或补集方向，将反驳权重与抽样可直接互换的竞争解释。"
+    },
+    {
+      "action": "S_DOWN",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown；目标覆盖减少可能损害目标NMAE",
+      "reason": "目标期望抽样份额约5.26%，但没有对应历史抽样证据；期望目标与实际优化轨迹需要区分，暂不预测方向。",
+      "falsifier": "当前弃权无方向命中主张；若与W_DOWN出现相反目标或补集方向，将反驳抽样与权重响应等价的竞争解释。"
+    },
+    {
+      "action": "CW_UP",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown",
+      "reason": "控制匹配合格、训练重合为0，但未提供控制窗口的独立误差或梯度特征。R1重合控制的目标改善不能迁移为本轮控制方向。",
+      "falsifier": "当前弃权无方向命中主张；若其目标收益达到或超过W_UP，削弱W_UP目标标记具有额外针对性价值的解释。"
+    },
+    {
+      "action": "CW_DOWN",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown",
+      "reason": "分层数量匹配不保证控制窗口与目标具有相同优化作用；缺少控制误差与响应依据，不能把W_DOWN方向套用到控制。",
+      "falsifier": "当前弃权无方向命中主张；若其整体和目标响应与W_DOWN相同或更优，削弱针对目标降权的特异解释。"
+    },
+    {
+      "action": "CS_UP",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown",
+      "reason": "缺少控制抽样的历史响应及控制误差特征；共同均匀数提供配对设计，不保证抽样轨迹或效应相同。",
+      "falsifier": "当前弃权无方向命中主张；若目标收益达到或超过S_UP，削弱目标抽样具有额外针对性价值的解释。"
+    },
+    {
+      "action": "CS_DOWN",
+      "global": 0,
+      "target": 0,
+      "complement": 0,
+      "nmae_risk": "unknown",
+      "reason": "控制降采样改变非目标训练暴露，但缺少其可迁移响应依据；不从控制可执行性推断收益方向。",
+      "falsifier": "当前弃权无方向命中主张；若整体和目标响应与S_DOWN相同或更优，削弱针对目标降采样的特异解释。"
+    }
+  ],
+  "ranking_tiers": [
+    [
+      "B0",
+      "W_UP",
+      "W_DOWN",
+      "S_UP",
+      "S_DOWN",
+      "CW_UP",
+      "CW_DOWN",
+      "CS_UP",
+      "CS_DOWN"
+    ]
+  ],
+  "initial_recommendation": "B0",
+  "uncertainty": "高。排序并列表示无法可靠区分整体受约束效用，不表示效果等价。仅对两个损失权重动作给出低置信度局部方向。SKAB目标定义、响应通道和数据来源不同于R1；目标NMSE仅为补集的0.767倍，不支持把高变化直接解释为预测不足。B0检查点间整体NMSE接近，但这种变化不能充当种子方差估计。尚无非B0响应。",
+  "hypotheses": [
+    {
+      "id": "H_tradeoff",
+      "statement": "目标增权与降权可能主要在目标和补集间转移误差，而非消除整体预测不足。",
+      "support": [
+        "R1_O60_UP",
+        "R1_O80_UP",
+        "R1_O60_DOWN",
+        "R1_O80_DOWN"
+      ],
+      "limitation": "同源历史局部趋势；本轮目标误差较低，不能保证迁移。",
+      "falsifier": "W_UP使目标及补集均改善，或W_DOWN使目标及补集均改善，将反驳相应动作的取舍预测。"
+    },
+    {
+      "id": "H_target_specificity",
+      "statement": "目标标记是否比合格非目标控制提供额外干预价值仍未知。",
+      "support": "本轮92个匹配层合格且训练重合为0，允许检验；R1控制也改善目标，提示需排除非特异效应。",
+      "falsifier": "对应控制获得相同或更好的目标与整体收益，将削弱针对性解释；单种子差值仍需谨慎解释。"
+    },
+    {
+      "id": "H_optimizer_path",
+      "statement": "权重与抽样虽可具有相同的期望损失目标，有限步优化响应可能不同。",
+      "support": "固定3000步Adam及动作导致的实际抽样轨迹变化；历史没有直接抽样比较。",
+      "falsifier": "本轮对应动作响应一致会削弱其作为本次差异解释的必要性，但不能证明普遍等价。"
+    }
+  ],
+  "processing_acceptance": {
+    "current": "保留B0",
+    "exploration_gate": "整体NMSE改善至少1%，整体NMAE退化不超过1%。",
+    "confirmation_gate": "三个额外种子平均NMSE改善至少1%、每个种子改善方向均正、平均NMAE退化不超过1%；确认后不重新选择。",
+    "mechanism_gate": "事前方向及否证检查、目标改善、合格匹配控制支持与处理通过分别登记。"
+  },
+  "record_form": "Score-bearing fields and reasoning transcribed from actual agent response; acceptance prose condensed."
+}
