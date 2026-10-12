@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+当前：[S初始报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md)四项完成且审计通过，累计268。依SELECTION_PROTOCOL的原门槛，冻结并验收S1/S2×种子2026101402/03/04×PARENT/P1/CP1共18项确认；原预测和新信号不再改变。确认后仅在稳定比较优势及确认采用项同时成立时进入独立反馈2×2设计，否则停止本批扩展。先核对selection_sync_receipt，避免重跑初始ID。
+
 最新入口：[确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md)。9项补齐成功，累计成功264，18格科学矩阵通过原稳定差异门槛、无采用项。冻结单个C-only候选特征代码后只计算C值，再拟合至多2阈值或null；null即停止方法比较。不得向构建LLM提供S新统计/响应；S启动/预测锁另行验收，Hydraulic保留。
 
 用户已明确继续：[恢复协议](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_RECOVERY_PROTOCOL.md)仅补9项C2、用服务器普通文件接收日志，旧C1失败状态保持且不重跑。锁定已保存计算后使用同一科学门槛完成18格验收，再按原顺序决定是否进入新信号。当前成功计数255，完成补齐后应为264，失败交付另列。以progress为当前状态。

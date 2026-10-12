@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_selection_predictions_pending",
+  "phase": "stage1_selection_initial_passed_confirmation_preparing",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/selection_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md",
-  "next_action": "lock four comparator predictions, run four shared S responses, apply preregistered gate",
-  "last_verified_snapshot_at": "2026-10-12T15:05:30.3107250Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md",
+  "next_action": "freeze and validate 18-run S confirmation execution; no rule changes",
+  "last_verified_snapshot_at": "2026-10-12T15:31:37.6116666Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 264,
+  "total_training_runs_completed": 268,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -347,8 +347,8 @@
     "new_task_protocols_frozen": false,
     "existing_active_study_changed": false
   },
-  "latest_update_scope": "stage1_four_grouped_tasks_and_six_fixed_references",
-  "training_count_derivation": "198 + 9 v2 + 10 R1 + 11 R2 + 9 SKAB pilot + 6 stage1 references + 4 initial candidate/control + 17 confirmation successes = 264; saved failed delivery separate",
+  "latest_update_scope": "stage1b_four_shared_prospective_selection_responses",
+  "training_count_derivation": "198 + 9 v2 + 10 R1 + 11 R2 + 9 SKAB pilot + 6 stage1 references + 4 C initial + 17 C confirmation successes + 4 S initial = 268; saved failed delivery separate",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -552,6 +552,16 @@
     "cumulative_last_phase_audited": 264,
     "recovery_sync": "source_and_release_verified",
     "recovery_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-recovered-20261012-r1",
-    "signal_status": "proposal_running"
+    "signal_status": "C_only_feature_and_rule_frozen_S_initial_4_of_4"
+  },
+  "stage1_selection_initial": {
+    "failures": 0,
+    "new_signal_correct": 4,
+    "adoption_potential": [
+      "S2_P1"
+    ],
+    "gate_passed": true,
+    "report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md",
+    "completed": 4
   }
 }

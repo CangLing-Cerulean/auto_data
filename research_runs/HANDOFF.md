@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+最新：[S初始前瞻报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md)。四项成功，累计268；原失败交付另列。新信号4/4正确，案例2/4、通用0/4、强提示2正确2弃权；S2_P1初始NMSE改善1.124535%、NMAE改善8.518757%。满足原18项S确认入口，下一步验收专用确认执行与激活；不改信号、阈值、初始预测或评分。阶段同步见selection_sync_receipt，Hydraulic保留，下文为历史。
+
 当前：[完整确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md)。恢复9项全部成功，累计成功264，原失败交付另列。18格科学矩阵通过审计，C1中值平均+0.355828%、C2中值-2.327446%，线性均unchanged，稳定差异通过而采用为空。进入单一C-only信号构建，null合法且停止方法比较；S新统计/响应隔离，Hydraulic保留，无训练队列。此前停止与恢复前快照保持历史。
 
 恢复授权：用户在中断报告后要求“继续”，见[恢复协议](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_RECOVERY_PROTOCOL.md)。只补9项未启动C2，旧失败状态不改、不重跑；已保存的C1失败交付由锁定资产纳入科学矩阵但不计成功。4项无训练输出/ID保护回归及57文件哈希通过，科学门槛不变；源码同步和验收后运行。下文停止记录作为历史保留。

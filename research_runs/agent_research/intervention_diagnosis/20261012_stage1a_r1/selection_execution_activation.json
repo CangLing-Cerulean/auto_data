@@ -1,0 +1,18 @@
+{
+  "stop_on_failure": true,
+  "source_sync_receipt_sha256": "5cc1cd40b0ffc3c36c41d8eb2ed92a898b4757db0ece92eb14e6b3d8b91c65e0",
+  "status": "active_four_initial_only",
+  "confirmation_authorized": false,
+  "new_training_limit": 4,
+  "selection_protocol_sha256": "6baffbbd309022055e538762be2853c590aacdbef0b022322c410b071f8f7e09",
+  "created_utc": "2026-10-12T15:09:23.7626169Z",
+  "prediction_lock_sha256": "aa4a0a2b5fbecf5819ee9b6a0ff26d96faf6bc6d5fdf936dcc994edce8ff2b07",
+  "allowed_runs": [
+    "S1_P1_s2026101401",
+    "S1_CP1_s2026101401",
+    "S2_P1_s2026101401",
+    "S2_CP1_s2026101401"
+  ],
+  "source_commit": "e8f0fa3ffd5e3b854488c34e24bfd6c55ff0e103",
+  "preflight_sha256": "5d23252dbd4e05212069ad316a38a5f5d9e10ab37b640ca08be7e495c67d7106"
+}

@@ -1,0 +1,282 @@
+{
+  "status": "PASS",
+  "node": 2,
+  "observed_run_ids": [
+    "S1_P1_s2026101401",
+    "S1_CP1_s2026101401"
+  ],
+  "result_sha256": {
+    "S1_P1_s2026101401": "625001f8af9b3b2f7876177ab11c69106175e990cd6b485ce8b3f02608d7b1df",
+    "S1_CP1_s2026101401": "a599575fd09622ff58be146fdd386d8ab6e9045824ba7b433e8f9bd7ae627b7d"
+  },
+  "comparisons": [
+    {
+      "id": "S1_P1",
+      "task": "S1",
+      "action": "P1",
+      "run_id": "S1_P1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 0.4225532482111549,
+          "NMAE": 3.474063493637236
+        },
+        "target": {
+          "NMSE": 0.4257476409668559,
+          "NMAE": 3.478846009432812
+        },
+        "complement": {
+          "NMSE": -1.6427697045055423,
+          "NMAE": 2.1445420605713195
+        }
+      },
+      "observed_category": "improve",
+      "parent_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42456288625283306,
+          "NMAE": 0.19340594656487856,
+          "signed_bias": 0.016294231071646934
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.426027737652986,
+          "NMAE": 0.19367672776951714,
+          "signed_bias": 0.01645578769218188
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13172577453134238,
+          "NMAE": 0.1392743221103129,
+          "signed_bias": -0.016002406069839544
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42276888198627266,
+          "NMAE": 0.18668690118074457,
+          "signed_bias": 0.009716080035477675
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.42421393461006396,
+          "NMAE": 0.18693901265430724,
+          "signed_bias": 0.009882940856880091
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13388972564836854,
+          "NMAE": 0.13628752569308167,
+          "signed_bias": -0.02364091507942331
+        }
+      }
+    },
+    {
+      "id": "S1_CP1",
+      "task": "S1",
+      "action": "CP1",
+      "run_id": "S1_CP1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 0.09134103985917186,
+          "NMAE": 0.09676506880395008
+        },
+        "target": {
+          "NMSE": 0.0923755033942153,
+          "NMAE": 0.09799362379908638
+        },
+        "complement": {
+          "NMSE": -0.5774875751829001,
+          "NMAE": -0.2447686066767485
+        }
+      },
+      "observed_category": "unchanged",
+      "parent_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42456288625283306,
+          "NMAE": 0.19340594656487856,
+          "signed_bias": 0.016294231071646934
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.426027737652986,
+          "NMAE": 0.19367672776951714,
+          "signed_bias": 0.01645578769218188
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13172577453134238,
+          "NMAE": 0.1392743221103129,
+          "signed_bias": -0.016002406069839544
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.4241750860976736,
+          "NMAE": 0.19321879716761411,
+          "signed_bias": 0.016299164477594254
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.4256341923857301,
+          "NMAE": 0.1934869369255203,
+          "signed_bias": 0.016462932378975552
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.1324864745125743,
+          "NMAE": 0.1396152219280008,
+          "signed_bias": -0.01643952780763026
+        }
+      }
+    }
+  ],
+  "scores": {
+    "generic_stats": {
+      "total": 2,
+      "decided": 2,
+      "correct": 0,
+      "abstained": 0,
+      "coverage": 1.0,
+      "accuracy": 0.0,
+      "harm_total": 0,
+      "harm_warned": 0,
+      "harm_false_benefit": 0,
+      "harm_false_unchanged": 0,
+      "harm_abstained": 0,
+      "observed": [
+        "improve",
+        "unchanged"
+      ],
+      "wrong": 2,
+      "harm_missed": 0,
+      "false_improve": 0
+    },
+    "case_match": {
+      "total": 2,
+      "decided": 2,
+      "correct": 1,
+      "abstained": 0,
+      "coverage": 1.0,
+      "accuracy": 0.5,
+      "harm_total": 0,
+      "harm_warned": 0,
+      "harm_false_benefit": 0,
+      "harm_false_unchanged": 0,
+      "harm_abstained": 0,
+      "observed": [
+        "improve",
+        "unchanged"
+      ],
+      "wrong": 1,
+      "harm_missed": 0,
+      "false_improve": 0
+    },
+    "new_signal": {
+      "total": 2,
+      "decided": 2,
+      "correct": 2,
+      "abstained": 0,
+      "coverage": 1.0,
+      "accuracy": 1.0,
+      "harm_total": 0,
+      "harm_warned": 0,
+      "harm_false_benefit": 0,
+      "harm_false_unchanged": 0,
+      "harm_abstained": 0,
+      "observed": [
+        "improve",
+        "unchanged"
+      ],
+      "wrong": 0,
+      "harm_missed": 0,
+      "false_improve": 0
+    },
+    "strong_prompt": {
+      "total": 2,
+      "decided": 1,
+      "correct": 1,
+      "abstained": 1,
+      "coverage": 0.5,
+      "accuracy": 1.0,
+      "harm_total": 0,
+      "harm_warned": 0,
+      "harm_false_benefit": 0,
+      "harm_false_unchanged": 0,
+      "harm_abstained": 0,
+      "observed": [
+        "improve",
+        "unchanged"
+      ],
+      "wrong": 0,
+      "harm_missed": 0,
+      "false_improve": 0
+    }
+  },
+  "ranking": {
+    "S1": {
+      "observed": "P1>CP1",
+      "gap_percent": 0.33121220835198306,
+      "methods": {
+        "generic_stats": {
+          "prediction": "tie",
+          "correct": false
+        },
+        "case_match": {
+          "prediction": "CP1>P1",
+          "correct": false
+        },
+        "new_signal": {
+          "prediction": "P1>CP1",
+          "correct": true
+        },
+        "strong_prompt": {
+          "prediction": "tie",
+          "correct": false
+        }
+      }
+    }
+  },
+  "recommendations": {
+    "generic_stats": {
+      "S1": "PARENT",
+      "S2": "PARENT"
+    },
+    "case_match": {
+      "S1": "PARENT",
+      "S2": "PARENT"
+    },
+    "new_signal": {
+      "S1": "PARENT",
+      "S2": "PARENT"
+    },
+    "strong_prompt": {
+      "S1": "PARENT",
+      "S2": "PARENT"
+    }
+  },
+  "recommendation_controller": "shared observed-only adoption controller; identical choices are not a method advantage",
+  "advance_gate": null,
+  "training_process_seconds": 80.7459016777575,
+  "audit_process_seconds": 1.946929108351469,
+  "cumulative_successful_trainings": 266,
+  "preserved_prior_failed_delivery_count": 1,
+  "auditor_sha256": "68808dac125988d7840d0464e90e770b1523ca73c9520b785e3aca7421059d30",
+  "prediction_lock_sha256": "aa4a0a2b5fbecf5819ee9b6a0ff26d96faf6bc6d5fdf936dcc994edce8ff2b07",
+  "selection_protocol_sha256": "6baffbbd309022055e538762be2853c590aacdbef0b022322c410b071f8f7e09",
+  "test_access": false
+}

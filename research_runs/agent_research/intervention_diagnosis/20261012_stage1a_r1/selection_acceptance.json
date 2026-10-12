@@ -1,0 +1,17 @@
+{
+  "total_successful": 268,
+  "reviewer": "stage1_preparation_check",
+  "LLM": "internal_gpt-6.1-sol_high",
+  "main_acceptance": "server full-error/asset audit PASS, local 80 archive members verified, initial evidence only",
+  "confirmation_requires": "separate code acceptance and activation",
+  "checks": [
+    "four categories and common denominator",
+    "strong-prompt abstentions not scored correct",
+    "both registered advance gates passed",
+    "11 metadata hash identities",
+    "all four completed at 3000 steps"
+  ],
+  "new_training_count": 4,
+  "status": "accepted_initial_selection",
+  "blockers": []
+}
