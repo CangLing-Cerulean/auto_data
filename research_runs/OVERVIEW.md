@@ -1,5 +1,7 @@
 # 当前研究概览
 
+最新：[阶段1a完整确认](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md)。恢复补9项成功，累计成功264，另保留1失败交付。18格审计通过，中值在C1平均改善0.356%、C2平均退化2.327%，线性控制基本不变，稳定差异门槛通过、采用门槛无通过项。下一步仅构建单个C-only新信号，不提前宣称方法优势；旧中断记录保留。
+
 当前已停止：[阶段1a确认中断](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。8项成功、1项保存结果后输出失败、9项未启动，累计成功255。C1中值三个额外种子改善约0.36%，未达1%采用门槛；完整确认与稳定差异仍未评估。无新信号、S候选或方法优势结论。九组资产通过补审计，失败状态保留，无后台队列。
 
 最新：[阶段1a初始响应](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)再完成4次，累计247；中值在C1小幅改善、C2退化，线性控制均基本不变。没有达到采用门槛的操作，事前响应类别差异门槛通过，将进行三种子重复确认。该进展不等于新诊断信号或方法优势已成立。

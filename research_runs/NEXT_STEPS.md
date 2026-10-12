@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+最新入口：[确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md)。9项补齐成功，累计成功264，18格科学矩阵通过原稳定差异门槛、无采用项。冻结单个C-only候选特征代码后只计算C值，再拟合至多2阈值或null；null即停止方法比较。不得向构建LLM提供S新统计/响应；S启动/预测锁另行验收，Hydraulic保留。
+
 用户已明确继续：[恢复协议](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_RECOVERY_PROTOCOL.md)仅补9项C2、用服务器普通文件接收日志，旧C1失败状态保持且不重跑。锁定已保存计算后使用同一科学门槛完成18格验收，再按原顺序决定是否进入新信号。当前成功计数255，完成补齐后应为264，失败交付另列。以progress为当前状态。
 
 当前停止边界：[确认中断报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。SSH/stdout故障触发用户要求的停止条件；累计成功255，另1失败交付保留，9项未启动，无队列。先完成证据归档与GitHub同步。以后收到继续指令时，处理输出故障并明确恢复边界，不覆盖旧ID/status、不改候选或门槛；完整矩阵之前不得进入信号/S/方法比较。下文运行中计划仅保留历史。

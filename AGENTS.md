@@ -1,5 +1,7 @@
 # 后续实验必须遵守的数据约定
 
+- 2026-10-12 阶段1a恢复补9项C2全部成功，完整18格科学响应验收通过：17 completed＋1原failed保存交付，累计成功264。见`CONFIRMATION_REPORT.md`及construction_confirmation_recovered.json。C1中值平均改善0.355828%、C2退化2.327446%，线性控制均unchanged；稳定差异门槛通过、采用项为空。可进入至多1个C-only标量信号＋至多2阈值构建，null则停止方法比较；S新统计/响应不能给构建LLM，S启动仍未验收，Hydraulic保留。无模型队列；以最新progress/sync_receipt为准，不将旧中断状态当作当前仍未恢复。
+
 - 2026-10-12 中断报告后用户明确“继续”。恢复入口为阶段1a `CONFIRMATION_RECOVERY_PROTOCOL.md`：旧训练runner/协议/预测不改；C1失败交付的已保存计算经哈希复核纳入科学矩阵，原failed状态和成本仍保留、绝不重跑；仅补9项C2确认。日志改由独立监督进程写服务器普通文件，任一新失败再次停止。预期成功累计264，另1次保存完整计算的失败交付；完整矩阵门槛不变，通过后才可学习新信号。恢复状态与后续结果以progress及新恢复收据为准。
 
 - 2026-10-12 阶段1a三种子确认因SSH连接重置/stdout Broken pipe停止，见同阶段 `CONFIRMATION_INTERRUPTION_REPORT.md`。登记18项中8成功、1原状态失败（3000步和资产保存完成、独立补审计通过）、9项C2未启动；累计成功255，另保留本次失败，禁止改写为256次成功。无训练进程/队列，不重跑旧ID。正式稳定/采用门槛均null，新信号与S候选未启动；用户“出现其他问题再停下”已触发。后续继续需先处理输出故障并明确恢复边界，所有原协议/预测/资产保持。同步见confirmation_interruption_sync_receipt。

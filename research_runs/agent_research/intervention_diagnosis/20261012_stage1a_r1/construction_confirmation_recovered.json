@@ -1,0 +1,410 @@
+{
+  "status": "PASS_WITH_PRESERVED_FAILED_DELIVERY",
+  "construction_gate_passed": true,
+  "cells": {
+    "C1_P1": {
+      "task": "C1",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.3357838744300512,
+              "NMAE": 0.4324731097412937
+            },
+            "target": {
+              "NMSE": 1.0793554122655924,
+              "NMAE": 2.907694985275444
+            },
+            "complement": {
+              "NMSE": -0.0020565654702098257,
+              "NMAE": -0.7738245422948209
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.38609922152145204,
+              "NMAE": 0.5357419531032415
+            },
+            "target": {
+              "NMSE": 1.1661547505288583,
+              "NMAE": 2.9866201922471802
+            },
+            "complement": {
+              "NMSE": 0.026896576510992976,
+              "NMAE": -0.6603880652605199
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.3455998008241479,
+              "NMAE": 0.4977273414008554
+            },
+            "target": {
+              "NMSE": 1.0767280478528707,
+              "NMAE": 2.886788819398012
+            },
+            "complement": {
+              "NMSE": 0.00898175055514816,
+              "NMAE": -0.6801341397371319
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unchanged"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "improve",
+          "improve",
+          "improve"
+        ],
+        "stable_category": "improve",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.35582763225855035,
+      "confirmed_adoption": false
+    },
+    "C1_CP1": {
+      "task": "C1",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.15630462300512127,
+              "NMAE": -0.15413264781003466
+            },
+            "target": {
+              "NMSE": 0.43847805595318423,
+              "NMAE": -0.23155765641398318
+            },
+            "complement": {
+              "NMSE": 0.02809961264014227,
+              "NMAE": -0.11639962395024739
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "improve",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": -0.07506040782496726,
+              "NMAE": -0.2628151173986737
+            },
+            "target": {
+              "NMSE": 0.16638742485021174,
+              "NMAE": -0.4286082452678919
+            },
+            "complement": {
+              "NMSE": -0.18624313380259938,
+              "NMAE": -0.18190120910428487
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.0205657486272548,
+              "NMAE": -0.2138721482778383
+            },
+            "target": {
+              "NMSE": 0.24022125065833455,
+              "NMAE": -0.34180471524789535
+            },
+            "complement": {
+              "NMSE": -0.08056562897311714,
+              "NMAE": -0.15079849186301342
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unchanged"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": false
+      },
+      "mean_global_NMSE_gain_percent": 0.033936654602469606,
+      "confirmed_adoption": false
+    },
+    "C2_P1": {
+      "task": "C2",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": -2.2111864422661,
+              "NMAE": -7.586694933415505
+            },
+            "target": {
+              "NMSE": -8.28999537609545,
+              "NMAE": -0.8928193473790147
+            },
+            "complement": {
+              "NMSE": 0.7893735633892729,
+              "NMAE": -11.021301422480212
+            }
+          },
+          "observed_category": {
+            "global": "harm",
+            "target": "harm",
+            "complement": "improve"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": -2.1938921772734155,
+              "NMAE": -3.8576374529813107
+            },
+            "target": {
+              "NMSE": -7.793894156243253,
+              "NMAE": 1.344756741277764
+            },
+            "complement": {
+              "NMSE": 0.5909658579636878,
+              "NMAE": -6.509945887005686
+            }
+          },
+          "observed_category": {
+            "global": "harm",
+            "target": "harm",
+            "complement": "improve"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": -2.5772605929519132,
+              "NMAE": -5.69030475183423
+            },
+            "target": {
+              "NMSE": -7.81633212481001,
+              "NMAE": 0.6085820296609423
+            },
+            "complement": {
+              "NMSE": 0.014961942500768544,
+              "NMAE": -8.960556952660138
+            }
+          },
+          "observed_category": {
+            "global": "harm",
+            "target": "harm",
+            "complement": "unchanged"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "harm",
+          "harm",
+          "harm"
+        ],
+        "stable_category": "harm",
+        "all_raw_signs_positive": false
+      },
+      "mean_global_NMSE_gain_percent": -2.3274464041638097,
+      "confirmed_adoption": false
+    },
+    "C2_CP1": {
+      "task": "C2",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.028817300150663083,
+              "NMAE": 0.0028113270037266602
+            },
+            "target": {
+              "NMSE": 0.18075596193639631,
+              "NMAE": 0.019018069842524632
+            },
+            "complement": {
+              "NMSE": -0.046181120893629135,
+              "NMAE": -0.0055043017237021985
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": -0.10449283797953068,
+              "NMAE": -0.12993206519946732
+            },
+            "target": {
+              "NMSE": -0.16942018565100359,
+              "NMAE": -0.12705560075760847
+            },
+            "complement": {
+              "NMSE": -0.07220473405593619,
+              "NMAE": -0.13139855747488216
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unchanged"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": -0.042246041702931336,
+              "NMAE": -0.1747596223516723
+            },
+            "target": {
+              "NMSE": 0.05661575849640332,
+              "NMAE": -0.18955902911430567
+            },
+            "complement": {
+              "NMSE": -0.09116153843049535,
+              "NMAE": -0.16707607536705638
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unchanged"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": false
+      },
+      "mean_global_NMSE_gain_percent": -0.03930719317726631,
+      "confirmed_adoption": false
+    }
+  },
+  "stable_global_contrasts": [
+    {
+      "first": "C1_P1",
+      "second": "C2_P1",
+      "gap_percent_by_seed": [
+        2.546970316696151,
+        2.5799913987948675,
+        2.922860393776061
+      ]
+    },
+    {
+      "first": "C1_P1",
+      "second": "C2_CP1",
+      "gap_percent_by_seed": [
+        0.3069665742793881,
+        0.4905920595009827,
+        0.3878458425270792
+      ]
+    },
+    {
+      "first": "C1_CP1",
+      "second": "C2_P1",
+      "gap_percent_by_seed": [
+        2.367491065271221,
+        2.118831769448448,
+        2.597826341579168
+      ]
+    },
+    {
+      "first": "C2_P1",
+      "second": "C2_CP1",
+      "gap_percent_by_seed": [
+        2.240003742416763,
+        2.0893993392938848,
+        2.535014551248982
+      ]
+    }
+  ],
+  "confirmed_adoption_cells": [],
+  "successful_runs": [
+    "C1_PARENT_s2026101402",
+    "C1_P1_s2026101402",
+    "C1_CP1_s2026101402",
+    "C1_PARENT_s2026101403",
+    "C1_P1_s2026101403",
+    "C1_CP1_s2026101403",
+    "C1_PARENT_s2026101404",
+    "C1_P1_s2026101404",
+    "C2_PARENT_s2026101402",
+    "C2_P1_s2026101402",
+    "C2_CP1_s2026101402",
+    "C2_PARENT_s2026101403",
+    "C2_P1_s2026101403",
+    "C2_CP1_s2026101403",
+    "C2_PARENT_s2026101404",
+    "C2_P1_s2026101404",
+    "C2_CP1_s2026101404"
+  ],
+  "preserved_failed_delivery": [
+    "C1_CP1_s2026101404"
+  ],
+  "scientifically_audited_cells": 18,
+  "new_recovery_trainings": 9,
+  "cumulative_successful_completed_trainings": 264,
+  "successful_plus_this_saved_failed_computation": 265,
+  "training_process_seconds": 1552.1203322540969,
+  "recovery_training_process_seconds": 763.4611594574526,
+  "audit_process_seconds": 14.318036953918636,
+  "recovery_protocol_sha256": "89fd0f07dc723ee9815ab775d2ed450cb9965e585cb6403cac412077f7b970ee",
+  "candidate_protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+  "test_access": false,
+  "next": "freeze a bounded executable construction-only signal; null stops method comparison"
+}

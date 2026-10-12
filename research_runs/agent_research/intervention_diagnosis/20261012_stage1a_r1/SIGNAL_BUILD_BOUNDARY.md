@@ -1,6 +1,6 @@
 # 确认通过后才启用的新信号构建边界
 
-本文件仅准备接口与隔离约束。三种子构建确认尚在运行时，不调用信号构建LLM、不拟合规则、不启动筛选候选。只有construction_confirmation.json明确通过，才启用下述一次候选构建流程。
+本文件仅准备接口与隔离约束。三种子构建确认尚在运行时，不调用信号构建LLM、不拟合规则、不启动筛选候选。恢复后以construction_confirmation_recovered.json为正式入口，只有其中construction_gate_passed为true且资产验收通过，才启用下述一次候选构建流程；旧失败状态继续保留。
 
 目标是提出一个可证伪、可运行的候选信号及简单规则，随后由隔离任务检验。构建阶段不要求先证明普适；同时null必须保持合法，不能把解释文本当作已经实现的信号，也不能根据S结果回头选择公式。
 
@@ -12,7 +12,8 @@
 def signal_value(raw_x, parent_x, changed_x, parent_metrics):
     # numpy float32 [N, 32, C]，来自同一批合法T输入；N <= 8192
     # parent_x: 固定父表示，changed_x: 该操作作用于parent_x
-    # parent_metrics: 初始固定父的完整D整体和逐通道指标，不含候选响应
+    # parent_metrics: 初始固定父的D指标字典，键为NMSE、NMAE、signed_bias、
+    # channel_NMSE、channel_NMAE；不提供任务ID、窗口数或候选响应
     # 不传入action ID、task ID、通道名或任何新候选D误差
     # 返回一个有限float；不得对通道数作数据集身份分支
     ...

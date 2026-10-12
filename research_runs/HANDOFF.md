@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+当前：[完整确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_REPORT.md)。恢复9项全部成功，累计成功264，原失败交付另列。18格科学矩阵通过审计，C1中值平均+0.355828%、C2中值-2.327446%，线性均unchanged，稳定差异通过而采用为空。进入单一C-only信号构建，null合法且停止方法比较；S新统计/响应隔离，Hydraulic保留，无训练队列。此前停止与恢复前快照保持历史。
+
 恢复授权：用户在中断报告后要求“继续”，见[恢复协议](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_RECOVERY_PROTOCOL.md)。只补9项未启动C2，旧失败状态不改、不重跑；已保存的C1失败交付由锁定资产纳入科学矩阵但不计成功。4项无训练输出/ID保护回归及57文件哈希通过，科学门槛不变；源码同步和验收后运行。下文停止记录作为历史保留。
 
 最新：[阶段1a确认中断报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。18项确认中8成功、1在完成3000步及保存后因Broken pipe失败、9项C2未启动；累计成功255，本次失败另记。九组资产补审计通过，原失败status不改。无进程/队列；依用户问题即停要求停止。正式门槛null，不进入信号/S/方法/Hydraulic阶段。下文确认运行中为此前快照。同步见同目录confirmation_interruption_sync_receipt。
