@@ -1,0 +1,118 @@
+{
+  "status": "PARTIAL_ARTIFACT_AUDIT_PASS",
+  "experiment_status": "stopped_on_transport_output_failure",
+  "completed_runs": [
+    "C1_PARENT_s2026101402",
+    "C1_P1_s2026101402",
+    "C1_CP1_s2026101402",
+    "C1_PARENT_s2026101403",
+    "C1_P1_s2026101403",
+    "C1_CP1_s2026101403",
+    "C1_PARENT_s2026101404",
+    "C1_P1_s2026101404"
+  ],
+  "failed_runs": [
+    "C1_CP1_s2026101404"
+  ],
+  "not_started_runs": [
+    "C2_PARENT_s2026101402",
+    "C2_P1_s2026101402",
+    "C2_CP1_s2026101402",
+    "C2_PARENT_s2026101403",
+    "C2_P1_s2026101403",
+    "C2_CP1_s2026101403",
+    "C2_PARENT_s2026101404",
+    "C2_P1_s2026101404",
+    "C2_CP1_s2026101404"
+  ],
+  "registered_confirmation_runs": 18,
+  "completed_confirmation_runs": 8,
+  "failed_confirmation_runs": 1,
+  "fully_computed_and_saved_runs": 9,
+  "cumulative_successful_completed_trainings": 255,
+  "cumulative_full_training_computations_including_this_failed_delivery": 256,
+  "computation_count_scope": "247 prior successful runs + 9 current full computations; earlier failed work remains in historical ledgers",
+  "training_process_seconds": 788.6591727966443,
+  "audit_process_seconds": 8.110123665072024,
+  "status_files_preserved_sha256": {
+    "C1_PARENT_s2026101402": "1c78f2f55356c9552973c2c2fd95675d69032c51ee53013386352ca00eee2411",
+    "C1_P1_s2026101402": "faaa9230e3497d24425b500eb25795ba16903852930e0f49aadf0c98c73cbf4f",
+    "C1_CP1_s2026101402": "3898fba254bfa5da8810ea9c9578f06b05f3c92b8846c4f10341bb0435ced8c8",
+    "C1_PARENT_s2026101403": "15f7b596b1c50f5b3685bee996fb83aa8d5e18bffd658d6bb656032d7ef99ea0",
+    "C1_P1_s2026101403": "3625ab045c7aa1f998f99e5559c37de1798fecd468acdda19f03c300c72849de",
+    "C1_CP1_s2026101403": "15e0070155af29db2d779a4826271a8e711d0719bdc580b7995b51d94704b2d1",
+    "C1_PARENT_s2026101404": "e492dadcbf5bdb61f24d635ca7f1955d73cb318ca880641a22de567a4839910d",
+    "C1_P1_s2026101404": "8f725805e05494f5a40ad4f54e0d107dc49ed90a2e686dccb2c916bf3a0482cd",
+    "C1_CP1_s2026101404": "8163662666aff4afd861d7d07a8667c16e229307fec11520d04557c4f8d11306"
+  },
+  "descriptive_C1_responses": [
+    {
+      "id": "C1_P1_s2026101402",
+      "global_gain_percent": {
+        "NMSE": 0.3357838744300512,
+        "NMAE": 0.4324731097412937
+      },
+      "category": "improve",
+      "run_status": "completed",
+      "formal_gate_eligible": false
+    },
+    {
+      "id": "C1_CP1_s2026101402",
+      "global_gain_percent": {
+        "NMSE": 0.15630462300512127,
+        "NMAE": -0.15413264781003466
+      },
+      "category": "unchanged",
+      "run_status": "completed",
+      "formal_gate_eligible": false
+    },
+    {
+      "id": "C1_P1_s2026101403",
+      "global_gain_percent": {
+        "NMSE": 0.38609922152145204,
+        "NMAE": 0.5357419531032415
+      },
+      "category": "improve",
+      "run_status": "completed",
+      "formal_gate_eligible": false
+    },
+    {
+      "id": "C1_CP1_s2026101403",
+      "global_gain_percent": {
+        "NMSE": -0.07506040782496726,
+        "NMAE": -0.2628151173986737
+      },
+      "category": "unchanged",
+      "run_status": "completed",
+      "formal_gate_eligible": false
+    },
+    {
+      "id": "C1_P1_s2026101404",
+      "global_gain_percent": {
+        "NMSE": 0.3455998008241479,
+        "NMAE": 0.4977273414008554
+      },
+      "category": "improve",
+      "run_status": "completed",
+      "formal_gate_eligible": false
+    },
+    {
+      "id": "C1_CP1_s2026101404",
+      "global_gain_percent": {
+        "NMSE": 0.0205657486272548,
+        "NMAE": -0.2138721482778383
+      },
+      "category": "unchanged",
+      "run_status": "failed",
+      "formal_gate_eligible": false
+    }
+  ],
+  "construction_gate_passed": null,
+  "adoption_gate_passed": null,
+  "gate_status": "not_evaluated_incomplete_matrix_and_failed_status",
+  "S_response_runs": 0,
+  "new_signal_created": false,
+  "test_access": false,
+  "next": "stop; preserve failed ID and all artifacts; no restart or new experimental stage",
+  "auditor_sha256": "d36be1ff6e494d022363c3996a15617ee1b59db5612818d4a58eba8d17f9a008"
+}

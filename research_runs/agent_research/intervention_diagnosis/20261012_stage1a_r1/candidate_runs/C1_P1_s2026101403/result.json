@@ -1,0 +1,79 @@
+{
+  "task": "C1",
+  "action": "P1",
+  "seed": 2026101403,
+  "metrics": {
+    "global": {
+      "windows": 145999,
+      "elements": 17519880,
+      "NMSE": 0.44026246713027006,
+      "NMAE": 0.22363841619950592,
+      "signed_bias": -0.000108239581700963
+    },
+    "target": {
+      "windows": 39752,
+      "elements": 4770240,
+      "NMSE": 0.5058312758644127,
+      "NMAE": 0.2627504908879722,
+      "signed_bias": -0.027956464140848854
+    },
+    "complement": {
+      "windows": 106247,
+      "elements": 12749640,
+      "NMSE": 0.4157300917709691,
+      "NMAE": 0.2090047494322945,
+      "signed_bias": 0.010311091059872417
+    }
+  },
+  "best_step": 3000,
+  "history": [
+    {
+      "step": 500,
+      "NMSE": 0.4719936407377226,
+      "NMAE": 0.2391036626028032
+    },
+    {
+      "step": 1000,
+      "NMSE": 0.45507939550494814,
+      "NMAE": 0.22573497534000014
+    },
+    {
+      "step": 1500,
+      "NMSE": 0.4445081396022362,
+      "NMAE": 0.22413608018063544
+    },
+    {
+      "step": 2000,
+      "NMSE": 0.44398311833728066,
+      "NMAE": 0.22754318645951874
+    },
+    {
+      "step": 2500,
+      "NMSE": 0.4413275689610789,
+      "NMAE": 0.22292699187800744
+    },
+    {
+      "step": 3000,
+      "NMSE": 0.44026246713027006,
+      "NMAE": 0.22363841619950592
+    }
+  ],
+  "parameters": 7920,
+  "initialization_sha256": "3e999be4ecf191ef5b31d8f74d73de7ed4a53cff455434ff7d0681e6a9b29556",
+  "probability_sha256": "0b7aa4516c0135807f99399b768a379775a4dfbc8da0bbf3ac100bf3a4b7582d",
+  "draw_count_sha256": "743518ca0a94955d9ec6dabd9041c111fe7967b8ca9309908c2c8b2662011619",
+  "prepared_sha256": "24e33c048e979a48da9bc96e3d9b0aa251af7ec2c1a55d4c95b586047f6835c7",
+  "candidate_params_sha256": "4c52f4141efe4ca9afbefb0b351ec576e5c63826a09dd0a6a5fd2039713b1cb7",
+  "candidate_arrays_sha256": "04a0b423a83df3c3646aea06ffed1a691025ecf9d097039f970035464317c112",
+  "protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+  "source_sha256": "e2f17bf44f44666d654174f4d7a4fd0eee4e48f7cd1439fc17d07d52fa47b688",
+  "proposal_sha256": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+  "assets": {
+    "best.pt": "220cf41c74a6159142993d44d610956843636ce2296a19d489896541c3414898",
+    "last.pt": "ccf558a862986329d042af1c2621a99e28573f2a65aa32735975d2cda453775c",
+    "best_errors.npz": "521fc65a3d5978bf9a5fa504539238c6c59cb25ce4ec88f07df20fc20e9b7520",
+    "sampling.npz": "513b6d71fb3febf7bcfb7ed3b8f2284a015f38e2eaaf7b7cc4dc3df14f0adc15"
+  },
+  "process_seconds": 95.1412639580667,
+  "test_access": false
+}

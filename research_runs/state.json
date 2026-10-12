@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_construction_confirmation_running",
+  "phase": "stage1_confirmation_stopped_transport_output_failure",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/candidate_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md",
-  "next_action": "finish_registered_eighteen_run_matrix_then_audit_stable_gate; current_completions_in_active_progress",
-  "last_verified_snapshot_at": "2026-10-12T12:33:30.397561Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md",
+  "next_action": "stop; preserve_failed_status; no_new_training_or_signal_stage",
+  "last_verified_snapshot_at": "2026-10-12T13:56:38.2814869Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 247,
+  "total_training_runs_completed": 255,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -348,7 +348,7 @@
     "existing_active_study_changed": false
   },
   "latest_update_scope": "stage1_four_grouped_tasks_and_six_fixed_references",
-  "training_count_derivation": "198 + 9 v2 + 10 R1 + 11 R2 + 9 SKAB pilot + 6 stage1 references + 4 stage1 candidate/control = 247; failures separate",
+  "training_count_derivation": "198 + 9 v2 + 10 R1 + 11 R2 + 9 SKAB pilot + 6 stage1 references + 4 initial candidate/control + 8 confirmation successes = 255; failures separate",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -525,7 +525,7 @@
   },
   "intervention_stage1a": {
     "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1",
-    "status": "three_seed_confirmation_running",
+    "status": "confirmation_interrupted_stopped",
     "fixed_references": 6,
     "new_candidates_completed": 4,
     "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_cost_summary.json",
@@ -534,9 +534,15 @@
     "Hydraulic": "reserved",
     "baseline_sync": "source_and_release_verified",
     "baseline_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-fixed-references-20261012-r1",
-    "candidate_status": "no_adoption_cell; category contrast present; three-seed confirmation required",
+    "candidate_status": "partial_confirmation; formal_gate_null",
     "initial_cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/initial_cost_summary.json",
     "initial_sync": "source_and_release_verified",
-    "initial_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-construction-initial-20261012-r1"
+    "initial_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-construction-initial-20261012-r1",
+    "confirmation_completed": 8,
+    "confirmation_failed": 1,
+    "confirmation_not_started": 9,
+    "background_queue": false,
+    "confirmation_cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/confirmation_interruption_cost_summary.json",
+    "confirmation_sync": "pending"
   }
 }

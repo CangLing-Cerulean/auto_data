@@ -1,5 +1,7 @@
 # 当前研究概览
 
+当前已停止：[阶段1a确认中断](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。8项成功、1项保存结果后输出失败、9项未启动，累计成功255。C1中值三个额外种子改善约0.36%，未达1%采用门槛；完整确认与稳定差异仍未评估。无新信号、S候选或方法优势结论。九组资产通过补审计，失败状态保留，无后台队列。
+
 最新：[阶段1a初始响应](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)再完成4次，累计247；中值在C1小幅改善、C2退化，线性控制均基本不变。没有达到采用门槛的操作，事前响应类别差异门槛通过，将进行三种子重复确认。该进展不等于新诊断信号或方法优势已成立。
 
 当前：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已新增6次完整训练，累计243；四任务、四类别评分和配对审计通过。历史source-half在两个构建组上的单种子NMSE改善3.1506%/4.7037%，尚无新候选结果。全阶段执行已获授权，研究LLM使用Sol high，当前候选构建进行中；阶段同步见新目录progress/receipt。以下237次与暂无新训练是上一阶段快照。

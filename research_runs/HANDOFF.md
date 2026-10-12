@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+最新：[阶段1a确认中断报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/CONFIRMATION_INTERRUPTION_REPORT.md)。18项确认中8成功、1在完成3000步及保存后因Broken pipe失败、9项C2未启动；累计成功255，本次失败另记。九组资产补审计通过，原失败status不改。无进程/队列；依用户问题即停要求停止。正式门槛null，不进入信号/S/方法/Hydraulic阶段。下文确认运行中为此前快照。同步见同目录confirmation_interruption_sync_receipt。
+
 当前：[阶段1a初始响应](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)新增4次候选/控制，累计247。无采用候选；C1中值小幅改善、C2中值退化，线性控制整体基本不变，事前类别差异门槛通过。依冻结协议进入18次三种子确认；详见confirmation_activation及progress，不重跑初始ID，不调整阈值。下段243次固定参照为已完成子阶段。
 
 最新：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已完成四任务准备、8项评分检查与6次完整训练，新增0次模型失败，累计243。C1/C2历史source-half相对B0的单种子NMSE改善3.1506%/4.7037%，它们是固定参照，新候选未运行。用户已授权各阶段依次执行，效果不理想或其他问题停止，研究LLM全部Sol high；不需要重复请求总体启动。当前候选提案进行中，模型队列为空；另冻结共同池/控制/门槛后继续。完整性校验临时测试副本已在明确上传授权后校验并删除。同步以本阶段progress和baseline_sync_receipt为准。以下237次与仅设计属于此前状态。
