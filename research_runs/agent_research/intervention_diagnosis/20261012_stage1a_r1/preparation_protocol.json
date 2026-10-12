@@ -1,0 +1,24 @@
+{
+  "id": "intervention_stage1a_r1_preparation",
+  "created_utc": "2026-10-12T11:31:19.9784410Z",
+  "preparer_sha256": "d9496cd817aa02dd675f3dfcda891d9563de6bc15c465d1bd9f3c2502c601cea",
+  "scorer_sha256": "3cb3e3fa9c01503bdfa39307199a049e6b94769cce395cb4857f6ad9f1723dae",
+  "tests_sha256": "4f8330b25840475311593e7cb87dc6ad2b4cda1a39178149a8b94cd8e4a95a97",
+  "manifest_sha256": {
+    "metropt3_v1": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+    "skab_v1": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2"
+  },
+  "document_sha256": "20d61fb619ed74b6b82825cc3e6f12518cdc869c98fa592b3851fa199f0f2e8d",
+  "task_ids": [
+    "C1",
+    "C2",
+    "S1",
+    "S2"
+  ],
+  "new_training_authorized": false,
+  "training_status": "separate_protocol_freeze_required",
+  "test_access": false,
+  "LLM": "internal_gpt-6.1-sol_high",
+  "external_API": false,
+  "prior_completed_trainings": 237
+}

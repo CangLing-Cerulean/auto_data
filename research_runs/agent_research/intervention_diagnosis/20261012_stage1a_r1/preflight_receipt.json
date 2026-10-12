@@ -1,0 +1,66 @@
+{
+  "status": "passed_after_recorded_preflight_issues",
+  "verified_utc": "2026-10-12T11:48:05.4052458Z",
+  "issues": [
+    {
+      "issue": "initial_server_verifier_missing_test_csv",
+      "effect": "verification stopped before tasks or models",
+      "resolved": "isolated integrity copy after explicit upload authorization"
+    },
+    {
+      "issue": "local_verification_junction_access_denied",
+      "effect": "VerifyOnly not executed on first attempt",
+      "resolved": "approved isolated junction and successful unchanged VerifyOnly"
+    },
+    {
+      "issue": "default_sandbox_ssh_dns_failure",
+      "effect": "no remote operation",
+      "resolved": "network escalation"
+    },
+    {
+      "issue": "automatic_approval_rejected_test_upload",
+      "effect": "file not uploaded in rejected attempt",
+      "resolved": "user explicitly replied 允许上传; subsequent upload approved"
+    },
+    {
+      "issue": "preparation_script_invoked_under_wrong_scripts_subdirectory",
+      "effect": "Python could not open file; no tasks or model execution",
+      "resolved": "filename-only inventory and execution of identical frozen file at deployed root"
+    }
+  ],
+  "metropt3_integrity": {
+    "verifier": "scripts/verify_dataset.py",
+    "verifier_sha256": "1920e2bbc9889a18fd131764fa596769093b4af018a7d09b1c9f536f68b2357d",
+    "status": "PASS",
+    "output": "exact source reconstruction, checksums, 7:2:1 counts, chronological disjoint boundaries",
+    "test_copy": "independent integrity-only server directory; removed after PASS; absence check passed",
+    "model_test_access": false
+  },
+  "additional_datasets": "PASS; see additional_datasets_verification.json",
+  "scoring_tests": {
+    "passed": 8,
+    "failed": 0,
+    "server_test_seconds": 0.001
+  },
+  "preparation": {
+    "status": "PASS",
+    "server_process_seconds": 19.671225234866142,
+    "tasks": 4
+  },
+  "reference_runner_validation": {
+    "status": "PASS",
+    "checks": [
+      "source/core/array hashes",
+      "FIX formula",
+      "input immutable",
+      "last anchor",
+      "B0 identity",
+      "window gather"
+    ]
+  },
+  "independent_review": "Sol high read-only check accepted task preparation, scoring and reference runner; main accepted runtime checks",
+  "new_trainings": 0,
+  "external_api_calls": 0,
+  "internal_llm_cost": "not exposed",
+  "background_queue": false
+}

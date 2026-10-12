@@ -1,0 +1,395 @@
+{
+  "status": "prepared",
+  "tasks": [
+    {
+      "task_id": "C1",
+      "dataset_id": "metropt3_v1",
+      "role": "construction",
+      "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+      "array_sha256": "24e33c048e979a48da9bc96e3d9b0aa251af7ec2c1a55d4c95b586047f6835c7",
+      "sensor_columns": [
+        "TP2",
+        "TP3",
+        "H1",
+        "DV_pressure",
+        "Reservoirs",
+        "Oil_temperature",
+        "Motor_current",
+        "COMP",
+        "DV_eletric",
+        "Towers",
+        "MPG",
+        "LPS",
+        "Pressure_switch",
+        "Oil_level",
+        "Caudal_impulses"
+      ],
+      "normalization": {
+        "mean": [
+          1.082591185574114,
+          9.00785923847685,
+          7.877983833562367,
+          0.019092541264624376,
+          9.008468313856383,
+          59.57456524648714,
+          1.7061851947176223,
+          0.8770245758525373,
+          0.12315454843709343,
+          0.9383831298858507,
+          0.8767964280731129,
+          0.001187876868077789,
+          0.9978071415911517,
+          0.998206871584854,
+          0.8513664355020572
+        ],
+        "scale": [
+          2.977370251392746,
+          0.5977072687740649,
+          3.0009456856016326,
+          0.22968392930029904,
+          0.5969837102610609,
+          6.330883827816654,
+          2.2267875737768867,
+          0.32840899683714714,
+          0.32861452438541044,
+          0.24045837775388318,
+          0.3286707346132229,
+          0.03444511310232117,
+          0.046776594369949014,
+          0.0423073646739414,
+          0.3557269008694299
+        ]
+      },
+      "train_rows": 530358,
+      "development_rows": 147711,
+      "train_windows": 526441,
+      "development_windows": 145999,
+      "base_partition_membership_preserved": true,
+      "new_records_created": false,
+      "forecast_elapsed_seconds": {
+        "train": {
+          "min": 79,
+          "max": 98
+        },
+        "validation": {
+          "min": 78,
+          "max": 96
+        }
+      },
+      "source_files": {
+        "train": [
+          "metropt3"
+        ],
+        "validation": [
+          "metropt3"
+        ]
+      }
+    },
+    {
+      "task_id": "C2",
+      "dataset_id": "metropt3_v1",
+      "role": "construction",
+      "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+      "array_sha256": "7d0312a3dcc4603a561df447d5fd27c31a05a56ffce1b6830622e3309d4f5458",
+      "sensor_columns": [
+        "TP2",
+        "TP3",
+        "H1",
+        "DV_pressure",
+        "Reservoirs",
+        "Oil_temperature",
+        "Motor_current",
+        "COMP",
+        "DV_eletric",
+        "Towers",
+        "MPG",
+        "LPS",
+        "Pressure_switch",
+        "Oil_level",
+        "Caudal_impulses"
+      ],
+      "normalization": {
+        "mean": [
+          1.7822654349493294,
+          8.921048686280814,
+          7.081022842684019,
+          0.150781900452816,
+          8.921616492789441,
+          62.78146329757735,
+          2.256518593427468,
+          0.7775919323430636,
+          0.21410899238953537,
+          0.8938373110318811,
+          0.7683916425997874,
+          0.003727152143441736,
+          0.9809145727697763,
+          0.9732947008965108,
+          0.9732947008965108
+        ],
+        "scale": [
+          3.535532975395175,
+          0.6629883026425728,
+          3.711921023536415,
+          0.5727510396584604,
+          0.6621933186759213,
+          6.638245729538729,
+          2.3824891517882207,
+          0.4158638227822231,
+          0.41020279346528926,
+          0.3080457310850236,
+          0.42186007891433946,
+          0.06093652829214675,
+          0.1368253401158008,
+          0.1612207371990788,
+          0.1612207371990788
+        ]
+      },
+      "train_rows": 531505,
+      "development_rows": 155678,
+      "train_windows": 526992,
+      "development_windows": 154536,
+      "base_partition_membership_preserved": true,
+      "new_records_created": false,
+      "forecast_elapsed_seconds": {
+        "train": {
+          "min": 78,
+          "max": 108
+        },
+        "validation": {
+          "min": 79,
+          "max": 111
+        }
+      },
+      "source_files": {
+        "train": [
+          "metropt3"
+        ],
+        "validation": [
+          "metropt3"
+        ]
+      }
+    },
+    {
+      "task_id": "S1",
+      "dataset_id": "skab_v1",
+      "role": "selection",
+      "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+      "array_sha256": "30c42cb8f347608e93bace29c4cf2bf1b8e2119cb69b8e4eda29725b4055d007",
+      "sensor_columns": [
+        "Accelerometer1RMS",
+        "Accelerometer2RMS",
+        "Current",
+        "Pressure",
+        "Temperature",
+        "Thermocouple",
+        "Voltage",
+        "Volume Flow RateRMS"
+      ],
+      "normalization": {
+        "mean": [
+          0.12715282663414632,
+          0.15674614778236456,
+          1.8730700956847932,
+          0.08980472472795399,
+          79.769460810507,
+          27.168231384615215,
+          229.24152450078768,
+          73.01292249050586
+        ],
+        "scale": [
+          0.1214856060686914,
+          0.1370694972104339,
+          7.3984814785537525,
+          0.257049287483738,
+          7.941340460713288,
+          2.516679993825437,
+          13.264805179350747,
+          46.472234298555044
+        ]
+      },
+      "train_rows": 13325,
+      "development_rows": 2288,
+      "train_windows": 12818,
+      "development_windows": 2210,
+      "base_partition_membership_preserved": true,
+      "new_records_created": false,
+      "forecast_elapsed_seconds": {
+        "train": {
+          "min": 8,
+          "max": 9
+        },
+        "validation": {
+          "min": 8,
+          "max": 9
+        }
+      },
+      "source_files": {
+        "train": [
+          "other/16.csv",
+          "other/17.csv",
+          "other/19.csv",
+          "other/21.csv",
+          "other/23.csv",
+          "other/9.csv",
+          "valve1/0.csv",
+          "valve1/1.csv",
+          "valve1/2.csv",
+          "valve1/3.csv",
+          "valve1/5.csv",
+          "valve1/6.csv"
+        ],
+        "validation": [
+          "valve1/13.csv",
+          "valve1/9.csv"
+        ]
+      }
+    },
+    {
+      "task_id": "S2",
+      "dataset_id": "skab_v1",
+      "role": "selection",
+      "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+      "array_sha256": "86925ce72669bb36fd1caf44a4cd51501569002016f4f64c5c3f6121e82f8aa5",
+      "sensor_columns": [
+        "Accelerometer1RMS",
+        "Accelerometer2RMS",
+        "Current",
+        "Pressure",
+        "Temperature",
+        "Thermocouple",
+        "Voltage",
+        "Volume Flow RateRMS"
+      ],
+      "normalization": {
+        "mean": [
+          0.20588204455511602,
+          0.2571479352467016,
+          2.314258750218196,
+          0.09281228721055627,
+          86.91320518046952,
+          27.63840164296351,
+          228.71674879601446,
+          108.71093178857582
+        ],
+        "scale": [
+          0.12175831931304473,
+          0.1320310161128604,
+          5.620605266463606,
+          0.25829897767023213,
+          5.159637790457814,
+          2.606527147664574,
+          12.363717274640173,
+          32.28501044641805
+        ]
+      },
+      "train_rows": 19477,
+      "development_rows": 7084,
+      "train_windows": 18970,
+      "development_windows": 6772,
+      "base_partition_membership_preserved": true,
+      "new_records_created": false,
+      "forecast_elapsed_seconds": {
+        "train": {
+          "min": 8,
+          "max": 12
+        },
+        "validation": {
+          "min": 8,
+          "max": 9
+        }
+      },
+      "source_files": {
+        "train": [
+          "anomaly-free/anomaly-free.csv",
+          "other/11.csv",
+          "other/12.csv",
+          "other/13.csv",
+          "other/14.csv",
+          "other/15.csv",
+          "other/18.csv",
+          "other/20.csv",
+          "other/22.csv",
+          "valve1/4.csv",
+          "valve1/7.csv"
+        ],
+        "validation": [
+          "valve1/10.csv",
+          "valve1/11.csv",
+          "valve1/12.csv",
+          "valve1/14.csv",
+          "valve1/15.csv",
+          "valve1/7.csv",
+          "valve1/8.csv"
+        ]
+      }
+    }
+  ],
+  "grouping": {
+    "metropt3_v1": {
+      "train": {
+        "kind": "natural_gap_nearest_partition_midpoint",
+        "cut_base_row": 530358,
+        "before": "2020-04-13T01:03:33",
+        "after": "2020-04-13T04:33:28",
+        "gap_seconds": 12595
+      },
+      "validation": {
+        "kind": "natural_gap_nearest_partition_midpoint",
+        "cut_base_row": 147711,
+        "before": "2020-07-20T04:55:40",
+        "after": "2020-07-20T05:00:16",
+        "gap_seconds": 276
+      }
+    },
+    "skab_v1": {
+      "train": {
+        "kind": "whole_original_file_sha256_parity",
+        "salt": "stage1-r1-grouping|",
+        "source_assignments": {
+          "anomaly-free/anomaly-free.csv": 1,
+          "other/11.csv": 1,
+          "other/12.csv": 1,
+          "other/13.csv": 1,
+          "other/14.csv": 1,
+          "other/15.csv": 1,
+          "other/16.csv": 0,
+          "other/17.csv": 0,
+          "other/18.csv": 1,
+          "other/19.csv": 0,
+          "other/20.csv": 1,
+          "other/21.csv": 0,
+          "other/22.csv": 1,
+          "other/23.csv": 0,
+          "other/9.csv": 0,
+          "valve1/0.csv": 0,
+          "valve1/1.csv": 0,
+          "valve1/2.csv": 0,
+          "valve1/3.csv": 0,
+          "valve1/4.csv": 1,
+          "valve1/5.csv": 0,
+          "valve1/6.csv": 0,
+          "valve1/7.csv": 1
+        }
+      },
+      "validation": {
+        "kind": "whole_original_file_sha256_parity",
+        "salt": "stage1-r1-grouping|",
+        "source_assignments": {
+          "valve1/10.csv": 1,
+          "valve1/11.csv": 1,
+          "valve1/12.csv": 1,
+          "valve1/13.csv": 0,
+          "valve1/14.csv": 1,
+          "valve1/15.csv": 1,
+          "valve1/7.csv": 1,
+          "valve1/8.csv": 1,
+          "valve1/9.csv": 0
+        }
+      }
+    }
+  },
+  "new_trainings": 0,
+  "test_access": false,
+  "process_seconds": 19.671225234866142,
+  "limitation": "MetroPT3 historical construction; SKAB previously seen pooled development source. New derived task responses are prospective; only Hydraulic is reserved for source confirmation."
+}
