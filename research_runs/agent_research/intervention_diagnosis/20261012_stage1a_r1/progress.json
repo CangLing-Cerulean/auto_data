@@ -21,7 +21,8 @@
   "Hydraulic": "reserved",
   "baseline_sync_receipt": "baseline_sync_receipt.json",
   "initial_sync_receipt": "initial_sync_receipt.json",
-  "interruption_sync": "pending",
+  "interruption_sync": "source_and_release_verified",
   "report": "CONFIRMATION_INTERRUPTION_REPORT.md",
-  "next": "stop per user instruction; preserve failure and unstarted IDs"
+  "next": "stop per user instruction; preserve failure and unstarted IDs",
+  "interruption_sync_receipt": "confirmation_interruption_sync_receipt.json"
 }

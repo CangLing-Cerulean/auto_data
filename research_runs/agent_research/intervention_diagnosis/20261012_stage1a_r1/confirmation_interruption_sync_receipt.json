@@ -1,0 +1,26 @@
+{
+  "status": "source_and_release_verified",
+  "verified_utc": "2026-10-12T13:59:48.8932834Z",
+  "scope": "interrupted_confirmation_preservation",
+  "source_commit": "06168f82855a96f987da9bce01d106987368f5c0",
+  "source_receipt": "confirmation_interruption_source_sync_receipt.json",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/stage1-confirmation-interrupted-20261012-r1",
+  "assets": [
+    {
+      "name": "stage1-confirmation-interrupted-20261012-r1.tar.gz",
+      "bytes": 388173172,
+      "sha256": "0438212952ed2f89eb1e1407bc8ec710c9b4780b9c85b26696b70709e4868c81",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-confirmation-interrupted-20261012-r1/stage1-confirmation-interrupted-20261012-r1.tar.gz",
+      "asset_id": 633945096
+    }
+  ],
+  "successful_confirmation_runs": 8,
+  "failed_confirmation_runs": 1,
+  "not_started_confirmation_runs": 9,
+  "cumulative_successful_trainings": 255,
+  "original_failed_status_preserved": true,
+  "formal_confirmation_gate": null,
+  "background_model_queue": false,
+  "pending_assets": null,
+  "no_experiment_restart": true
+}
