@@ -1,0 +1,23 @@
+{
+  "agent": "autonomous_memory_llm",
+  "role_configuration": "Sol high",
+  "stage": "read_only_historical_preparation",
+  "new_training_results_available": false,
+  "reported_coverage": "R2 protocol; 10 supplements; all 144 memory/v2 record indexes and result summaries; selected detailed receipts and interpretations",
+  "reported_limit": "Did not independently audit all 134 original receipts or supplement SHA256; local main-agent hash checks are separately recorded",
+  "reused_facts": [
+    {"evidence": ["history_extra_1", "history_extra_2", "history_extra_3", "history_extra_4"], "finding": "source-half is an already confirmed development reference: mean NMSE gain 4.2385%, mean NMAE deterioration 0.0541%; reuse is not rediscovery"},
+    {"evidence": ["experience:run:R001_sources_s2026", "experience:run:S000_uniform_s2026"], "finding": "Full source replacement showed a single-seed squared-error gain with absolute-error cost; it cannot be directly ranked against a multi-seed source-half mean"},
+    {"evidence": ["history_extra_0", "history_extra_7", "history_extra_8"], "finding": "Large error contribution does not imply value from fixed upweighting: R1 targeted gains failed overall/NMAE criteria"},
+    {"evidence": ["experience:importance_weak_signal", "experience:bilevel_control"], "finding": "Weak selection results and control-explained gains do not establish a replacement for the stronger representation evidence"},
+    {"evidence": ["experience:quiet_selection", "experience:cluster_coverage", "experience:recent_proxy", "experience:cadence_overlap", "experience:leverage_temporal"], "finding": "Historical failures are scoped observations, not method-family prohibitions; check member overlap and local coverage before repeated deletion"},
+    {"evidence": ["history_extra_5", "history_extra_6", "history_extra_9"], "finding": "Engineering success, scientific discovery, and unreviewed machine status remain separate"}
+  ],
+  "agent_selected_first_question": "已有来源变化的预测关联是否具有稳定的通道特定时间相位；统一同时点半混合是否掩盖了这类差异，从而留下可通过因果输入表示改进的空间？",
+  "planned_first_diagnostic": "按原start_row流式读取合法T窗口，分解自身与来源的变化幅度、滞后关联，以及来源历史变化与随后八条T内目标变化的关联；按预定时间块检查方向稳定性，并区分近期切换与静稳输入。只计算统计量，不训练预测模型。未来目标仅限T内诊断，部署变换始终只读过去32条输入。",
+  "falsification": "关联弱、相位不稳定或只来自少量窗口则撤回时间对齐假设；当前不固定变换公式、不预测收益。",
+  "pending_context": ["current B0 and exact groups", "sensor names, feature fields and normalization", "visible_evidence_refs", "real context before formal single-action JSON"],
+  "main_agent_strategy_injection": false,
+  "external_API_calls": 0,
+  "internal_model_cost": "unknown"
+}

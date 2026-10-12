@@ -1,0 +1,78 @@
+{
+  "version": "full-memory-supplement-r2",
+  "sources": [
+    {
+      "evidence_id": "history_extra_0",
+      "source": "research_runs/direct_diagnostics/20261009/REPORT.md",
+      "file": "memory/00_REPORT.md",
+      "sha256": "123e0a6f7f62ab7bbaa151a8413704b9ac424e666987a4164455b2e6ad091773",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_1",
+      "source": "research_runs/direct_processing/20261009/REPORT.md",
+      "file": "memory/01_REPORT.md",
+      "sha256": "c08ff6bd24e7bf6d0468de3a07a85893c79e23dff77b3794a8c0b856308dfb40",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_2",
+      "source": "research_runs/direct_processing/20261009/processing_recipe.json",
+      "file": "memory/02_processing_recipe.json",
+      "sha256": "f96d5ac393e0108a3750474ecca1d62a1ab3fdd4f0d625b08de478809e6b7f2c",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_3",
+      "source": "research_runs/direct_processing/20261009/confirmation_result.json",
+      "file": "memory/03_confirmation_result.json",
+      "sha256": "0433c452bdeb73bf352cf0f763b1a93944be6bb801fceeb29efd8d36ef36e640",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_4",
+      "source": "research_runs/direct_processing/20261009/mechanism_result.json",
+      "file": "memory/04_mechanism_result.json",
+      "sha256": "bbfda11cb6357a13a65b71f8ac7f55732e0c2d507d5482180cbedf6c8d7af21d",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_5",
+      "source": "research_runs/agent_research/capability_acceptance/20261010_v3/REPORT.md",
+      "file": "memory/05_REPORT.md",
+      "sha256": "29bc030e0ce068fce85f8dd22eeb7093a30c808963b93e8130635017265eadf6",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_6",
+      "source": "research_runs/agent_research/capability_acceptance/20261010_v4/REPORT.md",
+      "file": "memory/06_REPORT.md",
+      "sha256": "42513c8170c5323fc8499b5f982191b7d85914ca72619f6acd134031d15f123a",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_7",
+      "source": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/REPORT.md",
+      "file": "memory/07_REPORT.md",
+      "sha256": "38dfc21182ce3dace41f458c28fd036c7dab926a5ddc95bfe82ccbb7eae29186",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_8",
+      "source": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/experience_entries.json",
+      "file": "memory/08_experience_entries.json",
+      "sha256": "524a85d0c0f930cecaf51a54667ed6f1d94f48a4fe98c508674caaca9d94c510",
+      "status": "historical_development_evidence"
+    },
+    {
+      "evidence_id": "history_extra_9",
+      "source": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
+      "file": "memory/09_prior_signal_status.json",
+      "sha256": "3aa4d75b8c6061cd7cab55f7658a60538bafa05556b89728072533fc82747b34",
+      "status": "machine_only_unreviewed"
+    }
+  ],
+  "base_library": "research_runs/agent_research/memory/v2/library.json",
+  "base_records": 144,
+  "limits": "Known development history; no independent discovery claim"
+}

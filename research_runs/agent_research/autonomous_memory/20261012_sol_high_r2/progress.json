@@ -1,0 +1,19 @@
+{
+  "stage": "local_preparation",
+  "status": "awaiting_post_rejection_server_authorization",
+  "server_created": false,
+  "new_trainings": 0,
+  "external_API_calls": 0,
+  "internal_model_cost": "unknown",
+  "prior_total_trainings": 217,
+  "remote_actions": [
+    "upload preparation script",
+    "create isolated R2 directory",
+    "execute authorized experiments"
+  ],
+  "approval_rejections": [
+    "Initial request rejected: historical server confirmation requirement",
+    "Existing session authorization evidence submitted; retry still rejected: requires post-rejection approval"
+  ],
+  "updated_utc": "2026-10-12T01:40:25.1628318Z"
+}

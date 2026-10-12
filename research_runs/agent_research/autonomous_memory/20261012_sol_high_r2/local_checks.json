@@ -1,0 +1,59 @@
+{
+  "status": "local_asset_checks_passed",
+  "memory_checks": [
+    {
+      "file": "memory/00_REPORT.md",
+      "sha256": "123e0a6f7f62ab7bbaa151a8413704b9ac424e666987a4164455b2e6ad091773",
+      "verified": true
+    },
+    {
+      "file": "memory/01_REPORT.md",
+      "sha256": "c08ff6bd24e7bf6d0468de3a07a85893c79e23dff77b3794a8c0b856308dfb40",
+      "verified": true
+    },
+    {
+      "file": "memory/02_processing_recipe.json",
+      "sha256": "f96d5ac393e0108a3750474ecca1d62a1ab3fdd4f0d625b08de478809e6b7f2c",
+      "verified": true
+    },
+    {
+      "file": "memory/03_confirmation_result.json",
+      "sha256": "0433c452bdeb73bf352cf0f763b1a93944be6bb801fceeb29efd8d36ef36e640",
+      "verified": true
+    },
+    {
+      "file": "memory/04_mechanism_result.json",
+      "sha256": "bbfda11cb6357a13a65b71f8ac7f55732e0c2d507d5482180cbedf6c8d7af21d",
+      "verified": true
+    },
+    {
+      "file": "memory/05_REPORT.md",
+      "sha256": "29bc030e0ce068fce85f8dd22eeb7093a30c808963b93e8130635017265eadf6",
+      "verified": true
+    },
+    {
+      "file": "memory/06_REPORT.md",
+      "sha256": "42513c8170c5323fc8499b5f982191b7d85914ca72619f6acd134031d15f123a",
+      "verified": true
+    },
+    {
+      "file": "memory/07_REPORT.md",
+      "sha256": "38dfc21182ce3dace41f458c28fd036c7dab926a5ddc95bfe82ccbb7eae29186",
+      "verified": true
+    },
+    {
+      "file": "memory/08_experience_entries.json",
+      "sha256": "524a85d0c0f930cecaf51a54667ed6f1d94f48a4fe98c508674caaca9d94c510",
+      "verified": true
+    },
+    {
+      "file": "memory/09_prior_signal_status.json",
+      "sha256": "3aa4d75b8c6061cd7cab55f7658a60538bafa05556b89728072533fc82747b34",
+      "verified": true
+    }
+  ],
+  "protocol_document_verified": true,
+  "runtime_execution": "not run: awaiting server authorization",
+  "dataset_verification": "pending server execution before baseline",
+  "created_utc": "2026-10-12T01:40:57.6034639Z"
+}
