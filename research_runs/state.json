@@ -2,15 +2,15 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "autonomous_memory_r2_completed_and_synced",
-  "active_research_scope": "data_diagnosis_and_processing",
-  "active_study": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/protocol.json",
-  "active_progress": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/progress.json",
+  "phase": "intervention_phase0_local_complete_pending_github_sync",
+  "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/protocol.json",
+  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/REPORT.md",
-  "next_action": "retain_historical_source_half_reference; archive_R2_sign_increment_negative_result; prior_signal_v2_semantic_review_remains_separate; keep_DeepSeek_disabled",
-  "last_verified_snapshot_at": "2026-10-12T05:19:20.9513953Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/REPORT.md",
+  "next_action": "local_only_per_user; no_server_upload_or_evaluation; retain_pending_runtime_and_paired_export",
+  "last_verified_snapshot_at": "2026-10-12T08:31:09.4287146Z",
   "snapshot_only": false,
   "total_training_runs_completed": 228,
   "historical_completed_trainings": 134,
@@ -451,5 +451,15 @@
   ],
   "current_autonomous_memory_failed_job_ids": [
     "ad5444427bcea4c3dd470c902c611666714d8f041a40fc8624b9e288d9ff6c48"
-  ]
+  ],
+  "intervention_phase0": {
+    "new_trainings": 0,
+    "new_model_evaluations": 0,
+    "historical_records": 14,
+    "tasks_frozen": 3,
+    "prototype_variants": 2,
+    "python_runtime_verified": false,
+    "evidence_floor_complete": false,
+    "user_scope": "local_only"
+  }
 }

@@ -1,0 +1,1118 @@
+{
+  "facts": {
+    "parent_id": "source_half",
+    "response_visible": true,
+    "scope": "retrospective_engineering_replay",
+    "shared_records": [
+      {
+        "record_id": "R1_O60_UP",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O60",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "UP",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": {
+          "overall_NMSE": "unknown",
+          "target_NMSE": "弱预测下降",
+          "NMAE_constraint_risk": "unknown，可能因非目标切片损失而超限"
+        },
+        "prediction_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/decision_initial.json",
+        "eligibility": "historical_prospective_prediction_same_source_only",
+        "response": {
+          "global": {
+            "elements": 25237320,
+            "parent": {
+              "NMAE": 0.21261092466456205,
+              "NMSE": 0.4466296306325078,
+              "windows": 210311
+            },
+            "child": {
+              "NMAE": 0.2221438849425192,
+              "NMSE": 0.44936693614094714,
+              "windows": 210311
+            },
+            "delta": {
+              "NMSE": -0.002737305508439314,
+              "NMAE": -0.009532960277957137
+            },
+            "gain_pct": {
+              "NMSE": -0.6128804093366571,
+              "NMAE": -4.4837584395051024
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 5166000,
+            "parent": {
+              "NMAE": 0.4853858152270294,
+              "NMSE": 1.359913713790347,
+              "windows": 43050
+            },
+            "child": {
+              "NMAE": 0.47869789689995007,
+              "NMSE": 1.3353405060311188,
+              "windows": 43050
+            },
+            "delta": {
+              "NMSE": 0.02457320775922822,
+              "NMAE": 0.006687918327079323
+            },
+            "gain_pct": {
+              "NMSE": 1.8069681561441027,
+              "NMAE": 1.3778561542741385
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": -4.6162983329892215,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O60_DOWN",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O60",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "DOWN",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": {
+          "overall_NMSE": "unknown",
+          "target_NMSE": "弱预测上升",
+          "NMAE_constraint_risk": "unknown"
+        },
+        "prediction_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/decision_initial.json",
+        "eligibility": "historical_prospective_prediction_same_source_only",
+        "response": {
+          "global": {
+            "elements": 25237320,
+            "parent": {
+              "NMAE": 0.21261092466456205,
+              "NMSE": 0.4466296306325078,
+              "windows": 210311
+            },
+            "child": {
+              "NMAE": 0.20819746555429414,
+              "NMSE": 0.4479145897024825,
+              "windows": 210311
+            },
+            "delta": {
+              "NMSE": -0.0012849590699746671,
+              "NMAE": 0.004413459110267914
+            },
+            "gain_pct": {
+              "NMSE": -0.2877012589054905,
+              "NMAE": 2.075838349901852
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 5166000,
+            "parent": {
+              "NMAE": 0.4853858152270294,
+              "NMSE": 1.359913713790347,
+              "windows": 43050
+            },
+            "child": {
+              "NMAE": 0.4946506742105647,
+              "NMSE": 1.3871428359947926,
+              "windows": 43050
+            },
+            "delta": {
+              "NMSE": -0.02722912220444562,
+              "NMAE": -0.009264858983535296
+            },
+            "gain_pct": {
+              "NMSE": -2.002268373965632,
+              "NMAE": -1.908761791730944
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": 2.5488930708615576,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O60_CTRL_UP",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O60",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "CTRL_UP",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": null,
+        "prediction_ref": null,
+        "eligibility": "historical_control_no_agent_prediction",
+        "response": {
+          "global": {
+            "elements": 25237320,
+            "parent": {
+              "NMAE": 0.21261092466456205,
+              "NMSE": 0.4466296306325078,
+              "windows": 210311
+            },
+            "child": {
+              "NMAE": 0.22035397437994098,
+              "NMSE": 0.44768445129731343,
+              "windows": 210311
+            },
+            "delta": {
+              "NMSE": -0.0010548206648056113,
+              "NMAE": -0.007743049715378925
+            },
+            "gain_pct": {
+              "NMSE": -0.23617346285596763,
+              "NMAE": -3.6418870420676623
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 5166000,
+            "parent": {
+              "NMAE": 0.4853858152270294,
+              "NMSE": 1.359913713790347,
+              "windows": 43050
+            },
+            "child": {
+              "NMAE": 0.48208064614516954,
+              "NMSE": 1.342300626267998,
+              "windows": 43050
+            },
+            "delta": {
+              "NMSE": 0.017613087522349025,
+              "NMAE": 0.003305169081859849
+            },
+            "gain_pct": {
+              "NMSE": 1.2951621374019302,
+              "NMAE": 0.6809364794300639
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": -2.769628025530979,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O60_CTRL_DOWN",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O60",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "CTRL_DOWN",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": null,
+        "prediction_ref": null,
+        "eligibility": "historical_control_no_agent_prediction",
+        "response": {
+          "global": {
+            "elements": 25237320,
+            "parent": {
+              "NMAE": 0.21261092466456205,
+              "NMSE": 0.4466296306325078,
+              "windows": 210311
+            },
+            "child": {
+              "NMAE": 0.21115918864569858,
+              "NMSE": 0.44997780885042,
+              "windows": 210311
+            },
+            "delta": {
+              "NMSE": -0.0033481782179121677,
+              "NMAE": 0.0014517360188634754
+            },
+            "gain_pct": {
+              "NMSE": -0.749654297044857,
+              "NMAE": 0.6828134636796725
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 5166000,
+            "parent": {
+              "NMAE": 0.4853858152270294,
+              "NMSE": 1.359913713790347,
+              "windows": 43050
+            },
+            "child": {
+              "NMAE": 0.4994492614000357,
+              "NMSE": 1.3851143927516483,
+              "windows": 43050
+            },
+            "delta": {
+              "NMSE": -0.025200678961301293,
+              "NMAE": -0.014063446173006311
+            },
+            "gain_pct": {
+              "NMSE": -1.853108671951108,
+              "NMAE": -2.897374775245218
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": 1.0759099491852497,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O80_UP",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O80",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "UP",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": {
+          "overall_NMSE": "弱预测下降",
+          "target_NMSE": "弱预测下降",
+          "NMAE_constraint_risk": "unknown"
+        },
+        "prediction_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/decision_initial.json",
+        "eligibility": "historical_prospective_prediction_same_source_only",
+        "response": {
+          "global": {
+            "elements": 25297560,
+            "parent": {
+              "NMAE": 0.25300990273856416,
+              "NMSE": 0.5303822423122914,
+              "windows": 210813
+            },
+            "child": {
+              "NMAE": 0.2582750818416267,
+              "NMSE": 0.5311535395623879,
+              "windows": 210813
+            },
+            "delta": {
+              "NMSE": -0.0007712972500965032,
+              "NMAE": -0.005265179103062512
+            },
+            "gain_pct": {
+              "NMSE": -0.1454229023079472,
+              "NMAE": -2.0810170060825786
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 6684840,
+            "parent": {
+              "NMAE": 0.49744749382760267,
+              "NMSE": 1.2629790132485865,
+              "windows": 55707
+            },
+            "child": {
+              "NMAE": 0.4797192107364235,
+              "NMSE": 1.2294142416687501,
+              "windows": 55707
+            },
+            "delta": {
+              "NMSE": 0.033564771579836394,
+              "NMAE": 0.017728283091179187
+            },
+            "gain_pct": {
+              "NMSE": 2.6575874363503766,
+              "NMAE": 3.563850117078521
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": -4.902682276001147,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O80_DOWN",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O80",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "DOWN",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": {
+          "overall_NMSE": "弱预测上升",
+          "target_NMSE": "弱预测上升",
+          "NMAE_constraint_risk": "unknown，可能因目标覆盖减少而超限"
+        },
+        "prediction_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/decision_initial.json",
+        "eligibility": "historical_prospective_prediction_same_source_only",
+        "response": {
+          "global": {
+            "elements": 25297560,
+            "parent": {
+              "NMAE": 0.25300990273856416,
+              "NMSE": 0.5303822423122914,
+              "windows": 210813
+            },
+            "child": {
+              "NMAE": 0.25145467575662245,
+              "NMSE": 0.5346859014689799,
+              "windows": 210813
+            },
+            "delta": {
+              "NMSE": -0.004303659156688511,
+              "NMAE": 0.0015552269819417153
+            },
+            "gain_pct": {
+              "NMSE": -0.811425951578993,
+              "NMAE": 0.6146901623644098
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 6684840,
+            "parent": {
+              "NMAE": 0.49744749382760267,
+              "NMSE": 1.2629790132485865,
+              "windows": 55707
+            },
+            "child": {
+              "NMAE": 0.5138573943659814,
+              "NMSE": 1.3011506361555365,
+              "windows": 55707
+            },
+            "delta": {
+              "NMSE": -0.038171622906949976,
+              "NMAE": -0.016409900538378763
+            },
+            "gain_pct": {
+              "NMSE": -3.0223481551578897,
+              "NMAE": -3.298820627703442
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": 2.9409435036535037,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O80_CTRL_UP",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O80",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "CTRL_UP",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": null,
+        "prediction_ref": null,
+        "eligibility": "historical_control_no_agent_prediction",
+        "response": {
+          "global": {
+            "elements": 25297560,
+            "parent": {
+              "NMAE": 0.25300990273856416,
+              "NMSE": 0.5303822423122914,
+              "windows": 210813
+            },
+            "child": {
+              "NMAE": 0.2559196234987573,
+              "NMSE": 0.5307419097984247,
+              "windows": 210813
+            },
+            "delta": {
+              "NMSE": -0.00035966748613336375,
+              "NMAE": -0.002909720760193135
+            },
+            "gain_pct": {
+              "NMSE": -0.06781288237806234,
+              "NMAE": -1.150042242891875
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 6684840,
+            "parent": {
+              "NMAE": 0.49744749382760267,
+              "NMSE": 1.2629790132485865,
+              "windows": 55707
+            },
+            "child": {
+              "NMAE": 0.48247327428354964,
+              "NMSE": 1.2404157548402437,
+              "windows": 55707
+            },
+            "delta": {
+              "NMSE": 0.022563258408342834,
+              "NMAE": 0.014974219544053036
+            },
+            "gain_pct": {
+              "NMSE": 1.786510953203132,
+              "NMAE": 3.0102110735012686
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": -3.214964830773459,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R1_O80_CTRL_DOWN",
+        "source_family": "metropt3",
+        "context_id": "fused_pilot_r1",
+        "task_id": "O80",
+        "seed": 2026101101,
+        "parent_id": "B0",
+        "action_family": "loss_weighting_uniform_sampling",
+        "action": "CTRL_DOWN",
+        "prestate_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/agent_state_before.json",
+        "prestate_sha256": "cf963d5382602a4cf291ef2ed73f26995c480a6a0233e83a85c742aaf2370d74",
+        "prospective_prediction": null,
+        "prediction_ref": null,
+        "eligibility": "historical_control_no_agent_prediction",
+        "response": {
+          "global": {
+            "elements": 25297560,
+            "parent": {
+              "NMAE": 0.25300990273856416,
+              "NMSE": 0.5303822423122914,
+              "windows": 210813
+            },
+            "child": {
+              "NMAE": 0.25316195121967777,
+              "NMSE": 0.5340310951836482,
+              "windows": 210813
+            },
+            "delta": {
+              "NMSE": -0.0036488528713568558,
+              "NMAE": -0.00015204848111360914
+            },
+            "gain_pct": {
+              "NMSE": -0.6879666361847,
+              "NMAE": -0.06009586165120235
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 6684840,
+            "parent": {
+              "NMAE": 0.49744749382760267,
+              "NMSE": 1.2629790132485865,
+              "windows": 55707
+            },
+            "child": {
+              "NMAE": 0.5110848624056181,
+              "NMSE": 1.2873086502830944,
+              "windows": 55707
+            },
+            "delta": {
+              "NMSE": -0.024329637034507856,
+              "NMAE": -0.013637368578015452
+            },
+            "gain_pct": {
+              "NMSE": -1.9263690670463391,
+              "NMAE": -2.741468948427685
+            },
+            "signed_bias": null
+          },
+          "complement": {
+            "NMSE_gain_pct": 1.4138456516148756,
+            "source_definition": "original_R1_other_windows",
+            "signed_bias": null
+          }
+        },
+        "source_ref": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/summary.json",
+        "source_sha256": "a939d2699877a9975a5cadc75fa03aadc90e3608ac8f6187357d68021240c5fc",
+        "limitations": [
+          "same_source_overlapping_origins",
+          "one_training_seed",
+          "not_new_method_evaluation"
+        ]
+      },
+      {
+        "record_id": "R2_2026101202_historical_source_half",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101202,
+        "parent_id": "baseline",
+        "action_family": "input_representation",
+        "action": "historical_source_half",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.19404482136355902,
+              "NMSE": 0.28878016687226016,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.19353421300508206,
+              "NMSE": 0.2764832837178332,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": 0.012296883154426952,
+              "NMAE": 0.0005106083584769661
+            },
+            "gain_pct": {
+              "NMSE": 4.258215959777594,
+              "NMAE": 0.26313938959509725
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.27779377622449225,
+              "NMAE": 0.3240719570546366,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.2322044162789572,
+              "NMAE": 0.290628898085789,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": 0.04558935994553506,
+              "NMAE": 0.03344305896884758
+            },
+            "gain_pct": {
+              "NMSE": 16.411224385636753,
+              "NMAE": 10.319639895040126
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      },
+      {
+        "record_id": "R2_2026101202_source_sign_flip",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101202,
+        "parent_id": "control",
+        "action_family": "input_representation",
+        "action": "source_sign_flip",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.19353421300508206,
+              "NMSE": 0.2764832837178332,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.19294675786049043,
+              "NMSE": 0.2775093846638088,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": -0.0010261009459756054,
+              "NMAE": 0.000587455144591631
+            },
+            "gain_pct": {
+              "NMSE": -0.37112585331661474,
+              "NMAE": 0.3035407205113676
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.2322044162789572,
+              "NMAE": 0.290628898085789,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.2701666443831831,
+              "NMAE": 0.3150431484148428,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": -0.03796222810422592,
+              "NMAE": -0.02441425032905381
+            },
+            "gain_pct": {
+              "NMSE": -16.348624506185214,
+              "NMAE": -8.400489589939923
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      },
+      {
+        "record_id": "R2_2026101203_historical_source_half",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101203,
+        "parent_id": "baseline",
+        "action_family": "input_representation",
+        "action": "historical_source_half",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.19143659693624065,
+              "NMSE": 0.28992005650483704,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.19361831677522992,
+              "NMSE": 0.2774316428861983,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": 0.012488413618638727,
+              "NMAE": -0.0021817198389892656
+            },
+            "gain_pct": {
+              "NMSE": 4.307536970430458,
+              "NMAE": -1.1396566142031366
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.2701197620443951,
+              "NMAE": 0.3121978207231923,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.23922312383207778,
+              "NMAE": 0.29265689693987945,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": 0.030896638212317307,
+              "NMAE": 0.019540923783312847
+            },
+            "gain_pct": {
+              "NMSE": 11.438125807040855,
+              "NMAE": 6.259148042112264
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      },
+      {
+        "record_id": "R2_2026101203_source_sign_flip",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101203,
+        "parent_id": "control",
+        "action_family": "input_representation",
+        "action": "source_sign_flip",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.19361831677522992,
+              "NMSE": 0.2774316428861983,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.19435289082037321,
+              "NMSE": 0.27915661866902763,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": -0.0017249757828293188,
+              "NMAE": -0.0007345740451432936
+            },
+            "gain_pct": {
+              "NMSE": -0.6217660555529706,
+              "NMAE": -0.3793928474215873
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.23922312383207778,
+              "NMAE": 0.29265689693987945,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.26940123325268445,
+              "NMAE": 0.3146066895840438,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": -0.03017810942060667,
+              "NMAE": -0.021949792644164356
+            },
+            "gain_pct": {
+              "NMSE": -12.61504696418484,
+              "NMAE": -7.5001795186373155
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      },
+      {
+        "record_id": "R2_2026101204_historical_source_half",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101204,
+        "parent_id": "baseline",
+        "action_family": "input_representation",
+        "action": "historical_source_half",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.19617011219995106,
+              "NMSE": 0.28760845927953693,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.1947300895966288,
+              "NMSE": 0.27506896205166625,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": 0.012539497227870677,
+              "NMAE": 0.0014400226033222663
+            },
+            "gain_pct": {
+              "NMSE": 4.359919474998158,
+              "NMAE": 0.734068297750928
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.28951085848355634,
+              "NMAE": 0.34786893729145046,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.24284662658675846,
+              "NMAE": 0.30446140818538164,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": 0.046664231896797886,
+              "NMAE": 0.04340752910606882
+            },
+            "gain_pct": {
+              "NMSE": 16.11830110318585,
+              "NMAE": 12.478127378674591
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      },
+      {
+        "record_id": "R2_2026101204_source_sign_flip",
+        "source_family": "metropt3",
+        "context_id": "autonomous_memory_r2",
+        "task_id": "metropt3_original_D",
+        "seed": 2026101204,
+        "parent_id": "control",
+        "action_family": "input_representation",
+        "action": "source_sign_flip",
+        "prestate": null,
+        "prospective_prediction": null,
+        "eligibility": "retrospective_only_for_new_signal_learning",
+        "response": {
+          "global": {
+            "elements": 36064200,
+            "parent": {
+              "NMAE": 0.1947300895966288,
+              "NMSE": 0.27506896205166625,
+              "windows": 300535
+            },
+            "child": {
+              "NMAE": 0.19224887389901502,
+              "NMSE": 0.27550246326503947,
+              "windows": 300535
+            },
+            "delta": {
+              "NMSE": -0.0004335012133732108,
+              "NMAE": 0.002481215697613781
+            },
+            "gain_pct": {
+              "NMSE": -0.15759728401919304,
+              "NMAE": 1.2741819729829449
+            },
+            "signed_bias": null
+          },
+          "target": {
+            "elements": 521136,
+            "parent": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.24284662658675846,
+              "NMAE": 0.30446140818538164,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "child": {
+              "group": "high_input_variation",
+              "channels": [
+                "TP2",
+                "H1",
+                "DV_eletric"
+              ],
+              "windows": 21714,
+              "NMSE": 0.26834355780180463,
+              "NMAE": 0.3152751766350403,
+              "persistence_NMSE": 0.26376279767646693,
+              "persistence_NMAE": 0.10955232920258429
+            },
+            "delta": {
+              "NMSE": -0.025496931215046176,
+              "NMAE": -0.010813768449658645
+            },
+            "gain_pct": {
+              "NMSE": -10.499191021678548,
+              "NMAE": -3.551769833198142
+            },
+            "signed_bias": null
+          },
+          "complement": null
+        },
+        "source_ref": "research_runs/agent_research/autonomous_memory/20261012_sol_high_r2/confirmation_result.json",
+        "source_sha256": "7c2430467cae65db7ac50cb022295864a6e3c62dd65bee35158ffb39a0dc2ac0",
+        "limitations": [
+          "aligned_tensor_export_pending",
+          "signed_bias_missing",
+          "no_new_signal_prestate",
+          "same_context_three_seeds_not_three_tasks"
+        ]
+      }
+    ],
+    "missing": [
+      "new_source_responses",
+      "intermediate_training_dynamics"
+    ]
+  },
+  "history": []
+}

@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+当前主课题改为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[阶段0本地交付](agent_research/intervention_diagnosis/20261012_phase0/REPORT.md)包括协议、三个任务定义、14条历史响应索引、两个离线原型和旧工作价值审查。用户在新代码上传审批被拒后明确选择“仅完成本地协议与原型”；不要上传或启动该阶段服务器评估。Python运行验证、真实逐窗口父子导出、新来源响应仍未执行，完整证据底座未完成。新增训练/模型评估/API均0，累计228次，无队列，DeepSeek关闭。同步看该阶段progress/sync_receipt。
+
 最新 [R2自主探索](agent_research/autonomous_memory/20261012_sol_high_r2/REPORT.md)已完成：Sol high复用144条历史索引与10份补充证据，自主提出1个候选，经3个额外种子确认，NMSE相对B0改善3.9409%、NMAE改善0.3616%。新增符号规则相对已知source-half对照的NMSE退化0.3842%、登记局部退化13.1094%，C失败；有效历史复用与新增机制未获支持必须分开表述。R2新增11次完整训练、1次保留失败，累计228次；外部API0、无测试访问、无活动队列。状态及同步见 [progress.json](agent_research/autonomous_memory/20261012_sol_high_r2/progress.json)。
 
 R2最后一个对照遇到NATIVE_OUTPUT_TYPE；已复现文件原子重命名监控缺陷并通过7项回归，以新ID完成唯一缺失对照，科学身份不变。失败成本保留，冻结服务器源码不覆盖。公开包同时保留旧代码快照与独立修复。不要重跑旧ID、恢复搜索或将确认结果回灌已结束Agent。DeepSeek继续关闭；旧signal语义审查单独待补齐。

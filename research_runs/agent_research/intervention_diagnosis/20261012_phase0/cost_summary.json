@@ -1,0 +1,33 @@
+{
+  "new_training_attempts": 0,
+  "new_training_completed": 0,
+  "new_model_evaluations": 0,
+  "cumulative_completed_trainings": 228,
+  "external_API_calls": 0,
+  "external_API_tokens": 0,
+  "internal_assistant_cost": null,
+  "audit_subagent_count": 1,
+  "gpu_evaluation_seconds": 0,
+  "dataset_integrity_receipt": "dataset_verification.json",
+  "counter_reset": false,
+  "local_work_only_after_user_scope_change": true,
+  "failed_actions": [
+    {
+      "training_started": false,
+      "action": "sandboxed_server_availability",
+      "category": "network_DNS"
+    },
+    {
+      "training_started": false,
+      "action": "sandboxed_local_verification_junction",
+      "category": "filesystem_access"
+    },
+    {
+      "training_started": false,
+      "action": "stage0_code_upload",
+      "category": "automatic_approval_rejection",
+      "uploaded": false
+    }
+  ],
+  "followup": "User selected local protocol and prototypes only; no upload retry"
+}

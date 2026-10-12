@@ -1,0 +1,29 @@
+{
+  "protocol_id": "intervention_diagnosis_phase0_v1",
+  "created_utc": "2026-10-12T08:23:45.5970873Z",
+  "scope": "local_protocol_and_two_offline_prototypes",
+  "formal_experiments_started": false,
+  "external_API_enabled": false,
+  "base_llm": "internal_gpt-6.1-sol_high",
+  "variants": [
+    "strong_prompt",
+    "full"
+  ],
+  "information_policy": "identical_facts_history_tools",
+  "observer_training_calls": [
+    2,
+    4,
+    8
+  ],
+  "cumulative_budget": null,
+  "primary": "parent_increment_and_confirmed_recommendation",
+  "safeguards": [
+    "test_isolation",
+    "no_retrospective_prestate_backfill",
+    "elemental_complement",
+    "source_disjoint_signal_selection"
+  ],
+  "tasks_sha256": "abbdf2eeb7657bb6152a2b1df1ee130b692e20c056bcb9ce51bae19354b602b6",
+  "document_sha256": "476a1a5c74934337b0015c22eb562b207fb41c7c71808885c5b61be22a03c830",
+  "status": "frozen_local_contract_runtime_unverified"
+}

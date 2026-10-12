@@ -1,0 +1,209 @@
+{
+  "version": "intervention-task-contract-v1",
+  "tasks": [
+    {
+      "task_id": "metropt3_v1_intervention_32x8_v1",
+      "dataset_id": "metropt3_v1",
+      "role": "historical_construction_and_engineering_regression",
+      "manifest_sha256": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
+      "sensor_columns": [
+        "TP2",
+        "TP3",
+        "H1",
+        "DV_pressure",
+        "Reservoirs",
+        "Oil_temperature",
+        "Motor_current",
+        "COMP",
+        "DV_eletric",
+        "Towers",
+        "MPG",
+        "LPS",
+        "Pressure_switch",
+        "Oil_level",
+        "Caudal_impulses"
+      ],
+      "channels": 15,
+      "parameters": 7920,
+      "split_identity": [
+        {
+          "name": "train",
+          "file": "train.csv",
+          "rows": 1061863,
+          "sha256": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f"
+        },
+        {
+          "name": "validation",
+          "file": "validation.csv",
+          "rows": 303389,
+          "sha256": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21"
+        },
+        {
+          "name": "test",
+          "file": "test.csv",
+          "rows": 151696,
+          "sha256": "07f9a254130984754a75eaf9927006f8c83ba10a1ef85dc308e6ebc62db102b4"
+        }
+      ],
+      "window_boundary": "original_partition; increasing_timestamp; adjacent_gap<=30s; 40_records",
+      "fixed_training": {
+        "model": "individual_DLinear",
+        "input_length": 32,
+        "prediction_length": 8,
+        "steps": 3000,
+        "batch_size": 256,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0,
+        "moving_average_kernel": 25,
+        "window_stride": 1,
+        "validation_every": 500,
+        "evaluation_batch_size": 2048,
+        "checkpoint_selection": "lowest_full_D_NMSE_earlier_tie",
+        "normalization": "all_T_rows_mean_population_std_zero_scale_1",
+        "exploration_seed": 2026101301,
+        "confirmation_seeds": [
+          2026101302,
+          2026101303,
+          2026101304
+        ]
+      },
+      "test_access": "forbidden_except_integrity",
+      "status": "task_definition_frozen_no_new_training",
+      "window_count": null,
+      "missing": "window index generation and runtime validation not executed in local-only scope"
+    },
+    {
+      "task_id": "skab_v1_intervention_32x8_v1",
+      "dataset_id": "skab_v1",
+      "role": "prospective_method_development_signal_selection",
+      "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+      "sensor_columns": [
+        "Accelerometer1RMS",
+        "Accelerometer2RMS",
+        "Current",
+        "Pressure",
+        "Temperature",
+        "Thermocouple",
+        "Voltage",
+        "Volume Flow RateRMS"
+      ],
+      "channels": 8,
+      "parameters": 4224,
+      "split_identity": [
+        {
+          "name": "train",
+          "file": "train.csv",
+          "rows": 32802,
+          "sha256": "b0b88e9f6550a6e8405d169909f053ea44fc5e08425b01f95f61a8f41ba86235"
+        },
+        {
+          "name": "validation",
+          "file": "validation.csv",
+          "rows": 9372,
+          "sha256": "f850e940636fb687ce51157382374fafc3c501bf0fbd155f82b60f3cf41d007a"
+        },
+        {
+          "name": "test",
+          "file": "test.csv",
+          "rows": 4686,
+          "sha256": "43c2c95e7485b4b0254c17b92bc243f750284aa5b137e5aa7a9c916f2b9c4acb"
+        }
+      ],
+      "window_boundary": "partition+source_file; consecutive_source_row; increasing_datetime; adjacent_gap<=30s; 40_records",
+      "fixed_training": {
+        "model": "individual_DLinear",
+        "input_length": 32,
+        "prediction_length": 8,
+        "steps": 3000,
+        "batch_size": 256,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0,
+        "moving_average_kernel": 25,
+        "window_stride": 1,
+        "validation_every": 500,
+        "evaluation_batch_size": 2048,
+        "checkpoint_selection": "lowest_full_D_NMSE_earlier_tie",
+        "normalization": "all_T_rows_mean_population_std_zero_scale_1",
+        "exploration_seed": 2026101301,
+        "confirmation_seeds": [
+          2026101302,
+          2026101303,
+          2026101304
+        ]
+      },
+      "test_access": "forbidden_except_integrity",
+      "status": "task_definition_frozen_no_new_training",
+      "window_count": null,
+      "missing": "window index generation and runtime validation not executed in local-only scope"
+    },
+    {
+      "task_id": "uci_hydraulic_v1_intervention_32x8_v1",
+      "dataset_id": "uci_hydraulic_v1",
+      "role": "prospective_source_confirmation_after_method_freeze",
+      "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+      "sensor_columns": [
+        "CE",
+        "CP",
+        "SE",
+        "TS1",
+        "TS2",
+        "TS3",
+        "TS4",
+        "VS1"
+      ],
+      "channels": 8,
+      "parameters": 4224,
+      "split_identity": [
+        {
+          "name": "train",
+          "file": "train.csv",
+          "rows": 92610,
+          "sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae"
+        },
+        {
+          "name": "validation",
+          "file": "validation.csv",
+          "rows": 26460,
+          "sha256": "cec046a8bedb8b18b919badd2b73d8b484b521808bd73a4dda77717423b474dc"
+        },
+        {
+          "name": "test",
+          "file": "test.csv",
+          "rows": 13230,
+          "sha256": "eb6781d24ee234265e2e2e8d23045b6f6b0ede22dd882fb699a1733067690ce8"
+        }
+      ],
+      "window_boundary": "partition+cycle_id; consecutive_sample_offset_seconds; 40_records; never_cross_cycle",
+      "fixed_training": {
+        "model": "individual_DLinear",
+        "input_length": 32,
+        "prediction_length": 8,
+        "steps": 3000,
+        "batch_size": 256,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0,
+        "moving_average_kernel": 25,
+        "window_stride": 1,
+        "validation_every": 500,
+        "evaluation_batch_size": 2048,
+        "checkpoint_selection": "lowest_full_D_NMSE_earlier_tie",
+        "normalization": "all_T_rows_mean_population_std_zero_scale_1",
+        "exploration_seed": 2026101301,
+        "confirmation_seeds": [
+          2026101302,
+          2026101303,
+          2026101304
+        ]
+      },
+      "test_access": "forbidden_except_integrity",
+      "status": "task_definition_frozen_no_new_training",
+      "window_count": null,
+      "missing": "window index generation and runtime validation not executed in local-only scope"
+    }
+  ],
+  "source_datasets_unchanged": true,
+  "test_distribution_read": false
+}
