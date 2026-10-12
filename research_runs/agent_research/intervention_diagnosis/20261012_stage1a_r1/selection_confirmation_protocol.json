@@ -1,0 +1,191 @@
+{
+  "failure_policy": "stop no retry",
+  "id": "stage1b_selection_confirmation_r1",
+  "prerequisite_sha256": {
+    "candidate_protocol.json": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+    "baseline_protocol.json": "76f58dbb75036be6ef30b607e56884acd4682d1e968c515a99f4ccde90f497bb",
+    "proposal_median3.py": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+    "signal_mean_shift.py": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+    "signal_rule.json": "1c3008aa30b53464ff096664eccbf1102eb8669683c83238c578ccca37a46dd8",
+    "signal_feature_freeze.json": "bbbee2ea7d747336136a2467ac022779ef46dc47d4d0081c4223c2cde48aad57",
+    "signal_feature_C_evaluation.json": "64fa2fa639281695ad86442efed677fe0838ced749d4fc604d061d9b57bfc603",
+    "construction_confirmation_recovered.json": "df0ab962937da9b78241f398e96c21b66c4314dfdd2210a892aedc802b0eae03",
+    "SELECTION_PROTOCOL.md": "49c73dfe2bc3b540da3a9eed881570ddb2268074d215de530ce5b99871c20dd0",
+    "selection_protocol.json": "6baffbbd309022055e538762be2853c590aacdbef0b022322c410b071f8f7e09",
+    "selection_prediction_lock.json": "aa4a0a2b5fbecf5819ee9b6a0ff26d96faf6bc6d5fdf936dcc994edce8ff2b07",
+    "selection_node4.json": "3b94117da58e85cc9bb7f7aaacd7455819c9ddf218fbfbbfb214e81683ded61b",
+    "SELECTION_CONFIRMATION_PROTOCOL.md": "96d72dd7b7b70d685203ec8642a7cbcdfaa577e9a6f82fabb18d2d4794db8909",
+    "selection_sync_receipt.json": "1c6d68bc8ec31539fd4e6055984580a3fe8f8bd49dc3ad8be25300069947f6e2"
+  },
+  "prior_successful_trainings": 268,
+  "Hydraulic": "reserved",
+  "new_training_count": 18,
+  "initial_predictions_unchanged": true,
+  "code_sha256": {
+    "prepare_stage1_selection.py": "b835414808befca104dbc3507443a0147f41d859a914a821c908d031db5b6486",
+    "run_stage1_selection.py": "252aa6a8bc6fdb1fcbea3c9e308c554a7baacad86a048f3ec12d6863c6f43894",
+    "launch_stage1_selection.py": "f4ccaa944d56f0da3616e0b0d681c88ab9541d88134b065c9c9fa874a4f335f5",
+    "audit_stage1_selection.py": "68808dac125988d7840d0464e90e770b1523ca73c9520b785e3aca7421059d30",
+    "check_stage1_selection.py": "321faea238671ec3ab4a039f760f86e7ffef5df94945c80be075b6bdf935e8e3",
+    "supervise_stage1_recovery.py": "379e7c3eca5d28f67188d570597c7cb407a4ee676d749bb1d5b1bed366167912",
+    "run_intervention_stage1_baseline.py": "12a0da4fc4b6a96a72515cb59d460bd679575ce18c99812b2a5568d14e4c44c0",
+    "run_stage1_candidate.py": "e2f17bf44f44666d654174f4d7a4fd0eee4e48f7cd1439fc17d07d52fa47b688",
+    "online_ts/agent_research/stage1_selection_methods.py": "80c7b761a6fe7e994245a2acd1109083341e305ff6db9c4c484eca9e062f6363",
+    "online_ts/agent_research/stage1_scoring.py": "3cb3e3fa9c01503bdfa39307199a049e6b94769cce395cb4857f6ad9f1723dae",
+    "run_stage1_selection_confirmation.py": "32b87e0f924c012f5a4025f295c4aa02e9de8d3505ecb5b86c84ae59c83a494a",
+    "supervise_stage1_selection_confirmation.py": "901bee7d7bab7987792a594ccc35696df9b45110e69e4fb7ade116d0f38aa89c",
+    "audit_stage1_selection_confirmation.py": "ef60abde3dce37b2583e1bc45dadfc3e2a7775c8675f200fa8de171566d5b108",
+    "check_stage1_selection_confirmation.py": "ddf1d69616befc98829b404337a218d3ba197eaf61de1c13f3485b5fab05fa9d"
+  },
+  "candidate_params_sha256": {
+    "C1": "4c52f4141efe4ca9afbefb0b351ec576e5c63826a09dd0a6a5fd2039713b1cb7",
+    "C2": "088a1d15090ed3e1dc3c10692618b08c9d31b9911cd2aea3ffa4f72dfb77c527",
+    "S1": "a6cbddb9f5b867d145acbb63201807eea5ff585e54a1fe936918f70a0be058a9",
+    "S2": "1d6e898758c8c0f0f014066795cdd2a8362f94b3092de1128f65ef4b3c339ba6"
+  },
+  "seeds": [
+    2026101402,
+    2026101403,
+    2026101404
+  ],
+  "test_access": false,
+  "jobs": [
+    {
+      "seed": 2026101402,
+      "id": "S1_PARENT_s2026101402",
+      "action": "PARENT",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101402,
+      "id": "S1_P1_s2026101402",
+      "action": "P1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101402,
+      "id": "S1_CP1_s2026101402",
+      "action": "CP1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S1_PARENT_s2026101403",
+      "action": "PARENT",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S1_P1_s2026101403",
+      "action": "P1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S1_CP1_s2026101403",
+      "action": "CP1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S1_PARENT_s2026101404",
+      "action": "PARENT",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S1_P1_s2026101404",
+      "action": "P1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S1_CP1_s2026101404",
+      "action": "CP1",
+      "task": "S1"
+    },
+    {
+      "seed": 2026101402,
+      "id": "S2_PARENT_s2026101402",
+      "action": "PARENT",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101402,
+      "id": "S2_P1_s2026101402",
+      "action": "P1",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101402,
+      "id": "S2_CP1_s2026101402",
+      "action": "CP1",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S2_PARENT_s2026101403",
+      "action": "PARENT",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S2_P1_s2026101403",
+      "action": "P1",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101403,
+      "id": "S2_CP1_s2026101403",
+      "action": "CP1",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S2_PARENT_s2026101404",
+      "action": "PARENT",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S2_P1_s2026101404",
+      "action": "P1",
+      "task": "S2"
+    },
+    {
+      "seed": 2026101404,
+      "id": "S2_CP1_s2026101404",
+      "action": "CP1",
+      "task": "S2"
+    }
+  ],
+  "created_utc": "2026-10-12T23:19:19.6121116Z",
+  "required_prediction_files": [
+    "selection_common_facts.json",
+    "selection_new_signal_values.json",
+    "selection_deterministic_predictions.json",
+    "selection_strong_prompt_prediction.json",
+    "selection_all_predictions.json",
+    "selection_preparation_receipt.json"
+  ],
+  "run_ids": [
+    "S1_PARENT_s2026101402",
+    "S1_P1_s2026101402",
+    "S1_CP1_s2026101402",
+    "S1_PARENT_s2026101403",
+    "S1_P1_s2026101403",
+    "S1_CP1_s2026101403",
+    "S1_PARENT_s2026101404",
+    "S1_P1_s2026101404",
+    "S1_CP1_s2026101404",
+    "S2_PARENT_s2026101402",
+    "S2_P1_s2026101402",
+    "S2_CP1_s2026101402",
+    "S2_PARENT_s2026101403",
+    "S2_P1_s2026101403",
+    "S2_CP1_s2026101403",
+    "S2_PARENT_s2026101404",
+    "S2_P1_s2026101404",
+    "S2_CP1_s2026101404"
+  ]
+}
