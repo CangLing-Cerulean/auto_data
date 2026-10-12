@@ -1,5 +1,7 @@
 # 后续实验必须遵守的数据约定
 
+- 2026-10-12 用户明确“直接跑完全部实验，如果效果不理想或出现其他问题再停下，LLM暂时都使用solhigh”，随后明确允许完整性校验所需的测试文件上传。阶段1a四任务准备与6次固定参照已完成并通过审计，累计243，见 `research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md`。C1/C2以历史source-half为父，S1/S2以B0为父；新候选须另行冻结后运行，所有研究LLM使用Sol high。测试副本仅独立校验、校验通过后已删除；Hydraulic保留。下文237次与“仅设计”是前一阶段历史状态。
+
 - 2026-10-12 继续前先读 `research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md`：SKAB先导6/7、4/4为原始差值符号统计，与阶段0±0.25%基本不变带未统一。补审计保留所有旧预测/评分不改写；分别3项/2项同方向超带宽，其余明确预测项落在不变带。不得把微小反号当稳定伤害，也不得混同unchanged与uncertain。下一阶段先冻结分组任务、四类别评分、共同候选及信号筛选边界；当前仅设计，无新训练，累计237，Hydraulic保留。
 
 - 2026-10-12 用户要求“开始实验”并确认“开机了”后，阶段0服务器验收已完成：9项测试、9个旧R2检查点和6组父子响应通过，代码及767,447,040字节归档已同步。首个SKAB共同响应先导见 `research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md`：新增9次完整训练、0失败，累计237次；八候选最大整体NMSE改善0.1144%，均未达到1%门槛。strong_prompt/full初始及2/4/8节点均保留B0，分别4/4和6/7明确方向命中，弃权20/17；full规则始终null，不得补写或宣称方法优势。无确认训练、无后台队列、测试未访问，Hydraulic仍保留；同步状态见该阶段progress/sync_receipt。不得重跑旧ID或扫描本轮失败目标/倍率。

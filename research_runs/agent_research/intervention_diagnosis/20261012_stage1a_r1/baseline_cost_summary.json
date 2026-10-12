@@ -1,0 +1,22 @@
+{
+  "scope": "stage1a_r1_fixed_references_only",
+  "completed_trainings": 6,
+  "failed_model_trainings": 0,
+  "prior_completed_trainings": 237,
+  "cumulative_completed_trainings": 243,
+  "training_process_seconds": 398.54352306202054,
+  "training_time_includes_scheduled_development_evaluations": true,
+  "task_preparation_seconds": 19.671225234866142,
+  "reference_audit_seconds": 3.6289971666410565,
+  "scoring_unittest_seconds": 0.001,
+  "local_additional_integrity_seconds": 4.30523,
+  "other_preflight_timing": "not measured independently; failures retained in preflight_receipt",
+  "external_api_calls": 0,
+  "internal_llm_model": "gpt-6.1-sol high",
+  "internal_llm_tokens": null,
+  "internal_llm_cost": null,
+  "internal_cost_note": "not exposed, not zero; reviewer two turns and candidate proposer pending",
+  "test_model_evaluations": 0,
+  "test_integrity_access": true,
+  "budget_reset": false
+}

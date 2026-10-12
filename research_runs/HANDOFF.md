@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+最新：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已完成四任务准备、8项评分检查与6次完整训练，新增0次模型失败，累计243。C1/C2历史source-half相对B0的单种子NMSE改善3.1506%/4.7037%，它们是固定参照，新候选未运行。用户已授权各阶段依次执行，效果不理想或其他问题停止，研究LLM全部Sol high；不需要重复请求总体启动。当前候选提案进行中，模型队列为空；另冻结共同池/控制/门槛后继续。完整性校验临时测试副本已在明确上传授权后校验并删除。同步以本阶段progress和baseline_sync_receipt为准。以下237次与仅设计属于此前状态。
+
 评分口径补审计：见[下一阶段设计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)。下文SKAB的6/7和4/4是原始正负统计，与阶段0±0.25%不变带没有统一；不能据此宣称有幅度的方向预测或机制成功。补审计分别为3项/2项同方向超过带宽，另4项/2项落在不变带，无超带宽反向。旧预测和评分文件未改写，B0结论不变；阶段1任务清单及四类别评分仍需另行冻结，没有新实验启动。
 
 最新：[SKAB共同响应先导](agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md)已完成9次训练并通过逐元素审计，累计237次。八候选最大整体NMSE改善0.1144%，全部未达1%门槛，两组初始及2/4/8节点均保留B0，不追加确认。full明确预测7项、正确6项，strong_prompt明确预测4项、全部正确，其余弃权；规则始终null，未确立方法优势或反馈因果价值。无队列、外部API0、无测试访问。阶段同步以progress/sync_receipt为准。此前[阶段0真实运行](agent_research/intervention_diagnosis/20261012_runtime_r1/REPORT.md)9项测试、9检查点和6组父子审计已完成并同步，原SSH故障已解除。

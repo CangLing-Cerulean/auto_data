@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "skab_intervention_pilot_complete_and_synced",
+  "phase": "stage1_fixed_references_complete_candidate_preparation",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/protocol.json",
-  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/progress.json",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_protocol.json",
+  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_skab_pilot/REPORT.md",
-  "next_action": "prepare_and_freeze_grouped_development_tasks_and_four_class_scoring_before_stage1_response_corpus; no_new_training_started",
-  "last_verified_snapshot_at": "2026-10-12T09:32:52.3841286Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md",
+  "next_action": "review_and_freeze_candidate_pool_controls_and_stage_gates_before_new_responses; all_stages_authorized_until_negative_or_problem_stop",
+  "last_verified_snapshot_at": "2026-10-12T12:05:00.8164863Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 237,
+  "total_training_runs_completed": 243,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -329,7 +329,7 @@
   "history_archive": "C:\\Users\\31227\\Desktop\\auto_data_history\\20261011_204809",
   "cleanup_report": "research_runs/cleanup/20261011/REPORT.md",
   "server_runtime_changed": true,
-  "new_trainings": 11,
+  "new_trainings": 6,
   "new_API_calls": 0,
   "historical_deferred_followup": "Separate completion_study followup archived; not launched by cleanup; not part of current phase4 batch",
   "additional_dataset_build": {
@@ -347,8 +347,8 @@
     "new_task_protocols_frozen": false,
     "existing_active_study_changed": false
   },
-  "latest_update_scope": "SKAB_prospective_prediction_common_pool_completed_and_audited",
-  "training_count_derivation": "198 frozen pre-v2 + 9 v2 + 10 fused pilot R1 + 11 autonomous memory R2 + 9 SKAB intervention pilot = 237; failed attempts retained separately",
+  "latest_update_scope": "stage1_four_grouped_tasks_and_six_fixed_references",
+  "training_count_derivation": "198 frozen pre-v2 + 9 v2 + 10 fused pilot R1 + 11 autonomous memory R2 + 9 SKAB intervention pilot + 6 stage1 fixed references = 243; failed attempts retained separately",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -522,5 +522,15 @@
     "frozen_protocol": false,
     "source_commit": "921772790fcd62c6b3e0cb03026bfd60b1314151",
     "sync_receipt": "research_runs/agent_research/intervention_diagnosis/20261012_stage1_readiness/source_sync_receipt.json"
+  },
+  "intervention_stage1a": {
+    "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1",
+    "status": "fixed_references_complete_candidates_not_run",
+    "fixed_references": 6,
+    "new_candidates_completed": 0,
+    "cost_summary": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/baseline_cost_summary.json",
+    "source_commit": "6942e03b7a7fd5f8cf4c344f894fcc1b97c3e203",
+    "test_model_access": false,
+    "Hydraulic": "reserved"
   }
 }

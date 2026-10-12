@@ -1,0 +1,3 @@
+Stage1 grouped-task fixed references: 6 completed runs, 0 failed model runs, 243 cumulative completed trainings. C1/C2 retain the preregistered historical source-half parent; S1/S2 retain B0. These are reference results, not newly discovered intervention benefits.
+
+Archive includes all six best/last checkpoints, development errors, sampling arrays, four derived T/D task arrays and source-row mappings, frozen implementation and audit receipts. No raw CSV, test data, credentials, or private configuration is included. Baseline/source protocols remain immutable. New candidate and signal experiments are not part of this archive.

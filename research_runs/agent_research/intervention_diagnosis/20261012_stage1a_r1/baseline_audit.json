@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "runs": 6,
+  "asset_hashes": true,
+  "metric_recomputation": true,
+  "paired_initialization_and_draws": true,
+  "source_half_vs_B0": [
+    {
+      "task": "C1",
+      "global_NMSE_gain_percent": 3.150602297576932,
+      "global_NMAE_gain_percent": 0.12415679273466429
+    },
+    {
+      "task": "C2",
+      "global_NMSE_gain_percent": 4.703690270381033,
+      "global_NMAE_gain_percent": -0.21039806031792896
+    }
+  ],
+  "training_process_seconds": 398.54352306202054,
+  "process_seconds": 3.6289971666410565,
+  "new_trainings": 6,
+  "cumulative_completed_trainings": 243,
+  "test_access": false
+}
