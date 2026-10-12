@@ -2,14 +2,14 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-12",
   "session_id": "metropt3_session_20260926",
-  "phase": "intervention_phase0_local_complete_and_synced",
+  "phase": "intervention_phase0_runtime_waiting_server_connectivity",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/protocol.json",
-  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/progress.json",
+  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_runtime_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_phase0/REPORT.md",
-  "next_action": "local_only_per_user; no_server_upload_or_evaluation; retain_pending_runtime_and_paired_export",
+  "next_action": "wait_for_user_server_power_or_endpoint_confirmation; then unit_tests_and_frozen_R2_paired_evaluation",
   "last_verified_snapshot_at": "2026-10-12T08:31:09.4287146Z",
   "snapshot_only": false,
   "total_training_runs_completed": 228,
@@ -462,5 +462,13 @@
     "evidence_floor_complete": false,
     "user_scope": "local_only",
     "source_commit": "d8d050956957dea993f6f4759d381cbdbaf8700e"
+  },
+  "intervention_phase0_runtime": {
+    "user_requested_start": true,
+    "server_connection_attempts": 2,
+    "upload_started": false,
+    "job_started": false,
+    "new_trainings": 0,
+    "new_evaluations": 0
   }
 }
