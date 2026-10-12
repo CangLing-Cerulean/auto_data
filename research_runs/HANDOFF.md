@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+当前：[阶段1a初始响应](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)新增4次候选/控制，累计247。无采用候选；C1中值小幅改善、C2中值退化，线性控制整体基本不变，事前类别差异门槛通过。依冻结协议进入18次三种子确认；详见confirmation_activation及progress，不重跑初始ID，不调整阈值。下段243次固定参照为已完成子阶段。
+
 最新：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已完成四任务准备、8项评分检查与6次完整训练，新增0次模型失败，累计243。C1/C2历史source-half相对B0的单种子NMSE改善3.1506%/4.7037%，它们是固定参照，新候选未运行。用户已授权各阶段依次执行，效果不理想或其他问题停止，研究LLM全部Sol high；不需要重复请求总体启动。当前候选提案进行中，模型队列为空；另冻结共同池/控制/门槛后继续。完整性校验临时测试副本已在明确上传授权后校验并删除。同步以本阶段progress和baseline_sync_receipt为准。以下237次与仅设计属于此前状态。
 
 评分口径补审计：见[下一阶段设计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)。下文SKAB的6/7和4/4是原始正负统计，与阶段0±0.25%不变带没有统一；不能据此宣称有幅度的方向预测或机制成功。补审计分别为3项/2项同方向超过带宽，另4项/2项落在不变带，无超带宽反向。旧预测和评分文件未改写，B0结论不变；阶段1任务清单及四类别评分仍需另行冻结，没有新实验启动。

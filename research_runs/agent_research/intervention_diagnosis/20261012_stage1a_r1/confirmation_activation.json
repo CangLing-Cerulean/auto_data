@@ -1,0 +1,27 @@
+{
+  "status": "conditional_confirmation_activated",
+  "created_utc": "2026-10-12T12:29:55.0699239Z",
+  "candidate_protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+  "first_seed_gate_sha256": "7b25c6b2e4ee953e31b638815ec028a2a009dbf21b5461607af755b20ac1fc28",
+  "auditor_sha256": "9667d3fd3ff69df3d4d2a9ee6714e6d4b169116b37f3139f581bd6999409b830",
+  "tasks": [
+    "C1",
+    "C2"
+  ],
+  "actions": [
+    "PARENT",
+    "P1",
+    "CP1"
+  ],
+  "seeds": [
+    2026101402,
+    2026101403,
+    2026101404
+  ],
+  "registered_new_trainings": 18,
+  "selection_tasks_enabled": false,
+  "new_confirmation_responses_at_lock": 0,
+  "stop_on_any_run_failure": true,
+  "unchanged_frozen_gate": "CANDIDATE_PROTOCOL.md; stable categories and each repeat gap >0.25, OR all-positive NMSE/mean>=1/NMAE each>=-1",
+  "source_sync_required_before_training": true
+}

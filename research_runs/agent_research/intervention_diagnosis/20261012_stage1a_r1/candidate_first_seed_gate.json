@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "advance_to_confirmation": true,
+  "eligible_global_contrasts": [
+    {
+      "first": "C1_P1",
+      "second": "C1_CP1",
+      "absolute_gain_gap_percent": 0.2772936168625395
+    },
+    {
+      "first": "C1_P1",
+      "second": "C2_P1",
+      "absolute_gain_gap_percent": 3.0639028487699727
+    },
+    {
+      "first": "C1_P1",
+      "second": "C2_CP1",
+      "absolute_gain_gap_percent": 0.3412306263481102
+    },
+    {
+      "first": "C1_CP1",
+      "second": "C2_P1",
+      "absolute_gain_gap_percent": 2.786609231907433
+    },
+    {
+      "first": "C2_P1",
+      "second": "C2_CP1",
+      "absolute_gain_gap_percent": 2.7226722224218625
+    }
+  ],
+  "provisional_adoption_cells": [],
+  "repeat_seeds": [
+    2026101402,
+    2026101403,
+    2026101404
+  ],
+  "stop_reason": null,
+  "single_seed_only": true,
+  "new_candidate_trainings": 4,
+  "cumulative_completed_trainings": 247,
+  "training_process_seconds": 332.2218249710277,
+  "audit_process_seconds": 5.783979202620685,
+  "prediction_score": {
+    "total": 12,
+    "decided": 6,
+    "correct": 3,
+    "abstained": 6,
+    "coverage": 0.5,
+    "accuracy": 0.5,
+    "harm_total": 2,
+    "harm_warned": 1,
+    "harm_false_benefit": 0,
+    "harm_false_unchanged": 0,
+    "harm_abstained": 1,
+    "observed": [
+      "improve",
+      "unchanged",
+      "improve",
+      "improve",
+      "unchanged",
+      "unchanged",
+      "harm",
+      "unchanged",
+      "harm",
+      "unchanged",
+      "unchanged",
+      "unchanged"
+    ]
+  },
+  "unscorable_predictions": [],
+  "candidate_protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+  "test_access": false
+}

@@ -1,0 +1,3 @@
+Stage1 initial construction responses: 4 completed candidate/control runs, 0 model failures, 247 cumulative completed trainings. No adoption-qualified cell. The preregistered category-contrast gate passed, activating three additional seeds without changing the recipe or thresholds.
+
+Includes all four checkpoints/errors/sampling records, frozen Sol high median3 proposal and original predictions, T-fitted diagnostic groups, runner and audits. The four base T/D task arrays and fixed reference artifacts are in the stage1-fixed-references-20261012-r1 Release (SHA256 recorded in the archive receipt). No raw CSV, test data, credentials or private configuration included. Single-seed response differences are not stable mechanism or method-superiority evidence.

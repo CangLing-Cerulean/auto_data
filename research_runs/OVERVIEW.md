@@ -1,5 +1,7 @@
 # 当前研究概览
 
+最新：[阶段1a初始响应](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)再完成4次，累计247；中值在C1小幅改善、C2退化，线性控制均基本不变。没有达到采用门槛的操作，事前响应类别差异门槛通过，将进行三种子重复确认。该进展不等于新诊断信号或方法优势已成立。
+
 当前：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已新增6次完整训练，累计243；四任务、四类别评分和配对审计通过。历史source-half在两个构建组上的单种子NMSE改善3.1506%/4.7037%，尚无新候选结果。全阶段执行已获授权，研究LLM使用Sol high，当前候选构建进行中；阶段同步见新目录progress/receipt。以下237次与暂无新训练是上一阶段快照。
 
 最新口径补充：SKAB先导的6/7、4/4是原始符号统计；[补充审计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)说明它与阶段0±0.25%不变带的差别。全部八个整体响应均在不变带内，当前优先登记更多合法开发任务以检验响应是否可辨别，再学习新信号。原始结果、B0选择及237次计数不变，暂无新训练队列。

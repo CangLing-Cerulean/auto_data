@@ -1,0 +1,358 @@
+{
+  "responses": [
+    {
+      "task": "C1",
+      "action": "P1",
+      "parent_metrics": {
+        "target": {
+          "windows": 39752,
+          "elements": 4770240,
+          "NMSE": 0.5093681144963662,
+          "NMAE": 0.27366090724224873,
+          "signed_bias": -0.02249098863660704
+        },
+        "complement": {
+          "windows": 106247,
+          "elements": 12749640,
+          "NMSE": 0.41773876334410126,
+          "NMAE": 0.2103581112252548,
+          "signed_bias": 0.01211605562462357
+        },
+        "global": {
+          "windows": 145999,
+          "elements": 17519880,
+          "NMSE": 0.4426872216691914,
+          "NMAE": 0.22759393302723657,
+          "signed_bias": 0.002693393664798919
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 145999,
+          "elements": 17519880,
+          "NMSE": 0.44131526584175257,
+          "NMAE": 0.2267482234011858,
+          "signed_bias": 0.001946349822738911
+        },
+        "target": {
+          "windows": 39752,
+          "elements": 4770240,
+          "NMSE": 0.5046763229142892,
+          "NMAE": 0.2667295717214402,
+          "signed_bias": -0.025718596737284216
+        },
+        "complement": {
+          "windows": 106247,
+          "elements": 12749640,
+          "NMSE": 0.41760891422008345,
+          "NMAE": 0.21178932048226334,
+          "signed_bias": 0.012297107544406717
+        }
+      },
+      "gain_percent": {
+        "target": {
+          "NMSE": 0.921100368976957,
+          "NMAE": 2.5328190243383286
+        },
+        "complement": {
+          "NMSE": 0.0310838101253319,
+          "NMAE": -0.6803679918365502
+        },
+        "global": {
+          "NMSE": 0.30991538953072384,
+          "NMAE": 0.37158706948026143
+        }
+      },
+      "observed_category": {
+        "target": "improve",
+        "complement": "unchanged",
+        "global": "improve"
+      },
+      "run_result_sha256": "b566961de0bab8a68c10170084720538648082e68e2c85413468884064ced372"
+    },
+    {
+      "task": "C1",
+      "action": "CP1",
+      "parent_metrics": {
+        "target": {
+          "windows": 39752,
+          "elements": 4770240,
+          "NMSE": 0.5093681144963662,
+          "NMAE": 0.27366090724224873,
+          "signed_bias": -0.02249098863660704
+        },
+        "complement": {
+          "windows": 106247,
+          "elements": 12749640,
+          "NMSE": 0.41773876334410126,
+          "NMAE": 0.2103581112252548,
+          "signed_bias": 0.01211605562462357
+        },
+        "global": {
+          "windows": 145999,
+          "elements": 17519880,
+          "NMSE": 0.4426872216691914,
+          "NMAE": 0.22759393302723657,
+          "signed_bias": 0.002693393664798919
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 145999,
+          "elements": 17519880,
+          "NMSE": 0.44254280925010736,
+          "NMAE": 0.228205495726165,
+          "signed_bias": 0.00265764799618349
+        },
+        "target": {
+          "windows": 39752,
+          "elements": 4770240,
+          "NMSE": 0.5080192307887487,
+          "NMAE": 0.2751426204511005,
+          "signed_bias": -0.022798283677066402
+        },
+        "complement": {
+          "windows": 106247,
+          "elements": 12749640,
+          "NMSE": 0.4180450002860512,
+          "NMAE": 0.21064410969111802,
+          "signed_bias": 0.012181909348269003
+        }
+      },
+      "gain_percent": {
+        "target": {
+          "NMSE": 0.264815105074101,
+          "NMAE": -0.5414413128215445
+        },
+        "complement": {
+          "NMSE": -0.07330824161455585,
+          "NMAE": -0.13595789779503598
+        },
+        "global": {
+          "NMSE": 0.032621772668184335,
+          "NMAE": -0.2687078213351235
+        }
+      },
+      "observed_category": {
+        "target": "improve",
+        "complement": "unchanged",
+        "global": "unchanged"
+      },
+      "run_result_sha256": "8eceb2c478e1bbd73c8a732495b50aeab31f3220997e1dc45d2ecee3f1f7595a"
+    },
+    {
+      "task": "C2",
+      "action": "P1",
+      "parent_metrics": {
+        "target": {
+          "windows": 38682,
+          "elements": 4641840,
+          "NMSE": 0.290060076493844,
+          "NMAE": 0.23834883038859314,
+          "signed_bias": -0.04613515067131486
+        },
+        "complement": {
+          "windows": 115854,
+          "elements": 13902480,
+          "NMSE": 0.1948859644211058,
+          "NMAE": 0.1560896370264452,
+          "signed_bias": 0.0015230972782004262
+        },
+        "global": {
+          "windows": 154536,
+          "elements": 18544320,
+          "NMSE": 0.2187090542072894,
+          "NMAE": 0.1766799856677625,
+          "signed_bias": -0.010406267705901338
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 154536,
+          "elements": 18544320,
+          "NMSE": 0.2247322741323789,
+          "NMAE": 0.1827715610998312,
+          "signed_bias": -0.016254427983549976
+        },
+        "target": {
+          "windows": 38682,
+          "elements": 4641840,
+          "NMSE": 0.3132313962718378,
+          "NMAE": 0.23585213481713738,
+          "signed_bias": -0.04239422670916709
+        },
+        "complement": {
+          "windows": 115854,
+          "elements": 13902480,
+          "NMSE": 0.1951836781184428,
+          "NMAE": 0.1650487137874135,
+          "signed_bias": -0.00752672160911041
+        }
+      },
+      "gain_percent": {
+        "target": {
+          "NMSE": -7.988455377272707,
+          "NMAE": 1.0474964644824447
+        },
+        "complement": {
+          "NMSE": -0.15276302643001394,
+          "NMAE": -5.739699913230267
+        },
+        "global": {
+          "NMSE": -2.753987459239249,
+          "NMAE": -3.4478016335837802
+        }
+      },
+      "observed_category": {
+        "target": "harm",
+        "complement": "unchanged",
+        "global": "harm"
+      },
+      "run_result_sha256": "79709092cf9b629e5622c7fbd5d417d51d3f5056a70d1ac758213eca7a028cbf"
+    },
+    {
+      "task": "C2",
+      "action": "CP1",
+      "parent_metrics": {
+        "target": {
+          "windows": 38682,
+          "elements": 4641840,
+          "NMSE": 0.290060076493844,
+          "NMAE": 0.23834883038859314,
+          "signed_bias": -0.04613515067131486
+        },
+        "complement": {
+          "windows": 115854,
+          "elements": 13902480,
+          "NMSE": 0.1948859644211058,
+          "NMAE": 0.1560896370264452,
+          "signed_bias": 0.0015230972782004262
+        },
+        "global": {
+          "windows": 154536,
+          "elements": 18544320,
+          "NMSE": 0.2187090542072894,
+          "NMAE": 0.1766799856677625,
+          "signed_bias": -0.010406267705901338
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 154536,
+          "elements": 18544320,
+          "NMSE": 0.21877754346555547,
+          "NMAE": 0.17686810997301247,
+          "signed_bias": -0.01043620655019509
+        },
+        "target": {
+          "windows": 38682,
+          "elements": 4641840,
+          "NMSE": 0.29002694829588077,
+          "NMAE": 0.23861600053291374,
+          "signed_bias": -0.0463305380296009
+        },
+        "complement": {
+          "windows": 115854,
+          "elements": 13902480,
+          "NMSE": 0.19498838230023843,
+          "NMAE": 0.15625136905221473,
+          "signed_bias": 0.0015483993355436447
+        }
+      },
+      "gain_percent": {
+        "target": {
+          "NMSE": 0.011421150529811186,
+          "NMAE": -0.11209207273432664
+        },
+        "complement": {
+          "NMSE": -0.05255272201711847,
+          "NMAE": -0.10361483878786881
+        },
+        "global": {
+          "NMSE": -0.03131523681738635,
+          "NMAE": -0.1064774284076142
+        }
+      },
+      "observed_category": {
+        "target": "unchanged",
+        "complement": "unchanged",
+        "global": "unchanged"
+      },
+      "run_result_sha256": "4b32181058a20fd41cfcfdb6ed95baf3fc9df9e551dfbe364a4b8f412a230e9b"
+    }
+  ],
+  "gate": {
+    "status": "PASS",
+    "advance_to_confirmation": true,
+    "eligible_global_contrasts": [
+      {
+        "first": "C1_P1",
+        "second": "C1_CP1",
+        "absolute_gain_gap_percent": 0.2772936168625395
+      },
+      {
+        "first": "C1_P1",
+        "second": "C2_P1",
+        "absolute_gain_gap_percent": 3.0639028487699727
+      },
+      {
+        "first": "C1_P1",
+        "second": "C2_CP1",
+        "absolute_gain_gap_percent": 0.3412306263481102
+      },
+      {
+        "first": "C1_CP1",
+        "second": "C2_P1",
+        "absolute_gain_gap_percent": 2.786609231907433
+      },
+      {
+        "first": "C2_P1",
+        "second": "C2_CP1",
+        "absolute_gain_gap_percent": 2.7226722224218625
+      }
+    ],
+    "provisional_adoption_cells": [],
+    "repeat_seeds": [
+      2026101402,
+      2026101403,
+      2026101404
+    ],
+    "stop_reason": null,
+    "single_seed_only": true,
+    "new_candidate_trainings": 4,
+    "cumulative_completed_trainings": 247,
+    "training_process_seconds": 332.2218249710277,
+    "audit_process_seconds": 5.783979202620685,
+    "prediction_score": {
+      "total": 12,
+      "decided": 6,
+      "correct": 3,
+      "abstained": 6,
+      "coverage": 0.5,
+      "accuracy": 0.5,
+      "harm_total": 2,
+      "harm_warned": 1,
+      "harm_false_benefit": 0,
+      "harm_false_unchanged": 0,
+      "harm_abstained": 1,
+      "observed": [
+        "improve",
+        "unchanged",
+        "improve",
+        "improve",
+        "unchanged",
+        "unchanged",
+        "harm",
+        "unchanged",
+        "harm",
+        "unchanged",
+        "unchanged",
+        "unchanged"
+      ]
+    },
+    "unscorable_predictions": [],
+    "candidate_protocol_sha256": "1da4ca00a6d322686026330f41e0469176c5cb2d425b736e9744e948b08958e8",
+    "test_access": false
+  },
+  "scope": "C1/C2 construction only; no selection task response included"
+}

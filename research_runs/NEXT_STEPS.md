@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+最新：[初始响应报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/INITIAL_REPORT.md)完成4次共同池运行，累计247。推进依据是事前登记的整体类别差异，尚无采用收益；下一步仅运行三个额外种子的18次确认，稳定门槛失败即结束本批。确认通过后才构建新信号并另行冻结S决策/启动协议。当前S未运行。
+
 当前接续：[阶段1a固定参照](agent_research/intervention_diagnosis/20261012_stage1a_r1/BASELINE_REPORT.md)已通过验收，四任务、四类别评分与六次参照运行完成，累计243。Sol high正在基于构建任务与完整开发历史生成新候选；验收代码、共同池、控制与阶段门槛并冻结/同步后，继续构建响应集合。用户已授权跑完各阶段直到效果不理想或其他问题停止；Hydraulic保持保留，测试仅做完整性校验。以下“仅设计/237次”保留前阶段背景，不是当前停止边界。
 
 2026-10-12评分复核补充：[阶段1启动设计](agent_research/intervention_diagnosis/20261012_stage1_readiness/PLAN.md)与[审计](agent_research/intervention_diagnosis/20261012_stage1_readiness/scoring_audit.json)已整理。原6/7、4/4只表示原始差值符号命中；按阶段0的±0.25%基本不变带，分别仅3/7、2/4明确预测得到同方向超带宽响应，其余已预测项落在不变带，不能改称新的事前准确率。下一步先冻结分组任务与四类别评分，再构建可辨别的共同响应集合；信号学习和反馈因果比较依次推进。当前无新训练，237次保持，Hydraulic继续保留。
