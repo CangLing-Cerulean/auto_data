@@ -1,0 +1,17 @@
+{
+  "corrections": [
+    "identity tolerance checked per window and channel",
+    "create-only execution lock and diagnostic NPZ"
+  ],
+  "status": "static_review_completed_two_guards_corrected_before_freeze",
+  "new_trainings": 0,
+  "reviewed": [
+    "risk_identity",
+    "percentage_signs",
+    "array_shapes",
+    "affine_projection",
+    "old_error_comparison",
+    "interpretation_boundaries"
+  ],
+  "runtime_checks": "pending"
+}
