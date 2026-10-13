@@ -1,0 +1,617 @@
+{
+  "status": "PASS",
+  "cells": {
+    "S1_P1": {
+      "task": "S1",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.40127716053429685,
+              "NMAE": 3.267379568349993
+            },
+            "target": {
+              "NMSE": 0.40582984999123495,
+              "NMAE": 3.2744973527700783
+            },
+            "complement": {
+              "NMSE": -2.5633569087133212,
+              "NMAE": 1.2791620033173912
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.40428516055343033,
+              "NMAE": 3.5059853120210316
+            },
+            "target": {
+              "NMSE": 0.40876984880329204,
+              "NMAE": 3.511240289590989
+            },
+            "complement": {
+              "NMSE": -2.4967434070706007,
+              "NMAE": 2.043826239387725
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.39374431579366487,
+              "NMAE": 3.4393868065204725
+            },
+            "target": {
+              "NMSE": 0.3987236860887089,
+              "NMAE": 3.4464894890431808
+            },
+            "complement": {
+              "NMSE": -2.825302129170071,
+              "NMAE": 1.46025621986402
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "improve",
+          "improve",
+          "improve"
+        ],
+        "stable_category": "improve",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.39976887896046404,
+      "confirmed_adoption": false
+    },
+    "S1_CP1": {
+      "task": "S1",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.11029117773018182,
+              "NMAE": 0.09552312625877857
+            },
+            "target": {
+              "NMSE": 0.11102935144188253,
+              "NMAE": 0.0961049600702868
+            },
+            "complement": {
+              "NMSE": -0.370395009064417,
+              "NMAE": -0.06700107167536551
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.09947889750075989,
+              "NMAE": 0.06591863264024944
+            },
+            "target": {
+              "NMSE": 0.10016845122141627,
+              "NMAE": 0.0661474357194658
+            },
+            "complement": {
+              "NMSE": -0.34657552837322747,
+              "NMAE": 0.002255849371135543
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.08455535304670025,
+              "NMAE": 0.06000301060771207
+            },
+            "target": {
+              "NMSE": 0.08553737512813075,
+              "NMAE": 0.06041163564864949
+            },
+            "complement": {
+              "NMSE": -0.550298956407258,
+              "NMAE": -0.053858521906025025
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.09810847609254732,
+      "confirmed_adoption": false
+    },
+    "S2_P1": {
+      "task": "S2",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.101993813522606,
+              "NMAE": 8.792379425632934
+            },
+            "target": {
+              "NMSE": 1.101993813522606,
+              "NMAE": 8.792379425632934
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.1816751582826912,
+              "NMAE": 8.325440286095386
+            },
+            "target": {
+              "NMSE": 1.1816751582826912,
+              "NMAE": 8.325440286095386
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.0711406155027414,
+              "NMAE": 9.016284192044521
+            },
+            "target": {
+              "NMSE": 1.0711406155027414,
+              "NMAE": 9.016284192044521
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "improve",
+          "improve",
+          "improve"
+        ],
+        "stable_category": "improve",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 1.1182698624360128,
+      "confirmed_adoption": true
+    },
+    "S2_CP1": {
+      "task": "S2",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.058119279492307996,
+              "NMAE": 0.07053285421375621
+            },
+            "target": {
+              "NMSE": 0.058119279492307996,
+              "NMAE": 0.07053285421375621
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.12078837127611486,
+              "NMAE": 0.26462060865941606
+            },
+            "target": {
+              "NMSE": 0.12078837127611486,
+              "NMAE": 0.26462060865941606
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.05679089499918133,
+              "NMAE": -0.0156915662405277
+            },
+            "target": {
+              "NMSE": 0.05679089499918133,
+              "NMAE": -0.0156915662405277
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.07856618192253473,
+      "confirmed_adoption": false
+    }
+  },
+  "scores": {
+    "generic_stats": {
+      "total": 4,
+      "correct": 0,
+      "wrong": 4,
+      "abstained": 0,
+      "coverage": 1.0,
+      "unstable_cells": 0,
+      "stable_observed": {
+        "S1_P1": "improve",
+        "S1_CP1": "unchanged",
+        "S2_P1": "improve",
+        "S2_CP1": "unchanged"
+      },
+      "accuracy_on_decided_stable": 0.0,
+      "repeated_response_diagnostic": {
+        "total": 12,
+        "decided": 12,
+        "correct": 0,
+        "abstained": 0,
+        "coverage": 1.0,
+        "accuracy": 0.0,
+        "harm_total": 0,
+        "harm_warned": 0,
+        "harm_false_benefit": 0,
+        "harm_false_unchanged": 0,
+        "harm_abstained": 0,
+        "observed": [
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged",
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ]
+      }
+    },
+    "case_match": {
+      "total": 4,
+      "correct": 2,
+      "wrong": 2,
+      "abstained": 0,
+      "coverage": 1.0,
+      "unstable_cells": 0,
+      "stable_observed": {
+        "S1_P1": "improve",
+        "S1_CP1": "unchanged",
+        "S2_P1": "improve",
+        "S2_CP1": "unchanged"
+      },
+      "accuracy_on_decided_stable": 0.5,
+      "repeated_response_diagnostic": {
+        "total": 12,
+        "decided": 12,
+        "correct": 6,
+        "abstained": 0,
+        "coverage": 1.0,
+        "accuracy": 0.5,
+        "harm_total": 0,
+        "harm_warned": 0,
+        "harm_false_benefit": 0,
+        "harm_false_unchanged": 0,
+        "harm_abstained": 0,
+        "observed": [
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged",
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ]
+      }
+    },
+    "new_signal": {
+      "total": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": 1.0,
+      "unstable_cells": 0,
+      "stable_observed": {
+        "S1_P1": "improve",
+        "S1_CP1": "unchanged",
+        "S2_P1": "improve",
+        "S2_CP1": "unchanged"
+      },
+      "accuracy_on_decided_stable": 1.0,
+      "repeated_response_diagnostic": {
+        "total": 12,
+        "decided": 12,
+        "correct": 12,
+        "abstained": 0,
+        "coverage": 1.0,
+        "accuracy": 1.0,
+        "harm_total": 0,
+        "harm_warned": 0,
+        "harm_false_benefit": 0,
+        "harm_false_unchanged": 0,
+        "harm_abstained": 0,
+        "observed": [
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged",
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ]
+      }
+    },
+    "strong_prompt": {
+      "total": 4,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 2,
+      "coverage": 0.5,
+      "unstable_cells": 0,
+      "stable_observed": {
+        "S1_P1": "improve",
+        "S1_CP1": "unchanged",
+        "S2_P1": "improve",
+        "S2_CP1": "unchanged"
+      },
+      "accuracy_on_decided_stable": 1.0,
+      "repeated_response_diagnostic": {
+        "total": 12,
+        "decided": 6,
+        "correct": 6,
+        "abstained": 6,
+        "coverage": 0.5,
+        "accuracy": 1.0,
+        "harm_total": 0,
+        "harm_warned": 0,
+        "harm_false_benefit": 0,
+        "harm_false_unchanged": 0,
+        "harm_abstained": 0,
+        "observed": [
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged",
+          "improve",
+          "improve",
+          "improve",
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ]
+      }
+    }
+  },
+  "ranking": {
+    "S1": {
+      "gaps_percent": [
+        0.29098598280411503,
+        0.30480626305267045,
+        0.3091889627469646
+      ],
+      "observed": "P1>CP1",
+      "methods": {
+        "generic_stats": {
+          "prediction": "tie",
+          "correct": false
+        },
+        "case_match": {
+          "prediction": "CP1>P1",
+          "correct": false
+        },
+        "new_signal": {
+          "prediction": "P1>CP1",
+          "correct": true
+        },
+        "strong_prompt": {
+          "prediction": "tie",
+          "correct": false
+        }
+      }
+    },
+    "S2": {
+      "gaps_percent": [
+        1.043874534030298,
+        1.0608867870065763,
+        1.01434972050356
+      ],
+      "observed": "P1>CP1",
+      "methods": {
+        "generic_stats": {
+          "prediction": "tie",
+          "correct": false
+        },
+        "case_match": {
+          "prediction": "CP1>P1",
+          "correct": false
+        },
+        "new_signal": {
+          "prediction": "P1>CP1",
+          "correct": true
+        },
+        "strong_prompt": {
+          "prediction": "tie",
+          "correct": false
+        }
+      }
+    }
+  },
+  "confirmed_adoption_cells": [
+    "S2_P1"
+  ],
+  "signal_comparative_gate_passed": true,
+  "advance_to_feedback_design": true,
+  "successful_runs": [
+    "S1_PARENT_s2026101402",
+    "S1_P1_s2026101402",
+    "S1_CP1_s2026101402",
+    "S1_PARENT_s2026101403",
+    "S1_P1_s2026101403",
+    "S1_CP1_s2026101403",
+    "S1_PARENT_s2026101404",
+    "S1_P1_s2026101404",
+    "S1_CP1_s2026101404",
+    "S2_PARENT_s2026101402",
+    "S2_P1_s2026101402",
+    "S2_CP1_s2026101402",
+    "S2_PARENT_s2026101403",
+    "S2_P1_s2026101403",
+    "S2_CP1_s2026101403",
+    "S2_PARENT_s2026101404",
+    "S2_P1_s2026101404",
+    "S2_CP1_s2026101404"
+  ],
+  "result_sha256": {
+    "S1_PARENT_s2026101402": "65de77aa0e5d44dc1fbc644331475a075c48bab295299f813082db7a3f2d9a54",
+    "S1_P1_s2026101402": "73143b85d1306e67bfeb32eca0864a0876ea9eba40d36307da9d6b043ed9cec0",
+    "S1_CP1_s2026101402": "9068bb4d9a6452f59831c7b70eb12cb168e30bb3ac71e965dd97c80856222b88",
+    "S1_PARENT_s2026101403": "ff4ece91d7e7084274872c92e8a16a92bab7568038506947e0c0795336ba2ca4",
+    "S1_P1_s2026101403": "ce71906a9592266dbc3b5dcee9cb6820aadfaacc15209386d46acd5fecdf367e",
+    "S1_CP1_s2026101403": "28273aee23238d74e50c61c6368677cf9decc72c7a7201421510f4441bba0469",
+    "S1_PARENT_s2026101404": "7e6ae9c8a1a0dd6a96280423c9e410bfc4f4139ab16cd9484096f389c761045b",
+    "S1_P1_s2026101404": "291cf113b95bd806d7de4b7acae28f16d470c96dfb0d8239b3d5aeb6c11e7587",
+    "S1_CP1_s2026101404": "25e1cb3ec237ed402ec945b5da3c4ac268c5984bdfb38f082339410651f46825",
+    "S2_PARENT_s2026101402": "fd91be8594e26fccb7aa8f83fec025bef18b91d4048e75f48d45b2490f4a609e",
+    "S2_P1_s2026101402": "479ebe071dacee4aff66f4a5578e7bec9e0400de4d9a2f7dd6a826b94ee7be2d",
+    "S2_CP1_s2026101402": "ea85c581898c52df5af4ce7e8e423704a79b9b5e7f2164ae08694a51e890f48e",
+    "S2_PARENT_s2026101403": "6f523a9e4492be4329e1266e181f1ac40626d84f8b9e47a726154f91b7e253e4",
+    "S2_P1_s2026101403": "ab82cfe6b92f9fd4f801f441e15daabdc1a05552e402191ad3258378044388e3",
+    "S2_CP1_s2026101403": "b9274cdb556bdabb6ed357b7f766dc6391d461536e0fa72ea9189b3c3fba212b",
+    "S2_PARENT_s2026101404": "26f6b414492c302ebf736dce54358c9cfc7dca4fb749708122ab2e42666e1950",
+    "S2_P1_s2026101404": "f4769ce7f6702c6836b5e59bb1152668fee7439012a39e47cbeb46b065175d32",
+    "S2_CP1_s2026101404": "107e5f397a1a4a42da0956b7cbc388b961d828790048a7f07a98608b8e5ef36b"
+  },
+  "new_trainings": 18,
+  "new_failed_runs": 0,
+  "cumulative_successful_trainings": 286,
+  "preserved_prior_failed_delivery_count": 1,
+  "training_process_seconds": 708.5979846809059,
+  "audit_process_seconds": 2.078676661476493,
+  "protocol_sha256": "d72d1b727ae22e30fc2e1aa43c158647255de71a6672975d1bfdc96a2ca99fc0",
+  "prediction_lock_sha256": "aa4a0a2b5fbecf5819ee9b6a0ff26d96faf6bc6d5fdf936dcc994edce8ff2b07",
+  "auditor_sha256": "ef60abde3dce37b2583e1bc45dadfc3e2a7775c8675f200fa8de171566d5b108",
+  "test_access": false,
+  "next": "design and freeze independent feedback 2x2; no automatic launch"
+}

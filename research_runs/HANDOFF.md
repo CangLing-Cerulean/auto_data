@@ -1,5 +1,7 @@
 # 研究接续：2026-10-12
 
+2026-10-13最新：[S完整确认](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)。用户确认开机后读取原监督发现18项已全部成功，未重跑；完整审计通过、累计286。新信号四稳定格正确，S2_P1平均NMSE改善1.118270%通过原采用门槛；S1改善0.399769%不采用。满足反馈设计入口，尚无反馈因果效果结论。先核对selection_confirmation_sync_receipt，再设计独立共同前缀和反馈对照；Hydraulic保留，下方连接未知为旧快照。
+
 2026-10-13接续优先：[确认连接状态](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md)。18项S确认已启动，最后成功观测5项完成；随后服务器关闭SSH，最终状态未知，禁止说队列为空或18项已失败。完整验收累计268；原预测/规则不变。恢复连接先获取旧控制状态/结果再审计，不重复启动监督或任何已有ID；无反馈/Hydraulic启动。
 
 最新：[S初始前瞻报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md)。四项成功，累计268；原失败交付另列。新信号4/4正确，案例2/4、通用0/4、强提示2正确2弃权；S2_P1初始NMSE改善1.124535%、NMAE改善8.518757%。满足原18项S确认入口，下一步验收专用确认执行与激活；不改信号、阈值、初始预测或评分。阶段同步见selection_sync_receipt，Hydraulic保留，下文为历史。

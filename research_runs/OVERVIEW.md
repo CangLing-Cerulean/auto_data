@@ -1,5 +1,7 @@
 # 当前研究概览
 
+2026-10-13最新：[S三种子确认](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)已全18成功并审计，累计286。新信号4/4稳定类别、2/2稳定排序正确；S2中值平均NMSE改善1.118270%并通过采用。当前仅支持两个同源开发任务上的有限可行性，未证明反馈因果收益。下一步独立反馈设计，原模型队列已完成；此前连接未知记录保留为历史。
+
 2026-10-13当前：[S确认状态待核实](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md)。已启动18项确认，最近成功查询曾见5项completed；现SSH被服务器关闭，最终结果和队列状态未知。本地完整验收数268，不能提前认定重复确认成功或失败。先恢复只读核实，保留初始阶段已同步成果，不重跑旧ID。
 
 最新：[S初始前瞻检验](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md)新增4次成功、累计268。冻结新信号4/4正确，对照0/4、2/4与2正确2弃权；S2中值初始NMSE改善1.124535%。满足事前三种子确认入口，尚不能宣称稳定泛化或反馈因果收益。当前继续18项确认的执行准备，旧失败交付保留，测试未评估、Hydraulic保留。

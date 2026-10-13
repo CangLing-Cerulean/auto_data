@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-13",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_selection_confirmation_remote_state_unknown",
+  "phase": "stage1_selection_confirmation_passed_feedback_design",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/selection_confirmation_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md",
-  "next_action": "read existing remote status/results; no relaunch or repeat IDs",
-  "last_verified_snapshot_at": "2026-10-13T05:13:30.2848182Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md",
+  "next_action": "design independent signal by dual-update feedback comparison; do not treat known-pool replay as new prospective evidence",
+  "last_verified_snapshot_at": "2026-10-13T05:52:05.8294190Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 268,
+  "total_training_runs_completed": 286,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -347,8 +347,8 @@
     "new_task_protocols_frozen": false,
     "existing_active_study_changed": false
   },
-  "latest_update_scope": "stage1b_four_shared_prospective_selection_responses",
-  "training_count_derivation": "198 + 9 v2 + 10 R1 + 11 R2 + 9 SKAB pilot + 6 stage1 references + 4 C initial + 17 C confirmation successes + 4 S initial = 268; saved failed delivery separate",
+  "latest_update_scope": "full_18_S_confirmation_audited",
+  "training_count_derivation": "268 audited through S initial + 18 S confirmation = 286; earlier saved failed delivery separate",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -566,13 +566,18 @@
   },
   "stage1_selection_confirmation": {
     "source_commit": "6ce0746d5f69dc6744faa85934b7ef78acac35ed",
-    "active_observed": "S1_CP1_s2026101403",
+    "active_observed": null,
     "last_full_matrix_audited_count": 268,
-    "completed_observed": 5,
-    "background_queue": null,
+    "completed_observed": 18,
+    "background_queue": false,
     "registered": 18,
-    "current_state": "unknown_connection_closed",
-    "snapshot_is_current": false
+    "current_state": "completed_and_audited",
+    "snapshot_is_current": true,
+    "confirmed_adoption": [
+      "S2_P1"
+    ],
+    "new_signal_stable_correct": 4,
+    "report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md"
   },
-  "training_count_scope": "last full asset-audited matrix; additional 5 completed statuses observed but current total unknown"
+  "training_count_scope": "all completed runs asset-audited"
 }

@@ -1,5 +1,7 @@
 # 后续实验必须遵守的数据约定
 
+- 2026-10-13 开机后核实原18项S确认早已全部成功，完整审计通过、累计286，没有重跑。见`SELECTION_CONFIRMATION_REPORT.md`和selection_confirmation_feedback.json：新信号4稳定格全对，S2_P1三种子平均NMSE改善1.118270%、NMAE均改善，通过采用；S1平均0.399769%未通过采用。反馈设计入口true，但无反馈因果收益结论；下一步独立冻结反馈对照，当前两操作已知池不足以直接冒充新的前瞻反馈实验。原连接未知记录保留为历史；原监督completed，无待运行项。同步见selection_confirmation_sync_receipt，Hydraulic保留。
+
 - 2026-10-13 S确认18项已按冻结提交6ce0746启动，最后成功查询曾显示5项完成，随后只读SSH查询被服务器关闭，当前真实状态未知。见同阶段`SELECTION_CONFIRMATION_STATUS.md`及selection_confirmation_connection_status.json。完整验收累计仍268，5项仅曾观察completed、确认资产未下载验收；不得推断18项失败/完成或队列为空。恢复后先读原控制状态和结果，不重启监督、不重跑已有ID；反馈与Hydraulic未启动。
 
 - 2026-10-12 阶段1b四项S初始响应全部成功、累计268，见同阶段`SELECTION_INITIAL_REPORT.md`。C-only信号/两阈值及四方法预测均先冻结推送再训练：new_signal4/4，case_match2/4，generic0/4，strong_prompt2正确2弃权。S2_P1初始NMSE改善1.124535%、NMAE改善8.518757%，满足原18项S三种子确认入口；需另验收执行激活，不改规则/预测或追调。阶段同步见selection_sync_receipt。初始结果不等于稳定泛化或反馈收益；Hydraulic保留。

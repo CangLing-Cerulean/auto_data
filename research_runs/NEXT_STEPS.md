@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+2026-10-13最新入口：[S确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)。18项原运行全成功，累计286，原信号预测和S2采用均获三种子支持。按已冻结入口开始学习信号×双重更新2×2及共同前缀反馈分支设计；先解决当前两操作、已知响应池无法直接支持新前瞻分支选择的问题，再冻结具体执行协议。不得直接重跑已知响应凑训练次数，不动Hydraulic或测试。
+
 2026-10-13优先：[恢复确认状态读取](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md)。18项已启动但连接关闭，真实完成/失败/队列状态未知。先读取selection_confirmation_control/status.json和原运行资产；不要再次启动监督。如果全18完成则直接审计和归档；失败则保留并停止；部分完成且监督停止时另定恢复边界，绝不重跑已有ID。当前无确认结论，反馈阶段未开始。
 
 当前：[S初始报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md)四项完成且审计通过，累计268。依SELECTION_PROTOCOL的原门槛，冻结并验收S1/S2×种子2026101402/03/04×PARENT/P1/CP1共18项确认；原预测和新信号不再改变。确认后仅在稳定比较优势及确认采用项同时成立时进入独立反馈2×2设计，否则停止本批扩展。先核对selection_sync_receipt，避免重跑初始ID。
