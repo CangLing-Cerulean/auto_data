@@ -1,13 +1,16 @@
 {
-  "status": "prepared_not_started",
-  "registered_full": 27,
-  "registered_proxy": 27,
-  "registered_short": 18,
-  "completed_full": 0,
-  "completed_proxy": 0,
-  "completed_short": 0,
-  "cumulative_successful_full_trainings": 304,
+  "status": "forecast_complete_prediction_sync_pending",
+  "completed_full": 9,
+  "completed_proxy": 27,
+  "completed_short": 18,
+  "cumulative_successful_full_trainings": 313,
+  "last_independently_audited_full_count": 304,
+  "label_runs_registered": 18,
+  "label_runs_completed": 0,
+  "budget_gate": true,
+  "selection_gate_possible": false,
+  "D_loaded_by_method": false,
   "test_access": false,
-  "next": "source freeze and server preparation, then forecasts only",
-  "scientific_gate": null
+  "model_queue": false,
+  "next": "Publish bound prediction lock, complete registered labels and audit only, then stop expansion"
 }

@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "tasks": [
+    {
+      "task": "G1",
+      "partitions": {
+        "A": [
+          0,
+          308
+        ],
+        "B": [
+          308,
+          385
+        ],
+        "C": [
+          385,
+          462
+        ],
+        "D": [
+          462,
+          514
+        ]
+      },
+      "windows": {
+        "A": 6468,
+        "B": 1617,
+        "C": 1617,
+        "D": 1092
+      }
+    },
+    {
+      "task": "G2",
+      "partitions": {
+        "A": [
+          514,
+          822
+        ],
+        "B": [
+          822,
+          899
+        ],
+        "C": [
+          899,
+          976
+        ],
+        "D": [
+          976,
+          1028
+        ]
+      },
+      "windows": {
+        "A": 6468,
+        "B": 1617,
+        "C": 1617,
+        "D": 1092
+      }
+    },
+    {
+      "task": "G3",
+      "partitions": {
+        "A": [
+          1028,
+          1336
+        ],
+        "B": [
+          1336,
+          1413
+        ],
+        "C": [
+          1413,
+          1490
+        ],
+        "D": [
+          1490,
+          1543
+        ]
+      },
+      "windows": {
+        "A": 6468,
+        "B": 1617,
+        "C": 1617,
+        "D": 1113
+      }
+    }
+  ],
+  "assets_sha256": {
+    "prepared/G1_ABC.npz": "3699f7ba0bfef15fa18d11e2f27c1deb5e4b5701a2537047e36254b8d8db29f1",
+    "prepared/G1_params.json": "50e24ee45b72cc829f4f9a8317177118b4404ca32a52a8b480297253bbe2e781",
+    "prepared/G2_ABC.npz": "74495c87f1b87d56660e4e069a9b88c6b42dc14e398da811ce258fd30d499225",
+    "prepared/G2_params.json": "8e0c66f5ea2d1fab25fd78a97e8dacb961ef2deb923fb25a46b4484a58acb319",
+    "prepared/G3_ABC.npz": "1809108bf010b665601bdb8626c9df0d57b3df6618b32cd5bd0833ce234ada59",
+    "prepared/G3_params.json": "da0452cfeabf3c5573940b0c783cbadf4956a05d0b1a4b13c4d8460af67bc862",
+    "audit_only/G1_D.npz": "ccfc32dc828d9c3d35454cdeddf5e4d1d244c089a7d3956c85bffacd47400533",
+    "audit_only/G2_D.npz": "82e3cb5c9f2dd69176d346ede2954d403794bba655310919c897ed911dbcfdba",
+    "audit_only/G3_D.npz": "f16d42adcb4fb3fc1813f13104f1aeb503695f2c315e1b634efa233db36c1f46"
+  },
+  "seconds": 0.7803947292268276,
+  "plan_sha256": "15b43c6fc03e4a45c59ce495cdcd6ee4cab6789ce08700f25347dea71066f452",
+  "excluded_partial_cycle": 1543,
+  "test_access": false,
+  "new_full_trainings": 0
+}
