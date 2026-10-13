@@ -1,0 +1,46 @@
+{
+  "stage": "response_proxy_design_r1",
+  "status": "design_only_not_experiment_frozen",
+  "primary": "M1 original-coordinate full-moment paired response proxy",
+  "conditional_extension": "M2 exact real prefix at proposed step500, only after M1 feasibility gates",
+  "deferred": [
+    "M3 adaptive allocation and calibrated uncertainty",
+    "M4 strength optimization",
+    "open Agent search"
+  ],
+  "reference_protocol": {
+    "selection_ties": "earliest strict-min improvement",
+    "input_length": 32,
+    "learning_rate": 0.001,
+    "selection_grid": [
+      500,
+      1000,
+      1500,
+      2000,
+      2500,
+      3000
+    ],
+    "steps": 3000,
+    "weight_decay": 0,
+    "channels": 8,
+    "batch": 256,
+    "parameter_coordinates": 66,
+    "prediction_length": 8
+  },
+  "moment_model": "full A expected gradient; no batch-noise matching claim",
+  "target": "A-trained B-selected C response; independent D audit; no automatic full-data refit transfer",
+  "execution_ready": false,
+  "jobs": [],
+  "pending_before_experiment": [
+    "numeric tolerances and engineering acceptance",
+    "measured cost budget and baseline matching",
+    "new task/group partition manifest",
+    "fixed intervention list and p/w semantics",
+    "source-level replication plan and statistical gates",
+    "prediction freeze and independent outcome access control"
+  ],
+  "new_trainings": 0,
+  "new_prospective_predictions": 0,
+  "new_thresholds": 0,
+  "test_access": false
+}

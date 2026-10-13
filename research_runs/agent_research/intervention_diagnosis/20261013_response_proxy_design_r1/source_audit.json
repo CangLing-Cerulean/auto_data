@@ -1,0 +1,31 @@
+{
+  "status": "static_source_identity_verified",
+  "core_path": "scripts/run_research.py",
+  "core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+  "runner_path": "scripts/hydraulic_signal_validation.py",
+  "runner_sha256": "de1ded74438aa4b5f81d623873688df664d18416f2250741564325e520b8e0a3",
+  "parameters": 4224,
+  "feature_width_per_channel": 66,
+  "checkpoint_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "saved_historical_assets": [
+    "best.pt",
+    "last.pt",
+    "best_errors.npz",
+    "sampling.npz",
+    "result.json"
+  ],
+  "missing_historical_assets": [
+    "full selected-grid parameter trajectory",
+    "optimizer state",
+    "prefix RNG resume state"
+  ],
+  "new_training": 0,
+  "test_access": false
+}

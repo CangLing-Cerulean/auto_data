@@ -1,0 +1,23 @@
+{
+  "status": "analytical_estimate_not_timing",
+  "reference_windows": 32403,
+  "moment_values_per_partition_action": 39136,
+  "moment_float64_bytes": 313088,
+  "parameter_grid_float32_bytes_excluding_states_metadata": 101376,
+  "training_moment_MACs": 1266050016,
+  "proxy_gradient_MACs": 836352000,
+  "approx_direct_forward_backward_MACs": 6488064000,
+  "excluded_costs": [
+    "Adam elementwise operations",
+    "preprocessing",
+    "evaluation",
+    "transfers",
+    "launch latency",
+    "CPU and IO",
+    "common true-parent and proxy-parent work"
+  ],
+  "estimated_speedup": null,
+  "new_training_seconds": 0,
+  "static_review_agents": 1,
+  "research_LLM_experiment_calls": 0
+}
