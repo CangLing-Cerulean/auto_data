@@ -2,6 +2,8 @@
 
 当前目标是让 Agent 定位预测性能不足，编写针对性的数据处理代码，执行受控训练，并依据实际反馈修正判断。主要研究变量是数据处理；当前批次固定原 DLinear、训练参数和预测任务。
 
+面向研究交流的完整[数据探索与训练结果汇总（2026-10-13）](research_runs/sharing/20261013_data_exploration/REPORT.md)包含数据身份、任务划分、方法、对照、逐种子结果、负结果、成本和复现资产；出处与SHA256随稿保存。
+
 ## 已保留的成果
 
 | 成果 | 实测结果 | 证据范围 |
@@ -14,17 +16,15 @@
 
 ## 当前阶段
 
-阶段4 signal v2 比较 `full / no_memory / no_feedback`，每组3次独立搜索，分别评价事实、预测不足定位、局部命中、匹配控制、总体效果和反馈更新。
+2026-10-13主线为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[数值定位及独立补验](research_runs/agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md)支持M1响应预测MAE为0.407517个百分点，较固定父评分更低；但二者三个任务的推荐相同，选择增量为0。原开发阶段数值审计失败及推进false保持，补验没有追改原验收身份。
 
-以[冻结 v2 机器协议](research_runs/agent_research/phase4/20261010_signal_v2/protocol.json)和[接续说明](research_runs/HANDOFF.md)为准。[原冻结说明](research_runs/agent_research/phase4/20261010_signal_v2/PROTOCOL.md)保留早期批次描述，其末尾记录 v2 更换；项目路径、ID和批次前计数以机器协议为准。
+累计完成**331次完整训练**；最新27次已另经补验，最近原规则整阶段验收累计304。历史外部API为2544次尝试、14389704个实际已知tokens；40条未知用量和347757个预约tokens分列，近期Sol high内部用量未知。没有重置历史成本。
 
-最后核对的[服务器快照](research_runs/agent_research/phase4/20261010_signal_v2/progress_snapshot.json)来自 **2026-10-10 23:09（北京时间）**：9次注册、3次启动、1次选择基线结束、1次平台失败、另1次搜索当时运行。尚无确认的正确信号或自主处理收益。2026-10-11 接续时 SSH 连接被关闭，当前服务器状态未核实。
-
-累计 **200次完整训练、1079次 API 尝试、3632209 个实际已知 tokens** 仅为该快照，不能当作最终计数。38条旧未知用量和293757个预约 tokens 分列保留；没有新增预算上限，也没有因整理重置成本。[最新进度账本](research_runs/agent_research/progress.json)保存基数和接续步骤。
+下一项同M1的[训练数据选择开发协议](research_runs/agent_research/intervention_diagnosis/20261013_proxy_selection_r1/PROTOCOL.md)已另冻并进入预测阶段；注册36完整子标签须在预测锁后执行，尚未纳入上述331次完成快照。实际状态以该阶段progress为准，不从预期数量推断完成。旧signal v2九槽位已结束（6个B0、3失败），语义验收仍单列待补；不重启旧ID。接续以[HANDOFF](research_runs/HANDOFF.md)、[state](research_runs/state.json)和最新阶段报告为准。
 
 ## 项目入口
 
-- [下一步](research_runs/NEXT_STEPS.md)：先核实服务器状态，再收齐当前批次、确认与评分。
+- [下一步](research_runs/NEXT_STEPS.md)：保持单一M1，另冻训练数据动作及强对照，不依已揭示D或旧测试设计方法。
 - [研究概览](research_runs/OVERVIEW.md)：有效成果及尚未证明的结论。
 - [冻结经验库 v2](research_runs/agent_research/memory/v2/README.md)：144条可质疑的历史证据；其来源报告仍保留原路径和哈希。
 - `online_ts/`、`scripts/`、`tests/`：当前运行组件、有效成果的复现依赖及测试。

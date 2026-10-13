@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+对外交流入口：[数据探索与训练结果完整汇总](sharing/20261013_data_exploration/REPORT.md)。基于既有331次完成计数与冻结结果，另附出处哈希和公开资产清单；本次仅整理，新增训练/API/测试评价0，不改变当前M1推进状态。
+
 最新：[数值定位与独立补验](agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md)。用户要求持续沿主线推进至需人工解决。108格舍入分解全部通过，36格旧容差失败均属G3；原失败不改。补验450状态/612残差通过，MAE M1 0.407517pp，FIXED 1.386154，SHORT 1.958771；精度/D描述性条件满足，选择增量仍false。累计331、新训练0、基础测试未访问。下一步保持M1设计训练数据筛选开发实验，必须另冻共同候选/概率/强对照，不能称原阶段获推进验收。先核对本阶段同步收据，下文停止边界为历史。
 
 当前停止点：[M1开发首轮](agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md)。72运行全completed（27完整/27代理/18短训），完整累计完成331但新增27未整阶段验收，最后全阶段验收累计304。原float32恒等式容差失败，完整误差/D门槛null，保留原失败与冻结代码；不得放宽或重跑。M1记录MAE0.407517pp优于三个基线只是未完成独立验收的信号；与FIXED同推荐使增量门槛确定false。无队列/基础测试，D部分已读。接续先核对failure_closure、sync_receipt和Release，再另行明确只读故障定位；不自动扩展M2–M4或新来源。
