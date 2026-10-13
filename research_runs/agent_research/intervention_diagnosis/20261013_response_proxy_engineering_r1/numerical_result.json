@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "action": "PARENT",
+      "weighted": false,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 1.862645149230957e-07,
+      "steps": 32
+    },
+    {
+      "action": "PARENT",
+      "weighted": true,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 2.1606683731079102e-07,
+      "steps": 32
+    },
+    {
+      "action": "P1",
+      "weighted": false,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 1.1920928955078125e-07,
+      "steps": 32
+    },
+    {
+      "action": "P1",
+      "weighted": true,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 1.1175870895385742e-07,
+      "steps": 32
+    },
+    {
+      "action": "CP1",
+      "weighted": false,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 2.296874299645424e-07,
+      "steps": 32
+    },
+    {
+      "action": "CP1",
+      "weighted": true,
+      "max_gradient_absolute_error": 1.4901161193847656e-08,
+      "max_parameter_absolute_error": 1.8766149878501892e-07,
+      "steps": 32
+    }
+  ],
+  "diagnostic_optimizer_steps": 384,
+  "test_access": false,
+  "selection_tests": {
+    "earliest_tie": true,
+    "C_not_used": true,
+    "rejects_incomplete": true,
+    "rejects_nonfinite": true
+  },
+  "process_seconds": 4.259308367036283,
+  "full_training_runs": 0,
+  "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+  "prototype_sha256": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf"
+}

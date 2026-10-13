@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "runs_verified": 18,
+  "selected_residual_arrays_verified": 15,
+  "full_direct_trainings": 9,
+  "proxy_rollouts": 9,
+  "cumulative_full_trainings": 304,
+  "cost_medians_seconds": {
+    "direct_PARENT": 35.623071516864,
+    "direct_P1": 36.0481075597927,
+    "direct_CP1": 36.166314367204905,
+    "proxy_PARENT": 7.353270986117423,
+    "proxy_P1": 7.799681153148413,
+    "proxy_CP1": 7.808026515878737
+  },
+  "two_candidate_proxy_seconds": 22.960978655144572,
+  "two_candidate_direct_seconds": 72.2144219269976,
+  "cold_proxy_seconds": 58.584050172008574,
+  "cold_direct_seconds": 107.8374934438616,
+  "cost_gate": true,
+  "cost_gate_scope": "two registered candidates; compute feasibility only; no accuracy or decision claim",
+  "audit_seconds": 4.237014014273882,
+  "original_inputs_unchanged": true,
+  "test_access": false
+}

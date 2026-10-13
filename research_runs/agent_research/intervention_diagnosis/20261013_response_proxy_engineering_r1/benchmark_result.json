@@ -1,0 +1,1247 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "engine": "direct",
+      "action": "PARENT",
+      "id": "ENG_direct_PARENT_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 35.963572070002556,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.38256434164941,
+        "evaluation": 0.08595771621912718,
+        "serialization": 0.433021929115057,
+        "parent_anchor_load": 0.025409039109945297
+      },
+      "peak_gpu_memory_bytes": 80722944,
+      "selection_losses": {
+        "500": 0.007754069264021296,
+        "1000": 0.007172270997174562,
+        "1500": 0.007755747380347577,
+        "2000": 0.007466710431289196,
+        "2500": 0.007946010110903642,
+        "3000": 0.007822199973432285
+      },
+      "selected_step": 1000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 6.165545324794948
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 12.053355347365141
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.948592141270638
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.8451265450567
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.73112810123712
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.59937105886638
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "step_500.pt": "4c9e0939d3ce1715d3da49bcc8fb0d36b7faa401b7b8e768aaeefbc9812913ab",
+        "step_1000.pt": "84006407a6a19fb142fecb16d6821c9a7a5e04a851c7338a5ec2b97742d28918",
+        "step_1500.pt": "f70e412b23bf6bfa7c351fcf85576b79e84ded7094844c53ed757d89a3d16790",
+        "step_2000.pt": "69e2ef9178cd01dc6aa7878873edc6599583e82a1771b11bd94c8b0aadc46ca1",
+        "step_2500.pt": "a56f9b308d7fd5015005998a240528bc281711841394be060a5ff30a75e97930",
+        "step_3000.pt": "979d1dab7e39f902559cf96a86da71fea555675d0e575b594d2edb74d0e36d10",
+        "selected_prediction_model.pt": "9352f451690a9db30afd3b6bfb82100fd11206fe84a88322cc349394866b029e",
+        "selected_errors.npz": "0dda944a54981d9c870d4892cffd0840ad8018f8cf093da1abba6cdf3213f2f7",
+        "sampling.npz": "21606793ccd861a89d462df15d4f3c51ea111a3506be06ef24e1a27f56623dcf"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "PARENT",
+      "id": "ENG_proxy_PARENT_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 7.394837319850922,
+      "timings": {
+        "moment_build": 0.07171667832881212,
+        "updates": 7.250834561884403,
+        "evaluation": 0.0,
+        "serialization": 0.06394486408680677,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664,
+      "selection_losses": {},
+      "selected_step": null,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4002145119011402
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.69663795735687
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.052126465365291
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.348353931680322
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.539310215041041
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.39463665522635
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "moments.npz": "2bc012080dfa54ca35cd0daa4b61dcf88b89c39b57c0f7ac3ff06271d6b69cb3",
+        "step_500.pt": "51761d587950145ad16d796f3b1615ebfefc5d50d0d2661f4c52fc2f18c95423",
+        "step_1000.pt": "90a84e4caa33363708e7713b9e5c39b83c753bb771542ad9dd0086922897c5fb",
+        "step_1500.pt": "53a4636ecb930956a5e77c812107975c71f2cec2db49f53f66c139c94fb7fcbf",
+        "step_2000.pt": "20b63b8e3124fc361f9be78850bbdf575affc8bb94dfba7ab21c0a341d7241ef",
+        "step_2500.pt": "50b6dd74e9d9cae921d8438f39666f357ad2d5d605f0ded6a9cea4e3e4282eb8",
+        "step_3000.pt": "c79ee2ef02152093a22babcf2480c22461262ec07e73da14bf663e57934351b6"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "P1",
+      "id": "ENG_direct_P1_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 36.08072343003005,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.51176339760423,
+        "evaluation": 0.09200380835682154,
+        "serialization": 0.4401723425835371,
+        "parent_anchor_load": 0.02460305579006672
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007615631551336851,
+        "1000": 0.0070795920303673935,
+        "1500": 0.007715440001398694,
+        "2000": 0.007431951510469253,
+        "2500": 0.007908637951410294,
+        "3000": 0.007812773137644885
+      },
+      "selected_step": 1000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.956895677372813
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.909212356433272
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.865339124575257
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.81441572122276
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.768853386864066
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.71638843975961
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "step_500.pt": "e143aeaf5d0da5d1f4376173e17539a53af3c48c5a4dd0e25e8c0e8ca89bdb05",
+        "step_1000.pt": "47772068376d8041fc6df146dc873ab55aeda9ed86f052ded331efe9d6b239ab",
+        "step_1500.pt": "596114f63653ca0c3629e6c10741490cee2be7f79332a007fee921b5c4f8dc60",
+        "step_2000.pt": "422f06c649ebd70dca30f7e9cc04d32760b0ba61b9c70c83df8ca302b5ddcd39",
+        "step_2500.pt": "48c0d4ac197d1dd1e62e1809801753388de56e1d51b488656caa051a028547aa",
+        "step_3000.pt": "6008456e8724b5e52300e44bce4ea88afef211560c34a92c97ee93c8de6d8ba8",
+        "selected_prediction_model.pt": "0eb105e15fa1a082e551eea5d5b2bcc674f8b61e70c1733435e7f419a4134351",
+        "selected_errors.npz": "3387d533c8926138b3ed13bb19d54eae4c49e993947d4fbc6b7d8898574705e3",
+        "sampling.npz": "21606793ccd861a89d462df15d4f3c51ea111a3506be06ef24e1a27f56623dcf"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "P1",
+      "id": "ENG_proxy_P1_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 6.088862960226834,
+      "timings": {
+        "moment_build": 0.0328945517539978,
+        "updates": 5.507236966863275,
+        "evaluation": 0.05593022983521223,
+        "serialization": 0.244142503477633,
+        "parent_anchor_load": 0.23841692134737968
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.007620979762121431,
+        "1000": 0.007110480816808477,
+        "1500": 0.007729347029262483,
+        "2000": 0.007462370503692868,
+        "2500": 0.007949799931160744,
+        "3000": 0.007834184774887908
+      },
+      "selected_step": 1000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4127075243741274
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.29902973305434
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 3.185104887932539
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 4.0749098770320415
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 4.961502552032471
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 5.846765170805156
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "moments.npz": "e19de76b8113174e3d361a986b2b9d9206a8d72882f58f80a341dc1e3f98d3dc",
+        "step_500.pt": "4eadbd8d59db92d9a7216345e8937f13f8bf0c9327b37120cc22b40521245f88",
+        "step_1000.pt": "90f501cf628ecea10d9ad9c7f0e8888a7c2502d14d0dc7072630874009ab5c30",
+        "step_1500.pt": "cfb280cc88df5d774ed66dde409d3e51ceb661573d3bd36a850028633ccc2ccd",
+        "step_2000.pt": "9ca0c9345e0fb7cca3c2f4b90d141fb716133da936c4a3940f372d5498883c49",
+        "step_2500.pt": "22e295dee85c15738cfa5de368b54beadf36df192198255e5c0134b4466f508f",
+        "step_3000.pt": "ed18a0d24e387f21529aa081e69ddd2715549d8b4e6f21698aaecb4cba11a629",
+        "selected_prediction_model.pt": "9056fa05e95fd82fb642de89a33f0982af30474898d70222cc4fabeb3b6f8736",
+        "selected_errors.npz": "26905db89047bc91776ab52ad681a922ae90fd54408d2fa76a30e3a4f801ef04"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "CP1",
+      "id": "ENG_direct_CP1_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 36.166314367204905,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.603145111352205,
+        "evaluation": 0.08885217364877462,
+        "serialization": 0.43814173340797424,
+        "parent_anchor_load": 0.0245856661349535
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007679825462683087,
+        "1000": 0.007234910804523703,
+        "1500": 0.007756805770359844,
+        "2000": 0.00743952038431677,
+        "2500": 0.007898039747448448,
+        "3000": 0.007720226642130996
+      },
+      "selected_step": 1000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.966081954538822
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.932733429595828
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.896184684708714
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.86668486893177
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.828529208898544
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.80257211718708
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "step_500.pt": "4906ea07e547f6d9b5a45ff885ca75511348c22137321779f564cbbe73ba2831",
+        "step_1000.pt": "f786b826b2aa9bbbef2f07947ddf090ade252d84aa372565729562dbe9193d1e",
+        "step_1500.pt": "4ca4b29f046e5332c0884cca69e2ad7ccc3160bbc978dff85011e5b8971dd337",
+        "step_2000.pt": "bd1a0ba117ba47819e46ca89eb2684d62346e2d2016903030db8401e18996a7a",
+        "step_2500.pt": "3c1aae45cf7aacb258cd8b8422403502a3466fae7b9dba6531c96c3a5f82866e",
+        "step_3000.pt": "a46a36ca45837dc165c05c69de7e194b54e06566bfed6979ce157ba4bbed3530",
+        "selected_prediction_model.pt": "2b32c1c764f48281104a891528cd15cda73f6cefa0a0ea00d85e12cb7e55fe18",
+        "selected_errors.npz": "1a46f91a67445f697f20bca42f74d4f45fded087faa09d586adb5446f403dbfa",
+        "sampling.npz": "21606793ccd861a89d462df15d4f3c51ea111a3506be06ef24e1a27f56623dcf"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "CP1",
+      "id": "ENG_proxy_CP1_s2026101601",
+      "seed": 2026101601,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "7538a6097c80795939dd6bebff130fabeccdc47a2f59e4518837b3f6dc1da84c",
+      "process_seconds": 7.793659574352205,
+      "timings": {
+        "moment_build": 0.03252555336803198,
+        "updates": 7.142085317522287,
+        "evaluation": 0.06379593722522259,
+        "serialization": 0.2528597917407751,
+        "parent_anchor_load": 0.29149622563272715
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.007712192641890751,
+        "1000": 0.007263413889788035,
+        "1500": 0.007811943972246424,
+        "2000": 0.007434280177553943,
+        "2500": 0.007904372399846803,
+        "3000": 0.007754064845793834
+      },
+      "selected_step": 1000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.408707432448864
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.7684710742905736
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.129889469593763
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.4812009343877435
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.668440426699817
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.553254431113601
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "75138b31a7131b6f6270c8e8517f913d61611025e7ab385d94700219a5a4be86",
+        "moments.npz": "2ae4dd445344ff5def456a8eedee0b492b2c011cc016b6b1622d9af456fb9187",
+        "step_500.pt": "00a31338a7e143413312a331fe389199c18e5e24795973e9acd77459918acf12",
+        "step_1000.pt": "bd00484bb7711072fc097f7645fd2c3a3a02ff21b33b03b983b0b9455dff586c",
+        "step_1500.pt": "52598bf40342ed21a46fd744b3d0a4b804b4c2ae964649ceb05f089ee98b82f4",
+        "step_2000.pt": "52b8c80715139e2ac0085a7a3955afc12011403d6abd5ba17c16866bbc6a5e39",
+        "step_2500.pt": "8bd39f71d7c8c7b51cbe1183462ee21224f646eac21ba998680476555db30e15",
+        "step_3000.pt": "bb1fb47dddae6a283004728fc5dd510e29a62f10e44300c3eae712b3e59b395b",
+        "selected_prediction_model.pt": "d1095202e314d664dc7364c806e48c76bab8db02a8b53dadf81b6fc002a06143",
+        "selected_errors.npz": "36af6b47c3e9520a1ea3cc56fd2c2c61a14bc447af27edf5342a5f1942aac1f6"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "PARENT",
+      "id": "ENG_proxy_PARENT_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 5.138783755712211,
+      "timings": {
+        "moment_build": 0.029387401416897774,
+        "updates": 5.060544049367309,
+        "evaluation": 0.0,
+        "serialization": 0.04343454074114561,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664,
+      "selection_losses": {},
+      "selected_step": null,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 0.8922675717622042
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 1.739887984469533
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 2.5884689884260297
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 3.4388427063822746
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 4.288415627554059
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 5.138539961539209
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "moments.npz": "2bc012080dfa54ca35cd0daa4b61dcf88b89c39b57c0f7ac3ff06271d6b69cb3",
+        "step_500.pt": "09f4db952b63c17e4dbdf20ab0e7c8f3fa76a2196b9fe8eb73bafccd619aa7ea",
+        "step_1000.pt": "21b822fc067e86e6393fcc933a2071268a06d04079e85fcf3dbeb05611451bbc",
+        "step_1500.pt": "051007d62d332162e7a2af0d3ee3d86b56f7b19c55d5f98ae4019ad338e83c42",
+        "step_2000.pt": "fdd502e629b4081232967b7f491a4bc430b5d06bf9b2277ec633498ee4200730",
+        "step_2500.pt": "c58eab73c3dee5e6ac430f9b3ff139daabca7c06752df127721f68b07e897822",
+        "step_3000.pt": "2cf764d50e28c1c3fcdbd87122e603e404a08b022db823a07855b2673a467f96"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "PARENT",
+      "id": "ENG_direct_PARENT_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 35.623071516864,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.066541594453156,
+        "evaluation": 0.08403212670236826,
+        "serialization": 0.4366585286334157,
+        "parent_anchor_load": 0.024487010203301907
+      },
+      "peak_gpu_memory_bytes": 80722944,
+      "selection_losses": {
+        "500": 0.007278395464672255,
+        "1000": 0.00733200103361681,
+        "1500": 0.007137012127286701,
+        "2000": 0.007192407667886921,
+        "2500": 0.007627023780199135,
+        "3000": 0.0073601943312672224
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.866165515966713
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.744029443711042
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.619427289813757
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.496823597699404
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.380079043097794
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.259390148334205
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "step_500.pt": "bb595272b700f986c8d48a78828e521d4169bd690377ebd5d50fd1232373336e",
+        "step_1000.pt": "873c976f5f545c0e59ed5ef8c9fe6a7d5550b5c784ad9035919903a84885cca0",
+        "step_1500.pt": "0183eda4ec9a99aa1d75fdf8395e1d031b0a0a318c29d2f34be7145ade52ee14",
+        "step_2000.pt": "0dc8189abc19d3f6deff5286950da599f2abda79fb9b4f3e0cff37c07cfdedc9",
+        "step_2500.pt": "4ea11778901907b2908c6779796cf34e730736dc301f8fe448b2c9ef339e8292",
+        "step_3000.pt": "a9e1806adf19c35a6e26446b159a4eb6a3b66d7fd5a2ec20835707f6a44a1204",
+        "selected_prediction_model.pt": "ebf28867e1b6f08db1a3e91b18f4ef679ae203ec52e63f2a580e41ee15f28881",
+        "selected_errors.npz": "3c74889954aab79a58d23ee5697281e560d0146e065f28f5e76591b3497b3717",
+        "sampling.npz": "7902a5d2b43996985c80f2f251cf6515c9a692630d271ca77d6854a423a8a40b"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "CP1",
+      "id": "ENG_proxy_CP1_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 7.808026515878737,
+      "timings": {
+        "moment_build": 0.032670228742063046,
+        "updates": 7.1493304362520576,
+        "evaluation": 0.06465315539389849,
+        "serialization": 0.25736839696764946,
+        "parent_anchor_load": 0.2930497685447335
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.007257386518860184,
+        "1000": 0.007396690361394637,
+        "1500": 0.00716088484047277,
+        "2000": 0.0071727612943356,
+        "2500": 0.00760717664728292,
+        "3000": 0.0073039537566587
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4099120683968067
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.7706816494464874
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.130804832093418
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.488651259802282
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.669966787099838
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.5628955764696
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "moments.npz": "2ae4dd445344ff5def456a8eedee0b492b2c011cc016b6b1622d9af456fb9187",
+        "step_500.pt": "1a178025a0905198d3ae1e3b920a45e1f6e28628f38d747bf0bebe4c504b3c3d",
+        "step_1000.pt": "4b3e15001ce26929fa4d6b3793dc7c3ce0b385b8524260cce952465af8e0147d",
+        "step_1500.pt": "7edde50d359a805690f8a2f6e756b3d34ceeececc9dd8d8c6e0f759f60c959f8",
+        "step_2000.pt": "190a35c720db719d3c7b16bde0229df76626541e072938db5800d74ec85fe6f4",
+        "step_2500.pt": "c3e34ec0328a55f20517403b5bf50bd0058f13fa85668d3b93b18fa8c51e1e18",
+        "step_3000.pt": "3a4f16219d78a0f6d48bf9934a0d5f62acfe260f4dc359418d9c4a92f99bba12",
+        "selected_prediction_model.pt": "83468538d67af3df4b369e7c7babdf54d4e674e5136dee671dd5a93a5e342e41",
+        "selected_errors.npz": "7f56cf08c0a4a0749fa559aafe2e27599c2716660e0b26ca59ea52ae1e59ec69"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "CP1",
+      "id": "ENG_direct_CP1_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 36.14404257480055,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.58637926727533,
+        "evaluation": 0.08695557620376348,
+        "serialization": 0.4348796447739005,
+        "parent_anchor_load": 0.024592003785073757
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007230690978160075,
+        "1000": 0.00741355581189641,
+        "1500": 0.007164483886966779,
+        "2000": 0.007148984847295998,
+        "2500": 0.007556416324938213,
+        "3000": 0.007270286168962064
+      },
+      "selected_step": 2000,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.969415470957756
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.934348452836275
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.89554943330586
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.85898012947291
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.822477627545595
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.78018135018647
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "step_500.pt": "061b4772549682bf856a1e70d7e25b00e4436706344b7770c2ae96d6cf81b8b3",
+        "step_1000.pt": "805c40d95130eb3d5aa87f256b0e6f29c0bbd300b88c1299b9130bd0d14e6b75",
+        "step_1500.pt": "913a16a6c892cdd44a85da8390c30a17a565632229c9fff080554b355059843a",
+        "step_2000.pt": "dd4a6e797c8611fa4e2bc4dc9a9bd2b4efe674e8e73b4411fe9ae20ea9cdd3d7",
+        "step_2500.pt": "041be5e17d2a3e7d0c74211ce466a8efa4d90e5feeffb232da7e37dd26ac1bcc",
+        "step_3000.pt": "01991802e1c01e4bb28f5ff4c0a53a1bd63d5260ab17962c48459562e62f7c4f",
+        "selected_prediction_model.pt": "6079a9a384751db80e7a483fe771967793d07524506dfa44b6c1dd1f94d4fcf6",
+        "selected_errors.npz": "d6ce87607d3c7612bbcaed426d76c07fd6e6a6017cc4963670bebff5b7159a41",
+        "sampling.npz": "7902a5d2b43996985c80f2f251cf6515c9a692630d271ca77d6854a423a8a40b"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "P1",
+      "id": "ENG_proxy_P1_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 7.799681153148413,
+      "timings": {
+        "moment_build": 0.032490747049450874,
+        "updates": 7.144735302776098,
+        "evaluation": 0.06426974106580019,
+        "serialization": 0.25495456624776125,
+        "parent_anchor_load": 0.29230012465268373
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.0071666300285357825,
+        "1000": 0.007271959267157759,
+        "1500": 0.007114052610491593,
+        "2000": 0.007190369502599124,
+        "2500": 0.0076325050701972815,
+        "3000": 0.007376687654197885
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4132249280810356
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.7762786466628313
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.138722510077059
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.492728266865015
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.674585061147809
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.557521902024746
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "moments.npz": "e19de76b8113174e3d361a986b2b9d9206a8d72882f58f80a341dc1e3f98d3dc",
+        "step_500.pt": "79753daf4fb7d8928123f26230ba1c1210813f15f1b9e6a8aa489aa5043a2650",
+        "step_1000.pt": "48cd54aa83ab5c908f249d580e02ea33559df69d2856f1354475e74648a027b3",
+        "step_1500.pt": "f96f0478b3eb379a2973e1d4de09e88af4f44081e95a1a4db3e458cf9a238e57",
+        "step_2000.pt": "508ef1f48b7486a2efba417aeb0ce97cf81d849bb9dc054044b3403340ff3122",
+        "step_2500.pt": "ed1d5f62f4f70d2f0bc1dcaeb20a5eff3f4a4b4f0866571c53a81144f3c07815",
+        "step_3000.pt": "30322a501b479a3c31ce6cc8b9832ef18d4fe1c3a97503822dfbfa788edcf58d",
+        "selected_prediction_model.pt": "77bc3f68080eecd3ab82940a4b543afdbd9929290bb187517e7c0c05b909c48d",
+        "selected_errors.npz": "9b0241fe49d1af6c7df4ab976e1d3050bd687324afca4971d0207128a3096361"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "P1",
+      "id": "ENG_direct_P1_s2026101602",
+      "seed": 2026101602,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "b94323cd337d4889602df89052df216586f8b1e1da21ac7b6b50d636964a5ed3",
+      "process_seconds": 36.03569453116506,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.47189802117646,
+        "evaluation": 0.08801057748496532,
+        "serialization": 0.4399540312588215,
+        "parent_anchor_load": 0.02444249764084816
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007151094778832576,
+        "1000": 0.00725153900936703,
+        "1500": 0.007085127261640378,
+        "2000": 0.00715867458808262,
+        "2500": 0.0076334845591451315,
+        "3000": 0.007349059509418837
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.940015708096325
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.890789899975061
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.84501607902348
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.794151674956083
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.740216066129506
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.67098766285926
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "5b64e559f9b78f76ecb338165e77ed54cd839afd8f8862c179955360e1d9f36f",
+        "step_500.pt": "8b55b4ae98cdf064fe266c3b446f152d2f6c742d829ef725454fa12c57d4d295",
+        "step_1000.pt": "37da10a99c735f4af678357cc4fd2918659470350d191664c58cea51f3c4e63d",
+        "step_1500.pt": "f0c0e127997a78c04626da66e5acd781231ecb1ce374bb89fb2db2a40ba4d880",
+        "step_2000.pt": "b19afbff4a5e6d2c73155ff218456a14c36bbef9115530688cca3519f77d8558",
+        "step_2500.pt": "030298e3d2113a1b8cd115091a9fc19f00b2092eebca547a2264b8116b8ba3dc",
+        "step_3000.pt": "9f4d0f21c44ef19c6dc87ab535df49e02c05e2584ad36e55732d9f1366dfc32c",
+        "selected_prediction_model.pt": "3c4a76bf18be1e6243d6d80963fe7f13c1b7035ef98b0edf6b81a808e31dc3dd",
+        "selected_errors.npz": "d2a74dbad264194fcb442d7271d24c67e8604113a78c6b256c35b9a1ae075367",
+        "sampling.npz": "7902a5d2b43996985c80f2f251cf6515c9a692630d271ca77d6854a423a8a40b"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "PARENT",
+      "id": "ENG_direct_PARENT_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 35.61608100216836,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.05713076144457,
+        "evaluation": 0.08290721569210291,
+        "serialization": 0.43893564213067293,
+        "parent_anchor_load": 0.02431339118629694
+      },
+      "peak_gpu_memory_bytes": 80722944,
+      "selection_losses": {
+        "500": 0.007652585867121408,
+        "1000": 0.007475610183749913,
+        "1500": 0.007273335587060802,
+        "2000": 0.007577828874402366,
+        "2500": 0.007604673846399336,
+        "3000": 0.007617922346401847
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.854823161847889
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.729760128073394
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.604917673394084
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.480064339004457
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.387003695592284
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.252602827735245
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "step_500.pt": "b99be7c3ab57e9c33ef6527ff040c48e1f04808887c381841819f65166198ae7",
+        "step_1000.pt": "8a68e6b4b87befa155676805f28705070510f35e7939705999bf68b96b017703",
+        "step_1500.pt": "3ee992b5ee4103049c08ebeffde7efb50c334892387453357ebfeb9ba8d616b9",
+        "step_2000.pt": "c691c0b753e071d4e565f104e657e91dc916c885aaa721369ba30521b78b58a5",
+        "step_2500.pt": "1383d3add35f99ba960437e7a25398f29b0608ae30fbdd72432b2a8b090bb674",
+        "step_3000.pt": "630e25934c3798020001d027fe05764995eb933f0a501571544c4eeda136cf03",
+        "selected_prediction_model.pt": "3aa7cf9e1f1fa86890056879a606e24698b5866e7eba2ea51dbf14eb45e6b5ee",
+        "selected_errors.npz": "293fb0707ed4dd09d9cd9b872ff609723d05ac4bc55e4d3bacb3403104bbb8be",
+        "sampling.npz": "5478300f4712ecbfa5d9b6e0fe4e8a98c098dc94393ad50805427347e9b55d2c"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "PARENT",
+      "id": "ENG_proxy_PARENT_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 7.353270986117423,
+      "timings": {
+        "moment_build": 0.03214614186435938,
+        "updates": 7.249900604598224,
+        "evaluation": 0.0,
+        "serialization": 0.0633667940273881,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664,
+      "selection_losses": {},
+      "selected_step": null,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.3581273453310132
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.663704571314156
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 3.9669184386730194
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.2728324346244335
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.4947032537311316
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.353017210960388
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "moments.npz": "2bc012080dfa54ca35cd0daa4b61dcf88b89c39b57c0f7ac3ff06271d6b69cb3",
+        "step_500.pt": "137e979e565683edb4bfcb29f47da41d837c9ce44bb5d4af20ebcb12831ba229",
+        "step_1000.pt": "3ba8787634901d40408d645941b852d15d877e6a01637ff76cf5773857d76283",
+        "step_1500.pt": "63be0796ed93b269b0487f3909353cfd091725809995654cd6246ef6424e3d16",
+        "step_2000.pt": "0cd1885da450daa1b42b3c1c177c414f1c77e0700d690898be1fe8a77ab5068c",
+        "step_2500.pt": "b5958b413a64c14fe94639f14a8e275a9660e693297ec70d2f4d72bb0939a7d1",
+        "step_3000.pt": "16f17db0c9fe6ea999dff9d930744876c5bd85ed884e913d576891d61b1809d3"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "P1",
+      "id": "ENG_direct_P1_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 36.0481075597927,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.490184949710965,
+        "evaluation": 0.08593816682696342,
+        "serialization": 0.43606674298644066,
+        "parent_anchor_load": 0.02446204051375389
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007560719314509867,
+        "1000": 0.007414819031964449,
+        "1500": 0.007252984073235723,
+        "2000": 0.007559740021521731,
+        "2500": 0.00758287519357867,
+        "3000": 0.007600304084319089
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.9371012188494205
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.887110704556108
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.825577802956104
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.775605848059058
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.7300724722445
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.68417291343212
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "step_500.pt": "9113a30283038ebe6732107f7e3e9c571cc356abd134f15a1d7f1d3719d2e112",
+        "step_1000.pt": "c7c892954e985e91391a34835ee0e58f8184460f25b720bc0c4dbbd91adc0fea",
+        "step_1500.pt": "fdefe649db849bf300e88103273d8706d184b8e8cfa0fc39f3e5cdb92cad7400",
+        "step_2000.pt": "f584daa4ed317b4d9b28afc9fc3cd81df8da9f513fad21ff17d6e1e55835fa9c",
+        "step_2500.pt": "35be509980f028dffc2248e9ad858a45539d8d24315bd1dc09b717407cb24d91",
+        "step_3000.pt": "cf03e29eaf1aa4589a785973d69a49a5e33031e8299a780411523b7e8b63085d",
+        "selected_prediction_model.pt": "8f5ff122f6d701a8d42ad01ad9df2aab40fd2a95220bf4cbff4c9a151d74ce56",
+        "selected_errors.npz": "939dfcc13e683d17de6d32c6cd59f2a0e4cb0b9c36ed431c7d79a8405b7603d4",
+        "sampling.npz": "5478300f4712ecbfa5d9b6e0fe4e8a98c098dc94393ad50805427347e9b55d2c"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "P1",
+      "id": "ENG_proxy_P1_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 7.820773603394628,
+      "timings": {
+        "moment_build": 0.03252766001969576,
+        "updates": 7.166190885007381,
+        "evaluation": 0.06431558355689049,
+        "serialization": 0.254312789067626,
+        "parent_anchor_load": 0.2924862066283822
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.007580555828820239,
+        "1000": 0.007448122069690651,
+        "1500": 0.007270884324115561,
+        "2000": 0.007588980044045348,
+        "2500": 0.007625607891236381,
+        "3000": 0.007640055916020384
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4159617349505424
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.780346135608852
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.141156335361302
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.499058723449707
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.688563532195985
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.578909116797149
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "moments.npz": "e19de76b8113174e3d361a986b2b9d9206a8d72882f58f80a341dc1e3f98d3dc",
+        "step_500.pt": "533fa7d715a998ea59f34ce51f050bf6ee5b6fd68add262ad8113c9539c88123",
+        "step_1000.pt": "e1c95d7ca4d84ca08111ec99f1d408a5612cd700f38f01820ddc3555a954dcb5",
+        "step_1500.pt": "4b1233453d83143b12f8e00020f1a74a9faab53569a7129b4fef584308e03b05",
+        "step_2000.pt": "90a7712be77df46838bd2bf18e6c92974312b40ec50a905611ed3eccc4c5899b",
+        "step_2500.pt": "6fdde7c9afc581b9fb32d1b47373df23a481d2594807bc645f20649e2e73dbbd",
+        "step_3000.pt": "a47db83d097777544bc3764d18e9c5c8c34660e4df761921e111ad046fd51471",
+        "selected_prediction_model.pt": "a5e5a3ccab0ee69f0859a8b106e675cb86238fa054d5dee457d12985de3501ad",
+        "selected_errors.npz": "df267aa1be0fa32d2db9748cd484e7491709babbae8e42850fe6f2d9a125bff4"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "direct",
+      "action": "CP1",
+      "id": "ENG_direct_CP1_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 36.16852191463113,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.60639094840735,
+        "evaluation": 0.09007459506392479,
+        "serialization": 0.43653069622814655,
+        "parent_anchor_load": 0.02421882376074791
+      },
+      "peak_gpu_memory_bytes": 82820096,
+      "selection_losses": {
+        "500": 0.007697477959558795,
+        "1000": 0.007531025180583045,
+        "1500": 0.007283227747580812,
+        "2000": 0.007552604930642207,
+        "2500": 0.007513941720761113,
+        "3000": 0.007550139686338047
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 5.959271405823529
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 11.922684085555375
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 17.88957084249705
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 23.85469917114824
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 29.834928331896663
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 35.80626832507551
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "step_500.pt": "1269cca44fd1b42d988eca9f91dc3c54ab1775fb298174e3429aee8aba2b3956",
+        "step_1000.pt": "b2d5e155d0d165225b6448e24b718dba971e40e15cf21ef8cededec21e32b757",
+        "step_1500.pt": "53d52da89a01d841f80df8fad072d377007c617171344962403f0f31a690df17",
+        "step_2000.pt": "c137a4052068be8cd31ffd318ad3b86ae561ddb02eee9e4cc010a225009febdf",
+        "step_2500.pt": "ae56cf620db529f0e73f6efa2fd3a37f0324f2c69320d167745f675f9e908bcf",
+        "step_3000.pt": "2127ecb3bfd5cf79416fbaa37d9b48d3474bce539e1770d3e0ac3769bcbe42e9",
+        "selected_prediction_model.pt": "7082f24fd81638fc09bc4d9dd9d20466c3aa46e334b8c0ab5bdde28176238cd8",
+        "selected_errors.npz": "f6f5211e07f0bc3d894352075ce4469dbfc13613e9f36169b6463a2cab0f59f5",
+        "sampling.npz": "5478300f4712ecbfa5d9b6e0fe4e8a98c098dc94393ad50805427347e9b55d2c"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 1,
+      "proxy_rollout_completed": 0,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    },
+    {
+      "engine": "proxy",
+      "action": "CP1",
+      "id": "ENG_proxy_CP1_s2026101603",
+      "seed": 2026101603,
+      "status": "completed",
+      "steps": 3000,
+      "initial_sha256": "6eab9b316f8e3f7a00d57abc719c3f2ab694eb58e4b1e8002e2dc60cfb3a3a4e",
+      "process_seconds": 7.822714897803962,
+      "timings": {
+        "moment_build": 0.032375022768974304,
+        "updates": 7.169208750128746,
+        "evaluation": 0.06447040848433971,
+        "serialization": 0.25420902017503977,
+        "parent_anchor_load": 0.2919938890263438
+      },
+      "peak_gpu_memory_bytes": 99941376,
+      "selection_losses": {
+        "500": 0.007709781836445086,
+        "1000": 0.007559833863564588,
+        "1500": 0.007297315879199536,
+        "2000": 0.007574959824077579,
+        "2500": 0.0075987545227932515,
+        "3000": 0.007614219697067606
+      },
+      "selected_step": 1500,
+      "checkpoints": [
+        {
+          "step": 500,
+          "elapsed_seconds": 1.4179299101233482
+        },
+        {
+          "step": 1000,
+          "elapsed_seconds": 2.7834922866895795
+        },
+        {
+          "step": 1500,
+          "elapsed_seconds": 4.143192123621702
+        },
+        {
+          "step": 2000,
+          "elapsed_seconds": 5.50038555637002
+        },
+        {
+          "step": 2500,
+          "elapsed_seconds": 6.687150669284165
+        },
+        {
+          "step": 3000,
+          "elapsed_seconds": 7.580949733033776
+        }
+      ],
+      "assets_sha256": {
+        "initial.pt": "1eafac0eba5e27ded0fe637c41deb6b0b33f6f25da06c2fc20e2f84dafc5bab2",
+        "moments.npz": "2ae4dd445344ff5def456a8eedee0b492b2c011cc016b6b1622d9af456fb9187",
+        "step_500.pt": "f046aaf92a734dc94b762bd04f63d44d600ce069ea3fb90ec8f126fd2c754769",
+        "step_1000.pt": "e25b1af041b3906be36cac9f94f58213c9646d4d620ffc54cc384af0d0730eba",
+        "step_1500.pt": "42585dd091a53d13c84217f4149db1d072d9a127856785dd90d5368b07ffbf53",
+        "step_2000.pt": "7f589ea2c6e6471c977026523cc2ba53dbe8bcc72c9ad0edac09d0ebd7dc3570",
+        "step_2500.pt": "8533ee5603fe0d8b9db6480eecac5be3cad4cba26cc30bf24e0ab2fba7a24340",
+        "step_3000.pt": "dd565e167d57b35cc775af6d2ddfe490bb5f2340fc75475a3a0e837db751ed3a",
+        "selected_prediction_model.pt": "870f04cf17cccef3b9fe5ec5c926a32c0ef0bd78466df023be401d71d71633fe",
+        "selected_errors.npz": "8ae0ed1588510294d6a299e398beaa70329fe5736b3d0ed61d76878c4de0f79a"
+      },
+      "purpose": "engineering cost only; disclosed task; not independent response evidence",
+      "direct_training_completed": 0,
+      "proxy_rollout_completed": 1,
+      "plan_sha256": "f24a66b3a0d4bb4e40400da41a031da2a45e149f3612da0977644853e3eb2204",
+      "test_access": false
+    }
+  ],
+  "inputs_unchanged": true,
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "threads": 4
+  },
+  "full_direct_trainings": 9,
+  "proxy_rollouts": 9,
+  "test_access": false
+}

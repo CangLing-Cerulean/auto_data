@@ -1,10 +1,17 @@
 {
-  "status": "prepared_not_started",
+  "status": "complete_audited_cost_pass",
+  "numerical_gate": "PASS",
+  "registered_direct": 9,
   "registered_proxy": 9,
-  "completed_proxy": 0,
-  "next": "source freeze, numerical verification, then cost matrix only on PASS",
-  "cumulative_successful_full_trainings": 295,
+  "completed_direct": 9,
+  "completed_proxy": 9,
+  "failed": 0,
+  "cumulative_successful_full_trainings": 304,
+  "diagnostic_optimizer_steps": 384,
   "test_access": false,
-  "completed_direct": 0,
-  "registered_direct": 9
+  "model_queue": false,
+  "cost_gate": true,
+  "efficacy_validated": false,
+  "next": "Freeze one M1 development study with A/B/C/D and equal-cost short-training comparison",
+  "github_sync": "result_publication_pending"
 }

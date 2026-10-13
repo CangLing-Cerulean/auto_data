@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+当前入口：[响应代理数值/成本验收](agent_research/intervention_diagnosis/20261013_response_proxy_engineering_r1/REPORT.md)。18/18完成且独立审计通过，新增9次完整训练、累计304，另9代理轨迹/384诊断更新单列。两候选成本22.960979 vs 72.214422秒，含共同真实父58.584050 vs 107.837493秒，成本门槛true；预测和选择优势尚未检验。下一步另冻单一M1开发任务和同成本短训比较；没有科学实验或测试队列。核对sync_receipt/release_receipt后接续，下文“未实现”为历史设计状态。
+
 当前入口：[有限协议响应代理设计](agent_research/intervention_diagnosis/20261013_response_proxy_design_r1/REPORT.md)。已结合用户建议收敛M1主线并核对冻结代码，未实现或运行代理。下一步按第7节做原坐标矩梯度/Adam/检查点选择的局部原型和成本验收；新任务/独立来源/动作/运行预算与科学门槛尚未冻结，execution_ready=false。旧父模型缺中间权重和优化器状态，不能插值或重跑旧ID冒充已有轨迹。累计295，无新训练和测试，机制分解结论保持。
 
 最新完成：[事后机制分解](agent_research/intervention_diagnosis/20261013_mechanism_r1/REPORT.md)。24组及32成员归档通过核验；P1固定父模型平均改善1.454711%，适应抵消0.333084个百分点；CP1固定伤害由适应部分补回。训练终点会改变净方向。新增训练0、累计295，旧结果不改，无队列/测试。下一步进入单一响应代理设计，先处理样本外残差、适应估计、终点固定与等成本短训练对照；不直接追调旧信号。同步优先核对本阶段sync_receipt和release_receipt。

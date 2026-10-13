@@ -1,0 +1,326 @@
+{
+  "scope": "engineering compute and delivery; no method efficacy",
+  "successful_full_trainings_before": 295,
+  "new_full_trainings": 9,
+  "successful_full_trainings_after": 304,
+  "proxy_rollouts": 9,
+  "proxy_optimizer_steps": 27000,
+  "diagnostic_optimizer_steps": 384,
+  "direct_total_seconds": 323.8461289666593,
+  "proxy_total_seconds": 65.02061076648533,
+  "numerical_seconds": 4.259308367036283,
+  "numerical_setup_seconds": 1.5512341996654868,
+  "benchmark_setup_seconds": 1.4886687817052007,
+  "independent_audit_seconds": 4.237014014273882,
+  "original_postrun_hash_seconds": null,
+  "archive_transfer_seconds": null,
+  "unmeasured_costs_not_zero": true,
+  "new_failures": 0,
+  "research_LLM_API_calls": 0,
+  "research_LLM_tokens": 0,
+  "API_scope": "research actors only; does not claim zero interactive assistant/reviewer usage",
+  "test_access": false,
+  "medians": {
+    "direct_PARENT": 35.623071516864,
+    "direct_P1": 36.0481075597927,
+    "direct_CP1": 36.166314367204905,
+    "proxy_PARENT": 7.353270986117423,
+    "proxy_P1": 7.799681153148413,
+    "proxy_CP1": 7.808026515878737
+  },
+  "two_candidate_proxy_seconds": 22.960978655144572,
+  "two_candidate_direct_seconds": 72.2144219269976,
+  "cold_proxy_seconds": 58.584050172008574,
+  "cold_direct_seconds": 107.8374934438616,
+  "cost_gate": true,
+  "runs": [
+    {
+      "id": "ENG_direct_PARENT_s2026101601",
+      "engine": "direct",
+      "action": "PARENT",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 35.963572070002556,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.38256434164941,
+        "evaluation": 0.08595771621912718,
+        "serialization": 0.433021929115057,
+        "parent_anchor_load": 0.025409039109945297
+      },
+      "peak_gpu_memory_bytes": 80722944
+    },
+    {
+      "id": "ENG_proxy_PARENT_s2026101601",
+      "engine": "proxy",
+      "action": "PARENT",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 7.394837319850922,
+      "timings": {
+        "moment_build": 0.07171667832881212,
+        "updates": 7.250834561884403,
+        "evaluation": 0.0,
+        "serialization": 0.06394486408680677,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664
+    },
+    {
+      "id": "ENG_direct_P1_s2026101601",
+      "engine": "direct",
+      "action": "P1",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 36.08072343003005,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.51176339760423,
+        "evaluation": 0.09200380835682154,
+        "serialization": 0.4401723425835371,
+        "parent_anchor_load": 0.02460305579006672
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_proxy_P1_s2026101601",
+      "engine": "proxy",
+      "action": "P1",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 6.088862960226834,
+      "timings": {
+        "moment_build": 0.0328945517539978,
+        "updates": 5.507236966863275,
+        "evaluation": 0.05593022983521223,
+        "serialization": 0.244142503477633,
+        "parent_anchor_load": 0.23841692134737968
+      },
+      "peak_gpu_memory_bytes": 99941376
+    },
+    {
+      "id": "ENG_direct_CP1_s2026101601",
+      "engine": "direct",
+      "action": "CP1",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 36.166314367204905,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.603145111352205,
+        "evaluation": 0.08885217364877462,
+        "serialization": 0.43814173340797424,
+        "parent_anchor_load": 0.0245856661349535
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_proxy_CP1_s2026101601",
+      "engine": "proxy",
+      "action": "CP1",
+      "seed": 2026101601,
+      "steps": 3000,
+      "process_seconds": 7.793659574352205,
+      "timings": {
+        "moment_build": 0.03252555336803198,
+        "updates": 7.142085317522287,
+        "evaluation": 0.06379593722522259,
+        "serialization": 0.2528597917407751,
+        "parent_anchor_load": 0.29149622563272715
+      },
+      "peak_gpu_memory_bytes": 99941376
+    },
+    {
+      "id": "ENG_proxy_PARENT_s2026101602",
+      "engine": "proxy",
+      "action": "PARENT",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 5.138783755712211,
+      "timings": {
+        "moment_build": 0.029387401416897774,
+        "updates": 5.060544049367309,
+        "evaluation": 0.0,
+        "serialization": 0.04343454074114561,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664
+    },
+    {
+      "id": "ENG_direct_PARENT_s2026101602",
+      "engine": "direct",
+      "action": "PARENT",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 35.623071516864,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.066541594453156,
+        "evaluation": 0.08403212670236826,
+        "serialization": 0.4366585286334157,
+        "parent_anchor_load": 0.024487010203301907
+      },
+      "peak_gpu_memory_bytes": 80722944
+    },
+    {
+      "id": "ENG_proxy_CP1_s2026101602",
+      "engine": "proxy",
+      "action": "CP1",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 7.808026515878737,
+      "timings": {
+        "moment_build": 0.032670228742063046,
+        "updates": 7.1493304362520576,
+        "evaluation": 0.06465315539389849,
+        "serialization": 0.25736839696764946,
+        "parent_anchor_load": 0.2930497685447335
+      },
+      "peak_gpu_memory_bytes": 99941376
+    },
+    {
+      "id": "ENG_direct_CP1_s2026101602",
+      "engine": "direct",
+      "action": "CP1",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 36.14404257480055,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.58637926727533,
+        "evaluation": 0.08695557620376348,
+        "serialization": 0.4348796447739005,
+        "parent_anchor_load": 0.024592003785073757
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_proxy_P1_s2026101602",
+      "engine": "proxy",
+      "action": "P1",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 7.799681153148413,
+      "timings": {
+        "moment_build": 0.032490747049450874,
+        "updates": 7.144735302776098,
+        "evaluation": 0.06426974106580019,
+        "serialization": 0.25495456624776125,
+        "parent_anchor_load": 0.29230012465268373
+      },
+      "peak_gpu_memory_bytes": 99941376
+    },
+    {
+      "id": "ENG_direct_P1_s2026101602",
+      "engine": "direct",
+      "action": "P1",
+      "seed": 2026101602,
+      "steps": 3000,
+      "process_seconds": 36.03569453116506,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.47189802117646,
+        "evaluation": 0.08801057748496532,
+        "serialization": 0.4399540312588215,
+        "parent_anchor_load": 0.02444249764084816
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_direct_PARENT_s2026101603",
+      "engine": "direct",
+      "action": "PARENT",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 35.61608100216836,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.05713076144457,
+        "evaluation": 0.08290721569210291,
+        "serialization": 0.43893564213067293,
+        "parent_anchor_load": 0.02431339118629694
+      },
+      "peak_gpu_memory_bytes": 80722944
+    },
+    {
+      "id": "ENG_proxy_PARENT_s2026101603",
+      "engine": "proxy",
+      "action": "PARENT",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 7.353270986117423,
+      "timings": {
+        "moment_build": 0.03214614186435938,
+        "updates": 7.249900604598224,
+        "evaluation": 0.0,
+        "serialization": 0.0633667940273881,
+        "parent_anchor_load": 0.0
+      },
+      "peak_gpu_memory_bytes": 100465664
+    },
+    {
+      "id": "ENG_direct_P1_s2026101603",
+      "engine": "direct",
+      "action": "P1",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 36.0481075597927,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.490184949710965,
+        "evaluation": 0.08593816682696342,
+        "serialization": 0.43606674298644066,
+        "parent_anchor_load": 0.02446204051375389
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_proxy_P1_s2026101603",
+      "engine": "proxy",
+      "action": "P1",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 7.820773603394628,
+      "timings": {
+        "moment_build": 0.03252766001969576,
+        "updates": 7.166190885007381,
+        "evaluation": 0.06431558355689049,
+        "serialization": 0.254312789067626,
+        "parent_anchor_load": 0.2924862066283822
+      },
+      "peak_gpu_memory_bytes": 99941376
+    },
+    {
+      "id": "ENG_direct_CP1_s2026101603",
+      "engine": "direct",
+      "action": "CP1",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 36.16852191463113,
+      "timings": {
+        "moment_build": 0.0,
+        "updates": 35.60639094840735,
+        "evaluation": 0.09007459506392479,
+        "serialization": 0.43653069622814655,
+        "parent_anchor_load": 0.02421882376074791
+      },
+      "peak_gpu_memory_bytes": 82820096
+    },
+    {
+      "id": "ENG_proxy_CP1_s2026101603",
+      "engine": "proxy",
+      "action": "CP1",
+      "seed": 2026101603,
+      "steps": 3000,
+      "process_seconds": 7.822714897803962,
+      "timings": {
+        "moment_build": 0.032375022768974304,
+        "updates": 7.169208750128746,
+        "evaluation": 0.06447040848433971,
+        "serialization": 0.25420902017503977,
+        "parent_anchor_load": 0.2919938890263438
+      },
+      "peak_gpu_memory_bytes": 99941376
+    }
+  ]
+}
