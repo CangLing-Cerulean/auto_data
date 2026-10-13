@@ -1,5 +1,8 @@
 {
-  "status": "preparing_frozen_protocol",
+  "status": "forecast_complete_pending_remote_lock",
+  "forecast_pid": 45540,
+  "source_commit": "9073aadbaae3526aca8b9907c3a4abf308dbbcf9",
+  "plan_sha256": "e5a3046549c4307c4d550cd06af43456ffda662f91b01c5f4b9a9aa139e81f52",
   "registered_new_full": 36,
   "registered_proxy": 36,
   "registered_short": 36,
@@ -8,5 +11,6 @@
   "cumulative_completed_full": 331,
   "model_queue": false,
   "D_access": false,
-  "test_access": false
+  "test_access": false,
+  "completed_forecast_runs": 72
 }

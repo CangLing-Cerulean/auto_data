@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "tasks": [
+    {
+      "task": "G1",
+      "A_windows": 6468,
+      "A_cycles": 308,
+      "pair_mask_overlap": 0,
+      "half_windows": 3234,
+      "prior_input_transform_actions_use_all_windows": true,
+      "retained": {
+        "KEEP_FIRST": 3234,
+        "KEEP_SECOND": 3234,
+        "FAVOR_FIRST": 6468,
+        "FAVOR_SECOND": 6468
+      }
+    },
+    {
+      "task": "G2",
+      "A_windows": 6468,
+      "A_cycles": 308,
+      "pair_mask_overlap": 0,
+      "half_windows": 3234,
+      "prior_input_transform_actions_use_all_windows": true,
+      "retained": {
+        "KEEP_FIRST": 3234,
+        "KEEP_SECOND": 3234,
+        "FAVOR_FIRST": 6468,
+        "FAVOR_SECOND": 6468
+      }
+    },
+    {
+      "task": "G3",
+      "A_windows": 6468,
+      "A_cycles": 308,
+      "pair_mask_overlap": 0,
+      "half_windows": 3234,
+      "prior_input_transform_actions_use_all_windows": true,
+      "retained": {
+        "KEEP_FIRST": 3234,
+        "KEEP_SECOND": 3234,
+        "FAVOR_FIRST": 6468,
+        "FAVOR_SECOND": 6468
+      }
+    }
+  ],
+  "assets_sha256": {
+    "prepared/G1_FAVOR_FIRST.npz": "4dd861922312c62f4cf474455b6718d6e3a6cbf88e6dba7c75d6fda9b1ac376b",
+    "prepared/G1_FAVOR_SECOND.npz": "609702797011cc183497cbdbeefffe114cebf81c99ceca2f9416ee58daabab5b",
+    "prepared/G1_KEEP_FIRST.npz": "0a69b8c4445c07d0d500a1d7613bf493d85accdec5a41bdea20de4af7794b11f",
+    "prepared/G1_KEEP_SECOND.npz": "877c95e20e862659cfb9e9e896d01a38524f7f675720915b238e028c8003609c",
+    "prepared/G2_FAVOR_FIRST.npz": "ba85829236e93b0ff681b203fbe903e10cae59921f7b5e25fb0d9775b3da098a",
+    "prepared/G2_FAVOR_SECOND.npz": "d467a13c0c3399d92e90cb9456cb6ac0c631514e4d9ac52ab02e36e38e72074e",
+    "prepared/G2_KEEP_FIRST.npz": "5cda7ebd7b291264c8bf91852ee3b66d8eeff53b6a4e41d24363ed8017e2f578",
+    "prepared/G2_KEEP_SECOND.npz": "109c128b6b29d14af5bd6a1b6debae27bce4e9b062a356d2b7c52b4735e64d83",
+    "prepared/G3_FAVOR_FIRST.npz": "537661ffb575355dd17c81bbf662fab3827a876734bc04157396638f265f28af",
+    "prepared/G3_FAVOR_SECOND.npz": "122def1644e1c93a15be6880cdb82d51c24f28437b1714da105b1aaddc037b19",
+    "prepared/G3_KEEP_FIRST.npz": "8f10e53cfddfe2f72c8c93028b5f02667205c2ccf5def4e8d41f4fc1e0f591b2",
+    "prepared/G3_KEEP_SECOND.npz": "7a7c3398248dec3ca09e7ffcc7378c70baf6f87f0912c7659aeecbb5e97a1435"
+  },
+  "seconds": 0.10602019354701042,
+  "plan_sha256": "e5a3046549c4307c4d550cd06af43456ffda662f91b01c5f4b9a9aa139e81f52",
+  "D_loaded": false,
+  "test_access": false,
+  "new_full_trainings": 0,
+  "labels_inspected": false
+}
