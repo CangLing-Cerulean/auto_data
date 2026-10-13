@@ -1,0 +1,33 @@
+{
+  "status": "source_and_release_verified",
+  "verified_utc": "2026-10-13T13:13:10.3169183Z",
+  "source_commit": "2a74b33b106fbb2d327c3e8a20309b03c28c0165",
+  "source_receipt": "result_source_sync_receipt.json",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/response-proxy-development-20261013-r1",
+  "assets": [
+    {
+      "name": "response_proxy_development_failed_audit_20261013.tar.gz",
+      "bytes": 293218806,
+      "sha256": "602e5519bb5b5d4f3ea8d637e836e2f68d7d02ef5eee6c73a54574f5cd0915ff",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/response-proxy-development-20261013-r1/response_proxy_development_failed_audit_20261013.tar.gz",
+      "asset_id": 637074127
+    }
+  ],
+  "stage_accepted": false,
+  "scientific_advance": false,
+  "completed_full_trainings": 27,
+  "cumulative_completed_full_trainings": 331,
+  "last_independently_accepted_full_count": 304,
+  "proxy_rollouts": 27,
+  "short_trainings": 18,
+  "training_failures": 0,
+  "audit_failures": 1,
+  "selection_gate": false,
+  "error_gate": null,
+  "D_gate": null,
+  "test_access": false,
+  "D_access": "partial original audit",
+  "model_queue": false,
+  "failed_audit_preserved": true,
+  "tolerance_changed": false
+}
