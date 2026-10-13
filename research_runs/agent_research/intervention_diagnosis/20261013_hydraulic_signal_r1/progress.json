@@ -1,14 +1,10 @@
 {
-  "date": "2026-10-13",
-  "predictions_locked": false,
-  "runtime_preflight": "not_run",
-  "status": "awaiting_specific_upload_authorization",
-  "remote_command_executed": false,
-  "cumulative_successful_trainings": 286,
-  "static_review": "no_blocking_findings",
-  "new_trainings": 0,
-  "input_statistics_computed": false,
+  "candidate_trainings_started": 0,
+  "prediction_lock_sha256": "7436839d0c91f3b8ae4196d6f6a7c13521f2de2fb58d14df4f81856a24ba117e",
+  "new_completed_observed": 1,
+  "status": "anchor_completed_predictions_locked",
+  "next": "publish prediction lock then activate remaining eight",
+  "cumulative_successful_trainings_full_audit": 286,
   "planned_trainings": 9,
-  "next": "specific upload authorization, preflight, source freeze and anchor",
-  "test_access_for_selection": false
+  "new_trainings_fully_audited": 0
 }

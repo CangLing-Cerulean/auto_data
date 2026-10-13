@@ -1,0 +1,13 @@
+{
+  "test_csv_included": false,
+  "date": "2026-10-13",
+  "status": "specific_upload_and_nine_trainings_authorized",
+  "destination": "root@instance-lcpdyopw.zju.smartml.cn:20000:/tmp/auto_data_hydraulic_signal_20261013_r1",
+  "answer": "授权上传并执行9次训练",
+  "payload": [
+    "frozen code",
+    "train.csv",
+    "validation.csv",
+    "manifest.json"
+  ]
+}

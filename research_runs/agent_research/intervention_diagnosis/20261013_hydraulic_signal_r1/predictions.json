@@ -1,0 +1,88 @@
+{
+  "predictions": {
+    "new_signal": {
+      "H1_P1": "unchanged",
+      "H1_CP1": "unchanged"
+    },
+    "generic_stats": {
+      "H1_P1": "unchanged",
+      "H1_CP1": "harm"
+    },
+    "case_match": {
+      "H1_P1": "unchanged",
+      "H1_CP1": "unchanged"
+    },
+    "always_unchanged": {
+      "H1_P1": "unchanged",
+      "H1_CP1": "unchanged"
+    }
+  },
+  "signals": {
+    "H1_P1": 0.0009566401544195031,
+    "H1_CP1": 0.0010903728795305194
+  },
+  "input_trace": {
+    "H1_P1": {
+      "features": {
+        "weighted_edit_ratio": 0.19915866630303322,
+        "edit_ratio": 0.05612051570357427,
+        "roughness_change": 0.10383404362370766,
+        "edited_fraction": 0.3580446243286133,
+        "parent_nmse_ratio": 0.007082583707576495,
+        "parent_nmae_ratio": 0.043475335244105025
+      },
+      "input_sha256": [
+        "6367bab7814d91345d209a47cb7bcdc1125118b4d4f918b83fac778cb43aaa28",
+        "58f12e94fa0c3e189a2f7c585755fde02f06cf4b8dc8dac749d80158b3693534"
+      ]
+    },
+    "H1_CP1": {
+      "features": {
+        "weighted_edit_ratio": 0.43562306593569083,
+        "edit_ratio": 0.2466547573216621,
+        "roughness_change": 0.12129025341784769,
+        "edited_fraction": 0.9081511497497559,
+        "parent_nmse_ratio": 0.007082583707576495,
+        "parent_nmae_ratio": 0.043475335244105025
+      },
+      "input_sha256": [
+        "6367bab7814d91345d209a47cb7bcdc1125118b4d4f918b83fac778cb43aaa28",
+        "213be7519468cba7df852ce5f3f05ff701f3781fc27b099c75fe504c32485250"
+      ]
+    }
+  },
+  "anchor_metrics": {
+    "windows": 9240,
+    "elements": 591360,
+    "NMSE": 0.0071331045174159845,
+    "NMAE": 0.045451347828233915,
+    "signed_bias": 0.0008219658228814667,
+    "channel_NMSE": [
+      0.0016964809402039975,
+      0.0062339220111825525,
+      0.013570511820324527,
+      0.00015304548811080396,
+      0.00013807781032927678,
+      0.00015558107590595853,
+      3.193708165455384e-05,
+      0.03508527991161735
+    ],
+    "channel_NMAE": [
+      0.032448116464145256,
+      0.06336103336184055,
+      0.08829961086570959,
+      0.009518561679950525,
+      0.009671139068804778,
+      0.010171854354086376,
+      0.004098377847697312,
+      0.1460420889836369
+    ]
+  },
+  "sampled_windows": 8192,
+  "sample_start_sha256": "02a279b509011b0551fc338c6a3ae9b91acfc30c9be211f7f3cf8bfb257ca82d",
+  "signal_sha256": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+  "rule_sha256": "1c3008aa30b53464ff096664eccbf1102eb8669683c83238c578ccca37a46dd8",
+  "candidate_responses_seen": false,
+  "new_LLM_calls": 0,
+  "test_access": false
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "task": "H1",
+  "dataset_id": "uci_hydraulic_v1",
+  "protocol_sha256": "1760b2bf75593c08cb71ccbb598ddb0a459b7a51d9fb47c3953e70870004770d",
+  "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "arrays_sha256": "3ecd59b135148b07c2a8148c04d488a5fc9cdadf8ad28f1014f42f1c634862a2",
+  "params_sha256": "a07762702e93327f598483dc25280e5143a3d9b9eb137973bc5a4755750854f4",
+  "rows": {
+    "train": 92610,
+    "validation": 26460
+  },
+  "windows": {
+    "validation": 9240,
+    "train": 32403
+  },
+  "target_windows": {
+    "train": 30992,
+    "validation": 9204
+  },
+  "mean": [
+    24.57607635244597,
+    1.659249724651789,
+    54.3329392074287,
+    49.49748766872031,
+    54.148387657917525,
+    51.44999630709665,
+    44.92747620127695,
+    0.641478274484404
+  ],
+  "scale": [
+    6.383226153375553,
+    0.19245263211954544,
+    26.606460230480476,
+    5.99186824015247,
+    5.513035953736399,
+    5.606207758799269,
+    5.937752162602958,
+    0.07945212411125122
+  ],
+  "original_partition_membership_preserved": true,
+  "generated_sensor_records": 0,
+  "test_access": false,
+  "process_seconds": 1.4935953179374337
+}
