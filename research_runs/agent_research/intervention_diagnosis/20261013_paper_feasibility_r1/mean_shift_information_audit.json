@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "type": "algebraic_reconstruction_of_preexisting_statistics",
+  "cells": {
+    "H1_P1": {
+      "mean_shift_energy": 6.8303483925722926E-06,
+      "total_edit_energy": 0.00042411505996793305,
+      "centered_edit_energy": 0.0004172847115753608,
+      "mean_component_share": 0.016104941883197284,
+      "centered_component_share": 0.9838950581168027,
+      "edited_fraction": 0.3580446243286133,
+      "source": "locked training-input summary",
+      "posthoc": true
+    },
+    "H1_CP1": {
+      "mean_shift_energy": 7.78623361060972E-06,
+      "total_edit_energy": 0.0023354686059184728,
+      "centered_edit_energy": 0.002327682372307863,
+      "mean_component_share": 0.003333906347907262,
+      "centered_component_share": 0.9966660936520927,
+      "edited_fraction": 0.9081511497497559,
+      "source": "locked training-input summary",
+      "posthoc": true
+    }
+  },
+  "prediction_source_sha256": "12178b46c6c3692160fad875119782e27318e3a05e266bb4538629c571be438a",
+  "new_trainings": 0,
+  "new_predictions": 0,
+  "new_thresholds": 0,
+  "test_access": false,
+  "interpretation_limit": "Describes information omitted by the mean-shift signal, not proof that omitted energy caused response or that adding it predicts retraining gains."
+}

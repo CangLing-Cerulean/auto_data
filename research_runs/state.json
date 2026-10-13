@@ -2,15 +2,15 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-13",
   "session_id": "metropt3_session_20260926",
-  "phase": "hydraulic_signal_validation_complete_transfer_gate_failed",
+  "phase": "paper_feasibility_initial_audit_complete",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/protocol.json",
-  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/progress.json",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261013_paper_feasibility_r1/REPORT.md",
+  "active_progress": "research_runs/agent_research/intervention_diagnosis/20261013_paper_feasibility_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
-  "next_action": "Stop this experiment batch. Review failed transfer and paper contribution gaps before any new frozen study; no queued training or final test.",
-  "last_verified_snapshot_at": "2026-10-13T08:38:50.9276520Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_paper_feasibility_r1/REPORT.md",
+  "next_action": "Paper-directed failure diagnosis: separate fixed-model transformation and retraining adaptation using existing checkpoints, review closest methods; freeze any new study separately.",
+  "last_verified_snapshot_at": "2026-10-13T08:38:50.927652Z",
   "snapshot_only": false,
   "total_training_runs_completed": 295,
   "historical_completed_trainings": 134,
@@ -617,5 +617,12 @@
     "transfer_gate": false,
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/hydraulic-signal-validation-20261013-r1",
     "source_commit": "351ffa856441e8b5e57b26a5a33529bc91cf3c3f"
+  },
+  "paper_feasibility": {
+    "status": "initial_audit_complete",
+    "path": "research_runs/agent_research/intervention_diagnosis/20261013_paper_feasibility_r1",
+    "method_validated": false,
+    "training_queue": false,
+    "new_trainings": 0
   }
 }

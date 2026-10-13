@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+论文目标接续：[首步可行性审查](agent_research/intervention_diagnosis/20261013_paper_feasibility_r1/REPORT.md)。已核对5项直接相关原始来源并重建旧信号的信息分量；H1中值98.389506%的扰动能量不在均值分量中。此为事后信息缺口分析，尚无失效因果确认或新方法。新增训练0、累计295。下一步先利用现有检查点分解固定处理与重训适应，并完成最近方法的协议/源码审查，再决定单一新方法；无后台训练和最终测试。
+
 最新完成：[Hydraulic独立验证报告](agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md)。9项全部成功且逐检查点审计通过，累计295、旧失败单列。P1平均NMSE改善1.121626%通过开发采用，但冻结信号误报基本不变；CP1跨种子不稳定，方向迁移门槛false。无队列、无最终测试，按协议结束。先核对sync_receipt与release_receipt；后续优先审查论文主张和失败机制，不继续追调此信号，不把已揭示Hydraulic当未见来源。以下待授权及运行前状态为历史。
 
 最新入口：[Hydraulic独立验证协议](agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/PROTOCOL.md)。用户已同意验证原冻结信号并指定论文成果目标；9项任务、代码与独立审计已准备，静态审查无阻塞。具体上传被自动审批拒绝，已请求目标地址/文件授权，以新阶段progress为准；此时训练新增0、累计286，尚未读Hydraulic输入统计或产生预测。完成后必须汇报本轮、整体、下一步和论文证据缺口。下方停止边界保留为阶段2a结论。
