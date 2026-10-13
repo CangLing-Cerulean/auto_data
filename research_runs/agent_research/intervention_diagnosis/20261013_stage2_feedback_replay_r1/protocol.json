@@ -1,0 +1,42 @@
+{
+  "id": "stage2a_sealed_feedback_replay_r1",
+  "created_utc": "2026-10-13T06:02:23.3100985Z",
+  "source_root": "/tmp/auto_data_intervention_stage1_20261012_r1",
+  "actor_local_root": "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1",
+  "script_sha256": "ed3ca7e69eb62272a741fe5382e8af78bcf64f541ed66f76d9585a5b6395b793",
+  "local_files_sha256": {
+    "PROTOCOL.md": "3451530981669ea27a58f112db1ccb845c89dbf42c239290e2ceeb0269345414",
+    "ACTOR_RULES.md": "570709fc43fabdfcf1445963565e644fb5a8e5ed95d0b47884a1fe22b9d70b36"
+  },
+  "source_files_sha256": {
+    "selection_common_facts.json": "2113842e887f36b236f60d0cfda5077e8551dde46ab0ecf33f98c1fc35abc544",
+    "selection_node4.json": "3b94117da58e85cc9bb7f7aaacd7455819c9ddf218fbfbbfb214e81683ded61b",
+    "selection_confirmation_feedback.json": "8af261c0f891b350860a66145b7145faca2b61816482d43efe9a3dbb99098a09",
+    "signal_rule.json": "1c3008aa30b53464ff096664eccbf1102eb8669683c83238c578ccca37a46dd8",
+    "selection_new_signal_values.json": "26b324b8b77354315fc17f4ac61ac677ac8e1855724563395375fae4963978db"
+  },
+  "arms": [
+    "S0U0F",
+    "S1U0F",
+    "S0U1F",
+    "S1U1F",
+    "S1U1G",
+    "S1U1M"
+  ],
+  "pool": [
+    "S1_P1",
+    "S1_CP1",
+    "S2_P1",
+    "S2_CP1"
+  ],
+  "common_prefix": "S1_P1",
+  "primary_node": 2,
+  "secondary_node": 4,
+  "node8": "unreached",
+  "LLM": "internal_gpt-6.1-sol_high",
+  "maximum_LLM_calls": 20,
+  "new_training_budget": 0,
+  "test_access": false,
+  "Hydraulic": "reserved",
+  "interpretation": "sealed historical replay, single trajectory per arm"
+}

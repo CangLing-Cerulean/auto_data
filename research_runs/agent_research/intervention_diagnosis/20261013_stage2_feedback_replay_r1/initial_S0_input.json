@@ -1,0 +1,29 @@
+{
+  "packet_id": "S0_initial",
+  "prefix_query": "S1_P1",
+  "response_visible": false,
+  "allowed_files": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/ACTOR_RULES.md",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/common_facts.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/initial_S0_input.json"
+  ],
+  "common_facts_sha256": "a443dcc8f47779d0a503dca65383feb3df96fa716e5f483f476dc2f2f7b4eb3f",
+  "output_schema": {
+    "packet_id": "copy input packet_id",
+    "reason": "concise evidence and uncertainty",
+    "files_read": "actual allowed file paths only",
+    "directions": {
+      "global": "one four-class label",
+      "target": "one four-class label",
+      "complement": "one four-class label"
+    },
+    "falsifiers": [
+      "at least one"
+    ],
+    "initial_recommendations": {
+      "S1": "B0/P1/CP1",
+      "S2": "B0/P1/CP1"
+    }
+  },
+  "task": "Before any S response is revealed, predict the common prefix S1_P1 and give initial nominations"
+}

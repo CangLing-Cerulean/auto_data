@@ -1,0 +1,606 @@
+{
+  "initial": {
+    "S1_P1": {
+      "id": "S1_P1",
+      "task": "S1",
+      "action": "P1",
+      "run_id": "S1_P1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 0.4225532482111549,
+          "NMAE": 3.474063493637236
+        },
+        "target": {
+          "NMSE": 0.4257476409668559,
+          "NMAE": 3.478846009432812
+        },
+        "complement": {
+          "NMSE": -1.6427697045055423,
+          "NMAE": 2.1445420605713195
+        }
+      },
+      "observed_category": "improve",
+      "parent_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42456288625283306,
+          "NMAE": 0.19340594656487856,
+          "signed_bias": 0.016294231071646934
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.426027737652986,
+          "NMAE": 0.19367672776951714,
+          "signed_bias": 0.01645578769218188
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13172577453134238,
+          "NMAE": 0.1392743221103129,
+          "signed_bias": -0.016002406069839544
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42276888198627266,
+          "NMAE": 0.18668690118074457,
+          "signed_bias": 0.009716080035477675
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.42421393461006396,
+          "NMAE": 0.18693901265430724,
+          "signed_bias": 0.009882940856880091
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13388972564836854,
+          "NMAE": 0.13628752569308167,
+          "signed_bias": -0.02364091507942331
+        }
+      }
+    },
+    "S1_CP1": {
+      "id": "S1_CP1",
+      "task": "S1",
+      "action": "CP1",
+      "run_id": "S1_CP1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 0.09134103985917186,
+          "NMAE": 0.09676506880395008
+        },
+        "target": {
+          "NMSE": 0.0923755033942153,
+          "NMAE": 0.09799362379908638
+        },
+        "complement": {
+          "NMSE": -0.5774875751829001,
+          "NMAE": -0.2447686066767485
+        }
+      },
+      "observed_category": "unchanged",
+      "parent_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.42456288625283306,
+          "NMAE": 0.19340594656487856,
+          "signed_bias": 0.016294231071646934
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.426027737652986,
+          "NMAE": 0.19367672776951714,
+          "signed_bias": 0.01645578769218188
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.13172577453134238,
+          "NMAE": 0.1392743221103129,
+          "signed_bias": -0.016002406069839544
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 2210,
+          "elements": 141440,
+          "NMSE": 0.4241750860976736,
+          "NMAE": 0.19321879716761411,
+          "signed_bias": 0.016299164477594254
+        },
+        "target": {
+          "windows": 2199,
+          "elements": 140736,
+          "NMSE": 0.4256341923857301,
+          "NMAE": 0.1934869369255203,
+          "signed_bias": 0.016462932378975552
+        },
+        "complement": {
+          "windows": 11,
+          "elements": 704,
+          "NMSE": 0.1324864745125743,
+          "NMAE": 0.1396152219280008,
+          "signed_bias": -0.01643952780763026
+        }
+      }
+    },
+    "S2_P1": {
+      "id": "S2_P1",
+      "task": "S2",
+      "action": "P1",
+      "run_id": "S2_P1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 1.124535089518175,
+          "NMAE": 8.518757316511572
+        },
+        "target": {
+          "NMSE": 1.124535089518175,
+          "NMAE": 8.518757316511572
+        },
+        "complement": {
+          "NMSE": null,
+          "NMAE": null
+        }
+      },
+      "observed_category": "improve",
+      "parent_metrics": {
+        "global": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3479635598465331,
+          "NMAE": 0.21012546898176845,
+          "signed_bias": 0.020431282952333762
+        },
+        "target": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3479635598465331,
+          "NMAE": 0.21012546898176845,
+          "signed_bias": 0.020431282952333762
+        },
+        "complement": {
+          "windows": 0,
+          "elements": 0,
+          "NMSE": null,
+          "NMAE": null,
+          "signed_bias": null
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.34405058751732226,
+          "NMAE": 0.1922253902190298,
+          "signed_bias": 0.0009400344662994042
+        },
+        "target": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.34405058751732226,
+          "NMAE": 0.1922253902190298,
+          "signed_bias": 0.0009400344662994042
+        },
+        "complement": {
+          "windows": 0,
+          "elements": 0,
+          "NMSE": null,
+          "NMAE": null,
+          "signed_bias": null
+        }
+      }
+    },
+    "S2_CP1": {
+      "id": "S2_CP1",
+      "task": "S2",
+      "action": "CP1",
+      "run_id": "S2_CP1_s2026101401",
+      "gain_percent": {
+        "global": {
+          "NMSE": 0.06629935151029054,
+          "NMAE": 0.5270090065500277
+        },
+        "target": {
+          "NMSE": 0.06629935151029054,
+          "NMAE": 0.5270090065500277
+        },
+        "complement": {
+          "NMSE": null,
+          "NMAE": null
+        }
+      },
+      "observed_category": "unchanged",
+      "parent_metrics": {
+        "global": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3479635598465331,
+          "NMAE": 0.21012546898176845,
+          "signed_bias": 0.020431282952333762
+        },
+        "target": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3479635598465331,
+          "NMAE": 0.21012546898176845,
+          "signed_bias": 0.020431282952333762
+        },
+        "complement": {
+          "windows": 0,
+          "elements": 0,
+          "NMSE": null,
+          "NMAE": null,
+          "signed_bias": null
+        }
+      },
+      "child_metrics": {
+        "global": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3477328622628627,
+          "NMAE": 0.20901808883517906,
+          "signed_bias": 0.020150182802946958
+        },
+        "target": {
+          "windows": 6772,
+          "elements": 433408,
+          "NMSE": 0.3477328622628627,
+          "NMAE": 0.20901808883517906,
+          "signed_bias": 0.020150182802946958
+        },
+        "complement": {
+          "windows": 0,
+          "elements": 0,
+          "NMSE": null,
+          "NMAE": null,
+          "signed_bias": null
+        }
+      }
+    }
+  },
+  "confirmation": {
+    "S1_P1": {
+      "task": "S1",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.40127716053429685,
+              "NMAE": 3.267379568349993
+            },
+            "target": {
+              "NMSE": 0.40582984999123495,
+              "NMAE": 3.2744973527700783
+            },
+            "complement": {
+              "NMSE": -2.5633569087133212,
+              "NMAE": 1.2791620033173912
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.40428516055343033,
+              "NMAE": 3.5059853120210316
+            },
+            "target": {
+              "NMSE": 0.40876984880329204,
+              "NMAE": 3.511240289590989
+            },
+            "complement": {
+              "NMSE": -2.4967434070706007,
+              "NMAE": 2.043826239387725
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.39374431579366487,
+              "NMAE": 3.4393868065204725
+            },
+            "target": {
+              "NMSE": 0.3987236860887089,
+              "NMAE": 3.4464894890431808
+            },
+            "complement": {
+              "NMSE": -2.825302129170071,
+              "NMAE": 1.46025621986402
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "harm"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "improve",
+          "improve",
+          "improve"
+        ],
+        "stable_category": "improve",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.39976887896046404,
+      "confirmed_adoption": false
+    },
+    "S1_CP1": {
+      "task": "S1",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.11029117773018182,
+              "NMAE": 0.09552312625877857
+            },
+            "target": {
+              "NMSE": 0.11102935144188253,
+              "NMAE": 0.0961049600702868
+            },
+            "complement": {
+              "NMSE": -0.370395009064417,
+              "NMAE": -0.06700107167536551
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.09947889750075989,
+              "NMAE": 0.06591863264024944
+            },
+            "target": {
+              "NMSE": 0.10016845122141627,
+              "NMAE": 0.0661474357194658
+            },
+            "complement": {
+              "NMSE": -0.34657552837322747,
+              "NMAE": 0.002255849371135543
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.08455535304670025,
+              "NMAE": 0.06000301060771207
+            },
+            "target": {
+              "NMSE": 0.08553737512813075,
+              "NMAE": 0.06041163564864949
+            },
+            "complement": {
+              "NMSE": -0.550298956407258,
+              "NMAE": -0.053858521906025025
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "harm"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.09810847609254732,
+      "confirmed_adoption": false
+    },
+    "S2_P1": {
+      "task": "S2",
+      "action": "P1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.101993813522606,
+              "NMAE": 8.792379425632934
+            },
+            "target": {
+              "NMSE": 1.101993813522606,
+              "NMAE": 8.792379425632934
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.1816751582826912,
+              "NMAE": 8.325440286095386
+            },
+            "target": {
+              "NMSE": 1.1816751582826912,
+              "NMAE": 8.325440286095386
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.0711406155027414,
+              "NMAE": 9.016284192044521
+            },
+            "target": {
+              "NMSE": 1.0711406155027414,
+              "NMAE": 9.016284192044521
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "improve",
+            "target": "improve",
+            "complement": "unscorable"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "improve",
+          "improve",
+          "improve"
+        ],
+        "stable_category": "improve",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 1.1182698624360128,
+      "confirmed_adoption": true
+    },
+    "S2_CP1": {
+      "task": "S2",
+      "action": "CP1",
+      "repeats": [
+        {
+          "seed": 2026101402,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.058119279492307996,
+              "NMAE": 0.07053285421375621
+            },
+            "target": {
+              "NMSE": 0.058119279492307996,
+              "NMAE": 0.07053285421375621
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101403,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.12078837127611486,
+              "NMAE": 0.26462060865941606
+            },
+            "target": {
+              "NMSE": 0.12078837127611486,
+              "NMAE": 0.26462060865941606
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        },
+        {
+          "seed": 2026101404,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.05679089499918133,
+              "NMAE": -0.0156915662405277
+            },
+            "target": {
+              "NMSE": 0.05679089499918133,
+              "NMAE": -0.0156915662405277
+            },
+            "complement": {
+              "NMSE": null,
+              "NMAE": null
+            }
+          },
+          "observed_category": {
+            "global": "unchanged",
+            "target": "unchanged",
+            "complement": "unscorable"
+          }
+        }
+      ],
+      "repeatability": {
+        "labels": [
+          "unchanged",
+          "unchanged",
+          "unchanged"
+        ],
+        "stable_category": "unchanged",
+        "all_raw_signs_positive": true
+      },
+      "mean_global_NMSE_gain_percent": 0.07856618192253473,
+      "confirmed_adoption": false
+    }
+  }
+}
