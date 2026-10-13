@@ -1,0 +1,40 @@
+{
+  "reason": "S2_P1单次整体NMSE改善1.124535%、NMAE改善8.518757%，满足进入确认的证据入口，推荐P1接受确认；尚不能宣称已确认采用。S1_P1整体NMSE改善0.422553%，未达到1%入口，保留B0。S2_P1补集为空，其响应保持unknown。优先查询S2_CP1，检验达到入口的收益是否也能由线性平滑产生，再查询S1_CP1。C1/C2的CP1整体响应均稳定unchanged，据此对两个S任务的CP1整体作弱迁移预测unchanged；S编辑统计超出C案例范围，且P1收益不能直接归因于CP1，因此局部方向弃权，未查询响应仍为unknown。",
+  "remaining_predictions": {
+    "S1_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_CP1整体NMSE改善超过0.25%或低于-0.25%，则否定从C线性控制迁移而来的整体unchanged预测。",
+        "若S1_CP1整体NMSE改善≥1%且NMAE改善≥-1%，则应重新评估S1保留B0的推荐，并提名CP1进入确认。"
+      ]
+    },
+    "S2_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_CP1整体NMSE改善超过0.25%或低于-0.25%，则否定整体unchanged预测。",
+        "若S2_CP1也同时达到整体NMSE改善≥1%、NMAE改善≥-1%，则否定当前仅P1具有进入确认响应证据的候选区分；这仍不能单独证明共同机制。",
+        "若S2_CP1补集为空或指标缺失，则不能将其记为unchanged或局部成功。"
+      ]
+    }
+  },
+  "packet_id": "S0U0F_step2",
+  "files_read": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S0U0F/step2_input.json"
+  ],
+  "recommendations": {
+    "S1": "B0",
+    "S2": "P1"
+  },
+  "remaining_query_order": [
+    "S2_CP1",
+    "S1_CP1"
+  ]
+}

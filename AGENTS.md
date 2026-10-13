@@ -1,5 +1,7 @@
 # 后续实验必须遵守的数据约定
 
+- 2026-10-13 阶段2a封存回放20次Sol high决策、6支全部完成且验收；见`20261013_stage2_feedback_replay_r1/REPORT.md`。节点2/4完整方法与无信号、普通更新、仅整体反馈均同推荐，合格NMSE收益均0.559135%；仅屏蔽效果支为0。严格增量门槛false，按原条件停止本批方法扩展，不追加提示词/重复LLM/候选/阈值/训练追结果。阶段1新信号与S2处理成果保留，累计286，新增训练0，无队列；Hydraulic及测试保留。此为历史封存回放，单轨迹、指令式文件隔离，非新前瞻或总体因果结论。同步见该阶段sync_receipt.json。
+
 - 2026-10-13 开机后核实原18项S确认早已全部成功，完整审计通过、累计286，没有重跑。见`SELECTION_CONFIRMATION_REPORT.md`和selection_confirmation_feedback.json：新信号4稳定格全对，S2_P1三种子平均NMSE改善1.118270%、NMAE均改善，通过采用；S1平均0.399769%未通过采用。反馈设计入口true，但无反馈因果收益结论；下一步独立冻结反馈对照，当前两操作已知池不足以直接冒充新的前瞻反馈实验。原连接未知记录保留为历史；原监督completed，无待运行项。同步见selection_confirmation_sync_receipt，Hydraulic保留。
 
 - 2026-10-13 S确认18项已按冻结提交6ce0746启动，最后成功查询曾显示5项完成，随后只读SSH查询被服务器关闭，当前真实状态未知。见同阶段`SELECTION_CONFIRMATION_STATUS.md`及selection_confirmation_connection_status.json。完整验收累计仍268，5项仅曾观察completed、确认资产未下载验收；不得推断18项失败/完成或队列为空。恢复后先读原控制状态和结果，不重启监督、不重跑已有ID；反馈与Hydraulic未启动。

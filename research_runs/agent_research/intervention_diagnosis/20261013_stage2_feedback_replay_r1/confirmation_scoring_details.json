@@ -1,0 +1,86 @@
+{
+  "S1_P1": {
+    "confirmed_adoption": false,
+    "mean_NMSE_gain_percent": 0.39976887896046404,
+    "repeats": [
+      {
+        "seed": 2026101402,
+        "global_NMSE_gain_percent": 0.40127716053429685,
+        "global_NMAE_gain_percent": 3.267379568349993
+      },
+      {
+        "seed": 2026101403,
+        "global_NMSE_gain_percent": 0.40428516055343033,
+        "global_NMAE_gain_percent": 3.5059853120210316
+      },
+      {
+        "seed": 2026101404,
+        "global_NMSE_gain_percent": 0.39374431579366487,
+        "global_NMAE_gain_percent": 3.4393868065204725
+      }
+    ]
+  },
+  "S1_CP1": {
+    "confirmed_adoption": false,
+    "mean_NMSE_gain_percent": 0.09810847609254732,
+    "repeats": [
+      {
+        "seed": 2026101402,
+        "global_NMSE_gain_percent": 0.11029117773018182,
+        "global_NMAE_gain_percent": 0.09552312625877857
+      },
+      {
+        "seed": 2026101403,
+        "global_NMSE_gain_percent": 0.09947889750075989,
+        "global_NMAE_gain_percent": 0.06591863264024944
+      },
+      {
+        "seed": 2026101404,
+        "global_NMSE_gain_percent": 0.08455535304670025,
+        "global_NMAE_gain_percent": 0.06000301060771207
+      }
+    ]
+  },
+  "S2_P1": {
+    "confirmed_adoption": true,
+    "mean_NMSE_gain_percent": 1.1182698624360128,
+    "repeats": [
+      {
+        "seed": 2026101402,
+        "global_NMSE_gain_percent": 1.101993813522606,
+        "global_NMAE_gain_percent": 8.792379425632934
+      },
+      {
+        "seed": 2026101403,
+        "global_NMSE_gain_percent": 1.1816751582826912,
+        "global_NMAE_gain_percent": 8.325440286095386
+      },
+      {
+        "seed": 2026101404,
+        "global_NMSE_gain_percent": 1.0711406155027414,
+        "global_NMAE_gain_percent": 9.016284192044521
+      }
+    ]
+  },
+  "S2_CP1": {
+    "confirmed_adoption": false,
+    "mean_NMSE_gain_percent": 0.07856618192253473,
+    "repeats": [
+      {
+        "seed": 2026101402,
+        "global_NMSE_gain_percent": 0.058119279492307996,
+        "global_NMAE_gain_percent": 0.07053285421375621
+      },
+      {
+        "seed": 2026101403,
+        "global_NMSE_gain_percent": 0.12078837127611486,
+        "global_NMAE_gain_percent": 0.26462060865941606
+      },
+      {
+        "seed": 2026101404,
+        "global_NMSE_gain_percent": 0.05679089499918133,
+        "global_NMAE_gain_percent": -0.0156915662405277
+      }
+    ]
+  }
+}

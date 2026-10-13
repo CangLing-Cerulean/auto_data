@@ -1,0 +1,39 @@
+{
+  "reason": "两项P1查询均仅显示completed，效果unknown_masked，未提供达到确认入口的证据，因此S1与S2均保留B0。两项CP1信号均落在冻结规则的unchanged区间，整体方向预测unchanged；目标与补集缺少可迁移规则，继续弃权。先查询S2_CP1以补齐最近查询任务的固定控制，再查询S1_CP1；该顺序不依据任何隐藏效果。",
+  "remaining_predictions": {
+    "S1_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_CP1整体NMSE改善大于0.25%或小于-0.25%，则本次整体unchanged预测被否证。"
+      ]
+    },
+    "S2_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_CP1整体NMSE改善大于0.25%或小于-0.25%，则本次整体unchanged预测被否证。"
+      ]
+    }
+  },
+  "recipe_update": "节点2推荐S1=B0、S2=B0。两项P1效果仍为unknown；两项CP1尚未查询。没有整体NMSE改善≥1%且NMAE改善≥-1%的可见证据，暂不推荐任何处理进入确认。",
+  "hypothesis_update": "两项P1的遮蔽反馈未增加预测验证或机制证据，验证状态保持unknown。冻结信号公式、阈值及边界归属保持原定规则；S1_CP1=0.00020539010118946524与S2_CP1=0.0002649125557748457均预测整体unchanged，不推断局部方向或机制。",
+  "packet_id": "S1U1M_step2",
+  "files_read": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S1U1M/step2_input.json"
+  ],
+  "recommendations": {
+    "S1": "B0",
+    "S2": "B0"
+  },
+  "remaining_query_order": [
+    "S2_CP1",
+    "S1_CP1"
+  ]
+}

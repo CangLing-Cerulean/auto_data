@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+2026-10-13当前停止边界：[阶段2a结果](agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/REPORT.md)。六支封存回放完整结束，完整方法对三个关键对照增量0，严格推进门槛false。按用户“效果不理想再停下”要求，本批不继续新前瞻方法实验或追调。保留阶段1处理/预测成果、全部决策和负结果；累计286、无新训练和后台队列。以后若用户明确要求新研究，须重新论证独立任务与可辨别的决策空间，另冻协议，不能重写本轮结论或直接消耗Hydraulic/测试。下文为历次接续计划。
+
 2026-10-13最新入口：[S确认报告](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)。18项原运行全成功，累计286，原信号预测和S2采用均获三种子支持。按已冻结入口开始学习信号×双重更新2×2及共同前缀反馈分支设计；先解决当前两操作、已知响应池无法直接支持新前瞻分支选择的问题，再冻结具体执行协议。不得直接重跑已知响应凑训练次数，不动Hydraulic或测试。
 
 2026-10-13优先：[恢复确认状态读取](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md)。18项已启动但连接关闭，真实完成/失败/队列状态未知。先读取selection_confirmation_control/status.json和原运行资产；不要再次启动监督。如果全18完成则直接审计和归档；失败则保留并停止；部分完成且监督停止时另定恢复边界，绝不重跑已有ID。当前无确认结论，反馈阶段未开始。

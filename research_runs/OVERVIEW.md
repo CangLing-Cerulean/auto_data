@@ -1,5 +1,7 @@
 # 当前研究概览
 
+2026-10-13最新：[阶段2a封存回放](agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/REPORT.md)完成20次Sol high决策，无新增训练，累计286。完整方法、无新信号、普通更新、仅整体反馈在节点2均选择S1=B0/S2=P1；效果屏蔽支均保留B0。完整方法未通过事前严格增量门槛，本批方法扩展停止。阶段1的新信号有限预测优势与S2处理收益保留，尚无完整反馈学习方法的新增选择优势证据。Hydraulic与测试保留，无队列。
+
 2026-10-13最新：[S三种子确认](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)已全18成功并审计，累计286。新信号4/4稳定类别、2/2稳定排序正确；S2中值平均NMSE改善1.118270%并通过采用。当前仅支持两个同源开发任务上的有限可行性，未证明反馈因果收益。下一步独立反馈设计，原模型队列已完成；此前连接未知记录保留为历史。
 
 2026-10-13当前：[S确认状态待核实](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md)。已启动18项确认，最近成功查询曾见5项completed；现SSH被服务器关闭，最终结果和队列状态未知。本地完整验收数268，不能提前认定重复确认成功或失败。先恢复只读核实，保留初始阶段已同步成果，不重跑旧ID。

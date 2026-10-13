@@ -1,0 +1,298 @@
+{
+  "packet_id": "S1U1G_step3",
+  "arm": "S1U1G",
+  "query_count": 4,
+  "observed_ids": [
+    "S1_P1",
+    "S2_P1",
+    "S2_CP1",
+    "S1_CP1"
+  ],
+  "allowed_files": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/ACTOR_RULES.md",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/common_facts.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S1U1G/step1_input.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S1U1G/step2_input.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S1U1G/step3_input.json"
+  ],
+  "remaining_ids": [],
+  "common_facts_sha256": "a443dcc8f47779d0a503dca65383feb3df96fa716e5f483f476dc2f2f7b4eb3f",
+  "registered_predictions": {
+    "S1_P1": {
+      "packet_id": "S1_initial",
+      "reason": "S1_P1信号值0.014685471143132926落在冻结规则的improve区间，因此预测整体NMSE改善超过0.25%。该规则仅拟合两个同源C任务，未提供可迁移的目标范围或补集范围规则，局部方向弃权，响应仍为unknown。S2_P1同样落在improve区间，两任务CP1均落在unchanged区间；这些类别预测不能证明整体NMSE改善≥1%且NMAE改善≥-1%，因此初始均保留B0。",
+      "files_read": [
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/ACTOR_RULES.md",
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/common_facts.json",
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/initial_S1_input.json"
+      ],
+      "directions": {
+        "global": "improve",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_P1揭示的整体NMSE改善≤0.25%，则本次整体improve预测被否证。",
+        "若任一任务的P1响应提供整体NMSE改善≥1%且NMAE改善≥-1%的证据，则该任务初始保留B0的推荐应根据新增证据更新；单次响应仍不构成已确认采用。"
+      ],
+      "initial_recommendations": {
+        "S1": "B0",
+        "S2": "B0"
+      }
+    },
+    "S2_P1": {
+      "directions": {
+        "global": "improve",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_P1整体NMSE改善≤0.25%，则本步整体improve预测被否证。",
+        "若S2_P1整体NMSE改善≥1%且NMAE改善≥-1%，则S2保留B0的当前决策应更新为推荐P1进入确认；单次响应仍不构成已确认采用。"
+      ]
+    },
+    "S2_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_CP1整体NMSE改善超出闭区间[-0.25%,0.25%]，则本项整体unchanged预测被否证。"
+      ]
+    },
+    "S1_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_CP1整体NMSE改善超出闭区间[-0.25%,0.25%]，则本项整体unchanged预测被否证。"
+      ]
+    }
+  },
+  "feedback": [
+    {
+      "id": "S1_P1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42456288625283306,
+            "NMAE": 0.19340594656487856,
+            "signed_bias": 0.016294231071646934
+          },
+          "child": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42276888198627266,
+            "NMAE": 0.18668690118074457,
+            "signed_bias": 0.009716080035477675
+          },
+          "gain_percent": {
+            "NMSE": 0.4225532482111549,
+            "NMAE": 3.474063493637236
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S2_P1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.34405058751732226,
+            "NMAE": 0.1922253902190298,
+            "signed_bias": 0.0009400344662994042
+          },
+          "gain_percent": {
+            "NMSE": 1.124535089518175,
+            "NMAE": 8.518757316511572
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S2_CP1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3477328622628627,
+            "NMAE": 0.20901808883517906,
+            "signed_bias": 0.020150182802946958
+          },
+          "gain_percent": {
+            "NMSE": 0.06629935151029054,
+            "NMAE": 0.5270090065500277
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S1_CP1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42456288625283306,
+            "NMAE": 0.19340594656487856,
+            "signed_bias": 0.016294231071646934
+          },
+          "child": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.4241750860976736,
+            "NMAE": 0.19321879716761411,
+            "signed_bias": 0.016299164477594254
+          },
+          "gain_percent": {
+            "NMSE": 0.09134103985917186,
+            "NMAE": 0.09676506880395008
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    }
+  ],
+  "output_schema": {
+    "packet_id": "copy input packet_id",
+    "reason": "concise evidence and uncertainty",
+    "files_read": "actual allowed file paths only",
+    "recommendations": {
+      "S1": "B0/P1/CP1",
+      "S2": "B0/P1/CP1"
+    },
+    "recipe_update": "separate concise decision state",
+    "hypothesis_update": "separate concise hypothesis state"
+  },
+  "task": "Record actual node4 recommendation",
+  "interpretation": "sealed historical replay; recommendations nominate candidates for confirmation; hidden effects remain unknown",
+  "learned_signal": {
+    "formula": "d=mean_(windows,channels)(mean_time(changed-parent)^2); s=d/(d+initial_parent_NMSE), 0/0=0",
+    "rule": {
+      "status": "proposed",
+      "feature_sha256": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+      "feature_changed": false,
+      "thresholds": [
+        0.004176092129984914,
+        0.04433037494712905
+      ],
+      "rules": [
+        {
+          "condition": "0 <= s <= 0.004176092129984914",
+          "prediction": "unchanged"
+        },
+        {
+          "condition": "0.004176092129984914 < s <= 0.04433037494712905",
+          "prediction": "improve"
+        },
+        {
+          "condition": "0.04433037494712905 < s <= 1",
+          "prediction": "harm"
+        }
+      ],
+      "boundary_assignment": "等于阈值时归入较低信号区间。",
+      "invalid_signal_policy": "非有限或超出[0,1]时停止并报告工程错误，不记为uncertain。",
+      "uncertain_region": null,
+      "threshold_selection": "按固定信号坐标取相邻不同类别最近构建点的算术中点：第一阈值为C2_CP1与C1_P1的中点；第二阈值为C1_P1与C2_P1的中点。各自最大化这两个边界点的最小绝对距离，没有扫描其他公式或阈值准则。",
+      "construction_fit": {
+        "C1_CP1": "unchanged",
+        "C2_CP1": "unchanged",
+        "C1_P1": "improve",
+        "C2_P1": "harm"
+      },
+      "limitations": [
+        "四格构建拟合一致不是独立预测验证。",
+        "只有两个同源任务；improve和harm区间各仅由一格支持，重复种子不增加独立任务数。",
+        "边界之间及构建值范围之外缺少响应证据；本规则仍作固定预测，可靠性须由隔离开发任务检验。",
+        "improve表示超过既定0.25%响应带宽，不保证达到整体NMSE至少改善1%的处理采用门槛。",
+        "后续不得依据S信号值或响应修改公式、阈值及边界归属。",
+        "保存完整计算的C1_CP1_s2026101404仍保留failed交付状态。"
+      ],
+      "additional_files_read_completely": [
+        "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/signal_feature_C_evaluation.json"
+      ],
+      "selection_information_used": false,
+      "files_written": 0,
+      "experiments_run": 0
+    },
+    "values": {
+      "S1_P1": 0.014685471143132926,
+      "S1_CP1": 0.00020539010118946524,
+      "S2_P1": 0.01611655065522507,
+      "S2_CP1": 0.0002649125557748457
+    },
+    "use": "C-only frozen rule; do not modify thresholds or assume adoption magnitude from a category"
+  },
+  "separate_updates": {
+    "S1_P1": {
+      "recipe": "retain_parent",
+      "hypothesis": "response_supported_pending_controls",
+      "matched_visible_scopes": 1,
+      "unscorable_declared_scopes": 0,
+      "contradicted_scopes": [],
+      "independent_confirmation_exposed": false,
+      "unique_cause_proven": false
+    },
+    "S2_P1": {
+      "recipe": "confirmation_candidate",
+      "hypothesis": "response_supported_pending_controls",
+      "matched_visible_scopes": 1,
+      "unscorable_declared_scopes": 0,
+      "contradicted_scopes": [],
+      "independent_confirmation_exposed": false,
+      "unique_cause_proven": false
+    },
+    "S2_CP1": {
+      "recipe": "retain_parent",
+      "hypothesis": "response_supported_pending_controls",
+      "matched_visible_scopes": 1,
+      "unscorable_declared_scopes": 0,
+      "contradicted_scopes": [],
+      "independent_confirmation_exposed": false,
+      "unique_cause_proven": false
+    },
+    "S1_CP1": {
+      "recipe": "retain_parent",
+      "hypothesis": "response_supported_pending_controls",
+      "matched_visible_scopes": 1,
+      "unscorable_declared_scopes": 0,
+      "contradicted_scopes": [],
+      "independent_confirmation_exposed": false,
+      "unique_cause_proven": false
+    }
+  },
+  "previous_output_sha256": "de1228b0dacbade735aeedfcc6a7375b713d52634394257765a66146719a1fa9"
+}

@@ -1,0 +1,381 @@
+{
+  "status": "PASS",
+  "outcomes": {
+    "S0U0F": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    },
+    "S1U0F": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    },
+    "S0U1F": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    },
+    "S1U1F": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    },
+    "S1U1G": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "P1",
+            "NMSE_gain": 1.1182698624360128,
+            "NMAE_gain": 8.71136796792428,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.5591349312180064,
+        "qualified_mean_NMSE_gain": 0.5591349312180064,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.0
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    },
+    "S1U1M": {
+      "node2": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.0,
+        "qualified_mean_NMSE_gain": 0.0,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.5591349312180064
+      },
+      "node4": {
+        "choices": {
+          "S1": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          },
+          "S2": {
+            "action": "B0",
+            "NMSE_gain": 0.0,
+            "NMAE_gain": 0.0,
+            "eligible": true,
+            "unobserved": false
+          }
+        },
+        "raw_mean_NMSE_gain": 0.0,
+        "qualified_mean_NMSE_gain": 0.0,
+        "gate_violations": 0,
+        "harmful_choices": 0,
+        "unobserved_recommendations": 0,
+        "qualified_reference_gap": 0.5591349312180064
+      },
+      "query_order": [
+        "S1_P1",
+        "S2_P1",
+        "S2_CP1",
+        "S1_CP1"
+      ]
+    }
+  },
+  "primary_node": 2,
+  "incremental_comparisons": {
+    "S0U1F": {
+      "qualified_gain_difference": 0.0,
+      "no_more_violations": true,
+      "no_more_harm": true,
+      "passed": false
+    },
+    "S1U0F": {
+      "qualified_gain_difference": 0.0,
+      "no_more_violations": true,
+      "no_more_harm": true,
+      "passed": false
+    },
+    "S1U1G": {
+      "qualified_gain_difference": 0.0,
+      "no_more_violations": true,
+      "no_more_harm": true,
+      "passed": false
+    },
+    "S1U1M": {
+      "qualified_gain_difference": 0.5591349312180064,
+      "no_more_violations": true,
+      "no_more_harm": true,
+      "passed": true
+    }
+  },
+  "factorial_interaction": 0.0,
+  "advance_to_new_prospective_design": false,
+  "new_trainings": 0,
+  "cumulative_successful_trainings": 286,
+  "cached_queries": 24,
+  "LLM_calls": 20,
+  "external_API_calls": 0,
+  "internal_tokens": null,
+  "internal_cost": null,
+  "node8": "unreached",
+  "test_access": false,
+  "Hydraulic": "reserved",
+  "interpretation": "single-trajectory sealed historical replay; no population effect or new prospective-generalization claim"
+}

@@ -1,0 +1,17 @@
+{
+  "research_decision_LLM": "internal_gpt-6.1-sol_high",
+  "initial_judgment_calls": 2,
+  "continuation_calls": 18,
+  "total_actor_calls": 20,
+  "new_trainings": 0,
+  "cumulative_successful_trainings": 286,
+  "prior_saved_failed_delivery_preserved": true,
+  "cached_query_units": 24,
+  "unique_cached_responses": 4,
+  "external_API_calls": 0,
+  "internal_tokens": null,
+  "internal_cost": null,
+  "review_calls_separate_from_actor_budget": true,
+  "test_model_evaluations": 0,
+  "secondary_audit_tool_error": "First PowerShell audit stopped on string/boolean expression grouping; grouping fixed and audit passed without changing frozen artifacts or rerunning actors."
+}

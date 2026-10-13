@@ -1,0 +1,365 @@
+{
+  "packet_id": "S0U0F_step3",
+  "arm": "S0U0F",
+  "query_count": 4,
+  "observed_ids": [
+    "S1_P1",
+    "S2_P1",
+    "S2_CP1",
+    "S1_CP1"
+  ],
+  "allowed_files": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/ACTOR_RULES.md",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/common_facts.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S0U0F/step1_input.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S0U0F/step2_input.json",
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S0U0F/step3_input.json"
+  ],
+  "remaining_ids": [],
+  "common_facts_sha256": "a443dcc8f47779d0a503dca65383feb3df96fa716e5f483f476dc2f2f7b4eb3f",
+  "registered_predictions": {
+    "S1_P1": {
+      "packet_id": "S0_initial",
+      "reason": "C1_P1三种子整体NMSE平均改善0.355828%，C2_P1平均退化2.327446%，说明同一操作的效果依赖任务。S1_P1的weighted_edit_ratio为0.656980、edited_fraction为0.536355，均超出两个C任务P1案例的范围；S1高一阶差分通道同时具有较高父模型误差，但这些统计不能区分可消除噪声与有用动态。现有材料不足以可靠预测S1_P1三个范围的响应，也没有S1或S2候选满足整体NMSE改善≥1%、NMAE改善≥-1%的响应证据，因此初始均保留B0。未见响应保持unknown；uncertain表示预测弃权。",
+      "files_read": [
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/ACTOR_RULES.md",
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/common_facts.json",
+        "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/initial_S0_input.json"
+      ],
+      "directions": {
+        "global": "uncertain",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "可检验的机制假设：如果S1高一阶差分主要体现可被中值操作消除的有害波动，S1_P1应使目标范围NMSE改善超过0.25%；目标范围改善≤0.25%将否定这一机制预测。当前证据不足以接受该假设，故方向仍弃权。",
+        "若S1_P1反馈显示整体NMSE改善≥1%且NMAE改善≥-1%，则应重新评估S1的B0初始推荐，并考虑P1进入确认；单次反馈仍不足以宣称确认采用。"
+      ],
+      "initial_recommendations": {
+        "S1": "B0",
+        "S2": "B0"
+      }
+    },
+    "S2_P1": {
+      "directions": {
+        "global": "improve",
+        "target": "improve",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_P1整体NMSE改善≤0.25%，则否定本次整体improve预测及相近编辑统计支持正向跨任务转移的判断。",
+        "若S2_P1目标范围NMSE改善≤0.25%，则否定目标improve预测；补集为空或缺失不能作为局部成功证据。",
+        "只有S2_P1反馈同时满足整体NMSE改善≥1%和NMAE改善≥-1%，才支持提名进入确认；单次反馈不能证明确认采用。"
+      ]
+    },
+    "S1_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_CP1整体NMSE改善超过0.25%或低于-0.25%，则否定从C线性控制迁移而来的整体unchanged预测。",
+        "若S1_CP1整体NMSE改善≥1%且NMAE改善≥-1%，则应重新评估S1保留B0的推荐，并提名CP1进入确认。"
+      ]
+    },
+    "S2_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_CP1整体NMSE改善超过0.25%或低于-0.25%，则否定整体unchanged预测。",
+        "若S2_CP1也同时达到整体NMSE改善≥1%、NMAE改善≥-1%，则否定当前仅P1具有进入确认响应证据的候选区分；这仍不能单独证明共同机制。",
+        "若S2_CP1补集为空或指标缺失，则不能将其记为unchanged或局部成功。"
+      ]
+    }
+  },
+  "feedback": [
+    {
+      "id": "S1_P1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42456288625283306,
+            "NMAE": 0.19340594656487856,
+            "signed_bias": 0.016294231071646934
+          },
+          "child": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42276888198627266,
+            "NMAE": 0.18668690118074457,
+            "signed_bias": 0.009716080035477675
+          },
+          "gain_percent": {
+            "NMSE": 0.4225532482111549,
+            "NMAE": 3.474063493637236
+          }
+        },
+        "target": {
+          "parent": {
+            "windows": 2199,
+            "elements": 140736,
+            "NMSE": 0.426027737652986,
+            "NMAE": 0.19367672776951714,
+            "signed_bias": 0.01645578769218188
+          },
+          "child": {
+            "windows": 2199,
+            "elements": 140736,
+            "NMSE": 0.42421393461006396,
+            "NMAE": 0.18693901265430724,
+            "signed_bias": 0.009882940856880091
+          },
+          "gain_percent": {
+            "NMSE": 0.4257476409668559,
+            "NMAE": 3.478846009432812
+          }
+        },
+        "complement": {
+          "parent": {
+            "windows": 11,
+            "elements": 704,
+            "NMSE": 0.13172577453134238,
+            "NMAE": 0.1392743221103129,
+            "signed_bias": -0.016002406069839544
+          },
+          "child": {
+            "windows": 11,
+            "elements": 704,
+            "NMSE": 0.13388972564836854,
+            "NMAE": 0.13628752569308167,
+            "signed_bias": -0.02364091507942331
+          },
+          "gain_percent": {
+            "NMSE": -1.6427697045055423,
+            "NMAE": 2.1445420605713195
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S2_P1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.34405058751732226,
+            "NMAE": 0.1922253902190298,
+            "signed_bias": 0.0009400344662994042
+          },
+          "gain_percent": {
+            "NMSE": 1.124535089518175,
+            "NMAE": 8.518757316511572
+          }
+        },
+        "target": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.34405058751732226,
+            "NMAE": 0.1922253902190298,
+            "signed_bias": 0.0009400344662994042
+          },
+          "gain_percent": {
+            "NMSE": 1.124535089518175,
+            "NMAE": 8.518757316511572
+          }
+        },
+        "complement": {
+          "parent": {
+            "windows": 0,
+            "elements": 0,
+            "NMSE": null,
+            "NMAE": null,
+            "signed_bias": null
+          },
+          "child": {
+            "windows": 0,
+            "elements": 0,
+            "NMSE": null,
+            "NMAE": null,
+            "signed_bias": null
+          },
+          "gain_percent": {
+            "NMSE": null,
+            "NMAE": null
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S2_CP1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3477328622628627,
+            "NMAE": 0.20901808883517906,
+            "signed_bias": 0.020150182802946958
+          },
+          "gain_percent": {
+            "NMSE": 0.06629935151029054,
+            "NMAE": 0.5270090065500277
+          }
+        },
+        "target": {
+          "parent": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3479635598465331,
+            "NMAE": 0.21012546898176845,
+            "signed_bias": 0.020431282952333762
+          },
+          "child": {
+            "windows": 6772,
+            "elements": 433408,
+            "NMSE": 0.3477328622628627,
+            "NMAE": 0.20901808883517906,
+            "signed_bias": 0.020150182802946958
+          },
+          "gain_percent": {
+            "NMSE": 0.06629935151029054,
+            "NMAE": 0.5270090065500277
+          }
+        },
+        "complement": {
+          "parent": {
+            "windows": 0,
+            "elements": 0,
+            "NMSE": null,
+            "NMAE": null,
+            "signed_bias": null
+          },
+          "child": {
+            "windows": 0,
+            "elements": 0,
+            "NMSE": null,
+            "NMAE": null,
+            "signed_bias": null
+          },
+          "gain_percent": {
+            "NMSE": null,
+            "NMAE": null
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    },
+    {
+      "id": "S1_CP1",
+      "run_status": "completed",
+      "query_cost": 1,
+      "response": {
+        "global": {
+          "parent": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.42456288625283306,
+            "NMAE": 0.19340594656487856,
+            "signed_bias": 0.016294231071646934
+          },
+          "child": {
+            "windows": 2210,
+            "elements": 141440,
+            "NMSE": 0.4241750860976736,
+            "NMAE": 0.19321879716761411,
+            "signed_bias": 0.016299164477594254
+          },
+          "gain_percent": {
+            "NMSE": 0.09134103985917186,
+            "NMAE": 0.09676506880395008
+          }
+        },
+        "target": {
+          "parent": {
+            "windows": 2199,
+            "elements": 140736,
+            "NMSE": 0.426027737652986,
+            "NMAE": 0.19367672776951714,
+            "signed_bias": 0.01645578769218188
+          },
+          "child": {
+            "windows": 2199,
+            "elements": 140736,
+            "NMSE": 0.4256341923857301,
+            "NMAE": 0.1934869369255203,
+            "signed_bias": 0.016462932378975552
+          },
+          "gain_percent": {
+            "NMSE": 0.0923755033942153,
+            "NMAE": 0.09799362379908638
+          }
+        },
+        "complement": {
+          "parent": {
+            "windows": 11,
+            "elements": 704,
+            "NMSE": 0.13172577453134238,
+            "NMAE": 0.1392743221103129,
+            "signed_bias": -0.016002406069839544
+          },
+          "child": {
+            "windows": 11,
+            "elements": 704,
+            "NMSE": 0.1324864745125743,
+            "NMAE": 0.1396152219280008,
+            "signed_bias": -0.01643952780763026
+          },
+          "gain_percent": {
+            "NMSE": -0.5774875751829001,
+            "NMAE": -0.2447686066767485
+          }
+        }
+      },
+      "control_status": "paired initialization/sampling verified; no independent confirmation exposed"
+    }
+  ],
+  "output_schema": {
+    "packet_id": "copy input packet_id",
+    "reason": "concise evidence and uncertainty",
+    "files_read": "actual allowed file paths only",
+    "recommendations": {
+      "S1": "B0/P1/CP1",
+      "S2": "B0/P1/CP1"
+    }
+  },
+  "task": "Record actual node4 recommendation",
+  "interpretation": "sealed historical replay; recommendations nominate candidates for confirmation; hidden effects remain unknown",
+  "previous_output_sha256": "4467407ce071c37b245b043fe4e6cd622d9f1fa2499b2d646089d0d8277aace6"
+}

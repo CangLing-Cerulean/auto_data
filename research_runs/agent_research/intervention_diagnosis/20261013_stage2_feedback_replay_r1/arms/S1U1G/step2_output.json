@@ -1,0 +1,39 @@
+{
+  "reason": "S2_P1整体NMSE改善1.124535089518175%、NMAE改善8.518757316511572%，满足进入确认的幅度门槛，推荐P1进入确认。S1_P1整体NMSE改善0.4225532482111549%，未达到1%门槛，保留B0。先查询S2_CP1以比较同任务固定线性控制，再查询S1_CP1。两项CP1冻结信号均落在unchanged区间；局部响应缺少预测依据，保持弃权。当前可见响应均未提供独立确认或唯一机制证明。",
+  "remaining_predictions": {
+    "S2_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S2_CP1整体NMSE改善超出闭区间[-0.25%,0.25%]，则本项整体unchanged预测被否证。"
+      ]
+    },
+    "S1_CP1": {
+      "directions": {
+        "global": "unchanged",
+        "target": "uncertain",
+        "complement": "uncertain"
+      },
+      "falsifiers": [
+        "若S1_CP1整体NMSE改善超出闭区间[-0.25%,0.25%]，则本项整体unchanged预测被否证。"
+      ]
+    }
+  },
+  "recipe_update": "S1保留B0；S2由保留B0更新为推荐P1进入确认，状态为confirmation_candidate，尚未确认采用。CP1响应仍为unknown。",
+  "hypothesis_update": "S1_P1和S2_P1的整体improve预测均获得一次可见响应支持，保持response_supported_pending_controls。两任务改善幅度不同，不从方向命中推导统一采用收益；目标、补集和唯一机制仍未确定。后续检验CP1整体unchanged预测，冻结公式、阈值及边界归属保持不变。",
+  "packet_id": "S1U1G_step2",
+  "files_read": [
+    "C:/Users/31227/Desktop/auto_data/research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/arms/S1U1G/step2_input.json"
+  ],
+  "recommendations": {
+    "S1": "B0",
+    "S2": "P1"
+  },
+  "remaining_query_order": [
+    "S2_CP1",
+    "S1_CP1"
+  ]
+}
