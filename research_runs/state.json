@@ -10,7 +10,7 @@
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
   "next_action": "Stop this experiment batch. Review failed transfer and paper contribution gaps before any new frozen study; no queued training or final test.",
-  "last_verified_snapshot_at": "2026-10-13T08:36:30.7233565Z",
+  "last_verified_snapshot_at": "2026-10-13T08:38:50.9276520Z",
   "snapshot_only": false,
   "total_training_runs_completed": 295,
   "historical_completed_trainings": 134,
@@ -598,7 +598,7 @@
   },
   "hydraulic_signal_validation": {
     "Hydraulic": "validation_responses_disclosed",
-    "github_sync": "pending_final_publication",
+    "github_sync": "source_and_release_verified",
     "adoption_eligible": [
       "H1_P1"
     ],
@@ -614,6 +614,8 @@
     "report": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
     "completed": 9,
     "signal_stable_correct": 0,
-    "transfer_gate": false
+    "transfer_gate": false,
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/hydraulic-signal-validation-20261013-r1",
+    "source_commit": "351ffa856441e8b5e57b26a5a33529bc91cf3c3f"
   }
 }
