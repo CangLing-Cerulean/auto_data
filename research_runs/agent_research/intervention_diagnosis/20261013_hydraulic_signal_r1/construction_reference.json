@@ -1,0 +1,66 @@
+{
+  "source_sha256": "2113842e887f36b236f60d0cfda5077e8551dde46ab0ecf33f98c1fc35abc544",
+  "source_scope": "published C construction cases only",
+  "construction_cases": [
+    {
+      "id": "C1_P1",
+      "task": "C1",
+      "action": "P1",
+      "features": {
+        "weighted_edit_ratio": 0.2553280919382133,
+        "edit_ratio": 0.158450786316357,
+        "roughness_change": 0.1792158524046037,
+        "edited_fraction": 0.06805775960286459,
+        "parent_nmse_ratio": 0.30684906265198747,
+        "parent_nmae_ratio": 0.1853983853325112
+      },
+      "category": "improve",
+      "mean_gain_percent": 0.35582763225855035
+    },
+    {
+      "id": "C1_CP1",
+      "task": "C1",
+      "action": "CP1",
+      "features": {
+        "weighted_edit_ratio": 0.1340041073332656,
+        "edit_ratio": 0.07960270682249845,
+        "roughness_change": 0.10170520441966158,
+        "edited_fraction": 0.4156333923339844,
+        "parent_nmse_ratio": 0.30684906265198747,
+        "parent_nmae_ratio": 0.1853983853325112
+      },
+      "category": "unchanged",
+      "mean_gain_percent": 0.033936654602469606
+    },
+    {
+      "id": "C2_P1",
+      "task": "C2",
+      "action": "P1",
+      "features": {
+        "weighted_edit_ratio": 0.3871795077034211,
+        "edit_ratio": 0.3790772101828176,
+        "roughness_change": 0.42413953851853414,
+        "edited_fraction": 0.07394994099934896,
+        "parent_nmse_ratio": 0.17945961216276426,
+        "parent_nmae_ratio": 0.1501512627220366
+      },
+      "category": "harm",
+      "mean_gain_percent": -2.3274464041638097
+    },
+    {
+      "id": "C2_CP1",
+      "task": "C2",
+      "action": "CP1",
+      "features": {
+        "weighted_edit_ratio": 0.23093084733654703,
+        "edit_ratio": 0.21151359217146617,
+        "roughness_change": 0.1996851987139714,
+        "edited_fraction": 0.407000732421875,
+        "parent_nmse_ratio": 0.17945961216276426,
+        "parent_nmae_ratio": 0.1501512627220366
+      },
+      "category": "unchanged",
+      "mean_gain_percent": -0.03930719317726631
+    }
+  ]
+}

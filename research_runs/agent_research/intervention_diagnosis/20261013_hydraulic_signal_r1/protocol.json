@@ -1,0 +1,92 @@
+{
+  "stage": "hydraulic_signal_validation_r1",
+  "seeds": [
+    2026101501,
+    2026101502,
+    2026101503
+  ],
+  "jobs": [
+    {
+      "id": "H1_PARENT_s2026101501",
+      "seed": 2026101501,
+      "action": "PARENT"
+    },
+    {
+      "id": "H1_P1_s2026101501",
+      "seed": 2026101501,
+      "action": "P1"
+    },
+    {
+      "id": "H1_CP1_s2026101501",
+      "seed": 2026101501,
+      "action": "CP1"
+    },
+    {
+      "id": "H1_PARENT_s2026101502",
+      "seed": 2026101502,
+      "action": "PARENT"
+    },
+    {
+      "id": "H1_P1_s2026101502",
+      "seed": 2026101502,
+      "action": "P1"
+    },
+    {
+      "id": "H1_CP1_s2026101502",
+      "seed": 2026101502,
+      "action": "CP1"
+    },
+    {
+      "id": "H1_PARENT_s2026101503",
+      "seed": 2026101503,
+      "action": "PARENT"
+    },
+    {
+      "id": "H1_P1_s2026101503",
+      "seed": 2026101503,
+      "action": "P1"
+    },
+    {
+      "id": "H1_CP1_s2026101503",
+      "seed": 2026101503,
+      "action": "CP1"
+    }
+  ],
+  "training": {
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "steps": 3000,
+    "prediction_length": 8,
+    "moving_average_kernel": 25,
+    "input_length": 32
+  },
+  "script_sha256": "de1ded74438aa4b5f81d623873688df664d18416f2250741564325e520b8e0a3",
+  "dependencies_sha256": {
+    "construction_reference.json": "3577d548bc4a85566a503c59401cd9981df6d47dd85a2e09a1dc592cb6f26c62",
+    "proposal_median3.py": "684e94a079891dddbd9dc61edf49166f92a4f8dcc6be2f45a2ee3670b9d3052d",
+    "PROTOCOL.md": "edf33d4e72b79182a641ea9d7a802c1460e3d25c35eb5ca4e7e2ab34a2542f31",
+    "run_stage1_candidate.py": "e2f17bf44f44666d654174f4d7a4fd0eee4e48f7cd1439fc17d07d52fa47b688",
+    "signal_mean_shift.py": "413893e0fc3a1c1e92b5d8e8036cc128911c07093c2e75c9c57f7e5a2b027c30",
+    "signal_rule.json": "1c3008aa30b53464ff096664eccbf1102eb8669683c83238c578ccca37a46dd8",
+    "stage1_selection_methods.py": "80c7b761a6fe7e994245a2acd1109083341e305ff6db9c4c484eca9e062f6363",
+    "supervise_stage1_recovery.py": "379e7c3eca5d28f67188d570597c7cb407a4ee676d749bb1d5b1bed366167912",
+    "audit_hydraulic_signal_validation.py": "3e4a22a975652ccc7afc4796b96e8a80ea4cabc8a892cd0e9d79c778de1fd93a"
+  },
+  "frozen_core": "/root/data/auto_data_research/metropt3_v1/session_20260926/scripts/run_research.py",
+  "frozen_core_sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+  "dataset_manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "expected_windows": {
+    "validation": 9240,
+    "train": 32403
+  },
+  "prior_successful_trainings": 286,
+  "test_access": false,
+  "final_objective": "publishable paper method and experimental evidence",
+  "report_requirement": [
+    "this phase completion",
+    "overall research stage",
+    "next action",
+    "remaining evidence to paper"
+  ]
+}

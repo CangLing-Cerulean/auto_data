@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+最新入口：[Hydraulic独立验证协议](agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/PROTOCOL.md)。用户已同意验证原冻结信号并指定论文成果目标；9项任务、代码与独立审计已准备，静态审查无阻塞。具体上传被自动审批拒绝，已请求目标地址/文件授权，以新阶段progress为准；此时训练新增0、累计286，尚未读Hydraulic输入统计或产生预测。完成后必须汇报本轮、整体、下一步和论文证据缺口。下方停止边界保留为阶段2a结论。
+
 当前停止点：[阶段2a回放报告](agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/REPORT.md)。20次Sol high决策完成、6支验收；节点2完整方法与无信号、无双更新、仅整体反馈持平，只有效果屏蔽支未提名S2_P1。冻结推进门槛false，依原授权停止方法扩展，不能自动追加提示词、LLM重复、候选、阈值或训练。阶段1新信号四格稳定预测和S2_P1平均NMSE改善1.118270%仍保留。新增训练0、累计286、无队列；Hydraulic和测试未动。先核对本阶段sync_receipt.json；下方“反馈设计待启动”均为历史状态。
 
 2026-10-13最新：[S完整确认](agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md)。用户确认开机后读取原监督发现18项已全部成功，未重跑；完整审计通过、累计286。新信号四稳定格正确，S2_P1平均NMSE改善1.118270%通过原采用门槛；S1改善0.399769%不采用。满足反馈设计入口，尚无反馈因果效果结论。先核对selection_confirmation_sync_receipt，再设计独立共同前缀和反馈对照；Hydraulic保留，下方连接未知为旧快照。

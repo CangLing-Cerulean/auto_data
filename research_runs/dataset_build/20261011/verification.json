@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "started_utc": "2026-10-11T15:12:55.9620015Z",
-  "finished_utc": "2026-10-11T15:12:58.7707356Z",
-  "local_wall_seconds": 2.8060514,
+  "started_utc": "2026-10-13T07:54:06.2610166Z",
+  "finished_utc": "2026-10-13T07:54:10.7703279Z",
+  "local_wall_seconds": 4.5053209,
   "datasets": [
     {
       "dataset_id": "skab_v1",
@@ -52,11 +52,11 @@
     }
   ],
   "metropt3_file_sha256": {
+    "train.csv": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
+    "train_profile.json": "29cce2ac0b99840e03ab326bf65b3ff031265dba8b5b531cd4d42dddc5e3ce08",
     "validation.csv": "c3eb12794fb994b7a441bf5cc5e536447e53495f757aabb2be4c799befc52d21",
     "manifest.json": "672c0ecf55bc94a52abc6b256c0bfe7a4da02140e57dd0527375bf859a22c087",
-    "test.csv": "07f9a254130984754a75eaf9927006f8c83ba10a1ef85dc308e6ebc62db102b4",
-    "train.csv": "be1925bf2e2d8d2692f039103a75eeeb094d65c524e32d71f23af86dcd9f2d6f",
-    "train_profile.json": "29cce2ac0b99840e03ab326bf65b3ff031265dba8b5b531cd4d42dddc5e3ce08"
+    "test.csv": "07f9a254130984754a75eaf9927006f8c83ba10a1ef85dc308e6ebc62db102b4"
   },
   "metropt3_source_reconstruction": "PASS",
   "new_trainings": 0,
