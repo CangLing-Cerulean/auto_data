@@ -1,0 +1,69 @@
+[
+  {
+    "name": "FAF",
+    "url": "https://proceedings.mlr.press/v300/taga26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v300/main/assets/taga26a/taga26a.pdf",
+    "sha256": "b694fba47846fc3b8781a32e089e0f5f2076121381ff571633d30cea638b37b9",
+    "reviewed_pages": [
+      "1-5",
+      "7-9"
+    ],
+    "official_code_status": "not located in bounded review"
+  },
+  {
+    "name": "TSAA source",
+    "path": "run.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/run.py",
+    "sha256": "3ca23b912770a56b37d2203c020669d1ccce54e87685326df749af6211064239",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "autoaugment/augment.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/autoaugment/augment.py",
+    "sha256": "9658092bcd458fa99f1cf59d6ce8e238ae7d3a33ede6d0545b1fd2b2a3c59a40",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "autoaugment/loggers.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/autoaugment/loggers.py",
+    "sha256": "70ebc0486b7bcfbb342bd00a71193c4d60650e4d76109c8480a5152ea685f1b8",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "autoaugment/policy_search.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/autoaugment/policy_search.py",
+    "sha256": "598e527b493d7e08bc4b53f438c92abb02c38bc098bca56dbee7772d908c72f0",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "data_provider/data_loader.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/data_provider/data_loader.py",
+    "sha256": "118a39aa542fb38ec65e561a6ef9b1f8144c19bcd14743c8abf2cb149adee9ba",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "exp/exp_main.py",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/exp/exp_main.py",
+    "sha256": "fc897bfaa72b42268af81713dc65548bef9e948d7e14eaff43f1f9203608f3db",
+    "review_scope": "critical paths only; not third-party execution"
+  },
+  {
+    "name": "TSAA source",
+    "path": "scripts/exp_fastaa.sh",
+    "commit": "aa03b0a5a576aebbdbddaa285127ce1bbb107aa9",
+    "url": "https://github.com/azencot-group/TSAA/blob/aa03b0a5a576aebbdbddaa285127ce1bbb107aa9/scripts/exp_fastaa.sh",
+    "sha256": "00d83f1feb53718338c664fc00df73fbf161ac668338d499af79b070b12f7a5d",
+    "review_scope": "critical paths only; not third-party execution"
+  }
+]

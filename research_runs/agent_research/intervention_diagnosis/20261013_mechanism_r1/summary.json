@@ -1,0 +1,66 @@
+[
+  {
+    "checkpoint": "best",
+    "split": "train",
+    "action": "CP1",
+    "fixed_mean": -4.028445314937956,
+    "adaptation_mean": 4.495674029609813,
+    "total_mean": 0.4672287146718525
+  },
+  {
+    "checkpoint": "best",
+    "split": "train",
+    "action": "P1",
+    "fixed_mean": 0.15805247517538165,
+    "adaptation_mean": -0.19609872181582022,
+    "total_mean": -0.03804624664043299
+  },
+  {
+    "checkpoint": "best",
+    "split": "validation",
+    "action": "CP1",
+    "fixed_mean": -4.116138900187183,
+    "adaptation_mean": 3.8292966185123074,
+    "total_mean": -0.2868422816748743
+  },
+  {
+    "checkpoint": "best",
+    "split": "validation",
+    "action": "P1",
+    "fixed_mean": 1.454710573444588,
+    "adaptation_mean": -0.3330842283415162,
+    "total_mean": 1.1216263451030735
+  },
+  {
+    "checkpoint": "last",
+    "split": "train",
+    "action": "CP1",
+    "fixed_mean": -7.539442436400205,
+    "adaptation_mean": 2.841787588498073,
+    "total_mean": -4.69765484790213
+  },
+  {
+    "checkpoint": "last",
+    "split": "train",
+    "action": "P1",
+    "fixed_mean": -0.16807626244442395,
+    "adaptation_mean": 0.042642757704198814,
+    "total_mean": -0.1254335047402281
+  },
+  {
+    "checkpoint": "last",
+    "split": "validation",
+    "action": "CP1",
+    "fixed_mean": -3.825994271560207,
+    "adaptation_mean": 5.0847268294070505,
+    "total_mean": 1.2587325578468496
+  },
+  {
+    "checkpoint": "last",
+    "split": "validation",
+    "action": "P1",
+    "fixed_mean": 1.1320285734791269,
+    "adaptation_mean": -1.4980408638478153,
+    "total_mean": -0.3660122903686854
+  }
+]
