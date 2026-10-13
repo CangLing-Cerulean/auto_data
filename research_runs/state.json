@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-13",
   "session_id": "metropt3_session_20260926",
-  "phase": "response_proxy_development_predictions_locked_locally",
+  "phase": "response_proxy_development_closed_failed_numerical_audit",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/FORECAST_REPORT.md",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/FORECAST_REPORT.md",
-  "next_action": "Publish predictions then finish only registered label/error/mechanism audit; selection increment impossible due to identical M1/FIXED recommendations, no expansion.",
-  "last_verified_snapshot_at": "2026-10-13T12:25:02.812249Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md",
+  "next_action": "Stop method expansion. Diagnose the preserved numerical audit failure read-only under a separate boundary; never relax original tolerance or rewrite failed audit as passed.",
+  "last_verified_snapshot_at": "2026-10-13T13:07:48.9914335Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 313,
+  "total_training_runs_completed": 331,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -579,7 +579,7 @@
     "new_signal_stable_correct": 4,
     "report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md"
   },
-  "training_count_scope": "304 independently audited; nine new full parents completed and hash-indexed, final independent study audit pending",
+  "training_count_scope": "331 completed full runs; latest 27 completed and hashes verified but stage numerical audit failed; last fully accepted cumulative count 304",
   "stage2_feedback_replay": {
     "status": "complete_stopped",
     "actor_calls": 20,
@@ -637,5 +637,24 @@
     "report": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_engineering_r1/REPORT.md",
     "github_sync": "source_and_release_verified",
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/response-proxy-engineering-20261013-r1"
+  },
+  "response_proxy_development": {
+    "status": "closed_failed_original_numerical_audit",
+    "new_completed_full": 27,
+    "cumulative_completed_full": 331,
+    "last_full_stage_accepted_count": 304,
+    "proxy_rollouts": 27,
+    "short_trainings": 18,
+    "training_failures": 0,
+    "audit_failures": 1,
+    "budget_gate": true,
+    "selection_gate": false,
+    "error_gate": null,
+    "D_gate": null,
+    "advance": false,
+    "model_queue": false,
+    "test_access": false,
+    "D_partially_read": true,
+    "report": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md"
   }
 }

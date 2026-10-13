@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+当前停止点：[M1开发首轮](agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md)。72运行全completed（27完整/27代理/18短训），完整累计完成331但新增27未整阶段验收，最后全阶段验收累计304。原float32恒等式容差失败，完整误差/D门槛null，保留原失败与冻结代码；不得放宽或重跑。M1记录MAE0.407517pp优于三个基线只是未完成独立验收的信号；与FIXED同推荐使增量门槛确定false。无队列/基础测试，D部分已读。接续先核对failure_closure、sync_receipt和Release，再另行明确只读故障定位；不自动扩展M2–M4或新来源。
+
 当前入口：[响应代理数值/成本验收](agent_research/intervention_diagnosis/20261013_response_proxy_engineering_r1/REPORT.md)。18/18完成且独立审计通过，新增9次完整训练、累计304，另9代理轨迹/384诊断更新单列。两候选成本22.960979 vs 72.214422秒，含共同真实父58.584050 vs 107.837493秒，成本门槛true；预测和选择优势尚未检验。下一步另冻单一M1开发任务和同成本短训比较；没有科学实验或测试队列。核对sync_receipt/release_receipt后接续，下文“未实现”为历史设计状态。
 
 当前入口：[有限协议响应代理设计](agent_research/intervention_diagnosis/20261013_response_proxy_design_r1/REPORT.md)。已结合用户建议收敛M1主线并核对冻结代码，未实现或运行代理。下一步按第7节做原坐标矩梯度/Adam/检查点选择的局部原型和成本验收；新任务/独立来源/动作/运行预算与科学门槛尚未冻结，execution_ready=false。旧父模型缺中间权重和优化器状态，不能插值或重跑旧ID冒充已有轨迹。累计295，无新训练和测试，机制分解结论保持。
