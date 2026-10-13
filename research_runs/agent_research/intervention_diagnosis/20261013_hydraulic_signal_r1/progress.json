@@ -1,10 +1,15 @@
 {
-  "candidate_trainings_started": 0,
-  "prediction_lock_sha256": "7436839d0c91f3b8ae4196d6f6a7c13521f2de2fb58d14df4f81856a24ba117e",
-  "new_completed_observed": 1,
-  "status": "anchor_completed_predictions_locked",
-  "next": "publish prediction lock then activate remaining eight",
-  "cumulative_successful_trainings_full_audit": 286,
-  "planned_trainings": 9,
-  "new_trainings_fully_audited": 0
+  "training_queue": false,
+  "test_access": false,
+  "directional_transfer_passed": false,
+  "status": "complete_audited_transfer_gate_failed",
+  "preserved_prior_failed_delivery_count": 1,
+  "next": "archive and sync, then report; no new experiments or threshold changes",
+  "adoption_eligible": [
+    "H1_P1"
+  ],
+  "new_successful_trainings": 9,
+  "new_failed_runs": 0,
+  "archive_sync": "pending",
+  "cumulative_successful_trainings": 295
 }

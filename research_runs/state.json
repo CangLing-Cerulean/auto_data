@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-13",
   "session_id": "metropt3_session_20260926",
-  "phase": "hydraulic_signal_prepared_awaiting_specific_upload_authorization",
+  "phase": "hydraulic_signal_validation_complete_transfer_gate_failed",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_stage2_feedback_replay_r1/REPORT.md",
-  "next_action": "Specific upload authorization pending; then preflight, freeze source and run first parent. No new training yet.",
-  "last_verified_snapshot_at": "2026-10-13T08:12:23.5857256Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
+  "next_action": "Stop this experiment batch. Review failed transfer and paper contribution gaps before any new frozen study; no queued training or final test.",
+  "last_verified_snapshot_at": "2026-10-13T08:36:30.7233565Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 286,
+  "total_training_runs_completed": 295,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -595,5 +595,25 @@
     "model_queue": false,
     "test_access": false,
     "Hydraulic": "reserved"
+  },
+  "hydraulic_signal_validation": {
+    "Hydraulic": "validation_responses_disclosed",
+    "github_sync": "pending_final_publication",
+    "adoption_eligible": [
+      "H1_P1"
+    ],
+    "status": "complete_audited_transfer_gate_failed",
+    "test_access": false,
+    "stable_cells": 1,
+    "H1_CP1_category": "unstable_response",
+    "cumulative_successful_trainings": 295,
+    "registered_cells": 2,
+    "background_queue": false,
+    "failed": 0,
+    "H1_P1_mean_NMSE_gain_percent": 1.1216263451030735,
+    "report": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
+    "completed": 9,
+    "signal_stable_correct": 0,
+    "transfer_gate": false
   }
 }

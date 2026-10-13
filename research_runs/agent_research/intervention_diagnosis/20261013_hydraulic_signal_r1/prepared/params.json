@@ -1,0 +1,36 @@
+{
+  "version": "median3_endpoint_preserved_v1",
+  "input_length": 32,
+  "rms_step": [
+    0.02244906686246395,
+    0.059414930641651154,
+    0.3690163791179657,
+    0.007955323904752731,
+    0.0053197708912193775,
+    0.0056031085550785065,
+    0.004997840616852045,
+    0.22542688250541687
+  ],
+  "active_channels": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "target_rule": "any_internal_median_correction_gt_T_step_RMS",
+  "target_scope": "whole_window_all_channels_all_forecast_steps",
+  "target_count_T": 30992,
+  "complement_count_T": 1411,
+  "control_coefficients": [
+    0.25,
+    0.5,
+    0.25
+  ],
+  "control_seed": 2026101501,
+  "control_seed_used": false,
+  "mask_semantics": "diagnostic_evaluation_group_not_transform_support"
+}

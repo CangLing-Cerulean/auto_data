@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "cells": {
+    "H1_P1": {
+      "repeats": [
+        {
+          "seed": 2026101501,
+          "gain_percent": {
+            "global": {
+              "NMSE": 1.824663765710366,
+              "NMAE": 0.9280991245009251
+            },
+            "target": {
+              "NMSE": 1.8194493480265028,
+              "NMAE": 0.9250309557080505
+            },
+            "complement": {
+              "NMSE": 3.3827038328429038,
+              "NMAE": 1.753022727437492
+            }
+          },
+          "category": "improve"
+        },
+        {
+          "seed": 2026101502,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.9922297742596231,
+              "NMAE": 0.5049747256582804
+            },
+            "target": {
+              "NMSE": 0.9822742983424004,
+              "NMAE": 0.5010905770175822
+            },
+            "complement": {
+              "NMSE": 4.032606285149876,
+              "NMAE": 1.5277064114066485
+            }
+          },
+          "category": "improve"
+        },
+        {
+          "seed": 2026101503,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.5479854953392316,
+              "NMAE": 0.2630351962242816
+            },
+            "target": {
+              "NMSE": 0.5317061499420683,
+              "NMAE": 0.25640183308440756
+            },
+            "complement": {
+              "NMSE": 5.554598951369183,
+              "NMAE": 1.993977674538061
+            }
+          },
+          "category": "improve"
+        }
+      ],
+      "stable_category": "improve",
+      "mean_NMSE_gain_percent": 1.1216263451030735,
+      "mean_NMAE_gain_percent": 0.565369682127829,
+      "adoption_eligible": true
+    },
+    "H1_CP1": {
+      "repeats": [
+        {
+          "seed": 2026101501,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.17401218108606953,
+              "NMAE": 4.722791728951082
+            },
+            "target": {
+              "NMSE": 0.17349472414284195,
+              "NMAE": 4.735742384226683
+            },
+            "complement": {
+              "NMSE": 0.3286255433921692,
+              "NMAE": 1.2408121080072942
+            }
+          },
+          "category": "unchanged"
+        },
+        {
+          "seed": 2026101502,
+          "gain_percent": {
+            "global": {
+              "NMSE": -1.2673524865080221,
+              "NMAE": -0.9365272154274074
+            },
+            "target": {
+              "NMSE": -1.2599456248070462,
+              "NMAE": -0.9354266282541213
+            },
+            "complement": {
+              "NMSE": -3.5293888293460363,
+              "NMAE": -1.2263218343151028
+            }
+          },
+          "category": "harm"
+        },
+        {
+          "seed": 2026101503,
+          "gain_percent": {
+            "global": {
+              "NMSE": 0.23281346039732975,
+              "NMAE": -0.9008002769375523
+            },
+            "target": {
+              "NMSE": 0.23992109078970758,
+              "NMAE": -0.8987835123415167
+            },
+            "complement": {
+              "NMSE": -1.9530949465295988,
+              "NMAE": -1.4270647726990715
+            }
+          },
+          "category": "unchanged"
+        }
+      ],
+      "stable_category": "unstable_response",
+      "mean_NMSE_gain_percent": -0.2868422816748743,
+      "mean_NMAE_gain_percent": 0.961821412195374,
+      "adoption_eligible": false
+    }
+  },
+  "scores": {
+    "new_signal": {
+      "total": 2,
+      "stable_cells": 1,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 0,
+      "observed_harm": 0,
+      "harm_warned": 0,
+      "false_harm_warning": 0,
+      "wrong_direction": 0
+    },
+    "generic_stats": {
+      "total": 2,
+      "stable_cells": 1,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 0,
+      "observed_harm": 0,
+      "harm_warned": 0,
+      "false_harm_warning": 0,
+      "wrong_direction": 0
+    },
+    "case_match": {
+      "total": 2,
+      "stable_cells": 1,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 0,
+      "observed_harm": 0,
+      "harm_warned": 0,
+      "false_harm_warning": 0,
+      "wrong_direction": 0
+    },
+    "always_unchanged": {
+      "total": 2,
+      "stable_cells": 1,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 0,
+      "observed_harm": 0,
+      "harm_warned": 0,
+      "false_harm_warning": 0,
+      "wrong_direction": 0
+    }
+  },
+  "directional_transfer_passed": false,
+  "unchanged_only_hit": false,
+  "adoption_eligible": [
+    "H1_P1"
+  ],
+  "result_sha256": {
+    "H1_PARENT_s2026101501": "487d0efa95ace5307a7d3e1762c9ebdf55d0828dde0505ab0e9829fc88ff3dea",
+    "H1_P1_s2026101501": "e01a711b3672546a10a4e9c4dccfdfe527e4a75bdfa61f2f8bd037fc45f58cfe",
+    "H1_CP1_s2026101501": "908ec389820c30b62d30b4236dab2db04f5f125574496a98f67a3f5cdbf24706",
+    "H1_PARENT_s2026101502": "c9ea507143f013ed066a4ba597d6f4bb9b0b4058dcc1deabb92d0f716c750be3",
+    "H1_P1_s2026101502": "cd4018a3b8586929f281270bb3a6f789c8a60c4bdcc576e03ca9ef6460a562d3",
+    "H1_CP1_s2026101502": "4fc5be2b744f93f47f45ec3323728da8d8b9230e63a520e73aec06b85f633e04",
+    "H1_PARENT_s2026101503": "2cc5f4b8331f06d118fdc0f428fed28014ae7c8c64de07fe7e36635f437081a6",
+    "H1_P1_s2026101503": "d25a43cb69d6b8aa565e64e91cab11e34554075d9d68fcf0066bfdd02d213db5",
+    "H1_CP1_s2026101503": "564c264d868e140c93b6f8123d47cd5158dd100626439a575cb91ccab1e919fd"
+  },
+  "new_successful_trainings": 9,
+  "new_failed_runs": 0,
+  "cumulative_successful_trainings": 295,
+  "preserved_prior_failed_delivery_count": 1,
+  "training_process_seconds": 344.6821672329679,
+  "audit_process_seconds": 3.1039970833808184,
+  "verification": [
+    "raw_data_hashes",
+    "T_only_normalization_and_fit",
+    "independent_cycle_windows",
+    "saved_checkpoint_exact_inference",
+    "element_metrics",
+    "paired_initialization_and_sampling",
+    "locked_predictions"
+  ],
+  "protocol_sha256": "1760b2bf75593c08cb71ccbb598ddb0a459b7a51d9fb47c3953e70870004770d",
+  "prediction_lock_sha256": "7436839d0c91f3b8ae4196d6f6a7c13521f2de2fb58d14df4f81856a24ba117e",
+  "auditor_sha256": "3e4a22a975652ccc7afc4796b96e8a80ea4cabc8a892cd0e9d79c778de1fd93a",
+  "new_LLM_calls": 0,
+  "test_access": false,
+  "next": "end phase; no automatic test or new study"
+}

@@ -1,0 +1,40 @@
+{
+  "test_access": false,
+  "main_audit_sha256": "c328e0b0bc15196dd8ef2610a0caaed02f9eff62a39d834bea93220e74d2d76f",
+  "cell_gain_recalculation": {
+    "P1": {
+      "NMAE_gains": [
+        0.9280991245009251,
+        0.5049747256582804,
+        0.2630351962242816
+      ],
+      "mean_NMSE": 1.1216263451030735,
+      "NMSE_gains": [
+        1.824663765710366,
+        0.9922297742596231,
+        0.5479854953392316
+      ]
+    },
+    "CP1": {
+      "NMAE_gains": [
+        4.722791728951082,
+        -0.9365272154274074,
+        -0.9008002769375523
+      ],
+      "mean_NMSE": -0.2868422816748743,
+      "NMSE_gains": [
+        0.17401218108606953,
+        -1.2673524865080221,
+        0.23281346039732975
+      ]
+    }
+  },
+  "archive_member_verification": "local_archive_verification.json",
+  "six_response_diagnostic_correct": {
+    "new_signal": 2,
+    "generic_stats": 1,
+    "case_match": 2,
+    "always_unchanged": 2
+  },
+  "status": "PASS"
+}
