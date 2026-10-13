@@ -1,0 +1,32 @@
+{
+  "current_successful_training_total": null,
+  "confirmation_training_failure_count": null,
+  "current_background_queue": null,
+  "feedback_stage_started": false,
+  "additional_completed_statuses_observed": 5,
+  "status": "remote_current_state_unknown_connection_closed",
+  "query_approval_timeout_count": 1,
+  "last_observed_control": {
+    "status": "running",
+    "active": "S1_CP1_s2026101403",
+    "pid": 58013,
+    "protocol_sha256": "d72d1b727ae22e30fc2e1aa43c158647255de71a6672975d1bfdc96a2ca99fc0",
+    "child_pid": 58568,
+    "completed": [
+      "S1_PARENT_s2026101402",
+      "S1_P1_s2026101402",
+      "S1_CP1_s2026101402",
+      "S1_PARENT_s2026101403",
+      "S1_P1_s2026101403"
+    ],
+    "failed": null
+  },
+  "recorded_utc": "2026-10-13T05:13:30.0017970Z",
+  "last_complete_matrix_audited_training_count": 268,
+  "next": "read existing remote status/results; no relaunch or repeat IDs",
+  "subsequent_SSH_connection_closed_count": 2,
+  "Hydraulic": "reserved",
+  "snapshot_is_current": false,
+  "confirmation_assets_downloaded": false,
+  "confirmation_cost_seconds": null
+}

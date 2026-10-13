@@ -1,5 +1,5 @@
 {
-  "status": "selection_initial_passed_confirmation_preparing",
+  "status": "selection_confirmation_remote_state_unknown",
   "new_trainings": 31,
   "new_candidate_trainings": 4,
   "new_confirmation_successful_trainings": 17,
@@ -9,8 +9,8 @@
   "cumulative_completed_trainings": 268,
   "confirmation_registered_total": 18,
   "confirmation_not_started": 0,
-  "background_model_queue": false,
-  "active_model_queue": false,
+  "background_model_queue": null,
+  "active_model_queue": null,
   "test_model_access": false,
   "test_integrity_access": true,
   "LLM": "internal_gpt-6.1-sol_high",
@@ -22,8 +22,8 @@
   "baseline_sync_receipt": "baseline_sync_receipt.json",
   "initial_sync_receipt": "initial_sync_receipt.json",
   "interruption_sync": "source_and_release_verified",
-  "report": "SELECTION_INITIAL_REPORT.md",
-  "next": "freeze and validate 18-run S confirmation execution; no rule changes",
+  "report": "SELECTION_CONFIRMATION_STATUS.md",
+  "next": "read existing remote status/results; no relaunch or repeat IDs",
   "interruption_sync_receipt": "confirmation_interruption_sync_receipt.json",
   "recovery_protocol": "confirmation_recovery_protocol.json",
   "recovery_preflight": "confirmation_recovery_preflight.json",
@@ -37,5 +37,10 @@
   "new_selection_initial_trainings": 4,
   "selection_initial_gate": true,
   "selection_sync": "source_and_release_verified",
-  "selection_sync_receipt": "selection_sync_receipt.json"
+  "selection_sync_receipt": "selection_sync_receipt.json",
+  "selection_confirmation_completed_observed": 5,
+  "selection_confirmation_active_observed": "S1_CP1_s2026101403",
+  "selection_confirmation_snapshot_is_current": false,
+  "confirmation_state_report": "selection_confirmation_connection_status.json",
+  "cumulative_count_scope": "last full asset-audited matrix; additional 5 completed statuses observed but current total unknown"
 }

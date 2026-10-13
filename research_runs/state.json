@@ -1,16 +1,16 @@
 {
   "version": "current-research-index-v2",
-  "updated_date": "2026-10-12",
+  "updated_date": "2026-10-13",
   "session_id": "metropt3_session_20260926",
-  "phase": "stage1_selection_initial_passed_confirmation_preparing",
+  "phase": "stage1_selection_confirmation_remote_state_unknown",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/selection_protocol.json",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/selection_confirmation_protocol.json",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md",
-  "next_action": "freeze and validate 18-run S confirmation execution; no rule changes",
-  "last_verified_snapshot_at": "2026-10-12T15:31:37.6116666Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_STATUS.md",
+  "next_action": "read existing remote status/results; no relaunch or repeat IDs",
+  "last_verified_snapshot_at": "2026-10-13T05:13:30.2848182Z",
   "snapshot_only": false,
   "total_training_runs_completed": 268,
   "historical_completed_trainings": 134,
@@ -563,5 +563,16 @@
     "gate_passed": true,
     "report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_INITIAL_REPORT.md",
     "completed": 4
-  }
+  },
+  "stage1_selection_confirmation": {
+    "source_commit": "6ce0746d5f69dc6744faa85934b7ef78acac35ed",
+    "active_observed": "S1_CP1_s2026101403",
+    "last_full_matrix_audited_count": 268,
+    "completed_observed": 5,
+    "background_queue": null,
+    "registered": 18,
+    "current_state": "unknown_connection_closed",
+    "snapshot_is_current": false
+  },
+  "training_count_scope": "last full asset-audited matrix; additional 5 completed statuses observed but current total unknown"
 }
