@@ -1,5 +1,7 @@
 # 研究接续：2026-10-13
 
+最新：[数值定位与独立补验](agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md)。用户要求持续沿主线推进至需人工解决。108格舍入分解全部通过，36格旧容差失败均属G3；原失败不改。补验450状态/612残差通过，MAE M1 0.407517pp，FIXED 1.386154，SHORT 1.958771；精度/D描述性条件满足，选择增量仍false。累计331、新训练0、基础测试未访问。下一步保持M1设计训练数据筛选开发实验，必须另冻共同候选/概率/强对照，不能称原阶段获推进验收。先核对本阶段同步收据，下文停止边界为历史。
+
 当前停止点：[M1开发首轮](agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md)。72运行全completed（27完整/27代理/18短训），完整累计完成331但新增27未整阶段验收，最后全阶段验收累计304。原float32恒等式容差失败，完整误差/D门槛null，保留原失败与冻结代码；不得放宽或重跑。M1记录MAE0.407517pp优于三个基线只是未完成独立验收的信号；与FIXED同推荐使增量门槛确定false。无队列/基础测试，D部分已读。接续先核对failure_closure、sync_receipt和Release，再另行明确只读故障定位；不自动扩展M2–M4或新来源。
 
 当前入口：[响应代理数值/成本验收](agent_research/intervention_diagnosis/20261013_response_proxy_engineering_r1/REPORT.md)。18/18完成且独立审计通过，新增9次完整训练、累计304，另9代理轨迹/384诊断更新单列。两候选成本22.960979 vs 72.214422秒，含共同真实父58.584050 vs 107.837493秒，成本门槛true；预测和选择优势尚未检验。下一步另冻单一M1开发任务和同成本短训比较；没有科学实验或测试队列。核对sync_receipt/release_receipt后接续，下文“未实现”为历史设计状态。

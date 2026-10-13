@@ -1,6 +1,6 @@
 {
   "stage": "proxy_numeric_diagnosis_r1",
-  "status": "diagnosis_completed_preparing_supplement",
+  "status": "diagnosis_and_supplement_completed_sync_pending",
   "authorization": "2026-10-13 user: continue along main research until human intervention is required",
   "original_audit_failure_preserved": true,
   "original_selection_gate": false,
@@ -8,9 +8,16 @@
   "diagnostic_cells_completed": 108,
   "original_tolerance_failed_cells": 36,
   "diagnostic_rounding_accounting_passed": true,
+  "supplementary_verification": "PASS",
+  "descriptive_error_gate": true,
+  "descriptive_selection_gate": false,
+  "descriptive_D_gate": true,
+  "original_stage_accepted": false,
+  "states_verified": 450,
+  "residual_arrays_verified": 612,
   "new_trainings": 0,
   "cumulative_completed_full": 331,
-  "D_access": false,
+  "D_access": "supplement_only_after_prediction_and_label_binding",
   "test_access": false,
   "model_queue": false
 }

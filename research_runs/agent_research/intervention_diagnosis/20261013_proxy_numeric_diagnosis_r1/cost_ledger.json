@@ -1,0 +1,13 @@
+{
+  "diagnosis_seconds": 7.901259941980243,
+  "supplementary_audit_seconds": 26.798621609807014,
+  "archive_creation_and_verification_seconds": 1.4060894828289747,
+  "new_full_trainings": 0,
+  "new_proxy_rollouts": 0,
+  "new_short_trainings": 0,
+  "cumulative_completed_full": 331,
+  "original_failed_audit_seconds": null,
+  "interactive_review_llm_cost": null,
+  "external_api_calls": 0,
+  "notes": "Compute phases are disjoint. Source preparation, local verification, transfer and publication wall times are separate delivery costs, not measured as zero. Original stage training costs remain in its ledger."
+}
