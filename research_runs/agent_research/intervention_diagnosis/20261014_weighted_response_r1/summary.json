@@ -1,0 +1,121 @@
+{
+  "stable_material_cells": 2,
+  "category_changed_cells": 0,
+  "adoption_eligibility_changed_cells": 0,
+  "selected_step_changed_pairs": 22,
+  "M1_joint_MAE_pp": 3.173994294563567,
+  "mean_only_joint_MAE_lower_bound_pp": 2.5060547410471297,
+  "seed_level_joint_MAE_lower_bound_pp": 6.1996400545533765,
+  "fixed_step_groups": [
+    {
+      "task": "G1",
+      "step": 500,
+      "mean_absolute_paired_gap_pp": 1.3097139962556505,
+      "max_absolute_paired_gap_pp": 3.7641073962673177
+    },
+    {
+      "task": "G1",
+      "step": 1000,
+      "mean_absolute_paired_gap_pp": 1.0337622504802806,
+      "max_absolute_paired_gap_pp": 2.0665004746192164
+    },
+    {
+      "task": "G1",
+      "step": 1500,
+      "mean_absolute_paired_gap_pp": 1.0843089218330437,
+      "max_absolute_paired_gap_pp": 4.281952162118726
+    },
+    {
+      "task": "G1",
+      "step": 2000,
+      "mean_absolute_paired_gap_pp": 0.9809910873961738,
+      "max_absolute_paired_gap_pp": 2.142768144886368
+    },
+    {
+      "task": "G1",
+      "step": 2500,
+      "mean_absolute_paired_gap_pp": 1.0408725747906842,
+      "max_absolute_paired_gap_pp": 3.575278741588167
+    },
+    {
+      "task": "G1",
+      "step": 3000,
+      "mean_absolute_paired_gap_pp": 0.7571553172196397,
+      "max_absolute_paired_gap_pp": 1.7582916005642044
+    },
+    {
+      "task": "G2",
+      "step": 500,
+      "mean_absolute_paired_gap_pp": 5.118142424836435,
+      "max_absolute_paired_gap_pp": 30.252879435671275
+    },
+    {
+      "task": "G2",
+      "step": 1000,
+      "mean_absolute_paired_gap_pp": 3.5053018915264302,
+      "max_absolute_paired_gap_pp": 17.2050590074748
+    },
+    {
+      "task": "G2",
+      "step": 1500,
+      "mean_absolute_paired_gap_pp": 1.9218319505562274,
+      "max_absolute_paired_gap_pp": 12.449952851172839
+    },
+    {
+      "task": "G2",
+      "step": 2000,
+      "mean_absolute_paired_gap_pp": 3.441658913843551,
+      "max_absolute_paired_gap_pp": 18.76432514614976
+    },
+    {
+      "task": "G2",
+      "step": 2500,
+      "mean_absolute_paired_gap_pp": 4.892859261411003,
+      "max_absolute_paired_gap_pp": 27.480385167287068
+    },
+    {
+      "task": "G2",
+      "step": 3000,
+      "mean_absolute_paired_gap_pp": 3.8804951274283845,
+      "max_absolute_paired_gap_pp": 18.188993041448953
+    },
+    {
+      "task": "G3",
+      "step": 500,
+      "mean_absolute_paired_gap_pp": 11.53323787383211,
+      "max_absolute_paired_gap_pp": 29.66374242536412
+    },
+    {
+      "task": "G3",
+      "step": 1000,
+      "mean_absolute_paired_gap_pp": 28.430356754994513,
+      "max_absolute_paired_gap_pp": 54.89174539936569
+    },
+    {
+      "task": "G3",
+      "step": 1500,
+      "mean_absolute_paired_gap_pp": 34.63454623413052,
+      "max_absolute_paired_gap_pp": 88.89598463907976
+    },
+    {
+      "task": "G3",
+      "step": 2000,
+      "mean_absolute_paired_gap_pp": 26.324229724092945,
+      "max_absolute_paired_gap_pp": 90.22759878243238
+    },
+    {
+      "task": "G3",
+      "step": 2500,
+      "mean_absolute_paired_gap_pp": 29.000670300075527,
+      "max_absolute_paired_gap_pp": 78.63169477701939
+    },
+    {
+      "task": "G3",
+      "step": 3000,
+      "mean_absolute_paired_gap_pp": 20.484567813276403,
+      "max_absolute_paired_gap_pp": 46.65184144374102
+    }
+  ],
+  "new_full_trainings": 36,
+  "cumulative_full_trainings": 409
+}

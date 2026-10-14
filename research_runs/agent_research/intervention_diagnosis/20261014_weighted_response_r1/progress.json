@@ -1,13 +1,14 @@
 {
   "stage": "weighted_response_r1",
-  "status": "ready_for_source_and_prediction_freeze",
+  "status": "completed_audited_pending_sync",
   "registered_new_full_trainings": 36,
-  "completed_new_full_trainings": 0,
-  "cumulative_full_trainings": 373,
-  "registered_prediction_records": 36,
-  "input_files_verified": 603,
-  "new_weighting_labels_observed": false,
+  "completed_new_full_trainings": 36,
+  "cumulative_full_trainings": 409,
+  "independent_audit": "PASS",
+  "diagnostic_optimizer_updates": 72,
   "active_processes": [],
+  "pending_model_queue": [],
+  "D_access": false,
   "test_access": false,
-  "D_access": false
+  "source_commit": "2f14b5301f7a5097c0a9b7be742d0aefcf39319f"
 }
