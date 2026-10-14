@@ -1,0 +1,23 @@
+{
+  "status": "stage_results_verified",
+  "repository": "CangLing-Cerulean/auto_data",
+  "result_commit": "04d7da29dcb052f2bc3557f0957b35eed82eb8c9",
+  "result_receipt": "result_sync_receipt.json",
+  "verified_at_utc": "2026-10-14T13:03:08.6063619Z",
+  "release_required": false,
+  "release_scope_note": "New outputs are only small code/text/CSV/JSON files; original private historical archive remains local and is not uploaded",
+  "retrospective": true,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 409,
+  "global_index_updates_published": false,
+  "local_only_global_files": [
+    "AGENTS.md",
+    "research_runs/state.json",
+    "research_runs/HANDOFF.md",
+    "research_runs/NEXT_STEPS.md"
+  ],
+  "automatic_review_initial_rejection": "Destination ownership and full metadata payload not verified",
+  "automatic_review_resolution": "Read-only authenticated-owner, remote-parent and explicit 13-file metadata scope checks; same publication command subsequently approved and completed",
+  "ownership_evidence": "publication_ownership_check.json",
+  "scope_evidence": "publication_scope_check.json"
+}
