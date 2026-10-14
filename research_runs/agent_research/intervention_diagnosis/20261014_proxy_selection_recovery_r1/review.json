@@ -1,0 +1,18 @@
+{
+  "status": "STATIC_PASS",
+  "reviewer": "proxy_selection_recovery_check",
+  "role": "check",
+  "read_only": true,
+  "optimizer_step_AST_matches_original": true,
+  "plan_and_ids_checked": true,
+  "null_full_timing_budget_compatible": true,
+  "original_auditor_unchanged": true,
+  "D_access": false,
+  "test_access": false,
+  "outstanding": [
+    "Server 500-to-1000 state equivalence",
+    "Checkpoint continuation and 24 first-time full runs",
+    "Original full audit on aggregate and provenance audit"
+  ],
+  "limitation": "Pre-try validation errors are recorded in detached launch logs; inspect logs if status JSON is absent"
+}

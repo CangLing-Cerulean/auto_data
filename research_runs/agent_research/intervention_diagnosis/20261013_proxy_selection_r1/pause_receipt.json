@@ -1,0 +1,17 @@
+{
+  "status": "user_paused",
+  "recorded_at_utc": "2026-10-13T15:22:24.1857529Z",
+  "process_id": 46716,
+  "process_group": 46716,
+  "server_process_state": "Tsl",
+  "mechanism": "SIGSTOP_process_group",
+  "completed_full_labels": 11,
+  "registered_full_labels": 36,
+  "last_completed_id": "SELR1_G1_full_FAVOR_FIRST_s2026101703",
+  "last_fully_audited_cumulative_full": 331,
+  "observed_cumulative_completed_full": 342,
+  "resume_requires": "Confirm stopped process and preserve original IDs. SIGCONT can resume existing process; account separately for pause duration in wall-clock costs, retaining raw timing. Do not launch or replay IDs.",
+  "memory_preserved": true,
+  "gpu_memory_may_remain_allocated": true,
+  "no_new_work_authorized_until_resume": true
+}
