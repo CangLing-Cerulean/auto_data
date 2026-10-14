@@ -1,5 +1,5 @@
 {
-  "status": "stopped_budget_failed_pending_sync",
+  "status": "stopped_budget_failed_synced",
   "date": "2026-10-14",
   "cumulative_full_trainings": 373,
   "new_full_trainings": 6,
@@ -18,6 +18,8 @@
   "base_validation_access": false,
   "full_candidate_numeric_audit_complete": false,
   "appliances": "on_hold_not_downloaded_not_trained",
-  "next_action": "Complete stop report and verified archive/Release synchronization; do not resume this batch or retune its budget",
-  "snapshot_utc": "2026-10-14T09:12:01.8419343Z"
+  "next_action": "This batch is closed. Independently assess SOURCE baseline compatibility using existing assets; no resumption, budget retuning or complete child labels for this batch.",
+  "snapshot_utc": "2026-10-14T09:12:01.8419343Z",
+  "github_sync": "source_and_release_verified",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/existing-sources-stopped-20261014-r1"
 }

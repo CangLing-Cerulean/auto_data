@@ -9,8 +9,8 @@
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md",
-  "next_action": "Preserve and synchronize stopped forecast batch; no complete child labels. Budget failed and M1/RAW/SHORT choose identical actions. Cumulative full trainings 373.",
-  "last_verified_snapshot_at": "2026-10-14T09:12:02.0808870Z",
+  "next_action": "This batch is closed. Independently assess SOURCE baseline compatibility using existing assets; no resumption, budget retuning or complete child labels for this batch.",
+  "last_verified_snapshot_at": "2026-10-14T09:12:02.080887Z",
   "snapshot_only": false,
   "total_training_runs_completed": 373,
   "historical_completed_trainings": 134,
@@ -714,7 +714,7 @@
     "cleanup_receipt": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/cleanup_execution.json"
   },
   "existing_sources": {
-    "status": "stopped_budget_failed_pending_sync",
+    "status": "stopped_budget_failed_synced",
     "date": "2026-10-14",
     "cumulative_full_trainings": 373,
     "new_full_trainings": 6,
@@ -733,7 +733,9 @@
     "base_validation_access": false,
     "full_candidate_numeric_audit_complete": false,
     "appliances": "on_hold_not_downloaded_not_trained",
-    "next_action": "Complete stop report and verified archive/Release synchronization; do not resume this batch or retune its budget",
-    "snapshot_utc": "2026-10-14T09:12:01.8419343Z"
+    "next_action": "This batch is closed. Independently assess SOURCE baseline compatibility using existing assets; no resumption, budget retuning or complete child labels for this batch.",
+    "snapshot_utc": "2026-10-14T09:12:01.8419343Z",
+    "github_sync": "source_and_release_verified",
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/existing-sources-stopped-20261014-r1"
   }
 }
