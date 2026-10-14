@@ -1,5 +1,7 @@
 # 后续实验必须遵守的数据约定
 
+- 2026-10-14用户要求优先现有三份数据并明确“继续推进吧”。当前入口改为`20261014_existing_sources_r1/PROTOCOL.md`：冻结M1在MetroPT3/SKAB的训练内跨来源开发验证，Hydraulic已完成结果保留；Appliances来源登记暂停，未下载未训练。两源均已接触，不能称全新未见。准备全部合法窗口与成本先验，不因规模挑时段或少评困难窗口；累计367，源码/预检/父校准/预测各锁通过后逐段执行。fs/fs_public仍禁止。
+
 - 2026-10-14用户已明确“清理并继续实验”，A/B/C18个已备份文件及1个空子目录已精确清理，根盘实际释放约2.5061GiB；旧顶层实验目录、模型及本地/GitHub备份保留。见`20261014_storage_cleanup_review_r1/REPORT.md`与cleanup_execution.json。新建`/root/auto_data_experiments/`且通过64MiB落盘/读回验收，作为后续研究目录；fs/fs_public仍禁用。累计367，无新模型训练，接续先冻结独立来源协议。下文“待确认”仅保留历史。
 
 - 2026-10-14用户明确禁止使用`/root/fs`和`/root/fs_public`：后续不得读取、扫描、写入、迁移或以软链接间接使用这两处目录。默认工作目录为`/root/data/auto_data_research/`；需要其他位置时使用独立新建的项目目录，并先核对路径及容量。此前在fs创建的失败探针及系统生成的空检查点已按用户要求撤销，仅移除2个0字节文件和2个空目录，未动其他资产；见`20261014_storage_cleanup_review_r1/fs_probe_removal_receipt.json`。A/B/C清理仍未获确认，不得执行。

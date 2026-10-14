@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+2026-10-14最新用户方向：优先使用现有三份数据继续推进论文研究。当前[MetroPT3/SKAB冻结M1协议](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)，Hydraulic旧结果保持，Appliances暂停。先审查与准备完整训练内A/B/C，再运行6真实父/6代理父校准并公开锁预算，随后预测锁与24完整子标签；任何失败按协议保留停止。不能将已接触来源称未见，累计367待实际运行更新。
+
 2026-10-14用户批准A/B/C并要求继续：清理已完成，[执行与存储验收](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/REPORT.md)通过。新目录`/root/auto_data_experiments/`，禁止fs/fs_public；沿M1主线冻结独立来源确认，不重跑367次已完成ID、不改旧门槛或测试。下文待确认仅作历史。
 
 最新用户约束：不碰`fs`及`fs_public`。本次失败探针已撤销，后续默认data下的项目目录，或使用独立新建项目目录。A/B/C清理仍待明确批准；它释放根盘而非data容量，之后须对实际新实验目录重新验收容量。

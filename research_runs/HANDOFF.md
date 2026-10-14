@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+当前：[现有数据跨来源验证](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)。用户要求优先MetroPT3/SKAB/Hydraulic并继续推进；Hydraulic M1结果保留，补齐前两源，Appliances暂停。仅基础训练内A/B/C、全合法窗口，新ID/父校准/预算/预测逐段冻结；源码审查与数据预检后启动父阶段。累计367，当前尚无新训练。下文“独立新来源”是此前计划，已由本轮顺序替代。
+
 当前：[已批准清理完成](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/REPORT.md)。A/B/C18文件已按精确身份清理，释放约2.5061GiB；新建`/root/auto_data_experiments/`并通过64MiB落盘/读回预检，fs/fs_public禁用。用户要求继续实验，当前准备单一M1独立来源确认，累计367；下文待批准状态为历史。
 
 最新存储约束：用户禁止碰`fs`、`fs_public`，后续只使用data或独立新建项目目录。失败fs探针及系统生成的空检查点已精确撤销，未触及其他资产。默认`/root/data/auto_data_research/`，预检脚本改为仅允许该目录下的新子目录；存储约束见[清理清单补充](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md)。A/B/C仍等待确认；其释放的是根盘空间，不会扩大data挂载卷配额。
