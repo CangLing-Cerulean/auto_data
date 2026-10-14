@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+当前须人工确认：[已备份清理清单](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md)已完成逐项核验，共2.5061 GiB。用户明确要求确认后清理，尚未删除；先等待A/B/C范围批准，完成精确文件清理与空间验收后再启动新来源阶段。本轮M1结果和Release已同步，累计367保持。
+
 2026-10-14最新：[M1数据选择开发恢复报告](agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md)。本轮36完整标签已独立验收，累计367；精度、选择增量、预算门槛全通过。先完成核验资产的阶段同步，然后设计独立新来源确认：保持M1和固定骨干，先锁数据身份/分区、任务、四动作、强基线和成本门槛，再冻结预测并揭示完整标签。禁止将已揭示Hydraulic/MetroPT3/SKAB或D称作新来源。服务器满根盘需以专用持久目录解决，旧资产保持；当前无新模型或测试队列。
 
 最新入口：[数值定位与独立补验](agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md)。用户已授权持续主线研究。原失败由舍入项解释、原审计身份不变；独立補验已完成，精度较好但与FIXED选择增量0。下一项限定为同M1的训练数据筛选开发决策问题：先明确保留/删除/采样动作及p/w、对照与信息边界，完整子响应揭示前冻结预测。不扩展M2–M4，不将FIXED对训练动作恒零当充分对照；D与基础测试不参与设计。累计331，无训练队列。

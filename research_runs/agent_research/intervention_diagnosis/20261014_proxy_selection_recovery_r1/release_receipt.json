@@ -1,0 +1,36 @@
+{
+  "status": "release_assets_verified",
+  "verified_utc": "2026-10-14T06:33:29.7717503Z",
+  "repository": "CangLing-Cerulean/auto_data",
+  "tag": "proxy-selection-recovered-20261014-r1",
+  "source_commit": "62bf2142a4ee54d3ddbaab37b1c1497a0b0368ba",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/proxy-selection-recovered-20261014-r1",
+  "assets": [
+    {
+      "name": "response_proxy_selection_20261013.tar.gz",
+      "bytes": 624852101,
+      "sha256": "9751aeb513a3c0a5f50ceae2a9c2f6a5e1765b11d7440d363a210b77f3d51e50",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/response_proxy_selection_20261013.tar.gz",
+      "asset_id": 639472178
+    },
+    {
+      "name": "selection_summary.png",
+      "bytes": 120120,
+      "sha256": "cdbeaeccc73e089a28159566dd9c349de7ea6216b16e49f5c5646b5e4749a331",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/selection_summary.png",
+      "asset_id": 639481865
+    },
+    {
+      "name": "all_candidate_responses.png",
+      "bytes": 138818,
+      "sha256": "29b20d5cd13d329b7810d69d729b9de2cfd58570324da6c7b928ed52d5f2e41e",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/all_candidate_responses.png",
+      "asset_id": 639481902
+    }
+  ],
+  "operation": "release_publication",
+  "counts_scope": "publication_only",
+  "additional_training": 0,
+  "model_API_calls": 0,
+  "test_access": false
+}

@@ -1,0 +1,42 @@
+{
+  "status": "source_and_release_verified",
+  "verified_utc": "2026-10-14T06:35:02.3464092Z",
+  "result_source_commit": "62bf2142a4ee54d3ddbaab37b1c1497a0b0368ba",
+  "source_tree": "fd542bf5c45b0773513aa1132ef6e70f97105228",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/proxy-selection-recovered-20261014-r1",
+  "release_assets": [
+    {
+      "name": "response_proxy_selection_20261013.tar.gz",
+      "bytes": 624852101,
+      "sha256": "9751aeb513a3c0a5f50ceae2a9c2f6a5e1765b11d7440d363a210b77f3d51e50",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/response_proxy_selection_20261013.tar.gz",
+      "asset_id": 639472178
+    },
+    {
+      "name": "selection_summary.png",
+      "bytes": 120120,
+      "sha256": "cdbeaeccc73e089a28159566dd9c349de7ea6216b16e49f5c5646b5e4749a331",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/selection_summary.png",
+      "asset_id": 639481865
+    },
+    {
+      "name": "all_candidate_responses.png",
+      "bytes": 138818,
+      "sha256": "29b20d5cd13d329b7810d69d729b9de2cfd58570324da6c7b928ed52d5f2e41e",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/proxy-selection-recovered-20261014-r1/all_candidate_responses.png",
+      "asset_id": 639481902
+    }
+  ],
+  "download_verification": "download_verification.json",
+  "original_prediction_lock_commit": "36e82979a8c9768574ac05c515ab218622395239",
+  "recovery_source_commit": "5e3209ce59edd27aed9d5914ac9370bdecef57dd",
+  "audit_retry_source_commit": "167377790c71390038a2a2273512384b38ee5064",
+  "new_full_trainings": 36,
+  "cumulative_full_trainings": 367,
+  "original_failures_preserved": true,
+  "next_stage_block": "awaiting_user_confirmation_of_verified_cleanup_list",
+  "metadata_sync_receipt": "metadata_sync_receipt.json",
+  "model_queue": false,
+  "D_access": false,
+  "test_access": false
+}

@@ -2,15 +2,15 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-14",
   "session_id": "metropt3_session_20260926",
-  "phase": "proxy_selection_complete_awaiting_persistent_storage",
+  "phase": "proxy_selection_complete_awaiting_cleanup_approval",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
-  "next_action": "Complete result publication; user must expand persistent disk/quota or approve a concrete cleanup scope. Root full, data only 608 MiB, user persistent mount failed with EDQUOT. Preserve all assets. Then freeze independent-source M1 confirmation; no experiment queue.",
-  "last_verified_snapshot_at": "2026-10-14T06:12:39.6233581Z",
+  "next_action": "User requested a verified cleanup list and confirmation before deletion. Candidates A+B+C total 2690906019 bytes; five archive copies and 13 backed-up phase0 evaluation files, all identities verified locally and online. Await explicit approval; preserve all original training/model/data directories. Then preflight space and design independent-source M1 confirmation.",
+  "last_verified_snapshot_at": "2026-10-14T06:35:02.3799013Z",
   "snapshot_only": false,
   "total_training_runs_completed": 367,
   "historical_completed_trainings": 134,
@@ -675,7 +675,7 @@
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/response-proxy-development-20261013-r1"
   },
   "proxy_selection": {
-    "status": "completed_audited_publication_pending",
+    "status": "completed_audited_synced",
     "new_full_trainings": 36,
     "cumulative_full_trainings": 367,
     "proxy_rollouts": 36,
@@ -693,7 +693,9 @@
     "test_access": false,
     "model_queue": false,
     "report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
-    "github_sync": "pending"
+    "github_sync": "source_and_release_verified",
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/proxy-selection-recovered-20261014-r1"
   },
-  "storage_block": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/STORAGE_BLOCK.md"
+  "storage_block": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/STORAGE_BLOCK.md",
+  "cleanup_review": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md"
 }

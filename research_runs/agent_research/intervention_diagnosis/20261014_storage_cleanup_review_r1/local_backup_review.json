@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "reviewer": "cleanup_backup_check",
+  "all_five_actual_local_archives_checked": true,
+  "archive_and_release_receipts_match": true,
+  "phase0_tar_member_names_match_all_34": true,
+  "actual_archives": [
+    {
+      "local_archive": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/archives/stage1-fixed-references-20261012-r1.tar.gz",
+      "bytes": 194332279,
+      "sha256": "ed511b9524de8420ee80826ab555041be57eeb989b0179231fba76cd8afc4734",
+      "local_actual_file_hash_checked_by": "cleanup_backup_check",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-fixed-references-20261012-r1/stage1-fixed-references-20261012-r1.tar.gz"
+    },
+    {
+      "local_archive": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/archives/stage1-construction-initial-20261012-r1.tar.gz",
+      "bytes": 174304523,
+      "sha256": "f960ebf0d29b62b08d3ba091dfc2bc2793ae23e72ae8de1183f310b6bf5abf5d",
+      "local_actual_file_hash_checked_by": "cleanup_backup_check",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-construction-initial-20261012-r1/stage1-construction-initial-20261012-r1.tar.gz"
+    },
+    {
+      "local_archive": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/archives/stage1-confirmation-interrupted-20261012-r1.tar.gz",
+      "bytes": 388173172,
+      "sha256": "0438212952ed2f89eb1e1407bc8ec710c9b4780b9c85b26696b70709e4868c81",
+      "local_actual_file_hash_checked_by": "cleanup_backup_check",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-confirmation-interrupted-20261012-r1/stage1-confirmation-interrupted-20261012-r1.tar.gz"
+    },
+    {
+      "local_archive": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/archives/stage1-confirmation-recovered-20261012-r1.tar.gz",
+      "bytes": 399404987,
+      "sha256": "6a2b34a3d447f1bad0b03a48eae65ae1788ee8835e3f97151d3702b021dd6be2",
+      "local_actual_file_hash_checked_by": "cleanup_backup_check",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/stage1-confirmation-recovered-20261012-r1/stage1-confirmation-recovered-20261012-r1.tar.gz"
+    },
+    {
+      "local_archive": "research_runs/agent_research/intervention_diagnosis/20261012_runtime_r1/archives/intervention-phase0-20261012-runtime-r1.tar",
+      "bytes": 767447040,
+      "sha256": "e0f37c795dd7ff6c88002dd23c8f0a62f106f236bbb346e54b5d8713c0c829a1",
+      "local_actual_file_hash_checked_by": "cleanup_backup_check",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/intervention-phase0-20261012-runtime-r1/intervention-phase0-20261012-runtime-r1.tar"
+    }
+  ],
+  "deleted_files": 0
+}

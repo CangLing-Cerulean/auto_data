@@ -1,5 +1,5 @@
 {
-  "status": "completed_audited_publication_pending",
+  "status": "completed_audited_synced",
   "original_complete": 11,
   "partial_checkpoint_step": 500,
   "unstarted": 24,
@@ -16,6 +16,8 @@
   "final_audit": "final_audit.json",
   "recovery_audit": "recovery_audit.json",
   "advance": true,
-  "github_sync": "pending",
-  "next_stage_block": "persistent_storage_capacity_or_quota"
+  "github_sync": "source_and_release_verified",
+  "next_stage_block": "awaiting_user_confirmation_of_verified_cleanup_list",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/proxy-selection-recovered-20261014-r1",
+  "result_source_commit": "62bf2142a4ee54d3ddbaab37b1c1497a0b0368ba"
 }

@@ -1,0 +1,146 @@
+{
+  "status": "AWAITING_USER_CONFIRMATION",
+  "created_utc": "2026-10-14T06:33:29.2672717Z",
+  "groups": [
+    "A_four_stage1_archives",
+    "B_phase0_archive",
+    "C_phase0_paired_evaluation"
+  ],
+  "files": [
+    {
+      "path": "/tmp/auto_data_intervention_stage1_20261012_r1/stage1-fixed-references-20261012-r1.tar.gz",
+      "bytes": 194332279,
+      "allocated_bytes": 194334720,
+      "sha256": "ed511b9524de8420ee80826ab555041be57eeb989b0179231fba76cd8afc4734",
+      "mtime_ns": 1791806557456576256
+    },
+    {
+      "path": "/tmp/auto_data_intervention_stage1_20261012_r1/stage1-construction-initial-20261012-r1.tar.gz",
+      "bytes": 174304523,
+      "allocated_bytes": 174305280,
+      "sha256": "f960ebf0d29b62b08d3ba091dfc2bc2793ae23e72ae8de1183f310b6bf5abf5d",
+      "mtime_ns": 1791808238584622337
+    },
+    {
+      "path": "/tmp/auto_data_intervention_stage1_20261012_r1/stage1-confirmation-interrupted-20261012-r1.tar.gz",
+      "bytes": 388173172,
+      "allocated_bytes": 388173824,
+      "sha256": "0438212952ed2f89eb1e1407bc8ec710c9b4780b9c85b26696b70709e4868c81",
+      "mtime_ns": 1791813201190067445
+    },
+    {
+      "path": "/tmp/auto_data_intervention_stage1_20261012_r1/stage1-confirmation-recovered-20261012-r1.tar.gz",
+      "bytes": 399404987,
+      "allocated_bytes": 399405056,
+      "sha256": "6a2b34a3d447f1bad0b03a48eae65ae1788ee8835e3f97151d3702b021dd6be2",
+      "mtime_ns": 1791814993606866529
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/intervention-phase0-20261012-runtime-r1.tar",
+      "bytes": 767447040,
+      "allocated_bytes": 767447040,
+      "sha256": "e0f37c795dd7ff6c88002dd23c8f0a62f106f236bbb346e54b5d8713c0c829a1",
+      "mtime_ns": 1791795163380764092
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101202_B0.npz",
+      "bytes": 80400891,
+      "allocated_bytes": 80404480,
+      "sha256": "7f48c253471be1ac5bd4c027eae158edf08a75dfcbdd641cb3b9d7a9bed8095a",
+      "mtime_ns": 1791794906272021808
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101202_child.npz",
+      "bytes": 87257640,
+      "allocated_bytes": 87261184,
+      "sha256": "473eebf5bd598dd2bc5490873c60fa3b25c96fef4fc78cdaa1dc602677084533",
+      "mtime_ns": 1791794912059946373
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101202_parent.npz",
+      "bytes": 87516253,
+      "allocated_bytes": 87519232,
+      "sha256": "61bba242fd686a45cd6d9eca9b94803789fe25a44b4de5dfa6e63540facbcc9f",
+      "mtime_ns": 1791794917771872039
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101203_B0.npz",
+      "bytes": 80318409,
+      "allocated_bytes": 80318464,
+      "sha256": "8c11fcd75c6ac8bea1bb3501fc9fac68b6a66338f2dd8ae73b91c3abdef5b94a",
+      "mtime_ns": 1791794925951765776
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101203_child.npz",
+      "bytes": 87433808,
+      "allocated_bytes": 87437312,
+      "sha256": "3bfa92f9ba20dd2c4cbae35fc6529707e2f252944c0e5155a7f219d5b1029909",
+      "mtime_ns": 1791794931623692223
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101203_parent.npz",
+      "bytes": 87549737,
+      "allocated_bytes": 87552000,
+      "sha256": "deea265f39f64589508e22f00586faa0a5dafba3af5fa7ed7d00b96de989108b",
+      "mtime_ns": 1791794937299618721
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101204_B0.npz",
+      "bytes": 80478230,
+      "allocated_bytes": 80482304,
+      "sha256": "cdcc45427464cce1c5a1014500bb3d6b90260a01b8a6ccb744880d0685be022a",
+      "mtime_ns": 1791794945455513286
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101204_child.npz",
+      "bytes": 87302804,
+      "allocated_bytes": 87306240,
+      "sha256": "23ad2271eade27891ed1796841ea63dcf6eff573235c292d705c730fbabbb929",
+      "mtime_ns": 1791794951127440086
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/errors_2026101204_parent.npz",
+      "bytes": 87589095,
+      "allocated_bytes": 87592960,
+      "sha256": "e6ee9ab7d73fe8913b768ffe9462322aa65c0f2015c796f642bf3be55c391352",
+      "mtime_ns": 1791794956843366419
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/receipt.json",
+      "bytes": 6946,
+      "allocated_bytes": 8192,
+      "sha256": "3c04f290e72c5736137e77b1a428f3099a22967257fa248f58f78199c9dafe2c",
+      "mtime_ns": 1791794959847327744
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/response_collection.json",
+      "bytes": 13751,
+      "allocated_bytes": 16384,
+      "sha256": "78b5eac59f66beef07984fe0af12b70f51c82ed4e370a5c34e399ff36a56ab3e",
+      "mtime_ns": 1791794959847327744
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/response_long.csv",
+      "bytes": 7094,
+      "allocated_bytes": 8192,
+      "sha256": "f9926a9a4c5afc44666715a94aa882d66b5c3f0919c30d75b662064957d4f7bd",
+      "mtime_ns": 1791794959847327744
+    },
+    {
+      "path": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation/window_identity.npz",
+      "bytes": 1369360,
+      "allocated_bytes": 1372160,
+      "sha256": "a9dc01e157a1cd7ae0b242d8234649b3eaac862c7382fbcf2176e7a20a448562",
+      "mtime_ns": 1791794900000103678
+    }
+  ],
+  "remove_directory_only_after_empty": "/tmp/auto_data_intervention_phase0_20261012/runtime_r1/paired_evaluation",
+  "total_logical_bytes": 2690906019,
+  "total_allocated_bytes": 2690945024,
+  "deletion_authorized": false,
+  "deleted_files": 0,
+  "require_immediate_pre_delete_identity_check": true,
+  "abort_on_new_or_changed_files": true,
+  "recursive_delete": false,
+  "preserve_local_and_github_backups": true
+}
