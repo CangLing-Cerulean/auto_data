@@ -1,0 +1,514 @@
+{
+  "status": "frozen_before_W_training",
+  "plan_sha256": "4f6bdfc7d08f779192fa7fb97f4688e1974533b33e9ab25e49cf0282dffa194f",
+  "old_predictions_sha256": "c340df53fe3015282e0ca6569bb4449b98c819eb36a6d8c199af56d21ac810b1",
+  "records": [
+    {
+      "id": "WR1_G1_KEEP_FIRST_s2026101701",
+      "task": "G1",
+      "seed": 2026101701,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -52.235329414620615,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_KEEP_SECOND_s2026101701",
+      "task": "G1",
+      "seed": 2026101701,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -7.784466582989136,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_FIRST_s2026101701",
+      "task": "G1",
+      "seed": 2026101701,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": 2.6331201600014675,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_SECOND_s2026101701",
+      "task": "G1",
+      "seed": 2026101701,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -2.6416917553913146,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_KEEP_FIRST_s2026101702",
+      "task": "G1",
+      "seed": 2026101702,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -46.51138706646227,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_KEEP_SECOND_s2026101702",
+      "task": "G1",
+      "seed": 2026101702,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -11.309572828844617,
+      "M1_selected_step": 1500,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_FIRST_s2026101702",
+      "task": "G1",
+      "seed": 2026101702,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": 2.6607257840058716,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_SECOND_s2026101702",
+      "task": "G1",
+      "seed": 2026101702,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -2.4746893774714205,
+      "M1_selected_step": 1500,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_KEEP_FIRST_s2026101703",
+      "task": "G1",
+      "seed": 2026101703,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -37.8889762175371,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_KEEP_SECOND_s2026101703",
+      "task": "G1",
+      "seed": 2026101703,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -13.088795208379256,
+      "M1_selected_step": 1000,
+      "source_forecast_key": [
+        "G1",
+        "KEEP_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_FIRST_s2026101703",
+      "task": "G1",
+      "seed": 2026101703,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": 3.522896984985631,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G1_FAVOR_SECOND_s2026101703",
+      "task": "G1",
+      "seed": 2026101703,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -1.6108812758977742,
+      "M1_selected_step": 1000,
+      "source_forecast_key": [
+        "G1",
+        "FAVOR_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_FIRST_s2026101701",
+      "task": "G2",
+      "seed": 2026101701,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -457.20762515872156,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_SECOND_s2026101701",
+      "task": "G2",
+      "seed": 2026101701,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": 52.90385673311563,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_FIRST_s2026101701",
+      "task": "G2",
+      "seed": 2026101701,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -44.32572375293979,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_SECOND_s2026101701",
+      "task": "G2",
+      "seed": 2026101701,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": 30.497788601693824,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_FIRST_s2026101702",
+      "task": "G2",
+      "seed": 2026101702,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -381.61222551553277,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_SECOND_s2026101702",
+      "task": "G2",
+      "seed": 2026101702,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": 54.61825658686217,
+      "M1_selected_step": 1500,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_FIRST_s2026101702",
+      "task": "G2",
+      "seed": 2026101702,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -43.572053152369975,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_SECOND_s2026101702",
+      "task": "G2",
+      "seed": 2026101702,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": 30.4538425615269,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_FIRST_s2026101703",
+      "task": "G2",
+      "seed": 2026101703,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -426.29120242132154,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_KEEP_SECOND_s2026101703",
+      "task": "G2",
+      "seed": 2026101703,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": 51.24438630558596,
+      "M1_selected_step": 1500,
+      "source_forecast_key": [
+        "G2",
+        "KEEP_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_FIRST_s2026101703",
+      "task": "G2",
+      "seed": 2026101703,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -36.92319416569138,
+      "M1_selected_step": 500,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G2_FAVOR_SECOND_s2026101703",
+      "task": "G2",
+      "seed": 2026101703,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": 29.262618832083657,
+      "M1_selected_step": 1000,
+      "source_forecast_key": [
+        "G2",
+        "FAVOR_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_FIRST_s2026101701",
+      "task": "G3",
+      "seed": 2026101701,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -38.56244695922035,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_SECOND_s2026101701",
+      "task": "G3",
+      "seed": 2026101701,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -102.92488978019966,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_FIRST_s2026101701",
+      "task": "G3",
+      "seed": 2026101701,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -9.544210918059186,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_FIRST",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_SECOND_s2026101701",
+      "task": "G3",
+      "seed": 2026101701,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -13.65664537344982,
+      "M1_selected_step": 2500,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_SECOND",
+        2026101701
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_FIRST_s2026101702",
+      "task": "G3",
+      "seed": 2026101702,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -77.91509412770482,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_SECOND_s2026101702",
+      "task": "G3",
+      "seed": 2026101702,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -115.9223435309599,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_FIRST_s2026101702",
+      "task": "G3",
+      "seed": 2026101702,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -10.227394791694836,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_FIRST",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_SECOND_s2026101702",
+      "task": "G3",
+      "seed": 2026101702,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -14.884947586586176,
+      "M1_selected_step": 3000,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_SECOND",
+        2026101702
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_FIRST_s2026101703",
+      "task": "G3",
+      "seed": 2026101703,
+      "action": "KEEP_FIRST",
+      "M1_gain_percent": -82.99887138223468,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_KEEP_SECOND_s2026101703",
+      "task": "G3",
+      "seed": 2026101703,
+      "action": "KEEP_SECOND",
+      "M1_gain_percent": -117.73162431557631,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G3",
+        "KEEP_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_FIRST_s2026101703",
+      "task": "G3",
+      "seed": 2026101703,
+      "action": "FAVOR_FIRST",
+      "M1_gain_percent": -10.961031079920842,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_FIRST",
+        2026101703
+      ],
+      "W_training_started": false
+    },
+    {
+      "id": "WR1_G3_FAVOR_SECOND_s2026101703",
+      "task": "G3",
+      "seed": 2026101703,
+      "action": "FAVOR_SECOND",
+      "M1_gain_percent": -15.518595013092288,
+      "M1_selected_step": 2000,
+      "source_forecast_key": [
+        "G3",
+        "FAVOR_SECOND",
+        2026101703
+      ],
+      "W_training_started": false
+    }
+  ],
+  "old_sampling_outcomes_known": true,
+  "new_weighting_labels_observed": false,
+  "interpretation": "canonical_same_mu_M1_forecast_reuse_not_new_proxy_rollouts"
+}
