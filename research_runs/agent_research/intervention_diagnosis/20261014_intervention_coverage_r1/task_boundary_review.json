@@ -1,0 +1,224 @@
+{
+  "status": "metadata_review_only",
+  "dataset_id": "skab_v1",
+  "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+  "train_file_sha256_from_manifest": "b0b88e9f6550a6e8405d169909f053ea44fc5e08425b01f95f61a8f41ba86235",
+  "sensor_tables_opened": [],
+  "model_tensors_loaded": false,
+  "source_documents": {
+    "scripts/prepare_intervention_stage1.py": "d9496cd817aa02dd675f3dfcda891d9563de6bc15c465d1bd9f3c2502c601cea",
+    "research_runs/agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md": "a1d11a83310bfb44108244a88bd360a433ee5d5de01e5f37b21c148c55266a0f"
+  },
+  "base_train_rows": 32802,
+  "base_train_source_files": 23,
+  "by_directory_provenance_only": {
+    "anomaly-free": {
+      "files": 1,
+      "rows": 9401
+    },
+    "other": {
+      "files": 14,
+      "rows": 14985
+    },
+    "valve1": {
+      "files": 8,
+      "rows": 8416
+    }
+  },
+  "source_file_train_segments": [
+    {
+      "series_id": "anomaly-free/anomaly-free.csv",
+      "rows": 9401,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 9401,
+      "first_time": "2020-02-08 13:30:47",
+      "last_time": "2020-02-08 16:16:47"
+    },
+    {
+      "series_id": "other/11.csv",
+      "rows": 665,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 665,
+      "first_time": "2020-03-01 16:28:16",
+      "last_time": "2020-03-01 16:43:52"
+    },
+    {
+      "series_id": "other/12.csv",
+      "rows": 1137,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1137,
+      "first_time": "2020-03-01 16:43:54",
+      "last_time": "2020-03-01 17:03:52"
+    },
+    {
+      "series_id": "other/13.csv",
+      "rows": 968,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 968,
+      "first_time": "2020-03-01 17:03:54",
+      "last_time": "2020-03-01 17:20:54"
+    },
+    {
+      "series_id": "other/14.csv",
+      "rows": 1153,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1153,
+      "first_time": "2020-02-08 16:06:48",
+      "last_time": "2020-02-08 16:26:56"
+    },
+    {
+      "series_id": "other/15.csv",
+      "rows": 1147,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1147,
+      "first_time": "2020-02-08 16:27:09",
+      "last_time": "2020-02-08 16:47:09"
+    },
+    {
+      "series_id": "other/16.csv",
+      "rows": 1091,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1091,
+      "first_time": "2020-02-08 16:47:11",
+      "last_time": "2020-02-08 17:06:13"
+    },
+    {
+      "series_id": "other/17.csv",
+      "rows": 1147,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1147,
+      "first_time": "2020-02-08 17:07:11",
+      "last_time": "2020-02-08 17:27:13"
+    },
+    {
+      "series_id": "other/18.csv",
+      "rows": 1145,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1145,
+      "first_time": "2020-02-08 17:27:18",
+      "last_time": "2020-02-08 17:47:18"
+    },
+    {
+      "series_id": "other/19.csv",
+      "rows": 1326,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1326,
+      "first_time": "2020-02-08 17:47:44",
+      "last_time": "2020-02-08 18:11:02"
+    },
+    {
+      "series_id": "other/20.csv",
+      "rows": 1191,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1191,
+      "first_time": "2020-02-08 18:10:42",
+      "last_time": "2020-02-08 18:31:36"
+    },
+    {
+      "series_id": "other/21.csv",
+      "rows": 1141,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1141,
+      "first_time": "2020-02-08 18:34:51",
+      "last_time": "2020-02-08 18:54:54"
+    },
+    {
+      "series_id": "other/22.csv",
+      "rows": 1079,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1079,
+      "first_time": "2020-02-08 18:47:29",
+      "last_time": "2020-02-08 19:06:26"
+    },
+    {
+      "series_id": "other/23.csv",
+      "rows": 1044,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1044,
+      "first_time": "2020-02-08 19:16:28",
+      "last_time": "2020-02-08 19:34:45"
+    },
+    {
+      "series_id": "other/9.csv",
+      "rows": 751,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 751,
+      "first_time": "2020-03-01 15:44:06",
+      "last_time": "2020-03-01 15:57:13"
+    },
+    {
+      "series_id": "valve1/0.csv",
+      "rows": 1148,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1148,
+      "first_time": "2020-03-09 10:14:33",
+      "last_time": "2020-03-09 10:34:32"
+    },
+    {
+      "series_id": "valve1/1.csv",
+      "rows": 1145,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1145,
+      "first_time": "2020-03-09 10:34:33",
+      "last_time": "2020-03-09 10:54:33"
+    },
+    {
+      "series_id": "valve1/2.csv",
+      "rows": 1075,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1075,
+      "first_time": "2020-03-09 10:54:34",
+      "last_time": "2020-03-09 11:14:33"
+    },
+    {
+      "series_id": "valve1/3.csv",
+      "rows": 1149,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1149,
+      "first_time": "2020-03-09 11:14:34",
+      "last_time": "2020-03-09 11:34:35"
+    },
+    {
+      "series_id": "valve1/4.csv",
+      "rows": 1095,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1095,
+      "first_time": "2020-03-09 11:34:36",
+      "last_time": "2020-03-09 11:54:35"
+    },
+    {
+      "series_id": "valve1/5.csv",
+      "rows": 1154,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1154,
+      "first_time": "2020-03-09 11:54:36",
+      "last_time": "2020-03-09 12:14:35"
+    },
+    {
+      "series_id": "valve1/6.csv",
+      "rows": 1154,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1154,
+      "first_time": "2020-03-09 12:14:36",
+      "last_time": "2020-03-09 12:34:35"
+    },
+    {
+      "series_id": "valve1/7.csv",
+      "rows": 496,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 496,
+      "first_time": "2020-03-09 12:34:37",
+      "last_time": "2020-03-09 12:43:11"
+    }
+  ],
+  "interpretation": [
+    "Stage1a partitions source files between S1 and S2, then uses base train and validation within each task; it does not guarantee file-disjoint fit and score sets within a task.",
+    "The closed existing-sources M1 task splits each source file chronologically into A/B/C; file identities recur across roles.",
+    "A future source-file-disjoint A/B/C task using only base-training segments would test transfer between experimental recordings, not an unseen dataset or independent apparatus.",
+    "The 23 files include base-training segments; do not call all of them complete original experiments.",
+    "Directory names are provenance, not model features or anomaly labels. No valve2 source appears in base train.",
+    "No fold assignment, candidate, prediction, training launch, or scientific acceptance decision is frozen by this metadata review."
+  ],
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 409
+}

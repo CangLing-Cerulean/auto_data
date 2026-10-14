@@ -1,0 +1,36 @@
+{
+  "status": "PASS_with_explicit_scope",
+  "review_role": "independent_check",
+  "review_rounds": 2,
+  "sha256": {
+    "historical_inventory.json": "f51984769d988b62b30a6ac09258ea946f56f1d1248ae90247bc929be19a6ff2",
+    "historical_inventory_initial.json": "0d2e5c96e02dae5e3f2f3d88eebe21d5b3491977a558abaa26c055023b3166bc",
+    "historical_cohort.csv": "3fad2dda86808e2bbd823b511c89089a6b8ab6f8da4b87b217cf64106116846e",
+    "historical_cohort_initial.csv": "3fad2dda86808e2bbd823b511c89089a6b8ab6f8da4b87b217cf64106116846e",
+    "task_boundary_review.json": "c5597417204fe673fa43a73634bbca6775f85d98730822101fccae6a10c02ba5",
+    "development_failures.json": "ae400a159faa904beb266c7b52b60cfb82022719be005fb88b38b2cc332ec49f",
+    "REPORT.md": "6df0aeff383bd7d2f6e37157626c5382aad1977cca5d88870900471a66d68904",
+    "REVIEW.md": "04bd4bf1df081d8de52a0a7164a757e2f49d021566d520adf61d1fd7c535e247",
+    "scripts/inventory_historical_interventions.py": "483193de97bdffe7845f166476a534c17ac5a4dacc5067f209599983a743fff9",
+    "scripts/review_intervention_task_boundaries.py": "e4f299b7a58e4e9602cc8fd114cbca08e9aac6a85d6548f41f801f9e6be926c5"
+  },
+  "candidate_count": 50,
+  "origin_denominators": [
+    29,
+    21
+  ],
+  "primary_verified_asset_count": 496,
+  "independently_hashed_original_text_assets": 40,
+  "independently_hashed_additional_data_audits": 52,
+  "gain_arithmetic_verified": true,
+  "current_data_protocol_normalization_comparability_verified": true,
+  "initial_and_final_scientific_rows_identical": true,
+  "csv_bytes_identical": true,
+  "SKAB_train_metadata_verified": true,
+  "binary_tensor_semantics_verified": false,
+  "parent_saved_initialization_verified": false,
+  "source_generalization_verified": false,
+  "model_training_executed": false,
+  "github_sync_verified_by_this_audit": false,
+  "updated_utc": "2026-10-14T12:59:58.4261077Z"
+}

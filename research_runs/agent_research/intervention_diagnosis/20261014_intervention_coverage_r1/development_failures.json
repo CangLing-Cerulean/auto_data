@@ -1,0 +1,21 @@
+{
+  "scope": "local inventory guard development only",
+  "failures": [
+    {
+      "exception": "KeyError: probe_windows",
+      "reason": "Later original data_audit schema names this count evaluation_windows",
+      "new_training": 0,
+      "sequence": 1,
+      "new_output_written": false
+    },
+    {
+      "exception": "KeyError: protocol_sha256",
+      "reason": "Later original identity stores protocol hash under sources_sha256/protocol.json",
+      "new_training": 0,
+      "sequence": 2,
+      "new_output_written": false
+    }
+  ],
+  "resolution": "Explicit original schema mapping; final execution exit 0; all 50 numerical rows and CSV unchanged",
+  "historical_scientific_assets_modified": false
+}
