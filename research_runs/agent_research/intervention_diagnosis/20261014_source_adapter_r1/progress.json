@@ -1,5 +1,5 @@
 {
-  "status": "engineering_pass_pending_sync",
+  "status": "engineering_pass_synced",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 373,
   "algebra_numerical_checks": 16,
@@ -10,8 +10,9 @@
   "queue": false,
   "previous_batch_closed": true,
   "source_is_formula_adaptation": true,
-  "next_action": "Synchronize engineering report and receipts; then separately freeze a retrospective SOURCE-formula comparison using existing Hydraulic assets only",
+  "next_action": "Separately freeze retrospective SOURCE-formula baseline comparison on all existing Hydraulic tasks/actions; no new training or change to closed batches",
   "parent_checkpoints_verified": 36,
   "quadratic_blocks_verified": 3312,
-  "scientific_effect_verified": false
+  "scientific_effect_verified": false,
+  "github_sync": "source_and_results_verified"
 }
