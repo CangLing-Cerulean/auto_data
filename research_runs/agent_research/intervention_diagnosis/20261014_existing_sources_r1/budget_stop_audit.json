@@ -1,0 +1,472 @@
+{
+  "status": "PASS",
+  "scope": "file integrity, run counts, costs, budget stop and recommendation identity; no numerical model reforward",
+  "auditor_sha256": "4690858655c6d7715c073bd1c42f022d905a820c7fb4f3f37a29ff3909371391",
+  "plan_sha256": "64bed230e24ebf8ccfbde9ac959d5bf628d90580c94000b5bec52e5a1a6d1f5f",
+  "predictions_sha256": "e65fa195668b7c806314cd7a974604c29f37ed21baba90d047bbc56f72d194dc",
+  "assets_verified": 1570,
+  "counts": {
+    "full": 6,
+    "proxy": 30,
+    "short": 24
+  },
+  "new_full_trainings": 6,
+  "cumulative_full_trainings": 373,
+  "costs": [
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "M1": 82.48992020729929,
+      "RAW": 71.42371047195047,
+      "FIXED": 4.997930098325014,
+      "SHORT": 108.76880122721195
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "M1": 81.69080316554755,
+      "RAW": 69.46522984281182,
+      "FIXED": 4.79753172211349,
+      "SHORT": 108.38216580916196
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "M1": 81.90250745788217,
+      "RAW": 69.76077259518206,
+      "FIXED": 4.8339101402089,
+      "SHORT": 108.65990933869034
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "M1": 38.158585912548006,
+      "RAW": 29.84411731455475,
+      "FIXED": 0.11993022914975882,
+      "SHORT": 49.382956127636135
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "M1": 37.569099716842175,
+      "RAW": 30.78277789335698,
+      "FIXED": 0.11949368380010128,
+      "SHORT": 49.17931436467916
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "M1": 39.26064972765744,
+      "RAW": 30.930253081955016,
+      "FIXED": 0.1199119370430708,
+      "SHORT": 49.33557298500091
+    }
+  ],
+  "short_runs": [
+    {
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "KEEP_FIRST",
+      "seconds": 27.27107214089483,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "KEEP_SECOND",
+      "seconds": 27.261081183329225,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.134760823100805,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.101887079887092,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "KEEP_FIRST",
+      "seconds": 27.067168697714806,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "KEEP_SECOND",
+      "seconds": 27.068486622534692,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.12901956308633,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.117490925826132,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "KEEP_FIRST",
+      "seconds": 27.095629142597318,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "KEEP_SECOND",
+      "seconds": 27.123478300869465,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.274571497924626,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.166230397298932,
+      "steps": 1150,
+      "cap": 27
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_FIRST_s2026101901",
+      "task": "S",
+      "seed": 2026101901,
+      "action": "KEEP_FIRST",
+      "seconds": 12.348082384094596,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_SECOND_s2026101901",
+      "task": "S",
+      "seed": 2026101901,
+      "action": "KEEP_SECOND",
+      "seconds": 12.330235806293786,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_FIRST_s2026101901",
+      "task": "S",
+      "seed": 2026101901,
+      "action": "FAVOR_FIRST",
+      "seconds": 12.345587734133005,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_SECOND_s2026101901",
+      "task": "S",
+      "seed": 2026101901,
+      "action": "FAVOR_SECOND",
+      "seconds": 12.359050203114748,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_FIRST_s2026101902",
+      "task": "S",
+      "seed": 2026101902,
+      "action": "KEEP_FIRST",
+      "seconds": 12.3561210045591,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_SECOND_s2026101902",
+      "task": "S",
+      "seed": 2026101902,
+      "action": "KEEP_SECOND",
+      "seconds": 12.354122963733971,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_FIRST_s2026101902",
+      "task": "S",
+      "seed": 2026101902,
+      "action": "FAVOR_FIRST",
+      "seconds": 12.348035788163543,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_SECOND_s2026101902",
+      "task": "S",
+      "seed": 2026101902,
+      "action": "FAVOR_SECOND",
+      "seconds": 12.121034608222544,
+      "steps": 1000,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_FIRST_s2026101903",
+      "task": "S",
+      "seed": 2026101903,
+      "action": "KEEP_FIRST",
+      "seconds": 12.334891945123672,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_KEEP_SECOND_s2026101903",
+      "task": "S",
+      "seed": 2026101903,
+      "action": "KEEP_SECOND",
+      "seconds": 12.342340809293091,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_FIRST_s2026101903",
+      "task": "S",
+      "seed": 2026101903,
+      "action": "FAVOR_FIRST",
+      "seconds": 12.334650780074298,
+      "steps": 1025,
+      "cap": 13
+    },
+    {
+      "id": "EXSR1_S_short_FAVOR_SECOND_s2026101903",
+      "task": "S",
+      "seed": 2026101903,
+      "action": "FAVOR_SECOND",
+      "seconds": 12.323689450509846,
+      "steps": 1025,
+      "cap": 13
+    }
+  ],
+  "budget_violations": [
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "KEEP_FIRST",
+      "seconds": 27.27107214089483,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.2710721408948302
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "KEEP_SECOND",
+      "seconds": 27.261081183329225,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.2610811833292246
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.134760823100805,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.13476082310080528
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101901",
+      "task": "M",
+      "seed": 2026101901,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.101887079887092,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.10188707988709211
+    },
+    {
+      "kind": "selection_total",
+      "task": "M",
+      "seed": 2026101901,
+      "method": "SHORT",
+      "seconds": 108.76880122721195,
+      "cap": 108,
+      "excess_seconds": 0.7688012272119522
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "KEEP_FIRST",
+      "seconds": 27.067168697714806,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.0671686977148056
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "KEEP_SECOND",
+      "seconds": 27.068486622534692,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.06848662253469229
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.12901956308633,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.1290195630863309
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101902",
+      "task": "M",
+      "seed": 2026101902,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.117490925826132,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.1174909258261323
+    },
+    {
+      "kind": "selection_total",
+      "task": "M",
+      "seed": 2026101902,
+      "method": "SHORT",
+      "seconds": 108.38216580916196,
+      "cap": 108,
+      "excess_seconds": 0.3821658091619611
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_FIRST_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "KEEP_FIRST",
+      "seconds": 27.095629142597318,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.0956291425973177
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_KEEP_SECOND_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "KEEP_SECOND",
+      "seconds": 27.123478300869465,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.12347830086946487
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_FIRST_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "FAVOR_FIRST",
+      "seconds": 27.274571497924626,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.2745714979246259
+    },
+    {
+      "kind": "short_run",
+      "id": "EXSR1_M_short_FAVOR_SECOND_s2026101903",
+      "task": "M",
+      "seed": 2026101903,
+      "action": "FAVOR_SECOND",
+      "seconds": 27.166230397298932,
+      "steps": 1150,
+      "cap": 27,
+      "excess_seconds": 0.16623039729893208
+    },
+    {
+      "kind": "selection_total",
+      "task": "M",
+      "seed": 2026101903,
+      "method": "SHORT",
+      "seconds": 108.65990933869034,
+      "cap": 108,
+      "excess_seconds": 0.6599093386903405
+    }
+  ],
+  "budget_gate": false,
+  "recommendations": {
+    "M": {
+      "M1": "KEEP_SECOND",
+      "RAW": "KEEP_SECOND",
+      "FIXED": "PARENT",
+      "SHORT": "KEEP_SECOND"
+    },
+    "S": {
+      "M1": "PARENT",
+      "RAW": "PARENT",
+      "FIXED": "PARENT",
+      "SHORT": "PARENT"
+    }
+  },
+  "M1_same_actions_as_RAW": true,
+  "selection_gate": false,
+  "error_gate": null,
+  "full_child_labels_started": 0,
+  "model_numerical_audit_complete": false,
+  "test_access": false,
+  "base_validation_access": false,
+  "phase_training_seconds": {
+    "full": 292.4812100287527,
+    "proxy": 265.0604733079672,
+    "short": 473.70871985238045
+  },
+  "audit_seconds": 0.43145555537194014
+}

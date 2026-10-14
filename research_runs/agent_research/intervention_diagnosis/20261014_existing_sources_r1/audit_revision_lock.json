@@ -1,0 +1,12 @@
+{
+  "revision": 2,
+  "frozen_before_full_children": true,
+  "original_auditor_sha256": "7b0ac70084ae2fe08028d04ea696cab770bfa63a46a490c1152cc4ecf6ea4c28",
+  "auditor_sha256": "7d00acab4bd9401dbd57bcfbb13f72f118ce484eb22c4be9c9348ee523d68972",
+  "launcher_sha256": "ca203ab3a2aee561200f22cb03719226b4ed1fe9d46fe0af65d86794de574dde",
+  "plan_sha256": "64bed230e24ebf8ccfbde9ac959d5bf628d90580c94000b5bec52e5a1a6d1f5f",
+  "bookkeeping_absolute_tolerance_seconds": 1E-09,
+  "budget_tolerance_seconds": 0,
+  "reason": "Floating-point summation order in bookkeeping; add aggregate cost verification",
+  "created_utc": "2026-10-14T09:07:15.1379108Z"
+}

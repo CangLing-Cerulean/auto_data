@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+最新：[现有两源批次已停止](agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md)，累计373。SHORT实际预算失败且M1/RAW/SHORT同推荐，本批选择增量门槛不可能达到；24完整子标签未启动，精度未知。先完成并核对停止记录与全部资产同步；不补标签、不重跑、不改本批预算。后续研究须另行明确主张与独立协议，不能把修复成本等同于选择收益优势。下文预测/标签待运行是历史计划。
+
 最新：[父模型和预算已验收](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PARENTS_REPORT.md)，累计373。先核对calibration_sync_receipt精确提交与校准哈希，再运行24代理子+24SHORT；预测成本通过且Git锁完成后才运行24完整子。不在标签揭示后调整预算、任务或采样概率。
 
 2026-10-14最新用户方向：优先使用现有三份数据继续推进论文研究。当前[MetroPT3/SKAB冻结M1协议](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)，Hydraulic旧结果保持，Appliances暂停。先审查与准备完整训练内A/B/C，再运行6真实父/6代理父校准并公开锁预算，随后预测锁与24完整子标签；任何失败按协议保留停止。不能将已接触来源称未见，累计367待实际运行更新。

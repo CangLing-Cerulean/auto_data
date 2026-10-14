@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+最新：[现有来源预算停止报告](agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md)。24条预测完成，MetroPT3 SHORT三种子总耗时108.38–108.77秒超过108秒，完整子标签启动0，累计373。停止审计核对1570资产及60运行通过，但候选完整数值审计/真实标签未完成。两源M1/RAW/SHORT同推荐，预设选择增量门槛确定不可达；预测精度未知。本批关闭、不追调预算或补标签，Hydraulic保持，Appliances暂停；优先核对本阶段sync_receipt及Release。下文父阶段等待预测为历史快照。
+
 最新：[现有来源父阶段验收](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PARENTS_REPORT.md)。6真实父+6代理父及独立审计通过，累计373；M/S预算按冻结公式为27/13秒。校准精确同步后开始24条候选预测，预测锁之前禁止完整子标签。不重跑父ID，原始数据与历史结果保持。
 
 当前：[现有数据跨来源验证](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)。用户要求优先MetroPT3/SKAB/Hydraulic并继续推进；Hydraulic M1结果保留，补齐前两源，Appliances暂停。仅基础训练内A/B/C、全合法窗口，新ID/父校准/预算/预测逐段冻结；源码审查与数据预检后启动父阶段。累计367，当前尚无新训练。下文“独立新来源”是此前计划，已由本轮顺序替代。
