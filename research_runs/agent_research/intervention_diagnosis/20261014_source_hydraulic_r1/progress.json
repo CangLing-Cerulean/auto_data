@@ -1,5 +1,5 @@
 {
-  "status": "retrospective_completed_audit_and_archive_verified_pending_github",
+  "status": "retrospective_completed_synced",
   "stage": "source_hydraulic_r1",
   "retrospective": true,
   "registered_predictions": 36,
@@ -11,7 +11,7 @@
   "test_access": false,
   "model_queue": false,
   "source_formula_changed": false,
-  "next_action": "Complete GitHub synchronization, then synthesize cross-source failure and cost evidence before independently freezing any new study",
+  "next_action": "Synthesize permitted cross-source failure and cost evidence, then independently freeze a falsifiable next study; keep closed batches and SOURCE configuration unchanged",
   "audited_propagation_blocks": 13824,
   "audited_candidate_residual_summaries": 432,
   "independent_confirmation": false,
@@ -21,5 +21,6 @@
   "M1_prediction_mae_pp": 3.995583658621788,
   "source_mean_realized_gain_percent": -24.93590657057703,
   "M1_mean_realized_gain_percent": 18.336131289342074,
-  "source_harmful_recommendations": 2
+  "source_harmful_recommendations": 2,
+  "github_sync": "source_predictions_results_and_release_verified"
 }

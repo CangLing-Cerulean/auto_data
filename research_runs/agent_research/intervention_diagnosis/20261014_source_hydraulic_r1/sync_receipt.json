@@ -1,0 +1,34 @@
+{
+  "status": "source_predictions_results_and_release_verified",
+  "verified_utc": "2026-10-14T11:02:03.1348450Z",
+  "source_commit": "93cc9c129ccbb4d1227b618ed95fab11e783a373",
+  "prediction_commit": "e84832bd8d982b080f984c521ad1c9bab2191a50",
+  "result_commit": "3d8e75f82cee03c44237faee982ca5b211cf60bb",
+  "result_tree": "de47de5647889ddd68fc448810d86dd7427b81b6",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/source-hydraulic-retrospective-20261014-r1",
+  "archive": {
+    "name": "source_hydraulic_20261014.tar.gz",
+    "bytes": 13884338,
+    "sha256": "afaea33bd5cb79742ee280729d432db6b11a4d87fd43f716ad89584fad831417",
+    "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/source-hydraulic-retrospective-20261014-r1/source_hydraulic_20261014.tar.gz",
+    "asset_id": 640108047
+  },
+  "artifact_sha256": {
+    "plan.json": "42341a018a75014ae9c89f2ffc8fa181cf98d70bac3cee70869ce0f8b0f3f5ee",
+    "predictions.json": "c6ef51cca5e6d33bcd16732b9b04f3889326a19bd30ae004deec5d9b048ebb73",
+    "final_audit.json": "10019261676a4aa598a213f6f9df169e2cc4d24c2e703350f2e8c36a21f4bb9e",
+    "REPORT.md": "9120b187351067658760bff620e849f28f682711c6523f80312f9dbbb14b3f5d",
+    "comparison.png": "94704814febb3c652cb787ce13faba353f72f9f5173e1110fb7d3140ee8d5548",
+    "archive_receipt.json": "03a67baaff004ed956d3c95a8b553791c8cf8dd8bc0a1b50a8e59e2c3a4a3ccb",
+    "download_verification.json": "ec9a75fa11e6af0b72b1e4466b4bd33b572add90ced60abf1db409c0e1d68e65",
+    "REPORT_REVIEW.md": "db3fffbcebae01873bd8d004f198bec02890799885548e0c9b6a45655ab265df"
+  },
+  "archive_members_verified": 764,
+  "retrospective": true,
+  "independent_confirmation": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 373,
+  "model_queue": false,
+  "D_access": false,
+  "test_access": false
+}

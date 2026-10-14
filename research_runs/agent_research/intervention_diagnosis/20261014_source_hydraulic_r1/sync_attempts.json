@@ -1,0 +1,11 @@
+{
+  "phase": "result_publication",
+  "status": "failed_before_branch_update",
+  "cause": "Old publication helper unnecessarily decoded every blob as UTF-8; the PNG starts with binary 0x89",
+  "scientific_outputs_changed": false,
+  "original_helper_changed": false,
+  "recovery": "Use a new local helper with the existing base64/SHA-checked blob path for regular text and binary files, then publish the exact same result commit",
+  "new_full_trainings": 0,
+  "recovered_status": "exact_same_result_commit_and_release_verified",
+  "recovered_commit": "3d8e75f82cee03c44237faee982ca5b211cf60bb"
+}
