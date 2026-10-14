@@ -1,0 +1,43 @@
+{
+  "phase": "parents",
+  "new_complete_experimental_trainings": 9,
+  "cumulative_complete_experimental_trainings": 418,
+  "complete_parent_ids": [
+    "FTR1_F0_full_PARENT_s2026102001",
+    "FTR1_F0_full_PARENT_s2026102002",
+    "FTR1_F0_full_PARENT_s2026102003",
+    "FTR1_F1_full_PARENT_s2026102001",
+    "FTR1_F1_full_PARENT_s2026102002",
+    "FTR1_F1_full_PARENT_s2026102003",
+    "FTR1_F2_full_PARENT_s2026102001",
+    "FTR1_F2_full_PARENT_s2026102002",
+    "FTR1_F2_full_PARENT_s2026102003"
+  ],
+  "proxy_parent_ids": [
+    "FTR1_F0_proxy_PARENT_s2026102001",
+    "FTR1_F0_proxy_PARENT_s2026102002",
+    "FTR1_F0_proxy_PARENT_s2026102003",
+    "FTR1_F1_proxy_PARENT_s2026102001",
+    "FTR1_F1_proxy_PARENT_s2026102002",
+    "FTR1_F1_proxy_PARENT_s2026102003",
+    "FTR1_F2_proxy_PARENT_s2026102001",
+    "FTR1_F2_proxy_PARENT_s2026102002",
+    "FTR1_F2_proxy_PARENT_s2026102003"
+  ],
+  "full_parent_seconds": 333.46464397292584,
+  "proxy_parent_seconds": 71.70027959998697,
+  "identity_score_seconds": 3.6619401704519987,
+  "parent_phase_seconds": 409.01335424464196,
+  "preparation_seconds": 0.6793586956337094,
+  "preflight_seconds": 9.340674428269267,
+  "independent_parent_audit_seconds": 306.09739915281534,
+  "archive_seconds": 2.066955406218767,
+  "preflight_diagnostic_trajectories": 36,
+  "preflight_diagnostic_updates": 900,
+  "independent_parent_replay_trajectories": 18,
+  "independent_parent_replay_updates": 54000,
+  "accounting": "Training and identity subintervals are inside parent_phase_seconds; do not add them again. Independent audit replays have no new experimental IDs and are charged separately.",
+  "management_seconds": null,
+  "transfer_seconds": null,
+  "new_candidate_models": 0
+}

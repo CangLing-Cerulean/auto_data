@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "calibration_passed": true,
+  "plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "calibration_sha256": "aeba0f733f11c29c9debd91f09fbaf868c4f8d675e5439942938e64b6bd3a0b5",
+  "counts": [
+    {
+      "task": "F0",
+      "states": 42,
+      "residuals": 78,
+      "moments": 3,
+      "independent_replay_steps": 18000,
+      "independent_replay_trajectories": 6
+    },
+    {
+      "task": "F1",
+      "states": 42,
+      "residuals": 78,
+      "moments": 3,
+      "independent_replay_steps": 18000,
+      "independent_replay_trajectories": 6
+    },
+    {
+      "task": "F2",
+      "states": 42,
+      "residuals": 78,
+      "moments": 3,
+      "independent_replay_steps": 18000,
+      "independent_replay_trajectories": 6
+    }
+  ],
+  "new_full_trainings": 9,
+  "cumulative_full_trainings": 418,
+  "seconds": 306.09739915281534
+}

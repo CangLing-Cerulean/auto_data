@@ -1,0 +1,36 @@
+{
+  "status": "terminal_snapshot_created",
+  "phase": "parents",
+  "archive": "/root/auto_data_experiments/20261014_file_transfer_r1/archives/file_transfer_r1_parents.tar.gz",
+  "size": 13410463,
+  "sha256": "1e6d654562551ddc6e26215d060964516c57e10d2a729ff6b7200dd4a5081451",
+  "members": 525,
+  "source_plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "controls": {
+    "audit_parents": {
+      "exit_code": 0,
+      "started_unix": 1791989487.9568796,
+      "finished_unix": 1791989797.7197218,
+      "phase": "audit_parents"
+    },
+    "parents": {
+      "exit_code": 0,
+      "started_unix": 1791989001.7469592,
+      "finished_unix": 1791989415.3444178,
+      "phase": "parents"
+    },
+    "preflight": {
+      "exit_code": 0,
+      "started_unix": 1791988944.841238,
+      "finished_unix": 1791988957.7201774,
+      "phase": "preflight"
+    },
+    "prepare": {
+      "exit_code": 0,
+      "started_unix": 1791988905.9800014,
+      "finished_unix": 1791988909.4374864,
+      "phase": "prepare"
+    }
+  },
+  "seconds": 2.066955406218767
+}
