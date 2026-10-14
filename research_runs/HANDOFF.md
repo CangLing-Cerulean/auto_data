@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+当前：[SOURCE公式适配工程验收](agent_research/intervention_diagnosis/20261014_source_adapter_r1/PLAN.md)。仅代数与已保存父检查点接口，16项数值检查及6类无效输入检查通过；待独立源码审查和36父检查点只读核验。没有真实候选预测、B/C评价、模型更新或新完整训练，累计373。上一预算失败批次保持关闭；此适配不称作者Adam完整复现。
+
 最新：[现有来源预算停止报告](agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md)。24条预测完成，MetroPT3 SHORT三种子总耗时108.38–108.77秒超过108秒，完整子标签启动0，累计373。停止审计核对1570资产及60运行通过，但候选完整数值审计/真实标签未完成。两源M1/RAW/SHORT同推荐，预设选择增量门槛确定不可达；预测精度未知。本批关闭、不追调预算或补标签，Hydraulic保持，Appliances暂停；优先核对本阶段sync_receipt及Release。下文父阶段等待预测为历史快照。
 
 最新：[现有来源父阶段验收](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PARENTS_REPORT.md)。6真实父+6代理父及独立审计通过，累计373；M/S预算按冻结公式为27/13秒。校准精确同步后开始24条候选预测，预测锁之前禁止完整子标签。不重跑父ID，原始数据与历史结果保持。

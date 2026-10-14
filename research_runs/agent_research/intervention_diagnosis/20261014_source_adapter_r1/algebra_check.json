@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "augmented_generator_rank_0",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "zero_action_rank_0",
+      "max_abs": 0.0,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "zero_eigenvalue_limit",
+      "max_abs": 0.0,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "segment_composition_rank_0",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "augmented_generator_rank_2",
+      "max_abs": 8.881784197001252e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "zero_action_rank_2",
+      "max_abs": 0.0,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "segment_composition_rank_2",
+      "max_abs": 1.1102230246251565e-15,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "augmented_generator_rank_5",
+      "max_abs": 3.885780586188048e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "zero_action_rank_5",
+      "max_abs": 0.0,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "segment_composition_rank_5",
+      "max_abs": 3.3306690738754696e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "zero_duration",
+      "max_abs": 0.0,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "normalized_group_gradient",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "normalized_group_finite_difference",
+      "max_abs": 4.6002313069948286e-11,
+      "atol": 2e-09,
+      "rtol": 2e-09
+    },
+    {
+      "name": "duplication_no_extra_inverse_N",
+      "max_abs": 2.498001805406602e-16,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "adam_constant_gradient_bias_correction",
+      "max_abs": 5.329070518200751e-15,
+      "atol": 2e-11,
+      "rtol": 2e-11
+    },
+    {
+      "name": "adam_zero_second_moment",
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    }
+  ],
+  "rejected_inputs": [
+    "negative_curvature",
+    "asymmetric_hessian",
+    "nonpositive_preconditioner",
+    "nonfinite_gradient",
+    "negative_adam_moment",
+    "uninitialized_adam"
+  ],
+  "new_full_trainings": 0,
+  "sensor_records_generated": 0,
+  "base_data_access": false,
+  "parent_checkpoint_access": false,
+  "candidate_label_access": false,
+  "source_implementation_reproduction": false,
+  "scope": "algebraic operators only; not validation of Adam trajectory approximation",
+  "code_sha256": {
+    "check_source_quadratic.py": "68715c055d418bcefa3456c0b982b4a5da3ccc2fcdfd1d2762104460178f0db3",
+    "source_quadratic.py": "39cd348ba93408ab510e8c506b0cc85f2f67a16da4b1c07bccc2e7a977516992"
+  },
+  "seconds": 0.15247469989117235
+}

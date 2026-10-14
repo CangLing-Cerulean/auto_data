@@ -1,0 +1,121 @@
+{
+  "status": "engineering_only",
+  "parent_root": "/root/auto_data_experiments/20261014_existing_sources_r1",
+  "parent_source_commit": "73820fc75aca801424cc840d53a13dbdb5017cb6",
+  "parent_archive_sha256": "058e56132ba343a47d50f2eca444c1975f91b77dd4ce128043acc9075684f250",
+  "parents": [
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "channels": 15,
+      "directory": "runs/EXSR1_M_full_PARENT_s2026101901",
+      "moments": "runs/EXSR1_M_proxy_PARENT_s2026101901/moments.npz"
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "channels": 15,
+      "directory": "runs/EXSR1_M_full_PARENT_s2026101902",
+      "moments": "runs/EXSR1_M_proxy_PARENT_s2026101902/moments.npz"
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "channels": 15,
+      "directory": "runs/EXSR1_M_full_PARENT_s2026101903",
+      "moments": "runs/EXSR1_M_proxy_PARENT_s2026101903/moments.npz"
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "channels": 8,
+      "directory": "runs/EXSR1_S_full_PARENT_s2026101901",
+      "moments": "runs/EXSR1_S_proxy_PARENT_s2026101901/moments.npz"
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "channels": 8,
+      "directory": "runs/EXSR1_S_full_PARENT_s2026101902",
+      "moments": "runs/EXSR1_S_proxy_PARENT_s2026101902/moments.npz"
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "channels": 8,
+      "directory": "runs/EXSR1_S_full_PARENT_s2026101903",
+      "moments": "runs/EXSR1_S_proxy_PARENT_s2026101903/moments.npz"
+    }
+  ],
+  "seeds": [
+    2026101901,
+    2026101902,
+    2026101903
+  ],
+  "steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "parent_assets_sha256": {
+    "run_research.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "runs/EXSR1_M_proxy_PARENT_s2026101901/moments.npz": "aab0ad4b31ae548c3065128133bfd856ccfba59109a7a8e4ba20eedbe627013f",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_500.pt": "df43f57f8977bab2611478a45d879e910508d48b8995cc8fed6744d6136868bf",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_1000.pt": "4a0a6fcc5792f990805c7267fc0a181e2c850a7dae270f09c04a4440c0562ff4",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_1500.pt": "a4c9c9527f822170ed369f89e0f28ca59ee181850e5c9c58303a91b7780a0805",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_2000.pt": "42c5ee8f32de6e7b34b7d27dbd4875c6d229ed346dd8cf7b65b9d424366b2263",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_2500.pt": "3c051122679df0d72f59fcb7cb54c572063a0c36908ccb28aa35cb36ef819e4c",
+    "runs/EXSR1_M_full_PARENT_s2026101901/step_3000.pt": "c0b72569d585213c144c131c24c439172d5d2a4fe869ff3fd3de79eb266c2f16",
+    "runs/EXSR1_M_proxy_PARENT_s2026101902/moments.npz": "aab0ad4b31ae548c3065128133bfd856ccfba59109a7a8e4ba20eedbe627013f",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_500.pt": "37d938b314b6a4c46ae7cced54b33f29fa0392af865ce6f773141c66b2420721",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_1000.pt": "fc839ca83f7b9aa6387ce8498ab0a0f8e69dddba23e4ee252ccf2518fc2f2077",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_1500.pt": "67bdd8d103dce1afb8e8da8dd159810ca672e807bc9af77c399b43fea3106194",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_2000.pt": "f50fa88c740b52aa36563f73e8d9fc5efba066719799e0489f8ce29646bde1ca",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_2500.pt": "5bae6908a9152ea30775966c4113ac9c0fc3efe51a2f773a80bdb55d066d5295",
+    "runs/EXSR1_M_full_PARENT_s2026101902/step_3000.pt": "7a92d9dd28646ade052218ccb3359052e415824307f12ac90fd6a4eb41b8212a",
+    "runs/EXSR1_M_proxy_PARENT_s2026101903/moments.npz": "aab0ad4b31ae548c3065128133bfd856ccfba59109a7a8e4ba20eedbe627013f",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_500.pt": "1aad702151421f740568a3a8193f1db57fa21e133f0f8b079d0577a08529af13",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_1000.pt": "b02b1b1b3c3eea0356b0252992979f9adf7834e3cf7b017d78814a0b69967788",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_1500.pt": "1f164621f43d46547fa051a0e2f604dd4c904ccb64d12214c2f987e55f3c1a03",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_2000.pt": "afb2a5b5ef8b83baab94e2cacc5153817318b3affa88aaaf48383e4534652f67",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_2500.pt": "9ff3d7aef5aa463726364d54e34d553ff1ec1fbccd63c9af326e2cc25ab63cf1",
+    "runs/EXSR1_M_full_PARENT_s2026101903/step_3000.pt": "441318305f99428f7ddab4eb94aa171aa2f7d09d87f011ada96f10aafba135d9",
+    "runs/EXSR1_S_proxy_PARENT_s2026101901/moments.npz": "37f669b13779c5c62c8dd66efe8e771a7f93b225639b9f5aec99291f34257f47",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_500.pt": "3940bf7036c12e069b7d5821c2bbfd1f0ac9ef9cd2c4bebced623e489ee92a57",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_1000.pt": "c50aff780f8df3d1368616ce6655fd704c681947086a523899bb0e16f8dcafba",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_1500.pt": "273556e0fc0b5eb4ea945b26776f555278dd9c3ce8e9466abff280aa5613ada9",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_2000.pt": "c321f8513e02fc0de571c30c71c6b6a983dabe5aaed128b6cb155dc2ea84b2f8",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_2500.pt": "d60f1c9a3dde088a618bfa46793a2579dfb53702e2707b601c1ffbb3ac65bc09",
+    "runs/EXSR1_S_full_PARENT_s2026101901/step_3000.pt": "d70a80516cbdd2de4f1bb8cb0e0d70e295ffdee21c6960ff78865a5319666396",
+    "runs/EXSR1_S_proxy_PARENT_s2026101902/moments.npz": "37f669b13779c5c62c8dd66efe8e771a7f93b225639b9f5aec99291f34257f47",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_500.pt": "96b9348ff8b8d994dd5f8e51e1df9fd1de723687105fd4931e722d49f031a07a",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_1000.pt": "c3815702b7a6ec8452fb9f1f624464ee8deedb39b2a65b0bc3dc3b29642d584d",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_1500.pt": "467b87ccde304f24e4b280e410d55d62082996f4d9724db2d528a062e842278b",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_2000.pt": "b5a04c849ba0d6aacbd2b35371530c49d6915b3825d9be466d21dd4cf1810709",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_2500.pt": "9e4c0af3b05d2782fc8e1d7c320db0b4f00d6e54442e47f0018fdc931210e490",
+    "runs/EXSR1_S_full_PARENT_s2026101902/step_3000.pt": "78666057d46554963664f220b5dd669a810ca05fb1d53a94ffba3f0fe08fa859",
+    "runs/EXSR1_S_proxy_PARENT_s2026101903/moments.npz": "37f669b13779c5c62c8dd66efe8e771a7f93b225639b9f5aec99291f34257f47",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_500.pt": "79f22202dba3eb89a5782dabbf14e1ea6a79475b034c2b69087857e11ad936c3",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_1000.pt": "5afa79bd6487ea55d79036b8ac6d2bc156224f1ebb3b42bfd656f0bb2d16647b",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_1500.pt": "f1b62f57d0547e4bf295e53e924930cd28d69367f85947e9e146bd4a69f8117e",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_2000.pt": "ae062afc5b3686d4b2bffbc169c82ebce5e10cc4dd23d3007e5a71d1bf8aa7fe",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_2500.pt": "018820c822d0ec0805ddc92661588f53298356c2805f2b8b0f8def8bce2d4d87",
+    "runs/EXSR1_S_full_PARENT_s2026101903/step_3000.pt": "9ad56be298dd90e7b7df0bd44b588a1d21f1289d4fd8bc04b953d4cfa84226c5"
+  },
+  "code_sha256": {
+    "source_quadratic.py": "39cd348ba93408ab510e8c506b0cc85f2f67a16da4b1c07bccc2e7a977516992",
+    "source_dlinear_adapter.py": "ac130c41ba4644120a1965f483272a18afd2d92cb7d5f4abe62f0369a72a315e",
+    "check_source_parent_interfaces.py": "f1a5a7f9ef4b4e85134b932fcdb50b079f2603299e0b5ac6d418d3c0f714a31b",
+    "check_source_quadratic.py": "68715c055d418bcefa3456c0b982b4a5da3ccc2fcdfd1d2762104460178f0db3"
+  },
+  "reference_atol": 1E-07,
+  "reference_rtol": 1E-08,
+  "new_full_trainings": 0,
+  "candidate_labels_access": false,
+  "full_child_labels_for_stopped_batch": false,
+  "no_optimizer_step": true,
+  "no_BC_evaluation": true
+}
