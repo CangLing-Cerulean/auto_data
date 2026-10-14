@@ -1,0 +1,639 @@
+{
+  "status": "PASS",
+  "scope": "parent coordinate, optimizer and quadratic operator interfaces only",
+  "source_commit": "26df71363c459706ee502d81cb5e3cff62cee6a7",
+  "runtime_plan_sha256": "bfed769ea86b81b15a3d576bb82f87301d94b974659ad2cfa457d4ee7c950270",
+  "checkpoints": [
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "df43f57f8977bab2611478a45d879e910508d48b8995cc8fed6744d6136868bf",
+      "preconditioner_min": 89.25369819156859,
+      "preconditioner_max": 56838.54772666901,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1219,
+      "largest_roundoff_tolerance": 9.109326226959806e-10
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 1000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "4a0a6fcc5792f990805c7267fc0a181e2c850a7dae270f09c04a4440c0562ff4",
+      "preconditioner_min": 117.25944925464765,
+      "preconditioner_max": 83444.81790538506,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1234,
+      "largest_roundoff_tolerance": 1.4680278458429293e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 1500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "a4c9c9527f822170ed369f89e0f28ca59ee181850e5c9c58303a91b7780a0805",
+      "preconditioner_min": 134.8626914769872,
+      "preconditioner_max": 111060.44083216929,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1226,
+      "largest_roundoff_tolerance": 2.0631967093644367e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 2000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "42c5ee8f32de6e7b34b7d27dbd4875c6d229ed346dd8cf7b65b9d424366b2263",
+      "preconditioner_min": 140.34930108975396,
+      "preconditioner_max": 139483.7166808431,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1229,
+      "largest_roundoff_tolerance": 2.7338698018233626e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 2500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "3c051122679df0d72f59fcb7cb54c572063a0c36908ccb28aa35cb36ef819e4c",
+      "preconditioner_min": 146.14641408748696,
+      "preconditioner_max": 170636.2437882524,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1224,
+      "largest_roundoff_tolerance": 3.484827618023709e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 3000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "c0b72569d585213c144c131c24c439172d5d2a4fe869ff3fd3de79eb266c2f16",
+      "preconditioner_min": 156.39312258984887,
+      "preconditioner_max": 203223.0850956326,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1239,
+      "largest_roundoff_tolerance": 4.28024688461741e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "37d938b314b6a4c46ae7cced54b33f29fa0392af865ce6f773141c66b2420721",
+      "preconditioner_min": 95.56293018411236,
+      "preconditioner_max": 50968.80529062432,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1205,
+      "largest_roundoff_tolerance": 1.236187480788501e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 1000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "fc839ca83f7b9aa6387ce8498ab0a0f8e69dddba23e4ee252ccf2518fc2f2077",
+      "preconditioner_min": 113.20480839957834,
+      "preconditioner_max": 66586.06493275479,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1226,
+      "largest_roundoff_tolerance": 1.7684806471472773e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 1500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "67bdd8d103dce1afb8e8da8dd159810ca672e807bc9af77c399b43fea3106194",
+      "preconditioner_min": 129.5466918412899,
+      "preconditioner_max": 73012.64772532186,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1231,
+      "largest_roundoff_tolerance": 2.419164922082159e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 2000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "f50fa88c740b52aa36563f73e8d9fc5efba066719799e0489f8ce29646bde1ca",
+      "preconditioner_min": 132.30534244748546,
+      "preconditioner_max": 79501.64639064032,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1229,
+      "largest_roundoff_tolerance": 3.118962682586604e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 2500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "5bae6908a9152ea30775966c4113ac9c0fc3efe51a2f773a80bdb55d066d5295",
+      "preconditioner_min": 134.94977689837225,
+      "preconditioner_max": 83990.18892439696,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1237,
+      "largest_roundoff_tolerance": 3.846780604686846e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101902,
+      "step": 3000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "7a92d9dd28646ade052218ccb3359052e415824307f12ac90fd6a4eb41b8212a",
+      "preconditioner_min": 133.85226284262063,
+      "preconditioner_max": 89980.49528924255,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1225,
+      "largest_roundoff_tolerance": 4.542059956865607e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "1aad702151421f740568a3a8193f1db57fa21e133f0f8b079d0577a08529af13",
+      "preconditioner_min": 87.99073319655564,
+      "preconditioner_max": 26972.944139286938,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1229,
+      "largest_roundoff_tolerance": 3.758048501989777e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 1000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "b02b1b1b3c3eea0356b0252992979f9adf7834e3cf7b017d78814a0b69967788",
+      "preconditioner_min": 111.00196270661307,
+      "preconditioner_max": 37594.566629600944,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1222,
+      "largest_roundoff_tolerance": 5.193745478824407e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 1500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "1f164621f43d46547fa051a0e2f604dd4c904ccb64d12214c2f987e55f3c1a03",
+      "preconditioner_min": 123.1610271686005,
+      "preconditioner_max": 47709.836575749294,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1222,
+      "largest_roundoff_tolerance": 5.781745293987694e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 2000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "afb2a5b5ef8b83baab94e2cacc5153817318b3affa88aaaf48383e4534652f67",
+      "preconditioner_min": 124.81556239096116,
+      "preconditioner_max": 63514.04873979165,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1230,
+      "largest_roundoff_tolerance": 5.792010582332657e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 2500,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "9ff3d7aef5aa463726364d54e34d553ff1ec1fbccd63c9af326e2cc25ab63cf1",
+      "preconditioner_min": 126.8572786543856,
+      "preconditioner_max": 82074.40878820565,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1224,
+      "largest_roundoff_tolerance": 5.789276855653696e-09
+    },
+    {
+      "task": "M",
+      "seed": 2026101903,
+      "step": 3000,
+      "shape": [
+        15,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "441318305f99428f7ddab4eb94aa171aa2f7d09d87f011ada96f10aafba135d9",
+      "preconditioner_min": 128.57832712182645,
+      "preconditioner_max": 103627.81833631458,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 1240,
+      "largest_roundoff_tolerance": 6.198725650547061e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "3940bf7036c12e069b7d5821c2bbfd1f0ac9ef9cd2c4bebced623e489ee92a57",
+      "preconditioner_min": 80.80108207173659,
+      "preconditioner_max": 8012930.795898999,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 309,
+      "largest_roundoff_tolerance": 2.2044623445577777e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 1000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "c50aff780f8df3d1368616ce6655fd704c681947086a523899bb0e16f8dcafba",
+      "preconditioner_min": 131.44835925062625,
+      "preconditioner_max": 11626520.03618136,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 313,
+      "largest_roundoff_tolerance": 2.692656660708062e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 1500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "273556e0fc0b5eb4ea945b26776f555278dd9c3ce8e9466abff280aa5613ada9",
+      "preconditioner_min": 187.01977423948713,
+      "preconditioner_max": 15022420.17611554,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 306,
+      "largest_roundoff_tolerance": 3.8288915277852665e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 2000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "c321f8513e02fc0de571c30c71c6b6a983dabe5aaed128b6cb155dc2ea84b2f8",
+      "preconditioner_min": 253.12668848233827,
+      "preconditioner_max": 18394787.873990074,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 314,
+      "largest_roundoff_tolerance": 5.177521344419916e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 2500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "d60f1c9a3dde088a618bfa46793a2579dfb53702e2707b601c1ffbb3ac65bc09",
+      "preconditioner_min": 334.5247706826565,
+      "preconditioner_max": 21749992.691469397,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 309,
+      "largest_roundoff_tolerance": 6.830547975022611e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 3000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "d70a80516cbdd2de4f1bb8cb0e0d70e295ffdee21c6960ff78865a5319666396",
+      "preconditioner_min": 436.17528976235764,
+      "preconditioner_max": 25173924.29015607,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 301,
+      "largest_roundoff_tolerance": 8.863889658921553e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "96b9348ff8b8d994dd5f8e51e1df9fd1de723687105fd4931e722d49f031a07a",
+      "preconditioner_min": 58.55284178730821,
+      "preconditioner_max": 5100056.309356832,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 306,
+      "largest_roundoff_tolerance": 3.2027237601580578e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 1000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "c3815702b7a6ec8452fb9f1f624464ee8deedb39b2a65b0bc3dc3b29642d584d",
+      "preconditioner_min": 95.29904888724285,
+      "preconditioner_max": 7824327.779807693,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 313,
+      "largest_roundoff_tolerance": 4.916158875750496e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 1500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "467b87ccde304f24e4b280e410d55d62082996f4d9724db2d528a062e842278b",
+      "preconditioner_min": 135.66241134809644,
+      "preconditioner_max": 10536371.39911314,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 316,
+      "largest_roundoff_tolerance": 6.343546029028881e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 2000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "b5a04c849ba0d6aacbd2b35371530c49d6915b3825d9be466d21dd4cf1810709",
+      "preconditioner_min": 183.78448352368616,
+      "preconditioner_max": 13416271.506744161,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 320,
+      "largest_roundoff_tolerance": 7.379275599584241e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 2500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "9e4c0af3b05d2782fc8e1d7c320db0b4f00d6e54442e47f0018fdc931210e490",
+      "preconditioner_min": 243.15542805972092,
+      "preconditioner_max": 16607843.467583274,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 305,
+      "largest_roundoff_tolerance": 8.133318832389466e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101902,
+      "step": 3000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "78666057d46554963664f220b5dd669a810ca05fb1d53a94ffba3f0fe08fa859",
+      "preconditioner_min": 317.67699435856304,
+      "preconditioner_max": 19978568.96052277,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 298,
+      "largest_roundoff_tolerance": 9.680580364213028e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "79f22202dba3eb89a5782dabbf14e1ea6a79475b034c2b69087857e11ad936c3",
+      "preconditioner_min": 51.103945298497536,
+      "preconditioner_max": 11131101.4705808,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 300,
+      "largest_roundoff_tolerance": 9.4287033788241e-09
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 1000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "5afa79bd6487ea55d79036b8ac6d2bc156224f1ebb3b42bfd656f0bb2d16647b",
+      "preconditioner_min": 83.08674524642609,
+      "preconditioner_max": 14496285.365658678,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 313,
+      "largest_roundoff_tolerance": 1.394973080196946e-08
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 1500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "f1b62f57d0547e4bf295e53e924930cd28d69367f85947e9e146bd4a69f8117e",
+      "preconditioner_min": 118.15057728536571,
+      "preconditioner_max": 17323773.98684024,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 294,
+      "largest_roundoff_tolerance": 1.7078954254402298e-08
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 2000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "ae062afc5b3686d4b2bffbc169c82ebce5e10cc4dd23d3007e5a71d1bf8aa7fe",
+      "preconditioner_min": 159.8992897327483,
+      "preconditioner_max": 20196136.33283906,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 311,
+      "largest_roundoff_tolerance": 1.967615923486938e-08
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 2500,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "018820c822d0ec0805ddc92661588f53298356c2805f2b8b0f8def8bce2d4d87",
+      "preconditioner_min": 211.38533996897553,
+      "preconditioner_max": 22604184.24821408,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 307,
+      "largest_roundoff_tolerance": 2.1587272122242826e-08
+    },
+    {
+      "task": "S",
+      "seed": 2026101903,
+      "step": 3000,
+      "shape": [
+        8,
+        66,
+        8
+      ],
+      "checkpoint_sha256": "9ad56be298dd90e7b7df0bd44b588a1d21f1289d4fd8bc04b953d4cfa84226c5",
+      "preconditioner_min": 275.78883423896923,
+      "preconditioner_max": 25039565.722053975,
+      "zero_response_exact": true,
+      "clipped_negative_eigenvalues": 307,
+      "largest_roundoff_tolerance": 2.2666747628676862e-08
+    }
+  ],
+  "checked_blocks": 3312,
+  "nonzero_references": [
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 500,
+      "channel": 0,
+      "output": 0,
+      "max_abs_error": 1.7669199436909366e-13,
+      "bound": 1.043994770745206e-07,
+      "reference": "torch.linalg.matrix_exp augmented 67x67 generator"
+    },
+    {
+      "task": "M",
+      "seed": 2026101901,
+      "step": 3000,
+      "channel": 0,
+      "output": 0,
+      "max_abs_error": 4.832800826193306e-13,
+      "bound": 1.0455644767082135e-07,
+      "reference": "torch.linalg.matrix_exp augmented 67x67 generator"
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 500,
+      "channel": 0,
+      "output": 0,
+      "max_abs_error": 4.764799665935016e-13,
+      "bound": 1.047147431523034e-07,
+      "reference": "torch.linalg.matrix_exp augmented 67x67 generator"
+    },
+    {
+      "task": "S",
+      "seed": 2026101901,
+      "step": 3000,
+      "channel": 0,
+      "output": 0,
+      "max_abs_error": 3.054334563046268e-12,
+      "bound": 1.0580567031821188e-07,
+      "reference": "torch.linalg.matrix_exp augmented 67x67 generator"
+    }
+  ],
+  "parent_assets_verified": 43,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 373,
+  "candidate_states_loaded": 0,
+  "candidate_labels_loaded": 0,
+  "base_csv_access": false,
+  "BC_evaluation": false,
+  "test_access": false,
+  "original_parent_assets_unchanged": true,
+  "torch_version": "2.14.0+cu130",
+  "numpy_version": "2.4.4",
+  "seconds": 3.9865902736783028
+}

@@ -1,14 +1,17 @@
 {
-  "status": "algebra_pass_pending_interface_review",
+  "status": "engineering_pass_pending_sync",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 373,
   "algebra_numerical_checks": 16,
   "invalid_inputs_rejected": 6,
-  "parent_interface_checks_started": false,
+  "parent_interface_checks_started": true,
   "candidate_labels_access": false,
   "test_access": false,
   "queue": false,
   "previous_batch_closed": true,
   "source_is_formula_adaptation": true,
-  "next_action": "Complete limited static review, freeze inputs/code, then read-only parent checkpoint interface audit"
+  "next_action": "Synchronize engineering report and receipts; then separately freeze a retrospective SOURCE-formula comparison using existing Hydraulic assets only",
+  "parent_checkpoints_verified": 36,
+  "quadratic_blocks_verified": 3312,
+  "scientific_effect_verified": false
 }
