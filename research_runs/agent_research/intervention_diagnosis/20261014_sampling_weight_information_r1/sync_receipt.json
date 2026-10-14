@@ -1,0 +1,24 @@
+{
+  "status": "stage_results_and_release_verified",
+  "verified_at_utc": "2026-10-14T11:29:32.2075858Z",
+  "repository": "CangLing-Cerulean/auto_data",
+  "source_commit": "d441284ead3f8101ff5a1a2086bcbb9519d4e4f1",
+  "result_commit": "52fce26f4abafae35683038321bac58a1595457b",
+  "source_receipt": "source_sync_receipt.json",
+  "result_receipt": "result_sync_receipt.json",
+  "release_receipt": "release_receipt.json",
+  "download_verification": "download_verification.json",
+  "archive_sha256": "1faf1d2c27459c7e48030bf2d3fbaaea5a2ad8dfe0bd3127e5493bbdfd9f142d",
+  "archive_bytes": 4121967,
+  "members_verified": 28,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 373,
+  "global_index_updates_published": false,
+  "local_only_files": [
+    "AGENTS.md",
+    "research_runs/state.json",
+    "research_runs/HANDOFF.md",
+    "research_runs/NEXT_STEPS.md"
+  ],
+  "publication_scope_note": "Automatic approval review rejected publishing extra global internal indices. Narrowed publication to authorized phase code, protocol, results, audit and evidence archive; global updates remain local."
+}
