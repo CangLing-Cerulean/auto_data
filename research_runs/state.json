@@ -2,14 +2,14 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-14",
   "session_id": "metropt3_session_20260926",
-  "phase": "proxy_selection_complete_awaiting_cleanup_approval",
+  "phase": "cleanup_complete_independent_source_design",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
   "active_study": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
-  "next_action": "Respect fs/fs_public exclusion. Own failed fs probe and empty notebook checkpoint removed. Await explicit A/B/C cleanup approval; candidates free root filesystem only, not data volume. Then verify capacity at the actual data or new dedicated project directory before independent-source M1 work.",
+  "next_action": "Approved A/B/C cleanup completed: 18 files removed, original training roots preserved, 2690953216 bytes root capacity recovered. New dedicated /root/auto_data_experiments passed 64 MiB fsync/readback. Freeze one independent-source M1 protocol and source identity before accessing response labels. No fs/fs_public usage; no new training yet.",
   "last_verified_snapshot_at": "2026-10-14T06:35:02.3799013Z",
   "snapshot_only": false,
   "total_training_runs_completed": 367,
@@ -709,6 +709,8 @@
     "alternative": "new dedicated project directory outside forbidden paths after capacity verification",
     "previous_fs_probe_removed": true,
     "removal_receipt": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/fs_probe_removal_receipt.json",
-    "ABC_cleanup_authorized": false
+    "ABC_cleanup_authorized": true,
+    "active_new_project_root": "/root/auto_data_experiments",
+    "cleanup_receipt": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/cleanup_execution.json"
   }
 }

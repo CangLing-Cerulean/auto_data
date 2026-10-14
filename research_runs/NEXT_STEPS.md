@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+2026-10-14用户批准A/B/C并要求继续：清理已完成，[执行与存储验收](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/REPORT.md)通过。新目录`/root/auto_data_experiments/`，禁止fs/fs_public；沿M1主线冻结独立来源确认，不重跑367次已完成ID、不改旧门槛或测试。下文待确认仅作历史。
+
 最新用户约束：不碰`fs`及`fs_public`。本次失败探针已撤销，后续默认data下的项目目录，或使用独立新建项目目录。A/B/C清理仍待明确批准；它释放根盘而非data容量，之后须对实际新实验目录重新验收容量。
 
 当前须人工确认：[已备份清理清单](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md)已完成逐项核验，共2.5061 GiB。用户明确要求确认后清理，尚未删除；先等待A/B/C范围批准，完成精确文件清理与空间验收后再启动新来源阶段。本轮M1结果和Release已同步，累计367保持。

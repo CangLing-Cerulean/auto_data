@@ -13,9 +13,11 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
     root = args.output
-    allowed_parent = Path('/root/data/auto_data_research')
-    if (not root.is_absolute() or allowed_parent.resolve() != allowed_parent
-            or root.parent.resolve() != allowed_parent or root.exists() or root.is_symlink()):
+    allowed_parents = (Path('/root/data/auto_data_research'), Path('/root/auto_data_experiments'))
+    allowed_parent = root.parent
+    if (not root.is_absolute() or allowed_parent not in allowed_parents
+            or allowed_parent.resolve() != allowed_parent
+            or root.exists() or root.is_symlink()):
         raise RuntimeError('Unexpected or existing destination; preserve it')
     start = time.perf_counter()
     root.mkdir(mode=0o700)
