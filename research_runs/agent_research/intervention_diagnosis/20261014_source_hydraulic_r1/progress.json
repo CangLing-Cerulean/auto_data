@@ -1,9 +1,9 @@
 {
-  "status": "reviewed_pending_verified_source_commit",
+  "status": "predictions_completed_pending_sync_and_audit",
   "stage": "source_hydraulic_r1",
   "retrospective": true,
   "registered_predictions": 36,
-  "completed_predictions": 0,
+  "completed_predictions": 36,
   "registered_propagation_blocks": 13824,
   "new_full_trainings": 0,
   "cumulative_full_trainings": 373,
@@ -11,5 +11,5 @@
   "test_access": false,
   "model_queue": false,
   "source_formula_changed": false,
-  "next_action": "Verify source commit, then run the registered 36 retrospective forecasts"
+  "next_action": "Verify prediction commit, then independently audit all response blocks and compare old accepted truth"
 }
