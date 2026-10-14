@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+最新：[现有来源父阶段验收](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PARENTS_REPORT.md)。6真实父+6代理父及独立审计通过，累计373；M/S预算按冻结公式为27/13秒。校准精确同步后开始24条候选预测，预测锁之前禁止完整子标签。不重跑父ID，原始数据与历史结果保持。
+
 当前：[现有数据跨来源验证](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)。用户要求优先MetroPT3/SKAB/Hydraulic并继续推进；Hydraulic M1结果保留，补齐前两源，Appliances暂停。仅基础训练内A/B/C、全合法窗口，新ID/父校准/预算/预测逐段冻结；源码审查与数据预检后启动父阶段。累计367，当前尚无新训练。下文“独立新来源”是此前计划，已由本轮顺序替代。
 
 当前：[已批准清理完成](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/REPORT.md)。A/B/C18文件已按精确身份清理，释放约2.5061GiB；新建`/root/auto_data_experiments/`并通过64MiB落盘/读回预检，fs/fs_public禁用。用户要求继续实验，当前准备单一M1独立来源确认，累计367；下文待批准状态为历史。

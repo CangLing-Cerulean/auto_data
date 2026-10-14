@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+最新：[父模型和预算已验收](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PARENTS_REPORT.md)，累计373。先核对calibration_sync_receipt精确提交与校准哈希，再运行24代理子+24SHORT；预测成本通过且Git锁完成后才运行24完整子。不在标签揭示后调整预算、任务或采样概率。
+
 2026-10-14最新用户方向：优先使用现有三份数据继续推进论文研究。当前[MetroPT3/SKAB冻结M1协议](agent_research/intervention_diagnosis/20261014_existing_sources_r1/PROTOCOL.md)，Hydraulic旧结果保持，Appliances暂停。先审查与准备完整训练内A/B/C，再运行6真实父/6代理父校准并公开锁预算，随后预测锁与24完整子标签；任何失败按协议保留停止。不能将已接触来源称未见，累计367待实际运行更新。
 
 2026-10-14用户批准A/B/C并要求继续：清理已完成，[执行与存储验收](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/REPORT.md)通过。新目录`/root/auto_data_experiments/`，禁止fs/fs_public；沿M1主线冻结独立来源确认，不重跑367次已完成ID、不改旧门槛或测试。下文待确认仅作历史。

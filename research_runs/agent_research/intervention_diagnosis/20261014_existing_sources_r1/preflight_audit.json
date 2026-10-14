@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "tasks": [
+    {
+      "task": "M",
+      "windows": {
+        "A": 632192,
+        "B": 210311,
+        "C": 210813
+      },
+      "group_mass": {
+        "PARENT": 0.5000332177566309,
+        "KEEP_FIRST": 1.0,
+        "KEEP_SECOND": 0.0,
+        "FAVOR_FIRST": 0.7500000000000002,
+        "FAVOR_SECOND": 0.25
+      }
+    },
+    {
+      "task": "S",
+      "windows": {
+        "A": 17781,
+        "B": 5663,
+        "C": 5673
+      },
+      "group_mass": {
+        "PARENT": 0.5002530791294079,
+        "KEEP_FIRST": 1.0,
+        "KEEP_SECOND": 0.0,
+        "FAVOR_FIRST": 0.7499999999999998,
+        "FAVOR_SECOND": 0.25
+      }
+    }
+  ],
+  "frozen_update_and_score_AST_equal": true,
+  "all_train_rows_and_windows_reconstructed": true,
+  "test_access": false,
+  "new_training": 0,
+  "plan_sha256": "64bed230e24ebf8ccfbde9ac959d5bf628d90580c94000b5bec52e5a1a6d1f5f",
+  "preparation_sha256": "f39acbcdb1f1d3eff069f7302ed7b467c5717a78f33fe4eb33bcfd2217144b40"
+}
