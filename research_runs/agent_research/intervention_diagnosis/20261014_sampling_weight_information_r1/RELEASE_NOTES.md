@@ -1,0 +1,1 @@
+Training-only gradient information audit: 90 parent anchors, 360 sampling/weighting pairs, 90 identity controls and 180 autograd checks independently verified. No new models, child responses or test evaluation. Complete statistics, frozen source, logs, identities and audit in 28-member archive. Full-training cumulative count remains 373.
