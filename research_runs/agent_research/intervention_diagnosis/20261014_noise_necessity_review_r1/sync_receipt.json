@@ -1,0 +1,22 @@
+{
+  "status": "stage_results_verified",
+  "verified_at_utc": "2026-10-14T12:35:04.0155668Z",
+  "repository": "CangLing-Cerulean/auto_data",
+  "result_commit": "e4e3c02f02bac1c9b4c8835f705275a64894d9d9",
+  "result_receipt": "result_sync_receipt.json",
+  "retrospective": true,
+  "prospective_prediction_lock": false,
+  "release_required": false,
+  "release_scope_note": "Only small text/code/CSV outputs were created and are tracked in this commit; reused input checkpoint archive remains in the prior weighted-response Release",
+  "input_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/weighted-response-r1-20261014",
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 409,
+  "global_index_updates_published": false,
+  "local_only_files": [
+    "AGENTS.md",
+    "research_runs/state.json",
+    "research_runs/HANDOFF.md",
+    "research_runs/NEXT_STEPS.md"
+  ],
+  "publication_scope_note": "Phase artifacts only; extra global index updates remain local under the prior automatic-review boundary"
+}
