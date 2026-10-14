@@ -22,6 +22,6 @@
 
 完整父阶段归档`file_transfer_r1_parents.tar.gz`为13,410,463字节、525个成员，SHA256：`1e6d654562551ddc6e26215d060964516c57e10d2a729ff6b7200dd4a5081451`。本地下载、逐成员安全路径、大小和SHA均验收通过。归档保留全部准备资产、父初始/六点状态、采样计数、矩、评分摘要、源代码和控制日志；原始基础数据仍沿原版本保存。
 
-源码提交`f70e64f1a24be15fe9e254b1e60936bc2c2d73b5`，准备/预检提交`1401c44f6ff288594cc2324f55be6a162b8fe272`均已核对远端。父结果及归档在本报告形成时待发布，发布状态以后续收据为准。
+源码提交`f70e64f1a24be15fe9e254b1e60936bc2c2d73b5`，准备/预检提交`1401c44f6ff288594cc2324f55be6a162b8fe272`和父结果提交`8f51733ec89ec1dfa52514a6b390f34e2bc3f9c9`均已核对远端。父归档已发布到[同仓库Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-parents-20261014)，远端大小/SHA核对通过。一次GitHub HTTP500已保留记录并通过同提交重试恢复，未重跑训练。完整收据见`parents_sync_receipt.json`。
 
 下一步是在父结果、审计和归档同步且校准收据回传后，按冻结菜单运行全部69个代理子、69个SHORT和SOURCE/便宜策略。完整子标签仍受成本与推荐可辨别性双门槛约束。SKAB仍是已接触开发来源，三任务共享文件，不构成独立跨源证据；测试、基础validation和旧D未访问。

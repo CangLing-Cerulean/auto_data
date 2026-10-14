@@ -1,6 +1,6 @@
 {
   "stage": "file_transfer_r1",
-  "status": "parent_calibration_audited_pending_publication",
+  "status": "parent_calibration_audited_and_assets_synced",
   "cumulative_full_trainings": 418,
   "new_full_trainings": 9,
   "last_fully_audited_cumulative": 418,
@@ -28,5 +28,7 @@
   "observed_completed_parent_model_jobs": 18,
   "registered_parent_model_jobs": 18,
   "short_steps": {"F0": 1000, "F1": 1000, "F2": 1500},
-  "next_action": "Publish the audited calibration and verified parent archive, upload its exact sync receipt, then activate the registered candidate forecasts. No candidate jobs are activated yet."
+  "parent_results_commit": "8f51733ec89ec1dfa52514a6b390f34e2bc3f9c9",
+  "parent_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-parents-20261014",
+  "next_action": "Upload the exact published calibration sync receipt, then activate the registered candidate forecasts. No candidate jobs are activated yet."
 }

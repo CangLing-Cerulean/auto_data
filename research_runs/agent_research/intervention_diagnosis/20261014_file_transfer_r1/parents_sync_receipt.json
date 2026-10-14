@@ -1,0 +1,41 @@
+{
+  "status": "parents_calibration_and_archive_verified",
+  "source_commit": "f70e64f1a24be15fe9e254b1e60936bc2c2d73b5",
+  "parents_result_commit": "8f51733ec89ec1dfa52514a6b390f34e2bc3f9c9",
+  "release": {
+    "status": "release_assets_verified",
+    "verified_utc": "2026-10-14T15:02:37.1577839Z",
+    "repository": "CangLing-Cerulean/auto_data",
+    "tag": "file-transfer-r1-parents-20261014",
+    "source_commit": "8f51733ec89ec1dfa52514a6b390f34e2bc3f9c9",
+    "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-parents-20261014",
+    "assets": [
+      {
+        "name": "file_transfer_r1_parents.tar.gz",
+        "bytes": 13410463,
+        "sha256": "1e6d654562551ddc6e26215d060964516c57e10d2a729ff6b7200dd4a5081451",
+        "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/file-transfer-r1-parents-20261014/file_transfer_r1_parents.tar.gz",
+        "asset_id": 640725255
+      }
+    ],
+    "operation": "release_publication",
+    "counts_scope": "publication_only",
+    "additional_training": 0,
+    "model_API_calls": 0,
+    "test_access": false
+  },
+  "local_archive_verification": {
+    "status": "PASS",
+    "archive_sha256": "1e6d654562551ddc6e26215d060964516c57e10d2a729ff6b7200dd4a5081451",
+    "archive_size": 13410463,
+    "members_verified": 525,
+    "calibration_sha256": "aeba0f733f11c29c9debd91f09fbaf868c4f8d675e5439942938e64b6bd3a0b5",
+    "parents_audit_sha256": "81f613751dcbbb1e1717561bf7b880b0c95d505f04446f30d3ac1e12c1b0c9f4"
+  },
+  "new_complete_experimental_trainings": 9,
+  "cumulative_complete_experimental_trainings": 418,
+  "parents_audit_sha256": "81f613751dcbbb1e1717561bf7b880b0c95d505f04446f30d3ac1e12c1b0c9f4",
+  "calibration_sync_receipt_sha256": "ae595982fc6371ca6015509737f7bf00e759b42890e2d831339fb52eb224d006",
+  "global_indices_published": false,
+  "candidate_jobs_started": false
+}
