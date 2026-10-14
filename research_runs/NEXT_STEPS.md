@@ -1,5 +1,7 @@
 # 下一步：干预响应诊断与反馈决策
 
+最新：[SOURCE Hydraulic回顾性比较完成](agent_research/intervention_diagnosis/20261014_source_hydraulic_r1/REPORT.md)，新增训练0、累计373。固定公式适配的数值审计通过，但MAE50.595983pp、两次有害推荐，M1旧池相对优势保持；SOURCE低成本值得保留为参照，不能据此宣称M1跨源泛化。先核对报告及完整资产同步，随后仅基于已允许证据归纳M/S停止原因、成本和可靠性缺口，提出可证伪的新研究假设并独立冻结。禁止调本轮SOURCE、恢复旧M/S标签、使用D/test选方案或擅自恢复Appliances。
+
 最新：[SOURCE公式适配工程通过](agent_research/intervention_diagnosis/20261014_source_adapter_r1/REPORT.md)。16代数检查、6无效输入拒绝、36父检查点/3312块接口核验通过，4独立矩阵参考最大误差3.05e-12；新增训练0、累计373。下一步另冻Hydraulic既有全部结果上的事后强基线比较，使用单一已验收适配、不调分段/P/阻尼、不训练新模型。当前没有SOURCE科学效果结论，上一预算失败批次保持关闭。
 
 最新：[现有两源批次已停止](agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md)，累计373。SHORT实际预算失败且M1/RAW/SHORT同推荐，本批选择增量门槛不可能达到；24完整子标签未启动，精度未知。先完成并核对停止记录与全部资产同步；不补标签、不重跑、不改本批预算。后续研究须另行明确主张与独立协议，不能把修复成本等同于选择收益优势。下文预测/标签待运行是历史计划。

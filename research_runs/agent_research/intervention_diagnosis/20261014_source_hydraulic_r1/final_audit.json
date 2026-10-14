@@ -1,0 +1,1384 @@
+{
+  "status": "PASS",
+  "retrospective": true,
+  "independent_confirmation": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 373,
+  "D_access": false,
+  "test_access": false,
+  "original_inputs_unchanged": true,
+  "propagation_blocks_verified": 13824,
+  "residual_summaries_verified": 432,
+  "parent_readout_summaries_verified": 108,
+  "moment_files_verified": 15,
+  "max_moment_error": 0.0,
+  "checked": [
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "gain": 3.242744880260778,
+      "max_absolute_delta_error": 4.3268166827203913e-13,
+      "max_error_bound_ratio": 4.265098277094072e-06
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "gain": -8.741773370808017,
+      "max_absolute_delta_error": 4.4247938646435614e-13,
+      "max_error_bound_ratio": 4.361677896813916e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "gain": 2.3087519450588885,
+      "max_absolute_delta_error": 2.231825835252721e-13,
+      "max_error_bound_ratio": 2.2157939340022606e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "gain": -3.6835082019455436,
+      "max_absolute_delta_error": 2.294414658265964e-13,
+      "max_error_bound_ratio": 2.277933161973628e-06
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "gain": 4.050112884009385,
+      "max_absolute_delta_error": 3.19300141882195e-13,
+      "max_error_bound_ratio": 3.1582648974151393e-06
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "gain": -7.936112044606624,
+      "max_absolute_delta_error": 3.2468472355162703e-13,
+      "max_error_bound_ratio": 3.21152492784779e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "gain": 2.6918531657260996,
+      "max_absolute_delta_error": 1.677130656574377e-13,
+      "max_error_bound_ratio": 1.6679580471998823e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "gain": -3.536295626671672,
+      "max_absolute_delta_error": 1.6922574452848949e-13,
+      "max_error_bound_ratio": 1.6830021040588248e-06
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "gain": 3.884710287431335,
+      "max_absolute_delta_error": 5.27383692272565e-13,
+      "max_error_bound_ratio": 5.225111547989633e-06
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "gain": -7.326819373416936,
+      "max_absolute_delta_error": 5.315470286149093e-13,
+      "max_error_bound_ratio": 5.266360257647022e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "gain": 2.2510694584072644,
+      "max_absolute_delta_error": 2.945976795842853e-13,
+      "max_error_bound_ratio": 2.9315844154387257e-06
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "gain": -2.6897342281493373,
+      "max_absolute_delta_error": 2.751132655021138e-13,
+      "max_error_bound_ratio": 2.7228410821216426e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "gain": -99.52246928995336,
+      "max_absolute_delta_error": 6.641354133307686e-13,
+      "max_error_bound_ratio": 6.447913508330593e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "gain": 47.51726027571685,
+      "max_absolute_delta_error": 7.776279620230753e-13,
+      "max_error_bound_ratio": 7.549782378924985e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "gain": -44.31278548416072,
+      "max_absolute_delta_error": 3.7989056345111294e-13,
+      "max_error_bound_ratio": 3.7427632512778414e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "gain": 30.395913456645133,
+      "max_absolute_delta_error": 3.269606807521086e-13,
+      "max_error_bound_ratio": 3.221286702716139e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "gain": -97.35613317092266,
+      "max_absolute_delta_error": 4.355404925604489e-13,
+      "max_error_bound_ratio": 4.2248920704908135e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "gain": 49.813452871844206,
+      "max_absolute_delta_error": 4.118927421359331e-13,
+      "max_error_bound_ratio": 4.009831565032825e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "gain": -42.36491729668074,
+      "max_absolute_delta_error": 2.2672141941626478e-13,
+      "max_error_bound_ratio": 2.2327281387534032e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "gain": 31.56030565057541,
+      "max_absolute_delta_error": 1.7728180035092578e-13,
+      "max_error_bound_ratio": 1.7490250606349484e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "gain": -96.00653461293457,
+      "max_absolute_delta_error": 8.538725282392079e-13,
+      "max_error_bound_ratio": 8.426394126664016e-06
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "gain": 43.35481852906683,
+      "max_absolute_delta_error": 9.637013409502515e-13,
+      "max_error_bound_ratio": 9.510233730070848e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "gain": -41.021761135935996,
+      "max_absolute_delta_error": 4.688333055113958e-13,
+      "max_error_bound_ratio": 4.657290192529748e-06
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "gain": 29.07736663973766,
+      "max_absolute_delta_error": 3.9853537137091166e-13,
+      "max_error_bound_ratio": 3.958965488679272e-06
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "gain": 10.881482103882062,
+      "max_absolute_delta_error": 1.1197986982125485e-13,
+      "max_error_bound_ratio": 1.1114179398066704e-06
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "gain": -13.11909685275598,
+      "max_absolute_delta_error": 1.3217205108162489e-13,
+      "max_error_bound_ratio": 1.3118285362150117e-06
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "gain": 11.235584854877713,
+      "max_absolute_delta_error": 6.843137168033309e-14,
+      "max_error_bound_ratio": 6.817433398006494e-07
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "gain": -6.288936223839139,
+      "max_absolute_delta_error": 6.596654646140454e-14,
+      "max_error_bound_ratio": 6.583632995216709e-07
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "gain": 5.824180830535273,
+      "max_absolute_delta_error": 7.155387393709134e-14,
+      "max_error_bound_ratio": 7.082268668304617e-07
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "gain": -6.806193863407629,
+      "max_absolute_delta_error": 8.35685687317067e-14,
+      "max_error_bound_ratio": 8.318302479301018e-07
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "gain": 3.034852891117306,
+      "max_absolute_delta_error": 4.6726511548911276e-14,
+      "max_error_bound_ratio": 4.653878879889554e-07
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "gain": -3.280342820552767,
+      "max_absolute_delta_error": 3.6387559632089506e-14,
+      "max_error_bound_ratio": 3.6230451008803273e-07
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "gain": 10.816970308292783,
+      "max_absolute_delta_error": 1.463967835846347e-13,
+      "max_error_bound_ratio": 1.4502402377292213e-06
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "gain": -12.468830361763962,
+      "max_absolute_delta_error": 1.3394840792102514e-13,
+      "max_error_bound_ratio": 1.3269237628744603e-06
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "gain": 5.614976712308902,
+      "max_absolute_delta_error": 8.290894012996652e-14,
+      "max_error_bound_ratio": 8.275308744753949e-07
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "gain": -6.027955977693721,
+      "max_absolute_delta_error": 6.613459779813979e-14,
+      "max_error_bound_ratio": 6.582306576017867e-07
+    }
+  ],
+  "scalar_records": [
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "actual_gain": -48.516654918829474,
+      "predicted": {
+        "M1": -52.235329414620615,
+        "RAW": -48.181094487504026,
+        "FIXED": 0.0,
+        "SHORT": -65.54652544267603,
+        "SOURCE": 3.242744880260778
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "actual_gain": -9.874777525775055,
+      "predicted": {
+        "M1": -7.784466582989136,
+        "RAW": -12.324607373931412,
+        "FIXED": 0.0,
+        "SHORT": -16.033911068415097,
+        "SOURCE": -8.741773370808017
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "actual_gain": 0.8441706901478397,
+      "predicted": {
+        "M1": 2.6331201600014675,
+        "RAW": 1.6300188980378874,
+        "FIXED": 0.0,
+        "SHORT": -10.546865397389794,
+        "SOURCE": 2.3087519450588885
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "actual_gain": -3.6374010803866663,
+      "predicted": {
+        "M1": -2.6416917553913146,
+        "RAW": -3.9636748702100735,
+        "FIXED": 0.0,
+        "SHORT": -5.0654764963582695,
+        "SOURCE": -3.6835082019455436
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "actual_gain": -45.16014731880885,
+      "predicted": {
+        "M1": -46.51138706646227,
+        "RAW": -44.39424285438063,
+        "FIXED": 0.0,
+        "SHORT": -57.97807811818188,
+        "SOURCE": 4.050112884009385
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "actual_gain": -13.377786812851891,
+      "predicted": {
+        "M1": -11.309572828844617,
+        "RAW": -15.572127026861692,
+        "FIXED": 0.0,
+        "SHORT": -13.377786812851891,
+        "SOURCE": -7.936112044606624
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "actual_gain": 3.0214819719480035,
+      "predicted": {
+        "M1": 2.6607257840058716,
+        "RAW": 2.018242091961754,
+        "FIXED": 0.0,
+        "SHORT": -5.403230801199928,
+        "SOURCE": 2.6918531657260996
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "actual_gain": -2.097497879168861,
+      "predicted": {
+        "M1": -2.4746893774714205,
+        "RAW": -3.6639337940836088,
+        "FIXED": 0.0,
+        "SHORT": -1.9294047708027147,
+        "SOURCE": -3.536295626671672
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "actual_gain": -40.479962869909144,
+      "predicted": {
+        "M1": -37.8889762175371,
+        "RAW": -40.092226811540314,
+        "FIXED": 0.0,
+        "SHORT": -40.479962869909144,
+        "SOURCE": 3.884710287431335
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "actual_gain": -12.107611467157314,
+      "predicted": {
+        "M1": -13.088795208379256,
+        "RAW": -13.42581491230288,
+        "FIXED": 0.0,
+        "SHORT": -10.777549398803862,
+        "SOURCE": -7.326819373416936
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "actual_gain": 3.1336672461744377,
+      "predicted": {
+        "M1": 3.522896984985631,
+        "RAW": 2.8889652519527034,
+        "FIXED": 0.0,
+        "SHORT": -0.32368292010689875,
+        "SOURCE": 2.2510694584072644
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "actual_gain": 0.8755901015492417,
+      "predicted": {
+        "M1": -1.6108812758977742,
+        "RAW": -2.1786169190741775,
+        "FIXED": 0.0,
+        "SHORT": 0.8755901015492417,
+        "SOURCE": -2.6897342281493373
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "actual_gain": -443.00965406946665,
+      "predicted": {
+        "M1": -457.20762515872156,
+        "RAW": -451.2056466677155,
+        "FIXED": 0.0,
+        "SHORT": -1157.8380011893723,
+        "SOURCE": -99.52246928995336
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "actual_gain": 55.35614030726766,
+      "predicted": {
+        "M1": 52.90385673311563,
+        "RAW": 54.84448060284244,
+        "FIXED": 0.0,
+        "SHORT": 56.570448654968416,
+        "SOURCE": 47.51726027571685
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "actual_gain": -44.504521071199115,
+      "predicted": {
+        "M1": -44.32572375293979,
+        "RAW": -43.790062532691294,
+        "FIXED": 0.0,
+        "SHORT": -42.17047318927378,
+        "SOURCE": -44.31278548416072
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "actual_gain": 32.03628946022255,
+      "predicted": {
+        "M1": 30.497788601693824,
+        "RAW": 31.79014416727008,
+        "FIXED": 0.0,
+        "SHORT": 34.776662216719345,
+        "SOURCE": 30.395913456645133
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "actual_gain": -376.9051035944169,
+      "predicted": {
+        "M1": -381.61222551553277,
+        "RAW": -373.46695214429417,
+        "FIXED": 0.0,
+        "SHORT": -1037.9369856116966,
+        "SOURCE": -97.35613317092266
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "actual_gain": 53.80468092427274,
+      "predicted": {
+        "M1": 54.61825658686217,
+        "RAW": 55.20839402627507,
+        "FIXED": 0.0,
+        "SHORT": 56.10220830352048,
+        "SOURCE": 49.813452871844206
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "actual_gain": -44.35358978917824,
+      "predicted": {
+        "M1": -43.572053152369975,
+        "RAW": -44.02352895386784,
+        "FIXED": 0.0,
+        "SHORT": -40.05645871124135,
+        "SOURCE": -42.36491729668074
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "actual_gain": 28.72574339171756,
+      "predicted": {
+        "M1": 30.4538425615269,
+        "RAW": 29.499145780901372,
+        "FIXED": 0.0,
+        "SHORT": 31.939386557489772,
+        "SOURCE": 31.56030565057541
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "actual_gain": -441.18001414078844,
+      "predicted": {
+        "M1": -426.29120242132154,
+        "RAW": -440.97535663194776,
+        "FIXED": 0.0,
+        "SHORT": -1182.920573570225,
+        "SOURCE": -96.00653461293457
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "actual_gain": 48.865040464268006,
+      "predicted": {
+        "M1": 51.24438630558596,
+        "RAW": 51.10576514908864,
+        "FIXED": 0.0,
+        "SHORT": 51.27990911833427,
+        "SOURCE": 43.35481852906683
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "actual_gain": -33.766927226241215,
+      "predicted": {
+        "M1": -36.92319416569138,
+        "RAW": -37.781074899659764,
+        "FIXED": 0.0,
+        "SHORT": -33.766927226241215,
+        "SOURCE": -41.021761135935996
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "actual_gain": 24.06805492643532,
+      "predicted": {
+        "M1": 29.262618832083657,
+        "RAW": 26.969082196038016,
+        "FIXED": 0.0,
+        "SHORT": 27.035694220746706,
+        "SOURCE": 29.07736663973766
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101701,
+      "actual_gain": -55.87795791615896,
+      "predicted": {
+        "M1": -38.56244695922035,
+        "RAW": -27.474399148059007,
+        "FIXED": 0.0,
+        "SHORT": -25.48552364466006,
+        "SOURCE": 10.881482103882062
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101701,
+      "actual_gain": -56.821901649273144,
+      "predicted": {
+        "M1": -102.92488978019966,
+        "RAW": -44.98438101427704,
+        "FIXED": 0.0,
+        "SHORT": -8.945563972568234,
+        "SOURCE": -13.11909685275598
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101701,
+      "actual_gain": -1.3417913475429601,
+      "predicted": {
+        "M1": -9.544210918059186,
+        "RAW": 24.55304043219133,
+        "FIXED": 0.0,
+        "SHORT": 13.111252401680032,
+        "SOURCE": 11.235584854877713
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101701,
+      "actual_gain": -4.871336755515599,
+      "predicted": {
+        "M1": -13.65664537344982,
+        "RAW": 20.911534710840332,
+        "FIXED": 0.0,
+        "SHORT": 6.230460686678688,
+        "SOURCE": -6.288936223839139
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101702,
+      "actual_gain": -91.13352747000567,
+      "predicted": {
+        "M1": -77.91509412770482,
+        "RAW": -56.79507833716886,
+        "FIXED": 0.0,
+        "SHORT": -73.1666421993378,
+        "SOURCE": 5.824180830535273
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101702,
+      "actual_gain": -124.81465098574833,
+      "predicted": {
+        "M1": -115.9223435309599,
+        "RAW": -93.47841786162772,
+        "FIXED": 0.0,
+        "SHORT": -34.51606464588933,
+        "SOURCE": -6.806193863407629
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101702,
+      "actual_gain": -13.237912384645725,
+      "predicted": {
+        "M1": -10.227394791694836,
+        "RAW": 7.205263813693048,
+        "FIXED": 0.0,
+        "SHORT": -17.17971668599311,
+        "SOURCE": 3.034852891117306
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101702,
+      "actual_gain": -60.91619850759696,
+      "predicted": {
+        "M1": -14.884947586586176,
+        "RAW": 2.69338029631539,
+        "FIXED": 0.0,
+        "SHORT": 2.075447814491885,
+        "SOURCE": -3.280342820552767
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "seed": 2026101703,
+      "actual_gain": -101.28077033728954,
+      "predicted": {
+        "M1": -82.99887138223468,
+        "RAW": -65.38258557776183,
+        "FIXED": 0.0,
+        "SHORT": -70.43608753633926,
+        "SOURCE": 10.816970308292783
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "seed": 2026101703,
+      "actual_gain": -120.04629874623248,
+      "predicted": {
+        "M1": -117.73162431557631,
+        "RAW": -103.67073386101126,
+        "FIXED": 0.0,
+        "SHORT": -82.9880535939272,
+        "SOURCE": -12.468830361763962
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "seed": 2026101703,
+      "actual_gain": -51.67059827537364,
+      "predicted": {
+        "M1": -10.961031079920842,
+        "RAW": 2.1179447250064074,
+        "FIXED": 0.0,
+        "SHORT": -12.159555891431847,
+        "SOURCE": 5.614976712308902
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "seed": 2026101703,
+      "actual_gain": 18.794510067355127,
+      "predicted": {
+        "M1": -15.518595013092288,
+        "RAW": -2.60477010570005,
+        "FIXED": 0.0,
+        "SHORT": -35.822746377162524,
+        "SOURCE": -6.027955977693721
+      }
+    }
+  ],
+  "cells": [
+    {
+      "task": "G1",
+      "action": "KEEP_FIRST",
+      "truth": -44.71892170251582,
+      "predictions": {
+        "M1": -45.545230899539995,
+        "RAW": -44.22252138447499,
+        "FIXED": 0.0,
+        "SHORT": -54.668188810255685,
+        "SOURCE": 3.725856017233833
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G1",
+      "action": "KEEP_SECOND",
+      "truth": -11.786725268594752,
+      "predictions": {
+        "M1": -10.727611540071004,
+        "RAW": -13.774183104365328,
+        "FIXED": 0.0,
+        "SHORT": -13.396415760023617,
+        "SOURCE": -8.00156826294386
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "truth": 2.333106636090094,
+      "predictions": {
+        "M1": 2.938914309664323,
+        "RAW": 2.179075413984115,
+        "FIXED": 0.0,
+        "SHORT": -5.42459303956554,
+        "SOURCE": 2.4172248563974175
+      },
+      "actual_category": "improve",
+      "predicted_categories": {
+        "M1": "improve",
+        "RAW": "improve",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G1",
+      "action": "FAVOR_SECOND",
+      "truth": -1.6197696193354287,
+      "predictions": {
+        "M1": -2.2424208029201695,
+        "RAW": -3.2687418611226193,
+        "FIXED": 0.0,
+        "SHORT": -2.039763721870581,
+        "SOURCE": -3.3031793522555177
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_FIRST",
+      "truth": -420.36492393489067,
+      "predictions": {
+        "M1": -421.703684365192,
+        "RAW": -421.8826518146525,
+        "FIXED": 0.0,
+        "SHORT": -1126.231853457098,
+        "SOURCE": -97.62837902460353
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "truth": 52.67528723193613,
+      "predictions": {
+        "M1": 52.92216654185459,
+        "RAW": 53.719546592735384,
+        "FIXED": 0.0,
+        "SHORT": 54.65085535894105,
+        "SOURCE": 46.895177225542625
+      },
+      "actual_category": "improve",
+      "predicted_categories": {
+        "M1": "improve",
+        "RAW": "improve",
+        "FIXED": "unchanged",
+        "SHORT": "improve",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_FIRST",
+      "truth": -40.87501269553952,
+      "predictions": {
+        "M1": -41.60699035700038,
+        "RAW": -41.8648887954063,
+        "FIXED": 0.0,
+        "SHORT": -38.664619708918785,
+        "SOURCE": -42.566487972259154
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    },
+    {
+      "task": "G2",
+      "action": "FAVOR_SECOND",
+      "truth": 28.276695926125143,
+      "predictions": {
+        "M1": 30.071416665101463,
+        "RAW": 29.419457381403152,
+        "FIXED": 0.0,
+        "SHORT": 31.250580998318608,
+        "SOURCE": 30.344528582319402
+      },
+      "actual_category": "improve",
+      "predicted_categories": {
+        "M1": "improve",
+        "RAW": "improve",
+        "FIXED": "unchanged",
+        "SHORT": "improve",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_FIRST",
+      "truth": -82.76408524115139,
+      "predictions": {
+        "M1": -66.49213748971995,
+        "RAW": -49.88402102099656,
+        "FIXED": 0.0,
+        "SHORT": -56.36275112677904,
+        "SOURCE": 9.17421108090337
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G3",
+      "action": "KEEP_SECOND",
+      "truth": -100.56095046041798,
+      "predictions": {
+        "M1": -112.1929525422453,
+        "RAW": -80.711177578972,
+        "FIXED": 0.0,
+        "SHORT": -42.14989407079492,
+        "SOURCE": -10.79804035930919
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "hurt",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_FIRST",
+      "truth": -22.083434002520775,
+      "predictions": {
+        "M1": -10.244212263224954,
+        "RAW": 11.292082990296928,
+        "FIXED": 0.0,
+        "SHORT": -5.409340058581641,
+        "SOURCE": 6.628471486101307
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "improve",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "improve"
+      }
+    },
+    {
+      "task": "G3",
+      "action": "FAVOR_SECOND",
+      "truth": -15.664341731919144,
+      "predictions": {
+        "M1": -14.686729324376094,
+        "RAW": 7.000048300485223,
+        "FIXED": 0.0,
+        "SHORT": -9.172279291997317,
+        "SOURCE": -5.199078340695209
+      },
+      "actual_category": "hurt",
+      "predicted_categories": {
+        "M1": "hurt",
+        "RAW": "improve",
+        "FIXED": "unchanged",
+        "SHORT": "hurt",
+        "SOURCE": "hurt"
+      }
+    }
+  ],
+  "prediction_MAE_pp": {
+    "M1": 3.995583658621788,
+    "RAW": 9.812602545019445,
+    "FIXED": 68.6436045375864,
+    "SHORT": 70.06183116443685,
+    "SOURCE": 50.59598340260268
+  },
+  "task_MAE_pp": {
+    "M1": {
+      "G1": 0.7784704456767229,
+      "G2": 1.0280845351642354,
+      "G3": 10.180195995024405
+    },
+    "RAW": {
+      "G1": 1.0717154044261448,
+      "G2": 1.1736561989264667,
+      "G3": 27.19243603170572
+    },
+    "FIXED": {
+      "G1": 15.114630806634024,
+      "G2": 135.54797994712288,
+      "G3": 55.26820285900233
+    },
+    "SHORT": {
+      "G1": 4.934162844339879,
+      "G2": 178.25669392700658,
+      "G3": 26.994636721964092
+    },
+    "SOURCE": {
+      "G1": 13.49936566965699,
+      "G2": 83.06899071239863,
+      "G3": 55.2195938257524
+    }
+  },
+  "decisions": [
+    {
+      "task": "G1",
+      "method": "M1",
+      "action": "FAVOR_FIRST",
+      "gain": 2.333106636090094,
+      "oracle_gain": 2.333106636090094,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G1",
+      "method": "RAW",
+      "action": "FAVOR_FIRST",
+      "gain": 2.333106636090094,
+      "oracle_gain": 2.333106636090094,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G1",
+      "method": "FIXED",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 2.333106636090094,
+      "regret": 2.333106636090094,
+      "accepted_harm": false
+    },
+    {
+      "task": "G1",
+      "method": "SHORT",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 2.333106636090094,
+      "regret": 2.333106636090094,
+      "accepted_harm": false
+    },
+    {
+      "task": "G1",
+      "method": "SOURCE",
+      "action": "KEEP_FIRST",
+      "gain": -44.71892170251582,
+      "oracle_gain": 2.333106636090094,
+      "regret": 47.052028338605915,
+      "accepted_harm": true
+    },
+    {
+      "task": "G2",
+      "method": "M1",
+      "action": "KEEP_SECOND",
+      "gain": 52.67528723193613,
+      "oracle_gain": 52.67528723193613,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G2",
+      "method": "RAW",
+      "action": "KEEP_SECOND",
+      "gain": 52.67528723193613,
+      "oracle_gain": 52.67528723193613,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G2",
+      "method": "FIXED",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 52.67528723193613,
+      "regret": 52.67528723193613,
+      "accepted_harm": false
+    },
+    {
+      "task": "G2",
+      "method": "SHORT",
+      "action": "KEEP_SECOND",
+      "gain": 52.67528723193613,
+      "oracle_gain": 52.67528723193613,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G2",
+      "method": "SOURCE",
+      "action": "KEEP_SECOND",
+      "gain": 52.67528723193613,
+      "oracle_gain": 52.67528723193613,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G3",
+      "method": "M1",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 0.0,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G3",
+      "method": "RAW",
+      "action": "FAVOR_FIRST",
+      "gain": -22.083434002520775,
+      "oracle_gain": 0.0,
+      "regret": 22.083434002520775,
+      "accepted_harm": true
+    },
+    {
+      "task": "G3",
+      "method": "FIXED",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 0.0,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G3",
+      "method": "SHORT",
+      "action": "PARENT",
+      "gain": 0.0,
+      "oracle_gain": 0.0,
+      "regret": 0.0,
+      "accepted_harm": false
+    },
+    {
+      "task": "G3",
+      "method": "SOURCE",
+      "action": "KEEP_FIRST",
+      "gain": -82.76408524115139,
+      "oracle_gain": 0.0,
+      "regret": 82.76408524115139,
+      "accepted_harm": true
+    }
+  ],
+  "mean_recommendation_gain": {
+    "M1": 18.336131289342074,
+    "RAW": 10.97498662183515,
+    "FIXED": 0.0,
+    "SHORT": 17.558429077312045,
+    "SOURCE": -24.93590657057703
+  },
+  "recommendation_gains": {
+    "M1": [
+      2.333106636090094,
+      52.67528723193613,
+      0.0
+    ],
+    "RAW": [
+      2.333106636090094,
+      52.67528723193613,
+      -22.083434002520775
+    ],
+    "FIXED": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "SHORT": [
+      0.0,
+      52.67528723193613,
+      0.0
+    ],
+    "SOURCE": [
+      -44.71892170251582,
+      52.67528723193613,
+      -82.76408524115139
+    ]
+  },
+  "per_seed_MAE_pp": {
+    "M1": {
+      "2026101701": 8.947285362494716,
+      "2026101702": 6.945020343273268,
+      "2026101703": 10.640508798112233
+    },
+    "RAW": {
+      "2026101701": 8.790379255042991,
+      "2026101702": 13.433557125763905,
+      "2026101703": 11.818914872768858
+    },
+    "FIXED": {
+      "2026101701": 63.057716399315474,
+      "2026101702": 71.46236008586332,
+      "2026101703": 74.68908715573114
+    },
+    "SHORT": {
+      "2026101701": 71.74573373463713,
+      "2026101702": 72.28748687959056,
+      "2026101703": 76.16180886618035
+    },
+    "SOURCE": {
+      "2026101701": 44.334874101625786,
+      "2026101702": 52.804881761479606,
+      "2026101703": 59.860373709781754
+    }
+  },
+  "category_accuracy": {
+    "M1": 1.0,
+    "RAW": 0.8333333333333334,
+    "FIXED": 0.0,
+    "SHORT": 0.9166666666666666,
+    "SOURCE": 0.75
+  },
+  "M1_vs_SOURCE_descriptive": {
+    "noninferior_tasks": 3,
+    "error_scale_pass": true,
+    "selection_scale_pass": true
+  },
+  "costs": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "moment_allocation_seconds": 0.07604458089917898,
+      "parent_state_seconds": 0.060616360045969486,
+      "action_seconds": 1.2858254816383123,
+      "SOURCE": 1.4224864225834608,
+      "real_parent_seconds": 36.03502422012389,
+      "allocated_common_preparation_seconds": 0.10713512657417192,
+      "cold_total_seconds": 37.56464576928152
+    },
+    {
+      "task": "G1",
+      "seed": 2026101702,
+      "moment_allocation_seconds": 0.07604458089917898,
+      "parent_state_seconds": 0.06198543589562178,
+      "action_seconds": 1.2190069099888206,
+      "SOURCE": 1.3570369267836213,
+      "real_parent_seconds": 35.76706930156797,
+      "allocated_common_preparation_seconds": 0.10713512657417192,
+      "cold_total_seconds": 37.231241354925764
+    },
+    {
+      "task": "G1",
+      "seed": 2026101703,
+      "moment_allocation_seconds": 0.07604458089917898,
+      "parent_state_seconds": 0.05880660563707352,
+      "action_seconds": 1.2242371877655387,
+      "SOURCE": 1.3590883743017912,
+      "real_parent_seconds": 35.74406488146633,
+      "allocated_common_preparation_seconds": 0.10713512657417192,
+      "cold_total_seconds": 37.21028838234229
+    },
+    {
+      "task": "G2",
+      "seed": 2026101701,
+      "moment_allocation_seconds": 0.025103998370468616,
+      "parent_state_seconds": 0.05886859633028507,
+      "action_seconds": 1.2247205944731832,
+      "SOURCE": 1.3086931891739368,
+      "real_parent_seconds": 35.67161524761468,
+      "allocated_common_preparation_seconds": 0.10217711536420716,
+      "cold_total_seconds": 37.082485552152825
+    },
+    {
+      "task": "G2",
+      "seed": 2026101702,
+      "moment_allocation_seconds": 0.025103998370468616,
+      "parent_state_seconds": 0.05863133631646633,
+      "action_seconds": 1.2268229881301522,
+      "SOURCE": 1.3105583228170872,
+      "real_parent_seconds": 35.69686998985708,
+      "allocated_common_preparation_seconds": 0.10217711536420716,
+      "cold_total_seconds": 37.10960542803837
+    },
+    {
+      "task": "G2",
+      "seed": 2026101703,
+      "moment_allocation_seconds": 0.025103998370468616,
+      "parent_state_seconds": 0.05899394676089287,
+      "action_seconds": 1.227076394483447,
+      "SOURCE": 1.3111743396148086,
+      "real_parent_seconds": 35.67401535343379,
+      "allocated_common_preparation_seconds": 0.10217711536420716,
+      "cold_total_seconds": 37.0873668084128
+    },
+    {
+      "task": "G3",
+      "seed": 2026101701,
+      "moment_allocation_seconds": 0.024920998762051266,
+      "parent_state_seconds": 0.05855663679540157,
+      "action_seconds": 1.2239358825609088,
+      "SOURCE": 1.3074135181183617,
+      "real_parent_seconds": 35.664949839003384,
+      "allocated_common_preparation_seconds": 0.1020535844274693,
+      "cold_total_seconds": 37.07441694154921
+    },
+    {
+      "task": "G3",
+      "seed": 2026101702,
+      "moment_allocation_seconds": 0.024920998762051266,
+      "parent_state_seconds": 0.05875068809837103,
+      "action_seconds": 1.2234147507697344,
+      "SOURCE": 1.3070864376301567,
+      "real_parent_seconds": 35.71143610030413,
+      "allocated_common_preparation_seconds": 0.1020535844274693,
+      "cold_total_seconds": 37.12057612236175
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "moment_allocation_seconds": 0.024920998762051266,
+      "parent_state_seconds": 0.0587047366425395,
+      "action_seconds": 1.2237607352435589,
+      "SOURCE": 1.3073864706481497,
+      "real_parent_seconds": 35.705993158742785,
+      "allocated_common_preparation_seconds": 0.1020535844274693,
+      "cold_total_seconds": 37.1154332138184
+    }
+  ],
+  "batch_cold_total_seconds": {
+    "M1": 697.9731197506189,
+    "RAW": 625.9250252628699,
+    "FIXED": 325.0343887768686,
+    "SHORT": 839.2522997921333,
+    "SOURCE": 334.59605957288295
+  },
+  "forecast_phase_seconds": 12.133227744139731,
+  "forecast_other_phase_seconds": 0.09462118614464998,
+  "audit_seconds": 5.301102913916111,
+  "source_method_under_historical_60_seconds": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "strict_budget_matched_comparison": false
+}

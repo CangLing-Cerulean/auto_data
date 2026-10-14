@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+最新：[SOURCE Hydraulic回顾性比较](agent_research/intervention_diagnosis/20261014_source_hydraulic_r1/REPORT.md)。36预测及13,824非零响应块、432候选/108父误差摘要、15矩独立审计通过。M1/SOURCE响应MAE为3.995584/50.595983pp，推荐真实平均改善+18.336131%/−24.935907%，后者两项伤害但成本更低。只支持已知旧池上的相对结果，不能称独立确认/泛化或严格等预算比较。新增训练0、累计373，无模型队列；优先核对该阶段sync_receipt与Release。M/S关闭、Appliances暂停和测试隔离保持；后续先归纳失败机制及可检验假设，任何新研究另冻。下文待SOURCE比较为历史。
+
 最新：[SOURCE适配工程报告](agent_research/intervention_diagnosis/20261014_source_adapter_r1/REPORT.md)。36父检查点/3312曲率块及4独立增广矩阵参考通过，43原输入哈希保持，新增训练0、累计373。来源代码锁26df71363c459706ee502d81cb5e3cff62cee6a7。先核对本阶段同步收据，再另冻Hydraulic已揭示资产的事后强基线比较；不能把公式适配称作者Adam复现、工程通过称科学优势，或恢复上一预算失败批次。下文待接口检查是历史快照。
 
 当前：[SOURCE公式适配工程验收](agent_research/intervention_diagnosis/20261014_source_adapter_r1/PLAN.md)。仅代数与已保存父检查点接口，16项数值检查及6类无效输入检查通过；待独立源码审查和36父检查点只读核验。没有真实候选预测、B/C评价、模型更新或新完整训练，累计373。上一预算失败批次保持关闭；此适配不称作者Adam完整复现。
