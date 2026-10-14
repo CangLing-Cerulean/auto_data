@@ -1,0 +1,445 @@
+{
+  "stage": "file_transfer_r1",
+  "status": "roles_and_full_menu_registered",
+  "dataset_id": "skab_v1",
+  "manifest_sha256": "372d99fd9188151d3429171c1978c3ea13a34b735bf3ec7d031d8b6845c5ecc2",
+  "train_sha256": "b0b88e9f6550a6e8405d169909f053ea44fc5e08425b01f95f61a8f41ba86235",
+  "train_rows": 32802,
+  "sensors": [
+    "Accelerometer1RMS",
+    "Accelerometer2RMS",
+    "Current",
+    "Pressure",
+    "Temperature",
+    "Thermocouple",
+    "Voltage",
+    "Volume Flow RateRMS"
+  ],
+  "salt": "file-transfer-r1|",
+  "grouping": "SHA256 ordering, rank modulo three",
+  "files": [
+    {
+      "source_file": "valve1/4.csv",
+      "rank": 0,
+      "group": 0,
+      "ordering_sha256": "02f72285cb21c201e715a58beaa703c07ef1a962aab8a331690df0a2efbef71d",
+      "base_train_rows": 1095,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1095
+    },
+    {
+      "source_file": "other/15.csv",
+      "rank": 1,
+      "group": 1,
+      "ordering_sha256": "0e111fa7617b38cdf057cdcf9f8d1cd7fe1c403e4ddcc98998dc4f9195cba31a",
+      "base_train_rows": 1147,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1147
+    },
+    {
+      "source_file": "other/11.csv",
+      "rank": 2,
+      "group": 2,
+      "ordering_sha256": "1d2ed1f27e7ed1beaba443e90791d9cc42c9d445514f2ea2c71802d2fc775c3d",
+      "base_train_rows": 665,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 665
+    },
+    {
+      "source_file": "other/13.csv",
+      "rank": 3,
+      "group": 0,
+      "ordering_sha256": "1f7ab2f69acb60eb809155207ccb191ad72a0e4310027339b4710af814e8d91b",
+      "base_train_rows": 968,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 968
+    },
+    {
+      "source_file": "other/20.csv",
+      "rank": 4,
+      "group": 1,
+      "ordering_sha256": "25d65588e971f2ff2e2e33e3c42a838f5ef2a215b0ebd86640be9880965f2675",
+      "base_train_rows": 1191,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1191
+    },
+    {
+      "source_file": "other/17.csv",
+      "rank": 5,
+      "group": 2,
+      "ordering_sha256": "2a37e1d49d4b1538648d9e72174042a22477027e1fc5650f06af21be22250a61",
+      "base_train_rows": 1147,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1147
+    },
+    {
+      "source_file": "valve1/5.csv",
+      "rank": 6,
+      "group": 0,
+      "ordering_sha256": "2e6f4ae0b5a3c57fa92d9ad26993f209991e48f9ca482d5c3b2af8f59d8c7c96",
+      "base_train_rows": 1154,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1154
+    },
+    {
+      "source_file": "other/22.csv",
+      "rank": 7,
+      "group": 1,
+      "ordering_sha256": "322499ed1777895c30f9920654aefa33801c6d9c55817088fcecf3160d07fc29",
+      "base_train_rows": 1079,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1079
+    },
+    {
+      "source_file": "valve1/0.csv",
+      "rank": 8,
+      "group": 2,
+      "ordering_sha256": "475a971ccee458dd63613b0d86f23e190703e97c1e57b5900c2903dbbe8f0821",
+      "base_train_rows": 1148,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1148
+    },
+    {
+      "source_file": "anomaly-free/anomaly-free.csv",
+      "rank": 9,
+      "group": 0,
+      "ordering_sha256": "478ba59b5fbfa4b697e0112918384cc1f155175333b2e159297fbcede11d538f",
+      "base_train_rows": 9401,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 9401
+    },
+    {
+      "source_file": "other/16.csv",
+      "rank": 10,
+      "group": 1,
+      "ordering_sha256": "48c0249ab230fae71254086b15d7fc12919a2d2ae8b4e96e341c88d0b59ca715",
+      "base_train_rows": 1091,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1091
+    },
+    {
+      "source_file": "valve1/6.csv",
+      "rank": 11,
+      "group": 2,
+      "ordering_sha256": "6c4db088c788197ac73bf5f6f3687105f6d1c24be0b4ac69ad83251a66016de3",
+      "base_train_rows": 1154,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1154
+    },
+    {
+      "source_file": "other/12.csv",
+      "rank": 12,
+      "group": 0,
+      "ordering_sha256": "6ca1dbc28316de07621721986225b8d695148be4b12a7514ebe9e1c89b9c19c3",
+      "base_train_rows": 1137,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1137
+    },
+    {
+      "source_file": "valve1/3.csv",
+      "rank": 13,
+      "group": 1,
+      "ordering_sha256": "70f0852eb74ffdff1da1b9c9e61208d2f851df7bc75808a4f9033cda9edc79e0",
+      "base_train_rows": 1149,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1149
+    },
+    {
+      "source_file": "other/9.csv",
+      "rank": 14,
+      "group": 2,
+      "ordering_sha256": "7b907cdceadd33255f704549e52d6367703d5f425626ccaa4bd444836714cf22",
+      "base_train_rows": 751,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 751
+    },
+    {
+      "source_file": "other/19.csv",
+      "rank": 15,
+      "group": 0,
+      "ordering_sha256": "988779a673b552d4845d058862a603a3110e3b47fafe7bafa2f9030383e1af9f",
+      "base_train_rows": 1326,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1326
+    },
+    {
+      "source_file": "other/23.csv",
+      "rank": 16,
+      "group": 1,
+      "ordering_sha256": "a134ded861ba02b63b7ddc55c08f8caaaa7ee24e3ad1881d0899c9fbfebd7c0b",
+      "base_train_rows": 1044,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1044
+    },
+    {
+      "source_file": "other/18.csv",
+      "rank": 17,
+      "group": 2,
+      "ordering_sha256": "c32f31654e356ff8b166e6541b6a1cd43cbbccb38d9150ea87280dbd4f2c43a6",
+      "base_train_rows": 1145,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1145
+    },
+    {
+      "source_file": "valve1/2.csv",
+      "rank": 18,
+      "group": 0,
+      "ordering_sha256": "cc2229dcaa5c291915317a0df597fc9dd0804874f4657fb409c14e14e7cd200f",
+      "base_train_rows": 1075,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1075
+    },
+    {
+      "source_file": "other/14.csv",
+      "rank": 19,
+      "group": 1,
+      "ordering_sha256": "d28b5d72d75cd8fa3d5f74c71b53a338f3b0369d1c0217a7036caf5ae6f44938",
+      "base_train_rows": 1153,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1153
+    },
+    {
+      "source_file": "valve1/7.csv",
+      "rank": 20,
+      "group": 2,
+      "ordering_sha256": "d89457fc7851ec78e9692dd84f71880392f2b57177ff8d58c4d4f5ec2ce00119",
+      "base_train_rows": 496,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 496
+    },
+    {
+      "source_file": "valve1/1.csv",
+      "rank": 21,
+      "group": 0,
+      "ordering_sha256": "e06de158d19703ad81a1b6ad812fae6c9321d626ec4e5d3f91efb41c60f0800d",
+      "base_train_rows": 1145,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1145
+    },
+    {
+      "source_file": "other/21.csv",
+      "rank": 22,
+      "group": 1,
+      "ordering_sha256": "ff9cf60843e0896e33a1f758fcbb8574b6862227006ca1f8e5497073cc34e2ad",
+      "base_train_rows": 1141,
+      "source_row_start_inclusive": 0,
+      "source_row_end_exclusive": 1141
+    }
+  ],
+  "tasks": [
+    {
+      "id": "F0",
+      "files": {
+        "A": [
+          "anomaly-free/anomaly-free.csv",
+          "other/12.csv",
+          "other/13.csv",
+          "other/19.csv",
+          "valve1/1.csv",
+          "valve1/2.csv",
+          "valve1/4.csv",
+          "valve1/5.csv"
+        ],
+        "B": [
+          "other/14.csv",
+          "other/15.csv",
+          "other/16.csv",
+          "other/20.csv",
+          "other/21.csv",
+          "other/22.csv",
+          "other/23.csv",
+          "valve1/3.csv"
+        ],
+        "C": [
+          "other/11.csv",
+          "other/17.csv",
+          "other/18.csv",
+          "other/9.csv",
+          "valve1/0.csv",
+          "valve1/6.csv",
+          "valve1/7.csv"
+        ]
+      },
+      "actions": [
+        {
+          "id": "DROP_00",
+          "removed_source_file": "anomaly-free/anomaly-free.csv"
+        },
+        {
+          "id": "DROP_01",
+          "removed_source_file": "other/12.csv"
+        },
+        {
+          "id": "DROP_02",
+          "removed_source_file": "other/13.csv"
+        },
+        {
+          "id": "DROP_03",
+          "removed_source_file": "other/19.csv"
+        },
+        {
+          "id": "DROP_04",
+          "removed_source_file": "valve1/1.csv"
+        },
+        {
+          "id": "DROP_05",
+          "removed_source_file": "valve1/2.csv"
+        },
+        {
+          "id": "DROP_06",
+          "removed_source_file": "valve1/4.csv"
+        },
+        {
+          "id": "DROP_07",
+          "removed_source_file": "valve1/5.csv"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "files": {
+        "A": [
+          "other/14.csv",
+          "other/15.csv",
+          "other/16.csv",
+          "other/20.csv",
+          "other/21.csv",
+          "other/22.csv",
+          "other/23.csv",
+          "valve1/3.csv"
+        ],
+        "B": [
+          "other/11.csv",
+          "other/17.csv",
+          "other/18.csv",
+          "other/9.csv",
+          "valve1/0.csv",
+          "valve1/6.csv",
+          "valve1/7.csv"
+        ],
+        "C": [
+          "anomaly-free/anomaly-free.csv",
+          "other/12.csv",
+          "other/13.csv",
+          "other/19.csv",
+          "valve1/1.csv",
+          "valve1/2.csv",
+          "valve1/4.csv",
+          "valve1/5.csv"
+        ]
+      },
+      "actions": [
+        {
+          "id": "DROP_00",
+          "removed_source_file": "other/14.csv"
+        },
+        {
+          "id": "DROP_01",
+          "removed_source_file": "other/15.csv"
+        },
+        {
+          "id": "DROP_02",
+          "removed_source_file": "other/16.csv"
+        },
+        {
+          "id": "DROP_03",
+          "removed_source_file": "other/20.csv"
+        },
+        {
+          "id": "DROP_04",
+          "removed_source_file": "other/21.csv"
+        },
+        {
+          "id": "DROP_05",
+          "removed_source_file": "other/22.csv"
+        },
+        {
+          "id": "DROP_06",
+          "removed_source_file": "other/23.csv"
+        },
+        {
+          "id": "DROP_07",
+          "removed_source_file": "valve1/3.csv"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "files": {
+        "A": [
+          "other/11.csv",
+          "other/17.csv",
+          "other/18.csv",
+          "other/9.csv",
+          "valve1/0.csv",
+          "valve1/6.csv",
+          "valve1/7.csv"
+        ],
+        "B": [
+          "anomaly-free/anomaly-free.csv",
+          "other/12.csv",
+          "other/13.csv",
+          "other/19.csv",
+          "valve1/1.csv",
+          "valve1/2.csv",
+          "valve1/4.csv",
+          "valve1/5.csv"
+        ],
+        "C": [
+          "other/14.csv",
+          "other/15.csv",
+          "other/16.csv",
+          "other/20.csv",
+          "other/21.csv",
+          "other/22.csv",
+          "other/23.csv",
+          "valve1/3.csv"
+        ]
+      },
+      "actions": [
+        {
+          "id": "DROP_00",
+          "removed_source_file": "other/11.csv"
+        },
+        {
+          "id": "DROP_01",
+          "removed_source_file": "other/17.csv"
+        },
+        {
+          "id": "DROP_02",
+          "removed_source_file": "other/18.csv"
+        },
+        {
+          "id": "DROP_03",
+          "removed_source_file": "other/9.csv"
+        },
+        {
+          "id": "DROP_04",
+          "removed_source_file": "valve1/0.csv"
+        },
+        {
+          "id": "DROP_05",
+          "removed_source_file": "valve1/6.csv"
+        },
+        {
+          "id": "DROP_06",
+          "removed_source_file": "valve1/7.csv"
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    2026102001,
+    2026102002,
+    2026102003
+  ],
+  "candidate_cells": 23,
+  "candidate_seed_cells": 69,
+  "complete_parents": 9,
+  "complete_children": 69,
+  "cumulative_before": 409,
+  "expected_cumulative_after": 487,
+  "sensor_tables_read": false,
+  "new_full_training_executed": false,
+  "scientific_scope": "known-source development; source-file-disjoint roles within base train"
+}

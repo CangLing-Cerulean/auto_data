@@ -1,0 +1,17 @@
+{
+  "stage": "file_transfer_r1",
+  "status": "source_frozen_pending_sync_and_runtime_preflight",
+  "cumulative_full_trainings": 409,
+  "new_full_trainings": 0,
+  "registered_full_parents": 9,
+  "registered_full_children": 69,
+  "registered_proxy_parents": 9,
+  "registered_proxy_children": 69,
+  "registered_short_children": 69,
+  "sensor_table_values_read_for_this_stage": false,
+  "test_access": false,
+  "base_validation_access": false,
+  "D_access": false,
+  "active_model_queue": [],
+  "next_action": "Verify exact source publication, deploy to the new registered directory, prepare and independently audit before parent calibration."
+}
