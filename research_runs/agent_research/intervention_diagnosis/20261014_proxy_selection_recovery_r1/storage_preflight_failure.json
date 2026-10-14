@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "recorded_utc": "2026-10-14T06:24:16.0933820Z",
+  "directory": "/root/fs/auto_data_research_20261014",
+  "probe": "storage_preflight_64MiB.bin",
+  "requested_probe_bytes": 67108864,
+  "failure": "OSError: [Errno 122] Disk quota exceeded during write",
+  "probe_completed": false,
+  "mounted_free_space_does_not_establish_user_quota": true,
+  "existing_assets_changed": false,
+  "new_directory_and_partial_probe_preserved": true,
+  "training_started": false,
+  "requires": "Persistent quota/capacity increase or user-approved cleanup scope"
+}

@@ -2,17 +2,17 @@
   "version": "current-research-index-v2",
   "updated_date": "2026-10-14",
   "session_id": "metropt3_session_20260926",
-  "phase": "proxy_selection_audit_storage_recovery",
+  "phase": "proxy_selection_complete_awaiting_persistent_storage",
   "active_research_scope": "intervention_response_diagnosis_and_feedback_decision_learning",
-  "active_study": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/RECOVERY_PROTOCOL.md",
+  "active_study": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
   "active_progress": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/progress.json",
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
-  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md",
-  "next_action": "All 36 labels complete (367 observed full runs). First audit failed writing C residuals because root filesystem is full; status JSON is stale. Preserve failures and original files; freeze independent audit-only retry on private tmpfs, then download and verify artifacts. No model reruns.",
-  "last_verified_snapshot_at": "2026-10-14T05:39:02.889686Z",
+  "latest_report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
+  "next_action": "Complete result publication; user must expand persistent disk/quota or approve a concrete cleanup scope. Root full, data only 608 MiB, user persistent mount failed with EDQUOT. Preserve all assets. Then freeze independent-source M1 confirmation; no experiment queue.",
+  "last_verified_snapshot_at": "2026-10-14T06:12:39.6233581Z",
   "snapshot_only": false,
-  "total_training_runs_completed": 331,
+  "total_training_runs_completed": 367,
   "historical_completed_trainings": 134,
   "historical_completed_run_ids": [
     "E000_baseline_s2026",
@@ -348,7 +348,7 @@
     "existing_active_study_changed": false
   },
   "latest_update_scope": "six_sealed_replay_trajectories_complete_zero_new_training",
-  "training_count_derivation": "268 audited through S initial + 18 S confirmation = 286; earlier saved failed delivery separate",
+  "training_count_derivation": "286 through S confirmation + 9 Hydraulic + 9 proxy engineering + 27 proxy development (supplementary verified, original failure preserved) + 36 selection development = 367; saved failed delivery separate",
   "prior_signal_v2_machine_snapshot": "research_runs/agent_research/fused_pilot/20261011_sol_high_r1/prior_signal_status.json",
   "prior_signal_v2_semantic_review": "pending",
   "current_pilot": {
@@ -579,7 +579,7 @@
     "new_signal_stable_correct": 4,
     "report": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md"
   },
-  "training_count_scope": "331 completed full runs; latest 27 separately verified by supplementary audit, but original stage remains numerically failed; last original full-stage accepted cumulative count 304",
+  "training_count_scope": "367 completed full logical runs, all with numerical evidence; prior 27 original-stage numerical failure remains despite supplementary verification. Current 36 selection labels passed independent audit recovery; interrupted logical run counted once.",
   "stage2_feedback_replay": {
     "status": "complete_stopped",
     "actor_calls": 20,
@@ -673,5 +673,27 @@
     "report": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/REPORT.md",
     "github_sync": "source_and_release_verified",
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/response-proxy-development-20261013-r1"
-  }
+  },
+  "proxy_selection": {
+    "status": "completed_audited_publication_pending",
+    "new_full_trainings": 36,
+    "cumulative_full_trainings": 367,
+    "proxy_rollouts": 36,
+    "short_trainings": 36,
+    "recovery_original_reused": 11,
+    "resumed_logical_trainings": 1,
+    "recovery_first_started": 24,
+    "prior_audit_failures": 1,
+    "error_gate": true,
+    "selection_gate": true,
+    "budget_gate": true,
+    "advance": true,
+    "independent_source_claim": false,
+    "D_access": false,
+    "test_access": false,
+    "model_queue": false,
+    "report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
+    "github_sync": "pending"
+  },
+  "storage_block": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/STORAGE_BLOCK.md"
 }

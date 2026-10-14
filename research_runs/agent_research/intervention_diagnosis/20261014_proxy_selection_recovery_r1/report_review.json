@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reviewer": "selection_report_check",
+  "scope": "Read-only report versus original protocol, final_audit, recovery_audit and download_verification; arithmetic and hash checks",
+  "count_identity": "11 reused + 1 continued + 24 first started = 36; 331+36 = 367",
+  "reported_values_verified": true,
+  "original_failures_preserved": true,
+  "D_access": false,
+  "test_access": false,
+  "clarification_applied": "60-second budget applies to per-group selection costs, not cold total including common real parent",
+  "full_audit_rerun": false
+}

@@ -16,15 +16,15 @@
 
 ## 当前阶段
 
-2026-10-13主线为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[数值定位及独立补验](research_runs/agent_research/intervention_diagnosis/20261013_proxy_numeric_diagnosis_r1/REPORT.md)支持M1响应预测MAE为0.407517个百分点，较固定父评分更低；但二者三个任务的推荐相同，选择增量为0。原开发阶段数值审计失败及推进false保持，补验没有追改原验收身份。
+2026-10-14主线为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[M1训练数据选择开发报告](research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md)：36个完整子训练经恢复及独立补审计完成；响应MAE为3.995584个百分点（RAW 9.812603），平均推荐改善18.336131%，比最强短训对照高0.777702个百分点。原精度、选择增量和预算门槛全部通过；当前证据仅来自已揭示Hydraulic开发源。
 
-累计完成**331次完整训练**；最新27次已另经补验，最近原规则整阶段验收累计304。历史外部API为2544次尝试、14389704个实际已知tokens；40条未知用量和347757个预约tokens分列，近期Sol high内部用量未知。没有重置历史成本。
+累计完成**367次完整训练**。此前27次的原阶段数值审计失败仍保留，独立补验记录单列；本轮原进程中断、首次存储审计失败及未知中断耗时也保留。历史外部API为2544次尝试、14389704个实际已知tokens；40条未知用量和347757个预约tokens分列，近期Sol high内部用量未知。没有重置历史成本。
 
-下一项同M1的[训练数据选择开发协议](research_runs/agent_research/intervention_diagnosis/20261013_proxy_selection_r1/PROTOCOL.md)已另冻并进入预测阶段；注册36完整子标签须在预测锁后执行，尚未纳入上述331次完成快照。实际状态以该阶段progress为准，不从预期数量推断完成。旧signal v2九槽位已结束（6个B0、3失败），语义验收仍单列待补；不重启旧ID。接续以[HANDOFF](research_runs/HANDOFF.md)、[state](research_runs/state.json)和最新阶段报告为准。
+下一步按原门槛设计单一M1独立来源确认，先完成数据身份、任务/动作、强基线及存储验收；当前没有新训练或测试队列。旧signal v2九槽位已结束（6个B0、3失败），语义验收仍单列待补；不重启旧ID。接续以[HANDOFF](research_runs/HANDOFF.md)、[state](research_runs/state.json)和最新阶段报告为准。
 
 ## 项目入口
 
-- [下一步](research_runs/NEXT_STEPS.md)：保持单一M1，另冻训练数据动作及强对照，不依已揭示D或旧测试设计方法。
+- [下一步](research_runs/NEXT_STEPS.md)：保持单一M1，设计独立来源确认及强对照，不依已揭示D或旧测试设计方法。
 - [研究概览](research_runs/OVERVIEW.md)：有效成果及尚未证明的结论。
 - [冻结经验库 v2](research_runs/agent_research/memory/v2/README.md)：144条可质疑的历史证据；其来源报告仍保留原路径和哈希。
 - `online_ts/`、`scripts/`、`tests/`：当前运行组件、有效成果的复现依赖及测试。

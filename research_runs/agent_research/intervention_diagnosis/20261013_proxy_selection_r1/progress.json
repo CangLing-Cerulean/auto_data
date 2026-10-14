@@ -1,5 +1,5 @@
 {
-  "status": "original_process_missing_recovery_preparing",
+  "status": "completed_via_separate_recovery",
   "forecast_pid": 45540,
   "source_commit": "9073aadbaae3526aca8b9907c3a4abf308dbbcf9",
   "plan_sha256": "e5a3046549c4307c4d550cd06af43456ffda662f91b01c5f4b9a9aa139e81f52",
@@ -17,5 +17,7 @@
   "prediction_commit": "36e82979a8c9768574ac05c515ab218622395239",
   "completed_full_labels_observed": 11,
   "suspended_process_group": 46716,
-  "recovery_stage": "20261014_proxy_selection_recovery_r1"
+  "recovery_stage": "20261014_proxy_selection_recovery_r1",
+  "recovery_report": "../20261014_proxy_selection_recovery_r1/REPORT.md",
+  "original_server_snapshot_preserved": true
 }

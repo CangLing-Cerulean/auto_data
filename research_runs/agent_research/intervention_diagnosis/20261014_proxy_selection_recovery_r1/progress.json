@@ -1,16 +1,21 @@
 {
-  "status": "first_audit_failed_storage_preparing_independent_retry",
+  "status": "completed_audited_publication_pending",
   "original_complete": 11,
   "partial_checkpoint_step": 500,
   "unstarted": 24,
-  "last_audited_cumulative_full": 331,
+  "last_audited_cumulative_full": 367,
   "observed_cumulative_completed_full": 367,
   "model_queue": false,
   "D_access": false,
   "test_access": false,
   "completed_logical_labels": 36,
-  "process_id": 643,
+  "process_id": null,
   "source_commit": "5e3209ce59edd27aed9d5914ac9370bdecef57dd",
-  "audit_pid": 1329,
-  "audit_failures": 1
+  "audit_pid": null,
+  "audit_failures": 1,
+  "final_audit": "final_audit.json",
+  "recovery_audit": "recovery_audit.json",
+  "advance": true,
+  "github_sync": "pending",
+  "next_stage_block": "persistent_storage_capacity_or_quota"
 }
