@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "preparation_sha256": "8c1f5874a0830f567abc49cb25a1404b6eb6fe497f5f67bfcee20d4b072a5a3f",
+  "original_update_AST_equal": true,
+  "diagnostics": [
+    {
+      "task": "F0",
+      "action": "PARENT",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F0",
+      "action": "PARENT",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F0",
+      "action": "DROP_00",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F0",
+      "action": "DROP_00",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F0",
+      "action": "DROP_07",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F0",
+      "action": "DROP_07",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "PARENT",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "PARENT",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "DROP_00",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "DROP_00",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "DROP_07",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F1",
+      "action": "DROP_07",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "PARENT",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "PARENT",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "DROP_00",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "DROP_00",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "DROP_06",
+      "engine": "full",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    },
+    {
+      "task": "F2",
+      "action": "DROP_06",
+      "engine": "proxy",
+      "seed": 2026102001,
+      "steps_each": 25,
+      "paired_model_Adam_RNG_exact": true
+    }
+  ],
+  "diagnostic_trajectories": 36,
+  "new_full_trainings": 0,
+  "all_rows_windows_probabilities_reconstructed": true,
+  "test_access": false,
+  "D_access": false,
+  "seconds": 9.340674428269267
+}

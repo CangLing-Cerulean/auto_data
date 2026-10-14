@@ -1,0 +1,279 @@
+{
+  "status": "PASS",
+  "plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "registration_sha256": "ef84b9c26e46238311053d757ad1942bad7642e9473f6ce7a78fa214648ff1ef",
+  "tasks": [
+    {
+      "task": "F0",
+      "rows": {
+        "A": 17301,
+        "B": 8995,
+        "C": 6506
+      },
+      "windows": {
+        "A": 16911,
+        "B": 8683,
+        "C": 6194
+      },
+      "source_window_counts": {
+        "A": {
+          "anomaly-free/anomaly-free.csv": 9362,
+          "other/12.csv": 1098,
+          "other/13.csv": 929,
+          "other/19.csv": 1287,
+          "valve1/1.csv": 1106,
+          "valve1/2.csv": 997,
+          "valve1/4.csv": 1017,
+          "valve1/5.csv": 1115
+        },
+        "B": {
+          "other/14.csv": 1114,
+          "other/15.csv": 1108,
+          "other/16.csv": 1052,
+          "other/20.csv": 1152,
+          "other/21.csv": 1102,
+          "other/22.csv": 1040,
+          "other/23.csv": 1005,
+          "valve1/3.csv": 1110
+        },
+        "C": {
+          "other/11.csv": 587,
+          "other/17.csv": 1108,
+          "other/18.csv": 1106,
+          "other/9.csv": 712,
+          "valve1/0.csv": 1109,
+          "valve1/6.csv": 1115,
+          "valve1/7.csv": 457
+        }
+      },
+      "forecast_elapsed": {
+        "A": {
+          "min_seconds": 8,
+          "max_seconds": 12
+        },
+        "B": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        },
+        "C": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        }
+      },
+      "fixed_parent_normalization": true,
+      "mean": [
+        0.1502356262701586,
+        0.19407264066816945,
+        2.094895943355883,
+        0.09017434876596686,
+        84.33974480087853,
+        27.012196185191666,
+        229.08464457522717,
+        95.13558222646063
+      ],
+      "scale": [
+        0.08486282929359933,
+        0.10118824691414928,
+        6.015245574702525,
+        0.25603485736881026,
+        7.597777065116468,
+        2.4124516997268057,
+        12.467667392148325,
+        40.80260939884615
+      ]
+    },
+    {
+      "task": "F1",
+      "rows": {
+        "A": 8995,
+        "B": 6506,
+        "C": 17301
+      },
+      "windows": {
+        "A": 8683,
+        "B": 6194,
+        "C": 16911
+      },
+      "source_window_counts": {
+        "A": {
+          "other/14.csv": 1114,
+          "other/15.csv": 1108,
+          "other/16.csv": 1052,
+          "other/20.csv": 1152,
+          "other/21.csv": 1102,
+          "other/22.csv": 1040,
+          "other/23.csv": 1005,
+          "valve1/3.csv": 1110
+        },
+        "B": {
+          "other/11.csv": 587,
+          "other/17.csv": 1108,
+          "other/18.csv": 1106,
+          "other/9.csv": 712,
+          "valve1/0.csv": 1109,
+          "valve1/6.csv": 1115,
+          "valve1/7.csv": 457
+        },
+        "C": {
+          "anomaly-free/anomaly-free.csv": 9362,
+          "other/12.csv": 1098,
+          "other/13.csv": 929,
+          "other/19.csv": 1287,
+          "valve1/1.csv": 1106,
+          "valve1/2.csv": 997,
+          "valve1/4.csv": 1017,
+          "valve1/5.csv": 1115
+        }
+      },
+      "forecast_elapsed": {
+        "A": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        },
+        "B": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        },
+        "C": {
+          "min_seconds": 8,
+          "max_seconds": 12
+        }
+      },
+      "fixed_parent_normalization": true,
+      "mean": [
+        0.2521464946081153,
+        0.29845839166203364,
+        2.4335859308504766,
+        0.10079212362423462,
+        84.79577647581986,
+        29.163231739855462,
+        228.25488316475685,
+        106.32241945881032
+      ],
+      "scale": [
+        0.1485231527985591,
+        0.16429332129538357,
+        6.673114723172872,
+        0.2586143097079361,
+        5.519915101716424,
+        1.6222667156650485,
+        12.774301541016682,
+        41.010253765850834
+      ]
+    },
+    {
+      "task": "F2",
+      "rows": {
+        "A": 6506,
+        "B": 17301,
+        "C": 8995
+      },
+      "windows": {
+        "A": 6194,
+        "B": 16911,
+        "C": 8683
+      },
+      "source_window_counts": {
+        "A": {
+          "other/11.csv": 587,
+          "other/17.csv": 1108,
+          "other/18.csv": 1106,
+          "other/9.csv": 712,
+          "valve1/0.csv": 1109,
+          "valve1/6.csv": 1115,
+          "valve1/7.csv": 457
+        },
+        "B": {
+          "anomaly-free/anomaly-free.csv": 9362,
+          "other/12.csv": 1098,
+          "other/13.csv": 929,
+          "other/19.csv": 1287,
+          "valve1/1.csv": 1106,
+          "valve1/2.csv": 997,
+          "valve1/4.csv": 1017,
+          "valve1/5.csv": 1115
+        },
+        "C": {
+          "other/14.csv": 1114,
+          "other/15.csv": 1108,
+          "other/16.csv": 1052,
+          "other/20.csv": 1152,
+          "other/21.csv": 1102,
+          "other/22.csv": 1040,
+          "other/23.csv": 1005,
+          "valve1/3.csv": 1110
+        }
+      },
+      "forecast_elapsed": {
+        "A": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        },
+        "B": {
+          "min_seconds": 8,
+          "max_seconds": 12
+        },
+        "C": {
+          "min_seconds": 8,
+          "max_seconds": 9
+        }
+      },
+      "fixed_parent_normalization": true,
+      "mean": [
+        0.12864920190593299,
+        0.16213168841069775,
+        1.829015760682449,
+        0.08263469335997307,
+        82.05297085767006,
+        26.23248636643111,
+        229.45178610667057,
+        74.99986773747345
+      ],
+      "scale": [
+        0.1431652255326255,
+        0.15747566956222855,
+        6.993738422841497,
+        0.2609196929628173,
+        8.385529063873795,
+        2.9008318518766436,
+        13.356442172383046,
+        42.032626906113194
+      ]
+    }
+  ],
+  "assets_sha256": {
+    "prepared/F0_ABC.npz": "cedcbdb2fc3f3d99e0c4e9b4dc8ef941fdacb43ed5b74b38391e9637b4456fae",
+    "prepared/F0_DROP_00.npz": "9b951a60e25510f44ba95f4d2d3f4b04b71c3fe1f4230b8209a595d3c00a2da1",
+    "prepared/F0_DROP_01.npz": "ee52db0fc88bed37c3351f4ec5fa29532ec7d042d5ddb3d2610ed22d17e95e0f",
+    "prepared/F0_DROP_02.npz": "7379cfb58c68a3f6cea924f8e1e31b61780e3898af86db18b47b7beada40a79d",
+    "prepared/F0_DROP_03.npz": "6e5918d884074d67f79a100d5b8c398517073964d5cc358c041bb2e1dbbd5796",
+    "prepared/F0_DROP_04.npz": "0b33b3c943cb09793ded6b7abb287004a0546635ed721ded5e836535346d5b8a",
+    "prepared/F0_DROP_05.npz": "54637a951bf4b64c5cc739a31452d55489946917fce688b87c12c1dcd095a5fe",
+    "prepared/F0_DROP_06.npz": "8ecbd50812b7c66576d1116dd37261a22432efa017b6173dbb82e26632289313",
+    "prepared/F0_DROP_07.npz": "861b57d4281324ad65739ae97784763f9de94a5a5d86af3355a1d9b7c7b127f0",
+    "prepared/F0_PARENT.npz": "aa40a7fc1a6eb93d4caf285f5cdfa5a1e2f3afb98a87f5856e68f0946498b014",
+    "prepared/F1_ABC.npz": "a715647142d5eeb2dc910d1812a85b6fcd0ad1254a23e461e293349ac7e06f3b",
+    "prepared/F1_DROP_00.npz": "629f0e4824d7dd0f13825801d1e84c9b10c86c949bac35b741eca3551eb060ad",
+    "prepared/F1_DROP_01.npz": "4b1c3b14036a036128e4552a7499fc4ced409b8875366ee901ae88baf46e5dfb",
+    "prepared/F1_DROP_02.npz": "a8a18ad5d04938f2e49dbdf1722432529fcb2f1701b909fb5dc7954db0fc1817",
+    "prepared/F1_DROP_03.npz": "abb122342258ec3b3d0d0eca1f659d636d3b6bbff9df36742831c33b3870d348",
+    "prepared/F1_DROP_04.npz": "9fc0a72a9ff5ba778da8d138ebfbf4d2ac1a74c8b6c3b101bc75f6d364a5df8a",
+    "prepared/F1_DROP_05.npz": "c1409d88e4d9508bfa7abd1cce6edc3dd3546582a956dbc6a24b456c44cb3308",
+    "prepared/F1_DROP_06.npz": "9f1ade68c34433e80cf2b7f6ee1412783adb7fdce9662acee9f5eba14ade6d1a",
+    "prepared/F1_DROP_07.npz": "83eeec63583555f9a714d550b289cf5d20cfe84771ee5fd5ba56fd4a35e21abc",
+    "prepared/F1_PARENT.npz": "b6d89f73bdef4dd98466ba10ca96d2fd8961f7bf463286750aa66c314152fba1",
+    "prepared/F2_ABC.npz": "ddd5066b2c13ab13110c2b0650fa1577a4d9170a5a3aa24432720ca2d170feb2",
+    "prepared/F2_DROP_00.npz": "c4f7d0f1ea71bc7872a8b8c09354405f77ab97a66db78d81f5ee75a1eb068019",
+    "prepared/F2_DROP_01.npz": "48f4ab1df0bf1f1db9cf0f0b7dd9fb5d8473116768d227665ae3d5501e217cdd",
+    "prepared/F2_DROP_02.npz": "3c97278bc82952e34f29062766f1423402f1b37d2151fab7ca0cae3139095e40",
+    "prepared/F2_DROP_03.npz": "68880ad979807cbe65b66f9678b9ecd953557a5a18c429ac07ae26b9b8e37e00",
+    "prepared/F2_DROP_04.npz": "a261c0be21850d3b578e3ff12d7b4880c09c812cbc1dc1e727bd548eea728709",
+    "prepared/F2_DROP_05.npz": "3147774772bfe7585b6096514fca92609d8816b813c8dd073bae871784762fdd",
+    "prepared/F2_DROP_06.npz": "4b76c4804b8846df6199ee640c44b69948f448846b760a6baf7302e3746e3db1",
+    "prepared/F2_PARENT.npz": "61142c64eac04ab9d250879cb3fe4c78faf48a268b13ff3d611f4f27954f222d"
+  },
+  "seconds": 0.6793586956337094,
+  "new_full_trainings": 0,
+  "test_access": false,
+  "D_access": false
+}
