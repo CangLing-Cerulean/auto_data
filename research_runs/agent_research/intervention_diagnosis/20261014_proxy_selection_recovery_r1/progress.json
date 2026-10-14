@@ -1,11 +1,16 @@
 {
-  "status": "recovery_preflight_passed_pending_review_and_freeze",
+  "status": "first_audit_failed_storage_preparing_independent_retry",
   "original_complete": 11,
   "partial_checkpoint_step": 500,
   "unstarted": 24,
   "last_audited_cumulative_full": 331,
-  "observed_cumulative_completed_full": 342,
+  "observed_cumulative_completed_full": 367,
   "model_queue": false,
   "D_access": false,
-  "test_access": false
+  "test_access": false,
+  "completed_logical_labels": 36,
+  "process_id": 643,
+  "source_commit": "5e3209ce59edd27aed9d5914ac9370bdecef57dd",
+  "audit_pid": 1329,
+  "audit_failures": 1
 }

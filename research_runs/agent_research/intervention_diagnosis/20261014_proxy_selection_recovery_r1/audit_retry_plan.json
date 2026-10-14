@@ -1,0 +1,23 @@
+{
+  "stage": "proxy_selection_audit_retry_r2",
+  "original_root": "/tmp/auto_data_proxy_selection_20261013_r1",
+  "recovery_root": "/tmp/auto_data_proxy_selection_recovery_20261014_r1",
+  "audit_retry_root": "/dev/shm/auto_data_proxy_selection_audit_20261014_r2",
+  "original_recovery_commit": "5e3209ce59edd27aed9d5914ac9370bdecef57dd",
+  "code_sha256": {
+    "retry_proxy_selection_audit.py": "ef3bfb3eb8c1ad4017fb99fedcba4b0fd21f125d4f7d60cbb1993c8cfec4e823",
+    "AUDIT_RETRY_PROTOCOL.md": "625d4b4239f45746c8d1fd93b6e51963a341551101b08cb1488ff7cca9eafa16"
+  },
+  "failure_logs_sha256": {
+    "original_auditor.log": "1d61ea76a46035a0ca93e3d0dc522115d26790772cc8fdb29236b3a21871dc39",
+    "audit_control/run.log": "efa44677602bd6e24889065b513d1f35dbf4277b4f6e8ffd281e398f784e8378"
+  },
+  "failure_type": "storage_exhausted_during_independent_audit",
+  "original_auditor_unchanged": true,
+  "new_training_steps": 0,
+  "expected_cumulative_full": 367,
+  "minimum_free_bytes": 2147483648,
+  "delete_originals": false,
+  "D_access": false,
+  "test_access": false
+}

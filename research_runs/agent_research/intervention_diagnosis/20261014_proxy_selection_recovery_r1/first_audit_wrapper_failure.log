@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/recover_proxy_selection.py", line 344, in audit
+    subprocess.run([sys.executable, '-B', str(aggregate / 'audit_response_proxy_selection.py'),
+  File "/opt/miniconda3/lib/python3.12/subprocess.py", line 573, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/miniconda3/bin/python', '-B', '/tmp/auto_data_proxy_selection_recovery_20261014_r1/aggregate/audit_response_proxy_selection.py', '--output', '/tmp/auto_data_proxy_selection_recovery_20261014_r1/aggregate']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/recover_proxy_selection.py", line 392, in <module>
+    globals()[args.mode](Path(args.original), Path(args.output))
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/recover_proxy_selection.py", line 364, in audit
+    write(out / 'audit_status.json', dict(status='failed', error=traceback.format_exc()), replace=True)
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/recover_proxy_selection.py", line 36, in write
+    tmp.write_text(text, encoding='utf-8')
+  File "/opt/miniconda3/lib/python3.12/pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/tmp/auto_data_proxy_selection_recovery_20261014_r1/audit_status.tmp'

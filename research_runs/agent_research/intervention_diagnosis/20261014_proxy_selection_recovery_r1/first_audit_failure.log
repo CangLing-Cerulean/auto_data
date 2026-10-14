@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/aggregate/audit_response_proxy_selection.py", line 410, in <module>
+    audit(Path(parser.parse_args().output))
+  File "/tmp/auto_data_proxy_selection_recovery_20261014_r1/aggregate/audit_response_proxy_selection.py", line 250, in audit
+    with (destination / f'{tid}_{action}_{seed}_true_{step}_C.npz').open('xb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/tmp/auto_data_proxy_selection_recovery_20261014_r1/aggregate/audit/G2_FAVOR_SECOND_2026101703_true_1000_C.npz'
