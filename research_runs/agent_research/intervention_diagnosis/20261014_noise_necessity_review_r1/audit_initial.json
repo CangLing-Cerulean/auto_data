@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "source_records": 36,
+  "joint_pool_cells": 24,
+  "task_decisions": 3,
+  "source_hashes_unchanged": true,
+  "decision_value_sha256": "08823fa40285d5c6858054d8a91b0412c08a491f44c40524ddb4f209894e31b6",
+  "counterexample": {
+    "type": "algebraic_counterexample",
+    "batch_size": 256,
+    "adam_epsilon": "1E-8",
+    "bias_correction": true,
+    "initial_optimizer_state": "zero; weight_decay=0",
+    "formula": "first update = -learning_rate * gbar / (abs(gbar)+epsilon)",
+    "distributions": [
+      {
+        "distribution": "symmetric",
+        "positive_probability": "0.5",
+        "low": "-1",
+        "high": "1",
+        "per_example_mean": "0.0",
+        "per_example_variance": "1.0",
+        "batch_mean_variance": "0.00390625",
+        "expected_first_adam_normalized_gradient": "-1.10277905187952345241429429319522128558592635543809050083169E-60"
+      },
+      {
+        "distribution": "asymmetric",
+        "positive_probability": "0.2",
+        "low": "-0.5",
+        "high": "2",
+        "per_example_mean": "0.00",
+        "per_example_variance": "1.000",
+        "batch_mean_variance": "0.00390625",
+        "expected_first_adam_normalized_gradient": "-0.0498209727937608287310884861897927875198334448824029428524295"
+      }
+    ],
+    "scope": "Same first two gradient moments need not imply same expected Adam update; no claim that these distributions occur in the research datasets"
+  },
+  "audit_seconds": 0.013721500057727098,
+  "new_full_trainings": 0,
+  "new_optimizer_updates": 0,
+  "D_access": false,
+  "test_access": false
+}

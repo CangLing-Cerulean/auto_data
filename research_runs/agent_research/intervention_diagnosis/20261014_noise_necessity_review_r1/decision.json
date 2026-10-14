@@ -1,0 +1,30 @@
+{
+  "decision": "do_not_expand_noise_proxy_on_current_disclosed_pool",
+  "retrospective": true,
+  "evidence": ["decision_value.json", "audit.json", "REPORT.md", "references.json"],
+  "basis": {
+    "separate_S_W_M1_regrets": "all zero",
+    "joint_pool_S_priority_mean_regret_pp": 0.3729747110738657,
+    "joint_pool_W_priority_mean_regret_pp": 0.02100048619554092,
+    "joint_pool_W_priority_max_task_regret_pp": 0.06300145858662276,
+    "moment_sufficiency": "No general exactness for Adam from first two gradient moments",
+    "novelty": "Noise-aware Adam dynamics, data-space noise generation and sampling cost gates have prior work"
+  },
+  "scope": "Per-task common action, three-seed mean response, current complete Hydraulic S/W menu; no future guarantee or seed-adaptive oracle",
+  "new_method": null,
+  "adopted_deployment_policy": null,
+  "new_experiment_protocol_frozen": false,
+  "next_action": "Audit admissible tasks and nonduplicative intervention choices using authorized evidence, then select one independently registered decision study if justified",
+  "preserved_boundaries": [
+    "Fixed prediction backbone and representation",
+    "Original failures and frozen artifacts unchanged",
+    "Existing MetroPT3/SKAB batch remains closed",
+    "Appliances paused",
+    "No failed-threshold or strength sweep",
+    "No D or base validation/test feedback",
+    "No fs or fs_public access"
+  ],
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 409,
+  "pending_model_queue": []
+}

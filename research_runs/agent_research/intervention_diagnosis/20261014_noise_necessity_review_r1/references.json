@@ -1,0 +1,31 @@
+[
+  {
+    "title": "On the SDEs and Scaling Rules for Adaptive Gradient Algorithms",
+    "version": "NeurIPS 2022 official paper",
+    "url": "https://papers.nips.cc/paper_files/paper/2022/file/32ac710102f0620d0f28d5d05a44fe08-Paper-Conference.pdf",
+    "inspected": "Sections 2.3-2.4, Definition 4.4, Theorem 4.5, Section 6",
+    "code_execution": false
+  },
+  {
+    "title": "Adaptive Methods through the Lens of SDEs: Theoretical Insights on the Role of Noise",
+    "version": "arXiv v2, 2025-03-10; ICLR 2025 identity separately checked",
+    "url": "https://arxiv.org/html/2411.15958v2",
+    "official_identity": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/ee2e09b7a7b520bb348c0f1d5de0069d-Abstract-Conference.html",
+    "inspected": "Section 3.2, Appendix C.3/C.8, Remark C.46, Equations 169-176",
+    "code_execution": false
+  },
+  {
+    "title": "On the Noisy Gradient Descent that Generalizes as SGD",
+    "version": "ICML 2020 official paper",
+    "url": "https://proceedings.mlr.press/v119/wu20c/wu20c.pdf",
+    "inspected": "Section 3, Theorem 1, Algorithm 1, Sections 4.1-4.3",
+    "code_execution": false
+  },
+  {
+    "title": "Not All Samples Are Created Equal: Deep Learning with Importance Sampling",
+    "version": "ICML 2018 official paper",
+    "url": "https://proceedings.mlr.press/v80/katharopoulos18a/katharopoulos18a.pdf",
+    "inspected": "Sections 3.1/3.3, Equations 21-26, Algorithm 1, Section 4.2",
+    "code_execution": false
+  }
+]
