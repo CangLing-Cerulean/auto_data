@@ -2,14 +2,20 @@
 import hashlib
 import json
 import os
+import argparse
 from pathlib import Path
 import shutil
 import time
 
 
 def main():
-    root = Path('/root/fs/auto_data_research_20261014')
-    if root.parent.resolve() != Path('/root/fs') or root.exists():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    root = args.output
+    allowed_parent = Path('/root/data/auto_data_research')
+    if (not root.is_absolute() or allowed_parent.resolve() != allowed_parent
+            or root.parent.resolve() != allowed_parent or root.exists() or root.is_symlink()):
         raise RuntimeError('Unexpected or existing destination; preserve it')
     start = time.perf_counter()
     root.mkdir(mode=0o700)

@@ -9,7 +9,7 @@
   "dataset": "data/metropt3_v1/manifest.json",
   "protocol": "research_runs/protocol.json",
   "latest_report": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
-  "next_action": "User requested a verified cleanup list and confirmation before deletion. Candidates A+B+C total 2690906019 bytes; five archive copies and 13 backed-up phase0 evaluation files, all identities verified locally and online. Await explicit approval; preserve all original training/model/data directories. Then preflight space and design independent-source M1 confirmation.",
+  "next_action": "Respect fs/fs_public exclusion. Own failed fs probe and empty notebook checkpoint removed. Await explicit A/B/C cleanup approval; candidates free root filesystem only, not data volume. Then verify capacity at the actual data or new dedicated project directory before independent-source M1 work.",
   "last_verified_snapshot_at": "2026-10-14T06:35:02.3799013Z",
   "snapshot_only": false,
   "total_training_runs_completed": 367,
@@ -697,5 +697,18 @@
     "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/proxy-selection-recovered-20261014-r1"
   },
   "storage_block": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/STORAGE_BLOCK.md",
-  "cleanup_review": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md"
+  "cleanup_review": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md",
+  "storage_policy": {
+    "user_instruction_date": "2026-10-14",
+    "forbidden_paths": [
+      "/root/fs",
+      "/root/fs_public"
+    ],
+    "no_read_scan_write_or_symlink_indirection": true,
+    "preferred_project_root": "/root/data/auto_data_research",
+    "alternative": "new dedicated project directory outside forbidden paths after capacity verification",
+    "previous_fs_probe_removed": true,
+    "removal_receipt": "research_runs/agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/fs_probe_removal_receipt.json",
+    "ABC_cleanup_authorized": false
+  }
 }

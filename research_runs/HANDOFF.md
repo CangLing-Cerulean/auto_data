@@ -1,5 +1,7 @@
 # 研究接续：2026-10-14
 
+最新存储约束：用户禁止碰`fs`、`fs_public`，后续只使用data或独立新建项目目录。失败fs探针及系统生成的空检查点已精确撤销，未触及其他资产。默认`/root/data/auto_data_research/`，预检脚本改为仅允许该目录下的新子目录；存储约束见[清理清单补充](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md)。A/B/C仍等待确认；其释放的是根盘空间，不会扩大data挂载卷配额。
+
 当前操作边界：本轮结果与Release已核验同步；根盘满且用户持久盘配额耗尽。用户选择“先列出已备份目录，待我确认后清理”。[待确认清单](agent_research/intervention_diagnosis/20261014_storage_cleanup_review_r1/PLAN.md) A+B+C共2.5061 GiB，5个归档副本与13个阶段0评估文件已核对服务器、本地和GitHub身份。当前删除0，等待明确批准；不得把提出清单当清理授权。批准后逐文件复核再执行，验收空间后继续独立来源M1设计。
 
 最新：[训练数据选择恢复报告](agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md)。36完整标签、36代理、36短训已完成，648状态/1188残差/36矩审计通过，累计367。M1 MAE3.995584pp、平均推荐改善18.336131%，较SHORT多0.777702pp，精度/选择/预算全部通过。原监督中断与第一次满盘审计失败保留；原目录不改，未知中断耗时保持null。优先核对阶段下载核验、Release及sync_receipt；接着设计单一M1独立来源确认及持久存储预检。没有新源或测试队列，不将Hydraulic同源三任务称为独立泛化。下文为历史快照。

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "action": "undo_only_our_failed_fs_probe",
+  "removed_zero_byte_files": [
+    "/root/fs/auto_data_research_20261014/storage_preflight_64MiB.bin",
+    "/root/fs/auto_data_research_20261014/.ipynb_checkpoints/storage_preflight_64MiB-checkpoint.bin"
+  ],
+  "removed_empty_directories": [
+    "/root/fs/auto_data_research_20261014/.ipynb_checkpoints",
+    "/root/fs/auto_data_research_20261014"
+  ],
+  "fs_public_access": false,
+  "other_fs_assets_changed": false,
+  "experiment_assets_changed": false,
+  "ABC_cleanup_executed": false,
+  "future_research_root": "/root/data/auto_data_research"
+}
