@@ -1,0 +1,168 @@
+{
+  "stage": "n1_fixed_finite_differences",
+  "runs": [
+    {
+      "id": "N1FD_G1_d0_h64_MINUS_s2026101701",
+      "direction": 0,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d0_h64_PLUS_s2026101701",
+      "direction": 0,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d0_h128_MINUS_s2026101701",
+      "direction": 0,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d0_h128_PLUS_s2026101701",
+      "direction": 0,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d1_h64_MINUS_s2026101701",
+      "direction": 1,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d1_h64_PLUS_s2026101701",
+      "direction": 1,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d1_h128_MINUS_s2026101701",
+      "direction": 1,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d1_h128_PLUS_s2026101701",
+      "direction": 1,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d2_h64_MINUS_s2026101701",
+      "direction": 2,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d2_h64_PLUS_s2026101701",
+      "direction": 2,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d2_h128_MINUS_s2026101701",
+      "direction": 2,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d2_h128_PLUS_s2026101701",
+      "direction": 2,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d3_h64_MINUS_s2026101701",
+      "direction": 3,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d3_h64_PLUS_s2026101701",
+      "direction": 3,
+      "denominator": 64,
+      "h": 0.015625,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d3_h128_MINUS_s2026101701",
+      "direction": 3,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": -1,
+      "task": "G1",
+      "seed": 2026101701
+    },
+    {
+      "id": "N1FD_G1_d3_h128_PLUS_s2026101701",
+      "direction": 3,
+      "denominator": 128,
+      "h": 0.0078125,
+      "sign": 1,
+      "task": "G1",
+      "seed": 2026101701
+    }
+  ],
+  "base_plan_sha256": "c471e6f31b8512d1a14f5e4d3d9fac6a20573bb253e2e4bc816c10c047973c5a",
+  "paths_audit_sha256": "eec60dcc0d2c5e7ca9610d4b95afb174f184c5fc1e7cdc0f1c33bb8fdf860baf",
+  "paths_sync_receipt_sha256": "d70d29d605ffa0d5f51e1fc78befeefb05b54cc8c1b8784e4ca611b05e4c3fb7",
+  "code_sha256": {
+    "n1_finite_difference.py": "c259eb8be01a07176d0468c9494658b08636b6b9d0e66af6c30801fe7ac74b4b",
+    "check_n1_fd_accounting.py": "23e35a35381e7216f2065131402ac25cedd290b289759bf59937ba105b24bc96",
+    "register_n1_fd.py": "31459b677d859f6edf90194f6261dbb2692b4fee981610d9072c7c00d558ac2b",
+    "deploy_n1_fd.py": "c6a8bf07359f6b3af929f7a4add42d8ac34c54dfbeaa14658b527a85471111ca"
+  },
+  "accounting_checks_sha256": "a66d93a1603f6e19b0ad6f70a09bcaadc961d26a743eb71028d5cdc3414058fc",
+  "cumulative_before": 418,
+  "maximum_new_full_trainings": 16,
+  "normalized_tolerance": 0.02,
+  "low_signal_parent_factor": 1e-06,
+  "scientific_candidates_enabled": false,
+  "scientific_use_of_FD_labels": false,
+  "maximum_full_steps_per_run": 3000,
+  "old_M1_labels_enabled": false,
+  "N2_scientific_execution_enabled": false
+}

@@ -1,7 +1,7 @@
 {
   "stage": "n1_path_engineering_r1",
   "date": "2026-10-15",
-  "status": "nine_paths_audited_pass_pending_delivery_sync_before_FD",
+  "status": "paths_delivery_verified_fixed_FD_source_ready_pending_publication",
   "gpu_kernel_checks": "gpu_kernel_checks.json",
   "gpu_kernel_tests_passed": 5,
   "new_full_trainings": 0,
@@ -23,5 +23,8 @@
   "path_tangent_arrays_verified": 297,
   "path_residual_response_sets_verified": 108,
   "path_cost_lower_bounds_pass": true,
-  "next": "Publish accepted paths and verify the complete archive/Release; only then register and deploy the predeclared16 finite differences. N2 scientific proposals and old M1 labels stay disabled"
+  "paths_sync_receipt": "paths_sync_receipt.json",
+  "paths_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/n1-paths-20261015",
+  "finite_difference_plan": "fd_plan.json",
+  "next": "Publish the fixed16 FD source/plan; create-only deploy after exact commit verification, execute all16 diagnostics and independent full replay. N2 scientific proposals and old M1 labels stay disabled"
 }
