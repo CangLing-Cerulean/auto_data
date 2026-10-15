@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "eligible_to_forecast": true,
+  "budget_status": "completed",
+  "states_verified": 126,
+  "residuals_verified": 216,
+  "moments_verified": 18,
+  "tasks": {
+    "G1": {
+      "proxy_max_seconds": 7.592328364029527,
+      "identity_max_seconds": 0.17471035476773977,
+      "candidate_seconds": 8.716079764300957,
+      "required_prefix_seconds": 10.895099705376197,
+      "prefix_min_seconds": {
+        "500": 5.976189150474966,
+        "1000": 11.957490851171315,
+        "1500": 17.929584788158536,
+        "2000": 23.902928233146667,
+        "2500": 29.86753041110933
+      },
+      "short_steps": 1000,
+      "eligible": true
+    },
+    "G2": {
+      "proxy_max_seconds": 7.6458702608942986,
+      "identity_max_seconds": 0.18308386113494635,
+      "candidate_seconds": 8.784687904641032,
+      "required_prefix_seconds": 10.98085988080129,
+      "prefix_min_seconds": {
+        "500": 5.9732323456555605,
+        "1000": 11.957557846792042,
+        "1500": 17.571127027273178,
+        "2000": 22.844086981378496,
+        "2500": 28.826667345128953
+      },
+      "short_steps": 1000,
+      "eligible": true
+    },
+    "G3": {
+      "proxy_max_seconds": 7.557088109664619,
+      "identity_max_seconds": 0.17453929036855698,
+      "candidate_seconds": 8.676263413741253,
+      "required_prefix_seconds": 10.845329267176567,
+      "prefix_min_seconds": {
+        "500": 5.971232123672962,
+        "1000": 11.945909194648266,
+        "1500": 17.91973741259426,
+        "2000": 23.88779485039413,
+        "2500": 29.85167173203081
+      },
+      "short_steps": 1000,
+      "eligible": true
+    }
+  },
+  "calibration_sha256": "fc41bd8539468c80527e091f23b1a4afca80ac0996a30cd282a267bbc0fb5227",
+  "mode": "calibration",
+  "plan_sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "train_sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae",
+  "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "preparation_sha256": "3037f6fe1bf0c1893b7d7b3449a206bd0831f88e67b7a9f5cfcedd6f9d92847c",
+  "auditor_sha256": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+  "D_access": false,
+  "test_access": false,
+  "old_D_sensor_tokens_parsed": false,
+  "new_scientific_trainings": 0,
+  "audit_seconds": 5.917931294068694
+}

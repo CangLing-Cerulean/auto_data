@@ -1,10 +1,10 @@
 {
   "stage": "fourgroup_m1_r1",
   "date": "2026-10-15",
-  "status": "preflight_passed_parent_calibration_running",
+  "status": "parent_calibration_audited_pending_publication",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 418,
-  "parent_replays_completed": 0,
+  "parent_replays_completed": 18,
   "candidate_forecasts_started": false,
   "full_children_started": false,
   "scientific_gates": null,
@@ -14,6 +14,10 @@
   "input_files_verified": 222,
   "preflight_reconstructed_arrays": 45,
   "preflight_states_verified": 126,
-  "server_calibration_supervisor_pid": 20389,
-  "next": "Complete 18 existing-parent replays, independently audit and publish the cost calibration before any candidate forecast"
+  "calibration_states_verified": 126,
+  "calibration_residuals_verified": 216,
+  "calibration_moments_verified": 18,
+  "short_steps": {"G1": 1000, "G2": 1000, "G3": 1000},
+  "eligible_to_forecast": true,
+  "next": "Publish and bind audited calibration before all 72 proxy and 72 SHORT forecasts"
 }
