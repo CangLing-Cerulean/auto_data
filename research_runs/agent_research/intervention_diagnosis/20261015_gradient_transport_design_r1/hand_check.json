@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "independent_reference": "Python fractions exact rational arithmetic",
+  "true_gradient": "1/2",
+  "transport_gradient": "5/4",
+  "nonzero_defect": "3/4",
+  "locked_sources_unchanged": true,
+  "numpy_version": "2.4.2",
+  "random_fixture_rows_verified_present": 45,
+  "summaries": [
+    {
+      "fixture": "full_batch",
+      "nonidentity_cases": 12,
+      "transport_mean_final_error_l2": 7.062872464237316e-17,
+      "M1_form_mean_final_error_l2": 8.074903978490205e-17,
+      "transport_lower_error_cases": null,
+      "scope": "constructed parameter-space examples, not forecasting or decision performance"
+    },
+    {
+      "fixture": "fixed_feature_curvature",
+      "nonidentity_cases": 12,
+      "transport_mean_final_error_l2": 0.0005355616013267575,
+      "M1_form_mean_final_error_l2": 0.01635535458168511,
+      "transport_lower_error_cases": 12,
+      "scope": "constructed parameter-space examples, not forecasting or decision performance"
+    },
+    {
+      "fixture": "heterogeneous_minibatch",
+      "nonidentity_cases": 12,
+      "transport_mean_final_error_l2": 0.0030243511585545096,
+      "M1_form_mean_final_error_l2": 0.07937682592406083,
+      "transport_lower_error_cases": 12,
+      "scope": "constructed parameter-space examples, not forecasting or decision performance"
+    }
+  ],
+  "cannot_infer_general_accuracy_or_decision_gain": true,
+  "new_full_trainings": 0,
+  "real_data_access": false
+}

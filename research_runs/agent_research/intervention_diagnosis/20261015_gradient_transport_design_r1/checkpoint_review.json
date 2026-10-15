@@ -1,0 +1,29 @@
+{
+  "scope": "read_only_known_summary_no_new_labels",
+  "source_path": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/final_audit.json",
+  "source_sha256": "2fd17fcb6b5582450d2658328ba8071e11f8565c6aa9e257a37d73a3b4cc3195",
+  "M1_checkpoint_hits": 14,
+  "M1_checkpoint_total": 36,
+  "M1_decisions": [
+    {
+      "task": "G1",
+      "action": "FAVOR_FIRST",
+      "gain": 2.333106636090094,
+      "regret": 0.0
+    },
+    {
+      "task": "G2",
+      "action": "KEEP_SECOND",
+      "gain": 52.67528723193613,
+      "regret": 0.0
+    },
+    {
+      "task": "G3",
+      "action": "PARENT",
+      "gain": 0.0,
+      "regret": 0.0
+    }
+  ],
+  "checkpoint_error_alone_establishes_decision_gap": false,
+  "new_full_trainings": 0
+}
