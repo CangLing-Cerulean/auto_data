@@ -1,0 +1,16 @@
+test_all_four_columns_and_actual_ess (check_response_weight_proposal.AlgebraChecks.test_all_four_columns_and_actual_ess) ... ok
+test_basis (check_response_weight_proposal.AlgebraChecks.test_basis) ... ok
+test_branch_curvature_is_sufficient (check_response_weight_proposal.AlgebraChecks.test_branch_curvature_is_sufficient) ... ok
+test_different_nmse_nmae_scales (check_response_weight_proposal.AlgebraChecks.test_different_nmse_nmae_scales) ... ok
+test_ess_rejects_radius_valid_extreme (check_response_weight_proposal.AlgebraChecks.test_ess_rejects_radius_valid_extreme) ... ok
+test_missing_checkpoint_retains_failure (check_response_weight_proposal.AlgebraChecks.test_missing_checkpoint_retains_failure) ... ok
+test_missing_dependency_is_explicit_failure (check_response_weight_proposal.AlgebraChecks.test_missing_dependency_is_explicit_failure) ... skipped 'CVXPY exists; covered by solver checks'
+test_tiny_gap_returns_parent_before_solver (check_response_weight_proposal.AlgebraChecks.test_tiny_gap_returns_parent_before_solver) ... ok
+test_zero_channel_is_absolute_zero (check_response_weight_proposal.AlgebraChecks.test_zero_channel_is_absolute_zero) ... ok
+test_full_and_linear (check_response_weight_proposal.SolverChecks.test_full_and_linear) ... ok
+test_interior_full_solution_matches_closed_form (check_response_weight_proposal.SolverChecks.test_interior_full_solution_matches_closed_form) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.397s
+
+OK (skipped=1)

@@ -1,0 +1,34 @@
+{
+  "status": "PASS_local_core_checks",
+  "tests": 11,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    {
+      "test": "test_missing_dependency_is_explicit_failure (check_response_weight_proposal.AlgebraChecks.test_missing_dependency_is_explicit_failure)",
+      "reason": "CVXPY exists; covered by solver checks"
+    }
+  ],
+  "code_sha256": {
+    "response_weight_proposal.py": "dee789ef83448fc2f3dddbcda2ffa987f7f624fa39f5e783b753b41f1a334149",
+    "check_response_weight_proposal.py": "fb5931825dbc7cc0847645cc618f6e42d1eb60e5852b7f43de777c236188a414"
+  },
+  "versions": {
+    "numpy": "2.4.2",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "scipy": "1.18.1",
+    "osqp": "1.1.3",
+    "scs": "3.3.1",
+    "highspy": "1.15.1",
+    "qdldl": "0.1.9.post1",
+    "sparsediffpy": "0.6.1"
+  },
+  "seconds": 5.397421500001656,
+  "actual_solver_checks": true,
+  "synthetic_only": true,
+  "real_assets_accessed": false,
+  "new_full_trainings": 0,
+  "N2_scientific_execution_accepted": false,
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]"
+}

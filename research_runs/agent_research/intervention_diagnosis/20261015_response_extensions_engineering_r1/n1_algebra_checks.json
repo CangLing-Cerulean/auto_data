@@ -1,0 +1,20 @@
+{
+  "status": "PASS_local_core_checks",
+  "tests": 7,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "seconds": 0.5522995190694928,
+  "python": "3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:56:27) [GCC 11.2.0]",
+  "numpy": "2.4.4",
+  "torch": "2.14.0+cu130",
+  "code_sha256": {
+    "response_tangent.py": "5a167f479ffea8a80a42f11e7ee92c6bbb344c01b1aa7fccde5ef8f8f8e36d87",
+    "check_response_tangent.py": "0623423c7da42653e52e0e67ef79874e3506d469d826d668cac798c42cec73a3"
+  },
+  "observed_unix": 1792043270.7881281,
+  "synthetic_only": true,
+  "real_assets_accessed": false,
+  "new_full_trainings": 0,
+  "N1_engineering_accepted": false
+}

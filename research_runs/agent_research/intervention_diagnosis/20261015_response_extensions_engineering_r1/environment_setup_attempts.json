@@ -1,0 +1,10 @@
+{
+  "status": "isolated_environment_setup_recovered_and_solver_checks_passed",
+  "failed_local_venv_setup_attempts": 2,
+  "failure_type": "PermissionError_in_sandbox_temporary_directory_during_ensurepip",
+  "recovery": "Same isolated workspace venv setup rerun with reviewed filesystem permission; no global Python or server environment changes",
+  "global_environment_changed": false,
+  "server_environment_changed": false,
+  "actual_solver_receipt": "n2_solver_checks.json",
+  "new_full_trainings": 0
+}

@@ -1,0 +1,80 @@
+{
+  "scope": "isolated_local_synthetic_solver_checks",
+  "pip_version": "25.2",
+  "inherited_numpy_version": "2.4.2",
+  "installed": [
+    {
+      "name": "cvxpy",
+      "version": "1.9.3",
+      "artifact_url": "https://files.pythonhosted.org/packages/15/e6/c01ef8e4031e63cee8f659dee75ffe47429bba5bcf1b850527533872532e/cvxpy-1.9.3-cp314-cp314-win_amd64.whl",
+      "sha256": "8e05a166f3fc8f208550d569ff6b5e28cb4c3a8ee2b7da5547d4cd835cc2c346",
+      "requested": true
+    },
+    {
+      "name": "clarabel",
+      "version": "0.11.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/41/e6/4eee3062088c221e5a18b054e51c69f616e0bb0dc1b0a1a5e0fe90dfa18e/clarabel-0.11.1-cp39-abi3-win_amd64.whl",
+      "sha256": "557d5148a4377ae1980b65d00605ae870a8f34f95f0f6a41e04aa6d3edf67148",
+      "requested": true
+    },
+    {
+      "name": "sparsediffpy",
+      "version": "0.6.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/2c/f7/a1483a7f67dde39a06c5f1938e819c6111532cd10303a216144630d48ae9/sparsediffpy-0.6.1-cp314-cp314-win_amd64.whl",
+      "sha256": "4df6afeb271abf58caa0f041c2117f900c14b61fd9570d916b3a98093e36e4cb",
+      "requested": false
+    },
+    {
+      "name": "highspy",
+      "version": "1.15.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/bf/97/e85d751aaba8231e86915077532fd584711d30aa9eb85c26331e2bd87596/highspy-1.15.1-cp314-cp314-win_amd64.whl",
+      "sha256": "864258c59aeaea9d3bd7ccdd10c03258e2be764e2cf1e21f829fd1f8d8c15d57",
+      "requested": false
+    },
+    {
+      "name": "osqp",
+      "version": "1.1.3",
+      "artifact_url": "https://files.pythonhosted.org/packages/56/09/56bb7302f545fafbdfd9f0ad1042424c51c7a89407569bf005cc012b8a0f/osqp-1.1.3-cp314-cp314-win_amd64.whl",
+      "sha256": "e80447b95d7b7dec3d13cc9e5a67ef4c5eaac3affee60fd83d1ce461e9270816",
+      "requested": false
+    },
+    {
+      "name": "qdldl",
+      "version": "0.1.9.post1",
+      "artifact_url": "https://files.pythonhosted.org/packages/b6/a7/a3b62d9ec100604778d0596910f4bd20eaf23445af20bdd1d3cac77b6632/qdldl-0.1.9.post1-cp314-cp314-win_amd64.whl",
+      "sha256": "9adb8625012e96ceb6c24a8278b8aa9477727ae8fde35dee730988747ab95144",
+      "requested": false
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/52/94/d73da0d28f16c45bb9b0a5691b91610b0275c5ef0eb5e43c87cf2dc1bf31/scipy-1.18.1-cp314-cp314-win_amd64.whl",
+      "sha256": "78a0d7c918e74a232394117160e7e3db503377572a45bcef8826e4ab8a35feba",
+      "requested": false
+    },
+    {
+      "name": "scs",
+      "version": "3.3.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/9f/83/d2f1eddbd75998dceaeb872805c7f0ab90a4640cf488abd107a3045cdc6d/scs-3.3.1-cp314-cp314-win_amd64.whl",
+      "sha256": "077be0e95ca17e6e623fa4eefe4df9b2f9840875cfd65b2da58cfe72f274b2aa",
+      "requested": false
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "artifact_url": "https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl",
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba",
+      "requested": false
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "artifact_url": "https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl",
+      "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+      "requested": false
+    }
+  ],
+  "only_solver_used": "CLARABEL",
+  "global_environment_changed": false,
+  "server_environment_changed": false
+}

@@ -1,0 +1,12 @@
+test_basis_actual_four_direction_projection (check_response_tangent.TangentChecks.test_basis_actual_four_direction_projection) ... ok
+test_batch_terms_direct_blocks_and_redundant_bias (check_response_tangent.TangentChecks.test_batch_terms_direct_blocks_and_redundant_bias) ... ok
+test_invalid_states (check_response_tangent.TangentChecks.test_invalid_states) ... ok
+test_joint_zero_scalar_and_continuing_zero_history (check_response_tangent.TangentChecks.test_joint_zero_scalar_and_continuing_zero_history) ... ok
+test_one_and_multi_step_central_differences (check_response_tangent.TangentChecks.test_one_and_multi_step_central_differences) ... ok
+test_one_step_complex_differential (check_response_tangent.TangentChecks.test_one_step_complex_differential) ... ok
+test_torch_autograd_batch_and_adam_jvp (check_response_tangent.TangentChecks.test_torch_autograd_batch_and_adam_jvp) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.543s
+
+OK
