@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "attempt": 1,
+  "phase": "output_input_manifest_serialization",
+  "error": "ValueError: relative DESIGN.md path is not in the absolute repository subpath",
+  "result_written": false,
+  "numeric_status": "unavailable",
+  "new_full_trainings": 0,
+  "action": "Resolve output path before deriving input metadata; preserve original source lock and failed checker snapshot. No threshold changes."
+}

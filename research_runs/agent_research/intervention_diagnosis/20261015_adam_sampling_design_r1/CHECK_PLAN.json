@@ -1,0 +1,23 @@
+{
+  "stage": "adam_sampling_design_r1",
+  "purpose": "algebra and implementation checks only; no scientific efficacy gate",
+  "seeds": [10301, 10302, 10303],
+  "derivative_next_steps": [1, 501, 3001],
+  "derivative_dimension": 24,
+  "symbolic_reference": "SymPy differentiation of scalar Adam and full composed quadratic risk",
+  "block_shape": [6, 2, 4, 3],
+  "enumeration": {"population": 6, "groups": 3, "batch_size": 2, "ordered_batches": 36},
+  "policies": ["uniform", "gradient_norm", "jacobian_norm", "geometry", "full"],
+  "solver_cases": [[1,2,3], [1,0.00000001,3], [-1,2,0], [-1,-2,-3], [0,-2,0], [0,0,0]],
+  "solver_reference": "all 20301 floor-simplex grid points and four-start scipy SLSQP",
+  "floor_fraction": 0.5,
+  "algebra_rtol": 2e-10,
+  "algebra_atol": 1e-12,
+  "solver_scipy_objective_atol": 1e-8,
+  "solver_grid_objective_atol": 1e-10,
+  "exact_risk_error_and_policy_ranking": "descriptive; retain all outcomes; no positive-result gate",
+  "failure_rule": "preserve failed record; do not relax tolerances or rerun an existing output ID",
+  "real_diagnostic_enabled": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434
+}

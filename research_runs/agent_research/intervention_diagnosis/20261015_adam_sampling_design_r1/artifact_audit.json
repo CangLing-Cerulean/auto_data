@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "original_check_status": "FAIL",
+  "original_check_passed": 111,
+  "original_check_total": 112,
+  "scope": "asset integrity and one exact mathematical certificate, not independent rerun",
+  "input_sha256": "7c2a8ddb711e22cb3c66064bfd54025ac58993c1867d5583b02dc4d72c4865e1",
+  "checks": [
+    {
+      "name": "scripts/adam_risk_sampling.py",
+      "pass": true
+    },
+    {
+      "name": "scripts/check_adam_risk_sampling.py",
+      "pass": true
+    },
+    {
+      "name": "research_runs/agent_research/intervention_diagnosis/20261015_adam_sampling_design_r1/DESIGN.md",
+      "pass": true
+    },
+    {
+      "name": "research_runs/agent_research/intervention_diagnosis/20261015_adam_sampling_design_r1/CHECK_PLAN.json",
+      "pass": true
+    },
+    {
+      "name": "original_failure_preserved",
+      "pass": true
+    },
+    {
+      "name": "exact_global_certificate_for_signed_solver_2",
+      "pass": true,
+      "exact_P": [
+        "1/10",
+        "13/20",
+        "1/4"
+      ],
+      "exact_objective": "-90/13",
+      "proof": "Any surplus above p1 or p3 floors can be moved to positive-coefficient p2, strictly decreasing sum(a/p); therefore p=(1/10,13/20,1/4) is the global minimizer.",
+      "original_SLSQP_statuses_unchanged": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "scope": "new retrospective certificate; does not change the original 111/112 or mark its check PASS"
+    },
+    {
+      "name": "all_enumeration_rows_retained",
+      "pass": true
+    },
+    {
+      "name": "attempt1_checker_preserved",
+      "pass": true
+    }
+  ],
+  "real_diagnostic_enabled": false,
+  "scientific_advantage_established": false
+}

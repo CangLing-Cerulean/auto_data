@@ -1,0 +1,21 @@
+{
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434,
+  "attempt1": {
+    "status": "failed_at_output_manifest_serialization",
+    "numeric_results_available": false,
+    "total_runtime_seconds": null
+  },
+  "attempt2": {
+    "status": "111_of_112_pass_original_FAIL_preserved",
+    "inner_checker_seconds": 0.8774296000046888,
+    "synthetic_conditional_batch_update_expressions": 540,
+    "synthetic_derivative_map_calls": 12,
+    "scope": "artificial one-step expressions, not model training"
+  },
+  "total_research_wall_seconds": null,
+  "real_data_preparation_seconds": 0,
+  "server_operations": 0,
+  "end_to_end_method_cost_seconds": null,
+  "unknown_costs_are_not_zero": true
+}

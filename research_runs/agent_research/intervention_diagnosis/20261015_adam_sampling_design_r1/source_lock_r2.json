@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-15T14:23:42.1832553Z",
+  "status": "locked_after_output_path_repair_before_second_execution",
+  "files": [
+    {
+      "path": "scripts/adam_risk_sampling.py",
+      "sha256": "7bb6ddbea3b3677f3d195937639ed1792bbbb07c1c8b0e6ab13d204c3f6ec89d"
+    },
+    {
+      "path": "scripts/check_adam_risk_sampling.py",
+      "sha256": "c9344832ac699d8e3c1801f59f479369a0fd48dc27db77759090948cc2f90b91"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261015_adam_sampling_design_r1/DESIGN.md",
+      "sha256": "68a32a21e673ae9aeddbab334b0ef132562a7cfc0b3b4f28af11d98c3180f791"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261015_adam_sampling_design_r1/CHECK_PLAN.json",
+      "sha256": "ff3f5347a5a93555f3ced45420f39b0762dc4ed6f4453a2c1da861a26d764f37"
+    }
+  ],
+  "prior_attempt": "attempt1_failure.json",
+  "threshold_changes": false
+}
