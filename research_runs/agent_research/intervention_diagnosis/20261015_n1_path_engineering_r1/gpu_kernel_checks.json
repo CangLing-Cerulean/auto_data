@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "environment": {
+    "python": "3.12.9",
+    "numpy": "2.4.4",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "platform": "Linux"
+  },
+  "files": [
+    {
+      "name": "response_tangent.py",
+      "bytes": 9528,
+      "sha256": "5a167f479ffea8a80a42f11e7ee92c6bbb344c01b1aa7fccde5ef8f8f8e36d87"
+    },
+    {
+      "name": "response_tangent_torch.py",
+      "bytes": 6710,
+      "sha256": "cee8b3227408ae7acafbfad8d41ebca790a69569d3a3830fc2b9e699f6ebdd70"
+    },
+    {
+      "name": "check_response_tangent_torch.py",
+      "bytes": 8282,
+      "sha256": "5ebcb21f04d5bd2d8ca168b90ade59e501debb0e4803382ea1cfd17b8b00a69b"
+    }
+  ],
+  "seconds": 5.133378398604691,
+  "asset_access": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 418,
+  "free_bytes_after": 1635225600
+}

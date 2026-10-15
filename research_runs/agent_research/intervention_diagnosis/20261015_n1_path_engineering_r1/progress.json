@@ -1,0 +1,17 @@
+{
+  "stage": "n1_path_engineering_r1",
+  "date": "2026-10-15",
+  "status": "real_path_source_ready_pending_publication_and_deployment",
+  "gpu_kernel_checks": "gpu_kernel_checks.json",
+  "gpu_kernel_tests_passed": 5,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 418,
+  "parent_tangent_paths_completed": 0,
+  "finite_difference_trainings_started": false,
+  "finite_difference_max_new_full": 16,
+  "N2_scientific_execution_enabled": false,
+  "old_M1_full_labels_enabled": false,
+  "D_access": false,
+  "test_access": false,
+  "next": "Publish exact source and input lock; verify fresh server destination, environment and capacity; then run real-batch preflight before nine complete tangent paths"
+}

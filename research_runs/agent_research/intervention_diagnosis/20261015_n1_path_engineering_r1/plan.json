@@ -1,0 +1,129 @@
+{
+  "stage": "n1_path_engineering_r1",
+  "output_root": "/root/auto_data_experiments/20261015_n1_path_engineering_r1/experiment",
+  "seeds": [
+    2026101701,
+    2026101702,
+    2026101703
+  ],
+  "grid": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "tasks": [
+    {
+      "id": "G1",
+      "partitions": {
+        "A": [
+          0,
+          308
+        ],
+        "B": [
+          308,
+          385
+        ],
+        "C": [
+          385,
+          462
+        ]
+      }
+    },
+    {
+      "id": "G2",
+      "partitions": {
+        "A": [
+          514,
+          822
+        ],
+        "B": [
+          822,
+          899
+        ],
+        "C": [
+          899,
+          976
+        ]
+      }
+    },
+    {
+      "id": "G3",
+      "partitions": {
+        "A": [
+          1028,
+          1336
+        ],
+        "B": [
+          1336,
+          1413
+        ],
+        "C": [
+          1413,
+          1490
+        ]
+      }
+    }
+  ],
+  "training": {
+    "input_length": 32,
+    "prediction_length": 8,
+    "moving_average_kernel": 25,
+    "batch_size": 256,
+    "steps": 3000,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0
+  },
+  "cumulative_before": 418,
+  "scientific_children_enabled": false,
+  "FD_enabled": false,
+  "registered_maximum_FD_full_trainings": 16,
+  "M1_task_budget_seconds": {
+    "G1": 204.0668924888596,
+    "G2": 208.31119876913726,
+    "G3": 200.6261585978791
+  },
+  "expected_environment": {
+    "python": "3.12.9",
+    "numpy": "2.4.4",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "platform": "Linux"
+  },
+  "code_sha256": {
+    "n1_path_runtime.py": "94fca4727461a50c9ace6203dfe5581d795146b46c0c7fb0750b7f8f701e8314",
+    "audit_n1_paths.py": "7fc9c6d81045b9e706fda71730379e2e4e8fd35feddcbe5538db204f16e6ae94",
+    "run_n1_paths.py": "d6b7db6d5c6c681d133414b11059b051b172bfe19d13ed6d10f43fb4f331655e",
+    "launch_n1_paths.py": "26fd1945f057f5762024715517cfd03d69f7cdcaa063e288254ba6c46899357c",
+    "register_n1_paths.py": "73eccad0d350ef7c65fd600f4033fc8ce6f8fc467eca82052f253cec987b0d23",
+    "deploy_n1_paths.py": "9249cb165c4cdecf2c98589538a112986842c6799a5f36a83065464858511c6b",
+    "deploy_fourgroup_m1.py": "a2344058d4ff8ade370000025a1208b6c086c01cd2a294072ced68b14a153a9c",
+    "fourgroup_runtime.py": "877034b2d04bcce37e9f3d733a8bb4e0c4a47a1c66984856a723e3e88607f30a",
+    "audit_fourgroup_m1.py": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+    "response_tangent.py": "5a167f479ffea8a80a42f11e7ee92c6bbb344c01b1aa7fccde5ef8f8f8e36d87",
+    "response_tangent_torch.py": "cee8b3227408ae7acafbfad8d41ebca790a69569d3a3830fc2b9e699f6ebdd70",
+    "check_response_tangent_torch.py": "5ebcb21f04d5bd2d8ca168b90ade59e501debb0e4803382ea1cfd17b8b00a69b",
+    "response_proxy.py": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf",
+    "run_research.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "PROTOCOL.md": "d9b2976aab295c48bafc665393c307e0eb0f35e309db65663d5f74d08e796820",
+    "RELATED_WORK.md": "178377c0d400e4ebb5e542f614165ae315ba3d883b20c1d30f9ef55ae5cb151e",
+    "gpu_kernel_code_lock.json": "3e3c8eb801aa9e8198a9147b76f0f32e3156fd27a13b997228e7fcdbfa35ac6d",
+    "gpu_kernel_checks.json": "5f45fe60c80bae18b5b7522c7f14892fbf3676388689960cd4968d971d29c822"
+  },
+  "input_lock_sha256": "67ca9449e843840f12eb6d23bed1a383a3ef56cc6d228b1871eb0ec74ce835cc",
+  "storage_estimate_sha256": "efbf75e075e263259213f8651267d23afe0b7f6ddd21b633e8f664e27e24be18",
+  "input_bundle": {
+    "name": "inputs.tar.gz",
+    "bytes": 7143024,
+    "sha256": "d9fd6893b66aed886af6ef48b769392a2ecc355abeb503c170601132764b887e"
+  },
+  "preflight_min_free_bytes": 538892922,
+  "runtime_min_free_bytes": 268435456,
+  "D_access": false,
+  "test_access": false,
+  "preflight_required": true,
+  "independent_path_audit_required": true
+}

@@ -1,0 +1,11 @@
+test_basis_and_batch_reference (__main__.KernelChecks.test_basis_and_batch_reference) ... ok
+test_invalid_state_is_rejected (__main__.KernelChecks.test_invalid_state_is_rejected) ... ok
+test_joint_zero (__main__.KernelChecks.test_joint_zero) ... ok
+test_multistep_autodiff (__main__.KernelChecks.test_multistep_autodiff) ... ok
+test_one_step_and_actual_float32_moments (__main__.KernelChecks.test_one_step_and_actual_float32_moments) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.076s
+
+OK
+{"status": "PASS", "tests": 5, "failures": 0, "errors": 0, "skipped": 0, "seconds": 3.0760827073827386, "rtol": 1e-09, "atol": 1e-11, "torch": "2.14.0+cu130", "numpy": "2.4.4", "cuda": "13.0"}
