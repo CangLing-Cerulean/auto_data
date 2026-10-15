@@ -1,0 +1,70 @@
+{
+  "status": "stage_results_verified",
+  "repository": "CangLing-Cerulean/auto_data",
+  "source_commit": "a7b17eba632abdedfd53ac666a05afdd5837dbdf",
+  "commit_url": "https://github.com/CangLing-Cerulean/auto_data/commit/a7b17eba632abdedfd53ac666a05afdd5837dbdf",
+  "publication_receipt": "publication_receipt.json",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "bytes": 3010,
+      "sha256": "81156d320decd06b71cd31a0d789f46e37dc17252f51bc0bcf94dffc189c26e6"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 1362,
+      "sha256": "27d8352a8e3bd96afbaac5cea7140c716a408a43198820f37ac67d85bfabe471"
+    },
+    {
+      "path": "artifact_audit.json",
+      "bytes": 2329,
+      "sha256": "045fc210514f08c2895f1527ebe196af2f0244938e56640b642a14b05020d61c"
+    },
+    {
+      "path": "claim_evidence.csv",
+      "bytes": 3306,
+      "sha256": "70bc4cc68bc4c4a62fcacc00b7735ca6a54c5fac5e93affc4b2a4d679951707a"
+    },
+    {
+      "path": "compile_receipt.json",
+      "bytes": 715,
+      "sha256": "ae146b815eb88e19945e2df65e93d69cf85c5b2fae123183368889740ed5c36c"
+    },
+    {
+      "path": "costs.json",
+      "bytes": 483,
+      "sha256": "5b194b0c944c4b2a271298f89a9fc34e35db14f771037889aab7cff8be2128c3"
+    },
+    {
+      "path": "evidence_inventory.json",
+      "bytes": 4811,
+      "sha256": "da14f8057c3133a1b05d173f68f99725a6b41cfe5f86a2a0d0c042da48038918"
+    },
+    {
+      "path": "evidence_overview.pdf",
+      "bytes": 19975,
+      "sha256": "06b3139e74eca6601e8e72920c5febd3299e81c5e322815e382bf8942ababc2e"
+    },
+    {
+      "path": "evidence_overview.png",
+      "bytes": 82993,
+      "sha256": "da7388a328df7eda6ba5d730dfe6928b7f8dfb35f043e72ab563742324d5ae26"
+    },
+    {
+      "path": "manuscript.tex",
+      "bytes": 22484,
+      "sha256": "b0f5aecc30e799e5c5fb87434d058d3ea98f68d325d8680d073f843892c02676"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 1437,
+      "sha256": "fc8ca1923b474c132a7b47fe6eac09c4488b6a2d7bc21098b51d9dc86162f551"
+    }
+  ],
+  "large_assets": "No new checkpoints; prior stage Release receipts retain raw assets",
+  "compilation": "unconfirmed_two_timeouts_one_busy",
+  "submission_ready": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434,
+  "global_indexes_published": false
+}

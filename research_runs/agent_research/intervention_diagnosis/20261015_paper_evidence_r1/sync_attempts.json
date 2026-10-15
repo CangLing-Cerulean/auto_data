@@ -1,0 +1,20 @@
+{
+  "attempts": [
+    {
+      "transport": "official_GitHub_Git_Data_API",
+      "success_confirmed": false,
+      "outcome": "connection_reset"
+    },
+    {
+      "transport": "official_GitHub_Git_Data_API",
+      "success_confirmed": false,
+      "outcome": "response_ended_prematurely"
+    },
+    {
+      "transport": "git_HTTP1.1",
+      "commit": "a7b17eba632abdedfd53ac666a05afdd5837dbdf",
+      "outcome": "push_succeeded_remote_main_exact_match"
+    }
+  ],
+  "original_failures_preserved": true
+}
