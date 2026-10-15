@@ -1,0 +1,1753 @@
+{
+  "status": "PASS",
+  "eligible_to_label": false,
+  "budget_gate": true,
+  "matching_baselines": [
+    "RAW",
+    "SHORT"
+  ],
+  "recommendations": {
+    "G1": {
+      "M1": {
+        "action": "PARENT",
+        "best_action": "G2_DOWN",
+        "best_mean_gain": 0.4592255898773545,
+        "mean_gains": {
+          "G0_UP": 0.2940376617873645,
+          "G0_DOWN": -0.44872328182727167,
+          "G1_UP": 0.2137700514438401,
+          "G1_DOWN": -0.23482314492247655,
+          "G2_UP": -0.6986054256180892,
+          "G2_DOWN": 0.4592255898773545,
+          "G3_UP": -0.05739655685372824,
+          "G3_DOWN": -0.02093643109532343
+        }
+      },
+      "RAW": {
+        "action": "PARENT",
+        "best_action": "G2_DOWN",
+        "best_mean_gain": -0.47746748497372965,
+        "mean_gains": {
+          "G0_UP": -0.6659239552576265,
+          "G0_DOWN": -1.6339727669414754,
+          "G1_UP": -0.9110996220126418,
+          "G1_DOWN": -1.394304545429755,
+          "G2_UP": -1.9184139572946328,
+          "G2_DOWN": -0.47746748497372965,
+          "G3_UP": -1.1745914963908384,
+          "G3_DOWN": -1.1926990601935545
+        }
+      },
+      "SOURCE": {
+        "action": "PARENT",
+        "best_action": "G2_DOWN",
+        "best_mean_gain": 0.5182316906408024,
+        "mean_gains": {
+          "G0_UP": 0.3379410607379489,
+          "G0_DOWN": -0.5019429462128411,
+          "G1_UP": 0.23262932304111508,
+          "G1_DOWN": -0.2625415919182898,
+          "G2_UP": -0.7408981893074928,
+          "G2_DOWN": 0.5182316906408024,
+          "G3_UP": -0.0734839750379986,
+          "G3_DOWN": -0.001626822711423929
+        }
+      },
+      "SHORT": {
+        "action": "PARENT",
+        "best_action": "G0_DOWN",
+        "best_mean_gain": -3.0277643904446094,
+        "mean_gains": {
+          "G0_UP": -3.4015064756486115,
+          "G0_DOWN": -3.0277643904446094,
+          "G1_UP": -3.2743868604336535,
+          "G1_DOWN": -3.1462981915654153,
+          "G2_UP": -3.110922235376561,
+          "G2_DOWN": -3.6808416729702187,
+          "G3_UP": -3.231996173345641,
+          "G3_DOWN": -3.2394123912948607
+        }
+      },
+      "PARENT": {
+        "action": "PARENT",
+        "best_action": "G0_UP",
+        "best_mean_gain": 0.0,
+        "mean_gains": {
+          "G0_UP": 0.0,
+          "G0_DOWN": 0.0,
+          "G1_UP": 0.0,
+          "G1_DOWN": 0.0,
+          "G2_UP": 0.0,
+          "G2_DOWN": 0.0,
+          "G3_UP": 0.0,
+          "G3_DOWN": 0.0
+        }
+      }
+    },
+    "G2": {
+      "M1": {
+        "action": "G3_UP",
+        "best_action": "G3_UP",
+        "best_mean_gain": 7.121156963983236,
+        "mean_gains": {
+          "G0_UP": -4.950281447591531,
+          "G0_DOWN": 4.285443687004042,
+          "G1_UP": -4.959862492118128,
+          "G1_DOWN": 4.6549413691537245,
+          "G2_UP": 1.6950770716275005,
+          "G2_DOWN": -1.7514066396908372,
+          "G3_UP": 7.121156963983236,
+          "G3_DOWN": -8.283852160084885
+        }
+      },
+      "RAW": {
+        "action": "G3_UP",
+        "best_action": "G3_UP",
+        "best_mean_gain": 3.8468218234384994,
+        "mean_gains": {
+          "G0_UP": -5.572831891394363,
+          "G0_DOWN": 3.0164944903312527,
+          "G1_UP": -6.102083076258784,
+          "G1_DOWN": 3.4020340978898056,
+          "G2_UP": 0.46660648726663717,
+          "G2_DOWN": -2.92863583725708,
+          "G3_UP": 3.8468218234384994,
+          "G3_DOWN": -8.888815814814578
+        }
+      },
+      "SOURCE": {
+        "action": "G3_UP",
+        "best_action": "G3_UP",
+        "best_mean_gain": 7.417662015089999,
+        "mean_gains": {
+          "G0_UP": -4.628920244396266,
+          "G0_DOWN": 4.412000858720922,
+          "G1_UP": -5.14388739171033,
+          "G1_DOWN": 4.820959408851033,
+          "G2_UP": 1.7183500980104423,
+          "G2_DOWN": -1.8062753430081162,
+          "G3_UP": 7.417662015089999,
+          "G3_DOWN": -8.063477564062849
+        }
+      },
+      "SHORT": {
+        "action": "G3_UP",
+        "best_action": "G3_UP",
+        "best_mean_gain": 7.152895632713268,
+        "mean_gains": {
+          "G0_UP": -4.082939061289603,
+          "G0_DOWN": 4.485059909109334,
+          "G1_UP": -4.79292741930637,
+          "G1_DOWN": 4.644373697316943,
+          "G2_UP": 1.9244024369570993,
+          "G2_DOWN": -1.4743374814543353,
+          "G3_UP": 7.152895632713268,
+          "G3_DOWN": -7.532001372334489
+        }
+      },
+      "PARENT": {
+        "action": "PARENT",
+        "best_action": "G0_UP",
+        "best_mean_gain": 0.0,
+        "mean_gains": {
+          "G0_UP": 0.0,
+          "G0_DOWN": 0.0,
+          "G1_UP": 0.0,
+          "G1_DOWN": 0.0,
+          "G2_UP": 0.0,
+          "G2_DOWN": 0.0,
+          "G3_UP": 0.0,
+          "G3_DOWN": 0.0
+        }
+      }
+    },
+    "G3": {
+      "M1": {
+        "action": "G1_DOWN",
+        "best_action": "G1_DOWN",
+        "best_mean_gain": 5.053885133041839,
+        "mean_gains": {
+          "G0_UP": 4.968995897489522,
+          "G0_DOWN": -7.036523606142471,
+          "G1_UP": -5.9300512772536855,
+          "G1_DOWN": 5.053885133041839,
+          "G2_UP": -2.0518823844123326,
+          "G2_DOWN": 1.7664130767280348,
+          "G3_UP": 1.2010444268770182,
+          "G3_DOWN": -1.794422638286856
+        }
+      },
+      "RAW": {
+        "action": "G1_DOWN",
+        "best_action": "G1_DOWN",
+        "best_mean_gain": 24.79958940259306,
+        "mean_gains": {
+          "G0_UP": 24.758274228586547,
+          "G0_DOWN": 13.986998115181985,
+          "G1_UP": 15.01185209536562,
+          "G1_DOWN": 24.79958940259306,
+          "G2_UP": 18.46830963892477,
+          "G2_DOWN": 21.912982832550483,
+          "G3_UP": 21.377069062714195,
+          "G3_DOWN": 18.72730959998421
+        }
+      },
+      "SOURCE": {
+        "action": "G0_UP",
+        "best_action": "G0_UP",
+        "best_mean_gain": 6.488093330575861,
+        "mean_gains": {
+          "G0_UP": 6.488093330575861,
+          "G0_DOWN": -7.122522782957996,
+          "G1_UP": -5.697962753370748,
+          "G1_DOWN": 5.246465266945137,
+          "G2_UP": -2.0985640647137593,
+          "G2_DOWN": 2.050190917967909,
+          "G3_UP": 0.7348734712922189,
+          "G3_DOWN": -0.7476677972899267
+        }
+      },
+      "SHORT": {
+        "action": "G1_DOWN",
+        "best_action": "G1_DOWN",
+        "best_mean_gain": 12.130628478775497,
+        "mean_gains": {
+          "G0_UP": 10.50007035709026,
+          "G0_DOWN": 0.25887365515623273,
+          "G1_UP": -0.5961823706692767,
+          "G1_DOWN": 12.130628478775497,
+          "G2_UP": 6.3115760870182305,
+          "G2_DOWN": 6.050864065124325,
+          "G3_UP": 7.219775324737809,
+          "G3_DOWN": 4.849830018924147
+        }
+      },
+      "PARENT": {
+        "action": "PARENT",
+        "best_action": "G0_UP",
+        "best_mean_gain": 0.0,
+        "mean_gains": {
+          "G0_UP": 0.0,
+          "G0_DOWN": 0.0,
+          "G1_UP": 0.0,
+          "G1_DOWN": 0.0,
+          "G2_UP": 0.0,
+          "G2_DOWN": 0.0,
+          "G3_UP": 0.0,
+          "G3_DOWN": 0.0
+        }
+      }
+    }
+  },
+  "costs": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "M1": 67.19605316221714,
+      "RAW": 58.791607153601944,
+      "SOURCE": 3.174054984934628,
+      "SHORT": 94.24959229119122,
+      "PARENT": 0.0,
+      "real_parent_seconds": 36.16676727402955,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.11163692228082155,
+      "cold_allocated_seconds": {
+        "M1": 103.47445735852752,
+        "RAW": 95.07001134991232,
+        "SOURCE": 39.452459181245004,
+        "SHORT": 130.52799648750158,
+        "PARENT": 36.278404196310376
+      }
+    },
+    {
+      "task": "G1",
+      "seed": 2026101702,
+      "M1": 67.70224892254919,
+      "RAW": 59.29575838055462,
+      "SOURCE": 3.197646986693144,
+      "SHORT": 94.28321363218129,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.853634477593005,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.11163692228082155,
+      "cold_allocated_seconds": {
+        "M1": 103.66752032242302,
+        "RAW": 95.26102978042844,
+        "SOURCE": 39.16291838656697,
+        "SHORT": 130.2484850320551,
+        "PARENT": 35.96527139987383
+      }
+    },
+    {
+      "task": "G1",
+      "seed": 2026101703,
+      "M1": 69.16859040409327,
+      "RAW": 60.86000535264611,
+      "SOURCE": 3.172165489755571,
+      "SHORT": 94.60421879217029,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.84829407930374,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.11163692228082155,
+      "cold_allocated_seconds": {
+        "M1": 105.12852140567783,
+        "RAW": 96.81993635423068,
+        "SOURCE": 39.132096491340135,
+        "SHORT": 130.56414979375484,
+        "PARENT": 35.959931001584565
+      }
+    },
+    {
+      "task": "G2",
+      "seed": 2026101701,
+      "M1": 69.39533091895282,
+      "RAW": 61.006926343776286,
+      "SOURCE": 3.172633550129831,
+      "SHORT": 95.09178429469466,
+      "PARENT": 0.0,
+      "real_parent_seconds": 34.805145194754004,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10882744306905402,
+      "cold_allocated_seconds": {
+        "M1": 104.30930355677589,
+        "RAW": 95.92089898159935,
+        "SOURCE": 38.08660618795289,
+        "SHORT": 130.00575693251773,
+        "PARENT": 34.91397263782306
+      }
+    },
+    {
+      "task": "G2",
+      "seed": 2026101702,
+      "M1": 69.50504682585597,
+      "RAW": 61.12364381644875,
+      "SOURCE": 3.1633415780961514,
+      "SHORT": 95.01405546721071,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.89452746231109,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10882744306905402,
+      "cold_allocated_seconds": {
+        "M1": 105.50840173123612,
+        "RAW": 97.1269987218289,
+        "SOURCE": 39.166696483476294,
+        "SHORT": 131.01741037259086,
+        "PARENT": 36.00335490538014
+      }
+    },
+    {
+      "task": "G2",
+      "seed": 2026101703,
+      "M1": 69.41082102432847,
+      "RAW": 61.11211612354964,
+      "SOURCE": 3.1659174049273133,
+      "SHORT": 94.98471233434975,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.85124540235847,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10882744306905402,
+      "cold_allocated_seconds": {
+        "M1": 105.370893869756,
+        "RAW": 97.07218896897717,
+        "SOURCE": 39.12599025035484,
+        "SHORT": 130.94478517977728,
+        "PARENT": 35.960072845427526
+      }
+    },
+    {
+      "task": "G3",
+      "seed": 2026101701,
+      "M1": 67.45687789656222,
+      "RAW": 59.16235814243555,
+      "SOURCE": 3.170190687291324,
+      "SHORT": 95.00597694236785,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.82529495470226,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10877365142934853,
+      "cold_allocated_seconds": {
+        "M1": 103.39094650269382,
+        "RAW": 95.09642674856715,
+        "SOURCE": 39.10425929342293,
+        "SHORT": 130.94004554849946,
+        "PARENT": 35.9340686061316
+      }
+    },
+    {
+      "task": "G3",
+      "seed": 2026101702,
+      "M1": 64.82252095267177,
+      "RAW": 56.55919404234737,
+      "SOURCE": 3.1754599129781127,
+      "SHORT": 94.98613487929106,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.84356044884771,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10877365142934853,
+      "cold_allocated_seconds": {
+        "M1": 100.77485505294882,
+        "RAW": 92.51152814262443,
+        "SOURCE": 39.12779401325517,
+        "SHORT": 130.9384689795681,
+        "PARENT": 35.95233410027706
+      }
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "M1": 68.34675974864513,
+      "RAW": 60.04725975356996,
+      "SOURCE": 3.1765992883592844,
+      "SHORT": 94.48864093702286,
+      "PARENT": 0.0,
+      "real_parent_seconds": 35.87376757431775,
+      "budget_pass": true,
+      "allocated_common_preparation_seconds": 0.10877365142934853,
+      "cold_allocated_seconds": {
+        "M1": 104.32930097439223,
+        "RAW": 96.02980097931706,
+        "SOURCE": 39.15914051410638,
+        "SHORT": 130.47118216276996,
+        "PARENT": 35.9825412257471
+      }
+    }
+  ],
+  "replay_audit": [
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 5.384762614034116
+    },
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.872502516023815
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.2854131096974015
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.782200234010816
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.288415847346187
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.794009950011969
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.299461253918707
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.773312968201935
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.303649020381272
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.771357215940952
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.283406412228942
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.803964467719197
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.305478494614363
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.861790925264359
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.307864489033818
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.64620145317167
+    },
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.213918698020279
+    },
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.859148900955915
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.212578009814024
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.838953846134245
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.215244518592954
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.831278331577778
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.189542190171778
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.857402994297445
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.225287696346641
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.82183734793216
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.223095294088125
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.833494338206947
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.284008173272014
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.846042291261256
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.273926697671413
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.850222271867096
+    },
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.285196479409933
+    },
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.845013406127691
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.278685326687992
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.873932847753167
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.293350298888981
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.852061353623867
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.289068326354027
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.846379016526043
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.2794873816892505
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.850703105330467
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.284276882186532
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.851175363175571
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.291429188102484
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.853911463171244
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.2884221421554685
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85007764492184
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.106390341185033
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.857372154481709
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.206575560383499
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85381593555212
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.210594534873962
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.840744975022972
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.205466812476516
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.865441787056625
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.198324233293533
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85416803508997
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.210702178068459
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.850235662423074
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.206395422108471
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.938160390593112
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.209081447683275
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85589547175914
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.2158309407532215
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.866616106592119
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.212658699601889
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.851927662268281
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.201719390228391
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85291891451925
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.211765816435218
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.864202707074583
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.204802914522588
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.845377526246011
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.197926037944853
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.844052380882204
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.213202126324177
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.863827107474208
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.210960229858756
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.85876346938312
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.216941208578646
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.852480936795473
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.219828953966498
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.868111211806536
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.219389812089503
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.854490203782916
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.213860005140305
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.86194113548845
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.208072146400809
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.87102913018316
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.212381090968847
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.869219314306974
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.194164742715657
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.864253197796643
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.248110202141106
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.869110582396388
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.196778091602027
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.838915955275297
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.215386935509741
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.916898758150637
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.298912454396486
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.880043866112828
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.321655360050499
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.846855592913926
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.293840336613357
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.839677191339433
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.301317520439625
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.844280746765435
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.248598423786461
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.836950296536088
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.235899580642581
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101701,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.884129919111729
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.640642232261598
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.861446023918688
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.57038660813123
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.890772121958435
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 6.657198482193053
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.885249220766127
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.626415187492967
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.915575596503913
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.107514861039817
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.905340452678502
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.577029020525515
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.91495116893202
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.499504643492401
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.906371110118926
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.620483288541436
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101702,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.913439297117293
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.272783417254686
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.84568620659411
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.285909730941057
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.837739896029234
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.274760530330241
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.926244616508484
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.297377912327647
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.844505538232625
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.278089317493141
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.836697331629694
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.278721045702696
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.841862459667027
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.281004632823169
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.840070500038564
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "proxy",
+      "updates": 3000,
+      "states": 9,
+      "seconds": 7.318032341077924
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "seed": 2026101703,
+      "engine": "short",
+      "updates": 1000,
+      "states": 5,
+      "seconds": 11.807707698084414
+    }
+  ],
+  "audit_updates": 288000,
+  "replay_audit_seconds": 1374.6418971642852,
+  "residuals_verified": 2880,
+  "source_matrix_exponential_probes": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "action": "G0_UP",
+      "step": 500,
+      "channel": 0,
+      "output": 0,
+      "max_absolute_error": 4.0766001685454967e-16
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "action": "G3_DOWN",
+      "step": 3000,
+      "channel": 7,
+      "output": 7,
+      "max_absolute_error": 1.0824674490095276e-15
+    }
+  ],
+  "source_propagation_blocks_verified": 27648,
+  "rounding_identity_max_gap": 3.0517578125e-05,
+  "predictions_sha256": "111284c88926a2945d18298225c6ed38421a83462db42e32f951a7586c25b312",
+  "states_verified": 1008,
+  "moment_files_verified": 216,
+  "mode": "forecast",
+  "plan_sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "train_sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae",
+  "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "preparation_sha256": "3037f6fe1bf0c1893b7d7b3449a206bd0831f88e67b7a9f5cfcedd6f9d92847c",
+  "auditor_sha256": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+  "D_access": false,
+  "test_access": false,
+  "old_D_sensor_tokens_parsed": false,
+  "new_scientific_trainings": 0,
+  "audit_seconds": 1452.3508537681773
+}

@@ -1,0 +1,109 @@
+{
+  "recorded_at_utc": "2026-10-15T07:14:30.543777+00:00",
+  "phase_seconds": {
+    "preparation": 0.1572034414857626,
+    "preflight_audit": 2.9449167381972075,
+    "parent_calibration": 394.6944146649912,
+    "calibration_audit": 5.917931294068694,
+    "candidate_forecasts": 1433.0339836683124,
+    "forecast_audit": 1452.3508537681773
+  },
+  "recorded_phase_subtotal_seconds": 3289.0993035752326,
+  "subtotal_scope": "Recorded scientific preparation, calibration, forecast and audit phases only; not elapsed project time or sum of method ledgers",
+  "method_costs": {
+    "totals": {
+      "M1_warm_seconds": 613.004249855876,
+      "RAW_warm_seconds": 537.9588691089302,
+      "SOURCE_warm_seconds": 28.56800988316536,
+      "SHORT_warm_seconds": 852.7083295704797,
+      "PARENT_warm_seconds": 0.0,
+      "real_parent_seconds": 321.9622368682176,
+      "allocated_common_preparation_seconds": 0.9877140503376722,
+      "M1_cold_allocated_seconds": 935.9542007744312,
+      "RAW_cold_allocated_seconds": 860.9088200274855,
+      "SOURCE_cold_allocated_seconds": 351.5179608017206,
+      "SHORT_cold_allocated_seconds": 1175.658280489035,
+      "PARENT_cold_allocated_seconds": 322.94995091855526
+    },
+    "per_task_seed_mean": {
+      "G1": {
+        "M1_warm_seconds": 68.02229749628653,
+        "RAW_warm_seconds": 59.64912362893423,
+        "SOURCE_warm_seconds": 3.1812891537944474,
+        "SHORT_warm_seconds": 94.37900823851426,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.9562319436421,
+        "allocated_common_preparation_seconds": 0.11163692228082155,
+        "M1_cold_allocated_seconds": 104.09016636220946,
+        "RAW_cold_allocated_seconds": 95.71699249485715,
+        "SOURCE_cold_allocated_seconds": 39.24915801971737,
+        "SHORT_cold_allocated_seconds": 130.44687710443716,
+        "PARENT_cold_allocated_seconds": 36.067868865922925
+      },
+      "G2": {
+        "M1_warm_seconds": 69.43706625637908,
+        "RAW_warm_seconds": 61.080895427924894,
+        "SOURCE_warm_seconds": 3.1672975110510984,
+        "SHORT_warm_seconds": 95.03018403208505,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.516972686474524,
+        "allocated_common_preparation_seconds": 0.10882744306905402,
+        "M1_cold_allocated_seconds": 105.06286638592267,
+        "RAW_cold_allocated_seconds": 96.70669555746848,
+        "SOURCE_cold_allocated_seconds": 38.793097640594674,
+        "SHORT_cold_allocated_seconds": 130.65598416162862,
+        "PARENT_cold_allocated_seconds": 35.62580012954357
+      },
+      "G3": {
+        "M1_warm_seconds": 66.87538619929303,
+        "RAW_warm_seconds": 58.58960397945096,
+        "SOURCE_warm_seconds": 3.1740832962095737,
+        "SHORT_warm_seconds": 94.82691758622725,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.84754099262258,
+        "allocated_common_preparation_seconds": 0.10877365142934853,
+        "M1_cold_allocated_seconds": 102.83170084334495,
+        "RAW_cold_allocated_seconds": 94.54591862350287,
+        "SOURCE_cold_allocated_seconds": 39.130397940261496,
+        "SHORT_cold_allocated_seconds": 130.78323223027917,
+        "PARENT_cold_allocated_seconds": 35.95631464405192
+      }
+    },
+    "task_equal_mean": {
+      "M1_warm_seconds": 68.11158331731956,
+      "RAW_warm_seconds": 59.77320767877003,
+      "SOURCE_warm_seconds": 3.174223320351706,
+      "SHORT_warm_seconds": 94.74536995227551,
+      "PARENT_warm_seconds": 0.0,
+      "real_parent_seconds": 35.773581874246396,
+      "allocated_common_preparation_seconds": 0.1097460055930747,
+      "M1_cold_allocated_seconds": 103.99491119715903,
+      "RAW_cold_allocated_seconds": 95.6565355586095,
+      "SOURCE_cold_allocated_seconds": 39.05755120019118,
+      "SHORT_cold_allocated_seconds": 130.628697832115,
+      "PARENT_cold_allocated_seconds": 35.88332787983947
+    }
+  },
+  "updates": {
+    "parent_replay": 54000,
+    "candidate_proxy": 216000,
+    "candidate_SHORT": 72000,
+    "independent_forecast_replay": 288000
+  },
+  "scientific_full_trainings": {
+    "new": 0,
+    "cumulative": 418
+  },
+  "intermediate_trajectories": {
+    "parent_replays": 18,
+    "proxy": 72,
+    "SHORT": 72,
+    "independent_forecast_replays": 144
+  },
+  "unknown": {
+    "full_enumeration_cost_gate": null,
+    "full_children_cost": null
+  },
+  "N1_N2_costs_included": false,
+  "bookkeeping_note": "M1 and RAW share actual proxy execution; separate method ledger totals must not be added as research expenditure. Archive and publication timings are in their own receipts."
+}

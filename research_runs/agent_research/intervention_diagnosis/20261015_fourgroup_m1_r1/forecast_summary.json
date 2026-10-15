@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "artifact_kind": "audited_predictions_only",
+  "dataset_id": "uci_hydraulic_v1",
+  "train_sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae",
+  "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "plan_sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57",
+  "predictions_sha256": "111284c88926a2945d18298225c6ed38421a83462db42e32f951a7586c25b312",
+  "forecast_audit_sha256": "30d20bfc916d9dce2d7c3047de2ee3b5c61a251315fc9ef16766aeb1531e9e40",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "preparation_sha256": "3037f6fe1bf0c1893b7d7b3449a206bd0831f88e67b7a9f5cfcedd6f9d92847c",
+  "auditor_sha256": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+  "audit_counts": {
+    "audit_updates": 288000,
+    "states_verified": 1008,
+    "residuals_verified": 2880,
+    "moment_files_verified": 216,
+    "source_propagation_blocks_verified": 27648,
+    "source_matrix_exponential_probes": 2,
+    "replay_audit_records": 144
+  },
+  "table_rows": {
+    "seed": 72,
+    "cell": 24,
+    "cost": 9,
+    "recommendations": 3
+  },
+  "cost_seconds": {
+    "totals": {
+      "M1_warm_seconds": 613.004249855876,
+      "RAW_warm_seconds": 537.9588691089302,
+      "SOURCE_warm_seconds": 28.56800988316536,
+      "SHORT_warm_seconds": 852.7083295704797,
+      "PARENT_warm_seconds": 0.0,
+      "real_parent_seconds": 321.9622368682176,
+      "allocated_common_preparation_seconds": 0.9877140503376722,
+      "M1_cold_allocated_seconds": 935.9542007744312,
+      "RAW_cold_allocated_seconds": 860.9088200274855,
+      "SOURCE_cold_allocated_seconds": 351.5179608017206,
+      "SHORT_cold_allocated_seconds": 1175.658280489035,
+      "PARENT_cold_allocated_seconds": 322.94995091855526
+    },
+    "per_task_seed_mean": {
+      "G1": {
+        "M1_warm_seconds": 68.02229749628653,
+        "RAW_warm_seconds": 59.64912362893423,
+        "SOURCE_warm_seconds": 3.1812891537944474,
+        "SHORT_warm_seconds": 94.37900823851426,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.9562319436421,
+        "allocated_common_preparation_seconds": 0.11163692228082155,
+        "M1_cold_allocated_seconds": 104.09016636220946,
+        "RAW_cold_allocated_seconds": 95.71699249485715,
+        "SOURCE_cold_allocated_seconds": 39.24915801971737,
+        "SHORT_cold_allocated_seconds": 130.44687710443716,
+        "PARENT_cold_allocated_seconds": 36.067868865922925
+      },
+      "G2": {
+        "M1_warm_seconds": 69.43706625637908,
+        "RAW_warm_seconds": 61.080895427924894,
+        "SOURCE_warm_seconds": 3.1672975110510984,
+        "SHORT_warm_seconds": 95.03018403208505,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.516972686474524,
+        "allocated_common_preparation_seconds": 0.10882744306905402,
+        "M1_cold_allocated_seconds": 105.06286638592267,
+        "RAW_cold_allocated_seconds": 96.70669555746848,
+        "SOURCE_cold_allocated_seconds": 38.793097640594674,
+        "SHORT_cold_allocated_seconds": 130.65598416162862,
+        "PARENT_cold_allocated_seconds": 35.62580012954357
+      },
+      "G3": {
+        "M1_warm_seconds": 66.87538619929303,
+        "RAW_warm_seconds": 58.58960397945096,
+        "SOURCE_warm_seconds": 3.1740832962095737,
+        "SHORT_warm_seconds": 94.82691758622725,
+        "PARENT_warm_seconds": 0.0,
+        "real_parent_seconds": 35.84754099262258,
+        "allocated_common_preparation_seconds": 0.10877365142934853,
+        "M1_cold_allocated_seconds": 102.83170084334495,
+        "RAW_cold_allocated_seconds": 94.54591862350287,
+        "SOURCE_cold_allocated_seconds": 39.130397940261496,
+        "SHORT_cold_allocated_seconds": 130.78323223027917,
+        "PARENT_cold_allocated_seconds": 35.95631464405192
+      }
+    },
+    "task_equal_mean": {
+      "M1_warm_seconds": 68.11158331731956,
+      "RAW_warm_seconds": 59.77320767877003,
+      "SOURCE_warm_seconds": 3.174223320351706,
+      "SHORT_warm_seconds": 94.74536995227551,
+      "PARENT_warm_seconds": 0.0,
+      "real_parent_seconds": 35.773581874246396,
+      "allocated_common_preparation_seconds": 0.1097460055930747,
+      "M1_cold_allocated_seconds": 103.99491119715903,
+      "RAW_cold_allocated_seconds": 95.6565355586095,
+      "SOURCE_cold_allocated_seconds": 39.05755120019118,
+      "SHORT_cold_allocated_seconds": 130.628697832115,
+      "PARENT_cold_allocated_seconds": 35.88332787983947
+    }
+  },
+  "common_recommendations": {
+    "M1": {
+      "G1": "PARENT",
+      "G2": "G3_UP",
+      "G3": "G1_DOWN"
+    },
+    "RAW": {
+      "G1": "PARENT",
+      "G2": "G3_UP",
+      "G3": "G1_DOWN"
+    },
+    "SOURCE": {
+      "G1": "PARENT",
+      "G2": "G3_UP",
+      "G3": "G0_UP"
+    },
+    "SHORT": {
+      "G1": "PARENT",
+      "G2": "G3_UP",
+      "G3": "G1_DOWN"
+    },
+    "PARENT": {
+      "G1": "PARENT",
+      "G2": "PARENT",
+      "G3": "PARENT"
+    }
+  },
+  "budget_gate": true,
+  "identical_recommendation_stop": {
+    "stop": true,
+    "matching_baselines": [
+      "RAW",
+      "SHORT"
+    ]
+  },
+  "eligible_to_label": false,
+  "new_full_trainings": 0,
+  "cumulative": 418,
+  "scientific_accuracy": null,
+  "actual_gain": null,
+  "numerical_audit_status": "PASS",
+  "scientific_gates_evaluated": false,
+  "D_access": false,
+  "test_access": false,
+  "interpretation": "Identical recommendations make this batch's frozen increment over all baselines unreachable. This does not establish general M1 failure or actual M1 versus SHORT gain. These tables contain predictions, not measured child performance."
+}
