@@ -1,0 +1,154 @@
+{
+  "status": "completed_pending_independent_audit",
+  "runs": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "directory": "paths/N1_G1_s2026101701",
+      "parent_update_seconds": 21.08326669689268,
+      "tangent_seconds": 20.541367890313268,
+      "evaluation_write_hash_seconds": 0.32463867776095867,
+      "comparison_seconds": 0.058433142490684986,
+      "diagnostic_write_seconds": 0.08194626681506634,
+      "actual_elapsed_seconds": 42.21844592411071,
+      "method_seconds": 42.07806651480496,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G1",
+      "seed": 2026101702,
+      "directory": "paths/N1_G1_s2026101702",
+      "parent_update_seconds": 21.087832488119602,
+      "tangent_seconds": 20.892915070056915,
+      "evaluation_write_hash_seconds": 0.327120965346694,
+      "comparison_seconds": 0.05825510621070862,
+      "diagnostic_write_seconds": 0.08054500725120306,
+      "actual_elapsed_seconds": 42.573034710250795,
+      "method_seconds": 42.43423459678888,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G1",
+      "seed": 2026101703,
+      "directory": "paths/N1_G1_s2026101703",
+      "parent_update_seconds": 20.77246051002294,
+      "tangent_seconds": 20.314142263494432,
+      "evaluation_write_hash_seconds": 0.3409326830878854,
+      "comparison_seconds": 0.057639773935079575,
+      "diagnostic_write_seconds": 0.08156119287014008,
+      "actual_elapsed_seconds": 41.691424393095076,
+      "method_seconds": 41.552223426289856,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G2",
+      "seed": 2026101701,
+      "directory": "paths/N1_G2_s2026101701",
+      "parent_update_seconds": 20.785373719409108,
+      "tangent_seconds": 20.309466931037605,
+      "evaluation_write_hash_seconds": 0.3395867897197604,
+      "comparison_seconds": 0.05766531638801098,
+      "diagnostic_write_seconds": 0.08037924766540527,
+      "actual_elapsed_seconds": 41.696643302217126,
+      "method_seconds": 41.55859873816371,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G2",
+      "seed": 2026101702,
+      "directory": "paths/N1_G2_s2026101702",
+      "parent_update_seconds": 20.782022193074226,
+      "tangent_seconds": 20.30162150040269,
+      "evaluation_write_hash_seconds": 0.34013676457107067,
+      "comparison_seconds": 0.05750537198036909,
+      "diagnostic_write_seconds": 0.08023200649768114,
+      "actual_elapsed_seconds": 41.68555451184511,
+      "method_seconds": 41.54781713336706,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G2",
+      "seed": 2026101703,
+      "directory": "paths/N1_G2_s2026101703",
+      "parent_update_seconds": 21.801977878436446,
+      "tangent_seconds": 22.575178602710366,
+      "evaluation_write_hash_seconds": 0.3171554896980524,
+      "comparison_seconds": 0.057692233473062515,
+      "diagnostic_write_seconds": 0.08001334592700005,
+      "actual_elapsed_seconds": 44.96475272811949,
+      "method_seconds": 44.82704714871943,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G3",
+      "seed": 2026101701,
+      "directory": "paths/N1_G3_s2026101701",
+      "parent_update_seconds": 20.835520363412797,
+      "tangent_seconds": 20.32128418236971,
+      "evaluation_write_hash_seconds": 0.3162362687289715,
+      "comparison_seconds": 0.05765414144843817,
+      "diagnostic_write_seconds": 0.08180615864694118,
+      "actual_elapsed_seconds": 41.73646911699325,
+      "method_seconds": 41.59700881689787,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G3",
+      "seed": 2026101702,
+      "directory": "paths/N1_G3_s2026101702",
+      "parent_update_seconds": 20.835467183962464,
+      "tangent_seconds": 20.321842467412353,
+      "evaluation_write_hash_seconds": 0.31483082566410303,
+      "comparison_seconds": 0.05757234524935484,
+      "diagnostic_write_seconds": 0.0815723966807127,
+      "actual_elapsed_seconds": 41.73471798468381,
+      "method_seconds": 41.595573242753744,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "directory": "paths/N1_G3_s2026101703",
+      "parent_update_seconds": 21.021537756547332,
+      "tangent_seconds": 20.827234123833477,
+      "evaluation_write_hash_seconds": 0.3446536920964718,
+      "comparison_seconds": 0.057683066464960575,
+      "diagnostic_write_seconds": 0.08138777129352093,
+      "actual_elapsed_seconds": 42.457869603298604,
+      "method_seconds": 42.31879876554012,
+      "boundary": "initialization through result/status/assets hashes; bitexact comparisons and extra witness writes excluded; clock receipt excluded"
+    }
+  ],
+  "preparation_seconds": {
+    "G1": 0.07577827107161283,
+    "G2": 0.00854077935218811,
+    "G3": 0.008863914757966995
+  },
+  "input_verification_seconds": 0.024750884622335434,
+  "costs": [
+    {
+      "task": "G1",
+      "necessary_method_seconds": 126.14855310382943,
+      "M1_seconds": 204.0668924888596,
+      "lower_bound_pass": true
+    },
+    {
+      "task": "G2",
+      "necessary_method_seconds": 127.9502540944765,
+      "M1_seconds": 208.31119876913726,
+      "lower_bound_pass": true
+    },
+    {
+      "task": "G3",
+      "necessary_method_seconds": 125.52849503482382,
+      "M1_seconds": 200.6261585978791,
+      "lower_bound_pass": true
+    }
+  ],
+  "all_cost_lower_bounds_pass": true,
+  "new_full_trainings": 0,
+  "parent_replays": 9,
+  "cumulative_full_trainings": 418,
+  "actual_phase_seconds": 380.88172062765807,
+  "plan_sha256": "c471e6f31b8512d1a14f5e4d3d9fac6a20573bb253e2e4bc816c10c047973c5a"
+}

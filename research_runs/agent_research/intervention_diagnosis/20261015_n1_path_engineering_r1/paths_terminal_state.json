@@ -1,0 +1,32 @@
+{
+  "status": "closed_paths_no_active_study_process",
+  "controls": [
+    {
+      "phase": "preflight",
+      "exit_code": 0,
+      "child_pid": 38694,
+      "supervisor_pid": 38679
+    },
+    {
+      "phase": "paths",
+      "exit_code": 0,
+      "child_pid": 38881,
+      "supervisor_pid": 38878
+    },
+    {
+      "phase": "audit_paths",
+      "exit_code": 0,
+      "child_pid": 39228,
+      "supervisor_pid": 39213
+    }
+  ],
+  "paths": 9,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 418,
+  "FD_started": false,
+  "N2_scientific_started": false,
+  "observed_unix": 1792064760.0441675,
+  "plan_sha256": "c471e6f31b8512d1a14f5e4d3d9fac6a20573bb253e2e4bc816c10c047973c5a",
+  "paths_sha256": "777acdab4551de9f229a6366492f9ac040fda38398060e72b0fd0bb93031f0a2",
+  "paths_audit_sha256": "eec60dcc0d2c5e7ca9610d4b95afb174f184c5fc1e7cdc0f1c33bb8fdf860baf"
+}

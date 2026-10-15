@@ -1,12 +1,12 @@
 {
   "stage": "n1_path_engineering_r1",
   "date": "2026-10-15",
-  "status": "real_batch_preflight_passed_nine_paths_running",
+  "status": "nine_paths_audited_pass_pending_delivery_sync_before_FD",
   "gpu_kernel_checks": "gpu_kernel_checks.json",
   "gpu_kernel_tests_passed": 5,
   "new_full_trainings": 0,
   "cumulative_full_trainings": 418,
-  "parent_tangent_paths_completed": 0,
+  "parent_tangent_paths_completed": 9,
   "finite_difference_trainings_started": false,
   "finite_difference_max_new_full": 16,
   "N2_scientific_execution_enabled": false,
@@ -17,5 +17,11 @@
   "preflight_tangent_array_checks": 324,
   "preflight_maximum_absolute_error": 3.191891195797325e-15,
   "paths_supervisor_pid": 38878,
-  "next": "Finish all nine original-parent tangent replays, independently audit full NumPy trajectories and compare necessary method costs with fixed M1 budgets before any finite differences"
+  "path_audit_supervisor_pid": 39213,
+  "path_audit_status": "PASS",
+  "path_parent_states_verified": 99,
+  "path_tangent_arrays_verified": 297,
+  "path_residual_response_sets_verified": 108,
+  "path_cost_lower_bounds_pass": true,
+  "next": "Publish accepted paths and verify the complete archive/Release; only then register and deploy the predeclared16 finite differences. N2 scientific proposals and old M1 labels stay disabled"
 }

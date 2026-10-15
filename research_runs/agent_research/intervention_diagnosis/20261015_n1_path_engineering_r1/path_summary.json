@@ -1,0 +1,45 @@
+{
+  "status": "independent_path_engineering_passed",
+  "parent_replays": 9,
+  "audit_parent_replays": 9,
+  "saved_parent_states": 99,
+  "tangent_arrays": 297,
+  "residual_and_response_sets": 108,
+  "costs": [
+    {
+      "task": "G1",
+      "necessary_method_seconds": 126.14855310382943,
+      "M1_seconds": 204.0668924888596,
+      "lower_bound_pass": true
+    },
+    {
+      "task": "G2",
+      "necessary_method_seconds": 127.9502540944765,
+      "M1_seconds": 208.31119876913726,
+      "lower_bound_pass": true
+    },
+    {
+      "task": "G3",
+      "necessary_method_seconds": 125.52849503482382,
+      "M1_seconds": 200.6261585978791,
+      "lower_bound_pass": true
+    }
+  ],
+  "maximum_absolute_error": 1.618497003086361e-15,
+  "all_cost_lower_bounds_pass": true,
+  "FD_eligible_pending_publication": true,
+  "N2_scientific_execution_enabled": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 418,
+  "path_actual_phase_seconds": 380.88172062765807,
+  "independent_audit_seconds": 979.2752820439637,
+  "preflight_seconds": 5.324648707173765,
+  "D_access": false,
+  "test_access": false,
+  "sources_sha256": {
+    "plan.json": "c471e6f31b8512d1a14f5e4d3d9fac6a20573bb253e2e4bc816c10c047973c5a",
+    "paths.json": "777acdab4551de9f229a6366492f9ac040fda38398060e72b0fd0bb93031f0a2",
+    "paths_audit.json": "eec60dcc0d2c5e7ca9610d4b95afb174f184c5fc1e7cdc0f1c33bb8fdf860baf",
+    "preflight_audit.json": "dc85ca56bdbec9f8b0ba683488d34fb81c43f089ffcf5367ca8495316d1918ce"
+  }
+}
