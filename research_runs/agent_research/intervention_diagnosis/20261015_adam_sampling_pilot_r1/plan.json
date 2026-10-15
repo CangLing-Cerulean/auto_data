@@ -1,0 +1,134 @@
+{
+  "stage": "adam_sampling_pilot_r1",
+  "output_root": "/root/auto_data_experiments/20261015_adam_sampling_pilot_r1",
+  "seeds": [
+    2026101701,
+    2026101702,
+    2026101703
+  ],
+  "tasks": [
+    {
+      "id": "G1",
+      "partitions": {
+        "A": [
+          0,
+          308
+        ],
+        "B": [
+          308,
+          385
+        ],
+        "C": [
+          385,
+          462
+        ]
+      }
+    },
+    {
+      "id": "G2",
+      "partitions": {
+        "A": [
+          514,
+          822
+        ],
+        "B": [
+          822,
+          899
+        ],
+        "C": [
+          899,
+          976
+        ]
+      }
+    },
+    {
+      "id": "G3",
+      "partitions": {
+        "A": [
+          1028,
+          1336
+        ],
+        "B": [
+          1336,
+          1413
+        ],
+        "C": [
+          1413,
+          1490
+        ]
+      }
+    }
+  ],
+  "training": {
+    "input_length": 32,
+    "prediction_length": 8,
+    "moving_average_kernel": 25,
+    "batch_size": 256,
+    "steps": 3000,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0
+  },
+  "methods": [
+    "adam_risk",
+    "gradient_norm",
+    "geometry"
+  ],
+  "refresh_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500
+  ],
+  "floor_fraction": 0.5,
+  "maximum_new_models": 27,
+  "maximum_parent_replays": 9,
+  "maximum_audit_replays": 9,
+  "preflight_parent_states": 9,
+  "expected_environment": {
+    "python": "3.12.9",
+    "numpy": "2.4.4",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "platform": "Linux"
+  },
+  "gates": {
+    "reference_rtol": 1e-09,
+    "reference_atol": 1e-11,
+    "gain_percent": 1.0,
+    "control_increment_pp": 0.1,
+    "remaining_harm_percent": 0.25,
+    "required_tasks": 2,
+    "maximum_cost_ratio": 1.1
+  },
+  "code_sha256": {
+    "adam_sampling_pilot.py": "df1b713f8e18e8d9dc808f89c6a18bf8d93a1a61c5a6cc3393e302ec46e05428",
+    "audit_adam_sampling_pilot.py": "cf21e8050236569dcc7d7dbb1add26ac04777aaf72e058bc2832c68b549cf79c",
+    "launch_adam_sampling_pilot.py": "617e78b19d431845994faed857c50e6d43473d620067ba813cbb3b5f3344fe97",
+    "register_adam_sampling_pilot.py": "8c2b6c7969430442850312d53f9943c1d6b9f5cbc14ef059d5a94b5340a5374e",
+    "deploy_adam_sampling_pilot.py": "dda6c0ffc514c82d2363f314becd90d99d6f8b1fc9bef5557734febc7aef4c95",
+    "deploy_fourgroup_m1.py": "a2344058d4ff8ade370000025a1208b6c086c01cd2a294072ced68b14a153a9c",
+    "adam_risk_sampling.py": "7bb6ddbea3b3677f3d195937639ed1792bbbb07c1c8b0e6ab13d204c3f6ec89d",
+    "fourgroup_runtime.py": "877034b2d04bcce37e9f3d733a8bb4e0c4a47a1c66984856a723e3e88607f30a",
+    "response_proxy.py": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf",
+    "run_research.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "PROTOCOL.md": "f9cc51c2a3afc2f8d5bb8b9d10ff7722440fac82f051cafa92c8ba5047bcab68",
+    "DECISION_SCOPE.md": "707630b2bd907c60e9c5572c8ea1f9ca60758389f371fbbedeea1f7841e16fc5"
+  },
+  "input_lock_sha256": "cc257a69d3397e233682577336c1b23b0f991e162ac195f5691bc2a101fa6820",
+  "storage_estimate_sha256": "187902aa3a01a07c34f38683b168169111383555505ae33633799a3443fa6209",
+  "input_bundle": {
+    "name": "inputs.tar.gz",
+    "bytes": 5621623,
+    "sha256": "e808cdd65be9efb95c8964b256ada94b8dc3990eb2aae2bb861a922acded0670"
+  },
+  "preflight_min_free_bytes": 570290869,
+  "runtime_min_free_bytes": 268435456,
+  "cumulative_before": 434,
+  "full_training_enabled": true,
+  "B_access": true,
+  "D_access": false,
+  "test_access": false,
+  "failure_action": "end current method; assess analysis-paper evidence, no automatic new candidate"
+}
