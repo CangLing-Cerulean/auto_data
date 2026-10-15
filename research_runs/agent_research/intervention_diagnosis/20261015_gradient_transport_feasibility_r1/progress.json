@@ -1,6 +1,7 @@
 {
   "stage": "gradient_transport_feasibility_r1",
-  "status": "synthetic_operator_and_contribution_review_complete_publication_pending",
+  "status": "synthetic_operator_and_contribution_review_source_publication_verified",
+  "source_commit": "c26319a90645e5256908c28186003c13b04b9d66",
   "algebra_kernel_checks": "PASS",
   "artifact_checks": "PASS",
   "novelty_established": false,
@@ -15,5 +16,5 @@
   "optimizer_updates": 0,
   "real_arrays_accessed": false,
   "submission_ready": false,
-  "next": "Verify publication, then establish a substantive contribution and a concrete new data-decision problem independently of closed batches. Do not expand synthetic fixtures or benchmark sizes."
+  "next": "Establish a substantive contribution and a concrete new data-decision problem independently of closed batches. Do not expand synthetic fixtures or benchmark sizes."
 }
