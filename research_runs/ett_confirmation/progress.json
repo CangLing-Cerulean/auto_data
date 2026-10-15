@@ -1,5 +1,5 @@
 {
-  "status": "data_and_scientific_design_locked_runner_pending",
+  "status": "data_and_scientific_design_locked_and_synced_runner_pending",
   "date": "2026-10-16",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 434,
@@ -9,5 +9,6 @@
   "ETTh2_model_feedback": false,
   "scientific_outcome": null,
   "goal_complete": false,
-  "next": "Implement the fixed shared runner; perform necessary ETTh1 A-only numerical preflight and hardware cost measurement; preserve complete label coverage and sealed ETTh2 until the specified publication lock. No new method candidates or expanded menus."
+  "next": "Implement the fixed shared runner; perform necessary ETTh1 A-only numerical preflight and hardware cost measurement; preserve complete label coverage and sealed ETTh2 until the specified publication lock. No new method candidates or expanded menus.",
+  "source_commit": "cdb11a8b26b90fd7e8e17a25ba28e807ed751e59"
 }
