@@ -1,0 +1,178 @@
+{
+  "stage": "fourgroup_m1_r1",
+  "output_root": "/root/auto_data_experiments/20261015_fourgroup_m1_r1",
+  "design_commit": "899a942730b3c5ad51738596c3cff64846700012",
+  "design_protocol_sha256": "98f7be04d994a904911a32910a3dd9192bcea6191745d218ac8451aa51a71cbf",
+  "design_document_sha256": "68bb2210f80a009496c7335f0e013176f0f4e9d3b4fcc97a64fdf6f1dc4ba0dc",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "input_bundle": {
+    "name": "inputs.tar.gz",
+    "bytes": 20050207,
+    "sha256": "f9b544515fb1005f237c64227787a87231e65eb6f4c22cf032b1154d07704200"
+  },
+  "code_sha256": {
+    "fourgroup_runtime.py": "877034b2d04bcce37e9f3d733a8bb4e0c4a47a1c66984856a723e3e88607f30a",
+    "fourgroup_policy.py": "555cb52694395a14d025f638a0835ee062c0e152e612a78f8dccd789642c0c04",
+    "check_fourgroup_policy.py": "5f02f9e4dc4a34175611f81b5cb0db7e0437847204f06f61abde178fe4a791ff",
+    "run_fourgroup_m1.py": "9344425df41f44c66f9d587ea5f579f75af40b871d7fe0bd7f6ef4eef3fdf2aa",
+    "audit_fourgroup_m1.py": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+    "launch_fourgroup_m1.py": "0260acab52594fdb508b8ec2624a18436c5a6596237fecb6dc4ed24e0d91de32",
+    "register_fourgroup_m1.py": "62750472059153481f85f6566c1ffd46334824c986a0d1bd8a9385bc026c8508",
+    "deploy_fourgroup_m1.py": "a2344058d4ff8ade370000025a1208b6c086c01cd2a294072ced68b14a153a9c",
+    "response_proxy.py": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf",
+    "run_research.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052",
+    "source_dlinear_adapter.py": "ac130c41ba4644120a1965f483272a18afd2d92cb7d5f4abe62f0369a72a315e",
+    "source_quadratic.py": "39cd348ba93408ab510e8c506b0cc85f2f67a16da4b1c07bccc2e7a977516992",
+    "PROTOCOL.md": "9e97f75556f1de165edb6ceb7b8355294a7a58f07d08b38b74e04705f646c2cd"
+  },
+  "seeds": [
+    2026101701,
+    2026101702,
+    2026101703
+  ],
+  "grid": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "actions": [
+    "G0_UP",
+    "G0_DOWN",
+    "G1_UP",
+    "G1_DOWN",
+    "G2_UP",
+    "G2_DOWN",
+    "G3_UP",
+    "G3_DOWN"
+  ],
+  "tasks": [
+    {
+      "id": "G1",
+      "partitions": {
+        "A": [
+          0,
+          308
+        ],
+        "B": [
+          308,
+          385
+        ],
+        "C": [
+          385,
+          462
+        ]
+      }
+    },
+    {
+      "id": "G2",
+      "partitions": {
+        "A": [
+          514,
+          822
+        ],
+        "B": [
+          822,
+          899
+        ],
+        "C": [
+          899,
+          976
+        ]
+      }
+    },
+    {
+      "id": "G3",
+      "partitions": {
+        "A": [
+          1028,
+          1336
+        ],
+        "B": [
+          1336,
+          1413
+        ],
+        "C": [
+          1413,
+          1490
+        ]
+      }
+    }
+  ],
+  "training": {
+    "input_length": 32,
+    "prediction_length": 8,
+    "moving_average_kernel": 25,
+    "batch_size": 256,
+    "steps": 3000,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0
+  },
+  "cumulative_before": 418,
+  "maximum_full_children": 72,
+  "historical_preparation_seconds": 0.7803947292268276,
+  "historical_preparation_scope": "old_ABC_and_D_total_conservatively_allocated_not_reexecuted",
+  "maximum_proxy_children": 72,
+  "maximum_short_children": 72,
+  "N1_N2_enabled": false,
+  "optional_engineering_in_separate_stage": true,
+  "D_access": false,
+  "test_access": false,
+  "scientific_gates": {
+    "methods": [
+      "M1",
+      "RAW",
+      "SOURCE",
+      "SHORT",
+      "PARENT"
+    ],
+    "rho": 0.2,
+    "menu_order": [
+      "G0_UP",
+      "G0_DOWN",
+      "G1_UP",
+      "G1_DOWN",
+      "G2_UP",
+      "G2_DOWN",
+      "G3_UP",
+      "G3_DOWN"
+    ],
+    "direction": "d_g[g]=1; d_g[h_ne_g]=-1/3; UP=+rho*d_g; DOWN=-rho*d_g",
+    "recommendation": "max_three_seed_mean_relative_NMSE_gain_at_least_1_percent_else_PARENT",
+    "short_grid": [
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    "calibration_candidate_cost": "(1+1/8)*max_parent_proxy_seconds+max_identity_scoring_seconds",
+    "short_calibration_factor": 1.25,
+    "short_choice": "minimum_grid_k_with_min_seed_parent_prefix_seconds_at_least_factor_times_candidate_cost",
+    "per_task_seed_actual_cost": "M1_le_SHORT",
+    "full_label_cost_ratio_max": 0.5,
+    "stop_if_any_baseline_matches_all_task_recommendations": true,
+    "mae_ratio_max": 0.8,
+    "mae_absolute_advantage_pp_min": 0.05,
+    "mae_tasks_not_worse_min": 2,
+    "mean_recommendation_advantage_pp_min": 0.1,
+    "task_mean_gain_percent_min": -0.25,
+    "each_seed_recommended_NMAE_degradation_percent_max": 1.0,
+    "max_new_proxy_children": 72,
+    "max_short_runs": 72,
+    "max_new_complete_children": 72
+  },
+  "storage_estimate_sha256": "2c208da1d7520e3da2878bf2c56649285237b2b15d9341b5d34fb6ce637a3e19",
+  "expected_environment": {
+    "python": "3.12.9",
+    "numpy": "2.4.4",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "platform": "Linux"
+  },
+  "preflight_min_free_bytes": 1114477050,
+  "runtime_min_free_bytes": 268435456
+}
