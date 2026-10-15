@@ -1,0 +1,74 @@
+{
+  "status": "FD_numerical_gate_failed",
+  "numerical_gate_pass": false,
+  "derivative_passed": 64,
+  "derivative_total": 96,
+  "two_h_passed": 32,
+  "two_h_total": 48,
+  "directions": [
+    {
+      "direction": 0,
+      "role": "mass_conserving",
+      "derivative_total": 24,
+      "derivative_passed": 16,
+      "derivative_max_normalized_error": 0.05895036863414772,
+      "two_h_total": 12,
+      "two_h_passed": 8,
+      "two_h_max_normalized_error": 0.036581316975565055,
+      "derivative_low_signal_count": 0,
+      "two_h_low_signal_count": 0
+    },
+    {
+      "direction": 1,
+      "role": "mass_conserving",
+      "derivative_total": 24,
+      "derivative_passed": 24,
+      "derivative_max_normalized_error": 0.01371144170509224,
+      "two_h_total": 12,
+      "two_h_passed": 12,
+      "two_h_max_normalized_error": 0.010193228198549334,
+      "derivative_low_signal_count": 0,
+      "two_h_low_signal_count": 0
+    },
+    {
+      "direction": 2,
+      "role": "mass_conserving",
+      "derivative_total": 24,
+      "derivative_passed": 24,
+      "derivative_max_normalized_error": 0.017841043030530943,
+      "two_h_total": 12,
+      "two_h_passed": 12,
+      "two_h_max_normalized_error": 0.015909814780498962,
+      "derivative_low_signal_count": 0,
+      "two_h_low_signal_count": 0
+    },
+    {
+      "direction": 3,
+      "role": "mass_diagnostic",
+      "derivative_total": 24,
+      "derivative_passed": 0,
+      "derivative_max_normalized_error": 0.9145649399621877,
+      "two_h_total": 12,
+      "two_h_passed": 0,
+      "two_h_max_normalized_error": 1.0227129553617105,
+      "derivative_low_signal_count": 0,
+      "two_h_low_signal_count": 0
+    }
+  ],
+  "replayed_states": 112,
+  "replayed_residual_sets": 192,
+  "new_full_trainings": 16,
+  "cumulative_full_trainings": 434,
+  "full_training_seconds": 592.3110386598855,
+  "FD_phase_seconds": 592.3591367211193,
+  "independent_FD_audit_seconds": 592.2683831397444,
+  "old_M1_labels_enabled": false,
+  "N2_scientific_enabled": false,
+  "D_access": false,
+  "test_access": false,
+  "sources_sha256": {
+    "fd_plan.json": "3a6ea18864ce39fc9f63b89ea033f59922256030a298e5cb2bbcfcfda161b156",
+    "fd.json": "5abdaafacbb9a561b907bed08d8cd7ea8be749dff648acc5d6437404f9eb3f4e",
+    "fd_audit.json": "a27f9988a488505f98be6189dc9eb02906191289d809a455fb5ab5c4921ebf30"
+  }
+}

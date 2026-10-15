@@ -1,0 +1,44 @@
+{
+  "status": "closed_FD_no_active_study_process",
+  "controls": [
+    {
+      "phase": "preflight",
+      "exit_code": 0,
+      "child_pid": 38694,
+      "supervisor_pid": 38679
+    },
+    {
+      "phase": "paths",
+      "exit_code": 0,
+      "child_pid": 38881,
+      "supervisor_pid": 38878
+    },
+    {
+      "phase": "audit_paths",
+      "exit_code": 0,
+      "child_pid": 39228,
+      "supervisor_pid": 39213
+    },
+    {
+      "phase": "fd",
+      "exit_code": 0,
+      "child_pid": 40217,
+      "supervisor_pid": 40211
+    },
+    {
+      "phase": "audit_fd",
+      "exit_code": 0,
+      "child_pid": 40656,
+      "supervisor_pid": 40626
+    }
+  ],
+  "new_full_trainings": 16,
+  "cumulative_full_trainings": 434,
+  "numerical_gate_pass": false,
+  "N2_scientific_started": false,
+  "old_M1_labels_started": false,
+  "observed_unix": 1792066630.518892,
+  "fd_plan_sha256": "3a6ea18864ce39fc9f63b89ea033f59922256030a298e5cb2bbcfcfda161b156",
+  "fd_sha256": "5abdaafacbb9a561b907bed08d8cd7ea8be749dff648acc5d6437404f9eb3f4e",
+  "fd_audit_sha256": "a27f9988a488505f98be6189dc9eb02906191289d809a455fb5ab5c4921ebf30"
+}
