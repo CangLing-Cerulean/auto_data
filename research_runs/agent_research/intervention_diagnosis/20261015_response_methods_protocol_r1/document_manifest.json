@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "reviewed_design_not_runtime_freeze",
+  "created_at_utc": "2026-10-15T05:13:11.1229508Z",
+  "documents": [
+    {
+      "path": "README.md",
+      "bytes": 2961,
+      "sha256": "d69fe84c5b7731f9489c10440977ae2f951027a9c080db7ba0fee0ff8d5c7699"
+    },
+    {
+      "path": "ALGORITHM.md",
+      "bytes": 13250,
+      "sha256": "40c84f5b05dbefd347ca130e3473a74e4b9bf99d35a1a1004ee6a3c052a4780e"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 17151,
+      "sha256": "68bb2210f80a009496c7335f0e013176f0f4e9d3b4fcc97a64fdf6f1dc4ba0dc"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 7165,
+      "sha256": "98f7be04d994a904911a32910a3dd9192bcea6191745d218ac8451aa51a71cbf"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 2841,
+      "sha256": "872fd5720cc5d1c43f6f21214cbb06b4bd12e2defbcba5be4a7ade1678c98d57"
+    },
+    {
+      "path": "design_consistency.json",
+      "bytes": 4641,
+      "sha256": "b32ee87aae0074b02f775895284629454ebdd30d92fff246c0f23005c7cae5c6"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 3314,
+      "sha256": "83315e6223ddceb39ab2caa70fbe48126c4a6e2e70526110b2fe0bd31324998c"
+    }
+  ],
+  "excluded_mutable_metadata": [
+    "progress.json",
+    "source_sync_receipt.json",
+    "metadata_sync_receipt.json"
+  ],
+  "execution_enabled": false
+}

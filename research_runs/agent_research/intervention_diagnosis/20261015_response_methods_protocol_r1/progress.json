@@ -1,0 +1,19 @@
+{
+  "stage": "response_methods_protocol_r1",
+  "date": "2026-10-15",
+  "status": "design_complete_not_activated",
+  "primary_method": "M1",
+  "optional_extensions": [
+    "N1",
+    "N2"
+  ],
+  "execution_enabled": false,
+  "new_full_training": 0,
+  "cumulative_full_training": 418,
+  "server_operations": 0,
+  "raw_data_access": false,
+  "model_asset_access": false,
+  "scientific_gates": null,
+  "next": "Implement M1 continuation first; independently validate code, numeric replay, inputs, environment, storage and cost before execution activation; N1/N2 remain optional",
+  "publication_status": "pending"
+}

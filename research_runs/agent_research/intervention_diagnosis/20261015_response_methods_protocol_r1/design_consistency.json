@@ -1,0 +1,192 @@
+{
+  "status": "document_constants_counts_and_float32_menu_checked",
+  "verified_at_utc": "2026-10-15T05:10:29.2468465Z",
+  "checks": [
+    {
+      "check": "execution_disabled",
+      "passed": true
+    },
+    {
+      "check": "M1_primary",
+      "passed": true
+    },
+    {
+      "check": "four_equal_cycle_groups",
+      "passed": true
+    },
+    {
+      "check": "four_equal_window_groups",
+      "passed": true
+    },
+    {
+      "check": "M1_complete_count",
+      "passed": true
+    },
+    {
+      "check": "N1_FD_complete_count",
+      "passed": true
+    },
+    {
+      "check": "N2_complete_count",
+      "passed": true
+    },
+    {
+      "check": "complete_upper_bound",
+      "passed": true
+    },
+    {
+      "check": "SHORT_never_full",
+      "passed": true
+    },
+    {
+      "check": "M1_N2_radius_same",
+      "passed": true
+    },
+    {
+      "check": "optimization_and_numerical_directions_distinguished",
+      "passed": true
+    },
+    {
+      "check": "group_0_sign_-1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_0_sign_1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_1_sign_-1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_1_sign_1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_2_sign_-1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_2_sign_1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_3_sign_-1_actual_mass_radius_ESS",
+      "passed": true
+    },
+    {
+      "check": "group_3_sign_1_actual_mass_radius_ESS",
+      "passed": true
+    }
+  ],
+  "menu_algebra": [
+    {
+      "group": 0,
+      "sign": -1,
+      "actual_float32_weights": [
+        0.800000011920929,
+        1.0666667222976685,
+        1.0666667222976685,
+        1.0666667222976685
+      ],
+      "mean_weight": 1.0000000447034836,
+      "effective_radius": 0.19999998807907104,
+      "actual_ESS_fraction": 0.9868421021673488
+    },
+    {
+      "group": 0,
+      "sign": 1,
+      "actual_float32_weights": [
+        1.2000000476837158,
+        0.9333333373069763,
+        0.9333333373069763,
+        0.9333333373069763
+      ],
+      "mean_weight": 1.0000000149011612,
+      "effective_radius": 0.20000004768371582,
+      "actual_ESS_fraction": 0.9868421013933963
+    },
+    {
+      "group": 1,
+      "sign": -1,
+      "actual_float32_weights": [
+        1.0666667222976685,
+        0.800000011920929,
+        1.0666667222976685,
+        1.0666667222976685
+      ],
+      "mean_weight": 1.0000000447034836,
+      "effective_radius": 0.19999998807907104,
+      "actual_ESS_fraction": 0.9868421021673488
+    },
+    {
+      "group": 1,
+      "sign": 1,
+      "actual_float32_weights": [
+        0.9333333373069763,
+        1.2000000476837158,
+        0.9333333373069763,
+        0.9333333373069763
+      ],
+      "mean_weight": 1.0000000149011612,
+      "effective_radius": 0.20000004768371582,
+      "actual_ESS_fraction": 0.9868421013933963
+    },
+    {
+      "group": 2,
+      "sign": -1,
+      "actual_float32_weights": [
+        1.0666667222976685,
+        1.0666667222976685,
+        0.800000011920929,
+        1.0666667222976685
+      ],
+      "mean_weight": 1.0000000447034836,
+      "effective_radius": 0.19999998807907104,
+      "actual_ESS_fraction": 0.9868421021673488
+    },
+    {
+      "group": 2,
+      "sign": 1,
+      "actual_float32_weights": [
+        0.9333333373069763,
+        0.9333333373069763,
+        1.2000000476837158,
+        0.9333333373069763
+      ],
+      "mean_weight": 1.0000000149011612,
+      "effective_radius": 0.20000004768371582,
+      "actual_ESS_fraction": 0.9868421013933963
+    },
+    {
+      "group": 3,
+      "sign": -1,
+      "actual_float32_weights": [
+        1.0666667222976685,
+        1.0666667222976685,
+        1.0666667222976685,
+        0.800000011920929
+      ],
+      "mean_weight": 1.0000000447034836,
+      "effective_radius": 0.19999998807907104,
+      "actual_ESS_fraction": 0.9868421021673488
+    },
+    {
+      "group": 3,
+      "sign": 1,
+      "actual_float32_weights": [
+        0.9333333373069763,
+        0.9333333373069763,
+        0.9333333373069763,
+        1.2000000476837158
+      ],
+      "mean_weight": 1.0000000149011612,
+      "effective_radius": 0.20000004768371582,
+      "actual_ESS_fraction": 0.9868421013933963
+    }
+  ],
+  "protocol_sha256": "98f7be04d994a904911a32910a3dd9192bcea6191745d218ac8451aa51a71cbf",
+  "scientific_validation": false,
+  "training_runs": 0,
+  "note": "Written design checks only; no model, solver, dataset or server execution."
+}

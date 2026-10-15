@@ -1,0 +1,67 @@
+{
+  "status": "design_sources_only_not_runtime_asset_lock",
+  "date": "2026-10-15",
+  "parent_repository_commit": "059836763a325c2fb38c221628b20b764c4fb69a",
+  "user_material": {
+    "description": "User supplied mathematical proposals M1 and N1 through N5",
+    "bytes": 51786,
+    "sha256": "f4239036173d3c0859ab31998117a56279d6cd0edb8d0df286d8f50f7e8ccf39",
+    "attachment_content_published": false
+  },
+  "user_scope": "Prepare implementable algorithms and experimental protocols; retain M1 as mainline, new ideas are supplementary",
+  "sources": [
+    {
+      "path": "scripts/response_proxy.py",
+      "bytes": 4124,
+      "sha256": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf"
+    },
+    {
+      "path": "scripts/run_weighted_response.py",
+      "bytes": 8478,
+      "sha256": "b33b91bb4c9271e214cfe2513e47f4a6070a2045eb68c4d0698a93d8a3188430"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_design_r1/REPORT.md",
+      "bytes": 16392,
+      "sha256": "74926440300ffa0e4a36476ec6147812ecd0e936f4d1a319bbb358fddf79da63"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261013_proxy_selection_r1/PROTOCOL.md",
+      "bytes": 6261,
+      "sha256": "0c495e33df69a65892031cd4b86b2afb67c3e151053fef81026b663cb900c427"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
+      "bytes": 6394,
+      "sha256": "a05e99f5d3e6c5fa12739e93f1dc6ee3eecfaccc103102edc18783380bc27101"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_weighted_response_r1/plan.json",
+      "bytes": 134698,
+      "sha256": "4f6bdfc7d08f779192fa7fb97f4688e1974533b33e9ab25e49cf0282dffa194f"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_weighted_response_r1/REPORT.md",
+      "bytes": 5507,
+      "sha256": "a1c348d1cc7e6439472e3e03d7e2b5b0583838434fc8335f07b4aeeadee37c28"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_file_transfer_r1/CLAIM_CLOSURE.md",
+      "bytes": 5785,
+      "sha256": "2747b091106be22ea4c084a5856086f0a7a1481dc58df2758f5c64df63f79718"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_file_transfer_r1/forecast_sync_receipt.json",
+      "bytes": 1431,
+      "sha256": "8281d2b55e090a4ea3e6492e3701db7b7786f8be584988c7ac873e3d5f0efe4a"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_file_transfer_r1/forecast_metadata_sync_receipt.json",
+      "bytes": 409,
+      "sha256": "b94254e1143de8b6faeae2d562b97b91ae14299367a82319463602da6c3e9abf"
+    }
+  ],
+  "raw_training_data_read": false,
+  "model_checkpoints_read": false,
+  "new_training_runs": 0
+}
