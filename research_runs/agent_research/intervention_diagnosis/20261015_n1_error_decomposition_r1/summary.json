@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "analysis": "posthoc_no_rescoring",
+  "summaries": [
+    {
+      "kind": "derivative",
+      "direction": 0,
+      "total": 24,
+      "original_failures": 8,
+      "failures_evaluation_alone_cannot_explain": 8,
+      "evaluation_to_total_norm_ratio_min": 0.002881887526522196,
+      "evaluation_to_total_norm_ratio_max": 0.10623068643673622,
+      "parameter_lower_bound_min": 0.0030894237668015636,
+      "parameter_lower_bound_max": 0.05861831167899777,
+      "channel_error_energy_fraction": [
+        8.961369930604674e-06,
+        0.8575234746651653,
+        5.732940071080963e-05,
+        0.03390170812297017,
+        0.0704320504871803,
+        0.03014250250666423,
+        0.007893199338342975,
+        4.0774109035625e-05
+      ]
+    },
+    {
+      "kind": "derivative",
+      "direction": 1,
+      "total": 24,
+      "original_failures": 0,
+      "failures_evaluation_alone_cannot_explain": 0,
+      "evaluation_to_total_norm_ratio_min": 0.004630674468256908,
+      "evaluation_to_total_norm_ratio_max": 0.14356696296041926,
+      "parameter_lower_bound_min": 0.0012873945478268848,
+      "parameter_lower_bound_max": 0.013582811804138534,
+      "channel_error_energy_fraction": [
+        2.0047068471720545e-05,
+        0.7974019616825062,
+        0.00018781940876320247,
+        0.023994075765179448,
+        0.1246088957049655,
+        0.02181492281010774,
+        0.03187409042564871,
+        9.818713435750917e-05
+      ]
+    },
+    {
+      "kind": "derivative",
+      "direction": 2,
+      "total": 24,
+      "original_failures": 0,
+      "failures_evaluation_alone_cannot_explain": 0,
+      "evaluation_to_total_norm_ratio_min": 0.00461804288281504,
+      "evaluation_to_total_norm_ratio_max": 0.2592023771326031,
+      "parameter_lower_bound_min": 0.0005470686042886348,
+      "parameter_lower_bound_max": 0.017648824453146108,
+      "channel_error_energy_fraction": [
+        2.5264574410128224e-05,
+        0.8111996879795698,
+        0.00016205131533620335,
+        0.06557320750233948,
+        0.06912502841908842,
+        0.045920611904275994,
+        0.007881011302514635,
+        0.00011313700246542692
+      ]
+    },
+    {
+      "kind": "derivative",
+      "direction": 3,
+      "total": 24,
+      "original_failures": 24,
+      "failures_evaluation_alone_cannot_explain": 24,
+      "evaluation_to_total_norm_ratio_min": 0.8828050737107997,
+      "evaluation_to_total_norm_ratio_max": 0.9497690899039405,
+      "parameter_lower_bound_min": 0.022534784831485823,
+      "parameter_lower_bound_max": 0.09067906216610747,
+      "channel_error_energy_fraction": [
+        0.036670025233658234,
+        0.04580749322921335,
+        0.1799151481598534,
+        0.16128499957244666,
+        0.13159098686997792,
+        0.113092251907115,
+        0.13258439941318276,
+        0.1990546956145526
+      ]
+    },
+    {
+      "kind": "two_h",
+      "direction": 0,
+      "total": 12,
+      "original_failures": 4,
+      "failures_evaluation_alone_cannot_explain": 4,
+      "evaluation_to_total_norm_ratio_min": 0.008118660482666136,
+      "evaluation_to_total_norm_ratio_max": 0.05912532396119202,
+      "parameter_lower_bound_min": 0.006545850588087378,
+      "parameter_lower_bound_max": 0.03620972694121272,
+      "channel_error_energy_fraction": [
+        3.097583572147721e-05,
+        0.7266512983529977,
+        0.00018966836112852163,
+        0.11751520633721818,
+        0.11534512394803395,
+        0.038136315511518575,
+        0.0019975183986276875,
+        0.0001338932547539426
+      ]
+    },
+    {
+      "kind": "two_h",
+      "direction": 1,
+      "total": 12,
+      "original_failures": 0,
+      "failures_evaluation_alone_cannot_explain": 0,
+      "evaluation_to_total_norm_ratio_min": 0.010814834910163964,
+      "evaluation_to_total_norm_ratio_max": 0.07856708873810887,
+      "parameter_lower_bound_min": 0.002784012463581037,
+      "parameter_lower_bound_max": 0.010050917619462906,
+      "channel_error_energy_fraction": [
+        5.608739571655296e-05,
+        0.6990736792198017,
+        0.0004797496703564219,
+        0.06160509420508541,
+        0.15068166766718902,
+        0.06811027213439856,
+        0.019743100279403254,
+        0.0002503494280491369
+      ]
+    },
+    {
+      "kind": "two_h",
+      "direction": 2,
+      "total": 12,
+      "original_failures": 0,
+      "failures_evaluation_alone_cannot_explain": 0,
+      "evaluation_to_total_norm_ratio_min": 0.01063109314082394,
+      "evaluation_to_total_norm_ratio_max": 0.07459598551606819,
+      "parameter_lower_bound_min": 0.0025423101529131703,
+      "parameter_lower_bound_max": 0.015695238835879432,
+      "channel_error_energy_fraction": [
+        5.157987149419709e-05,
+        0.6786883681238072,
+        0.0003649419752424115,
+        0.1311662511048458,
+        0.12233530284666172,
+        0.05348108163924151,
+        0.013679965360242494,
+        0.00023250907846472456
+      ]
+    },
+    {
+      "kind": "two_h",
+      "direction": 3,
+      "total": 12,
+      "original_failures": 12,
+      "failures_evaluation_alone_cannot_explain": 12,
+      "evaluation_to_total_norm_ratio_min": 0.88649674159292,
+      "evaluation_to_total_norm_ratio_max": 0.9546919522698964,
+      "parameter_lower_bound_min": 0.038082514772316355,
+      "parameter_lower_bound_max": 0.11608125284868864,
+      "channel_error_energy_fraction": [
+        0.03816716141839581,
+        0.04628691925635682,
+        0.17861749541864383,
+        0.1644190117454958,
+        0.13048363634357849,
+        0.11147873812973273,
+        0.12777782765262397,
+        0.20276921003517256
+      ]
+    }
+  ],
+  "source_sha256": "5b637eb2028994e55369f067f099f12ee860e6e4d5aa3e6276af06d9727814b4",
+  "source_archive_receipt_sha256": "41ad23ab48ae503484c58bd31798f6b714275b5ff612bea4da8ff559f7d74c93",
+  "consumed_assets": 246,
+  "residual_sets_verified": 204,
+  "maximum_decomposition_residual_norm": 3.488875712042774e-18,
+  "seconds": 6.473484295420349,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434,
+  "original_numerical_gate_pass": false,
+  "N1_proposals_enabled": false,
+  "N2_scientific_enabled": false,
+  "old_M1_labels_enabled": false
+}
