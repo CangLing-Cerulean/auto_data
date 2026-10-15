@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "upstream_objects": [
+    {
+      "path": "raw/ETTh1.csv",
+      "upstream_git_blob_verified": true
+    },
+    {
+      "path": "raw/ETTh2.csv",
+      "upstream_git_blob_verified": true
+    },
+    {
+      "path": "UPSTREAM_LICENSE",
+      "upstream_git_blob_verified": true
+    },
+    {
+      "path": "UPSTREAM_README.md",
+      "upstream_git_blob_verified": true
+    }
+  ],
+  "indexed_windows_per_station": 10947,
+  "all_windows_within_partitions": true,
+  "D_windows_generated": 0,
+  "sensor_values_parsed": false,
+  "new_trainings": 0
+}

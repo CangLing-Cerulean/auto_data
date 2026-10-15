@@ -1,0 +1,487 @@
+{
+  "status": "computed_from_disclosed_summaries",
+  "rows": [
+    {
+      "pool": "MetroPT3_historical",
+      "task": "origin_0.6",
+      "nested_view": false,
+      "seed_count": 1,
+      "estimand": "original train-internal future; fixed step 3000",
+      "candidate_count": 29,
+      "candidates": {
+        "T017_prefix60_cluster1": -23.724798829079518,
+        "T018_prefix60_cluster2": -33.93113309956548,
+        "T019_prefix60_cluster3": -16.801185904857064,
+        "T023_prefix60_balanced": 0.5272954890020443,
+        "T024_prefix60_recent": 0.5971573746335945,
+        "T025_prefix60_balanced_recent": 0.7827011115920213,
+        "T026_prefix60_recent_shuffle": 0.7212210692434606,
+        "T045_prefix60_covariate_global": 0.6060829935778389,
+        "T046_prefix60_covariate_state_matched": -0.7477239318695261,
+        "T047_prefix60_covariate_shuffle": 0.41816793422134735,
+        "T052_prefix60_cadence_drop": -16.64989848108922,
+        "T053_prefix60_cadence_soft": -2.3349710767652576,
+        "T054_prefix60_cadence_shuffle": -2.242752146487703,
+        "T057_prefix60_leverage_uncorrected": -0.23559884480433002,
+        "T058_prefix60_leverage_corrected": 0.8672096711922261,
+        "T059_prefix60_leverage_shuffle": 0.5111345626846897,
+        "C100_prefix60_oof_window": -1.1220345079792082,
+        "C101_prefix60_oof_window_shuffle": -0.23767443301543345,
+        "C104_prefix60_bilevel": 0.5283405139658415,
+        "C105_prefix60_bilevel_shuffle": 0.4185460948557651,
+        "C106_prefix60_coverage_core_20261021": -0.06780069512195563,
+        "C107_prefix60_supervised_core_20261021": 0.10092591830158648,
+        "C108_prefix60_coreset_random_20261021": 0.04719214365977997,
+        "C109_prefix60_coverage_core_20261022": 0.04796642132289808,
+        "C110_prefix60_supervised_core_20261022": -0.005779098194369503,
+        "C111_prefix60_coreset_random_20261022": 0.039337523677418496,
+        "C112_prefix60_coverage_core_20261023": 0.1368127253154383,
+        "C113_prefix60_supervised_core_20261023": 0.02300786103889285,
+        "C114_prefix60_coreset_random_20261023": 0.06033559095180996
+      },
+      "candidate_gain_min_percent": -33.93113309956548,
+      "candidate_gain_median_percent": 0.04719214365977997,
+      "candidate_gain_max_percent": 0.8672096711922261,
+      "oracle_action": "T058_prefix60_leverage_corrected",
+      "oracle_gain_percent": 0.8672096711922261,
+      "second_best_gain_percent": 0.7827011115920213,
+      "top_margin_pp": 0.08450855960020487,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": null,
+      "reference_gains_percent": null
+    },
+    {
+      "pool": "MetroPT3_historical",
+      "task": "origin_0.8",
+      "nested_view": false,
+      "seed_count": 1,
+      "estimand": "original train-internal future; fixed step 3000",
+      "candidate_count": 21,
+      "candidates": {
+        "T027_prefix80_balanced_recent": -0.5975562088736508,
+        "T028_prefix80_recent": -1.1328172029632988,
+        "T029_prefix80_recent_shuffle": 0.3142856637267655,
+        "T050_prefix80_balanced": 0.4967733918280204,
+        "T048_prefix80_covariate_global": -2.152744868358525,
+        "T049_prefix80_covariate_shuffle": -1.7590219566616883,
+        "T060_prefix80_leverage_corrected": -0.7037652252943394,
+        "T061_prefix80_leverage_shuffle": -0.5272743528498047,
+        "C120_prefix80_oof_window": -0.11746871644084944,
+        "C121_prefix80_oof_window_shuffle": -0.093566567313208,
+        "C124_prefix80_bilevel": 0.5750781708978914,
+        "C125_prefix80_bilevel_shuffle": 0.51396934800223,
+        "C126_prefix80_coverage_core_20261021": 0.04492290663632437,
+        "C127_prefix80_supervised_core_20261021": 0.14318302929947624,
+        "C128_prefix80_coreset_random_20261021": 0.06930581990152174,
+        "C129_prefix80_coverage_core_20261022": -0.12111036633295491,
+        "C130_prefix80_supervised_core_20261022": -0.07593466336062171,
+        "C131_prefix80_coreset_random_20261022": -0.09631427493086431,
+        "C132_prefix80_coverage_core_20261023": -0.14864272622943098,
+        "C133_prefix80_supervised_core_20261023": 0.033780297691765604,
+        "C134_prefix80_coreset_random_20261023": -0.18442027115403992
+      },
+      "candidate_gain_min_percent": -2.152744868358525,
+      "candidate_gain_median_percent": -0.09631427493086431,
+      "candidate_gain_max_percent": 0.5750781708978914,
+      "oracle_action": "C124_prefix80_bilevel",
+      "oracle_gain_percent": 0.5750781708978914,
+      "second_best_gain_percent": 0.51396934800223,
+      "top_margin_pp": 0.06110882289566133,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": null,
+      "reference_gains_percent": null
+    },
+    {
+      "pool": "SKAB_pilot",
+      "task": "all_windows",
+      "nested_view": false,
+      "seed_count": 1,
+      "estimand": "original global development metric and original selected checkpoint",
+      "candidate_count": 8,
+      "candidates": {
+        "W_UP": -0.11790461908600669,
+        "W_DOWN": 0.07397849109326282,
+        "S_UP": -0.009740115132572669,
+        "S_DOWN": 0.11287219264105586,
+        "CW_UP": -0.05357109639767543,
+        "CW_DOWN": 0.021800240965563766,
+        "CS_UP": 0.027616472119074142,
+        "CS_DOWN": 0.11437990683182964
+      },
+      "candidate_gain_min_percent": -0.11790461908600669,
+      "candidate_gain_median_percent": 0.024708356542318954,
+      "candidate_gain_max_percent": 0.11437990683182964,
+      "oracle_action": "CS_DOWN",
+      "oracle_gain_percent": 0.11437990683182964,
+      "second_best_gain_percent": 0.11287219264105586,
+      "top_margin_pp": 0.001507714190773779,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": {
+        "B0": 0.11437990683182964
+      },
+      "reference_gains_percent": {
+        "B0": 0.0
+      }
+    },
+    {
+      "pool": "Hydraulic_S",
+      "task": "G1",
+      "nested_view": false,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -44.71892170251582,
+        "KEEP_SECOND": -11.786725268594754,
+        "FAVOR_FIRST": 2.333106636090094,
+        "FAVOR_SECOND": -1.6197696193354285
+      },
+      "candidate_gain_min_percent": -44.71892170251582,
+      "candidate_gain_median_percent": -6.7032474439650915,
+      "candidate_gain_max_percent": 2.333106636090094,
+      "oracle_action": "FAVOR_FIRST",
+      "oracle_gain_percent": 2.333106636090094,
+      "second_best_gain_percent": 0.0,
+      "top_margin_pp": 2.333106636090094,
+      "actions_above_one_percent": 1,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0,
+        "RAW": 0.0,
+        "SHORT": 2.333106636090094
+      },
+      "reference_gains_percent": {
+        "M1": 2.333106636090094,
+        "RAW": 2.333106636090094,
+        "SHORT": 0.0
+      }
+    },
+    {
+      "pool": "Hydraulic_W",
+      "task": "G1",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -44.03722957282189,
+        "KEEP_SECOND": -8.396881431990986,
+        "FAVOR_FIRST": 2.2701051775034706,
+        "FAVOR_SECOND": -1.4214648362582167
+      },
+      "candidate_gain_min_percent": -44.03722957282189,
+      "candidate_gain_median_percent": -4.909173134124601,
+      "candidate_gain_max_percent": 2.2701051775034706,
+      "oracle_action": "FAVOR_FIRST",
+      "oracle_gain_percent": 2.2701051775034706,
+      "second_best_gain_percent": 0.0,
+      "top_margin_pp": 2.2701051775034706,
+      "actions_above_one_percent": 1,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0
+      },
+      "reference_gains_percent": {
+        "M1": 2.2701051775034706
+      }
+    },
+    {
+      "pool": "Hydraulic_joint",
+      "task": "G1",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "post-hoc union of S/W; same tasks, seeds and parents",
+      "candidate_count": 8,
+      "candidates": {
+        "S_KEEP_FIRST": -44.71892170251582,
+        "S_KEEP_SECOND": -11.786725268594754,
+        "S_FAVOR_FIRST": 2.333106636090094,
+        "S_FAVOR_SECOND": -1.6197696193354285,
+        "W_KEEP_FIRST": -44.03722957282189,
+        "W_KEEP_SECOND": -8.396881431990986,
+        "W_FAVOR_FIRST": 2.2701051775034706,
+        "W_FAVOR_SECOND": -1.4214648362582167
+      },
+      "candidate_gain_min_percent": -44.71892170251582,
+      "candidate_gain_median_percent": -5.008325525663207,
+      "candidate_gain_max_percent": 2.333106636090094,
+      "oracle_action": "S_FAVOR_FIRST",
+      "oracle_gain_percent": 2.333106636090094,
+      "second_best_gain_percent": 2.2701051775034706,
+      "top_margin_pp": 0.0630014585866232,
+      "actions_above_one_percent": 2,
+      "oracle_minus_reference_pp": {
+        "S_priority": 0.0,
+        "W_priority": 0.0630014585866232
+      },
+      "reference_gains_percent": {
+        "S_priority": 2.333106636090094,
+        "W_priority": 2.2701051775034706
+      }
+    },
+    {
+      "pool": "Hydraulic_S",
+      "task": "G2",
+      "nested_view": false,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -420.36492393489067,
+        "KEEP_SECOND": 52.67528723193613,
+        "FAVOR_FIRST": -40.875012695539525,
+        "FAVOR_SECOND": 28.276695926125143
+      },
+      "candidate_gain_min_percent": -420.36492393489067,
+      "candidate_gain_median_percent": -6.299158384707191,
+      "candidate_gain_max_percent": 52.67528723193613,
+      "oracle_action": "KEEP_SECOND",
+      "oracle_gain_percent": 52.67528723193613,
+      "second_best_gain_percent": 28.276695926125143,
+      "top_margin_pp": 24.39859130581099,
+      "actions_above_one_percent": 2,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0,
+        "RAW": 0.0,
+        "SHORT": 0.0
+      },
+      "reference_gains_percent": {
+        "M1": 52.67528723193613,
+        "RAW": 52.67528723193613,
+        "SHORT": 52.67528723193613
+      }
+    },
+    {
+      "pool": "Hydraulic_W",
+      "task": "G2",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -428.22075582411355,
+        "KEEP_SECOND": 53.79421136515773,
+        "FAVOR_FIRST": -38.07176335919825,
+        "FAVOR_SECOND": 30.018001032132887
+      },
+      "candidate_gain_min_percent": -428.22075582411355,
+      "candidate_gain_median_percent": -4.026881163532682,
+      "candidate_gain_max_percent": 53.79421136515773,
+      "oracle_action": "KEEP_SECOND",
+      "oracle_gain_percent": 53.79421136515773,
+      "second_best_gain_percent": 30.018001032132887,
+      "top_margin_pp": 23.776210333024842,
+      "actions_above_one_percent": 2,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0
+      },
+      "reference_gains_percent": {
+        "M1": 53.79421136515773
+      }
+    },
+    {
+      "pool": "Hydraulic_joint",
+      "task": "G2",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "post-hoc union of S/W; same tasks, seeds and parents",
+      "candidate_count": 8,
+      "candidates": {
+        "S_KEEP_FIRST": -420.36492393489067,
+        "S_KEEP_SECOND": 52.67528723193613,
+        "S_FAVOR_FIRST": -40.875012695539525,
+        "S_FAVOR_SECOND": 28.276695926125143,
+        "W_KEEP_FIRST": -428.22075582411355,
+        "W_KEEP_SECOND": 53.79421136515773,
+        "W_FAVOR_FIRST": -38.07176335919825,
+        "W_FAVOR_SECOND": 30.018001032132887
+      },
+      "candidate_gain_min_percent": -428.22075582411355,
+      "candidate_gain_median_percent": -4.897533716536554,
+      "candidate_gain_max_percent": 53.79421136515773,
+      "oracle_action": "W_KEEP_SECOND",
+      "oracle_gain_percent": 53.79421136515773,
+      "second_best_gain_percent": 52.67528723193613,
+      "top_margin_pp": 1.1189241332215971,
+      "actions_above_one_percent": 4,
+      "oracle_minus_reference_pp": {
+        "S_priority": 1.1189241332215971,
+        "W_priority": 0.0
+      },
+      "reference_gains_percent": {
+        "S_priority": 52.67528723193613,
+        "W_priority": 53.79421136515773
+      }
+    },
+    {
+      "pool": "Hydraulic_S",
+      "task": "G3",
+      "nested_view": false,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -82.76408524115139,
+        "KEEP_SECOND": -100.56095046041798,
+        "FAVOR_FIRST": -22.083434002520775,
+        "FAVOR_SECOND": -15.664341731919144
+      },
+      "candidate_gain_min_percent": -100.56095046041798,
+      "candidate_gain_median_percent": -52.42375962183608,
+      "candidate_gain_max_percent": -15.664341731919144,
+      "oracle_action": "PARENT",
+      "oracle_gain_percent": 0.0,
+      "second_best_gain_percent": -15.664341731919144,
+      "top_margin_pp": 15.664341731919144,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0,
+        "RAW": 22.083434002520775,
+        "SHORT": 0.0
+      },
+      "reference_gains_percent": {
+        "M1": 0.0,
+        "RAW": -22.083434002520775,
+        "SHORT": 0.0
+      }
+    },
+    {
+      "pool": "Hydraulic_W",
+      "task": "G3",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "mean of paired per-seed relative C gains after B selection; one action per task",
+      "candidate_count": 4,
+      "candidates": {
+        "KEEP_FIRST": -65.75265223803429,
+        "KEEP_SECOND": -107.01783924866062,
+        "FAVOR_FIRST": -4.5310687162667636,
+        "FAVOR_SECOND": -14.391867697156759
+      },
+      "candidate_gain_min_percent": -107.01783924866062,
+      "candidate_gain_median_percent": -40.07225996759552,
+      "candidate_gain_max_percent": -4.5310687162667636,
+      "oracle_action": "PARENT",
+      "oracle_gain_percent": 0.0,
+      "second_best_gain_percent": -4.5310687162667636,
+      "top_margin_pp": 4.5310687162667636,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": {
+        "M1": 0.0
+      },
+      "reference_gains_percent": {
+        "M1": 0.0
+      }
+    },
+    {
+      "pool": "Hydraulic_joint",
+      "task": "G3",
+      "nested_view": true,
+      "seed_count": 3,
+      "estimand": "post-hoc union of S/W; same tasks, seeds and parents",
+      "candidate_count": 8,
+      "candidates": {
+        "S_KEEP_FIRST": -82.76408524115139,
+        "S_KEEP_SECOND": -100.56095046041798,
+        "S_FAVOR_FIRST": -22.083434002520775,
+        "S_FAVOR_SECOND": -15.664341731919144,
+        "W_KEEP_FIRST": -65.75265223803429,
+        "W_KEEP_SECOND": -107.01783924866062,
+        "W_FAVOR_FIRST": -4.5310687162667636,
+        "W_FAVOR_SECOND": -14.391867697156759
+      },
+      "candidate_gain_min_percent": -107.01783924866062,
+      "candidate_gain_median_percent": -43.91804312027753,
+      "candidate_gain_max_percent": -4.5310687162667636,
+      "oracle_action": "PARENT",
+      "oracle_gain_percent": 0.0,
+      "second_best_gain_percent": -4.5310687162667636,
+      "top_margin_pp": 4.5310687162667636,
+      "actions_above_one_percent": 0,
+      "oracle_minus_reference_pp": {
+        "S_priority": 0.0,
+        "W_priority": 0.0
+      },
+      "reference_gains_percent": {
+        "S_priority": 0.0,
+        "W_priority": 0.0
+      }
+    }
+  ],
+  "missing": [
+    {
+      "batch": "existing_sources",
+      "tasks": 2,
+      "missing_full_child_labels": 24,
+      "oracle": null
+    },
+    {
+      "batch": "file_transfer",
+      "tasks": 3,
+      "missing_full_child_labels": 69,
+      "oracle": null
+    },
+    {
+      "batch": "fourgroup",
+      "tasks": 3,
+      "missing_full_child_labels": 72,
+      "oracle": null
+    }
+  ],
+  "scope": "three named complete training-data selection pools; not all 434 trainings; transformations, models and diagnostic trajectories excluded",
+  "six_task_descriptive_median_percent": 0.7211439210450588,
+  "primary_task_count": 6,
+  "primary_below_one_percent": 4,
+  "pooling_warning": "heterogeneous, selected and dependent tasks: median is descriptive, not a population estimate or experiment gate",
+  "inputs": {
+    "20261014_intervention_coverage_r1/historical_cohort.csv": {
+      "bytes": 10479,
+      "sha256": "3fad2dda86808e2bbd823b511c89089a6b8ab6f8da4b87b217cf64106116846e"
+    },
+    "20261012_skab_pilot/baseline_result.json": {
+      "bytes": 2253,
+      "sha256": "68862ad0f10a584b248f0832787e7616621cd0bc7091441b01f208bffeac8fd8"
+    },
+    "20261012_skab_pilot/W_UP_result.json": {
+      "bytes": 2257,
+      "sha256": "da82f98811cdc89adbb64fc29cb3b29ebf1d521b2c431228295528284cb93952"
+    },
+    "20261012_skab_pilot/W_DOWN_result.json": {
+      "bytes": 2253,
+      "sha256": "033567015a5ad81b7ab1d142e656bcbd1ff3e2f5233ef21734bbf31785b7289d"
+    },
+    "20261012_skab_pilot/S_UP_result.json": {
+      "bytes": 2253,
+      "sha256": "2fcef4f69597bd219293e5da4fb476cd350ffdaabbfcf348fd9abf4919047997"
+    },
+    "20261012_skab_pilot/S_DOWN_result.json": {
+      "bytes": 2255,
+      "sha256": "17ee2337485e8a2f8de18a7c845e377da109b3d91a1c08f56f3a8844c2cb460e"
+    },
+    "20261012_skab_pilot/CW_UP_result.json": {
+      "bytes": 2255,
+      "sha256": "b48237ac2c69592d3282fb50f38c8c8b88529a9bd0f86bd64564c6289f7dc3e2"
+    },
+    "20261012_skab_pilot/CW_DOWN_result.json": {
+      "bytes": 2251,
+      "sha256": "906d7f1744871558dba17a44c20f8bbcbfd330b85f94297faa50322912fda5ad"
+    },
+    "20261012_skab_pilot/CS_UP_result.json": {
+      "bytes": 2255,
+      "sha256": "fd56cbbacc49ebfb204d596b38c22b918c3df6c49dfb5277eb1a07df064e3e6d"
+    },
+    "20261012_skab_pilot/CS_DOWN_result.json": {
+      "bytes": 2258,
+      "sha256": "4fe798cf1d4fc9952e26a3403b5b4b21147ff0f84e0c9a5c6c51695ec95518fb"
+    },
+    "20261014_weighted_response_r1/paired_seed_records.csv": {
+      "bytes": 6696,
+      "sha256": "f9ef07796dd563f2b4f2042342a94c65cf731bfcd697dd3517ef0ef37b247e60"
+    },
+    "20261015_paper_evidence_r1/metrics.json": {
+      "bytes": 1437,
+      "sha256": "fc8ca1923b474c132a7b47fe6eac09c4488b6a2d7bc21098b51d9dc86162f551"
+    }
+  },
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434,
+  "seconds": 0.046902200003387406
+}

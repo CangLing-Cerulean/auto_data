@@ -1,0 +1,39 @@
+{
+  "status": "PASS_time_and_identity_only",
+  "manifest_sha256": "3a7f619305325f82a63059ed0731d958afed59545d54c63acc2460b595e7e243",
+  "protocol_sha256": "9402d5782d4791243b8d19c81c3f9292fafb1d7f6a719563fd379e089237aab3",
+  "registration_code_sha256": "9fb12b9c19d9f90a2dfb97fcbd362128783b8600f2b255435fdf2f289db5ae81",
+  "indexes": {
+    "ETTh1": {
+      "path": "research_runs/ett_confirmation/ETTh1_windows.csv",
+      "sha256": "72c0837ea07d72c05811dd9ce678f0377507c7a5e95149ad571af1074fcf4750",
+      "counts": {
+        "A": 8449,
+        "B": 1249,
+        "C": 1249
+      },
+      "training_groups": {
+        "EARLY": 4224,
+        "LATE": 4225
+      }
+    },
+    "ETTh2": {
+      "path": "research_runs/ett_confirmation/ETTh2_windows.csv",
+      "sha256": "72c0837ea07d72c05811dd9ce678f0377507c7a5e95149ad571af1074fcf4750",
+      "counts": {
+        "A": 8449,
+        "B": 1249,
+        "C": 1249
+      },
+      "training_groups": {
+        "EARLY": 4224,
+        "LATE": 4225
+      }
+    }
+  },
+  "training_enabled": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 434,
+  "benchmark_reproduction_claim": false,
+  "measurement_values_parsed": false
+}
