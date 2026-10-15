@@ -1,0 +1,172 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,xcolor}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\stage}[1]{\texttt{\small #1}}
+\title{Predicting Training-Data Intervention Responses\\under Finite Stochastic Optimization}
+\author{Working research draft}
+\date{15 October 2026}
+\begin{document}
+\maketitle
+\begin{center}
+\fcolorbox{black!30}{black!3}{\parbox{0.91\linewidth}{\small
+\textbf{Evidence status.} This is a provisional manuscript, not a submission-ready method paper. The available results support a local development finding and reproducible limitations. A distinct methodological contribution, strong reweighting comparisons, and independent-source decision gains remain unestablished. No new training or test evaluation was conducted to prepare this draft.}}
+\end{center}
+\begin{abstract}
+Choosing training-data deletions, weights, or sampling probabilities requires predicting how a finite training procedure will respond. We study this problem with a fixed DLinear forecasting backbone and an anchored full-moment proxy, M1. The target is the response on a development partition after checkpoint selection on a separate partition. In one previously frozen Hydraulic development experiment with three tasks and three seeds, M1 achieved a response mean absolute error of 3.996 percentage points and a mean selected relative NMSE improvement of 18.336\%. Its advantage over a budget-constrained short-training comparator was 0.778 percentage points, arising from one task. These tasks share a source. Matched sampling and loss-weighting experiments show that identical expected gradients can yield materially different finite-training responses, but the observed differences did not change the recommended actions in the separate pools. Subsequent cross-source and four-group batches stopped before full child labels. A path-sensitive extension failed its registered finite-difference gate despite exact trajectory replay. A read-only decomposition shows that measured endpoint evaluation errors alone cannot account for any of the failing comparisons. These findings separate response accuracy, decision value, cost, and numerical credibility, while leaving the requested general method claim open.
+\end{abstract}
+
+\section{Question and scope}
+Our objective is to improve training-data decisions while keeping the prediction model and sensor representation fixed. A useful response estimate must support an action whose realized benefit exceeds a strong alternative at a comparable cost. Lower prediction error by itself does not establish that benefit. Likewise, a reproducible implementation need not be an accurate approximation to the program it models.
+
+This draft consolidates existing development evidence. It does not treat historical tests as unseen, reopen stopped batches, or infer missing labels. All numerical comparisons below concern their recorded development partitions. Hydraulic tasks G1--G3 are not independent datasets. MetroPT3 and SKAB were already exposed during development. An independent-source confirmation of the proposed decision procedure remains incomplete.
+
+\section{A finite-training response target}
+Let $A$ denote training windows, $B$ the checkpoint-selection partition, and $C$ the candidate-response partition. An intervention $a=(p,w)$ specifies sampling probabilities $p_i$ and nonnegative loss weights $w_i$ on $A$. Keeping initialization and registered random seeds fixed, finite Adam training produces $\theta_{a,s,k}$ at checkpoints $k\in\mathcal K$. Define
+\begin{align}
+ k^*_{a,s}&=\operatorname*{arg\,min}_{k\in\mathcal K}L_B(\theta_{a,s,k}),\\
+ R_{a,s}&=100\left(1-\frac{L_C(\theta_{a,s,k^*_{a,s}})}{L_C(\theta_{0,s,k^*_{0,s}})}\right).
+\end{align}
+Ties use the earliest registered checkpoint; $0$ is the unchanged parent. Positive $R$ denotes improvement. The metric $L$ is the frozen normalized mean squared forecasting error. Percentages describe relative NMSE changes; differences between such percentages are reported in percentage points (pp).
+
+The main Hydraulic comparison averages the three seed responses within each task--action cell before calculating MAE over 12 cells. Recommendations are common actions per task, based on the registered aggregate rule, rather than a separate hindsight choice for every seed. Decision regret is the difference between the best eligible action in the registered pool (including the parent) and the chosen action. Zero regret in this finite pool does not imply optimality over arbitrary data interventions.
+
+\subsection{Task construction and controls}
+The Hydraulic development experiment used 32 input steps, eight output steps, eight channels, a moving-average kernel of 25, Adam learning rate $0.001$, batch size 256, and 3000 updates. Checkpoints were recorded every 500 updates. Each task had 6468 training windows from 308 cycles, with two groups of 3234 windows; $B$ and $C$ each had 1617 windows. Seeds were 2026101701--2026101703. The source-level manifests, cycle assignments, scaling rules, and row mappings are part of the archived protocol; window counts do not substitute for those definitions.
+
+The four actions retained only the first group, retained only the second group, assigned three times as much sampling probability to the first group, or assigned three times as much to the second. All original sampling runs used $w_i=1$. Probabilities were $1/3234$ on retained windows for deletion, and $3/(2N)$ versus $1/(2N)$ for favoring, where $N=6468$. Shared random uniform draws do not imply identical sampled indices when probabilities change. Preprocessing was fitted on $A$. Neither $B$ nor $C$ truth was edited to make an intervention appear successful.
+
+\section{The anchored full-moment proxy}
+For the fixed linear forecasting backbone, retain the original branch coordinates. For each channel and forecast horizon, the feature vector consists of 32 seasonal features, a seasonal bias, 32 trend features, and a trend bias. This gives 66 coordinates per block and 4224 parameters overall. The duplicated bias coordinates are retained to match the actual optimizer parameterization.
+
+Let $\mu_i=p_iw_i$. With a fixed batch-size denominator, the expected squared-loss gradient in each block has the form
+\begin{equation}
+ \E[g(\theta)]=\frac{2}{CH}(G_\mu\theta-r_\mu),\quad
+ G_\mu=\sum_i\mu_i\phi_i\phi_i^\top,\quad
+ r_\mu=\sum_i\mu_i\phi_i y_i,
+\end{equation}
+where $C,H$ are the channel and horizon counts. M1 uses these full moments in a deterministic Adam proxy rollout. This rollout is not the expectation of a stochastic Adam trajectory.
+
+At each recorded checkpoint, M1 anchors a proxy difference to the real parent:
+\begin{equation}
+ \widehat\theta_{a,k}=\theta_{0,k}
+       +\widetilde\theta_{a,k}-\widetilde\theta_{0,k}.
+\end{equation}
+The proxy candidate is selected using its $B$ loss and scored on $C$ with the same target convention. RAW uses the unanchored proxy candidate; FIXED retains the parent. SHORT runs the real optimizer under the registered per-candidate allowance. In the main experiment its stepping budget was 14 seconds, with a 15-second total bound per candidate and 60 seconds for four candidates. Budget checks included the registered costs and were separate from accuracy checks.
+
+At a common checkpoint, writing $\epsilon_a=\widetilde\theta_a-\theta_a$ gives
+\begin{equation}
+ \widehat\theta_a-\theta_a=\epsilon_a-\epsilon_0.
+\end{equation}
+This identity motivates paired error cancellation but does not guarantee cancellation, unbiasedness, or correct checkpoint selection. An accurate trajectory approximation at a fixed checkpoint can still select a different $B$ minimum. Any claimed decision improvement must therefore be checked after the complete selection procedure.
+
+\subsection{Identical expected gradients do not identify responses}
+Compare sampling S, with $(p_i,1)$, to uniform sampling W with $(1/N,Np_i)$. The two implementations share $\mu_i$ and the expected gradient at every parameter value. Their batch-gradient distributions can differ. Adam's nonlinear moment updates and finite trajectory can consequently differ; gradient information alone does not establish the magnitude or usefulness of the response difference.
+
+For any proxy forced to output the same scalar $z_j$ for a matched S/W cell $j$, the triangle inequality gives
+\begin{equation}
+ \frac{|z_j-R_{S,j}|+|z_j-R_{W,j}|}{2}
+ \geq \frac{|R_{S,j}-R_{W,j}|}{2}.
+\end{equation}
+The reported lower bound averages this expression over the 12 seed-mean cells. It is an elementary information limitation, not a new theorem or proof that a noise-aware policy has positive decision value.
+
+\section{Observed development evidence}
+\subsection{Main same-source comparison}
+Predictions were locked before 36 full child trainings. The recovered experiment passed checks of 648 states, 1188 residual sets, and 36 moment sets. Its historical transport interruption, initial disk-full audit failure, and unknown interrupted timing remain recorded; recovery does not erase those events. Table~\ref{tab:main} reports the final audited development results.
+
+\begin{table}[ht]
+\centering\small
+\caption{Hydraulic development: three tasks, three seeds, four actions. MAE is calculated on 12 seed-mean response cells. Cost is recorded cold-batch accounting, including common parent costs; it is not a fresh hardware-matched benchmark.}
+\label{tab:main}
+\begin{tabular}{lrrrr}\toprule
+Method & MAE (pp) & Selected gain (\%) & Regret (pp) & Cost (s)\\\midrule
+M1 & 3.995584 & 18.336131 & 0.000000 & 697.973120\\
+RAW & 9.812603 & 10.974987 & 7.361145 & 625.925025\\
+SHORT & 70.061831 & 17.558429 & 0.777702 & 839.252300\\
+FIXED & 68.643605 & 0.000000 & 18.336131 & 325.034389\\\bottomrule
+\end{tabular}
+\end{table}
+
+M1 chose FAVOR\_FIRST on G1, KEEP\_SECOND on G2, and the parent on G3. Their realized seed-mean gains were $2.333107\%$, $52.675287\%$, and $0\%$. SHORT retained the G1 parent and agreed with M1 on G2 and G3. Thus the $0.777702$ pp average advantage over SHORT is precisely the G1 difference divided by three. The large G2 gain was shared by M1, RAW, and SHORT and cannot be credited as M1's incremental contribution. RAW selected a harmful action on G3, with a mean change of $-22.083434\%$.
+
+The original development accuracy, selection, and budget gates passed. This supports a local result under the frozen candidate pool. Three seeds provide within-task replication, but three tasks from one source do not supply a population-level independent-source claim. We do not assign independent-sample confidence intervals by treating windows, checkpoints, or related tasks as independent replications.
+
+\subsection{Retrospective SOURCE adaptation}
+A subsequent comparison adapted SOURCE's approximate-unrolling formula~\cite{source} to the already revealed Hydraulic pool. It used 500-step segments, endpoint parent statistics, a bias-corrected Adam second-moment preconditioner, and full quadratic curvature. It did not reproduce an author-provided Adam implementation or constitute a prospectively equal-budget contest.
+
+The adaptation's response MAE was $50.595983$ pp, with selected mean gain $-24.935907\%$ and harmful choices on two tasks. Recorded cold accounting was $334.596060$ seconds, versus $697.973120$ for M1. These observations concern this fixed adapter and pool only. They do not establish general inferiority of SOURCE. A faithfully specified strong reweighting baseline remains missing.
+
+\subsection{Matched sampling and weighting}
+Thirty-six additional W trainings were paired with the original 36 S trainings. Audits checked 324 states, 72 one-step replays, and 144 selected residual sets. Two cells had W-minus-S response differences exceeding $0.25$ pp in the same direction for all three seeds: G1 KEEP\_SECOND ($3.389844$ pp) and G3 FAVOR\_FIRST ($17.552365$ pp). Both actions remained harmful. Across the 12 cells, no response category, 1\% adoption eligibility, or separate-pool recommendation changed.
+
+M1's shared prediction had S and W MAEs of $3.995584$ and $2.352405$ pp, respectively. Joint MAE was $3.173994$ pp; the paired expected-gradient-only lower bound was $2.506055$ pp. This identifies a response-information limitation in this pool. It does not show a decision deficiency: M1 had zero regret separately in S and W. In a retrospective joint pool, a fixed S-priority tie rule had mean regret $0.372975$ pp and W-priority $0.021000$ pp. W-priority was assessed after outcomes and is not a validated prospective policy. Separate zero-regret results must not be generalized to zero regret in the joint pool.
+
+\subsection{Stopped follow-ups and missing outcomes}
+The MetroPT3/SKAB batch produced 24 forecasts and six full parents. M1, RAW, and SHORT recommended the same actions within each source. MetroPT3 SHORT exceeded its frozen 108-second total allowance, with observed totals of 108.38--108.77 seconds. The batch stopped before the 24 complete child labels and before complete candidate numerical acceptance. Its response MAE and realized decision gains are unknown, rather than zero.
+
+A source-file-isolated SKAB follow-up completed nine full parents and 69 proxy plus 69 SHORT trajectories. Recovery auditing after a shutdown verified 711 states, 2949 residual sets, and 147 moment sets. M1, RAW, and SOURCE selected the same actions on all three tasks. Its registered decision-increment condition was unattainable and the 69 full child labels were not started. File separation within an exposed source does not make it a new source. Its prediction accuracy and realized gains remain unknown.
+
+A later four-group Hydraulic batch produced 72 proxy forecasts, 72 SHORT forecasts, and the registered SOURCE forecasts. Replay audits passed. M1, RAW, and SHORT again selected identical actions on all three tasks. Their registered positive decision-increment condition was therefore unattainable. The 72 full child labels were not started and the batch closed. Neither predicted gains nor replay success can replace those missing labels. These stopped studies are retained in the evidence inventory, not excluded from the narrative as unsuccessful replications.
+
+\section{A path-sensitive extension and its numerical boundary}
+A separate N1 engineering study differentiated a declared smooth mapping of the recorded Adam path. Agreement with independent smooth-map derivatives and cost checks did not validate its approximation to the complete float32 training program. A preregistered finite-difference test used one Hydraulic task and seed, four fixed directions, two step sizes, and six checkpoints. Sixteen full diagnostic trainings completed; replay verified 112 states and 192 B/C residual sets exactly. The test required every normalized comparison to be at most $0.02$.
+
+\begin{table}[ht]
+\centering\small
+\caption{N1 finite-difference gate. Direction 3 diagnoses overall mass; directions 0--2 conserve mass. All comparisons remain in the original score.}
+\begin{tabular}{lrrrr}\toprule
+Direction & Derivative pass & Max. error & Two-step-size pass & Max. error\\\midrule
+0 & 16/24 & 0.058950 & 8/12 & 0.036581\\
+1 & 24/24 & 0.013711 & 12/12 & 0.010193\\
+2 & 24/24 & 0.017841 & 12/12 & 0.015910\\
+3 & 0/24 & 0.914565 & 0/12 & 1.022713\\\midrule
+Total & 64/96 & & 32/48 &\\\bottomrule
+\end{tabular}
+\end{table}
+
+Direction 0 failed at 500 and 1000 updates on both B and C for both step sizes. Direction 3 failed throughout. Therefore the failure cannot be attributed solely to the diagnostic mass direction. No comparison met the protocol's low-signal exclusion criterion. The original gate failed and proposals on this route were disabled; directions, checkpoints, step sizes, denominators, and tolerances were not tuned after failure.
+
+\subsection{Read-only endpoint error decomposition}
+Using only saved checkpoints, let $a$ be the original residual finite difference, $p$ the float32 prediction finite difference, $b$ the float64 projection of the saved parameter difference through fixed float32 features, and $c$ the registered tangent prediction. The exact accounting identity is
+\begin{equation}
+ a-c=(a-p)+(p-b)+(b-c).
+\end{equation}
+Let $e=a-b$ denote the measured endpoint evaluation component and $d$ the original comparison denominator. The reverse triangle inequality gives
+\begin{equation}
+ \frac{\|b-c\|}{d}\geq
+ \frac{\max\{0,\|a-c\|-\|e\|\}}{d}.
+\end{equation}
+The lower bound remained above $0.02$ for all 32 failed derivative comparisons and all 16 failed two-step-size comparisons. The read-only audit verified 246 input assets, 204 residual sets, and all 144 original comparison scores. The maximum vector identity residual was $3.49\times10^{-18}$.
+
+For the eight failed direction-0 derivative comparisons, $\|e\|/\|a-c\|$ ranged from $0.2882\%$ to $1.2041\%$. For direction 3 it ranged from $88.2805\%$ to $94.9769\%$, yet the lower bounds still failed. Norm ratios are not causal fractions: vector cross terms can matter. The decomposition rules out measured endpoint evaluation precision alone as a sufficient explanation. It does not isolate training-rounding effects, nonlinearity, or an implementation defect, and it does not license a repaired gate.
+
+\section{Relationship to prior work and unresolved contribution}
+DLinear supplies the fixed forecasting backbone~\cite{dlinear}; model-architecture improvement is outside the current question. Forward and reverse differentiation through optimization are established approaches~\cite{franceschi}. Path sensitivity itself is therefore not a new principle. Learning to reweight examples using validation-guided meta-gradients is also established~\cite{ren}; a corresponding strong baseline has not yet been evaluated here. SOURCE approximates training-data attribution through unrolling assumptions~\cite{source}; our fixed adapter is a limited comparison, not a substitute for reproducing every relevant variant.
+
+M1's parent anchor, full-moment optimization, and their combination require a fuller novelty analysis before a method contribution can be claimed. The simple error-cancellation and triangle-inequality identities above are explanatory tools. The current evidence is most precise as a study of response prediction and its limits in a fixed setting. We do not equate that narrower finding with completion of the intended method paper.
+
+Repeated use of development outcomes can bias method selection, a general issue emphasized by Cawley and Talbot~\cite{cawley}. Here it limits any claim drawn from the already exposed sources and action pools. An additional honest study must declare its exposure history, estimand, legal candidate set, cost accounting, and stopping rule before evaluation. Rebranding the existing tasks would not create independent confirmation.
+
+\section{Reproducibility and completion requirements}
+The accompanying claim table records what each result supports and what it does not. A generated metrics file and figure are derived from the frozen audit JSON files, whose SHA256 identities are recorded. The manuscript compilation receipt establishes syntax compilation only; it is not a scientific review. Source code, protocols, predictions, audit logs, and failure records remain in their original stage directories and GitHub commits; large checkpoints are linked through the existing Release receipts.
+
+The original main prediction lock was commit \texttt{36e82979a8c9768574ac05c515ab218622395239}. N1's finite-difference executor was locked at \texttt{f0480b0218e65a830aedce1c80af42af0bd8ac01}. The endpoint decomposition is a declared post-hoc diagnosis, not a preregistered scientific prediction. Its results were published at \texttt{dae35d0c40c52c58804fad7d6485d974aa9514c2}. The evidence inventory provides exact relative paths and checksums rather than embedding mutable local machine paths in the paper.
+
+The cumulative project ledger contains 434 completed full trainings, spanning more research than this manuscript. Diagnostic replays are separately accounted and are not added again. This draft adds zero trainings. The isolated D partition and base tests were not accessed for drafting or the endpoint diagnosis; earlier development exposure and the project's previously evaluated test remain recorded.
+
+The following requirements remain open: a specific contribution distinguishable from existing response and reweighting methods; a numerically credible procedure with a plausible decision gap; prospective comparisons against strong reweighting and equal-cost alternatives; multi-seed decision stability beyond the current local result; independent-source confirmation; and ablations that identify why the final method helps. Closed M1 and N1 batches remain closed, and the earlier N2 label prerequisite remains unmet. A new experiment requires a separately justified question and frozen protocol, not a modification chosen to pass a failed study. This working draft makes the available evidence reviewable while leaving these scientific requirements unresolved.
+
+\begin{thebibliography}{9}
+\bibitem{dlinear} A. Zeng, M. Chen, L. Zhang, and Q. Xu. Are Transformers Effective for Time Series Forecasting? \emph{AAAI}, 37(9):11121--11128, 2023. \url{https://doi.org/10.1609/aaai.v37i9.26317}.
+\bibitem{franceschi} L. Franceschi, M. Donini, P. Frasconi, and M. Pontil. Forward and Reverse Gradient-Based Hyperparameter Optimization. \emph{ICML}, PMLR 70:1165--1173, 2017. \url{https://proceedings.mlr.press/v70/franceschi17a.html}.
+\bibitem{ren} M. Ren, W. Zeng, B. Yang, and R. Urtasun. Learning to Reweight Examples for Robust Deep Learning. \emph{ICML}, PMLR 80:4334--4343, 2018. \url{https://proceedings.mlr.press/v80/ren18a.html}.
+\bibitem{source} J. Bae, W. Lin, J. Lorraine, and R. Grosse. Training Data Attribution via Approximate Unrolling. \emph{NeurIPS}, 2024. \href{https://papers.neurips.cc/paper_files/paper/2024/file/7af60ccb99c7a434a0d9d9c1fb00ca94-Paper-Conference.pdf}{Official proceedings paper}.
+\bibitem{cawley} G. C. Cawley and N. L. C. Talbot. On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation. \emph{JMLR}, 11(70):2079--2107, 2010. \url{https://jmlr.org/papers/v11/cawley10a.html}.
+\end{thebibliography}
+\end{document}

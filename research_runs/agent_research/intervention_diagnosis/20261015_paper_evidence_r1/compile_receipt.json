@@ -1,0 +1,25 @@
+{
+  "status": "compiler_timeout_no_success",
+  "source_sha256": "b0f5aecc30e799e5c5fb87434d058d3ea98f68d325d8680d073f843892c02676",
+  "attempts": [
+    {
+      "attempt": 1,
+      "diagnostic": "exec failed: sandbox error: command timed out",
+      "result": "compile-failed",
+      "message": "Compilation timed out"
+    },
+    {
+      "attempt": 2,
+      "result": "busy",
+      "message": "A LaTeX document is already compiling"
+    },
+    {
+      "diagnostic": "exec failed: sandbox error: command timed out",
+      "result": "compile-failed",
+      "message": "Compilation timed out",
+      "attempt": 3
+    }
+  ],
+  "scientific_acceptance": false,
+  "visual_layout_verified": false
+}

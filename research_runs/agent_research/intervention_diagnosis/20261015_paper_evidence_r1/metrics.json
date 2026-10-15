@@ -1,0 +1,63 @@
+{
+  "main_MAE_pp": {
+    "M1": 3.995583658621788,
+    "RAW": 9.812602545019445,
+    "FIXED": 68.6436045375864,
+    "SHORT": 70.06183116443685
+  },
+  "main_mean_selected_gain_percent": {
+    "M1": 18.336131289342074,
+    "RAW": 10.97498662183515,
+    "FIXED": 0.0,
+    "SHORT": 17.558429077312045
+  },
+  "main_task_selected_gain_percent": {
+    "M1": [
+      2.333106636090094,
+      52.67528723193613,
+      0.0
+    ],
+    "RAW": [
+      2.333106636090094,
+      52.67528723193613,
+      -22.083434002520775
+    ],
+    "FIXED": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "SHORT": [
+      0.0,
+      52.67528723193613,
+      0.0
+    ]
+  },
+  "main_cold_accounting_seconds": {
+    "M1": 697.9731197506189,
+    "RAW": 625.9250252628699,
+    "FIXED": 325.0343887768686,
+    "SHORT": 839.2522997921333
+  },
+  "M1_minus_SHORT_pp": 0.7777022120300288,
+  "weighted_MAE_pp": {
+    "M1_S_MAE_pp": 3.9955836586217877,
+    "M1_W_MAE_pp": 2.352404930505346,
+    "M1_joint_MAE_pp": 3.173994294563567,
+    "mean_only_joint_MAE_lower_bound_pp": 2.5060547410471297
+  },
+  "N1_gate_pass": false,
+  "endpoint_diagnosis": {
+    "derivative": {
+      "original_failures": 32,
+      "lower_bound_failures": 32
+    },
+    "two_h": {
+      "original_failures": 16,
+      "lower_bound_failures": 16
+    }
+  },
+  "new_training": 0,
+  "cumulative_full_trainings": 434,
+  "submission_ready": false
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "source_files_hashed": 20,
+  "claim_rows": 10,
+  "checked_numeric_literals": [
+    {
+      "group": "main_MAE_pp",
+      "metric": "M1",
+      "rounded_value": "3.995584"
+    },
+    {
+      "group": "main_MAE_pp",
+      "metric": "RAW",
+      "rounded_value": "9.812603"
+    },
+    {
+      "group": "main_MAE_pp",
+      "metric": "FIXED",
+      "rounded_value": "68.643605"
+    },
+    {
+      "group": "main_MAE_pp",
+      "metric": "SHORT",
+      "rounded_value": "70.061831"
+    },
+    {
+      "group": "main_mean_selected_gain_percent",
+      "metric": "M1",
+      "rounded_value": "18.336131"
+    },
+    {
+      "group": "main_mean_selected_gain_percent",
+      "metric": "RAW",
+      "rounded_value": "10.974987"
+    },
+    {
+      "group": "main_mean_selected_gain_percent",
+      "metric": "FIXED",
+      "rounded_value": "0.000000"
+    },
+    {
+      "group": "main_mean_selected_gain_percent",
+      "metric": "SHORT",
+      "rounded_value": "17.558429"
+    },
+    {
+      "group": "main_cold_accounting_seconds",
+      "metric": "M1",
+      "rounded_value": "697.973120"
+    },
+    {
+      "group": "main_cold_accounting_seconds",
+      "metric": "RAW",
+      "rounded_value": "625.925025"
+    },
+    {
+      "group": "main_cold_accounting_seconds",
+      "metric": "FIXED",
+      "rounded_value": "325.034389"
+    },
+    {
+      "group": "main_cold_accounting_seconds",
+      "metric": "SHORT",
+      "rounded_value": "839.252300"
+    },
+    {
+      "group": "weighted_MAE_pp",
+      "metric": "M1_S_MAE_pp",
+      "rounded_value": "3.995584"
+    },
+    {
+      "group": "weighted_MAE_pp",
+      "metric": "M1_W_MAE_pp",
+      "rounded_value": "2.352405"
+    },
+    {
+      "group": "weighted_MAE_pp",
+      "metric": "M1_joint_MAE_pp",
+      "rounded_value": "3.173994"
+    },
+    {
+      "group": "weighted_MAE_pp",
+      "metric": "mean_only_joint_MAE_lower_bound_pp",
+      "rounded_value": "2.506055"
+    }
+  ],
+  "decision_advantage_identity_verified": true,
+  "all_original_failed_comparisons_fail_endpoint_bound": true,
+  "scope": "Local artifact consistency only; does not rerun scientific audits or certify novelty/layout",
+  "new_training": 0,
+  "D_access": false,
+  "test_access": false
+}
