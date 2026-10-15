@@ -14,4 +14,6 @@
 
 当前仍处于M1开发实验的工程前置。校准发布并核对后执行全部72代理子、72个1000步SHORT和SOURCE预测；完成独立审计及预测发布后，按原成本及三任务同推荐规则决定是否进入72完整子。此时没有候选预测精度、真实收益或新方法结论。
 
-N1/N2的合成核心成果已经单独交付；真实父切线、16条完整差分和N2效果训练未启动。论文仍缺本轮真实选择增量、等成本优势及独立来源确认。大资产归档和阶段同步以calibration_sync_receipt.json及对应Release收据为准。
+N1/N2的合成核心成果已经单独交付；真实父切线、16条完整差分和N2效果训练未启动。论文仍缺本轮真实选择增量、等成本优势及独立来源确认。
+
+校准结果提交cc66a3073ac0b23900dca114db3223dc9e8de6b9已精确核验；760成员、33,831,673字节完整归档已下载逐项验证并发布至[本阶段Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/fourgroup-m1-calibration-20261015)，SHA256为964ad09846685d5f078f92bb6273ee1f9c506bcbbef873bf22b108ad65d903ba。calibration_sync_receipt.json绑定计划、校准、审计与Release。同步完成后已启动预测监督，实际后续状态以progress和control为准。

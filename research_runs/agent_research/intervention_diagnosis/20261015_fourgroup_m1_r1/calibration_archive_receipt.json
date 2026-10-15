@@ -1,0 +1,3823 @@
+{
+  "status": "PASS",
+  "members": [
+    {
+      "path": "CALIBRATION_REPORT.md",
+      "bytes": 2078,
+      "sha256": "d1c9fd946ab40eb5aa4dbb6bbcf8aa777e84dfd0b11e8b5de706ca8613824f95"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 3281,
+      "sha256": "9e97f75556f1de165edb6ceb7b8355294a7a58f07d08b38b74e04705f646c2cd"
+    },
+    {
+      "path": "archive_fourgroup_m1.py",
+      "bytes": 9928,
+      "sha256": "f345ae67ddfaf429ad9e2d88745317e759c26db935b67665c0c15cf43acfd2a3"
+    },
+    {
+      "path": "audit_fourgroup_m1.py",
+      "bytes": 52808,
+      "sha256": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410"
+    },
+    {
+      "path": "calibration.json",
+      "bytes": 456029,
+      "sha256": "fc41bd8539468c80527e091f23b1a4afca80ac0996a30cd282a267bbc0fb5227"
+    },
+    {
+      "path": "calibration.lock",
+      "bytes": 88,
+      "sha256": "d76bcb1b34f6719b0761042c49d6aae65a321f1bb9030cc781ef1592e1e35712"
+    },
+    {
+      "path": "calibration_audit.json",
+      "bytes": 2428,
+      "sha256": "5f478d3023deb16df439795f12aa9e929aed041acd379275b3da38cf6bfd494c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "416e071a549a6578f069608b5e76629b3a11a584a8003e688d33c73baa044767"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 586,
+      "sha256": "a14cbe0d6fa576aff4206d8ba4726ce1b5c0ba6f06806003b788d04c89e4af54"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 676,
+      "sha256": "4e23bfa9baf9084c7a8aadfa8d521acf0ae8ea91966a6768c8951a8f19122172"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "4eb45baed078b86daf7176572ac2481cf315801b6cd67eb3000c50d4a9abccd7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "4620d71c8d2e9e713e068503a81da22199cb9a1b1cca87643f0918b3e321249f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/prefix_500.json",
+      "bytes": 321,
+      "sha256": "8f4c59a0cfaaa43ec0559cc76630c9644db6ee1636caf43668cb854258f8470b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/result.json",
+      "bytes": 15308,
+      "sha256": "9be6126422006cf31978013eb608ccde98e43154a0e504cf0b5082be25f9e982"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/status.json",
+      "bytes": 196,
+      "sha256": "7a32acd8ef40faea6f4bfa08ded5a551b11cfd0a59b53451b4634934626ba735"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "d06ab1152124e46c28273ef2b1988f6bb6268c12adbebc3e0fe06c357bbfffc4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1468,
+      "sha256": "d27535da1413bd89b9baa4ed18c2eebd17a742eef63e06d0a72fce7987253e08"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "ba93980c6ef9dbd7907a9f5dd6ede3509b0ff0e6eade457f66b0f10d3065bb9b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1475,
+      "sha256": "f71745f0f0ea9e2f611d2cd8ede16b8314c8130e73e56db5ea0b2d31f958e4ef"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "caa5dd434d4cfb0afa5c1a85d2fa8468336b486cb252aa492c10a8ba94220f49"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1468,
+      "sha256": "2185e97dc3324e6d820282370527073017406fc660a7260cfe4f6dbf59923c9c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "1fe4575375997b1ba94eb0c14a6c525a27b6a24f9f3c749dc22b4ea492158056"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1477,
+      "sha256": "7038c889148f2a187c71bf03ae02e6e9b90a8990d9c4537b2fd82e969b5a36c9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "5321829c2f7ee7dfa94ddecb4ad74cf2d6d3f5eaf3f847d796bba30a2918413a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1472,
+      "sha256": "1b9f045c73675815b6c7dc9ba6e52c2e59dd6e03f31a6c34318f9fee51c8c415"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "d0ff753b39600611fb3f81a69235d353d2e360cb029fafb5638b1f20c9466172"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1462,
+      "sha256": "1c1acf4d02f717096c68b81c15515a81eafa95b0516fdb51b8ec02c9a805f1b7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/timing.json",
+      "bytes": 476,
+      "sha256": "7e8b449207d1adea3f41701ec9ddfbb959285024fffe3bcbf8117509dcde7cad"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "2e731a35c2b728be24bf609f825deae70cad323d7505a5e528e2dd609ca8e32b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "4f08b79a4edfa3bf9b1e5f59fbf68e96f43961b447e00d04888ab93b0f4d423b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "e7e1ab92c595367c5ea55d1e8bd44d7a3d62a20b45ae57fc145c04e5ee350a76"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 588,
+      "sha256": "56d9b2462ba801fb112def02e69bd82a0679ea682f9f8615d01f48af3ae9dabc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 676,
+      "sha256": "2b6217624ca65405f1a9c03c49bc8427778fadc92eb495c72b84b11f4e9ae55b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "dabbbfc6d945f439fe64d66ab951a4df7398ccfdb4700f27b83ea80d7865c0d5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "23640e24a5e619a892eb9f7068235fa79a80a0e598223409d4c78a8eb734747e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/prefix_500.json",
+      "bytes": 321,
+      "sha256": "7470de96326bd76966628a2ebc11633d44077d36f585bba9970964d8e558becf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/result.json",
+      "bytes": 15318,
+      "sha256": "5c25a6bc6a8de4a910186ec746aee6450f79573da2cff13fceff032271edc961"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/status.json",
+      "bytes": 196,
+      "sha256": "93ad2007988956fb5c66241c92da58bf4b6dc7694104e893676fa9bed784b6fb"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "29811688122910c209b32662d67c9405dfa40acf3a0084ae210692832bae3a69"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1471,
+      "sha256": "bb23f36e54a6aa92a11097b16d04eefb3b112defd45e31d29a163d911981b192"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "199209ad9dc978ddedbaba711db15952200bc8fbee55e209813200cd2a3680f4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1474,
+      "sha256": "da371748097d9de86832795e8f3ac60238d22976ca1ca86d42788f2ee4c290b9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "cdd8fb3ddeacf7a2eb1fb09cadf7b7c93271ff67d1b9ad998d98b5c1283997d8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1472,
+      "sha256": "f415ec66c49ee01bcea8dd533850f9db3141cd3ee5831ba85839307a99d20233"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "bbbd5f57d70b29e2490f5eeb8927e88107f7fa1c522ad0d780f0721c41a3fb16"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1477,
+      "sha256": "631dfd871e17cd841c39cb31d69568763fb999bc40e0fe0bc61da5e583660e01"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "83e5be7399ef0e4e6ff2d9060d61eef8f876d24c1486f6eb5a72869d2752f1d0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1472,
+      "sha256": "61c26c2bf1e86665115de5f09da397a5eb7ac9290faa8daff1b2ac5fa3df4724"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "353970d119843b14a0c3a412f15b0151e8995b8a044f1033e40761794422b895"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1468,
+      "sha256": "6649e7f273c03a31e27727ddaa96903fe36f266a5d2ba75780646b39f5036061"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/timing.json",
+      "bytes": 478,
+      "sha256": "dd46574872e65330cf75cb48ff9645bba106bb916f1cb1187f3c6128106ae89d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "62ae092158f7e3f7e79652814e98c300c6a53ecce146ceeb47fcb39ec3ddf640"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "0c605c072e5b49ab738c169fffe964cc644b200a4babf42b54f7ff74ef099233"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "88d9e6f185f834dba74ff0f3ce023020554b181501a7c006e156b3e6fbd0f250"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 587,
+      "sha256": "7ef81141f485a0ec1b6450f4e890a49a6e489337842aa3ec556f0fdfdb05d054"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 675,
+      "sha256": "eb36668104e76dc286f3877f5e7171b5762a568725bc57575d98c16e47981bb9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "3ff04603e2a62c554c5d9d0ff2a2b80d85cacc0892e35d7aac6da9b0cc303d91"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "fed6c5de34c0086ca0b2142e736af01053c5499ba264d25e9c2710cce54b83d2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/prefix_500.json",
+      "bytes": 321,
+      "sha256": "436d93b0bda4ef642396262e919f143d647adca25e8434de4f6020623071baa9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/result.json",
+      "bytes": 15309,
+      "sha256": "48f7f2974e218f67aabf4ae73b1a21da3b81e2dae3ab3a61909afda6c12c6ca6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/status.json",
+      "bytes": 196,
+      "sha256": "3e0eeb52a5f5c03c91e8f15a40e04af4772715423d2d3ebc797a0a3d4c3d1327"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "276637b5af84e2759a81f438f727807d7983e68d6a887e46a421c47ebebbb6d6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1462,
+      "sha256": "33e263ca53dd705c4f9eb4e0b910839d1237444769b34fa729d0866e03bf7dc2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "76814e760fa6989d1978ac4ffe8b0da6e4507ccd45fb70242c797cb56f48ad7b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1475,
+      "sha256": "005babe14ceb1a9f5be3931f89095620f714faf8d1cc769b9f849ce14528d18a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "881f0aca441856043b5e57e461aef013b5d8c160290dc61e817cab1e81dfd879"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1478,
+      "sha256": "f966bebbe1af0d7f219e988bb791fa53ca5d56ecb2086a3236e8440190f6847d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "2f7cb158bd41f8163abe3985dc7f0845d916978d5c9e7531bde21760253f8907"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1475,
+      "sha256": "70677cee2fcf022e429a18bde26afa2bdae88c7ffb13ea97bfeacc7ccee7ef17"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "32135432ea34504b860478d7ca759c593682198204e656fa6ade906ac0df9180"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1474,
+      "sha256": "1515c82498e32a7a3cf9f638503774190fb96f227d264fec760b484261be5db2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "652e35615ec84bfc6055e0c6b98a97b221fea14a70ee9e7d7efbd2ef503e727d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1474,
+      "sha256": "f0d960c3664466e4fdcadd9124fc64927d87135f6b14f1212f6a640cfbea67ee"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/timing.json",
+      "bytes": 476,
+      "sha256": "4a5dd8ee531264ea019439a356f2db9a727f300d72a5789680dd1d5af257787c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "b2943d57e9fd5ab82a7ee6568d82e3129bb333f983a0fcb423ed005edf8ba6bd"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_full_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "154345a4855660238f70d9789d3a1f8fc0b194462c99b1d3ed13e9564675505e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 586,
+      "sha256": "a58f3b90902a00e683e2c3c01ffa27dce3f3216205fb5ee493210ba0468d9695"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "efe65e95b1a46ba727ca9f42081643328ee346a4df5676e404fac91c5f8c35e8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "a439221cc9bfeccfebbabea3c025ca8aa1001bd612682e38ac8a639253b521e4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "fe304a57087ac50bdb5454e369de6e63ef70ea5899bef45b0ed4ccfd3789a5ab"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "a4961e90c5e01c1dc57607a5c594a67ceea3982bcbe5634d5cfddd83fcb156d0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/prefix_500.json",
+      "bytes": 409,
+      "sha256": "883bb72aad4c4190d0c53651a311fabe29d6c3c4d2f8ddd8336bab11a5aa1147"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/result.json",
+      "bytes": 15298,
+      "sha256": "9a29ecd0305dc38717c3f50950c26323cf86bb606fdcdcd6eb223450422b47fc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/status.json",
+      "bytes": 198,
+      "sha256": "dd4e3a8a28e68f1b0744abf8b95e64ca12405761a30b819f33a70950221e18b6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "fa6f73c05d3dd135bf6506d95615e0181ee1bfcc1cb616d0247a544da5cb5e9f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1471,
+      "sha256": "a78f318c22d4f379f7d212154cd5ee1d404aa9300e2a7e8bc5211e82483c67d9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "2795e74331f6cff8c47d5278469711dfd0e32f9e0b17bb03a4a3e268bf10b94b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1468,
+      "sha256": "b89f6f36981bc86c354ecaa678c8115dc16f68dab632d27e13e5c4f34ecd2ca1"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "185090786218ee6377193607810b1af9b724575d397b2e9fe5248da2f8434e38"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1469,
+      "sha256": "5a97757c09a38689fed05f5c7a70cf341e8a560b8151a13c04ccefa630510f4e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "ba4a41583e51dce53c29a6c4daf4623380f770cc897e3cc21ff606f8c6b7023c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1475,
+      "sha256": "b1e28b5f9c2cbeea98aea4aea59ff7540a375536af2d15f16657dc1f5ea8aee3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "e11cd9a69f7b72bdbf6ad6592b65f08059a8c538cc6d6588ec0a9559abd06b97"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1468,
+      "sha256": "778b5882c79733964a1bb798cb4a64cca81f4c9ef26e51b9675dfbb4004acbc8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "f5a8235d118e0d652520003888fced2e55e47ad27c2429ded863d561a75047c5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1466,
+      "sha256": "30b532e10caf0c7e68b02c10b3126f2c2461ac5f9130116bba4c652b6d63a64e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 475,
+      "sha256": "f8343c2e157a7a6979ed9e2b437554c4d27b10232bc3a5b6cc966538b8245f13"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "62b7b8f19813f5f46810a43d24338abd9e7ee253861d8d8c04c8b9f37971bdf0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "507e869c1e75c535067e16f3b222a4e4abb9980055f4b488d34f0da951257002"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 587,
+      "sha256": "95d6a5a38ec96a942e7ceba1478c9eefceaf2c42ff98858d6344864939cff460"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 673,
+      "sha256": "2447d9486671170223a137fcae4aa3e4c36ba6ab9d3f858304c43cfb0ab3e636"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "699d80411a97ffc70b606ab648169ba5d4eff94ac30a28d4618e85fd6269f0d2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "a80266ba4e2529b4d1eb243d6e5e0a0232355fc1316f763af25078fe733f42fc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "75f62f85e8c419019d598a374c74b473959d7df8ff9e53801c49766b0888f6a4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/prefix_500.json",
+      "bytes": 408,
+      "sha256": "f73c56d3530ba76814f31cf6703f814a512a727e56b4bc95c7974821edd6e42a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/result.json",
+      "bytes": 15299,
+      "sha256": "381ee07bb4baa078577336b2ced35f8218cb953596d8695dcacfa0f6cc4f70c4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/status.json",
+      "bytes": 198,
+      "sha256": "3167d13958d7e106561f79a25c75b022a58868549fb79b18cb1b38391346b357"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "fe56881f63e67ed15bfe966c4008ffb272e95acd5d0c885d14c1a0dc57567d06"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1470,
+      "sha256": "3b9f77c632491d01af8d852d54e172085cee7d7c7d185e200d462c4608880c36"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "713a5fbe4f353b873be5ba22a2e723c5c525f89e20019d81bc9d80598ae87f33"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1465,
+      "sha256": "d59235dee08e4012ec60f407c79982c23efe122e3fd848c4eb9c3ff4b613f9e2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "9f7a01af50a6eb5933c1f17f078c4ea6cd5db8ecadb1eb283c6b76d2419c7b00"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1468,
+      "sha256": "80b32afca16ec05e4ef2d03d66cd0ff4b4ff31a654e10ec0d62462f340f62862"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "6f149abcc82aede29c01c46f378efdc0d56fb59ef903ed888d0bb1b4c034fd99"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1474,
+      "sha256": "a2097fc9bad124552260159a83b5d9810d66ede012febb3c40ee993bdd6d4df7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "a65ccb0e57e130989a615e44c62149a399773740b54ed4a1d9cfe9505c578543"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1476,
+      "sha256": "bf903b62ea089b103f229cc95e2fa5e402d3566d9ccc5f64f9a3fa3ce7b79e62"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "a8b3f846433df8f5fa3717c3a46a67ef2e8c64755ecb3af817d3ab21d07ee761"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1470,
+      "sha256": "04724f14ccbbcb7c4383b643954b39d19ca192e10bd788750c779e1ee80fa1c0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 474,
+      "sha256": "43253690a2e61397d167dd264848c18b6487b51147b2cc961fef217d73e40634"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "e51b30a50a788a8066f9fe3bcbfdbe392b8f77c979cee239037f52d111838b7b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "5f11dfa61ffad85c2bb0f5b41677170a9676eb1c1b3a66436464de44c0513e56"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 587,
+      "sha256": "ed5f8ca6e7e56867b3275e3cc066e1410d2af2fa0de59501fda28b15489609d9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "5d72bd8c66f6617772ada8a0633d75e7677e8a8a19a632ff2f7809f918841e0b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "80a2a4af452c23902fb559915efbbbbc95d71ea01926fdab788013a8aa7a36a3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "58252f54d6cd622111685954afc553b36a81e629c4305eb7cc398eb3bbde6a39"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 939,
+      "sha256": "400e241febd0626d587d64c3f0b277d204eda2a282b3bebda4f372a38a119d39"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/prefix_500.json",
+      "bytes": 409,
+      "sha256": "41fab0ed363bf974140573b57f1df6ba9eefbe2803ddf5639a253dbd7492076f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/result.json",
+      "bytes": 15312,
+      "sha256": "6ee3857c853c7d7aa3aec40eae41a7d8d67dc6d8464abb9e56493ef2b5dd6955"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/status.json",
+      "bytes": 198,
+      "sha256": "88cae2dfa484492f3bb6e75de8d1c5f18a7906ea3c3d8c1f9774cc807bb5cc1f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "499dd63e13958475ae8106abcee8d428dfe4a30c2412e18a17fb964586dc7bad"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1470,
+      "sha256": "da5e427d7919bab5b90bf4701e8e1fc0886aab915aab54224f7fd64cb5d52fc4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "06fc805445ad0e1a2e811d6173ceff962ffd617367272679d551293c561161d6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1473,
+      "sha256": "c0d6863c1270f70215043ac9cb47f01113e460a67213ed5cda72828db169ff83"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "b9a578a03a544b80fc4ea0f3fafacbbb77f24956579de2154a21a30d774ad4fc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1471,
+      "sha256": "ff0ee98c8abf32999851e932ca9d5644cd21ec32983b986e574c4d71e6ccf909"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "3b2922e891d53b1fcaf6c0e80b728c80dabab6e94336b80b6ebefeef715c27f7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1471,
+      "sha256": "63758f284e6e4e8239069829c817ceb33b7a4e17c6440b5c862380570a2e9fce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "628384807e1d73d83b8763d259972f9da310c8c5340c43810ab5e30624fb8443"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1475,
+      "sha256": "1d75de17f4e3226b4b467264f5510b9e638132d7cd0fe0d353d244865f6e59a5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "84ec19bd3c9bd67ac4d8c8178ec6c985ec11de30ab0d88ec74ff24a0221482c0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1470,
+      "sha256": "ff656603bf790716a10e1454f947ef547b77b820f0bef6f6fef06ecc31a2d35e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 474,
+      "sha256": "45e1323a8bbe51e331bc7fedf56f9dbe4b5e72cde894de4efa6323bf25d7969a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "0cc46204d833f03bd0dd8c8c7214c3f1ff186e5aabe2c3aaaa2b8fdc780f53a0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G1_proxy_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "b4f8c167592aebc1da4d91354696f585208eaed94d007d18441971b83d1ee429"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "91e77cb407f07076bccf3da29269db8fcc9584bd383129121d5a46f5828bc36d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 587,
+      "sha256": "54213afcd6a61068cc2bfe6dfedeed540ed3b7f4aa84e431c57c650e5f28822f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 676,
+      "sha256": "383281fcd2ff978b558ab1e7fcea01ead9847b54ba4e40e9135d17f8a7c44c52"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "a751749dbcfe93cd3f6a2d27721c21eca3ca46ae05aebcf422e2d846cb5279c6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 852,
+      "sha256": "4c58fe68db6d4388e8c39b18ef7d56098f2761be669ecfbfaf05efe92a9f956a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/prefix_500.json",
+      "bytes": 322,
+      "sha256": "d81935f73ff890855136ed553d8d96654a84c28e0af7640ea6460d603a6100bc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/result.json",
+      "bytes": 15481,
+      "sha256": "918cb65bca589b5f121e07b596459d0a8c4df8873de64f033dce1942d55e4d53"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/status.json",
+      "bytes": 196,
+      "sha256": "3c232d6177051c65d5f44fc43a88fc2f45f5a67409151cc67369a1576f6e41ca"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "a085e5e9d2d0380f8080d7ca249493c4d549558316ea478a15fdb7caa88b8a8d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1496,
+      "sha256": "ceab4047903ede46a145b394b2c0bf3584e4738c7e586a6358d1bb76529096c4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "cde7eee542cd267d14fd3c75a8a748ea860c6b8fe1d8914ab80970de6adbb766"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1489,
+      "sha256": "9d231e08326746e2a2d519bec0db0e4bb51543e9cdaba5d8cf1a46622a8db8a0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "c6f3b44da70d8bfbed5f17fbf91963d9887ec0718c6e038c43a466c3477b9345"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1494,
+      "sha256": "491a9848de616621310d942a1db5772202b01f32756d431153e725416eb5cab7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "9ea4c3f434b2107b1341932918df14c605398297c01c297122150c9c81969115"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1499,
+      "sha256": "cd42cd8114086770a247d198ec97a8ab2d8a27b8af5972915620c26ccba5072a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "af96a1ea51768903ff2dba85e0d34240e44e8ef6a68227301f0a61f539031552"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1497,
+      "sha256": "ab53f37d7d5fb8b20b6cdd1de91ef2189e157f27480fde3cf335b577b403f954"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "65a8a68ce14149759d5d5b18462f83235949dec7ead72e7fb07e9d9a300a05e5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1499,
+      "sha256": "e8ccdb61ccc899c0cfc612628d60c3f52331413a1476063898c82ed9bfab866a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/timing.json",
+      "bytes": 480,
+      "sha256": "27a4f9a2cdb85288fd7e65af9572dd7785816421efe2ef86f1b45687e95b39db"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "387b64f3ee2b2b8f3b045236c4e66e469ec64b3dfd177e68fa0a9a1dd9c5bdb9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "dbfb2191bf85ae9dc1a33bf1dc84ec96089a32146465de2c132fc42bdfcc750e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "26e10b680a8cafc0738739ff9800d71a528aa785569bf8908ca7287d35d3e88f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 588,
+      "sha256": "402077c6a84c9daa1c3b2b33c787c94c73c604c3c2ee6fcb46e928caf368a2a6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 675,
+      "sha256": "9d5722e86e6b223673ef35c5dd8bf913e62e16f88fb83b0476bc39a8ade1089f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "eee042bae41b1d8f98adf2319ea36c30c54cb3369aa810b0dc0499bfed0ddbae"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 850,
+      "sha256": "12d51be71aa7850287a3c19d4f3f4af8f49ecd2af915c69733ade8cab837fafa"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/prefix_500.json",
+      "bytes": 322,
+      "sha256": "af4a9e669b89f945c2aa65bebf8941e86627d1b740ad99dc5ac93146f02257b6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/result.json",
+      "bytes": 15480,
+      "sha256": "84f8e422b2f501e47024218b8d988d92ecb85b67c08a53bc85f165dfc2bbe5e6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/status.json",
+      "bytes": 196,
+      "sha256": "e29dc2e3d4fb5e65283a76f7fdf72a698317203b3a2990320aa05bb9615bd957"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "2f8e321918ce2844de62c4c7c4a3797e9205d45301e6074802f862771c54f520"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1496,
+      "sha256": "035a97ee9e6581b8516f1ff5f3f7d6cf6ebf4d588e830ab220cb627a5029edf2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "a29fca59b2654be129d4f3c1d8f45b11c411fdeeb3778c97787c77d2055b96b8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1499,
+      "sha256": "6b7baa5d2f55f036382c3cbd00a13f0c8218522a1c46e2771201bfb3b727c30b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "3d894a8a10fe614fe5961446dbf23f011247f27586e08491ad2fff1ccede1501"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1495,
+      "sha256": "913289da44e872e77d00fa9bcd16c5f0cec1894578f24998c951d66f286afbef"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "7fed4d072faef2f66536ec72100b8f40724b987eff158b7474379b3c77af8874"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1496,
+      "sha256": "a60ea7c28b87c9f3952ccb2fbe3432d1b6ba90b7fd9052de17878eb1ef2a8a89"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "43a3ea4b0e1460d31a704e180d52b81859dbad9fceb7fe95436a36120a9daf41"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1493,
+      "sha256": "335a5698046beaae933841bac0fe8779ab19161b0ded5349d5fce85112239714"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "54e09d8dd69c8ded52d8463ca80f5928245d0bb2b40c24c135ab0a7e8de2b40f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1494,
+      "sha256": "da39ad1f87f7ffd1bea09b1b5b78e9cc3c806e6b83564bce2a8d356fd03622be"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/timing.json",
+      "bytes": 478,
+      "sha256": "7a4e2964bad1fa3395a7fc36ee4cf604afbd7b6cd651d013fbaa57a0e1b8e96f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "85a4b9f5dcb77744e6e881c35650b0afac9be8157a809e763df86587ad122711"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "5a1fbaae215294d29619813b5dde2bcbb48bc7d83ef92d6d60925c94a2172ad3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "aba54e3a451ff9f4e17e2fafa922a73f3b204123238dee432a79d54b09e1d4a3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 588,
+      "sha256": "cc12e8eeea0f4e69d47b163e05fc9c135a0237619f41e608187ada38a240a8b9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 676,
+      "sha256": "ddd4311ccfb69ff57ede56938766733968865168eba2de5d245d1e6239947bb9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "95b6c55ccdb324f09f6aff1a3262ac1f922d58a0ed700366612c6333a81fb339"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "37151962949b18462776d37b1fc024e78a41e71b7c3ac529d59c7f061e7961e2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/prefix_500.json",
+      "bytes": 321,
+      "sha256": "6b5da12f451721d15fcdd8ebb6d47c12d3962919dbcbd64c1a3b5ccdde65134d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/result.json",
+      "bytes": 15492,
+      "sha256": "e0a3e8ecda47fe78bbaa3d13511b7987cd66f83251ceeb391170033f023bc4b5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/status.json",
+      "bytes": 196,
+      "sha256": "45b4dbd34c0d9676d0afc2ba5909f1690fc0ab97293620dd5b16dd9397b50d59"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "b8dff2102c11437f4e9414ba49526d0fa8af0b9cf8f80e0e35074f6b0561bff9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1500,
+      "sha256": "f653b3fca30d3e076368c653056d0e9ee50ea45095a1ecf2c0d83f48fc51b93f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "ff9d904847e03f8cc8fc9df6c716aec2037a55fe89d83846f958633f2a68a1d6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1495,
+      "sha256": "800c9ef97768d2dac9178366e797fd174decdc982ffc6b4c933cfb52651c8927"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "2bde63b6e1c0a323e94271350ad3c2b5cf4670098cb6291c6204a803b9a3dc85"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1496,
+      "sha256": "3b046bec6ce005aa32f54027ae398be5de5e85c8922bf618ebb9072efbd3e2d6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "643aa705adc23f874328540c23dcc083d9265b3aa33a8d12e7228be0dba11c35"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1497,
+      "sha256": "b0d600663fabc75805ab975d01fe0f147f650b2e2056aa2b2e173720d73eba46"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "9d3f3d289ab99baae1328e8f4997e684b9b4876ae4a639262a39d3a0d603efc6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1501,
+      "sha256": "09edc6bbbea95dd59019b5604df97529adf4dcc903227d7d9a1fb4bdcc16f134"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "dcd698dbf8e888a2036a17c77bbbcbd74316414739c1d9efa3df68701058245d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1496,
+      "sha256": "f7b03a6c4ccc893e6b2a542cd409a82352b37d2be4bee7a12164cfd98d1fb034"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/timing.json",
+      "bytes": 475,
+      "sha256": "0e3fc2824908f6ff1b1a544e11357aa7a4ff5d63715f571c1525e2b243f687b7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "0c40c53551d64993dc7fdf80001c7b022722c5c2daab480f1f957da47475da71"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_full_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "995a446a528dd66210c1cb062e54f3741d8bbe73b70664f026ec356e0f2fe6d7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 586,
+      "sha256": "4118a7633ce75f31628dc4a2eba88002e20afa0a30ec9a2fb9cb375580755c65"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "45496aa8824cd957a27dfbc95225047a6c61f5d85820ae93bf4e8426e33bdd31"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "5c630dd950d7f642bd7cefc5918cc9fa185b252d3b1942bb94ad18f9f1def4cf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 849,
+      "sha256": "0c5d67620fc6831848af4cfbd385ebef05d029759a62402e87decd7f3697ae89"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "61879c4432adacf7d0a0af45e55a3888c73bb3488100d7cea34fb7c244b4b349"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/prefix_500.json",
+      "bytes": 408,
+      "sha256": "c57e81ca734ad7f84035d518ae1fd1087e7b36bce302edb4642f4f9b37b80dc3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/result.json",
+      "bytes": 15483,
+      "sha256": "0c83f0fd79ebba3f45f8cb230dc25ca54d29aff953f89cfeb7c652cd954d7466"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/status.json",
+      "bytes": 198,
+      "sha256": "33a8eb7beacf5f81f97bd9c06086d0618762f4018c0c749c11e1af17b8b988a9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "24909bd88eabea7c8db1e8c1d95ec92ab89c4a1dab1fdf08f9ca18b394295580"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1497,
+      "sha256": "b1db6af6fcfb9fee782008d1d211203d0136fa898f323417eed44b4b70a570df"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "726a69dca5a4c3a4a81d198a97185525994c11ff7134874d1bf038bfe1562e6d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1500,
+      "sha256": "fbe9ed2a91080524ac53dbef2b0bb7059fa98376c7898e259fc1c37116a61391"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "dc22e64cc4ae06fd8f5993a136e9d9f3c14486eab9544df79da2dd74557245b5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1494,
+      "sha256": "32e8551a2415eee079a62e83cd7b3d7de0499cb451b415ae97686974eebd7a5e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "bf693b5a36811446ba444d932aa0a3f65be7aaf114d2b331b15fb54fa77213b9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1492,
+      "sha256": "dd710e71995d39fb3c7b98965131d59f006af43d22a4fcd722c2f3f4437ef4f0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "d6499fe17fed11cdeef59a8bd6808928e300275c5b8219b39928d407a87d6281"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1498,
+      "sha256": "b4575fddc2f68848fff913bde61c514401880df0427d26d197e78ed403666acb"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "068a4ed7c5f5a1f2ad5b65d033c56c3dd5fe243f2c14bc691a2d7316000687e3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1496,
+      "sha256": "28fde173e26dd55a8fb3647e8c5edfceafebb0046c6e995fd9cf7e7afd67f40f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 475,
+      "sha256": "38421410ffe3301fa6bbe019f12fc4e2cca3fd9003508a8db6451a21fd21ea48"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "637cf0124805608724338e60d830bf6d99fb6c576a59e71f30bf28ca643c03a9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "3ba287df1ed32f1b8fb1251f844740db3c37b5123043cd86d171920dec06010f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 586,
+      "sha256": "ac0d2088835aafdc5bb0d5d45eb2d6f4d3e405573ab814cb901e707392f19133"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "b9065e470b2ef038881ce3b20ca169bbee8d9026e305f807b10b92855c28916b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "39979cab1be6e2f9fbbb42c6522e6e6c9ba7e16a2f287ec0351b96a0eaef7bef"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "6948bc8d58210506ee8bbb7a650aeaf04d4e9fc625c2a080b62c50bedae54742"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "a4346bdb2dcbbf63806461d34c5bc2fc8219047c0b45b9a16684e36e230fe57f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/prefix_500.json",
+      "bytes": 409,
+      "sha256": "0c102e33c96e96186a6ca261f385c833b3e417a1898d91e6e239efd7633e3e38"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/result.json",
+      "bytes": 15491,
+      "sha256": "7922f5bd0ec5d4117f18a5c87d34846bd738a64d0c635264b18969867d7782bf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/status.json",
+      "bytes": 198,
+      "sha256": "79c839572d74ba1a0aa972d3f686479f926f958014a3728085ce7a0997ee634b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "36230909ff81b46a7f10ef8454cf4c29be184a465b8835516658d409c3f33ac3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1500,
+      "sha256": "869512ddc536df912510e066a58aea5d25139f4f60a7d2010e604dff04a28003"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "1b2b4a42c159fd5d5496f25a8df6f04c9345cc26e3f2b4e8b6367d144ff637ac"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1501,
+      "sha256": "dbb95d6944bba5ce1c17a99485774d41b4584f6da9a6c92a91d8cb90bc662223"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "75ffd04c1f2cc287171b50b76adfe7e199420838a6c365c4a4c29112a6b78091"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1497,
+      "sha256": "43c5d6751b45ae3c07adb0bcddc59244c23bafc7daddc57595318e6bf752f368"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "296588cfc32362d7947228e60510bcf2db58ba19e55452aa3b91fdd7445ac307"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1499,
+      "sha256": "73ecee6e58fa2aba9fdd2aee1db6d1053fb1e1ea55bd5339f2836f0a0d78ff47"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "b908b154649626fa9a250c116aa10d35c7be93b562242ca0c6800d49e1ac7d11"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1494,
+      "sha256": "4efba654b31972a0bf0aaa9d854a61655f47f5935567a2931e08efc4f099c84d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "05027a82be657ffa216a7d7b7e27bf4443715eb826c7d2db616e44d162fb57aa"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1497,
+      "sha256": "7e8cbd7b1d5e83df0c632e5892d3be22aebd177179e5590e716a8f4ce26e69f2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 476,
+      "sha256": "823d6bbbe059f742bfeab1952863b58e6b662fd58249b22d3a4b185eaba44986"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "b99ce8ce41907d67510df9a1452aaf78e75247d4358c7369780979977a37d46f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "4547d0be51c83d176cd0ccecedc29807e05338af855112574f9a14e167c137f6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 586,
+      "sha256": "906502561a98e5f654d95689f3e8c06ed74e740996298e75611988a60d9173b5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "1efa5f671bbd4a3bf07cb08282b448052b7865fd00fbc65ca36185dbb79b4123"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "145d62f84e35b43c070c1711ab81798228e91a4095e640d65ed67abba1c7b4e6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "b15e5a4736fa8f337e92e9833cf448eebadc34fea78e18c58173b2784d851ad1"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "585da2be3db628c8948f85d03c3830fbde6eb280ad584e52dd40270cbb7711e1"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/prefix_500.json",
+      "bytes": 408,
+      "sha256": "530e4e308f0674f79cebcdc506cbb446c89c1d0b93c69d39abb5f4c4275eea1d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/result.json",
+      "bytes": 15470,
+      "sha256": "15f13f9f0b0ec9d0ebd402547d04b15f2f1bde670a7f6a158da4ab197dbca3a3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/status.json",
+      "bytes": 198,
+      "sha256": "26f3983d07b00b68bbd56987a771fc0f68a8a85bf509b3ae986651b6810e9cc3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "b623870d818b68668cd5daebcdb3ef25311905c66d3b4d4c1802aa71700bac39"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1493,
+      "sha256": "8b7755b0ede2b4db0f52477c43ee480757b6650caa97f398dc67e5dd2b4cd769"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "465586198b50026ea96d07b9c10fe9e86816511fd620dedbc204333d97b3056d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1499,
+      "sha256": "5a295fa3d02d5f0d3dd8f5fd00d2d1e8b832ca9e4aa985ff75a45efd9f824eb9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "32d97819a00e1024ff2eae34dc4cf8e91b463fcf019a162ea8d9f6c8c9610c63"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1491,
+      "sha256": "3c68230c9cf0d409a992710aaea6711b1f33ce0389f5180d154390da0a9a1f02"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "7ab48aa99ec57b9f4c76922ad981431913bb3a6ec4b1a97047ba5e02fea6c026"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1499,
+      "sha256": "930d41ac86285181b92b980e53eab5c0ce8068bd5528cba49d035341fcc69950"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "9e43e6078e11d0b4ef47166a7ac808a8589bc660b086df3e4c5612cc6bed4966"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1491,
+      "sha256": "115a83e7bc69f3e9c46b918f5afa169413bd4f4e1c23828657a285be5009d99f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "e3743a7c4499d3c388e37e4c29e0eb0dd2ee474ad48f0d973cc6f4aad4678031"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1496,
+      "sha256": "a34d70b72ce2fe5a3c2c4a7c186adfe5e5e0ad831293549f2b1d9d809dd02be8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 474,
+      "sha256": "3f4c9216f5ba2ec4dbf8ed01d352a8651eac250d8b3e9c8aee19961e281a81a3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "f48ecdaa7b7203be15d89ba1e645192031d89e00f3c946f56e52293e1526dbaa"
+    },
+    {
+      "path": "calibration_runs/FGM1_G2_proxy_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "f906fb178bb36f55faeee78a7036243040a9abc8d34407edb517ef62aaa4e180"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "083f74e19d738d1e3bccdf27cb4b12d88a3b3ac4a78a788db8ab560e43481196"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 588,
+      "sha256": "255c69f539152fa67b82fe0aff3d1ebacc89a97d54912627d6c2b99e95218f7c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 675,
+      "sha256": "dccb2ea7ac4d10de53706bc8e574b067cc7791b76beff60608df19f7bd3c9238"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "03d722738876e34c732300732b8833131b1b1aaba38f569cff1fc2ed853dc6c3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "788f76d83c8f60157d20ffaa9fddcd488a1f99f461a7f2e58a3973177e0566ce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/prefix_500.json",
+      "bytes": 321,
+      "sha256": "7c420413b01561b10dc4cddeb5012398165ef27f4bfe14dd2696d1919b768ef3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/result.json",
+      "bytes": 15237,
+      "sha256": "a45392306f9be6eed97eb9fe2106b4b0a2e80f6a0b1493f051e4eade459c5e69"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/status.json",
+      "bytes": 196,
+      "sha256": "6e578a4ba1fdbb9144e7afadc7c6c3ba6779356977f1de06390d71616a969169"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "06910d7e0f030f6746b8f15e6848cba3440646d687ca9b64222b7eae866aace5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1462,
+      "sha256": "308d5653de5dbdefc47cad03fbe13288b7ece4828f9cea460dfaa7aa9c5b6ecb"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "4e54bff7eae80ce865ed0801aee6617a74453daa6d2c9bc41067d616717aaf51"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1462,
+      "sha256": "746791e2d9eb254f67780400f19040f8ced603600954e8fc490f84f399c87e65"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "adcf11c7211adf56b2c3660f03f224b71c50cbe222da066e9e7862ed01d66a45"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1465,
+      "sha256": "5aa38ff7e5591aa28333f50557c1816b7feb287401628d24658fa8471f67a70a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "dd8b724e31bb6a8858ca60d705af8b4785bb9cc83e64ba4c2de8e40d4788f82e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1462,
+      "sha256": "74c15ca74d0e4ead84c4c65b7e32f05e76ffc1a73f2c7ebf87b06c262f1c0e84"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "fbdac40ddc98637d87fff17ef53f806f5bc1b7f81807b7f6584de64084acb457"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1460,
+      "sha256": "e5f7e2e74eb16b8e22169e462a5388161c1fda002e9fadcb1c6a532a138536e6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "7f1417677951ce69e4a1ac6438517b639934c51ffdc0801b33b1168f8600cf29"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1453,
+      "sha256": "836575181234cb3e8e25277a4b8f772fb7c60992b5881a4b91f655474bcaa9a9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/timing.json",
+      "bytes": 476,
+      "sha256": "92479b2a732855c1578e3e9ee777d5868a0a8fffce32c0126406b245f635d2e3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "d1c9d545ef4241df5a68d54387b2bede620cd5908933428b433e46e5736ee6e0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "3e65757ea6ad76e854e719b1b390b8228f3c9bc28f004cd31b8d5ac7af8ab5c6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 499,
+      "sha256": "c64f90697570e115c8da8b595f73e49ef4a7d5c3d176fee8f95004fb292fd339"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 588,
+      "sha256": "0f8cc28215ff23db7751bcb075fbf02518e55ae133de1911d206f1d33d7f0f84"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 675,
+      "sha256": "3a97ad646256e6a21dc0b1371d2570a0f88888e1f8798a5279810173ed6af59b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "d1d7b89717783a7dfb69fd8cbbfdf91c970086cabcc7314f1c0982bfaaba9d31"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "8bb7dc2b150503c8f8c613fab1075737acd73b7979e651f8e4e6ea0a57be0d08"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/prefix_500.json",
+      "bytes": 321,
+      "sha256": "3706cd67282f7a0ce2474a6554141dc31e8d56f6892c2386252c2d005ce7ed75"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/result.json",
+      "bytes": 15224,
+      "sha256": "a268ec5393e84c7bd957554a5421f68879bf24f277a178b9a0f9c50feecd6380"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/status.json",
+      "bytes": 196,
+      "sha256": "c05a03538e0576efd813270540e808b3bfb6f2579093dad944596ec1f8a34434"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "cfe2fef04953f432b31191d62168ab949fd3627e5aa2c81cf486f09350f4782a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1459,
+      "sha256": "bfb8df7e59e66ac0e9d50cce3cdf75c1e0e97b5e560ba1cabe7fd9c8d9b61c69"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "da44c0a850e970042f0bf71fc0828421e492764eabb74091368c7089815a1f00"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1457,
+      "sha256": "40803addc54e3d202a1776405f2408540e5dc64ade6afe9d23ca7d13b29de924"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "53a919da08b7b62cf001e0af07b5e7d92b63ba59ad90766e424f1714332011b2"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1461,
+      "sha256": "3e9b5f5571144ae62466808f13da0c2141cdac38af4f8d7ce37a11d99aa67080"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "21aa75012b978a7d6f7afcfac2fcfaca9fe70b6bfd4c061ff8463f5c8790f7a5"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1458,
+      "sha256": "e251698d8dfb82269bc6fcd1ef5e15b56210abc97a5fd753287664b9b9264f30"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "77008200a2a5a5fd497492c2dfe82f0297a5e7ed1d3f9b4f3bd276d265919cc6"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1464,
+      "sha256": "dcd96bb8f6a1d029025e02c8989aefac6710160b9673c36858b139e0d9c2673b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "20fe35ed602fdafd5afbf9199b38d3feebd65f7ca51671e972d58acb577ab76a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1453,
+      "sha256": "e708dd8cf6bf3b2daaadd8dfd0f1d835d45ad92778dabba258ce5d75e584fb1d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/timing.json",
+      "bytes": 475,
+      "sha256": "2223d0c3153c5a626567520c92d61321bcdf75c26018253adc9a59344bfd66fd"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "3a292725d2a50d42a971a2d09253f0a324a5c1b55ae4426a7ceef25ec43d3d4c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "527e7a835f4f66425754cf2febd12955855215977b8afb0cc16152b8b7f15c45"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 500,
+      "sha256": "a16d05b257395de3d1e4e70ffb9bed611f9decb032e4ca08c42247a335afbfd9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 587,
+      "sha256": "0c80f817e9c7f1f4695578c849eb834f8f953350abbc3b7c6a7d02c4f86340f9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 676,
+      "sha256": "29f095cb71cb4d10059c4f79001f7addd96721c4cd6252ac240777d50757541c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 764,
+      "sha256": "fccce67db93a18e9f55ff289b1e73d94b1f2079f885742a2a0efb25f00264e1d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 851,
+      "sha256": "90982b44b6c73199a803b1570e8a63a3bc0bb3c61630c9872604ec8bd3439404"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/prefix_500.json",
+      "bytes": 321,
+      "sha256": "fde03e5008d91a6d72e6abd2d85b8e85188065645b4560543672dec16202f611"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/result.json",
+      "bytes": 15237,
+      "sha256": "76c1e7483d93370b8127f1c332ca913f16eec3f3b3054e071111dc256016ea41"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/status.json",
+      "bytes": 196,
+      "sha256": "b3db380a75e07cd4a75919e29fa1af240d3599f7247f22d660d8a38dd8e31e64"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "a38e561a027e6a06b99cd3d1bbb00af2fa2a3718e0f7a91d7e0777200df612d3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1458,
+      "sha256": "2817dbe463f79e2f8bc9ed8956ba575f33a017ecc58e62e093eaaea484340266"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "42db1233fde8d3d97ed665782e001f8485fa168eedc539aea674d14a1260ce1a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1464,
+      "sha256": "ba8471b53e3b49978186e16ae62e331787f1f86fdeab567cead0ceb24b4fab30"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "7dc8bd950a761549f6b085f112c3f0b70197893ca53351273cab82130fe9471a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1460,
+      "sha256": "262595c3ce83acda24e4e7232bad7520919b406d8cbaf79bc7966a7db93a8e5e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "6a4a97926eab8c232985f74fb0a01503c951b26c81b75bfe891aa2ff86e0e4b0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1462,
+      "sha256": "8385f367f11ded5337bc9c9f4cb45bb9811d73b762e12fb9e677940441121b1f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "5f1b0fddd25b95dd2c915f6f58dbefdf1dc6f58df1325d570c82c3d93bf364c3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1462,
+      "sha256": "64af4aa8869b7f61eb8c80231883d693c2bb10a671d37104a7cc228134e3e614"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "e6cd07534e319d1990be04c2764597b7606c43043d1ca1ad4e025e3f0262af76"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1459,
+      "sha256": "a920ae7a1d72e04b78795dfa599226cbc11709bd8b12a1f8a978fb97c7c75b20"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/timing.json",
+      "bytes": 478,
+      "sha256": "320ad29d1b85f7a0067d6fad05a780f933794da2b59b8d66bad2c925222bce38"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "52d8ded58c5cff554abcf5d3241e31769bbe10f58738da4e799aac8a27f2c004"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_full_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "7ef44016a8dec26fee9d256693fb4ec813e23fb2bcf323b21fd6a444f4d36bea"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "ca31d19fcb1eddfbd961a6a7e36023dc85333e5f1dfacae965616a5b5e6a8b5c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_1000.json",
+      "bytes": 587,
+      "sha256": "e37ab8eb1d877cd23a0af74d802a764b170d7c55dabeedb61f83dd20a00e5912"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "4d3a9bb57186f8ab0ba75d33d4a2b5a9f6942c2ce554b3988ab9f8f3f28ff5b9"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "a2f34767ec1dd69eaece1a228e826a3dd4c2344e4df477d2f28278308b269bf4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_2500.json",
+      "bytes": 851,
+      "sha256": "80478728e3f1188ec709c5de75286da4a979a551ef335eb5611f41de0fddd038"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "6b41dcb2dcddde2ba218c0bff8a98de81bb2d9e04f5a3b753f2f584bc2040d84"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/prefix_500.json",
+      "bytes": 409,
+      "sha256": "0484d4452a2fa77a1d9b575305f6c4a34b89d621b33aaee68ae2d9fe1bcbeb69"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/result.json",
+      "bytes": 15238,
+      "sha256": "3ce0fb1e7ad670f1c772c16bca45043ad2d7180a657cde0339376c51dd3dbfaa"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/status.json",
+      "bytes": 198,
+      "sha256": "80bb989437c364d265a8c425f16ec76a6de7d1790f9cdc027ed5266b5b1b6d94"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "f6b0b8f02d4fc847184db86f9e04f6cc94372f89e048f08b96f383b0c69f87d1"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_1000_metrics.json",
+      "bytes": 1460,
+      "sha256": "f66698f4555a889b46bf32da0938c6b04b928207008e38d1a2da1aa0f1cc402a"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "c040f50239c97dec782ff5777d399cd531091a465a9d9a2f3231574cc7da20ef"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_1500_metrics.json",
+      "bytes": 1465,
+      "sha256": "305b8d7b97a6424e67007cefcc2707929fd5eae1da90b9d7b3aa671114f0038f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "cd6e10653dffdcdbbc5728cbb13a8baae315576ade59697c73a08ea05fdaefcf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_2000_metrics.json",
+      "bytes": 1466,
+      "sha256": "a46614903a70c7ba6fd6955a18779e28496481e516f00c90271c42c293f60618"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "c7b78bd695fd6e5788deed9e9ce6793bcd4dd436539b72cc024d870a0c5be83c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_2500_metrics.json",
+      "bytes": 1467,
+      "sha256": "aa393d208fdf0bbc912e20096929f666a992db1048638f791ec85cac42667176"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "3d90b2e9f317c1e58fd87371e7f2985da7d7cac9f4320e2f9ff55c78fbd5d6da"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_3000_metrics.json",
+      "bytes": 1458,
+      "sha256": "5c9abb723814b8eaa19f0bc794c8305090eaecad420f1d2aa006603b00cd72c4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 109753,
+      "sha256": "c92887c8e78cf2bddbd56e7aae92666425206a755b7cc7e91d4096cefda698bf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/step_500_metrics.json",
+      "bytes": 1453,
+      "sha256": "4d0319e4285865a457cde101530bbeeedf9fa73e4d78881ff3b78f613717a9c7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 476,
+      "sha256": "557496e0f53f6431f20fa45bf17d801efbdc6b3e0a11b7704c06981f70d70fe3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "0ffddb6f943df316e317be3fc4cb9a8fa65cd864146e50729f2a3ca1d9f88467"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101701/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "8503f9ced64e935902f980cf0c2d47b6e2df0f2771fd926155797da0129d867d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "442704c9c174583c5fe95d7b96c6233d84c35b700350d9527f01860322a6e910"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_1000.json",
+      "bytes": 587,
+      "sha256": "74df45324ab649c155084171b8b1239ad696312ca3d265d7a0a15f3c41ca05f1"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "e3faf8fbc3a8f74ab86f1be9970a9c1dec0362634fb7253167c51afe4fa60692"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "02b3f29edbd4efe1a3552285dc0def6b8306044465980c19ef14b419c53b4ea0"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_2500.json",
+      "bytes": 850,
+      "sha256": "12cef93ae31d342432529aa4d304cbfc761a5888ce72a6c2acd91c0bdf108c1c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "4a2734dbbaa73fb10ed47b9c0cf77a607c49b84a6b4164ddf1fc128c63e4a925"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/prefix_500.json",
+      "bytes": 408,
+      "sha256": "c4ed4915fd71843f760116353381549bb980a0d95cfef22ab9c8f14a73dff5ce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/result.json",
+      "bytes": 15239,
+      "sha256": "f39410abea33159bc6e51e57389df1bfa962630777ebcf450ee8fe18c49db560"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/status.json",
+      "bytes": 198,
+      "sha256": "766c314f2066062b419e4158aec50f4fa33c0cde4669ca13dba59ac4711ae9a7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "1f4c1d2e9227d49796fbc834b6e172ca36a580d5b8b3011a3449e2e83f0d77a8"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_1000_metrics.json",
+      "bytes": 1460,
+      "sha256": "f016c67393db40810591dff05652b99308ed74d7156d23a83ac0c8cd54555f7b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "883d86f209efa90fa5a87c58fb7c9037bdc2820682f507ccadd32b9cdf59a228"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_1500_metrics.json",
+      "bytes": 1463,
+      "sha256": "62f4c537d6b0bd6f6017b90624903dac888ee73b6dc27ade1d3137d601537eef"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "100821c4f40e3f37515ce662cd0db3158bed43c9e05105f58eef1e7c1d3727f4"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_2000_metrics.json",
+      "bytes": 1464,
+      "sha256": "466df37c796158eb1816ca6dd0cbe46900bbe3ae51216c041371f02c93a269be"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "fc382412fed53d446c472655369b5723dec9d7422d60d7cb0aace62f9b420785"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_2500_metrics.json",
+      "bytes": 1463,
+      "sha256": "36fd9782194d5d182da530cbe4687f79679f0e438b88601d0096798eb037591f"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "f9d9b51ec459446cce77380f3ca8b82db85ccff72436b63a9945ff1aa2895e18"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_3000_metrics.json",
+      "bytes": 1461,
+      "sha256": "a149e42f0ab84b85523f17e2aaf2bedbdb397a52ba42b43d098714d56920b310"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 109753,
+      "sha256": "ebdea7b363d7088093f559061c0888b8de2daf1459f97981111dd40d43e349fe"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/step_500_metrics.json",
+      "bytes": 1458,
+      "sha256": "e947d858e1c6974fcf6182f852f9feb06eba8fdd78d874dae44e79df48255cd7"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 473,
+      "sha256": "4fe058b7c8e85109062966325b0e4ee511a4c0251fa8b7231f12d8352444d932"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "bf5d9d084c6977f6e6b508fe4ae499264deeacb2005ef7bb2559af249250e5d3"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101702/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "282ce792d114971d2e6fc05636b212ea24e02c4e9eb039909f5c72026f75221d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "03a19fc1ab3c79bbadf9e5b6a792628b532e3b00ec8f3c53a85b378eed558a04"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_1000.json",
+      "bytes": 587,
+      "sha256": "8035f71a2038b92b565cbbf42d2410e3922032a1584e76a22141e50a693a0918"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_1500.json",
+      "bytes": 674,
+      "sha256": "48be42550640ac0e98ef4171f291f1b4bdff75214681c7531255555184fa8f6c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_2000.json",
+      "bytes": 762,
+      "sha256": "b6e8e93ea78e7c49590d672caab2da2ee086da8deac3ef24cbcc10348b81e189"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_2500.json",
+      "bytes": 851,
+      "sha256": "9ddc66b7b8e6bc7d8befb466fdef5daf9c160966a5013709d37a2588f58f884e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_3000.json",
+      "bytes": 938,
+      "sha256": "4fafa90beb234d29d25929f0c89ce857a735268991e6826834579f9dbb18ac83"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/prefix_500.json",
+      "bytes": 408,
+      "sha256": "b8440035cbd4e980827fcccbc3044726e1c0344fafbf338103015f9885f5617d"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/result.json",
+      "bytes": 15234,
+      "sha256": "ebe0a0b36aec06a65d7ede7125116bd7c1683127ea5245ea30fed7e4620fa39c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/status.json",
+      "bytes": 198,
+      "sha256": "d6e9ec86230818c3cf7df0f34350895e17d98690b760e020c91199df40cb2175"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 109753,
+      "sha256": "89bc812a058f9e814411a1568c532fed42126e680f68ee1b736de39683ac8abe"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_1000_metrics.json",
+      "bytes": 1460,
+      "sha256": "ac0c5e2ac4f534b2aed4f11a05b2174ff45f78d9e3f1bb6d61d22eb5d6b474dc"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 109753,
+      "sha256": "515bf853e693dc4edabe24e96e3d0c0d0c3992eeb7736181a4f9756976f72b24"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_1500_metrics.json",
+      "bytes": 1457,
+      "sha256": "dad70569254aa8a5ab2a1ee6ae22d2a692fcf52f43c0f6d408c35773fd1474ae"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 109753,
+      "sha256": "66a3d64187a3311d56adf1ee85c8d2fcc1cc4e1dc76e82501e80eaf5f089079b"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_2000_metrics.json",
+      "bytes": 1464,
+      "sha256": "6b3a2a771eedf932f65f9a0f93f81cc2813e335560237871349e36bf70a1725e"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 109753,
+      "sha256": "876eae9bc6cb997cb7213fdc4c1312445838712691455b268d260414a1fbe787"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_2500_metrics.json",
+      "bytes": 1463,
+      "sha256": "6a2fd8f9c838079c0546d0164dd9d4fd891a798915032cbfa7c3e832da75ab95"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 109753,
+      "sha256": "ea15eb93eddaa5802c3ef8a5de463e04598234dc1c3a4235fd9718a50a64b033"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_3000_metrics.json",
+      "bytes": 1462,
+      "sha256": "78cf209f59d78acb0ab9c8e1d5c7bc9333c52ad08265888842d41bf99eb22d3c"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 109753,
+      "sha256": "7e019b1842d09a4c125ba7b351b96c0a03c8ed47ac5a97743a96d9537cc52adf"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/step_500_metrics.json",
+      "bytes": 1457,
+      "sha256": "132d229975d455d60f30fe968c323fb52a8198040764f62264d5e8f804aeacec"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 474,
+      "sha256": "31dd6edfaab51de4dbc377e45b7e889a8823fd1b07f9d6188af47e82d96a7216"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/witness_1.pt",
+      "bytes": 109753,
+      "sha256": "244c68b69c3529c8e30d9712518ce523dd246525978e6ce7670de119dc847a28"
+    },
+    {
+      "path": "calibration_runs/FGM1_G3_proxy_PARENT_s2026101703/witness_501.pt",
+      "bytes": 109753,
+      "sha256": "42bd70a64eb480218f8f75c62284cbe022d620ab111defc0b1f473937cb846e5"
+    },
+    {
+      "path": "calibration_status.json",
+      "bytes": 179,
+      "sha256": "28917731dac8915ea42b1c6608ddafc1b74be8ce7d4eb7edf5f29da8d261d06c"
+    },
+    {
+      "path": "calibration_summary.json",
+      "bytes": 2083,
+      "sha256": "2eb1d2c92781d2a5e92968db75d94fdb237081338c30361caceef8d044a51061"
+    },
+    {
+      "path": "check_fourgroup_policy.py",
+      "bytes": 8174,
+      "sha256": "5f02f9e4dc4a34175611f81b5cb0db7e0437847204f06f61abde178fe4a791ff"
+    },
+    {
+      "path": "control/audit_calibration/child.json",
+      "bytes": 324,
+      "sha256": "5815290e5a6424feea2b1bd054c848a8f4b414f434ea238e2dac75e31ac6423d"
+    },
+    {
+      "path": "control/audit_calibration/exit.json",
+      "bytes": 130,
+      "sha256": "e849b8a0fa90d40b59b80b78c7b0a4abc61d068ee962c0c5c5a9182208386e2a"
+    },
+    {
+      "path": "control/audit_calibration/launch.json",
+      "bytes": 174,
+      "sha256": "c3afa4037cbd882e179cd811d35c450797f546f4170186be3e99c95257569716"
+    },
+    {
+      "path": "control/audit_calibration/run.log",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "path": "control/calibrate/child.json",
+      "bytes": 320,
+      "sha256": "44c356cf25177f97d1f676ae11c4bbed386c50e3c62ac2e1b31a0218652de108"
+    },
+    {
+      "path": "control/calibrate/exit.json",
+      "bytes": 122,
+      "sha256": "8d9c030887d9cfb8384579741bf8ddce76a6023d0206cbce131b6f739c229dcd"
+    },
+    {
+      "path": "control/calibrate/launch.json",
+      "bytes": 165,
+      "sha256": "dd9dca0f13a55a7939520e3244fc711f2a411eaaa306a7f49ee9a57fce3fdf11"
+    },
+    {
+      "path": "control/calibrate/run.log",
+      "bytes": 1440,
+      "sha256": "a580f51be3a2bae970fe6b07fea40dfbd22aeffb725d864c5f2550cdbca5a1c6"
+    },
+    {
+      "path": "control/preflight/child.json",
+      "bytes": 321,
+      "sha256": "6ea0fc4f0c99e89c70e9626722a369bb51c6ded9a243822e17c73ef2874a7428"
+    },
+    {
+      "path": "control/preflight/exit.json",
+      "bytes": 121,
+      "sha256": "58e34e52251d97cfbcff841f5a3a7085603b008823e55c075c0b957da6921be5"
+    },
+    {
+      "path": "control/preflight/launch.json",
+      "bytes": 165,
+      "sha256": "0c210ea69a8f8b2f8f3bc7bd22dceb2d3e24e7c938661c1e8593c0ae86244b5b"
+    },
+    {
+      "path": "control/preflight/run.log",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "path": "control/prepare/child.json",
+      "bytes": 317,
+      "sha256": "5da7b21c2033acd38146549c098cee1f94cd0c8da7e3720d775176d3df68cc27"
+    },
+    {
+      "path": "control/prepare/exit.json",
+      "bytes": 118,
+      "sha256": "f3de1c7c8c5e6971136ebbb57bf9371ddda147bb4adaefd46e5c9a4d150327d1"
+    },
+    {
+      "path": "control/prepare/launch.json",
+      "bytes": 164,
+      "sha256": "82d31f33aff1a6104119e757f84d3c6dd8f31948f39c54088507570c28b12549"
+    },
+    {
+      "path": "control/prepare/run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "deploy_fourgroup_m1.py",
+      "bytes": 8080,
+      "sha256": "a2344058d4ff8ade370000025a1208b6c086c01cd2a294072ced68b14a153a9c"
+    },
+    {
+      "path": "deployment_prepared.json",
+      "bytes": 124,
+      "sha256": "a0d5619275c34a2561f451d66d1f3f0d976854d76cfeeff5b4a0f447b389381e"
+    },
+    {
+      "path": "execution_activation.json",
+      "bytes": 571,
+      "sha256": "c2c58cb2ddaba8d3f077927d914cb479cfc4714d12cfab716be53f51b96c8781"
+    },
+    {
+      "path": "fourgroup_policy.py",
+      "bytes": 10187,
+      "sha256": "555cb52694395a14d025f638a0835ee062c0e152e612a78f8dccd789642c0c04"
+    },
+    {
+      "path": "fourgroup_runtime.py",
+      "bytes": 16964,
+      "sha256": "877034b2d04bcce37e9f3d733a8bb4e0c4a47a1c66984856a723e3e88607f30a"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101701_M1/result.json",
+      "bytes": 12221,
+      "sha256": "427de5948aad9b9a7a9413de8269ce9e75686b9b74766d1bfef3869671e9c618"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101701_M1/timing.json",
+      "bytes": 124,
+      "sha256": "b68329665c34631202a6b22eb819597219d94a00f238d9b62f75a9d214b315a2"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101702_M1/result.json",
+      "bytes": 12227,
+      "sha256": "44fd851b7182027fc479e734bb606825ac39cc782c6c20142c4f774096c6542c"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101702_M1/timing.json",
+      "bytes": 124,
+      "sha256": "16159b1388cb2360ab638f21afcc007feb988b34fbdd1b5c02cf45a6091a9b0c"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101703_M1/result.json",
+      "bytes": 12221,
+      "sha256": "e0af27536fd6bd415cb763b7e9abc48afa3411e06364eaac5a4933ba011464d1"
+    },
+    {
+      "path": "identity_scores/G1_PARENT_2026101703_M1/timing.json",
+      "bytes": 124,
+      "sha256": "245a1feed813c1774fda5ebd8ba351d872f71eea5f72529480c21931b87b2915"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101701_M1/result.json",
+      "bytes": 12391,
+      "sha256": "35ba72f4402e7164a61394695e452eedc0aea2d96651a0690ea34aa8f2bb8374"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101701_M1/timing.json",
+      "bytes": 124,
+      "sha256": "f10ed638ad08437d12b3247aaae8e4c7b07f77fa34f6ea5f792228521d606199"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101702_M1/result.json",
+      "bytes": 12392,
+      "sha256": "95c8be7b7a678a7b7452595057de0f2aebd4c661918fd64923d9563d9e5d80cd"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101702_M1/timing.json",
+      "bytes": 124,
+      "sha256": "10f79371c99c62368ca646db70bb7ffa389bc26166cca8d2e634fe0629987956"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101703_M1/result.json",
+      "bytes": 12403,
+      "sha256": "32676a8f126074fc0024144d734f800de410bf809583300ddcfe53da83267cb4"
+    },
+    {
+      "path": "identity_scores/G2_PARENT_2026101703_M1/timing.json",
+      "bytes": 124,
+      "sha256": "54bcb367ff6038f8fd15aea846c24934e577a6a0c8c2ef1c431d9d5c99a3d204"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101701_M1/result.json",
+      "bytes": 12147,
+      "sha256": "9b9cbcc59ef7437d224fb0667367f882113c66e239e7a88bef6c099f76cc4334"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101701_M1/timing.json",
+      "bytes": 124,
+      "sha256": "dd3286cd82858f62e97e9ff20899e854f6dd5eca195edb4bc2e4f3b1c02efadb"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101702_M1/result.json",
+      "bytes": 12137,
+      "sha256": "ba8c8dfc659346459f7415238e5ffffd6b32109abf8a3e0782d9bd1af30a810d"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101702_M1/timing.json",
+      "bytes": 124,
+      "sha256": "3b908fd8f881ebc23ff5e56b5f510bd4ef347faa026dafa23e6ee7c7222de656"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101703_M1/result.json",
+      "bytes": 12146,
+      "sha256": "96ca04857d7ef7030c82a95f0bec312e7e4a071d471d06520f16dbbf2e8b5450"
+    },
+    {
+      "path": "identity_scores/G3_PARENT_2026101703_M1/timing.json",
+      "bytes": 124,
+      "sha256": "64f1e7a0d8c42fcc7555aecd22a88cd4f8e1bfd3ffc0484b7666c9ea17c4a575"
+    },
+    {
+      "path": "input_lock.json",
+      "bytes": 77746,
+      "sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3"
+    },
+    {
+      "path": "inputs/data/manifest.json",
+      "bytes": 498757,
+      "sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326"
+    },
+    {
+      "path": "inputs/data/train.csv",
+      "bytes": 5512628,
+      "sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae"
+    },
+    {
+      "path": "inputs/prepared/G1_ABC.npz",
+      "bytes": 494299,
+      "sha256": "3699f7ba0bfef15fa18d11e2f27c1deb5e4b5701a2537047e36254b8d8db29f1"
+    },
+    {
+      "path": "inputs/prepared/G2_ABC.npz",
+      "bytes": 469898,
+      "sha256": "74495c87f1b87d56660e4e069a9b88c6b42dc14e398da811ce258fd30d499225"
+    },
+    {
+      "path": "inputs/prepared/G3_ABC.npz",
+      "bytes": 458284,
+      "sha256": "1809108bf010b665601bdb8626c9df0d57b3df6618b32cd5bd0833ce234ada59"
+    },
+    {
+      "path": "inputs/prior_preparation.json",
+      "bytes": 2297,
+      "sha256": "500381ce9172a84057941362f46cee68dbb5cf4c9ae5d2a8894d00db8f5fb9d0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/result.json",
+      "bytes": 1724,
+      "sha256": "6cb4c9b935f4d1f4522656df9f835bb9e8d861cde5cfa26a008f00c62b2fc15e"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/selected_B_errors.npz",
+      "bytes": 374121,
+      "sha256": "b0c311924cc436bf2e2823f715e4736dff1ac3118c112d28bc180e38647f1e14"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/selected_C_errors.npz",
+      "bytes": 370179,
+      "sha256": "055d3e9138abc0555ba69f2b2fa1a70c616c2817172e3f60d2b74cf39df1345d"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/status.json",
+      "bytes": 177,
+      "sha256": "455aaef693b2783071b58ff9396bda00c1611d511f1e522dbccfd5b8741ebb38"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "5c302000b82887725320dc69749b202334a28957c98b1e21a146b948ffd30159"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "d73be8782e151f4764a8301ee2e6b3b2118df7a37aecda1614481e4ec0c0cf38"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "bafde3a0f9d25a61ee536dcddbcb820b52b87bca5700e46365190db9a1e05a49"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "495ba7ab5d295d984133e56f17a73ec0fdf943c0bdaf9ce5114ded21a9c9d9fb"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "870ab4fbee6f8864c782f3902bd8bdbe1d7e2484b511b2238987c8e86e9004d4"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "001b87283cdfcb220d62936323589d2aa28bbac7f43ec7b5a81c523e6f312abf"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101701/timing.json",
+      "bytes": 125,
+      "sha256": "c05cad7bfa3db64b02e0e4a9784010b22fff9ac6ff6116fb6421129d59a1c93a"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/result.json",
+      "bytes": 1727,
+      "sha256": "ab63e82252b561f452d8f701e3951744bd3deb4966bd82139d5d440e54e46bc1"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/selected_B_errors.npz",
+      "bytes": 374344,
+      "sha256": "d5340846c30adb7b8a4255d90bcb95b3e7c295f17e8e7d25a2d5031bfeeaad27"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/selected_C_errors.npz",
+      "bytes": 370512,
+      "sha256": "7f49ad6963fd518afacf12e79f4f073b6020ff7cfca6489b85cf8369c5f83c83"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/status.json",
+      "bytes": 177,
+      "sha256": "d40554bd46b5e8860b2b386faf3e63e2ff90c1bd91b71de7d5f9a246468152d6"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "ed50973755882944de0fe2fdf46612337650314ec827e91938d36bce1070290f"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "07a7b7ed042bb21bafc77fbb96ac48d813a526e8d5f821a11cf2f3ad0ce1fd36"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "6c7dc4188ed5b23cca114219b4949a007b220b708df165184cf8b2e9d825518c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "18239e1a379a22074d27eeea790623404c4d9efbfed70ed5191b68805900c42b"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "5d4d43d5582e02cc2b81ede0df0507902bb558fcf9ee3a87adf088a2dcb49fd6"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "87a63ff3428a4c57fd82442096033915d9ef4720bd4cfa58452df3b78b2a8020"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101702/timing.json",
+      "bytes": 125,
+      "sha256": "864dc8f3a6c6068483f52fbf8df0162d7d4e69a4a42b2d3950161214ce2862f8"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/result.json",
+      "bytes": 1726,
+      "sha256": "1c5a489e3f860b80868b364e9a20bc3a0a1a6b48a5827567a4325d8723f9d6ca"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/selected_B_errors.npz",
+      "bytes": 374801,
+      "sha256": "4b02b65ffe914eb1174ad9570f1ccc3f17a2efac71fe13dc71d94e0cce6d4d77"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/selected_C_errors.npz",
+      "bytes": 370875,
+      "sha256": "0da9533712489e8a3924436b25369de3a414325db90abc09400e4b9099b7e040"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/status.json",
+      "bytes": 177,
+      "sha256": "e5f39a509b19f4e9dc6aceba45cd55a8f519c12376f8d3723d7e4c71b1605888"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "cdd7fe624107cd53d4903bb709631b372ffba2ac5376779927dda962ac18363d"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "57253d0a3e4c85a177ef605f440fb49638c0a09b5258995923ab21ed18d8a652"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "d2d6998ec322ce280b3117b23dbb16451c2170682af1f39b9153b6898049dbe3"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "57b6a8be5d5b288f8b547bb208fa54ab18796934b96b0853dd5412a6b03a78cf"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "c40ef7c9b33537ce876c8dc793970a84aea7176de4c0588150af6cf8f2d31843"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "6af988ebc07c3c3d9b613b3545b724960f933db234c5acc64c0b324930816ba7"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_full_PARENT_s2026101703/timing.json",
+      "bytes": 125,
+      "sha256": "b5d31eaee53d3f2e7dabd16fbbac999abe6558d3a6b7d3b095c43c81ed6e7d6c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/result.json",
+      "bytes": 1276,
+      "sha256": "5a45259a38bc586fb866cbf83f1384429f2097f5331abcb6316baff2c35be378"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/status.json",
+      "bytes": 179,
+      "sha256": "cfd285328fe7c5e25700bac0e92046870744fdf158bbdaa28d75faee8317e2fc"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "b1426b3de2da2aec35693946bb05e65159fe38532af41fe1003eaf8c89c0f27e"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "c810b061f4d66b1f960861a7989170296b75d0962a747aa09c96ce48bc7d7000"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "01ed8208a7f009054f1c7c4de5400afde66fcdfefff5b2764fba7eeaf4556dc7"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "dfa3e888ef481078aa4c56dbcb7047939ae2903635bade85972a2e80bca155fe"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "2d7ccae742f4f5371b913249e7cf060e86657128607a06593264d9f3d4fe0264"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "7bd2b5101fb7ee0522ae1d63266905107016a08f924b61a6e6d00f1daa70530e"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 125,
+      "sha256": "425ddd029de9c257fca594585a247a46780b5386e8d5c08028b0519eea6a2680"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/result.json",
+      "bytes": 1276,
+      "sha256": "1be4e5a527e1e16eb772bdeee229808c78f58bef0b0b57ca4228bc976e655426"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/status.json",
+      "bytes": 179,
+      "sha256": "e132f1ccfc9534fe55ce64c7a07b60b5210673dd223db8db6b71ac0312b23190"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "606e6ae6cef126a6c28cb788eb84b1eb6fd674f117c1ca105ec34dde569257ee"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "8e955169d39dadb4f7d17358dc43357f35013ce2759a91ef95be30774b3300c4"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "a631c2cf13bfa442655a95de81c138f62362972db949f9af63c69c7ac4b91278"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "3fcb0904d6509c7117612c77faa448896ec28a414238ab06ca783de6f47890c0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "5732abe42175fb0267927cb819b69ec96999736e0ecd84f114ea748308512cb9"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "6476425f07a88eb3973ded471e187a4e4fc7f0c609c60d40fc64e7b7b260af73"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 125,
+      "sha256": "38843fadc4a1bdfd73137180398f31e52ea97db0ed39ff1a1af166d432a6c4e3"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 215433,
+      "sha256": "6b63b3f10200242a58dbf9bbedc709030568bafa0822afab94881af8d3c35fc0"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/result.json",
+      "bytes": 1276,
+      "sha256": "8f41e45a530d6e36a90e58f7b053bfdeed0344b1ae484d38bb637b88f3d43627"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/status.json",
+      "bytes": 179,
+      "sha256": "74a6816a059bd73083e52d579253933e932cb4e4aab709496f861e4ce8c4632b"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "54f629793e06109b186f463f3d5806e91c6f8154e43551ba37a339cbe52dd18c"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "c5ce757ad65866d0e3e2e98f8cea827ac7d010ab020af719f66d8cbaf68cb78a"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "9332f4ea3fb1c746ad995c2df34e02113cef43369f6180dbf68451916346ed6d"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "cbe1b83d14b0bac927a0fc643109c4ad02e6147923a5a722a1614f5bb9b8e03f"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "9530d29723592ed23f921e6e49d4e28cbce5ed6e05059d7b410fa05d778165bb"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "868483f3894f6365b6049de65cdc4f3e28e63d6b1149d7c2f3388208e77b73e5"
+    },
+    {
+      "path": "inputs/runs/DEV_G1_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 125,
+      "sha256": "0eb7bed342d23ceb499ddd4ae30007e16bd8f5a2dc14933e62e0da475de02818"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/result.json",
+      "bytes": 1736,
+      "sha256": "09548c9de48956ad23fb2d40e0b757373e94356dcee36efb5e11d0eb54613005"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/selected_B_errors.npz",
+      "bytes": 360264,
+      "sha256": "33d7bf7bf6170806d79b77efbc61cccae038d61e6a38752449d45e82e6747e56"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/selected_C_errors.npz",
+      "bytes": 358998,
+      "sha256": "90b5a9b02650a40ff9c700a905b3eb077a9791d773ef715a317d265dd53f01ad"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/status.json",
+      "bytes": 177,
+      "sha256": "1479df9a353de3618b582ffa87d505e6f8471c91bd3deca8ef0704678330ba95"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "7d1ee6828ea45f7401959ef41d3bbd0cfd9fa7937986fa7398e3f0f1721eca0a"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "357d300b07ab42653d50ec512528af24432a9238956782df562f983e45f9c9c3"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "3ec629542e9327686b266c6d6a460b93fca594787ab081d087e3caf3f006561b"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "390c17e4cb38cf24b69ecbdab866f626a09b582d2288318daf72e1538e6f71ac"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "6111c4b8aff75f71eff147dcf502a60891300872e8c8ff40631a4370535139ca"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "bb04520d8e3007cc2f78baf0f0da3549d8bc57c7ebab21146729c5a224100bda"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101701/timing.json",
+      "bytes": 125,
+      "sha256": "6454d3d045eda59f99b00a0d7f1ef26a04c8ff645f203fe3c56e8bb6b227f91d"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/result.json",
+      "bytes": 1733,
+      "sha256": "e933bf88d3be68261eeeb68f92ae815eb0c61eaff97321261635b3712bfb392c"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/selected_B_errors.npz",
+      "bytes": 360324,
+      "sha256": "9e3747edfe007bd588700b9bd3a945e73d7d81393ba2ff4ec62503e657fc3510"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/selected_C_errors.npz",
+      "bytes": 358740,
+      "sha256": "830dff6d5f2eb4203912919f996b9d4e9a24806e075bbb86c48d7c6fe0eab2c1"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/status.json",
+      "bytes": 177,
+      "sha256": "1a60b25c32cc1e98d8131f24aee3483d43437ce2c6435a0f506a21a0912b0e21"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "faf561f35c55b3f0cc7e18387d94e5166c5887044e582fe41ab0322aa75b0572"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "89296cce07271129dcbdd472f87d479464bf8cf4e9ab4d506dd6aedddee0a252"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "accb77455780eb6600d8519a5ea5a1cd40fd3b8d3e4ad7dee28bbf68d24ba1de"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "7636653096a647febda16c697554b4b4bedfe2b29abd8e31458aeb44466cbca6"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "5f57b004b3e5b8582dc661c4dd5dfa9b63d07f767b4c97607f60209808639b7a"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "f9d7c82197ac830c11c9a225dbfa1e3d93b74ebdb1262a34ff92b6acee939b3f"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101702/timing.json",
+      "bytes": 125,
+      "sha256": "546be066f58b6bf55d32d31d3583fbacb4a4d2773d45250a014d0fd71222f5fa"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/result.json",
+      "bytes": 1735,
+      "sha256": "4f693a8f11eb08d5e13d05d7d08238d91d3c383cfdb5450371d6ee47c92615b7"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/selected_B_errors.npz",
+      "bytes": 360707,
+      "sha256": "d09ab7bf91f768a07e355235a599a55ca20dc750b94434a0e9f0ba1e7a8db295"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/selected_C_errors.npz",
+      "bytes": 359475,
+      "sha256": "01d11255e73bcd4bd85e84dd7fb7958c6bcfb05d72ea54816846ff68a1b42e43"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/status.json",
+      "bytes": 177,
+      "sha256": "dadd6149610b28cd7649ead53a64714baac4fd8f395d5eeb1e4d88ebaae57590"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "2cbd703b2b426cbb66efa104900182642b675d57aec8a7796a4dba69a8d3e434"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "65188707a711c2c81e97ab1a531fa984b267d4b2d072b1cb145deb69ab0c8d5b"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "1b7aa5bcc47bf4c04b42472bd8b73a9e6853099033c768db4dd0cbd15c64bb84"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "e9e1649c6ae1b619e5d0968940b3e330955b6954783aa6221e5f418c37be71e9"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "89e2e39b38c54445cc499495da7c7b5815a4f48bdddbcbdddf4010b5714cd854"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "48866cbc8d9cbcd233b64143d64ec50febccc04d95b5d00116824ce51f26fc76"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_full_PARENT_s2026101703/timing.json",
+      "bytes": 125,
+      "sha256": "4026a63c20368647a80942035290acbd701e1be3f0498b79650014b3c7e95f5a"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/result.json",
+      "bytes": 1276,
+      "sha256": "4fe3b54ee62c7737a8d15b2c3fe7ff9e02fc146847dba679d2d5f92bf7e6c56d"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/status.json",
+      "bytes": 179,
+      "sha256": "3e7d651b1ce9086521f1dc10f915c9ec2dcfcba55570512eb63e896a89ad6583"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "ba6a02aba7b53c970edb3cc9f75e78562615cf4fb9aa06dfcb7654479f916d90"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "cf4e62f984a030e449c45fedc92bad9391c72e9f352df1eb9d24ac6993c4462b"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "34ad22b84f37dffd7ba40b2ea9b73083c823469448ca4f447a8d9b67dc6413cc"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "e0919fe951f748520ed970649c08e450754066c0fc0006bcfbb82bab12755c91"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "84708dbc5f080a8ea4a6e8b1ebbfd37e1d9e8192ebac690b526d34b9903cb675"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "cf17b798b07c1bc3e6d8c311c349f1a39de6b74eeb89e9b8afd2f75328550a92"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 124,
+      "sha256": "37986fd2764fce01f687e2965740fda8ff62370b16dabf6a24c35aec8b753174"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/result.json",
+      "bytes": 1276,
+      "sha256": "ff3e5a71c1432471a22f599ecc5a6e7274ff060656539f16fde536de2a6f73a5"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/status.json",
+      "bytes": 179,
+      "sha256": "5fac5d528a66719e0e833d6e731f0b3058227ef7368b3bb6f3f0879f1d2b7c50"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "ea763d27db02288744c625897c9adad1b17f518e4c4af27653d27f961c57dccc"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "44b8c64bdfb86873e331bdad28ee113f68e49e0c9d594dbb5b72f0edcb92d6fa"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "cd641ccff886661943236f165c0f11b4a181c8d08e51872db4f6af9fbc66aad0"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "a2217bc0fc0b730e3121fc39677eada9a3cf278acc535d4d55ca76d19edcc4fd"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "2608956328e5f44e92153c801b44136ef66477821407a6662f16dbf3a21a36fd"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "179356e20dbc960f9d8c1e893e3aa0d98e8fa79b0e4ba8cb22a019800853da3d"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 125,
+      "sha256": "9c5643270265ee03d1031bc85a5e55ed94763da4fd680ec38a8ba43d08a9b44d"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 214472,
+      "sha256": "a94f04fee91178e36cfa2ee51d5707f66bb97966e7013ff3fd06376d23fd4cc8"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/result.json",
+      "bytes": 1276,
+      "sha256": "08888c27bc7196d49103bb5209514d2b9cb526cbaa24e06c60860c75080d3c9a"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/status.json",
+      "bytes": 179,
+      "sha256": "b545c5478eb9695d01579eb59b199249fc8ca27b2ef9e8a0ed7578ebf8e31a72"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "0f0bf1eedbe63c74fc25b67a75d50fcc22895c224f9a2b9419e416a279c217db"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "d16ef24b18033180322665d5b0df4ae783e5acfa5a1597e3c6783c4e8bfeea56"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "e142fb494f3b2d8e9022a14f64345d6d23bb59986ddd4c8504950af4a3a46e73"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "9f77da329b878d173825940360bfe1d97fb008261254eafcd9d9e45654e9e071"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "ea62963ecd566101c5298d2bd0dbfb39bab55b039162fbbc6150d665b6b75e5f"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "ea05f336b859202200d0d0c3abe5be5a6c1d765329c8e9e0d6927706a2b1cb02"
+    },
+    {
+      "path": "inputs/runs/DEV_G2_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 126,
+      "sha256": "84eabeb3988f0214c65e0194ec16a10a448d7195ebdd1c2165f5f1e8e8226f97"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/result.json",
+      "bytes": 1732,
+      "sha256": "63b87dfff306dd4a3119afb3cf257c639cba4c3d1587bb90c457264c7b25dda8"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/sampling.npz",
+      "bytes": 7920,
+      "sha256": "17834239a6ade04d18350f98e9854d9ef2423e285c9a965e146f8f60d4d8d820"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/selected_B_errors.npz",
+      "bytes": 375768,
+      "sha256": "3b26f245d8a26d604362f77e4911345feb00cc5f1b91d8a385fb36255b858d80"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/selected_C_errors.npz",
+      "bytes": 374836,
+      "sha256": "88f15297ef21ee8940bcc8554712c2ea5d3837f6956cd2330c628cab4fe467c1"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/status.json",
+      "bytes": 177,
+      "sha256": "2c033e8b9ac46f5af9e7ba8e272b64d7049a3b6038620e295930a30a175ef3f7"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "5b4fc9d0ddbd6342ecc37121f0fb663004719f8424f086d562d74ef0cbc24656"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "7b48b64718385845412fbf44990f0cbf5e73a653fdeef4a39d3082db3e63436b"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "95a597d55a25ffa923d177e00245178ad159ef0e98af85f11f0895ad82fc498b"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "8681c8a3e4b8f763bda23e0a6b24117d6deac23c94b270ac5665aacddac1bdee"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "321edc4d9aa1607ae3065b6b8d2436b40880a4d7ea01019a8f51a5559dff4b1d"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "50fd24b097a710fa07fc39e9db6838195001fea9f53b700cc200371e456c2ed0"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101701/timing.json",
+      "bytes": 126,
+      "sha256": "53a41549a29cacaa830ba1a089b0c3eadf472373a3b056301fe388aa76e40a77"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/result.json",
+      "bytes": 1730,
+      "sha256": "821704946b9d5c36dd0c090e8640a14d7624aee6837c11a4294c63b3ddc129d7"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/sampling.npz",
+      "bytes": 7994,
+      "sha256": "5f1783e4776d0a773d09f146882811becd0891c6e6317315aac65844e2ea922d"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/selected_B_errors.npz",
+      "bytes": 375839,
+      "sha256": "495520564cb010dbd48fca5a98573856bc2658a63703b5a4bd7887654c0c4064"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/selected_C_errors.npz",
+      "bytes": 374815,
+      "sha256": "f8a3a4174156b194fb9bf2c9a211f3099419c8424a0ef7e09f251e08ae353ddc"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/status.json",
+      "bytes": 177,
+      "sha256": "1bb421ab7e62af2086b6cd1729519e5525b5f82a4f1f59e0f275419b7a16e36b"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "d1f9e84374ace25065f4f6230cf8116076a2b9f2c026902e73f54640884572c8"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "978f3ab219a6e169f2aaccf34ca230314fc8aca1ba5f50674b1dcbf7d20f99b6"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "1baad0102974243cb026beb305d7719aa8b79d7febafa608acdb877f0e3b4eff"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "0596215c7f0619a919f33f71f5e3cebe021cfd2f607a2ab50648cf20b23bf398"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "174a5d71a35cd353e7c26cd28ec8420c6a5c13b990174b41458bdeee236ddbd8"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "b22391400f28f58f445b8ae8981173b41deccc9b41160757bec6999edc386ecd"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101702/timing.json",
+      "bytes": 125,
+      "sha256": "2c21ffb63b0f5e188287395d0b477bbeaaa010ef48b5c48fa01d41b71d20a881"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/result.json",
+      "bytes": 1725,
+      "sha256": "a26bd192d1c97345862691e74556dbf51ee67f3fdc72b6aaec68aa0f853b0432"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/sampling.npz",
+      "bytes": 7961,
+      "sha256": "a573e92675e5a3b3abb2337c7b560a7c67e5dfec5f3dbc804ddb06c781a6e36c"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/selected_B_errors.npz",
+      "bytes": 375878,
+      "sha256": "a379e145967a5667cab24dbfa45f5957abf553167d410a26557c6f5eb8d31597"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/selected_C_errors.npz",
+      "bytes": 374693,
+      "sha256": "1d9f2b2ddf03f8b662aed7b42c88529769e7ddc2f1429f8f96f4cb65c8c04824"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/status.json",
+      "bytes": 177,
+      "sha256": "33d3fb5ae4d60498d66862772061372d6fc1d4a50fb86ce18bba750a0d1b392f"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "0686dd5c50cbef4ebdc154beeefd537e804b9bd567c428f8bf0ff2402c84db67"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "e984a04558705b34cda2caa4514d76a963066e3367132675f599775e2e6423ca"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "83c08c8825f07f877eb755feef83563ceaa3f67da5e888e7a2c58a125c3f17da"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "8df15358f7b29ad2bc4012fd613a79495138aff914685bcb90bcfdfacb92bfda"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "3d4976cf413afa5db9a9d37ae8847893d9f4d376ad7fb4f502416f175fb6c7a0"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "f1a46c489f306f201cc96db8b95bb30cf1349106d8fd02bd5746fdd290f8b838"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_full_PARENT_s2026101703/timing.json",
+      "bytes": 126,
+      "sha256": "fbb9a0705083f6329c08a6961373e8905984e42aecf471640dcc80468c3d31f6"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/initial.pt",
+      "bytes": 50426,
+      "sha256": "d575d1d8fb6eef9256581870414d6aa77b7e7e2d0b8a3e491db6cf49d600ecd5"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/result.json",
+      "bytes": 1276,
+      "sha256": "f34e63324d9e990725a93bf2e7a933e0639dc9b03038bce6a63a1d6a234dc381"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/status.json",
+      "bytes": 179,
+      "sha256": "a22459997ec76a436707a69c142b2021c5b221342fbddb946289a85f892b3e27"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "28b9d044617bdd8dabd52edbc3a0166fe57bf3ec56248a302958caac965aeb39"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "6cdb80e36be1ed4841d5ed87343f6734c21d7a97557f1883115738df335242ed"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "a1191640701eb8058b32f13086b87872320179ae7537e29c001f1086fa5f3c15"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "116edb32d5d2bd61b54b79b598ab5d7277cab944b459d12355d2a2ed4011ffc6"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "afb9b3f9f0e2b46c62ed4689d1be67de4ab3d4c4cd6f5cddb95d8ef7afae3a84"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/step_500.pt",
+      "bytes": 110210,
+      "sha256": "1b7742757c996f7f36aaf2bfefd5fe1f4d86e3c83f037c4947fc9a7fc00028ad"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101701/timing.json",
+      "bytes": 125,
+      "sha256": "55b082ef8a9f5d58df79609f111933821239d3b64fe8c784b93a2d136a18b0a7"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/initial.pt",
+      "bytes": 50426,
+      "sha256": "62b892f70c288fa820eacccfb17f6656a2f244ebcd2e00154f05bce5f55a099c"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/result.json",
+      "bytes": 1276,
+      "sha256": "ad9af9c52b4d537d8add232792d34223d9168ca023b8371137f6c91c51adbfdb"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/status.json",
+      "bytes": 179,
+      "sha256": "a05b98d2164b60958e75226b9a042685b201a2f865971f8f367284100adacf76"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "bca07f2475174b5907a3e793376bd9eb475b2747b64f51f8f3061c0792b4af12"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "09587bf06a9ce4d18325912f8abf9b4dedf9db237c40217ae56a7d663fbcfe64"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "0b5846ef8ffd244874c035eb3bbe9127e5b82dc89482b3c2b8209d37803f70e0"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "12086a7909da484f6907755734f1e59141a1859e7abc3097435a0d2107f86c9d"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "d5d27cf43babdbe137905c4c4033dc59118c81b93d0223cca903df450432869a"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/step_500.pt",
+      "bytes": 110210,
+      "sha256": "da40ed582ada5e641425bfadb2958248496ae9496fc88208ac132c19e1f9f3a6"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101702/timing.json",
+      "bytes": 124,
+      "sha256": "4be081fd94d91097f71bc75ed07fdb3775b750eaa2c413486da5fb434b86eb87"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/initial.pt",
+      "bytes": 50426,
+      "sha256": "d60298d3116bd79ab22df77158e1b25c52a007cef468468869be2876cdda3aa0"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/moments.npz",
+      "bytes": 215461,
+      "sha256": "f02cd1b3b3625d99f6c72f35bfdde462204e669de76b7e91927c75e76f299dce"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/result.json",
+      "bytes": 1276,
+      "sha256": "738d115cdc35276edd405c50296ffe5776fb29224299b214ffa2374d61ab4b9a"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/status.json",
+      "bytes": 179,
+      "sha256": "1eecd2f3c74b115d65c96423d756786f42b5deb534f91f1a3a119db22ee951b7"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_1000.pt",
+      "bytes": 110347,
+      "sha256": "533a7af4a45f5130d3d52410bfde8cf451873bbd6de2d528d008a835c8a73fbc"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_1500.pt",
+      "bytes": 110347,
+      "sha256": "b5aaa8116495ac5a9e86d543fd2e129a793e90d7bba9a8f0c013d48a5d10b6e5"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_2000.pt",
+      "bytes": 110347,
+      "sha256": "aecea7d6cf2ff0b6e5260a857f25a44e0777d207a85315140976ab110065c1ca"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_2500.pt",
+      "bytes": 110347,
+      "sha256": "a877d7ba1bae9149dc4595a977b16d386eceabbf161941a985064b2b25e03a11"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_3000.pt",
+      "bytes": 110347,
+      "sha256": "809c9ba938f930e88698a05e5f541630d8e97a51c2f80af6c03219b0b8812ffd"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/step_500.pt",
+      "bytes": 110210,
+      "sha256": "c405523d4670e7ca69fd74a567b23ec5cd2b430349f142d37e4f32c5a17f1e7d"
+    },
+    {
+      "path": "inputs/runs/DEV_G3_proxy_PARENT_s2026101703/timing.json",
+      "bytes": 125,
+      "sha256": "f7e18a223ae85a4a58901d15189e85f779aa83281c94dfbd2bdc686d61f9dda4"
+    },
+    {
+      "path": "launch_fourgroup_m1.py",
+      "bytes": 3458,
+      "sha256": "0260acab52594fdb508b8ec2624a18436c5a6596237fecb6dc4ed24e0d91de32"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 5292,
+      "sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57"
+    },
+    {
+      "path": "preflight_audit.json",
+      "bytes": 7780,
+      "sha256": "253bca68a9d923febc4685f3418e1ab6728b27165d95fc9738f8edd84a84bf04"
+    },
+    {
+      "path": "preparation.json",
+      "bytes": 11019,
+      "sha256": "3037f6fe1bf0c1893b7d7b3449a206bd0831f88e67b7a9f5cfcedd6f9d92847c"
+    },
+    {
+      "path": "prepared/G1_G0_DOWN.npz",
+      "bytes": 11830,
+      "sha256": "624f924e45f7be3e87e9248c0d908246f767d456de2d67ff35d3cecec457ea7a"
+    },
+    {
+      "path": "prepared/G1_G0_UP.npz",
+      "bytes": 11830,
+      "sha256": "83902d25d7cbde0bd54208bb605403801cbf13ed23e04ed269c9d62c3a8c2cfc"
+    },
+    {
+      "path": "prepared/G1_G1_DOWN.npz",
+      "bytes": 11841,
+      "sha256": "0b3662f8e067bdbf2276a199db393928980ee026dc72d92297352165962a6645"
+    },
+    {
+      "path": "prepared/G1_G1_UP.npz",
+      "bytes": 11841,
+      "sha256": "32077d6da7b5c59796a4676469dbd23f53c55e3ddf697c0a5cbcb2f26cb37adb"
+    },
+    {
+      "path": "prepared/G1_G2_DOWN.npz",
+      "bytes": 11840,
+      "sha256": "833f4d99f3373c14ba69264aa94a5e10581370b54f0fd23d12b83e2658d8aff6"
+    },
+    {
+      "path": "prepared/G1_G2_UP.npz",
+      "bytes": 11841,
+      "sha256": "133fd0a1b20a2b8d8fe6a5a4bdefaadaf7c6c4ae2fd76df523dfbcb4e27dac72"
+    },
+    {
+      "path": "prepared/G1_G3_DOWN.npz",
+      "bytes": 11831,
+      "sha256": "98f8b2aaa07533b57b87098f729d2e075795ed6f7e3db314f11cc7293d1cc08b"
+    },
+    {
+      "path": "prepared/G1_G3_UP.npz",
+      "bytes": 11832,
+      "sha256": "3012eaab53d8d0672669eb845c685c0246a869d0da7897930fc46915f4f28628"
+    },
+    {
+      "path": "prepared/G2_G0_DOWN.npz",
+      "bytes": 11838,
+      "sha256": "300431acbfdc7e08591f207f711100eb9f57a4ed744ca1dd82f876cc78995169"
+    },
+    {
+      "path": "prepared/G2_G0_UP.npz",
+      "bytes": 11838,
+      "sha256": "41dce47bb072cdc841e1934c9bc92f4f5286e3df7364c61a3bb9324699bfd6ea"
+    },
+    {
+      "path": "prepared/G2_G1_DOWN.npz",
+      "bytes": 11849,
+      "sha256": "ac909c2db9914b7fd5ed984905739e15d653890d72aac53f43b282e199abad7e"
+    },
+    {
+      "path": "prepared/G2_G1_UP.npz",
+      "bytes": 11849,
+      "sha256": "9b0d329719fece8b95cd8e0ffd24bde2dae49ab66a663a522c879e9fb1f1c465"
+    },
+    {
+      "path": "prepared/G2_G2_DOWN.npz",
+      "bytes": 11848,
+      "sha256": "b6d3edf67d6cb24af4c73e847737034017a74fd4024233abb0a9d7fea7d316f7"
+    },
+    {
+      "path": "prepared/G2_G2_UP.npz",
+      "bytes": 11849,
+      "sha256": "10080107361ec7c3040e24420ede5975ed3e47ad86084879e9ff368860b7cf50"
+    },
+    {
+      "path": "prepared/G2_G3_DOWN.npz",
+      "bytes": 11839,
+      "sha256": "7a41259187ecc3e8e4ee338a78139e66079858535f2563f1c44ef99f2ce89430"
+    },
+    {
+      "path": "prepared/G2_G3_UP.npz",
+      "bytes": 11840,
+      "sha256": "f70622a4668d25fe1b68adf520fc25452c61e5d025451262144913e56a0ceba5"
+    },
+    {
+      "path": "prepared/G3_G0_DOWN.npz",
+      "bytes": 11833,
+      "sha256": "483035b07e479541c3bfbc0cf12f5a937971d309b943956e41647808d94ede17"
+    },
+    {
+      "path": "prepared/G3_G0_UP.npz",
+      "bytes": 11833,
+      "sha256": "89a2518c1797759c5d4619efbb88a359b549fd4bf12b24ab585b004469597185"
+    },
+    {
+      "path": "prepared/G3_G1_DOWN.npz",
+      "bytes": 11844,
+      "sha256": "f9213b016bf58fad1ebcc4e3794b41bb9393781e4256addac662110ab83a7131"
+    },
+    {
+      "path": "prepared/G3_G1_UP.npz",
+      "bytes": 11844,
+      "sha256": "33433898b1f51480d7c52e7a5e82389ffe681bdd00c4e0d89636c079750f2a50"
+    },
+    {
+      "path": "prepared/G3_G2_DOWN.npz",
+      "bytes": 11843,
+      "sha256": "f5093eabbd8c23f2a982f5c06a8e5a68b9aead8634d4b6315d363c688d18031c"
+    },
+    {
+      "path": "prepared/G3_G2_UP.npz",
+      "bytes": 11844,
+      "sha256": "e3f4ec39426b068713b030a4a4fad2cd2673a8e95a417fe278991a529a90a328"
+    },
+    {
+      "path": "prepared/G3_G3_DOWN.npz",
+      "bytes": 11834,
+      "sha256": "50f5822107616fb6338f2f97cf24eb031947720a13ddc5918588082f13d89d65"
+    },
+    {
+      "path": "prepared/G3_G3_UP.npz",
+      "bytes": 11835,
+      "sha256": "a277b98fe5d4cc745bd728b955008d0b1f7cdc74acf2de0ec0990ad423cf8c85"
+    },
+    {
+      "path": "register_fourgroup_m1.py",
+      "bytes": 7772,
+      "sha256": "62750472059153481f85f6566c1ffd46334824c986a0d1bd8a9385bc026c8508"
+    },
+    {
+      "path": "response_proxy.py",
+      "bytes": 4124,
+      "sha256": "8d06ff6c71200497205536d0204b6b865b7875e05b2b93d06f6322f06b0b68bf"
+    },
+    {
+      "path": "run_fourgroup_m1.py",
+      "bytes": 16063,
+      "sha256": "9344425df41f44c66f9d587ea5f579f75af40b871d7fe0bd7f6ef4eef3fdf2aa"
+    },
+    {
+      "path": "run_research.py",
+      "bytes": 13443,
+      "sha256": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052"
+    },
+    {
+      "path": "runtime_environment.json",
+      "bytes": 324,
+      "sha256": "fd06694f72da7d078c4ee08991ce8482b0bda52f5f9f149311c121c270f71b9b"
+    },
+    {
+      "path": "source_dlinear_adapter.py",
+      "bytes": 5259,
+      "sha256": "ac130c41ba4644120a1965f483272a18afd2d92cb7d5f4abe62f0369a72a315e"
+    },
+    {
+      "path": "source_quadratic.py",
+      "bytes": 4651,
+      "sha256": "39cd348ba93408ab510e8c506b0cc85f2f67a16da4b1c07bccc2e7a977516992"
+    },
+    {
+      "path": "source_sync_receipt.json",
+      "bytes": 599,
+      "sha256": "83338252ed1543ee652e0d3533d12855291a2807e36e4b6438d86e3d12d2eb32"
+    },
+    {
+      "path": "storage_estimate.json",
+      "bytes": 494,
+      "sha256": "2c208da1d7520e3da2878bf2c56649285237b2b15d9341b5d34fb6ce637a3e19"
+    },
+    {
+      "path": "storage_preflight.json",
+      "bytes": 476,
+      "sha256": "1916e7a2489a66fc53a5daf81a841aa5e159615f8f11068a6fd0dffc4b965706"
+    }
+  ],
+  "archive_name": "fourgroup_m1_calibration_20261015.tar.gz",
+  "archive_bytes": 33831673,
+  "archive_sha256": "964ad09846685d5f078f92bb6273ee1f9c506bcbbef873bf22b108ad65d903ba",
+  "plan_sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "source_commit": "b61621133a48a560bd32c461ddbd43477365c2a0",
+  "counts": {
+    "files": 760,
+    "total_bytes": 49313938,
+    "closed_phases": 4
+  },
+  "phases": [
+    "audit_calibration",
+    "calibrate",
+    "preflight",
+    "prepare"
+  ],
+  "elapsed_seconds": 5.258307235315442
+}

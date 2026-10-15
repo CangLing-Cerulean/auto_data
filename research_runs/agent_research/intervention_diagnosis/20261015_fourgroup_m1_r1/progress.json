@@ -1,11 +1,11 @@
 {
   "stage": "fourgroup_m1_r1",
   "date": "2026-10-15",
-  "status": "parent_calibration_audited_pending_publication",
+  "status": "calibration_synced_forecast_running",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 418,
   "parent_replays_completed": 18,
-  "candidate_forecasts_started": false,
+  "candidate_forecasts_started": true,
   "full_children_started": false,
   "scientific_gates": null,
   "N1_N2_scientific_execution_enabled": false,
@@ -19,5 +19,8 @@
   "calibration_moments_verified": 18,
   "short_steps": {"G1": 1000, "G2": 1000, "G3": 1000},
   "eligible_to_forecast": true,
-  "next": "Publish and bind audited calibration before all 72 proxy and 72 SHORT forecasts"
+  "calibration_results_commit": "cc66a3073ac0b23900dca114db3223dc9e8de6b9",
+  "calibration_sync_receipt": "calibration_sync_receipt.json",
+  "forecast_supervisor_pid": 21191,
+  "next": "Complete all 72 proxy and 72 SHORT forecasts, then independent numerical and cost audit and prediction publication before deciding full-label eligibility"
 }
