@@ -82,6 +82,6 @@ M1与SHORT在F2推荐不同，二者真实收益差仍未知；本批无法通�
 
 完整归档`file_transfer_r1_recovered_forecast.tar.gz`为118006379字节，含5705个普通文件；SHA256为`cbbc458ddfdf8c067c6c540d0bda05d75b9934371f0f1103b47a2949df671596`。本地下载、路径安全、唯一成员、逐文件大小/SHA及五份关键收据绑定均通过，恢复控制文件也与归档逐字节一致。原关机中断控制与全部新恢复记录均在归档内。归档13.913701秒，本地完整解包核验36.240948秒，另列于科学预测成本之外。
 
-源码冻结提交为`f70e64f1a24be15fe9e254b1e60936bc2c2d73b5`，恢复源码提交为`979ef9a9eb5a1463ec47145844c5dd5fc834d79f`。本轮GitHub结果和Release同步待最终收据确认；父阶段已同步记录保持。
+源码冻结提交为`f70e64f1a24be15fe9e254b1e60936bc2c2d73b5`，恢复源码提交为`979ef9a9eb5a1463ec47145844c5dd5fc834d79f`，结果提交`805233ae714e44d8aaf6905095998b33a88119f7`已精确核对远端。完整归档已发布到[同仓库Release](https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-forecast-20261015)，远端大小、SHA256及最终下载地址核验通过；见`forecast_sync_receipt.json`。最终只读检查确认无研究进程、无完整子标签启动锁或结果。
 
 本轮完成了已有预测的独立验收和停止证据保存。整体上，Hydraulic开发池的局部正结果保留，跨来源稳定选择增量仍未获得确认；详见[主张结案边界](CLAIM_CLOSURE.md)。当前批次至此结束，后续讨论应基于这些固定结论，不能将未知精度、实际收益或创新性填成已验证。

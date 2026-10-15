@@ -1,11 +1,15 @@
 {
   "stage": "file_transfer_r1",
-  "status": "stopped_audited_local_backup_verified_sync_pending",
+  "status": "closed_stopped_audited_and_synced",
   "cumulative_full_trainings": 418,
   "new_full_trainings": 9,
   "last_fully_audited_cumulative": 418,
   "snapshot_only": true,
-  "observed_unix": 1792022677.9131546,
+  "observed_unix": 1792023293.0818052,
+  "results_commit": "805233ae714e44d8aaf6905095998b33a88119f7",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-forecast-20261015",
+  "sync_receipt": "forecast_sync_receipt.json",
+  "server_research_processes": [],
   "source_commit": "f70e64f1a24be15fe9e254b1e60936bc2c2d73b5",
   "registered_full_parents": 9,
   "registered_full_children": 69,
@@ -67,5 +71,5 @@
   "short_steps": {"F0": 1000, "F1": 1000, "F2": 1500},
   "parent_results_commit": "8f51733ec89ec1dfa52514a6b390f34e2bc3f9c9",
   "parent_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-parents-20261014",
-  "next_action": "Publish and verify the complete audited forecast report, stopping evidence, preserved interruption and118006379-byte archive. No research process or model queue remains. This batch is closed under its registered identical-recommendation gate; do not add labels, candidates or thresholds."
+  "next_action": "This batch is closed and its complete results/archive are verified on GitHub. Preserve the finite Hydraulic positive result and report the unconfirmed cross-source selection claim; no new experiments are queued. Any future confirmation requires a separately specified claim and information source, without reopening closed batches or paused data."
 }

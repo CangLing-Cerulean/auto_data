@@ -1,0 +1,28 @@
+{
+  "status": "stage_results_and_release_verified",
+  "verified_at_utc": "2026-10-15T00:14:52.6463678Z",
+  "source_commit": "805233ae714e44d8aaf6905095998b33a88119f7",
+  "source_tree": "3e8f31b48f8c3a9d25a1433a38f29bf68f058a5c",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/file-transfer-r1-forecast-20261015",
+  "assets": [
+    {
+      "name": "file_transfer_r1_recovered_forecast.tar.gz",
+      "bytes": 118006379,
+      "sha256": "cbbc458ddfdf8c067c6c540d0bda05d75b9934371f0f1103b47a2949df671596",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/file-transfer-r1-forecast-20261015/file_transfer_r1_recovered_forecast.tar.gz",
+      "asset_id": 642108337
+    }
+  ],
+  "plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "predictions_sha256": "de55da829296ec3c3f3e06a40f0195bf403cb9ca169344c54def9234bda3faff",
+  "forecast_audit_sha256": "f55c74ebd5a1a99109f80b877d203ba0801daad1224c7dbc7dc5f00f7583019a",
+  "independently_verified_archive_members": 5705,
+  "original_shutdown_interruption_preserved": true,
+  "scientific_disposition": "STOP_IDENTICAL_RECOMMENDATIONS",
+  "eligible_to_label": false,
+  "cumulative_full_trainings": 418,
+  "full_children_started": 0,
+  "method_extension_started": false,
+  "test_access": false,
+  "global_indexes_publication": "local_only_as_previously_required"
+}
