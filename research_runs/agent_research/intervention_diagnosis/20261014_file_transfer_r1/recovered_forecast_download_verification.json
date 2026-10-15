@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "phase": "recovered_forecast",
+  "archive_bytes": 118006379,
+  "archive_sha256": "cbbc458ddfdf8c067c6c540d0bda05d75b9934371f0f1103b47a2949df671596",
+  "individually_verified_regular_members": 5705,
+  "safe_unique_member_paths": true,
+  "local_key_receipts_equal_archive": [
+    "plan.json",
+    "predictions.json",
+    "forecast_audit.json",
+    "recovery_integrity_20261015.json",
+    "recovery_source_sync_receipt.json"
+  ],
+  "seconds": 36.24094829999967,
+  "new_training_runs": 0,
+  "test_access": false
+}

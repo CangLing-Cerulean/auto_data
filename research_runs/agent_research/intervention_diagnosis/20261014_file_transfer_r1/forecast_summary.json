@@ -1,0 +1,17 @@
+{
+  "status": "audited_forecast_report",
+  "predictions_sha256": "de55da829296ec3c3f3e06a40f0195bf403cb9ca169344c54def9234bda3faff",
+  "forecast_audit_sha256": "f55c74ebd5a1a99109f80b877d203ba0801daad1224c7dbc7dc5f00f7583019a",
+  "cells": 23,
+  "seed_cells": 69,
+  "cost_gate": true,
+  "identical_recommendation_baselines": [
+    "RAW",
+    "SOURCE"
+  ],
+  "eligible_to_label": false,
+  "new_complete_experimental_trainings": 0,
+  "cumulative_complete_experimental_trainings": 418,
+  "true_child_response_accuracy": null,
+  "true_decision_gain": null
+}

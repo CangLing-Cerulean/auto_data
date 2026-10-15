@@ -1,0 +1,53 @@
+{
+  "status": "terminal_recovered_audit_snapshot_created",
+  "phase": "recovered_forecast",
+  "archive": "/root/auto_data_experiments/20261014_file_transfer_r1/archives/file_transfer_r1_recovered_forecast.tar.gz",
+  "size": 118006379,
+  "sha256": "cbbc458ddfdf8c067c6c540d0bda05d75b9934371f0f1103b47a2949df671596",
+  "members": 5705,
+  "source_plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "forecast_audit_sha256": "f55c74ebd5a1a99109f80b877d203ba0801daad1224c7dbc7dc5f00f7583019a",
+  "controls": {
+    "audit_forecast": null,
+    "audit_forecast_recovery_20261015": {
+      "exit_code": 0,
+      "started_unix": 1792020522.86094,
+      "finished_unix": 1792022272.1986947,
+      "phase": "audit_forecast_recovery_20261015",
+      "original_control_preserved": true,
+      "experimental_training_runs_added": 0
+    },
+    "audit_parents": {
+      "exit_code": 0,
+      "started_unix": 1791989487.9568796,
+      "finished_unix": 1791989797.7197218,
+      "phase": "audit_parents"
+    },
+    "forecast": {
+      "exit_code": 0,
+      "started_unix": 1791990354.7331934,
+      "finished_unix": 1791992113.650325,
+      "phase": "forecast"
+    },
+    "parents": {
+      "exit_code": 0,
+      "started_unix": 1791989001.7469592,
+      "finished_unix": 1791989415.3444178,
+      "phase": "parents"
+    },
+    "preflight": {
+      "exit_code": 0,
+      "started_unix": 1791988944.841238,
+      "finished_unix": 1791988957.7201774,
+      "phase": "preflight"
+    },
+    "prepare": {
+      "exit_code": 0,
+      "started_unix": 1791988905.9800014,
+      "finished_unix": 1791988909.4374864,
+      "phase": "prepare"
+    }
+  },
+  "original_audit_interruption_preserved": true,
+  "seconds": 13.913701216690242
+}

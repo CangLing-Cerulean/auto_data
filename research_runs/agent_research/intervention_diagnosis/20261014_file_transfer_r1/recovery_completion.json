@@ -1,0 +1,83 @@
+{
+  "status": "PASS_RECOVERY_AUDIT_WITH_ORIGINAL_INTERRUPTION_PRESERVED",
+  "scientific_disposition": "STOP_IDENTICAL_RECOMMENDATIONS",
+  "original_audit_status": "interrupted_by_user_shutdown_without_terminal_receipt",
+  "original_audit_elapsed_seconds": null,
+  "original_audit_observed_elapsed_lower_bound_seconds": 260.4236776828766,
+  "original_partial_log_completed_groups": 2,
+  "original_partial_replay_total": null,
+  "original_control_files_unchanged": true,
+  "recovered_audit_status": "PASS",
+  "recovered_audit_function_seconds": 1745.0175764374435,
+  "recovered_audit_process_seconds": 1749.33775472641,
+  "recovered_audit_exit_code": 0,
+  "recovery_controls_match_verified_archive": true,
+  "recovered_audit_counts": [
+    {
+      "task": "F0",
+      "states": 240,
+      "residuals": 1011,
+      "moments": 51,
+      "independent_replay_steps": 96000,
+      "independent_replay_trajectories": 48
+    },
+    {
+      "task": "F1",
+      "states": 240,
+      "residuals": 1011,
+      "moments": 51,
+      "independent_replay_steps": 96000,
+      "independent_replay_trajectories": 48
+    },
+    {
+      "task": "F2",
+      "states": 231,
+      "residuals": 927,
+      "moments": 45,
+      "independent_replay_steps": 94500,
+      "independent_replay_trajectories": 42
+    }
+  ],
+  "recovery_source_commit": "979ef9a9eb5a1463ec47145844c5dd5fc834d79f",
+  "recovery_source_sync_sha256": "9a9b89ced42bd0abf832b12f9f071924ed97b970acaf930e5aa853996dc6038e",
+  "original_plan_sha256": "9ccfa057242708f440a898f8e22df294086a345df918e1196b4653f791acc861",
+  "predictions_sha256": "de55da829296ec3c3f3e06a40f0195bf403cb9ca169344c54def9234bda3faff",
+  "forecast_audit_sha256": "f55c74ebd5a1a99109f80b877d203ba0801daad1224c7dbc7dc5f00f7583019a",
+  "unique_post_restart_files_verified": 5664,
+  "archive_sha256": "cbbc458ddfdf8c067c6c540d0bda05d75b9934371f0f1103b47a2949df671596",
+  "archive_bytes": 118006379,
+  "archive_members": 5705,
+  "archive_creation_seconds": 13.913701216690242,
+  "local_download_verification_seconds": 36.24094829999967,
+  "full_experimental_trainings_added_by_recovery": 0,
+  "full_experimental_trainings_added_by_entire_stage": 9,
+  "cumulative_full_experimental_trainings": 418,
+  "full_child_labels_started": 0,
+  "registered_full_child_labels_omitted_by_gate": 69,
+  "candidate_accuracy": null,
+  "actual_candidate_gains": null,
+  "actual_m1_vs_short_gain": null,
+  "actual_half_full_search_cost_gate": null,
+  "warm_cost_vs_short_gate": true,
+  "decision_increment_gate": false,
+  "method_runtime_allocation_is_total_study_cost": false,
+  "total_study_actual_compute_seconds": null,
+  "total_study_cost_unknown_reason": "The shutdown-interrupted original audit and some orchestration/transfer operations lack complete timing; preserve null rather than erase or estimate the missing cost.",
+  "transport_incidents": [
+    {
+      "phase": "initial_resume_connection",
+      "count": 2,
+      "kind": "SSH peer closed before user confirmed power-on",
+      "scientific_process_restart": false
+    },
+    {
+      "phase": "read_only_recovery_observer",
+      "count": 1,
+      "kind": "SSH observer disconnected after six logged groups; independent supervisor subsequently verified exit0 with nine groups",
+      "scientific_process_restart": false
+    }
+  ],
+  "test_access": false,
+  "base_validation_access": false,
+  "D_access": false
+}

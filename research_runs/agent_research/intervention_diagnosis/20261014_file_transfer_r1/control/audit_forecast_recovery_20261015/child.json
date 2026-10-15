@@ -1,0 +1,20 @@
+{
+  "pid": 308,
+  "supervisor_pid": 307,
+  "command": [
+    "/opt/miniconda3/bin/python",
+    "-B",
+    "/root/auto_data_experiments/20261014_file_transfer_r1/audit_response_proxy_file_transfer.py",
+    "forecast",
+    "--output",
+    "/root/auto_data_experiments/20261014_file_transfer_r1"
+  ],
+  "started_unix": 1792020522.86094,
+  "prelaunch_verification": {
+    "checked_files": 5664,
+    "seconds": 1.0706726610660553,
+    "boot_id": "61818f63-66b8-45e2-bf49-96bd945b9e3e",
+    "integrity_receipt_sha256": "5693de49b2ec0658a344d571d07a7c5b7a6596aafc4ad5a0b8c7f300d904ea5b",
+    "recovery_source_sync_sha256": "9a9b89ced42bd0abf832b12f9f071924ed97b970acaf930e5aa853996dc6038e"
+  }
+}
