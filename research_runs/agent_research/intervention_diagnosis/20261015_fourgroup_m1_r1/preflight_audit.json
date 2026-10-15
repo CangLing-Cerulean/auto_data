@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "reconstructed_arrays": 45,
+  "states_verified": 126,
+  "policies": [
+    {
+      "task": "G1",
+      "action": "G0_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G1",
+      "action": "G0_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G1",
+      "action": "G1_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G1",
+      "action": "G1_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G1",
+      "action": "G2_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G1",
+      "action": "G2_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G1",
+      "action": "G3_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G1",
+      "action": "G3_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G2",
+      "action": "G0_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G2",
+      "action": "G0_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G2",
+      "action": "G1_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G2",
+      "action": "G1_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G2",
+      "action": "G2_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G2",
+      "action": "G2_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G2",
+      "action": "G3_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G2",
+      "action": "G3_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G3",
+      "action": "G0_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G3",
+      "action": "G0_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G3",
+      "action": "G1_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G3",
+      "action": "G1_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G3",
+      "action": "G2_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G3",
+      "action": "G2_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    },
+    {
+      "task": "G3",
+      "action": "G3_UP",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 1.4901161193847656e-08,
+      "radius": 0.20000004768371582
+    },
+    {
+      "task": "G3",
+      "action": "G3_DOWN",
+      "uniform_probability": 0.00015460729746444033,
+      "sampling": "uniform_with_replacement",
+      "loss_denominator": "fixed_elements",
+      "mass_error": 4.470348358154297e-08,
+      "radius": 0.19999998807907104
+    }
+  ],
+  "synthetic_gradient": {
+    "actions": 9,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "maximum_absolute_error": 2.0816681711721685e-17,
+    "synthetic_algebra_only": true,
+    "generated_sensor_records": false
+  },
+  "mode": "preflight",
+  "plan_sha256": "b270454389de5536d3414ba390a40b9d9dfbe65bc72c3aff026d13ef828b8d57",
+  "input_lock_sha256": "46cae44fbc09b7e73d85d22bf047953caaaf437464bae7b0a7e667a4605d85d3",
+  "train_sha256": "5cc345e46aa2a532f2e2ae97edbb4d7599eecd738ba39b4935f6d689abcd55ae",
+  "manifest_sha256": "ec93cc4525291e2f39908988e90bbef01fe55063a3086277371ad1918bfc8326",
+  "preparation_sha256": "3037f6fe1bf0c1893b7d7b3449a206bd0831f88e67b7a9f5cfcedd6f9d92847c",
+  "auditor_sha256": "b9164262c11e4bc842b8c00747e0ae80b40fb7d710616ffa56d7e8756b4c6410",
+  "D_access": false,
+  "test_access": false,
+  "old_D_sensor_tokens_parsed": false,
+  "new_scientific_trainings": 0,
+  "audit_seconds": 2.9449167381972075
+}

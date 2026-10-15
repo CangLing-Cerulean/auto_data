@@ -1,7 +1,7 @@
 {
   "stage": "fourgroup_m1_r1",
   "date": "2026-10-15",
-  "status": "source_review_passed_runtime_not_started",
+  "status": "preflight_passed_parent_calibration_running",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 418,
   "parent_replays_completed": 0,
@@ -10,5 +10,10 @@
   "scientific_gates": null,
   "N1_N2_scientific_execution_enabled": false,
   "source_review": "SOURCE_REVIEW.md",
-  "next": "Bind inputs and storage, publish source, then preflight and parent calibration"
+  "source_commit": "b61621133a48a560bd32c461ddbd43477365c2a0",
+  "input_files_verified": 222,
+  "preflight_reconstructed_arrays": 45,
+  "preflight_states_verified": 126,
+  "server_calibration_supervisor_pid": 20389,
+  "next": "Complete 18 existing-parent replays, independently audit and publish the cost calibration before any candidate forecast"
 }
