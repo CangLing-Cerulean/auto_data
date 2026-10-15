@@ -1,6 +1,6 @@
 {
   "stage": "n1_error_decomposition_r1",
-  "status": "read_only_diagnosis_audited_pending_sync",
+  "status": "read_only_diagnosis_audited_and_synced",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 434,
   "input_assets_verified": 246,
@@ -14,5 +14,6 @@
   "old_M1_labels_enabled": false,
   "D_access": false,
   "test_access": false,
-  "next": "Synchronize diagnostic evidence, then prepare a clearly provisional manuscript and claim-evidence audit without claiming novelty or submission readiness"
+  "sync_receipt": "sync_receipt.json",
+  "next": "Prepare a clearly provisional manuscript and claim-evidence audit without claiming novelty or submission readiness; keep all closed routes and original scores unchanged"
 }
