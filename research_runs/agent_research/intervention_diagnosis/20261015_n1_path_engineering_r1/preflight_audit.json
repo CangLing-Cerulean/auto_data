@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "ABC_arrays": 45,
+  "original_parent_states": 63,
+  "real_batch_JVP": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 3.608224830031759e-16,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G1",
+      "seed": 2026101702,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 1.0408340855860843e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G1",
+      "seed": 2026101703,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 1.3877787807814457e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G2",
+      "seed": 2026101701,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 2.278559285695536e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G2",
+      "seed": 2026101702,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 1.2212453270876722e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G2",
+      "seed": 2026101703,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 1.3322676295501878e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G3",
+      "seed": 2026101701,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 3.191891195797325e-15,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G3",
+      "seed": 2026101702,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 9.159339953157541e-16,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "steps": 3,
+      "direction_checks": 12,
+      "tangent_array_checks": 36,
+      "maximum_absolute_error": 4.0852737859253807e-16,
+      "rtol": 1e-09,
+      "atol": 1e-11
+    }
+  ],
+  "diagnostic_parent_updates": 27,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 418,
+  "D_access": false,
+  "test_access": false,
+  "seconds": 5.324648707173765,
+  "plan_sha256": "c471e6f31b8512d1a14f5e4d3d9fac6a20573bb253e2e4bc816c10c047973c5a"
+}

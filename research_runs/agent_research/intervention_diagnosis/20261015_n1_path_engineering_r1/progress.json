@@ -1,7 +1,7 @@
 {
   "stage": "n1_path_engineering_r1",
   "date": "2026-10-15",
-  "status": "real_path_source_ready_pending_publication_and_deployment",
+  "status": "real_batch_preflight_passed_nine_paths_running",
   "gpu_kernel_checks": "gpu_kernel_checks.json",
   "gpu_kernel_tests_passed": 5,
   "new_full_trainings": 0,
@@ -13,5 +13,9 @@
   "old_M1_full_labels_enabled": false,
   "D_access": false,
   "test_access": false,
-  "next": "Publish exact source and input lock; verify fresh server destination, environment and capacity; then run real-batch preflight before nine complete tangent paths"
+  "preflight_audit": "preflight_audit.json",
+  "preflight_tangent_array_checks": 324,
+  "preflight_maximum_absolute_error": 3.191891195797325e-15,
+  "paths_supervisor_pid": 38878,
+  "next": "Finish all nine original-parent tangent replays, independently audit full NumPy trajectories and compare necessary method costs with fixed M1 budgets before any finite differences"
 }

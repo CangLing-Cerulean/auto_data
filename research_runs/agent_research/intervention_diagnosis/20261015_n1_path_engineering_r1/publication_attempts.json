@@ -1,0 +1,6 @@
+{
+  "status": "same_commit_retry_verified",
+  "attempts": [{"attempt": 1, "exit_code": 1, "error": "Invoke-RestMethod: The response ended prematurely. (ResponseEnded)", "remote_commit_state": "not_yet_verified"}, {"attempt": 2, "exit_code": 0, "source_commit": "1b2fcebb519b113e1b2ecd2563122b7177a807a6", "status": "exact_commit_and_tree_verified"}],
+  "scientific_execution_started": false,
+  "new_full_trainings": 0
+}
