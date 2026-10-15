@@ -1,7 +1,7 @@
 {
   "stage": "n1_path_engineering_r1",
   "date": "2026-10-15",
-  "status": "fixed_FD_audited_numerical_gate_failed_closed_pending_delivery",
+  "status": "fixed_FD_audited_numerical_gate_failed_closed_delivery_verified",
   "gpu_kernel_checks": "gpu_kernel_checks.json",
   "gpu_kernel_tests_passed": 5,
   "new_full_trainings": 16,
@@ -38,5 +38,7 @@
   "finite_difference_two_h_total": 48,
   "finite_difference_execution_failures": 0,
   "active_study_processes": false,
-  "next": "Archive and publish the complete audited negative result; current N1 proposal route closed without threshold/h/direction/K changes or added trainings. Read-only scientific-boundary review next; N2 science and old M1 labels stay disabled"
+  "next": "Current N1 proposal route closed. Read-only review of failure boundaries and paper-evidence gaps; no new training, h/threshold/direction/K changes or reactivation of old M1/N2 labels.",
+  "fd_sync_receipt": "fd_sync_receipt.json",
+  "fd_release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/n1-fd-20261015"
 }

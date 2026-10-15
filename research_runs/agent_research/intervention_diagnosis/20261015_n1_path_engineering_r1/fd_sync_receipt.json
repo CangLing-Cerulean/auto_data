@@ -1,0 +1,38 @@
+{
+  "status": "stage_results_and_release_verified",
+  "verified_at_utc": "2026-10-15T12:25:36.832331+00:00",
+  "source_commit": "de03a20ce04ed999073f9a2324a314bbb2ac0ab9",
+  "tree_sha": "cd8542ceec6fd2f822b7698f80657da70c15b3a9",
+  "bindings": {
+    "fd_result_publication_receipt.json": "153b016c7bb3607c453b9a9d8482370b6b1c81e3f5cb994eec996cc4f309172f",
+    "fd_release_receipt.json": "a3e560168d6125ae106f57899cad9e071cce5954d41d0e18344efe419b75804e",
+    "fd_archive_receipt.json": "41ad23ab48ae503484c58bd31798f6b714275b5ff612bea4da8ff559f7d74c93",
+    "fd_download_verification.json": "45b3102f0f394bf34aa5e4a22b5cb14d5aaa8ff61e515b0727525c907ab2524a",
+    "fd_plan.json": "3a6ea18864ce39fc9f63b89ea033f59922256030a298e5cb2bbcfcfda161b156",
+    "fd_audit.json": "a27f9988a488505f98be6189dc9eb02906191289d809a455fb5ab5c4921ebf30",
+    "fd_summary.json": "4add81d7f46c3e9d3198a9c295d23cb2bb90a3723736891f593e4d3e99163f31",
+    "fd_delivery_decision.json": "47c7dba3785f04d1cd8cd51daf1dc0b3e5f099d7eaed08ab39f9280805cad770"
+  },
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/n1-fd-20261015",
+  "assets": [
+    {
+      "name": "n1_fd_20261015.tar.gz",
+      "bytes": 69474646,
+      "sha256": "100bb1cc52080841170f59aa6aead9754595712f2052bd9bad581b5b472b9102",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/n1-fd-20261015/n1_fd_20261015.tar.gz",
+      "asset_id": 643791561
+    }
+  ],
+  "archive_members": 975,
+  "archive_contains_local_FD_reports": false,
+  "local_FD_reports_in_result_commit": true,
+  "new_full_trainings": 16,
+  "cumulative_full_trainings": 434,
+  "numerical_gate_pass": false,
+  "current_N1_proposals_closed": true,
+  "N2_scientific_enabled": false,
+  "old_M1_labels_enabled": false,
+  "active_study_processes": false,
+  "D_access": false,
+  "test_access": false
+}

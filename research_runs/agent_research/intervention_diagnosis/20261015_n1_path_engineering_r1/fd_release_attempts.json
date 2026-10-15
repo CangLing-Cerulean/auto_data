@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "upload_transport_error",
+      "error": "Error while copying content to a stream",
+      "remote_asset_outcome": "unknown_until_idempotent_readback",
+      "local_archive_verified": true,
+      "training_impact": "none"
+    },
+    {
+      "attempt": 2,
+      "status": "release_assets_verified",
+      "receipt": "fd_release_receipt.json",
+      "training_impact": "none"
+    }
+  ]
+}

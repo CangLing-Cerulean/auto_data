@@ -1,0 +1,9 @@
+{
+  "optional_report_upload_to_experiment_server": "rejected_by_automatic_approval_review_not_executed",
+  "review_reason": "Prior authorization covered experiment/input upload and GitHub synchronization, but not this specific sensitive-result upload to the server destination",
+  "safe_alternative": "Archive only assets already generated on the experiment server; keep the local FD reports, tables, figures and helper code in the verified GitHub result commit",
+  "report_result_commit": "de03a20ce04ed999073f9a2324a314bbb2ac0ab9",
+  "server_archive_members": 975,
+  "optional_upload_still_required": false,
+  "training_or_audit_restarted": false
+}
