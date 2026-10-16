@@ -1,14 +1,14 @@
 {
-  "status": "data_and_scientific_design_locked_and_synced_runner_pending",
+  "status": "ETTh1_complete_audited_ETTh2_still_sealed",
   "date": "2026-10-16",
-  "new_full_trainings": 0,
-  "cumulative_full_trainings": 434,
+  "new_full_trainings": 15,
+  "cumulative_full_trainings": 449,
   "maximum_planned_full_trainings": 30,
-  "training_started": false,
+  "training_started": true,
   "ETTh2_measurement_values_parsed": false,
   "ETTh2_model_feedback": false,
-  "scientific_outcome": null,
+  "scientific_outcome": "ETTh1: no registered stable S/W divergence, same best action, no 1% adoption. ETTh2 unknown.",
   "goal_complete": false,
-  "next": "Implement the fixed shared runner; perform necessary ETTh1 A-only numerical preflight and hardware cost measurement; preserve complete label coverage and sealed ETTh2 until the specified publication lock. No new method candidates or expanded menus.",
-  "source_commit": "cdb11a8b26b90fd7e8e17a25ba28e807ed751e59"
+  "next": "Publish and verify complete ETTh1 results and runtime, then execute all 15 frozen ETTh2 runs without scientific parameter changes.",
+  "source_commit": "2a8419c94aac8b967680b0f3b33c4220dc5a5a8b"
 }
