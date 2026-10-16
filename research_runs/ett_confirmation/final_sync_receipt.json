@@ -1,0 +1,56 @@
+{
+  "status": "complete_audited_and_synced",
+  "verified_at_utc": "2026-10-16T00:40:02.190304+00:00",
+  "runtime_commit": "2a8419c94aac8b967680b0f3b33c4220dc5a5a8b",
+  "result_commits": {
+    "ETTh1": "9ecba95c09388e80928ef7d4cb97e326706ad1ca",
+    "ETTh2": "b21ad103ebfc193ce99aea7f71bfbddd50964e7a"
+  },
+  "hashes": {
+    "PROTOCOL.md": "9402d5782d4791243b8d19c81c3f9292fafb1d7f6a719563fd379e089237aab3",
+    "execution_lock.json": "f61d2fac8fd7c99872f091cd85dbb01270bd364d0700c861f89de7f653a41bcb",
+    "ETTh2_unlock.json": "aec778cdd93ec78b3d099ca290712a0dd40fa92c80b0e1d952fc80e2964a2f0b",
+    "FINAL_REPORT.md": "df9b32e8904b16af915423a305e42c631dc21a0340572cc29e426a13e24f0c1a",
+    "confirmation.json": "b16cfa2ceda8b7e2647707e4180c2262af1a65efef2b2bb8d6342ad831164bca",
+    "final_costs.json": "d7152599f51317c8757c2a0e70b747f75ded8430d5c96a0b32ae7b76ebccdc45",
+    "confirmation.png": "83c30afdb3c4e3ebcb6bd09143f10ad5c4767c92eff0f29a381b103263a4ce85",
+    "confirmation.pdf": "ecdfc210d694ff7d37a5c1e3dc23766e5c77825edf3e54bfad8753209cb6d3a3"
+  },
+  "releases": {
+    "ETTh1": {
+      "url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/ett-confirmation-etth1-20261016",
+      "assets": [
+        {
+          "name": "ETTh1_results.tar.gz",
+          "bytes": 50425622,
+          "sha256": "79923933dd2649bca8c011fceb48afe0bd7a304bbd71320687865b4d4e811267",
+          "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/ett-confirmation-etth1-20261016/ETTh1_results.tar.gz",
+          "asset_id": 645603378
+        }
+      ]
+    },
+    "ETTh2": {
+      "url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/ett-confirmation-etth2-20261016",
+      "assets": [
+        {
+          "name": "ETTh2_results.tar.gz",
+          "bytes": 50516723,
+          "sha256": "f0524bb4153766c9df90c002f7b7896f51b84e8e52c80cf070f75e066cd3f2da",
+          "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/ett-confirmation-etth2-20261016/ETTh2_results.tar.gz",
+          "asset_id": 645646172
+        }
+      ]
+    }
+  },
+  "new_full_trainings": 30,
+  "cumulative_full_trainings": 464,
+  "diagnostic_updates": 202,
+  "full_trajectory_replays": 0,
+  "full_training_failures": 0,
+  "completed_station_phase_exits": 6,
+  "pending_runs": 0,
+  "global_indexes_published": false,
+  "raw_or_prepared_measurement_tables_published": false,
+  "D_test_evaluations": 0,
+  "scientific_scope": "registered finite ETT confirmation only; not broad universality or new-method superiority"
+}

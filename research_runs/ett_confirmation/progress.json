@@ -1,5 +1,5 @@
 {
-  "status": "both_stations_complete_audited_final_publication_pending",
+  "status": "both_stations_complete_audited_and_synced",
   "date": "2026-10-16",
   "new_full_trainings": 30,
   "cumulative_full_trainings": 464,
@@ -15,6 +15,8 @@
   "final_report": "FINAL_REPORT.md",
   "final_cost_record": "final_costs.json",
   "goal_complete": false,
-  "next": "Finish final result and archive publication; integrate bounded ETT evidence with Hydraulic, separating response accuracy, action ranking and implementation choice. No automatic new experiments.",
-  "source_commit": "2a8419c94aac8b967680b0f3b33c4220dc5a5a8b"
+  "next": "Integrate bounded ETT evidence with Hydraulic, separating response accuracy, action ranking, implementation choice and best/last sensitivity. No automatic new experiments.",
+  "source_commit": "2a8419c94aac8b967680b0f3b33c4220dc5a5a8b",
+  "result_commit": "b21ad103ebfc193ce99aea7f71bfbddd50964e7a",
+  "sync_receipt": "final_sync_receipt.json"
 }
