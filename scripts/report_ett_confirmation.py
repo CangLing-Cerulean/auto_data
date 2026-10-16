@@ -192,7 +192,14 @@ def final_report():
         r=summaries[s]['results']['best']
         lines.append(f"|{s}|{r['choices']['S']}|{r['choices']['W']}|{r['separate_oracles_percent']['S']:.6f}|{r['separate_oracles_percent']['W']:.6f}|{r['joint_oracle_percent']:.6f}|")
     lines+=['','oracle包含均匀父，三种子先按每个共同动作求平均再选择。oracle是观察到的上界，不是方法收益。固定近期策略的遗憾及联合池两种并列顺序见各站summary.json。',
-        '主结果使用B选best，last及NMAE、七通道包括OT的所有退化均保留在各站表格，不能用次要指标覆盖主结果。','',
+        '主结果使用B选best，NMAE、七通道包括OT的所有退化均保留在各站表格。','',
+        '## 预定次要结果：固定last','',
+        '|站点|S oracle %|W oracle %|稳定分歧|最优动作改变|1%资格改变|',
+        '|---|---:|---:|---|---|---|']
+    for s in stations:
+        r=summaries[s]['results']['last']
+        lines.append(f"|{s}|{r['separate_oracles_percent']['S']:.6f}|{r['separate_oracles_percent']['W']:.6f}|{r['response_divergence_replicated']}|{r['choice_changed']}|{r['any_adoption_changed']}|")
+    lines+=['','次要结果用于展示评价口径敏感性，不能覆盖B选best的主结果。未复现预定强度的一致分歧不等于证明两实现等效。','',
         '## 结论范围与研究位置','']
     if not h2['response_divergence_replicated']:
         lines.append('本次未在确认站复现预定强度的跨种子一致响应分歧。已有Hydraulic发现需保持局部适用范围；不能降低阈值或追加动作追求复现。')
@@ -200,6 +207,9 @@ def final_report():
         lines.append('确认站同时出现稳定响应分歧和最优动作改变，支持进一步研究实现方式如何影响数据决策；本轮没有测试新的代理或选择算法，不能据此宣称新方法胜出。')
     else:
         lines.append('确认站出现预定强度的响应分歧，但独立S/W池的最优动作没有改变，支持在这一有限池中区分响应辨识与动作选择。采用资格变化需独立解释。')
+    early={c['implementation']:c for c in h2['cells'] if c['action']=='FAVOR_EARLY'}
+    lines.append(f"必须区分动作选择与实现选择：ETTh2同一前半段动作的S/W均值收益相差{early['S']['mean_gain_percent']-early['W']['mean_gain_percent']:.6f}pp；同动作排序不意味着两实现收益等效，也不能推出联合选择没有价值。该动作的配对差没有通过三种子同向判据。")
+    lines.append(f"确认站前半段S的逐种子收益范围为[{min(early['S']['gains_percent']):.6f}, {max(early['S']['gains_percent']):.6f}]%，包含退化；平均达到1%不代表所有种子改善。")
     lines+=['两个站点同属ETT家族，不算两个独立来源。只有两种动作、一个固定骨干、一个预测尺度和一种优化器；三种子判据是描述性稳定性，不是统计显著。结果没有证明方差迹是唯一原因，也不能概括所有数据干预。',
         '本轮用于确认分析命题，不承诺采样方法优于基线。后续首先结合旧Hydraulic证据收窄论文主张；不自动扩展候选、尺度、模型或种子。','',
         '## 成本与验收','',

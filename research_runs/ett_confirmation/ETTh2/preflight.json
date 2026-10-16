@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "station": "ETTh2",
+  "expected_gradient_coefficient_max_error": 2.710505431213761e-20,
+  "real_batch_loss_error": 4.76837158203125e-07,
+  "adam_one_step_max_error": 3.888712116206783e-09,
+  "diagnostic_updates": 101,
+  "new_full_trainings": 0,
+  "training_100_steps_seconds": 1.3138560894876719,
+  "one_evaluation_seconds": 0.041473666206002235,
+  "estimated_30_runs_seconds": 1192.4241604283452,
+  "estimate_scope": "rough training/evaluation extrapolation; actual total wall time recorded separately",
+  "total_seconds": 1.78033097833395,
+  "free_bytes": 1253240832,
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "numpy": "2.4.4",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090"
+  }
+}

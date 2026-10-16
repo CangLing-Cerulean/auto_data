@@ -1,0 +1,289 @@
+{
+  "station": "ETTh2",
+  "new_full_trainings": 15,
+  "results": {
+    "best": {
+      "cells": [
+        {
+          "action": "FAVOR_EARLY",
+          "implementation": "S",
+          "gains_percent": [
+            19.6742710441497,
+            6.913934731728231,
+            -6.657054598998211
+          ],
+          "mean_gain_percent": 6.643717058959907,
+          "NMAE_gains_percent": [
+            9.448566966229297,
+            1.671933287812192,
+            -4.91441247272947
+          ],
+          "mean_NMAE_gain_percent": 2.068695927104006,
+          "adoption_1pct": true,
+          "categories": [
+            "beneficial",
+            "beneficial",
+            "harmful"
+          ]
+        },
+        {
+          "action": "FAVOR_EARLY",
+          "implementation": "W",
+          "gains_percent": [
+            5.958889289305242,
+            7.596199799500223,
+            -6.830813777823697
+          ],
+          "mean_gain_percent": 2.2414251036605894,
+          "NMAE_gains_percent": [
+            2.7756546630704046,
+            2.8102610578839244,
+            -4.007547294478142
+          ],
+          "mean_NMAE_gain_percent": 0.5261228088253956,
+          "adoption_1pct": true,
+          "categories": [
+            "beneficial",
+            "beneficial",
+            "harmful"
+          ]
+        },
+        {
+          "action": "FAVOR_LATE",
+          "implementation": "S",
+          "gains_percent": [
+            1.7600289906004383,
+            3.853994472528007,
+            -11.87898459944127
+          ],
+          "mean_gain_percent": -2.0883203787709417,
+          "NMAE_gains_percent": [
+            2.594259958915137,
+            3.41214536448568,
+            -4.342288699109935
+          ],
+          "mean_NMAE_gain_percent": 0.554705541430294,
+          "adoption_1pct": false,
+          "categories": [
+            "beneficial",
+            "beneficial",
+            "harmful"
+          ]
+        },
+        {
+          "action": "FAVOR_LATE",
+          "implementation": "W",
+          "gains_percent": [
+            -14.87472132850823,
+            -17.384959205378053,
+            -12.166182836304165
+          ],
+          "mean_gain_percent": -14.808621123396817,
+          "NMAE_gains_percent": [
+            -5.078685233300286,
+            -6.366698464548665,
+            -3.994860532130604
+          ],
+          "mean_NMAE_gain_percent": -5.1467480766598515,
+          "adoption_1pct": false,
+          "categories": [
+            "harmful",
+            "harmful",
+            "harmful"
+          ]
+        }
+      ],
+      "paired_differences": [
+        {
+          "action": "FAVOR_EARLY",
+          "W_minus_S_pp": [
+            -13.71538175484446,
+            0.6822650677719917,
+            -0.17375917882548642
+          ],
+          "mean_difference_pp": -4.402291955299318,
+          "same_direction_beyond_quarter_pp": false,
+          "adoption_changed": false
+        },
+        {
+          "action": "FAVOR_LATE",
+          "W_minus_S_pp": [
+            -16.63475031910867,
+            -21.23895367790606,
+            -0.2871982368628938
+          ],
+          "mean_difference_pp": -12.720300744625874,
+          "same_direction_beyond_quarter_pp": true,
+          "adoption_changed": false
+        }
+      ],
+      "separate_oracles_percent": {
+        "S": 6.643717058959907,
+        "W": 2.2414251036605894
+      },
+      "choices": {
+        "S": "FAVOR_EARLY",
+        "W": "FAVOR_EARLY"
+      },
+      "choice_changed": false,
+      "any_adoption_changed": false,
+      "response_divergence_replicated": true,
+      "fixed_late_regret_pp": {
+        "S": 8.732037437730849,
+        "W": 17.050046227057408
+      },
+      "joint_oracle_percent": 6.643717058959907,
+      "joint_winner": {
+        "action": "FAVOR_EARLY",
+        "implementation": "S"
+      },
+      "joint_winner_W_first": {
+        "action": "FAVOR_EARLY",
+        "implementation": "S"
+      },
+      "shared_mean_prediction_MAE_lower_bound_pp": 4.280648174981298
+    },
+    "last": {
+      "cells": [
+        {
+          "action": "FAVOR_EARLY",
+          "implementation": "S",
+          "gains_percent": [
+            14.999613054534692,
+            8.664807493441613,
+            5.143928198098641
+          ],
+          "mean_gain_percent": 9.602782915358317,
+          "NMAE_gains_percent": [
+            6.349523007572847,
+            4.559705220566483,
+            3.5141826392341318
+          ],
+          "mean_NMAE_gain_percent": 4.807803622457821,
+          "adoption_1pct": true,
+          "categories": [
+            "beneficial",
+            "beneficial",
+            "beneficial"
+          ]
+        },
+        {
+          "action": "FAVOR_EARLY",
+          "implementation": "W",
+          "gains_percent": [
+            12.393640075855851,
+            9.959411856987538,
+            4.583561801574505
+          ],
+          "mean_gain_percent": 8.978871244805964,
+          "NMAE_gains_percent": [
+            5.157092151803431,
+            4.367309714339246,
+            1.1717315390480816
+          ],
+          "mean_NMAE_gain_percent": 3.565377801730253,
+          "adoption_1pct": true,
+          "categories": [
+            "beneficial",
+            "beneficial",
+            "beneficial"
+          ]
+        },
+        {
+          "action": "FAVOR_LATE",
+          "implementation": "S",
+          "gains_percent": [
+            12.077211253834673,
+            -12.65243798276935,
+            -21.199012598793466
+          ],
+          "mean_gain_percent": -7.258079775909381,
+          "NMAE_gains_percent": [
+            7.968511177288475,
+            0.6688813255361087,
+            -9.641188058404875
+          ],
+          "mean_NMAE_gain_percent": -0.33459851852676376,
+          "adoption_1pct": false,
+          "categories": [
+            "beneficial",
+            "harmful",
+            "harmful"
+          ]
+        },
+        {
+          "action": "FAVOR_LATE",
+          "implementation": "W",
+          "gains_percent": [
+            -17.630487479981987,
+            -19.29617969086294,
+            -16.383890232168252
+          ],
+          "mean_gain_percent": -17.77018580100439,
+          "NMAE_gains_percent": [
+            -6.181419999462016,
+            -6.582027345435111,
+            -5.5214489382986915
+          ],
+          "mean_NMAE_gain_percent": -6.09496542773194,
+          "adoption_1pct": false,
+          "categories": [
+            "harmful",
+            "harmful",
+            "harmful"
+          ]
+        }
+      ],
+      "paired_differences": [
+        {
+          "action": "FAVOR_EARLY",
+          "W_minus_S_pp": [
+            -2.6059729786788406,
+            1.2946043635459255,
+            -0.5603663965241363
+          ],
+          "mean_difference_pp": -0.6239116705523505,
+          "same_direction_beyond_quarter_pp": false,
+          "adoption_changed": false
+        },
+        {
+          "action": "FAVOR_LATE",
+          "W_minus_S_pp": [
+            -29.70769873381666,
+            -6.643741708093589,
+            4.815122366625214
+          ],
+          "mean_difference_pp": -10.512106025095012,
+          "same_direction_beyond_quarter_pp": false,
+          "adoption_changed": false
+        }
+      ],
+      "separate_oracles_percent": {
+        "S": 9.602782915358317,
+        "W": 8.978871244805964
+      },
+      "choices": {
+        "S": "FAVOR_EARLY",
+        "W": "FAVOR_EARLY"
+      },
+      "choice_changed": false,
+      "any_adoption_changed": false,
+      "response_divergence_replicated": false,
+      "fixed_late_regret_pp": {
+        "S": 16.860862691267698,
+        "W": 26.749057045810353
+      },
+      "joint_oracle_percent": 9.602782915358317,
+      "joint_winner": {
+        "action": "FAVOR_EARLY",
+        "implementation": "S"
+      },
+      "joint_winner_W_first": {
+        "action": "FAVOR_EARLY",
+        "implementation": "S"
+      },
+      "shared_mean_prediction_MAE_lower_bound_pp": 2.7840044239118407
+    }
+  },
+  "interpretations": "three-seed descriptive replication, not statistical significance; ETTh1/2 one dataset family"
+}

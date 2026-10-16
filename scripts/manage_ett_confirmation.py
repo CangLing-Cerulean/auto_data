@@ -10,10 +10,6 @@ import tarfile
 LOCAL=Path(__file__).resolve().parents[1]
 STAGE=LOCAL/'research_runs/ett_confirmation'
 REMOTE='/root/auto_data_experiments/20261016_ett_confirmation_r1'
-HOST='root@instance-lcpdyopw.zju.smartml.cn'
-KEY=Path.home()/'.ssh/smartml_codex'
-SSH=['ssh','-i',str(KEY),'-p','20000','-o','BatchMode=yes','-o','ConnectTimeout=15',HOST]
-SCP=['scp','-i',str(KEY),'-P','20000','-o','BatchMode=yes','-o','ConnectTimeout=15']
 CODE=('ett_confirmation.py','launch_ett_confirmation.py','run_research.py')
 
 
@@ -28,9 +24,17 @@ def write(path,value):
     with path.open('x',encoding='utf-8') as stream:json.dump(value,stream,indent=2);stream.write('\n')
 
 
+def transport():
+    config=read(STAGE/'private/connection.json')
+    host,key,port=config['host'],config['identity_file'],str(config['port'])
+    options=['-i',key,'-o','BatchMode=yes','-o','ConnectTimeout=15']
+    return ['ssh',*options,'-p',port,host],['scp',*options,'-P',port],host
+
+
 def remote(script):
     ast.parse(script)
-    result=subprocess.run(SSH+['/opt/miniconda3/bin/python','-B','-'],input=script.encode(),capture_output=True,check=True)
+    ssh,_,_=transport()
+    result=subprocess.run(ssh+['/opt/miniconda3/bin/python','-B','-'],input=script.encode(),capture_output=True,check=True)
     print(result.stdout.decode(),end='')
     return result.stdout
 
@@ -55,6 +59,7 @@ def prepare():
 
 
 def deploy():
+    _,scp,host=transport()
     publication=read(STAGE/'runtime_publication_receipt.json')
     assert publication['status']=='exact_commit_and_tree_verified'
     commit=publication['source_commit']
@@ -70,7 +75,7 @@ assert shutil.disk_usage(p.parent).free>256*1024**2
 p.mkdir()
 print(json.dumps(dict(created=str(p),free_bytes=shutil.disk_usage(p).free)))
 """)
-    subprocess.run(SCP+[str(bundle),HOST+':'+REMOTE+'/ETTh1_inputs.tar.gz'],check=True)
+    subprocess.run(scp+[str(bundle),host+':'+REMOTE+'/ETTh1_inputs.tar.gz'],check=True)
     remote(f"""import pathlib,json,hashlib,tarfile,os
 p=pathlib.Path({REMOTE!r});lock=json.loads({json.dumps(lock)!r})
 def sha(f):
@@ -105,11 +110,13 @@ print(json.dumps(out))
 
 
 def launch(station,phase):
+    ssh,_,_=transport()
     command=f'/opt/miniconda3/bin/python -B {REMOTE}/launch_ett_confirmation.py {phase} {station}'
-    subprocess.run(SSH+[command],check=True)
+    subprocess.run(ssh+[command],check=True)
 
 
 def collect(station):
+    _,scp,host=transport()
     remote(f"""import pathlib,tarfile,json,hashlib
 p=pathlib.Path({REMOTE!r});s=p/{station!r};out=p/({station!r}+'_results.tar.gz')
 assert json.loads((s/'audit.json').read_text())['status']=='PASS'
@@ -127,7 +134,7 @@ print(json.dumps(receipt))
     for name in (station+'_results.tar.gz',station+'_archive_receipt.json'):
         destination=archives/name if name.endswith('.gz') else STAGE/name
         assert not destination.exists()
-        subprocess.run(SCP+[HOST+':'+REMOTE+'/'+name,str(destination)],check=True)
+        subprocess.run(scp+[host+':'+REMOTE+'/'+name,str(destination)],check=True)
     receipt=read(STAGE/(station+'_archive_receipt.json'));archive=archives/receipt['path']
     assert archive.stat().st_size==receipt['bytes'] and sha(archive)==receipt['sha256']
     with tarfile.open(archive) as package:
@@ -140,6 +147,7 @@ print(json.dumps(receipt))
 
 
 def unlock():
+    _,scp,host=transport()
     publication=read(STAGE/'ETTh1_publication_receipt.json')
     assert publication['status']=='exact_commit_and_tree_verified'
     commit=publication['source_commit']
@@ -152,7 +160,7 @@ def unlock():
     write(STAGE/'ETTh2_unlock.json',record)
     for path in (LOCAL/'data/ett_v1/raw/ETTh2.csv',STAGE/'ETTh2_unlock.json'):
         remote(f"import pathlib; p=pathlib.Path({(REMOTE+'/'+path.name)!r}); assert not p.exists() and p.resolve()==p\n")
-        subprocess.run(SCP+[str(path),HOST+':'+REMOTE+'/'+path.name],check=True)
+        subprocess.run(scp+[str(path),host+':'+REMOTE+'/'+path.name],check=True)
 
 
 if __name__=='__main__':
