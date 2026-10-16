@@ -1,0 +1,29 @@
+{
+  "authorization": "2026-10-16 user requested completion of ETT confirmation",
+  "remote_root": "/root/auto_data_experiments/20261016_ett_confirmation_r1",
+  "protocol_sha256": "9402d5782d4791243b8d19c81c3f9292fafb1d7f6a719563fd379e089237aab3",
+  "manifest_sha256": "3a7f619305325f82a63059ed0731d958afed59545d54c63acc2460b595e7e243",
+  "data_lock_sha256": "b5d11fabeabfd3411ff9afd28e6954816f136f9315c4ce88ea53f8d57ad62571",
+  "code_sha256": {
+    "ett_confirmation.py": "97ba99bdb4af940aca0af2aa48c790d9f564c2b9eb2f58b72af5dcb86937b055",
+    "launch_ett_confirmation.py": "8f0b3ee34b2f7ecad367eff7d0eadb453fb462e2d2873196ef647c11ef8e5f5e",
+    "run_research.py": "4f694b900ca40d2a0620da1dbe916b6c78e450dcc0c903af4a7c696fcaec3052"
+  },
+  "optimizer": {
+    "name": "torch.optim.Adam",
+    "foreach": false,
+    "fused": false,
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0
+  },
+  "cumulative_before": 434,
+  "maximum_new_full_trainings": 30,
+  "estimated_saved_assets_upper_bytes": 167772160,
+  "minimum_free_bytes": 268435456,
+  "source_protocol_unchanged": true
+}
