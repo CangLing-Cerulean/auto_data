@@ -1,0 +1,26 @@
+{
+  "exit_code": 0,
+  "source_sha256": {
+    "open_processing_program.py": "779ac2052f21b90284aee12d5b7346097a1873960945be7789905b74c91e619a",
+    "open_processing_sandbox.py": "5bfd7f1ba5227ef201bf77b8e5cb5cb2066c406960261755123f8a3a1fcd1681",
+    "check_open_processing_sandbox.py": "2fa665873ff0b02270912f895c0e12356c3e627ed3d59be2a16ac9417df38de8"
+  },
+  "stdout": "{\"status\": \"PASS\", \"checks\": [\"A_fit_numeric_state_complex_archive_roundtrip\", \"full_window_transform_inverse_weights_target\", \"fitted_A_state_unchanged_on_other_partition\", \"measurement_program_all_windows\", \"infinite_loop_timeout\", \"oversized_allocation_memory_limit\"], \"seconds\": 0.20348604675382376, \"real_data_access\": false, \"full_trainings\": 0}\n",
+  "stderr": "",
+  "real_data_access": false,
+  "full_trainings": 0,
+  "result": {
+    "status": "PASS",
+    "checks": [
+      "A_fit_numeric_state_complex_archive_roundtrip",
+      "full_window_transform_inverse_weights_target",
+      "fitted_A_state_unchanged_on_other_partition",
+      "measurement_program_all_windows",
+      "infinite_loop_timeout",
+      "oversized_allocation_memory_limit"
+    ],
+    "seconds": 0.20348604675382376,
+    "real_data_access": false,
+    "full_trainings": 0
+  }
+}

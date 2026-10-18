@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "A_fit_numeric_state_complex_archive_roundtrip",
+    "full_window_transform_inverse_weights_target",
+    "fitted_A_state_unchanged_on_other_partition",
+    "measurement_program_all_windows",
+    "infinite_loop_timeout",
+    "oversized_allocation_memory_limit"
+  ],
+  "seconds": 0.2597654862329364,
+  "real_data_access": false,
+  "full_trainings": 0,
+  "source_sha256": {
+    "open_processing_program.py": "89bef3324042b7c4c216b9949ab8cf025fd58ede3468558815e5b7b8e8f4cbc5",
+    "open_processing_sandbox.py": "4f4ef681895b61da4923022a83658bc78eda5d916f6aef21d9b2822d994f3526",
+    "check_open_processing_sandbox.py": "2fa665873ff0b02270912f895c0e12356c3e627ed3d59be2a16ac9417df38de8"
+  }
+}

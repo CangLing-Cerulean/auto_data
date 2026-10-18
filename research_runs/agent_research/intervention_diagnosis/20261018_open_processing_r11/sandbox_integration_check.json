@@ -1,0 +1,12 @@
+{
+  "exit_code": 1,
+  "source_sha256": {
+    "open_processing_program.py": "779ac2052f21b90284aee12d5b7346097a1873960945be7789905b74c91e619a",
+    "open_processing_sandbox.py": "5bfd7f1ba5227ef201bf77b8e5cb5cb2066c406960261755123f8a3a1fcd1681",
+    "check_open_processing_sandbox.py": "1d3b8e9dd5f7f488cdf0023a016acf1a45b051bc913e2838359aed58979796b3"
+  },
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\n  File \"scripts\\check_open_processing_sandbox.py\", line 39, in main\n  File \"/opt/miniconda3/lib/python3.12/site-packages/numpy/__init__.py\", line 733, in __getattr__\nModuleNotFoundError: No module named 'numpy.testing'\n",
+  "real_data_access": false,
+  "full_trainings": 0
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\n  File \"/synthetic_memory/check_open_processing_runtime.py\", line 19, in main\nAssertionError\n",
+  "source_sha256": {
+    "coldstart_model.py": "bbf03c517b7a66abfc8ff1f629290d94e25f1e90b9eaf3ab4f1098e54b8bcec2",
+    "coldstart_expressions.py": "06981279ae586b76928183d1a1f87843f251cedcd58b9d720c61b2e6c7b26e74",
+    "coldstart_reference.py": "d76f7c8dd03fdb6c8cc98e34c2cea632397db6ef72812b86cfdfbfddf60560fc",
+    "coldstart_runtime.py": "267f426ea445171b992af12716cddb484078b94ac014d2cb06c6fe520d809c93",
+    "open_processing_program.py": "89bef3324042b7c4c216b9949ab8cf025fd58ede3468558815e5b7b8e8f4cbc5",
+    "open_processing_sandbox.py": "4f4ef681895b61da4923022a83658bc78eda5d916f6aef21d9b2822d994f3526",
+    "open_processing_materialize.py": "eaca01f70d0337f00f2fdbfaff0584c793f20f741c821b7a64cbd8a61d5d7094",
+    "open_processing_reference.py": "3c80b7d1bc0df6ad63b3df1f4585151ce03e4b6e426c57731a6942cd17e19acb",
+    "open_processing_runtime.py": "3983c7b0b94f97c454a3f4fc5d486775545d698cad2b69004c160a50abaa8a4a",
+    "check_open_processing_runtime.py": "b8addbac98a5a12933644a167e01c3a7daf085d01da92de27b2c7326080aff4c"
+  },
+  "first_attempt_failed_without_stderr_capture": true,
+  "real_data_access": false
+}

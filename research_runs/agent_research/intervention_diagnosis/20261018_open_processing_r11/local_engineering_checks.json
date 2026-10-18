@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "script": "check_open_processing_program.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_compile_rejections (__main__.ProgramChecks.test_compile_rejections) ... ok\ntest_identity_and_a_only_state (__main__.ProgramChecks.test_identity_and_a_only_state) ... ok\ntest_independent_calls_and_copies (__main__.ProgramChecks.test_independent_calls_and_copies) ... ok\ntest_linear_filter_center_scale_helpers_and_loops (__main__.ProgramChecks.test_linear_filter_center_scale_helpers_and_loops) ... ok\ntest_longdouble_scalar_state_ipc_roundtrip (__main__.ProgramChecks.test_longdouble_scalar_state_ipc_roundtrip) ... ok\ntest_loop_control_and_generator_comprehension (__main__.ProgramChecks.test_loop_control_and_generator_comprehension) ... ok\ntest_measurement_math_linalg_fft_and_dict (__main__.ProgramChecks.test_measurement_math_linalg_fft_and_dict) ... ok\ntest_object_dtype_and_namespace_mutability (__main__.ProgramChecks.test_object_dtype_and_namespace_mutability) ... ok\ntest_readonly_arrays_and_nested_state (__main__.ProgramChecks.test_readonly_arrays_and_nested_state) ... ok\ntest_result_validation (__main__.ProgramChecks.test_result_validation) ... ok\ntest_scalar_integer_and_dtype_width_boundaries (__main__.ProgramChecks.test_scalar_integer_and_dtype_width_boundaries) ... ok\ntest_state_structure_budget_boundaries (__main__.ProgramChecks.test_state_structure_budget_boundaries) ... ok\ntest_state_validation (__main__.ProgramChecks.test_state_validation) ... ok\ntest_uninitialized_allocations_rejected (__main__.ProgramChecks.test_uninitialized_allocations_rejected) ... ok\ntest_where_keyword_rejected_on_function_and_method_paths (__main__.ProgramChecks.test_where_keyword_rejected_on_function_and_method_paths) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.106s\n\nOK\n",
+      "sha256": "473c084edcaf2d78bef7fab4a71c8ef966955eac367c974867f362a7ef47c2f7"
+    },
+    {
+      "script": "check_open_processing_materialize.py",
+      "returncode": 0,
+      "stdout": "Synthetic IPC mocks only; real Linux sandbox and real pipeline execution are NOT verified.\n",
+      "stderr": "test_fit_state_and_budget (__main__.MaterializeChecks.test_fit_state_and_budget) ... ok\ntest_invalid_materialized_outputs (__main__.MaterializeChecks.test_invalid_materialized_outputs) ... ok\ntest_invalid_request_does_not_launch (__main__.MaterializeChecks.test_invalid_request_does_not_launch) ... ok\ntest_pipeline_valid_variants (__main__.MaterializeChecks.test_pipeline_valid_variants) ... ok\ntest_process_failure_evidence (__main__.MaterializeChecks.test_process_failure_evidence) ... ok\ntest_request_and_success_receipt (__main__.MaterializeChecks.test_request_and_success_receipt) ... ok\ntest_weights_expected_values (__main__.MaterializeChecks.test_weights_expected_values) ... ok\ntest_weights_reject_boundaries (__main__.MaterializeChecks.test_weights_reject_boundaries) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.101s\n\nOK\n",
+      "sha256": "0bf0a3ef9d854682dd65ce4646f6d38385b355953d52d51a7af5b3e83fca40a5"
+    }
+  ],
+  "real_data_access": false
+}

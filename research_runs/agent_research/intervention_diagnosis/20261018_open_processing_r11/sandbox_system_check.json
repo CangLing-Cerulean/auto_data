@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "blocked": {
+    "file_open": true,
+    "network_socket": true,
+    "process_fork": true
+  },
+  "numerical_operations": true,
+  "archive_io_in_memory": true,
+  "allowed_syscalls": [
+    "read",
+    "write",
+    "close",
+    "fstat",
+    "lseek",
+    "mmap",
+    "mprotect",
+    "munmap",
+    "mremap",
+    "brk",
+    "madvise",
+    "futex",
+    "rt_sigaction",
+    "rt_sigprocmask",
+    "rt_sigreturn",
+    "sigaltstack",
+    "setitimer",
+    "clock_gettime",
+    "gettimeofday",
+    "time",
+    "getpid",
+    "gettid",
+    "sched_yield",
+    "sched_getaffinity",
+    "getrandom",
+    "restart_syscall",
+    "getrusage",
+    "exit",
+    "exit_group"
+  ]
+}
