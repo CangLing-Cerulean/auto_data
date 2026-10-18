@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "window_row_coordinates_and_no_cross_boundary",
+    "GPU_window_and_horizon_indexing",
+    "measurement_A_fit_and_B_transfer",
+    "target_window_channel_horizon_intersection",
+    "target_empty_and_full_rejected",
+    "full_partition_residual_independent_index_reference",
+    "uniform_S_and_W_common_random_indices",
+    "Y_Z_common_denominator_identity"
+  ],
+  "count": 8,
+  "torch": "2.6.0+cpu",
+  "numpy": "2.2.6",
+  "real_data_access": false,
+  "new_full_trainings": 0,
+  "backend": "CPU test-only device substitution; GPU integration not executed"
+}

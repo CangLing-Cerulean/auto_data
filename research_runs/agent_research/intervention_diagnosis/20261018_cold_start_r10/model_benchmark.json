@@ -1,0 +1,24 @@
+{
+  "exit_code": 0,
+  "source_sha256": "bbf03c517b7a66abfc8ff1f629290d94e25f1e90b9eaf3ab4f1098e54b8bcec2",
+  "server_files_written": 0,
+  "result": {
+    "status": "PASS",
+    "channels": 370,
+    "length": 32,
+    "horizon": 8,
+    "batch": 256,
+    "mathematical_reference_max_gradient_gap": 0.0,
+    "parameters": 195360,
+    "synthetic_optimizer_updates": 112,
+    "measured_updates": 100,
+    "seconds": 0.2739240899682045,
+    "training_update_only_3000_step_extrapolation_seconds": 8.217722699046135,
+    "end_to_end_training_time_known": false,
+    "peak_cuda_bytes": 75437056,
+    "torch": "2.14.0+cu130",
+    "device": "NVIDIA GeForce RTX 4090",
+    "real_data_access": false,
+    "full_trainings": 0
+  }
+}

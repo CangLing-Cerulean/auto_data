@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "scope": "synthetic arrays only; no real data or model calls",
+  "passed": 78,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "mean_channels(mean_time(x))",
+      "passed": true
+    },
+    {
+      "name": "std_channels(std_time(x))",
+      "passed": true
+    },
+    {
+      "name": "max_channels(last_time(x)-first_time(x))",
+      "passed": true
+    },
+    {
+      "name": "mean_time(channel(x,1))",
+      "passed": true
+    },
+    {
+      "name": "mean_channels(mean_time(diff_time(x)))",
+      "passed": true
+    },
+    {
+      "name": "mean_time(max_channels(lagdiff(x,2)))",
+      "passed": true
+    },
+    {
+      "name": "mean_time(mean_channels(x))",
+      "passed": true
+    },
+    {
+      "name": "safe_ratio(position,position)",
+      "passed": true
+    },
+    {
+      "name": "where(position<0.5,-position,position*2+1)",
+      "passed": true
+    },
+    {
+      "name": "log1p_abs(tanh(square(-position)))",
+      "passed": true
+    },
+    {
+      "name": "comparison <",
+      "passed": true
+    },
+    {
+      "name": "comparison <=",
+      "passed": true
+    },
+    {
+      "name": "comparison >",
+      "passed": true
+    },
+    {
+      "name": "comparison >=",
+      "passed": true
+    },
+    {
+      "name": "measurement rejects x+position",
+      "passed": true,
+      "error": "expression evaluation failed: operands could not be broadcast together with shapes (7,5,3) (7,) "
+    },
+    {
+      "name": "measurement rejects mean_time(x)+mean_channels(x)",
+      "passed": true,
+      "error": "expression evaluation failed: operands could not be broadcast together with shapes (7,3) (7,5) "
+    },
+    {
+      "name": "measurement rejects 1",
+      "passed": true,
+      "error": "measurement must return exactly the window axis [N]"
+    },
+    {
+      "name": "measurement rejects x",
+      "passed": true,
+      "error": "measurement must return exactly the window axis [N]"
+    },
+    {
+      "name": "measurement rejects position<1",
+      "passed": true,
+      "error": "measurement must return finite numeric floats"
+    },
+    {
+      "name": "measurement rejects x.__class__",
+      "passed": true,
+      "error": "forbidden syntax: Attribute"
+    },
+    {
+      "name": "measurement rejects x[0]",
+      "passed": true,
+      "error": "forbidden syntax: Subscript"
+    },
+    {
+      "name": "measurement rejects __import__('os')",
+      "passed": true,
+      "error": "function is not allowed: __import__"
+    },
+    {
+      "name": "measurement rejects open('x')",
+      "passed": true,
+      "error": "function is not allowed: open"
+    },
+    {
+      "name": "measurement rejects 'text'",
+      "passed": true,
+      "error": "only finite numeric constants are allowed"
+    },
+    {
+      "name": "measurement rejects True",
+      "passed": true,
+      "error": "only finite numeric constants are allowed"
+    },
+    {
+      "name": "measurement rejects position/2",
+      "passed": true,
+      "error": "only +, -, and * binary operators are allowed"
+    },
+    {
+      "name": "measurement rejects position**2",
+      "passed": true,
+      "error": "only +, -, and * binary operators are allowed"
+    },
+    {
+      "name": "measurement rejects +position",
+      "passed": true,
+      "error": "forbidden syntax: UnaryOp"
+    },
+    {
+      "name": "measurement rejects unknown",
+      "passed": true,
+      "error": "unknown variable: unknown"
+    },
+    {
+      "name": "measurement rejects abs(position,1)",
+      "passed": true,
+      "error": "abs requires 1 arguments"
+    },
+    {
+      "name": "measurement rejects abs(v=position)",
+      "passed": true,
+      "error": "calls must use an allowed function name without keywords"
+    },
+    {
+      "name": "measurement rejects [position]",
+      "passed": true,
+      "error": "forbidden syntax: List"
+    },
+    {
+      "name": "measurement rejects (lambda: 1)()",
+      "passed": true,
+      "error": "calls must use an allowed function name without keywords"
+    },
+    {
+      "name": "measurement rejects position==0",
+      "passed": true,
+      "error": "only single <, <=, >, >= comparisons are allowed"
+    },
+    {
+      "name": "measurement rejects 0<position<1",
+      "passed": true,
+      "error": "only single <, <=, >, >= comparisons are allowed"
+    },
+    {
+      "name": "measurement rejects channel(x,3)",
+      "passed": true,
+      "error": "channel index is out of range"
+    },
+    {
+      "name": "measurement rejects channel(x,-1)",
+      "passed": true,
+      "error": "channel index must be a literal integer"
+    },
+    {
+      "name": "measurement rejects channel(x,1.0)",
+      "passed": true,
+      "error": "channel index must be a literal integer"
+    },
+    {
+      "name": "measurement rejects channel(x,1+0)",
+      "passed": true,
+      "error": "channel index must be a literal integer"
+    },
+    {
+      "name": "measurement rejects lagdiff(x,0)",
+      "passed": true,
+      "error": "lagdiff requires 1 <= k < time length"
+    },
+    {
+      "name": "measurement rejects lagdiff(x,5)",
+      "passed": true,
+      "error": "lagdiff requires 1 <= k < time length"
+    },
+    {
+      "name": "measurement rejects lagdiff(x,1.0)",
+      "passed": true,
+      "error": "lagdiff index must be a literal integer"
+    },
+    {
+      "name": "measurement rejects mean_time(position)",
+      "passed": true,
+      "error": "mean_time requires the time axis"
+    },
+    {
+      "name": "measurement rejects sigmoid(position)",
+      "passed": true,
+      "error": "function is not allowed: sigmoid"
+    },
+    {
+      "name": "measurement rejects exp_clip(position)",
+      "passed": true,
+      "error": "function is not allowed: exp_clip"
+    },
+    {
+      "name": "measurement rejects where(position,1,0)",
+      "passed": true,
+      "error": "where condition must be a comparison"
+    },
+    {
+      "name": "measurement rejects 1001*position",
+      "passed": true,
+      "error": "constants must be finite with absolute value <= 1000"
+    },
+    {
+      "name": "measurement rejects 1e309*position",
+      "passed": true,
+      "error": "constants must be finite with absolute value <= 1000"
+    },
+    {
+      "name": "measurement rejects position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position+position",
+      "passed": true,
+      "error": "expression exceeds 128 AST nodes"
+    },
+    {
+      "name": "nonfinite input",
+      "passed": true,
+      "error": "x must contain only finite values"
+    },
+    {
+      "name": "nonfinite result",
+      "passed": true,
+      "error": "measurement must return finite numeric floats"
+    },
+    {
+      "name": "position shape",
+      "passed": true,
+      "error": "position must have nonempty shape [N]"
+    },
+    {
+      "name": "x shape",
+      "passed": true,
+      "error": "x must have nonempty shape [N,L,C] matching position"
+    },
+    {
+      "name": "empty time",
+      "passed": true,
+      "error": "x must have nonempty shape [N,L,C] matching position"
+    },
+    {
+      "name": "short diff",
+      "passed": true,
+      "error": "diff_time requires time length >= 2"
+    },
+    {
+      "name": "different time lengths",
+      "passed": true,
+      "error": "expression evaluation failed: operands could not be broadcast together with shapes (7,5,3) (7,4,3) "
+    },
+    {
+      "name": "weight reference",
+      "passed": true
+    },
+    {
+      "name": "input preserved",
+      "passed": true
+    },
+    {
+      "name": "ESS",
+      "passed": true
+    },
+    {
+      "name": "sum of squares",
+      "passed": true
+    },
+    {
+      "name": "weight mean",
+      "passed": true
+    },
+    {
+      "name": "constant broadcast",
+      "passed": true
+    },
+    {
+      "name": "256 positive accepted",
+      "passed": true
+    },
+    {
+      "name": "stable sigmoid",
+      "passed": true
+    },
+    {
+      "name": "recipe rejects 0",
+      "passed": true,
+      "error": "weights must have positive mean"
+    },
+    {
+      "name": "recipe rejects -1",
+      "passed": true,
+      "error": "weights must be finite and nonnegative"
+    },
+    {
+      "name": "recipe rejects where(position<0.4,1,0)",
+      "passed": true,
+      "error": "weights require at least 256 positive windows"
+    },
+    {
+      "name": "recipe rejects where(position<0.001,1000,0.001)",
+      "passed": true,
+      "error": "normalized maximum weight must be <= 20"
+    },
+    {
+      "name": "recipe rejects square(q1)",
+      "passed": true,
+      "error": "weights must be finite and nonnegative"
+    },
+    {
+      "name": "recipe rejects x",
+      "passed": true,
+      "error": "unknown variable: x"
+    },
+    {
+      "name": "recipe rejects mean_time(q1)",
+      "passed": true,
+      "error": "function is not allowed: mean_time"
+    },
+    {
+      "name": "recipe rejects channel(q1,0)",
+      "passed": true,
+      "error": "function is not allowed: channel"
+    },
+    {
+      "name": "recipe rejects q9",
+      "passed": true,
+      "error": "unknown variable: q9"
+    },
+    {
+      "name": "recipe rejects position<1",
+      "passed": true,
+      "error": "recipe must return numeric scalar or window weights"
+    },
+    {
+      "name": "unknown q key",
+      "passed": true,
+      "error": "invalid measurement variable: signal"
+    },
+    {
+      "name": "wrong q shape",
+      "passed": true,
+      "error": "q1 must have shape [N] matching position"
+    },
+    {
+      "name": "nonfinite q",
+      "passed": true,
+      "error": "q1 must contain only finite values"
+    },
+    {
+      "name": "small N",
+      "passed": true,
+      "error": "weights require at least 256 positive windows"
+    }
+  ]
+}

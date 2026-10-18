@@ -1,0 +1,36 @@
+{
+  "protocol_sha256": "bab9760054fa0a26dd7549a8c525aee12c0c7d3260e71cf26c28f5d828dd9a57",
+  "source_protocol_sha256": "13c382091bef6c3dc47507b6e764e05cfe1ada26863b6530864aa502e8020bad",
+  "source_index_sha256": "95f5b9b76f50b30ab79b83117095a8a72cc93037ec80b610a37177f40cd7b32c",
+  "manifest_sha256": "e1f41162a17777df4fcfd4014dcb619d27f11de98029bcda62f2e64a7b0a75e7",
+  "raw_text_sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b",
+  "runtime_code_sha256": {
+    "coldstart_model.py": "bbf03c517b7a66abfc8ff1f629290d94e25f1e90b9eaf3ab4f1098e54b8bcec2",
+    "coldstart_expressions.py": "06981279ae586b76928183d1a1f87843f251cedcd58b9d720c61b2e6c7b26e74",
+    "coldstart_reference.py": "d76f7c8dd03fdb6c8cc98e34c2cea632397db6ef72812b86cfdfbfddf60560fc",
+    "coldstart_runtime.py": "267f426ea445171b992af12716cddb484078b94ac014d2cb06c6fe520d809c93",
+    "coldstart_trial.py": "c903c59cfe477fdcf89b8de1ba269e607212878ac90370f89336a74a2cc93b79",
+    "prepare_coldstart_arrays.py": "6c5b58856c39ff13893311924258cbc24e2baf0b771b46cb9f039741e3869e5c",
+    "manage_coldstart_trial.py": "f09e5b58be61eeb7d97cbe9effb86dbb53e731bdc8fb35fbe7e2b45424bd0d1e"
+  },
+  "engineering_review_sha256": "d0475408bb3f89440e58a63fa8dd942cb59e1846fd18663a0e558f93c7a6aa4c",
+  "seeds": [
+    18431,
+    18432,
+    18433
+  ],
+  "arms": [
+    "STRONG",
+    "SEPARATE"
+  ],
+  "attempts_per_arm": 8,
+  "max_llm_calls": 32,
+  "max_full_trainings": 51,
+  "cumulative_before": 464,
+  "minimum_deploy_free_bytes": 943718400,
+  "estimated_model_assets_upper_bytes": 471859200,
+  "remote_root": "/root/auto_data_experiments/20261018_cold_start_r10",
+  "scientific_negative_stops_matrix": false,
+  "D_values_allowed_for_exploration": false,
+  "remote_egress_approval_pending": true
+}

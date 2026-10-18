@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "row_coordinates_decimal_comma_float64",
+    "excluded_pre_A_and_sealed_D_invalid_measurements_not_decoded",
+    "A_only_population_statistics_zero_std_replaced_only_in_scale",
+    "selected_invalid_nonfinite_and_channel_count_rejected",
+    "truncated_interval_rejected",
+    "npz_schema_dtypes_and_row_starts",
+    "create_only_output"
+  ],
+  "count": 7,
+  "real_source_opened": false,
+  "prepare_executed": false,
+  "code_sha256": "6c5b58856c39ff13893311924258cbc24e2baf0b771b46cb9f039741e3869e5c"
+}

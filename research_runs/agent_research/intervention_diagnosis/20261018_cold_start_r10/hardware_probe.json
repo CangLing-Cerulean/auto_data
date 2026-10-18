@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "seconds": 4.585460599999351,
+  "operation": "read_only_hardware_capacity",
+  "server_writes": 0,
+  "full_trainings": 0,
+  "result": {
+    "root": "/root/auto_data_experiments",
+    "free_bytes": 1151344640,
+    "torch": "2.14.0+cu130",
+    "cuda": true,
+    "gpu": "NVIDIA GeForce RTX 4090, 24564 MiB, 1 MiB, 0 %",
+    "new_directory_exists": false
+  }
+}

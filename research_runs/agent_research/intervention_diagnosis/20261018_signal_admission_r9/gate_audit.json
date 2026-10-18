@@ -1,0 +1,259 @@
+{
+  "status": "completed",
+  "action": "gate",
+  "checks": [
+    {
+      "name": "task_parent_counts",
+      "passed": true
+    },
+    {
+      "name": "input_count",
+      "passed": true,
+      "actual": 42
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_weighted_response_r1/plan.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261018_parent_measurements_r3/ett_measurements.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/prepared/G1_ABC.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/G1_diagnostic.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/statistics/G1.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G1_full_PARENT_s2026101701/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G1_full_PARENT_s2026101702/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G1_full_PARENT_s2026101703/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/prepared/G2_ABC.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/G2_diagnostic.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/statistics/G2.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G2_full_PARENT_s2026101701/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G2_full_PARENT_s2026101702/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G2_full_PARENT_s2026101703/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/prepared/G3_ABC.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/G3_diagnostic.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/archives/unpacked/statistics/G3.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G3_full_PARENT_s2026101701/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G3_full_PARENT_s2026101702/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/agent_research/intervention_diagnosis/20261013_response_proxy_development_r1/archives/verified/runs/DEV_G3_full_PARENT_s2026101703/result.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/preprocessing.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:data/ett_v1/raw/ETTh1.csv",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101901/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101901/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101901/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101902/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101902/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101902/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101903/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101903/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh1/runs/PARENT_P_s2026101903/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/preprocessing.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:data/ett_v1/raw/ETTh2.csv",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101901/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101901/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101901/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101902/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101902/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101902/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101903/status.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101903/B_curve.json",
+      "passed": true
+    },
+    {
+      "name": "sha256:research_runs/ett_confirmation/ETTh2/runs/PARENT_P_s2026101903/best.pt",
+      "passed": true
+    },
+    {
+      "name": "sha256:scripts/parent_directional_measurements.py",
+      "passed": true
+    },
+    {
+      "name": "sha256:scripts/diagnosis_pool_features.py",
+      "passed": true
+    },
+    {
+      "name": "protocol_sha256",
+      "passed": true
+    },
+    {
+      "name": "production_compiles",
+      "passed": true
+    },
+    {
+      "name": "npz_member_boundary",
+      "passed": true,
+      "members": [
+        "A_cycles",
+        "A_starts",
+        "A_values",
+        "B_starts",
+        "B_values",
+        "theta"
+      ]
+    },
+    {
+      "name": "csv_prefix_bound",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_weights_only",
+      "passed": true
+    },
+    {
+      "name": "no_new_training_or_llm",
+      "passed": true
+    },
+    {
+      "name": "even_horizon:G1",
+      "passed": true
+    },
+    {
+      "name": "even_horizon:G2",
+      "passed": true
+    },
+    {
+      "name": "even_horizon:G3",
+      "passed": true
+    },
+    {
+      "name": "even_horizon:ETTh1",
+      "passed": true
+    },
+    {
+      "name": "even_horizon:ETTh2",
+      "passed": true
+    },
+    {
+      "name": "ett_per_window_mass_gate",
+      "passed": true,
+      "counts": [
+        4224,
+        4225
+      ],
+      "FAVOR_EARLY_group_mass": 0.749955613422501
+    }
+  ],
+  "production_helpers_imported": false,
+  "C_D_test_numeric_members_parsed": false,
+  "training_LLM_server_operations": 0,
+  "source_audit_sha256": "7a08b1881bec500deddb7a7e3e7720e28e05375252dce9eabe9ae91ca99cd6c4",
+  "seconds": 0.05745990000286838,
+  "checks_passed": 58,
+  "checks_total": 58
+}

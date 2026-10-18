@@ -1,0 +1,15 @@
+{
+  "status": "remote_code_transmission_rejected_before_execution",
+  "date": "2026-10-18",
+  "action": "Transmit coldstart_model.py, coldstart_expressions.py, coldstart_reference.py, coldstart_runtime.py and generated-input check code through existing SSH connection for in-memory GPU checks",
+  "destination_configuration": "Existing research server configured in research_runs/ett_confirmation/private/connection.json; endpoint and credentials are not copied into this record",
+  "review_reason": "The command transmits internal research source code to a remote SSH server, but the user's authorization does not specifically approve that payload and destination; sensitive egress therefore must be denied.",
+  "command_executed": false,
+  "remote_files_created_by_rejected_action": 0,
+  "workaround_attempted": false,
+  "safe_work_completed": "CPU-only generated-input integration checks, code review, numerical and information-isolation fixes, protocol and source preparation",
+  "pending_concrete_authorization": "Upload frozen r10 code and A/B/C-derived arrays to existing research server /root/auto_data_experiments/20261018_cold_start_r10; execute at most 51 full trainings and 32 gpt-6.1-sol/high exploration calls under PROTOCOL.md",
+  "D_values_parsed": false,
+  "new_full_trainings": 0,
+  "new_llm_calls": 0
+}
