@@ -1,0 +1,2881 @@
+{
+  "status": "COMPUTED_AUDIT_PENDING",
+  "traces": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "path": "replay/ETT_ETTh1_original_quadratic_full.json",
+      "sha256": "5e2de7f822ec2e28ecbb1aac475e2d672e4ce8f56744925dc6283102ef0bf144",
+      "seconds": 0.050796100000297884
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh1_original_quadratic_global_only.json",
+      "sha256": "756c6e03eafb261608468e6f9c246a5396ddec075664820b201d3c65be858919",
+      "seconds": 0.046684799999638926
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh1_original_quadratic_hidden_current.json",
+      "sha256": "f170e292992980e9e152b54586b2b9f741e3834f78db861e73e055fd54443d85",
+      "seconds": 0.04548919999797363
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "path": "replay/ETT_ETTh1_mismatch_conditional_full.json",
+      "sha256": "79e91a66ef6d24714959f487882612fe20cc4cd719530cacfe43fcf043bc9810",
+      "seconds": 0.030551200001355028
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh1_mismatch_conditional_global_only.json",
+      "sha256": "c936c10dd257bd56b643614510d0229051f24dc0dd164756c7fc51fcbcc0eedc",
+      "seconds": 0.03188800000134506
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh1_mismatch_conditional_hidden_current.json",
+      "sha256": "63da02bf7f5c206b5a0060528cb3bffb917314cc01ef99ad049f26e27894bbbf",
+      "seconds": 0.029093199998897035
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "path": "replay/ETT_ETTh1_mismatch_joint_full.json",
+      "sha256": "023072e6e87ece9b06ca1e5986099ef0f0fe7eefe980fe180e1566afea190205",
+      "seconds": 0.029059000000415836
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh1_mismatch_joint_global_only.json",
+      "sha256": "e824e74735c1bf42671e330a5d3adbe311913d47a6c37e5f1e95f8b8d33d5d92",
+      "seconds": 0.030020100002730032
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh1_mismatch_joint_hidden_current.json",
+      "sha256": "86915c504864fd947604ab140191c7b26043be43c6e1cf5a5c757fefbd69901a",
+      "seconds": 0.0285182999978133
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "path": "replay/ETT_ETTh2_original_quadratic_full.json",
+      "sha256": "6633ac8fea9519192215c3e6c1d9d6982572b642d50f74e71af6263de07780c5",
+      "seconds": 0.04620429999704356
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh2_original_quadratic_global_only.json",
+      "sha256": "2bf2ac8ac807d15f1feb99a177d1a35bd900fa1078ee94a35087e516af38de76",
+      "seconds": 0.0436264999989362
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh2_original_quadratic_hidden_current.json",
+      "sha256": "5540337ba9f0cd5aabf5960f534c15a54f5d1bb573f6aedfba88ece92dbc638b",
+      "seconds": 0.0442276000030688
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "path": "replay/ETT_ETTh2_mismatch_conditional_full.json",
+      "sha256": "7047c781b0ddd79c65519e34333f5dba8153c9dd6d9447fb9247a5ec8f6ec000",
+      "seconds": 0.03381889999945997
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh2_mismatch_conditional_global_only.json",
+      "sha256": "8417a508e1c3984b286b40def587f6745150a2f74760549c7d3f771109f8cef5",
+      "seconds": 0.030324299998028437
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh2_mismatch_conditional_hidden_current.json",
+      "sha256": "4ca52c57ce313e2935146badaf5a28e6df2cfcadaa51514ed19a035f3ef9482d",
+      "seconds": 0.031885200001852354
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "path": "replay/ETT_ETTh2_mismatch_joint_full.json",
+      "sha256": "7af887e4ba25aa9fe1a0899049f615ffbbdb92a553ad999901878a3ef05194ab",
+      "seconds": 0.032153799998923205
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "path": "replay/ETT_ETTh2_mismatch_joint_global_only.json",
+      "sha256": "70507705c0a508df7fbbf4ac47483f92159ba428a3201db7bc2d0dd728028d60",
+      "seconds": 0.03195129999949131
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "path": "replay/ETT_ETTh2_mismatch_joint_hidden_current.json",
+      "sha256": "fc070cc744d3fa28d2c2cb88fa19029f144b2f7323a99cffd0fe66702b1bc291",
+      "seconds": 0.03011030000197934
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "path": "replay/Hydraulic_G1_original_quadratic_full.json",
+      "sha256": "822e5e7d6d59a02b2b7c03d78c4af827477d92181e4a4b9b0d9e92e11b2c5ad8",
+      "seconds": 0.03342069999780506
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G1_original_quadratic_global_only.json",
+      "sha256": "8103673fac2bd2ec219794a5f3d6c510fd1c3ebf794b5f48a243515e6f6c0064",
+      "seconds": 0.035846099999616854
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G1_original_quadratic_hidden_current.json",
+      "sha256": "790a66bbb1faaae8cf0dcaee5ca5ccd1677e2f0514820eda1682188b18d7ad11",
+      "seconds": 0.03230020000046352
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "path": "replay/Hydraulic_G1_mismatch_conditional_full.json",
+      "sha256": "450eee0d86122f542305da2937d31e023f5368f5e5dafcd9e7f44111f148b34e",
+      "seconds": 0.02200799999991432
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G1_mismatch_conditional_global_only.json",
+      "sha256": "7b6bce8e10bfc603c2a981820d0a58ae56147e042edb11af23fc1405243c6eb9",
+      "seconds": 0.021423800000775373
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G1_mismatch_conditional_hidden_current.json",
+      "sha256": "6b5e53881ff5b172c88c62a3c8e924b9d4ad0f80308c3e03f65ecff94aa3a592",
+      "seconds": 0.020339799997600494
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "path": "replay/Hydraulic_G1_mismatch_joint_full.json",
+      "sha256": "a1e0295e2da6c2d17d8855a9d1dde5068c865f1711a2b82c5480fddba0466e15",
+      "seconds": 0.021539199999097036
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G1_mismatch_joint_global_only.json",
+      "sha256": "c0e036ce89fc05cd12fcea2aee0c3fc2d1f40228d9811df985f5dca7610aeff9",
+      "seconds": 0.022245899999688845
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G1_mismatch_joint_hidden_current.json",
+      "sha256": "e8d7469b25dbd0fd4b273d7f3ff1bf0a796c117d247bec5ddea4f90339e70670",
+      "seconds": 0.02161770000020624
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "path": "replay/Hydraulic_G2_original_quadratic_full.json",
+      "sha256": "8c62b28f61d65008862e8cee2aa5d473c0d0185b6963c952bcc9fe755799adbd",
+      "seconds": 0.034084599999914644
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G2_original_quadratic_global_only.json",
+      "sha256": "d77b9d771e231c8627735902f4a3a479ac4b261efcb55dc43afbbfa005294ab7",
+      "seconds": 0.03203340000254684
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G2_original_quadratic_hidden_current.json",
+      "sha256": "08b515578aa087961bf7512e8118fbaebdc474da224619cf8865588868bb1f9d",
+      "seconds": 0.03498490000129095
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "path": "replay/Hydraulic_G2_mismatch_conditional_full.json",
+      "sha256": "b826c1d4955f2ae007241f9a619259b8956cddd170cde9d9abe66147946d649e",
+      "seconds": 0.02207529999941471
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G2_mismatch_conditional_global_only.json",
+      "sha256": "dcca5fed6e8631aafcded4541cbf64063e2f839acdb7f387e23bf582483fb90d",
+      "seconds": 0.021718799998780014
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G2_mismatch_conditional_hidden_current.json",
+      "sha256": "6ba75f8e16a634ea174932948493d0bb494ce185e96fd323227d63240341f2ef",
+      "seconds": 0.022188300001289463
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "path": "replay/Hydraulic_G2_mismatch_joint_full.json",
+      "sha256": "e784b48a14d65231cbb55532eb9011f56f352fb0a4aae0822901d2ce48cb3821",
+      "seconds": 0.021355500000936445
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G2_mismatch_joint_global_only.json",
+      "sha256": "b1a0cef4994258274b66a5547cd8c5cda93e7aaf8f8a52212af1eefb2d93cb48",
+      "seconds": 0.023395899999741232
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G2_mismatch_joint_hidden_current.json",
+      "sha256": "dda43a010d63a9855acc9af5674509cfc9dff05e0fbf4727f0f722519920da60",
+      "seconds": 0.022345199999108445
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "full",
+      "path": "replay/Hydraulic_G3_original_quadratic_full.json",
+      "sha256": "3dfa57ba4e4582e2b6dbce449f7e70ef17a7b3ad62cf130e9a34e56c7ee9c441",
+      "seconds": 0.032937700001639314
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G3_original_quadratic_global_only.json",
+      "sha256": "6b24962ed1d1be59d9897229c92b6dbbf7b319c07de0a34b2d3808502ea28f45",
+      "seconds": 0.03291250000256696
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G3_original_quadratic_hidden_current.json",
+      "sha256": "2ebfb0c1d83b7cca562b35ee0cde74aae8d5e8c4e221168bfcadf253e78ffa87",
+      "seconds": 0.03270139999949606
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "path": "replay/Hydraulic_G3_mismatch_conditional_full.json",
+      "sha256": "20729698d0e277c187fd74602b8e3eac15ac64d174078e3c68c7f4ac2b903091",
+      "seconds": 0.022707599997374928
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G3_mismatch_conditional_global_only.json",
+      "sha256": "76b1f9f8f7a92ec64d64508fbc8163a902266f711fec509946e007579b4fbeda",
+      "seconds": 0.021900499999901513
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G3_mismatch_conditional_hidden_current.json",
+      "sha256": "b270dfd6b0f4e3759d56dc2d3dffe294805f4bc2b7f0cbbe98c1b3fba2926a19",
+      "seconds": 0.022434500002418645
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "path": "replay/Hydraulic_G3_mismatch_joint_full.json",
+      "sha256": "f869067c028cc139ed85c84fad568f63a70986caac6940a3a3bc8a7d347d06e6",
+      "seconds": 0.021248500001092907
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "path": "replay/Hydraulic_G3_mismatch_joint_global_only.json",
+      "sha256": "fe59617408a0f9640644453f1be25dadbe4f8a6600adccc7bb43720f123b7644",
+      "seconds": 0.02205790000152774
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "path": "replay/Hydraulic_G3_mismatch_joint_hidden_current.json",
+      "sha256": "c719697b2eabc969c63ce9c4ea59af3cf5803a671f2343ae5066512f024f04dd",
+      "seconds": 0.022377299999789102
+    }
+  ],
+  "nodes": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.86608462035656,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.86608462035656,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.86608462035656,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 245.99550814088434,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.3905921652913,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.3905921652913,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+        "gain": 0.0224142510366059,
+        "regret": 0.04402291955299317,
+        "NMAE_gain": 0.005261228088253957,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.3905921652913,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.06643717058959907,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 248.54365995898843,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "continuation": {
+        "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+        "gain": 0.06643717058959907,
+        "regret": 0.0,
+        "NMAE_gain": 0.020686959271040056,
+        "negative_seed_count": 1
+      },
+      "oracle_gain": 0.06643717058959907,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 221.75586752500385,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 222.071664435789,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 222.071664435789,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 221.75586752500385,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 222.071664435789,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.023331066360900942,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 222.071664435789,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:W",
+        "gain": 0.022701051775034713,
+        "regret": 0.0006300145858662287,
+        "NMAE_gain": 0.007576801879538554,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": 221.75586752500385,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+        "gain": 0.023331066360900942,
+        "regret": 0.0,
+        "NMAE_gain": -0.0012734344114628236,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.023331066360900942,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+        "gain": 0.5379421136515773,
+        "regret": 0.0,
+        "NMAE_gain": 0.270456170223404,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+        "gain": 0.5379421136515773,
+        "regret": 0.0,
+        "NMAE_gain": 0.270456170223404,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 435.72830757591873,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+        "gain": 0.5379421136515773,
+        "regret": 0.0,
+        "NMAE_gain": 0.270456170223404,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+        "gain": 0.5379421136515773,
+        "regret": 0.0,
+        "NMAE_gain": 0.270456170223404,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 435.72830757591873,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 214.12784558627754,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:S",
+        "gain": 0.5267528723193613,
+        "regret": 0.011189241332215993,
+        "NMAE_gain": 0.26853240049958477,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:KEEP_SECOND:S",
+        "gain": 0.5267528723193613,
+        "regret": 0.011189241332215993,
+        "NMAE_gain": 0.26853240049958477,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 428.4153773719445,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 436.05695288814604,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 436.05695288814604,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 214.12784558627754,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+        "gain": 0.2827669592612514,
+        "regret": 0.2551751543903259,
+        "NMAE_gain": 0.134791588457276,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+        "gain": 0.2827669592612514,
+        "regret": 0.2551751543903259,
+        "NMAE_gain": 0.134791588457276,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 432.17127882502973,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 436.05695288814604,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 217.8178603174165,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:W",
+        "gain": 0.30018001032132885,
+        "regret": 0.23776210333024844,
+        "NMAE_gain": 0.1339520863202149,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 436.05695288814604,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.5379421136515773,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 214.12784558627754,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+        "gain": 0.2827669592612514,
+        "regret": 0.2551751543903259,
+        "NMAE_gain": 0.134791588457276,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+        "gain": 0.2827669592612514,
+        "regret": 0.2551751543903259,
+        "NMAE_gain": 0.134791588457276,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.5379421136515773,
+      "query_seconds": 432.17127882502973,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 213.7183829890564,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 430.15792707912624,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 213.7183829890564,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 430.15792707912624,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 213.8182029761374,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 427.5324016138911,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 216.4437284413725,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 433.46745750308037,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 216.4437284413725,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 433.46745750308037,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 213.8182029761374,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 431.5743185961619,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 216.4437284413725,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 433.46745750308037,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 216.4437284413725,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 433.46745750308037,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 213.8182029761374,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "continuation": {
+        "recommendation": "PARENT",
+        "gain": 0.0,
+        "regret": 0.0,
+        "NMAE_gain": 0.0,
+        "negative_seed_count": 0
+      },
+      "oracle_gain": 0.0,
+      "query_seconds": 431.5743185961619,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    }
+  ],
+  "summaries": [
+    {
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 2,
+      "actual_gain": 0.06451885227158695,
+      "continuation_gain": 0.06451885227158695
+    },
+    {
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 2,
+      "actual_gain": 0.06451885227158695,
+      "continuation_gain": 0.06451885227158695
+    },
+    {
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual_gain": 0.009149063479501368,
+      "continuation_gain": 0.009149063479501368
+    },
+    {
+      "method": "original_quadratic",
+      "branch": "full",
+      "queries": 4,
+      "actual_gain": 0.12554207012041546,
+      "continuation_gain": 0.12554207012041546
+    },
+    {
+      "method": "original_quadratic",
+      "branch": "global_only",
+      "queries": 4,
+      "actual_gain": 0.12554207012041546,
+      "continuation_gain": 0.12554207012041546
+    },
+    {
+      "method": "original_quadratic",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual_gain": 0.12330422185397225,
+      "continuation_gain": 0.12330422185397225
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 2,
+      "actual_gain": 0.06003600206426577,
+      "continuation_gain": 0.06003600206426577
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 2,
+      "actual_gain": 0.06003600206426577,
+      "continuation_gain": 0.06003600206426577
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual_gain": 0.004666213272180189,
+      "continuation_gain": 0.004666213272180189
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "full",
+      "queries": 4,
+      "actual_gain": 0.07786364653719254,
+      "continuation_gain": 0.07786364653719254
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "global_only",
+      "queries": 4,
+      "actual_gain": 0.07786364653719254,
+      "continuation_gain": 0.07786364653719254
+    },
+    {
+      "method": "mismatch_conditional",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual_gain": 0.07450703924235028,
+      "continuation_gain": 0.07450703924235028
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 2,
+      "actual_gain": 0.06003600206426577,
+      "continuation_gain": 0.06003600206426577
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 2,
+      "actual_gain": 0.06003600206426577,
+      "continuation_gain": 0.06003600206426577
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 2,
+      "actual_gain": 0.004666213272180189,
+      "continuation_gain": 0.004666213272180189
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "full",
+      "queries": 4,
+      "actual_gain": 0.07786364653719254,
+      "continuation_gain": 0.07786364653719254
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "global_only",
+      "queries": 4,
+      "actual_gain": 0.07786364653719254,
+      "continuation_gain": 0.07786364653719254
+    },
+    {
+      "method": "mismatch_joint",
+      "branch": "hidden_current",
+      "queries": 4,
+      "actual_gain": 0.07450703924235028,
+      "continuation_gain": 0.07450703924235028
+    }
+  ],
+  "contrasts": [
+    {
+      "method": "original_quadratic",
+      "queries": 2,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 2,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.05536978879208558,
+      "continuation_gain_difference": 0.05536978879208558
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 4,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 4,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.0022378482664432153,
+      "continuation_gain_difference": 0.0022378482664432153
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 2,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 2,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.05536978879208558,
+      "continuation_gain_difference": 0.05536978879208558
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 4,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 4,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.0033566072948422593,
+      "continuation_gain_difference": 0.0033566072948422593
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 2,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 2,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.05536978879208558,
+      "continuation_gain_difference": 0.05536978879208558
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 4,
+      "comparison": "full-minus-global_only",
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 4,
+      "comparison": "full-minus-hidden_current",
+      "actual_gain_difference": 0.0033566072948422593,
+      "continuation_gain_difference": 0.0033566072948422593
+    }
+  ],
+  "outer_seconds": 1.8934982999999193,
+  "execution_lock_sha256": "eb2d0216697209636430d17ad6b70897a15368858bf860258dafb40cfd917d39",
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "new_LLM_calls": 0
+}

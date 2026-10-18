@@ -1,0 +1,1758 @@
+{
+  "status": "PASS",
+  "count": 438,
+  "members": {
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/.gitignore": {
+      "bytes": 27,
+      "sha256": "15eaf17e7b5527facedf9e148b2eda18c80372a6a4e24d8a69338c53fb248f1f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/analysis.json": {
+      "bytes": 48019,
+      "sha256": "54b2a5bea103e9370743bdb401332c977910eddc1ff0f965192cdf8a6175f651"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/BRIDGE_REQUIREMENTS.md": {
+      "bytes": 3319,
+      "sha256": "855b4e5aa450c77321079961baeed49771ae90a189187d47fffd0b43f0f0097a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/compile_receipt.json": {
+      "bytes": 302,
+      "sha256": "9a32333da8749041a1f91a2e041aa9471cfd0c538ff281bc53eaba7da059db1d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/execution_lock.json": {
+      "bytes": 1790,
+      "sha256": "eb2d0216697209636430d17ad6b70897a15368858bf860258dafb40cfd917d39"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/gate_audit.json": {
+      "bytes": 2327,
+      "sha256": "c55f41f04a869e3f2729e14957f5a0351f3d8c64830f173ea3776ed5c44c15da"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/gate_audit_check.py": {
+      "bytes": 10323,
+      "sha256": "4fe83f46c6d00f044915da11c9280d865bb8ec8c44c47d035c7a18c533e20317"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/paper_revision.json": {
+      "bytes": 468,
+      "sha256": "cc5e37cd18aabddf93cadc718527c129e635ce7f8a366bd2a7eed56bc4808311"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/prefixes.json": {
+      "bytes": 40425,
+      "sha256": "be9e6ce16b128cd3f787d56100a8a710ebc9673fbc9a373a439616a8c33bdbb3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/progress.json": {
+      "bytes": 332,
+      "sha256": "7b6ecd434d4a11a3b3c386e5acf677bd469233158e8102a5d424bc715c9e5aa9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/PROTOCOL.md": {
+      "bytes": 3736,
+      "sha256": "f354155f3981d09a0714912cf45870d051e9bda172626717324e5d28554ea6d9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_1_registration.json": {
+      "bytes": 29039,
+      "sha256": "fb938b33a8aa7dc3cfa4dadb012c4b25387d4fb798d1711063a862d7a7026c45"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_1_result.json": {
+      "bytes": 41463,
+      "sha256": "e0483845ac10ba67568b305858cc422d84b626d49b469e60355a63d786a6d012"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_2_registration.json": {
+      "bytes": 29821,
+      "sha256": "651c9f73b80e702880d0db1b69b3d77a8375aff682640a496d65fd23ba0fa0c0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_2_result.json": {
+      "bytes": 42296,
+      "sha256": "d99c41bdad297303536e90ff13ce9c4a00fda4d48c22c7e2e8ce6b258b7ed19d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_3_registration.json": {
+      "bytes": 30132,
+      "sha256": "41fee313132863aa123218767f14823827d53ef34d9368cea1fa9093d07eeb9b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_3_result.json": {
+      "bytes": 42626,
+      "sha256": "be4c65cc1e501da05e7c716bda8340a7508d97e32c066574fca381fb87235a7c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_4_registration.json": {
+      "bytes": 30559,
+      "sha256": "dd2f64c1f04499ec383d937b77ac5a128e803fe6a7d5792669fc4bed54506caf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full/query_4_result.json": {
+      "bytes": 43061,
+      "sha256": "6d63803afcde36eec3efe03ff0d90cc5c1c3b6f42b3bf39571885c957af5b015"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_full.json": {
+      "bytes": 190207,
+      "sha256": "79e91a66ef6d24714959f487882612fe20cc4cd719530cacfe43fcf043bc9810"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_1_registration.json": {
+      "bytes": 29046,
+      "sha256": "b4aa570319c52af405036ea4120673c2a20cb21cd8ceba3dacbaab6447c16fac"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_1_result.json": {
+      "bytes": 41339,
+      "sha256": "637dc135281ea8f4c04ac01475f9d50ac74762f353f70331a3eff89038e817fa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_2_registration.json": {
+      "bytes": 29433,
+      "sha256": "ab578c878e40877378d6de8c2cf664231c9626f31348f334d904a31dd3cfa18c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_2_result.json": {
+      "bytes": 41859,
+      "sha256": "e37c0bad27c8bf53a9e75f2469bf7bf5b7ca265006d83e28d6e833c39f3d6465"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_3_registration.json": {
+      "bytes": 29996,
+      "sha256": "c95c256735f9a5d15b9a1d35da9722d66dc4923f3b067a0215a10eda27ba5e60"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_3_result.json": {
+      "bytes": 42482,
+      "sha256": "a740fd5cd8a8a6577743058c43d0679b0a747eaff07fc042f841e13720e5397f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_4_registration.json": {
+      "bytes": 30393,
+      "sha256": "4153f991790845a361bc579866e29f745782d602bbc9c0e9ed2620a497643dfa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only/query_4_result.json": {
+      "bytes": 42890,
+      "sha256": "f4779012c9f76455eb892bf35f2d43b02abd26fe501763384961ca7ab780e4a1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_global_only.json": {
+      "bytes": 189285,
+      "sha256": "c936c10dd257bd56b643614510d0229051f24dc0dd164756c7fc51fcbcc0eedc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_1_registration.json": {
+      "bytes": 29049,
+      "sha256": "83ccddc777eabaa56024b3f33bdf74a4f8260fef2520c0d5bd386b43ea0ab3f4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_1_result.json": {
+      "bytes": 41188,
+      "sha256": "18b4aa30980a9620a545f8d447789e8c0347954711a7cc39b95f1a5cc4774715"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_2_registration.json": {
+      "bytes": 29068,
+      "sha256": "b028dd4513e7203e3f25a040494c59da91f8e103a6c5c2482822a203914d128e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_2_result.json": {
+      "bytes": 41479,
+      "sha256": "645f5265bc19dc494f15d4715b92eaf5344d17264cdcbe68870df2431e80fae5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_3_registration.json": {
+      "bytes": 29848,
+      "sha256": "1971d8a01cc0498c8e165420f88e7ab0010470641a2b67f321d08033e802fd1c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_3_result.json": {
+      "bytes": 42321,
+      "sha256": "e93566c0b90796ffb1737481584a646c242b450660103353046ca96293ece576"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_4_registration.json": {
+      "bytes": 30196,
+      "sha256": "59deaaf2030fc923258eed13e49268390345f031e24b033f6537bad8275a42ab"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current/query_4_result.json": {
+      "bytes": 42680,
+      "sha256": "ec556bccb05f54599fafe790d5ec4d47f393a90860cab9d0821d451d290b1977"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_conditional_hidden_current.json": {
+      "bytes": 188303,
+      "sha256": "63da02bf7f5c206b5a0060528cb3bffb917314cc01ef99ad049f26e27894bbbf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_1_registration.json": {
+      "bytes": 29039,
+      "sha256": "fb938b33a8aa7dc3cfa4dadb012c4b25387d4fb798d1711063a862d7a7026c45"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_1_result.json": {
+      "bytes": 41463,
+      "sha256": "3886092944a0e56dce2f1a7ff658191d0b832c273ae8ee5c970a48a075b26fa9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_2_registration.json": {
+      "bytes": 29820,
+      "sha256": "b8fd5182d87d572b03ae21813382f1d51dff71619dd487542009f14596628521"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_2_result.json": {
+      "bytes": 42298,
+      "sha256": "169245a782432070308157b0288143b8655f3871fd84fb2d5cda95b1d1ed24bd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_3_registration.json": {
+      "bytes": 30132,
+      "sha256": "cd196a004ba96fccd358562c6a4174ac738a363e28e39882775250ba337230b7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_3_result.json": {
+      "bytes": 42625,
+      "sha256": "9eae0098fd87a8355aed0fcb5dbbc21065b71734ac742f312b6f68bb6944fd0c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_4_registration.json": {
+      "bytes": 30555,
+      "sha256": "bca6928b625ee2ea869c06c5c9d0505e4354ff759db0c68515f009e243ca2d08"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full/query_4_result.json": {
+      "bytes": 43059,
+      "sha256": "a45fbe994f2c1a9c6a0bec64300d1b2f29972a8eeda6539efb9c777b7aeb0860"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_full.json": {
+      "bytes": 190200,
+      "sha256": "023072e6e87ece9b06ca1e5986099ef0f0fe7eefe980fe180e1566afea190205"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_1_registration.json": {
+      "bytes": 29046,
+      "sha256": "b4aa570319c52af405036ea4120673c2a20cb21cd8ceba3dacbaab6447c16fac"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_1_result.json": {
+      "bytes": 41413,
+      "sha256": "2cc2656a4fb733d4a386b20ae1541f25271a30be2d71bb249c2b35392f128afe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_2_registration.json": {
+      "bytes": 29479,
+      "sha256": "7ffaab22be1004fd0a6aa9378ab98350f0be3c056d218e045b0cd2b2dd890fd9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_2_result.json": {
+      "bytes": 41944,
+      "sha256": "0a29bd909db0abaacdb8680c54f92a701d496747ba9159a0b8079d6fa9c31ebc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_3_registration.json": {
+      "bytes": 29998,
+      "sha256": "8029fd3c1d11395b38f33d375058133989834e5d239970f8f7c9f1065bee1bc0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_3_result.json": {
+      "bytes": 42486,
+      "sha256": "325f72a3c39753bf026475af5a3a8cb3d9d0e08e7c9dde066b97fa6d8568c9b2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_4_registration.json": {
+      "bytes": 30392,
+      "sha256": "5856399deffed6e48d77682eb663642d9644bb3bfd5a7387b626cb356ae88994"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only/query_4_result.json": {
+      "bytes": 42890,
+      "sha256": "072fac3dc33d88461a5d299adad8b90c1b7a4b4abe19362bcba703b30e9b94de"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_global_only.json": {
+      "bytes": 189443,
+      "sha256": "e824e74735c1bf42671e330a5d3adbe311913d47a6c37e5f1e95f8b8d33d5d92"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_1_registration.json": {
+      "bytes": 29049,
+      "sha256": "83ccddc777eabaa56024b3f33bdf74a4f8260fef2520c0d5bd386b43ea0ab3f4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_1_result.json": {
+      "bytes": 41188,
+      "sha256": "18b4aa30980a9620a545f8d447789e8c0347954711a7cc39b95f1a5cc4774715"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_2_registration.json": {
+      "bytes": 29068,
+      "sha256": "b028dd4513e7203e3f25a040494c59da91f8e103a6c5c2482822a203914d128e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_2_result.json": {
+      "bytes": 41479,
+      "sha256": "10b88f7b8ac4b8dfc237db3ef6a22bc55e0c37a424e7a716b685b538200a67ef"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_3_registration.json": {
+      "bytes": 29850,
+      "sha256": "3ca8c1cc57dbf901953409151ce9743d48a7ceb4e112ef2dc5ef6687c261b3d5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_3_result.json": {
+      "bytes": 42323,
+      "sha256": "d51063448145075a6ea38645b287690fc4e206b544e4df8febe483ce6375e4ac"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_4_registration.json": {
+      "bytes": 30194,
+      "sha256": "e89763614861aaac2f4b367c40b8c6b3125c745e91d22b147945ef1ff5a0601e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current/query_4_result.json": {
+      "bytes": 42677,
+      "sha256": "8f83e4f0a99af25b8cdb4f5f1a29a4120e617bb31c25121ff86c1a8949a91db3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_mismatch_joint_hidden_current.json": {
+      "bytes": 188294,
+      "sha256": "86915c504864fd947604ab140191c7b26043be43c6e1cf5a5c757fefbd69901a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_1_registration.json": {
+      "bytes": 108954,
+      "sha256": "f2f9ca43e69b8640ab0b6240ecc072512b836f2ea32712988f588a6db69ac52b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_1_result.json": {
+      "bytes": 125291,
+      "sha256": "a69cb59b232384273ce91ac6ca5989921ed5842edc9809783c46a46bee9779d5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_2_registration.json": {
+      "bytes": 112524,
+      "sha256": "3b1772a13af3f9dde09739878d1527af73002a463b3b0433579e92dcf08941e7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_2_result.json": {
+      "bytes": 128860,
+      "sha256": "a6869fce7181170e56beb5cd892e0909dd959e79ee8c4010721a0142c9b06cdc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_3_registration.json": {
+      "bytes": 112899,
+      "sha256": "cb97d697daf4116823c043ff69ed3600cba122598c364a1533d450a5dd041fcc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_3_result.json": {
+      "bytes": 129237,
+      "sha256": "ba404aeba7013ea38718f82300b5796224a0b35749c09138009dd2b834ba846d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_4_registration.json": {
+      "bytes": 113042,
+      "sha256": "acf0fc12dcc541ceec2f82c5aac59ca5c77620be789546e83ffafda74fda7b3a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full/query_4_result.json": {
+      "bytes": 129417,
+      "sha256": "2ff4f5aa934b267a60d33b1344b4055968e5cbc3dfaccaf1294837168af3a078"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_full.json": {
+      "bytes": 569900,
+      "sha256": "5e2de7f822ec2e28ecbb1aac475e2d672e4ce8f56744925dc6283102ef0bf144"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_1_registration.json": {
+      "bytes": 108961,
+      "sha256": "cb488d2d3c7f98d67f33bb0cb09f3d3578ed9197024c4d03d879f43c00f33118"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_1_result.json": {
+      "bytes": 125262,
+      "sha256": "1d66a5fc91d2f37a2eb4e3d08bc8354930857f1f431c568928ae4e9a16b4dfc2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_2_registration.json": {
+      "bytes": 110766,
+      "sha256": "1dd12cb440fe8b8b0ff683eed61b5b68a40ce2ce779a43a8d568da260c56d2b3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_2_result.json": {
+      "bytes": 127098,
+      "sha256": "5c9bb63b8a629ceb9ab22d45d711fcddb07d75227ca576addff748c9b903e6f1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_3_registration.json": {
+      "bytes": 112776,
+      "sha256": "0318b8edb646882a65dfbe5f8955db879ad36ead3182514aac4ecc5f0b0456dc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_3_result.json": {
+      "bytes": 129110,
+      "sha256": "94acae7ccda8da2e17c0ba9439e743b37fdda218abb89bbcb5d325c5f9d8265d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_4_registration.json": {
+      "bytes": 112956,
+      "sha256": "6f54f48de343a1546d8913b65d473883549204800cf89f94037656260fd3fae4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only/query_4_result.json": {
+      "bytes": 129327,
+      "sha256": "1f0c6ec6858b190536a27622be4077137ed2041d55127b5f085c55649a4abff5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_global_only.json": {
+      "bytes": 567871,
+      "sha256": "756c6e03eafb261608468e6f9c246a5396ddec075664820b201d3c65be858919"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_1_registration.json": {
+      "bytes": 108964,
+      "sha256": "b2cd367b33473348e422a2db10a2815258df81c63983463cff823bf5435bc843"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_1_result.json": {
+      "bytes": 125181,
+      "sha256": "4d60f691ce0bd98130768fb59449fab9c7e4e5edc88a0cdf78fea5b8b209bd63"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_2_registration.json": {
+      "bytes": 108983,
+      "sha256": "e0bd825145e1e4e201a7714fd649dc6abb30a2d7d79368adb9d3cba14b27223f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_2_result.json": {
+      "bytes": 125307,
+      "sha256": "3a99bdda28bf5aa4896733fd6d9e424b198a3307912bd10392d00d5f5de1d022"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_3_registration.json": {
+      "bytes": 112629,
+      "sha256": "cf46ef64eeba2d1069fa4bb2869df2c71bd4d201e52de8ea904db1aeb9a555ba"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_3_result.json": {
+      "bytes": 128955,
+      "sha256": "d16f8071c6cbb128a7a3603a23403d96e44963d326758a0bd7e8acb003f3d2ae"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_4_registration.json": {
+      "bytes": 112799,
+      "sha256": "d5a9bc37e7d9f1375b16ff2fc16fe51cbfb54a44c6882631d70528d417ac89f0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current/query_4_result.json": {
+      "bytes": 129162,
+      "sha256": "ff4f79aff7039445220cde23be412d06aa7d48682485c4ff12ca91888becb1ae"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh1_original_quadratic_hidden_current.json": {
+      "bytes": 565621,
+      "sha256": "f170e292992980e9e152b54586b2b9f741e3834f78db861e73e055fd54443d85"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_1_registration.json": {
+      "bytes": 29043,
+      "sha256": "1ae7bf1c4f4e96fb475266155bb70727911a8ce6f201aa8cc1f213d806236bab"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_1_result.json": {
+      "bytes": 41497,
+      "sha256": "c5e21f2160cfeb7bc80e91adb8a1cc6f7751d392ad6b651a05b674f6ff41a66b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_2_registration.json": {
+      "bytes": 29866,
+      "sha256": "b59e036a4a3b64655c2928077f42b6a1111b2701b5164ede2ff75657dc5b3f4a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_2_result.json": {
+      "bytes": 42370,
+      "sha256": "a9dca6bfc2919cfc508c27f231ac2893ec48ec0e67864aff426977de279e4c5b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_3_registration.json": {
+      "bytes": 30177,
+      "sha256": "8511d88c72f3550322405ebaff2b51553d0d31b0b4d05f502aa28a85cfc89300"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_3_result.json": {
+      "bytes": 42703,
+      "sha256": "6aa2cc8cd600f19fd5e025e98924ff6505d344d726ff608b2954c2cef637478f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_4_registration.json": {
+      "bytes": 30585,
+      "sha256": "716aa4ee514a9888fa2b19d21aff886f46f870ff7b4f82ec845790dfdf7af535"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full/query_4_result.json": {
+      "bytes": 43150,
+      "sha256": "b20dc98fd031e1d4a530a07f1cea3061bbb7409d2ce0010d7d44e766ec10bec2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_full.json": {
+      "bytes": 190643,
+      "sha256": "7047c781b0ddd79c65519e34333f5dba8153c9dd6d9447fb9247a5ec8f6ec000"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_1_registration.json": {
+      "bytes": 29050,
+      "sha256": "0289373983ee30ad69af997fcea0f7ad43dbb02a2a913003cb07616be46f7d62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_1_result.json": {
+      "bytes": 41377,
+      "sha256": "935c08c2c1cb120dfaeb1cb5430dce6f0b85c1544fdc4cdf9911eeac1b47a640"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_2_registration.json": {
+      "bytes": 29459,
+      "sha256": "fa89fd1b37b1aaadd165edc3480e08a5dd0f8f5579ded40a52efab906f55d43c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_2_result.json": {
+      "bytes": 41919,
+      "sha256": "35ed69c2e9bc8a175cba3a32086d5341918808787486216663ef15c36c5d6186"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_3_registration.json": {
+      "bytes": 30047,
+      "sha256": "481ccf298e614b0d790d57bd7c855f7b237b329aa19a8b3380ccbfb7fb0ab9b8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_3_result.json": {
+      "bytes": 42562,
+      "sha256": "7dfd46b1517df7747e80683b3366048d2c6894d6218e6b3051a5f35df5a75612"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_4_registration.json": {
+      "bytes": 30428,
+      "sha256": "e27c9a21506bd70728a21b6ab1bc32dca80f7a9bb5a0c747c3864f38d5545ead"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only/query_4_result.json": {
+      "bytes": 42988,
+      "sha256": "f65b790048ed999acb9da7b0b0231f499158cbd1ec4fd860f96bd35612eaf0b3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_global_only.json": {
+      "bytes": 189725,
+      "sha256": "8417a508e1c3984b286b40def587f6745150a2f74760549c7d3f771109f8cef5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_1_registration.json": {
+      "bytes": 29053,
+      "sha256": "4a784f9db1d6fcd9cb81542db170ba8d6ec430d6297313fc0c936cf5e84dfb62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_1_result.json": {
+      "bytes": 41225,
+      "sha256": "28253ce3192c9b5c5e339b4ce5b6543ec1ccba94b7084e7afb783b2526c36d05"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_2_registration.json": {
+      "bytes": 29071,
+      "sha256": "0cf9b8063a4044413f9019d320d82468e1722681e5075a3a4151d67c4e8cdc1c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_2_result.json": {
+      "bytes": 41517,
+      "sha256": "7e2bb53c9009b074a3d414f5e1387ec3d348c33b017106a8c244ef5d6864536e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_3_registration.json": {
+      "bytes": 29908,
+      "sha256": "af9d1c5902b693c48e6c72fdf2b82c1afa7e31fbc0d9b4b608683d92d653768f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_3_result.json": {
+      "bytes": 42437,
+      "sha256": "48ba98d745e81e0a286ab1f7771f795a437b9eb94da5ceb510a0edef79b73153"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_4_registration.json": {
+      "bytes": 30241,
+      "sha256": "71837051dabd92c505fd108e452d10826d8559360c5b79acf68ff7c2c0eafc68"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current/query_4_result.json": {
+      "bytes": 42774,
+      "sha256": "8fa044581f0def9be88ee90499eaf5a858be90b7618cbb4397f8f4fe4effad8e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_conditional_hidden_current.json": {
+      "bytes": 188751,
+      "sha256": "4ca52c57ce313e2935146badaf5a28e6df2cfcadaa51514ed19a035f3ef9482d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_1_registration.json": {
+      "bytes": 29043,
+      "sha256": "1ae7bf1c4f4e96fb475266155bb70727911a8ce6f201aa8cc1f213d806236bab"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_1_result.json": {
+      "bytes": 41497,
+      "sha256": "3ea13dd6bcc91ad18ee34493188e63b39a6e8336d69928d2fdaf69b7d4644766"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_2_registration.json": {
+      "bytes": 29865,
+      "sha256": "d63228a23a14efc1094f2f4f486b29b7c4187dbcdffe82b1e19b1954790ea2d7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_2_result.json": {
+      "bytes": 42371,
+      "sha256": "b1ea9db29c3dea430ba58ff70887845ca68c687f725a2c9dcb45cac3399cc109"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_3_registration.json": {
+      "bytes": 30177,
+      "sha256": "1b9ac40377e1ae3ab0ff2c4a3db39b92206949f3f316e01ad6a181f7d2116671"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_3_result.json": {
+      "bytes": 42703,
+      "sha256": "747df14540fd58366df7a90ae32b11aece25d813ecdff8c569280c0d478a864f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_4_registration.json": {
+      "bytes": 30586,
+      "sha256": "23238e288b6465d1adf5ec43e3e40689eb8b673a64ca7fa62cab00e8aafe4dde"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full/query_4_result.json": {
+      "bytes": 43147,
+      "sha256": "d2443694865cc7ec6f91b1dd517ff10bc6abb9f8b4c47c84a848286c3e4f8d7e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_full.json": {
+      "bytes": 190636,
+      "sha256": "7af887e4ba25aa9fe1a0899049f615ffbbdb92a553ad999901878a3ef05194ab"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_1_registration.json": {
+      "bytes": 29050,
+      "sha256": "0289373983ee30ad69af997fcea0f7ad43dbb02a2a913003cb07616be46f7d62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_1_result.json": {
+      "bytes": 41455,
+      "sha256": "dbaea0e209b1a4fa48c86f662c9230c6d082e1ed12f001586cb6c805ab44b202"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_2_registration.json": {
+      "bytes": 29505,
+      "sha256": "aa67195e37522df729bd930130adaa3528057322f8be65c8f3b88fb6906281e0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_2_result.json": {
+      "bytes": 42007,
+      "sha256": "8b7de88ee89e76f617a2b66c02c19924f28a6949c287f7b694e3e39a8af0ef15"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_3_registration.json": {
+      "bytes": 30047,
+      "sha256": "92042f85991909ac4074b98e99786b46f3d976fb75768c5544d67694ea174d71"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_3_result.json": {
+      "bytes": 42562,
+      "sha256": "8f3ec27ec913a99c3216426044586bd436ca9cf7d846540578bdb38479a413ab"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_4_registration.json": {
+      "bytes": 30426,
+      "sha256": "ff24d6fe82999203ab80a80e1a5dd284088ff4413e4eeb4c136f6b085ba1788f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only/query_4_result.json": {
+      "bytes": 42984,
+      "sha256": "a32edb1781d788d5bd08ba9389e16d01d27123025142eac7d8274ed3dffbb1d1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_global_only.json": {
+      "bytes": 189880,
+      "sha256": "70507705c0a508df7fbbf4ac47483f92159ba428a3201db7bc2d0dd728028d60"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_1_registration.json": {
+      "bytes": 29053,
+      "sha256": "4a784f9db1d6fcd9cb81542db170ba8d6ec430d6297313fc0c936cf5e84dfb62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_1_result.json": {
+      "bytes": 41225,
+      "sha256": "28253ce3192c9b5c5e339b4ce5b6543ec1ccba94b7084e7afb783b2526c36d05"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_2_registration.json": {
+      "bytes": 29071,
+      "sha256": "0cf9b8063a4044413f9019d320d82468e1722681e5075a3a4151d67c4e8cdc1c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_2_result.json": {
+      "bytes": 41517,
+      "sha256": "fe533989580c47dcbf5774798bb74c915874e693b144df614aaeb9d8ce25d42b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_3_registration.json": {
+      "bytes": 29909,
+      "sha256": "ddf200661e37b1efc032a880723fc60e852555b18b142520e52eaf2e39c7ed3e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_3_result.json": {
+      "bytes": 42437,
+      "sha256": "35f9362fb6f21aeebd5fc1af66b772e47dd9d8b0fa282234ff28710ddbe608f1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_4_registration.json": {
+      "bytes": 30244,
+      "sha256": "01ee96507d1d8f2e03b3345ab365e47b98e494a36633454c4808ca7ce0d9c5fa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current/query_4_result.json": {
+      "bytes": 42776,
+      "sha256": "f38c71624ad34bc7f1e926a188c46a645b23a3cd32f7f6e22400dc8cdec94575"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_mismatch_joint_hidden_current.json": {
+      "bytes": 188746,
+      "sha256": "fc070cc744d3fa28d2c2cb88fa19029f144b2f7323a99cffd0fe66702b1bc291"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_1_registration.json": {
+      "bytes": 108956,
+      "sha256": "ddb24d43460b7ba245f5898786a8c70f9af73189e333b7810c0209c1be638df1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_1_result.json": {
+      "bytes": 125321,
+      "sha256": "244d910cbf617908b1593d69aab8e3b64c6d6e16f4ce3722e3f435beb1ebc9c8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_2_registration.json": {
+      "bytes": 112637,
+      "sha256": "5e170d8f046230c5c96b4f4397bedbcbb2ef61138092d4ef4c0ee23af5c9b589"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_2_result.json": {
+      "bytes": 129023,
+      "sha256": "e30366d488534392614984c0d005016d3c5152709386e930cee5f25195935fe8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_3_registration.json": {
+      "bytes": 113019,
+      "sha256": "512abf770d7d56039a2d72610b6bbc829821e1e10a101c78f3889e5f27dcf722"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_3_result.json": {
+      "bytes": 129407,
+      "sha256": "c0c47329fb4cb0c0b2b9f87df43b18754b44dc2b9dc8282dcdec38ef172e657e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_4_registration.json": {
+      "bytes": 113164,
+      "sha256": "5d6a55de022620cd06f0f0d9ad8c50bdb8e0c2c385c36b307aaad08115ee339b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full/query_4_result.json": {
+      "bytes": 129604,
+      "sha256": "432d2b08587a7b17657908c56bc387531f7e52ef88e9ca5bd20c441276b3ce23"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_full.json": {
+      "bytes": 570709,
+      "sha256": "6633ac8fea9519192215c3e6c1d9d6982572b642d50f74e71af6263de07780c5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_1_registration.json": {
+      "bytes": 108963,
+      "sha256": "fcbcaf95348e89f71e9bcb4976cffb94870c81e54ccde44b52dec7bd81fe036c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_1_result.json": {
+      "bytes": 125294,
+      "sha256": "889def600a503ca7a3e8ea1c8b9347e7aec721eaa2b574abd8e4ffcc1120a365"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_2_registration.json": {
+      "bytes": 110819,
+      "sha256": "7e75fc341d29276b2ae731b534dbd69a7c33a90db50c326a68a3b838fda7265c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_2_result.json": {
+      "bytes": 127201,
+      "sha256": "db78f1cddc79e6bdc66ebf8eb9f3cfdf532f655369f59d2c5222d54d30b99585"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_3_registration.json": {
+      "bytes": 112911,
+      "sha256": "36728e2dafc7786d5dbc5c1579fec5b44993d8ea69f90b7fabcbd88c12bb24bc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_3_result.json": {
+      "bytes": 129295,
+      "sha256": "f6dad59e2c1c0a07af268370f5c8035b552990e54137000b43b88046be96a81f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_4_registration.json": {
+      "bytes": 113024,
+      "sha256": "8f8e011e9ea26fddea89630aeb7f28835f9eec46e1d17b2b9072b34fdffeaf77"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only/query_4_result.json": {
+      "bytes": 129460,
+      "sha256": "387a390128d201b788eb68b8e2d1dae94ccddd927b1056c0c8b350f378add827"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_global_only.json": {
+      "bytes": 568582,
+      "sha256": "2bf2ac8ac807d15f1feb99a177d1a35bd900fa1078ee94a35087e516af38de76"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_1_registration.json": {
+      "bytes": 108966,
+      "sha256": "516fc99f2b85e44041f3b036148b55ae08939017eee4c3b8e079a1ca5951a811"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_1_result.json": {
+      "bytes": 125216,
+      "sha256": "0a857c7dd6bf60c97b82afd0ccebf421e218f72973f3338e05c76a8a1612cf07"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_2_registration.json": {
+      "bytes": 108985,
+      "sha256": "0f43bee35ba0911e5491023b398a38b879b694f48d33e5b43056be1990f4e56d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_2_result.json": {
+      "bytes": 125359,
+      "sha256": "bb673da066abea559c73a0e1bdcd0fbfeee1d1647ff1b5f912a9d10507d50394"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_3_registration.json": {
+      "bytes": 112783,
+      "sha256": "afa6ab4823114934f68daf7e58f8a505184991a2c2dfd095759a56825896624a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_3_result.json": {
+      "bytes": 129159,
+      "sha256": "734f1953a5bbd869b6e8891d427a5cceb708272f7e6b0d8b98e820afcf090603"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_4_registration.json": {
+      "bytes": 112862,
+      "sha256": "dadbaa2da4a3b9bfcc5a760033e0f9481a361883131b58abb9d211457cfd7672"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current/query_4_result.json": {
+      "bytes": 129290,
+      "sha256": "40591fc9875bbb39f53804fb72fea2261c8f3ba7d18b01590fd45cf09d1b88bc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/ETT_ETTh2_original_quadratic_hidden_current.json": {
+      "bytes": 566299,
+      "sha256": "5540337ba9f0cd5aabf5960f534c15a54f5d1bb573f6aedfba88ece92dbc638b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_1_registration.json": {
+      "bytes": 23020,
+      "sha256": "662b139cd309bd582f5c9d65defe40e358d3011335d454da1aa79fd7d21db440"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_1_result.json": {
+      "bytes": 34897,
+      "sha256": "786a7cc6f0d835b69ce71ae6102d2ad089ce4f4e8c2a44b705bcfa3e145ec856"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_2_registration.json": {
+      "bytes": 23554,
+      "sha256": "b430f2569173c51dc96f417d865b52be77ef7bb9e934f95496e5c0c1887b52c3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_2_result.json": {
+      "bytes": 35571,
+      "sha256": "0a7e4ef194a3e3c34a809fe04cae25d618e47ed04826351e6115922050340373"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_3_registration.json": {
+      "bytes": 23843,
+      "sha256": "fcf02d0facf2913eed5a34fb192c66a3fd3208a1dcda1cb1436d1ea2844fcd6a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_3_result.json": {
+      "bytes": 35906,
+      "sha256": "033e2fe9700183fd5404811c35623f8ec0659d72131e9280f889b3c34ab3e6ea"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_4_registration.json": {
+      "bytes": 24287,
+      "sha256": "3c6e1bfebf6dcdb78c54d8d13e04c8630b6649074e2f0170f61a6b718ebbd5c1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full/query_4_result.json": {
+      "bytes": 36360,
+      "sha256": "e7aec2ebaad8619cedb9c1cb2cbaaefed6c18c3dea406bad090a6985c42d6fd2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_full.json": {
+      "bytes": 160176,
+      "sha256": "450eee0d86122f542305da2937d31e023f5368f5e5dafcd9e7f44111f148b34e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_1_registration.json": {
+      "bytes": 23027,
+      "sha256": "2e614df10b8589917a45a3968ba137f790287abc2e6111438941dc5a140c63b6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_1_result.json": {
+      "bytes": 34780,
+      "sha256": "d31233deaf620204969d399000dce3f331e9faed47fdc7a90e6b930ce720f690"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_2_registration.json": {
+      "bytes": 23258,
+      "sha256": "7e1582384e1d00b558fc4b3cc990beccd5d133034d71586dd2bc10fd5705ae2d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_2_result.json": {
+      "bytes": 35234,
+      "sha256": "f8888b6bbba353827a0820c8cff0c656be104e2e9addee26593c10f75a839f9e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_3_registration.json": {
+      "bytes": 23655,
+      "sha256": "ac7df64f676960d25b771a5b8ccc687a162240d52b6a7aa2c94ed8fdf81f3344"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_3_result.json": {
+      "bytes": 35712,
+      "sha256": "009f41b075d8cb6a22dcdf2c780e20320754090c114103550ea507d5e8b0e8be"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_4_registration.json": {
+      "bytes": 24049,
+      "sha256": "9fb23fc11ee44df725c4877c98fa9575495a405257376ad27c149fffd5f46e24"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only/query_4_result.json": {
+      "bytes": 36114,
+      "sha256": "723368ddb77b6b9c28dd72a9b9ad541f79edfab6a94c5ef805b986a049869a9d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_global_only.json": {
+      "bytes": 159238,
+      "sha256": "7b6bce8e10bfc603c2a981820d0a58ae56147e042edb11af23fc1405243c6eb9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_1_registration.json": {
+      "bytes": 23030,
+      "sha256": "638b46f1ebf8d37b15a318a00beca26e156ced47f07815d56450fbee933078e6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_1_result.json": {
+      "bytes": 34632,
+      "sha256": "4790156f740faeadf50c83c649df3175c80e1c3d024c1261142ba51b0c7b8ff6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_2_registration.json": {
+      "bytes": 23047,
+      "sha256": "b4c8ad32429015f7c515138ca6a04effeb21c5018b6d64b27eceea18998a3abd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_2_result.json": {
+      "bytes": 34993,
+      "sha256": "ea37153b99589b7c9e21ccafab9093a9232ab7c95ee062ea59d2a4894d69adc6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_3_registration.json": {
+      "bytes": 23471,
+      "sha256": "2cef16da2dc9a6530e2e294103e7cf940e175e9841f9f9d5eaa6a625fae25b08"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_3_result.json": {
+      "bytes": 35500,
+      "sha256": "1610b88df02e8ec3daf8aec64ed6e675df3928b837d0e3c180aa04eb7ee3027b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_4_registration.json": {
+      "bytes": 23838,
+      "sha256": "2b8efe5f39907335e6ffd40e765d85327ef58bf21c7c469c830c27dedbff2ac1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current/query_4_result.json": {
+      "bytes": 35877,
+      "sha256": "bcacda6cbde346aedddd6bf1c6ad157338d185ca73298b5d97c42a32e4389636"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_conditional_hidden_current.json": {
+      "bytes": 158367,
+      "sha256": "6b5e53881ff5b172c88c62a3c8e924b9d4ad0f80308c3e03f65ecff94aa3a592"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_1_registration.json": {
+      "bytes": 23020,
+      "sha256": "662b139cd309bd582f5c9d65defe40e358d3011335d454da1aa79fd7d21db440"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_1_result.json": {
+      "bytes": 34897,
+      "sha256": "e139dbf46b07d4b817699d230129ca3b6a0946917dacc10f6f15dd74adca39e6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_2_registration.json": {
+      "bytes": 23554,
+      "sha256": "56af10d71b1d0feb75177202311ef7f38288a08c069fd9a2a7d30dfa12cfecfb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_2_result.json": {
+      "bytes": 35569,
+      "sha256": "3045c84aafaf5858e35b02dba0911bb76273e030fe169e9df534653f8dda46a4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_3_registration.json": {
+      "bytes": 23842,
+      "sha256": "73d23837963193bdd3adf93f2505e6b3ca786f90b2ec28183e5685c1d0577c22"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_3_result.json": {
+      "bytes": 35903,
+      "sha256": "59715eec29110459c3ce33ebf07c1a9333a05881fac6966d2d2e0a89fa2cb95f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_4_registration.json": {
+      "bytes": 24286,
+      "sha256": "8da3933150d24285701bda46238923deabee881cd6c468d4ea154b099cb2b4a7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full/query_4_result.json": {
+      "bytes": 36358,
+      "sha256": "99665c720812d079083686c27b613496a15756ff7af3d9c24e7af65e227fe31f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_full.json": {
+      "bytes": 160164,
+      "sha256": "a1e0295e2da6c2d17d8855a9d1dde5068c865f1711a2b82c5480fddba0466e15"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_1_registration.json": {
+      "bytes": 23027,
+      "sha256": "2e614df10b8589917a45a3968ba137f790287abc2e6111438941dc5a140c63b6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_1_result.json": {
+      "bytes": 34856,
+      "sha256": "35acb1a35a182cc45e9391d6e874d027b4af462f42b4627a7a7004bc2074e6ea"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_2_registration.json": {
+      "bytes": 23302,
+      "sha256": "88086f6b802cdaa525c9b93b57f039f1dc378ef16dc4f0f09adc5bad8931e276"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_2_result.json": {
+      "bytes": 35315,
+      "sha256": "6370811204ba07596aeb3656d2005b6a4ff42660da6805c10a1357022565ec0e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_3_registration.json": {
+      "bytes": 23652,
+      "sha256": "e2dbb1bf7a9f548310b4ee8e4022149bacf5fb2603cf2269162093d10af18abe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_3_result.json": {
+      "bytes": 35708,
+      "sha256": "c1fa88e1a8f35e8e136147507b5284b0b72c783f4cdbeef8380e0ec2fecbeb62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_4_registration.json": {
+      "bytes": 24046,
+      "sha256": "6b38ec21f05ab42f66b06954b1a0d2cdddfddb54ba78d612c0a9d244ced431fd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only/query_4_result.json": {
+      "bytes": 36112,
+      "sha256": "1e44ef82beb086be5b8da3adfd623c84b82a2354b05442f4174474daf329ae5a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_global_only.json": {
+      "bytes": 159383,
+      "sha256": "c0e036ce89fc05cd12fcea2aee0c3fc2d1f40228d9811df985f5dca7610aeff9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_1_registration.json": {
+      "bytes": 23030,
+      "sha256": "638b46f1ebf8d37b15a318a00beca26e156ced47f07815d56450fbee933078e6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_1_result.json": {
+      "bytes": 34632,
+      "sha256": "4790156f740faeadf50c83c649df3175c80e1c3d024c1261142ba51b0c7b8ff6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_2_registration.json": {
+      "bytes": 23047,
+      "sha256": "b4c8ad32429015f7c515138ca6a04effeb21c5018b6d64b27eceea18998a3abd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_2_result.json": {
+      "bytes": 34997,
+      "sha256": "d2b7fe202bd260705782c3a71ea6e942fa1dd7796cf7039044e242374ee3143d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_3_registration.json": {
+      "bytes": 23475,
+      "sha256": "bc50fa306c0d70dbf7230bc64c74f294d19cc4c31188984756d92d4dc98a4708"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_3_result.json": {
+      "bytes": 35505,
+      "sha256": "9bf91f8cb1fba908bc9856591917d7fde71112c6aa4345b0870e79aa60b981e9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_4_registration.json": {
+      "bytes": 23842,
+      "sha256": "52c3f5ac7c5ff30e5486744fa2c770789f7c00369f4f7a141d5f23787047450a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current/query_4_result.json": {
+      "bytes": 35879,
+      "sha256": "392b147d992ec51e672aaa97418a4157e27742d40be96e9879b1aa2b17a160da"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_mismatch_joint_hidden_current.json": {
+      "bytes": 158371,
+      "sha256": "e8d7469b25dbd0fd4b273d7f3ff1bf0a796c117d247bec5ddea4f90339e70670"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_1_registration.json": {
+      "bytes": 107415,
+      "sha256": "9d8e783effb510ac7b45c2646f8daf0c96b2c352fcb8129ebdfebc08f62e263b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_1_result.json": {
+      "bytes": 123336,
+      "sha256": "1770934608214ef919bc9f6cbe8ab5c86373c8545ec2149e64fba28c6f6e6fad"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_2_registration.json": {
+      "bytes": 109115,
+      "sha256": "1fc3aedb507e46a40fca4d5fa3c256d8c2f36cca5a460fb9ff0e09189b5212de"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_2_result.json": {
+      "bytes": 125096,
+      "sha256": "f7624ca229764066db00d28242d60c5681d3bc893b373b2d1c5ece6298e38e19"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_3_registration.json": {
+      "bytes": 109447,
+      "sha256": "76f4f6a4610c707e46cb4b44e1399c31f3ae3882beadae005114681e3f936d9c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_3_result.json": {
+      "bytes": 125478,
+      "sha256": "85ea09d5b57440779857092f9287b0f93c1d279e734e8c7b2c6661145bc88b58"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_4_registration.json": {
+      "bytes": 109746,
+      "sha256": "4904619f0069473095c81e7b439e86a968c47f2caab107e123b1fdb6f09537a9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full/query_4_result.json": {
+      "bytes": 125783,
+      "sha256": "bdd100e3c84aa5921823518404d6fffbeefde4282e2411726f56631c7e6fbb99"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_full.json": {
+      "bytes": 554449,
+      "sha256": "822e5e7d6d59a02b2b7c03d78c4af827477d92181e4a4b9b0d9e92e11b2c5ad8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_1_registration.json": {
+      "bytes": 107422,
+      "sha256": "250e93147a6ac07d14e63fd43235e4058f5a5bd8b41d35142e668ff990f7f769"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_1_result.json": {
+      "bytes": 123309,
+      "sha256": "1f8760ceb81fe830e33bae7e79a6845b41eea7889daa043445be9bf8f837b595"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_2_registration.json": {
+      "bytes": 108261,
+      "sha256": "ae18f3949a78e3fda8702d18ec767c57b6b8c9b5f149876f4dbb91ecf67c8d8a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_2_result.json": {
+      "bytes": 124238,
+      "sha256": "0aa2b6d60221544ff748d100267f0c6e9fdd1e71f77ab0fc2f8adefcc5e2ab3c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_3_registration.json": {
+      "bytes": 108443,
+      "sha256": "8e380645b6410163c4af9df93606d0b6f676cb68e56a64f7cd700bce54fc3cc2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_3_result.json": {
+      "bytes": 124470,
+      "sha256": "6374b0d627fe7ffe7747479d872a52a22f15b017cce8c80101d77ab60adcd008"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_4_registration.json": {
+      "bytes": 108669,
+      "sha256": "316d6cee9cd49b554c384cc1455eed87490a90c3e65a81c7054d0dae636fa1a5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only/query_4_result.json": {
+      "bytes": 124702,
+      "sha256": "aec0d4f78b5beccb0f9ba5e620c10fa707b302897c546c3a282ed33ff28400ca"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_global_only.json": {
+      "bytes": 551455,
+      "sha256": "8103673fac2bd2ec219794a5f3d6c510fd1c3ebf794b5f48a243515e6f6c0064"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_1_registration.json": {
+      "bytes": 107425,
+      "sha256": "8414f52dc0127bf6ef32cb76c38d61871694dc2143dac77ccb1321d9e53e6cda"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_1_result.json": {
+      "bytes": 123233,
+      "sha256": "bf15b05781b4913a72d0c38b46d477fc9819042e28c626c6138408f4b0210394"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_2_registration.json": {
+      "bytes": 107445,
+      "sha256": "582fd604390a04da25b42d7042ce59f8907ce8feae2f990e52a6afd1f6a3ec35"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_2_result.json": {
+      "bytes": 123434,
+      "sha256": "50457024b2d47fe52b158b6ef36b586c72e0680c7daa52edb55d528f8f17560d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_3_registration.json": {
+      "bytes": 107384,
+      "sha256": "7e5eb13d6c3071392b44b9a2b79826a63099c8a0409266ceb8f1b68cde7d627b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_3_result.json": {
+      "bytes": 123401,
+      "sha256": "1c80836ebf08cb0986fb3c676c47bf5d2d8243597396a9f8b52a05bec83cd697"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_4_registration.json": {
+      "bytes": 109386,
+      "sha256": "d1c31f25f7efa76f00b677d4fda0dddbd0a1976141abbbb58a481fd9d7da7c3d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current/query_4_result.json": {
+      "bytes": 125431,
+      "sha256": "8c51c602a93ce71c9c44f449a64c848589a2455ca6a73b207d219ce3de39cf0f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G1_original_quadratic_hidden_current.json": {
+      "bytes": 550269,
+      "sha256": "790a66bbb1faaae8cf0dcaee5ca5ccd1677e2f0514820eda1682188b18d7ad11"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_1_registration.json": {
+      "bytes": 23015,
+      "sha256": "67fb5cff956f46df1486f9b9f464aac137c3e0472030ce9c930690c872dad471"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_1_result.json": {
+      "bytes": 34891,
+      "sha256": "f2d905a49f81915381705dd105c0efafe27ac87c1c37b77d33bceb944af634e2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_2_registration.json": {
+      "bytes": 23700,
+      "sha256": "61b96e35c185fb6b031360507bf4ac6a4e6a954f4a4736315ee725a0ddd702fa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_2_result.json": {
+      "bytes": 35769,
+      "sha256": "df6fcbc1a8b21fbf7517403969e8274c5ec34a0f9eb2024e29817f3885c43001"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_3_registration.json": {
+      "bytes": 24003,
+      "sha256": "2966345eb751cb418c7679b84b7e2c37487b954313b892cdc2b138c458626c3c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_3_result.json": {
+      "bytes": 36082,
+      "sha256": "76a4665aca3ea82e86b9844558876896be5a864d669deb7ed30ebe0225564253"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_4_registration.json": {
+      "bytes": 24440,
+      "sha256": "990b4486f704cadeaaee199865dc650f9159ad93867b55363894d0c6b957930d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full/query_4_result.json": {
+      "bytes": 36525,
+      "sha256": "06d0704b0988e507f6c5eb33866c3da2305980e472bfa58f2fc804254abf4d07"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_full.json": {
+      "bytes": 160814,
+      "sha256": "b826c1d4955f2ae007241f9a619259b8956cddd170cde9d9abe66147946d649e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_1_registration.json": {
+      "bytes": 23022,
+      "sha256": "cfc4711cd35e839f79d92098d92125b086121832484057c052d72c1fdf074e4f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_1_result.json": {
+      "bytes": 34769,
+      "sha256": "b1bfa6691cd95961210e20cce3f9a59c27815bc0e34218ba8449f65f29285c4e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_2_registration.json": {
+      "bytes": 23327,
+      "sha256": "70a6e3e24129170d27690ecfa0e36b18dd37789bbdb36cd861910a6145554aba"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_2_result.json": {
+      "bytes": 35348,
+      "sha256": "f4ed8be76c29b984d4e1a44e737ce87b18f654b8468899d825189bc30f7e2b3f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_3_registration.json": {
+      "bytes": 23797,
+      "sha256": "6a36cf8cf6b58478f36c8aee934981a7c75a936d6dbb5112018a4673d1ba7282"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_3_result.json": {
+      "bytes": 35866,
+      "sha256": "3c6a5aff0231a44e09a53c5937f2f1a63edc45ba20154695364384ac91a5865f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_4_registration.json": {
+      "bytes": 24196,
+      "sha256": "9b808022a8200c4f1a6c0f7daf193198cf799c7fd9d57ead6d22ae246da30d1d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only/query_4_result.json": {
+      "bytes": 36276,
+      "sha256": "e9ebc118837ccc5dae2e2168eef7caa65b2c19822a15bc3f1f36cbe2f8edfa44"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_global_only.json": {
+      "bytes": 159762,
+      "sha256": "dcca5fed6e8631aafcded4541cbf64063e2f839acdb7f387e23bf582483fb90d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_1_registration.json": {
+      "bytes": 23025,
+      "sha256": "80ebf5144759d14f6d170d745252f88aa2af14312967183b32753cf3615159c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_1_result.json": {
+      "bytes": 34624,
+      "sha256": "a675f3a833fbecc6863ca669baa8af2cf1064670ef118a755eecc793478a347f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_2_registration.json": {
+      "bytes": 23045,
+      "sha256": "3847b8f7ee709fb2abc39d0967333f98fdc03ccdce870373268d7609006bd676"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_2_result.json": {
+      "bytes": 34956,
+      "sha256": "847ca3fa2409fe84327f6a71f2e3741c23b42b33c634491bb5cc74edd9a164c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_3_registration.json": {
+      "bytes": 23631,
+      "sha256": "d2ef596a080bc6918d936c54e0cdc830c733d8b2873b87e85f210847577902bd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_3_result.json": {
+      "bytes": 35606,
+      "sha256": "98c7c18ebb2ac157a55ff37b9295cd5c7e2502e57de3f142a5249c47929099f5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_4_registration.json": {
+      "bytes": 24017,
+      "sha256": "32c0899e58579f031e8527c174589474968054d51e5fb345a48ee588ace7e928"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current/query_4_result.json": {
+      "bytes": 36086,
+      "sha256": "027be21a420c0a00d8553aa408519a9857140f4359ec291c07a135a94ab52d33"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_conditional_hidden_current.json": {
+      "bytes": 158583,
+      "sha256": "6ba75f8e16a634ea174932948493d0bb494ce185e96fd323227d63240341f2ef"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_1_registration.json": {
+      "bytes": 23015,
+      "sha256": "67fb5cff956f46df1486f9b9f464aac137c3e0472030ce9c930690c872dad471"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_1_result.json": {
+      "bytes": 34885,
+      "sha256": "4f0fd3ebcba426c45876ee8dd052ddf669a3890151813be999b8f990420fcc3f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_2_registration.json": {
+      "bytes": 23701,
+      "sha256": "617bc130549985137cfeed7c78c833c345003d27db029f638915a51c89216eed"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_2_result.json": {
+      "bytes": 35767,
+      "sha256": "d446aa5873fb8ce6eaab5e7d9e63bd513992d9736719a4d6a75ee90755074cfe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_3_registration.json": {
+      "bytes": 24003,
+      "sha256": "d7eea15709eedb2e86d9266e01e92bbdbc23cec80b706852b1ac0ed889c6c5a2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_3_result.json": {
+      "bytes": 36080,
+      "sha256": "fffdc39c3a2eadb78a293b9f8844b0e3428396b000997e886f7d521e08b66fe7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_4_registration.json": {
+      "bytes": 24437,
+      "sha256": "3766114d87846bb648dfa7737d4595a103d9de1d689244501efd515ed9daf8f3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full/query_4_result.json": {
+      "bytes": 36519,
+      "sha256": "1c2e7e2a32cc64f3e19b9138e40383021c6d60f4fbb17378405b353a3b222b7f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_full.json": {
+      "bytes": 160793,
+      "sha256": "e784b48a14d65231cbb55532eb9011f56f352fb0a4aae0822901d2ce48cb3821"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_1_registration.json": {
+      "bytes": 23022,
+      "sha256": "cfc4711cd35e839f79d92098d92125b086121832484057c052d72c1fdf074e4f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_1_result.json": {
+      "bytes": 34843,
+      "sha256": "a1cf414451c82a18f4939b1810381f537692f460f40f653d613f0d09cc05bc41"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_2_registration.json": {
+      "bytes": 23370,
+      "sha256": "b4ffbb22677ce93334dd2571f60c3970ac1483a63199277a76981e72904f8bc1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_2_result.json": {
+      "bytes": 35426,
+      "sha256": "f2af19f6d7f0ccd9c6fa5040d4ddf87d4d2b8b0e9739ec2368f3c5b5aedbd59a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_3_registration.json": {
+      "bytes": 23798,
+      "sha256": "ea6981dc7fa2eb37b436d6105bf08ec3eaeb7b7c461e9c0161aae39a40208dcd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_3_result.json": {
+      "bytes": 35864,
+      "sha256": "3071f7db4228ac62d2f2db13a0a55e048be5fe1d90396806732716b6a49f9b51"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_4_registration.json": {
+      "bytes": 24199,
+      "sha256": "414d47b93592753f440e765190e71bc55d8e493262bad21dd964ce35a324f09a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only/query_4_result.json": {
+      "bytes": 36277,
+      "sha256": "361f2d2e087302c9613f9f94e765b072f2ff373f856dfdde857ae480b7eab162"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_global_only.json": {
+      "bytes": 159907,
+      "sha256": "b1a0cef4994258274b66a5547cd8c5cda93e7aaf8f8a52212af1eefb2d93cb48"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_1_registration.json": {
+      "bytes": 23025,
+      "sha256": "80ebf5144759d14f6d170d745252f88aa2af14312967183b32753cf3615159c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_1_result.json": {
+      "bytes": 34624,
+      "sha256": "a675f3a833fbecc6863ca669baa8af2cf1064670ef118a755eecc793478a347f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_2_registration.json": {
+      "bytes": 23045,
+      "sha256": "3847b8f7ee709fb2abc39d0967333f98fdc03ccdce870373268d7609006bd676"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_2_result.json": {
+      "bytes": 34960,
+      "sha256": "3e358e3deb35c01a3a1a11a096367599d2a0f97277e605307cf0f739eeb308c6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_3_registration.json": {
+      "bytes": 23632,
+      "sha256": "ac9000e32f339488eed257f86f21f08e9f1e892a23f72ee268c60688d9b8f4c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_3_result.json": {
+      "bytes": 35608,
+      "sha256": "9c88e37d691f571fd0e8ad2fab4d1d16adb4f1f4ccbf07a817b66411da69a904"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_4_registration.json": {
+      "bytes": 24020,
+      "sha256": "d76ac54315132d02525deeed973a46e91cd0c91163de413822ccaba0ce08bb5c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current/query_4_result.json": {
+      "bytes": 36087,
+      "sha256": "1bf33c28468c6c0ea2fbddc39abbd8ca3bf31f78209e1efc04e8b26b2a11bf3c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_mismatch_joint_hidden_current.json": {
+      "bytes": 158584,
+      "sha256": "dda43a010d63a9855acc9af5674509cfc9dff05e0fbf4727f0f722519920da60"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_1_registration.json": {
+      "bytes": 107414,
+      "sha256": "ec32b61d0d19fd02887f3df0fac647591f565a12746b271b83ee8b0c98cff9f9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_1_result.json": {
+      "bytes": 123330,
+      "sha256": "488a3c4c9aa1831f98e4fdd6a5f84a612b1f430ac564104fb7d031a8f8b9e786"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_2_registration.json": {
+      "bytes": 109384,
+      "sha256": "e285e839db249bb40fba45babfcb68b1c93880e8db7a0a488364354dd17c48cd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_2_result.json": {
+      "bytes": 125451,
+      "sha256": "e9ca727a396fb274062a8b6a32321b32a7d871d8c32b5709cc38323ed50fc605"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_3_registration.json": {
+      "bytes": 109606,
+      "sha256": "0d43d66c30c36d1933f3c328b5619b805da99f323601825b7556318c737f25fd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_3_result.json": {
+      "bytes": 125659,
+      "sha256": "a3cb0dfdeac9a9f5e2fad9e8a90811b77810f4dfe1148ff32443e5cf76f480df"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_4_registration.json": {
+      "bytes": 109956,
+      "sha256": "ad55fc05ec10dbffae140baf4f34253d5b65bc80d355a49ce759dbd19c0f51fa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full/query_4_result.json": {
+      "bytes": 125995,
+      "sha256": "0eff5c61e92c08b8f79633b7c84a60f561155e76f3c132ae10d937402cdd778c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_full.json": {
+      "bytes": 555303,
+      "sha256": "8c62b28f61d65008862e8cee2aa5d473c0d0185b6963c952bcc9fe755799adbd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_1_registration.json": {
+      "bytes": 107421,
+      "sha256": "5dfe4ed8c3d7aae122a060f5799960467e39199960b716a5eb6a35e80d5f2814"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_1_result.json": {
+      "bytes": 123304,
+      "sha256": "0b82c406c9abdde36afc4d194ccd16431f67afb0cfa4e761fc2c60579251a0ff"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_2_registration.json": {
+      "bytes": 108391,
+      "sha256": "ed09b6d3c798a07c2535077a7355d643153cd0cb2d8b4bccaf4dec60e2f657ff"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_2_result.json": {
+      "bytes": 124454,
+      "sha256": "d0f8c7a2485f47a359a801d0e701c516c35822ab3f3674c16bf43089e90c9e10"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_3_registration.json": {
+      "bytes": 108605,
+      "sha256": "02c8c8f64c6ad4ac0593e4111c46371f229b9032b5d1682a445fcbdcf367557a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_3_result.json": {
+      "bytes": 124654,
+      "sha256": "2bb7b3fb77f2b29e5dccd82b6c3b7b1955f3a0be429e36d38f2d09f800d9c4d1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_4_registration.json": {
+      "bytes": 109855,
+      "sha256": "7250eb241a55f81cae59843bcdb024355eddc723d8a9720b430f7112930a29a5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only/query_4_result.json": {
+      "bytes": 125890,
+      "sha256": "e66daa089e0480227e16fd1c87c81bf3843c64a49b828a4ecf8a91f202a9a86e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_global_only.json": {
+      "bytes": 553148,
+      "sha256": "d77b9d771e231c8627735902f4a3a479ac4b261efcb55dc43afbbfa005294ab7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_1_registration.json": {
+      "bytes": 107424,
+      "sha256": "3214ebf836be6df51fae4e732b583c9a965671cbf6a3ee58806836583a847827"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_1_result.json": {
+      "bytes": 123229,
+      "sha256": "fddfae0d5b6142d5619312ee50b42766efdd65d44fbfc0ae74f548d91e704a2b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_2_registration.json": {
+      "bytes": 107445,
+      "sha256": "ada94fd88e2b048bb97cf98d19a1a19a939415462247bda24a9f18b13a5ad6bd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_2_result.json": {
+      "bytes": 123397,
+      "sha256": "f36e427893fd1ad5390668cb08c54dfbe9fc31448db857381ba80b59aafd5f4a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_3_registration.json": {
+      "bytes": 107711,
+      "sha256": "d2093ac6bec8838d922739ea14e1b1005e57c41ccfd241b56110df067f5c79f9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_3_result.json": {
+      "bytes": 123745,
+      "sha256": "bdb8eaf0d966381907dca1a15cb5bc339a3ea12248cde3719f82e8ea55a954ff"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_4_registration.json": {
+      "bytes": 108134,
+      "sha256": "9c0b5f193e74d92deab8a3114620dc4fe2716b418f42f06c341a073d2e451a46"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current/query_4_result.json": {
+      "bytes": 124161,
+      "sha256": "ca57863d58b2118745bba428fd72b579aa7292c3b50111966de4b41b776cd169"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G2_original_quadratic_hidden_current.json": {
+      "bytes": 549253,
+      "sha256": "08b515578aa087961bf7512e8118fbaebdc474da224619cf8865588868bb1f9d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_1_registration.json": {
+      "bytes": 23020,
+      "sha256": "235ba13aa91acab23fb41917b5f1b4d65644a85214688c70c180a652f339331c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_1_result.json": {
+      "bytes": 34942,
+      "sha256": "a8820adbe2b560960150e72ba6b5d45647a120ce2808c8fbc9fae1cc6d16e8e8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_2_registration.json": {
+      "bytes": 23590,
+      "sha256": "4f2e8916b047f0b0cd92333311c74c94015744b6fa9f82d0e94e9335d4020fd7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_2_result.json": {
+      "bytes": 35629,
+      "sha256": "da8d9592c62fdf0989e130a874d41db0d47efd6abe782667e9ef3272a2b678db"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_3_registration.json": {
+      "bytes": 23883,
+      "sha256": "f834ef511cc8990cd40576d8b2635c7e9facadce138b441544d36e3d529f73da"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_3_result.json": {
+      "bytes": 35952,
+      "sha256": "ea76232b2687f8dfecc95715b2ad49ed8c3c80be0f7a7730bba08c4d12712e2a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_4_registration.json": {
+      "bytes": 24355,
+      "sha256": "25d812a942fb344cdb285ba1026d1d440cc7de563ec9ae96c6ceed6bdb7ee377"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full/query_4_result.json": {
+      "bytes": 36416,
+      "sha256": "85d6ecd7d72e2d9cc08eac415b191aa6cc1b81cdf2c6c686e6586fc443a2ba5e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_full.json": {
+      "bytes": 160185,
+      "sha256": "20729698d0e277c187fd74602b8e3eac15ac64d174078e3c68c7f4ac2b903091"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_1_registration.json": {
+      "bytes": 23027,
+      "sha256": "b04002e51c73ec0ad4f48e61e47b9cdd4b8730c0ae544df5151bdc0794521960"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_1_result.json": {
+      "bytes": 34826,
+      "sha256": "4f93da8694602c4ba882a6f21d304d2f782d88ec0b43e5a86253ff36922fd434"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_2_registration.json": {
+      "bytes": 23304,
+      "sha256": "b8ffa71e8b4606d7d1fecfe7e5101f53d816d28b311e3a66278bc729fb5a130f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_2_result.json": {
+      "bytes": 35303,
+      "sha256": "66f77a703def9f3b8d89c1ffe2c6fe92797e2ebed4fc40ac017b4d53aac22ec4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_3_registration.json": {
+      "bytes": 23722,
+      "sha256": "b252f3ec70a68a3b9bcb6c4d565c5003b37b7290518932225badfa48f4a58b70"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_3_result.json": {
+      "bytes": 35786,
+      "sha256": "81e12369e659b59134a8582469dc01cc37518106999e34b5366289facd94e3ad"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_4_registration.json": {
+      "bytes": 24141,
+      "sha256": "b252775a2d692b9240169fa0a77ae44e0715f76b903a8aa95423cc9ac8db27d4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only/query_4_result.json": {
+      "bytes": 36200,
+      "sha256": "a7c8a36ba06b0441f76ce45b88d1328b022dd7f8d7ceacb90f2baee28eb39465"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_global_only.json": {
+      "bytes": 159316,
+      "sha256": "76b1f9f8f7a92ec64d64508fbc8163a902266f711fec509946e007579b4fbeda"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_1_registration.json": {
+      "bytes": 23030,
+      "sha256": "aa2181555d516f48eadbf2bee28c28f4f6285a0afbd29223a947ce9db0e2d27e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_1_result.json": {
+      "bytes": 34677,
+      "sha256": "0ee0550ebb588fc64b81d02cecb1aaf4d801df7875c53993ebd1b10fee8cb790"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_2_registration.json": {
+      "bytes": 23048,
+      "sha256": "ede5a09cbce1e18be495af81d4be94182ad33105827aab41531dde453e2f70a5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_2_result.json": {
+      "bytes": 34999,
+      "sha256": "b2e67ba15a6bba41ebb55eb0eea31f7b6efd317d6fde7185157233d2554fe614"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_3_registration.json": {
+      "bytes": 23500,
+      "sha256": "60dcd80df4c1b81db39a76be7f1a9ce0bc5891c552ee52847e0e622a99cbf26b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_3_result.json": {
+      "bytes": 35529,
+      "sha256": "e6560a3561d42a71a5dab0f9f2955d64188bfa7df49b3f3ba8da1e83b8787368"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_4_registration.json": {
+      "bytes": 23951,
+      "sha256": "ac9f17016631a2578a90e23d9e9392ccb1b72aef849215b341dc86796de16d68"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current/query_4_result.json": {
+      "bytes": 35993,
+      "sha256": "eee68fd94a1a869f2222090ee174130382cd5398abbd0332fd2765c20d112a78"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_conditional_hidden_current.json": {
+      "bytes": 158317,
+      "sha256": "b270dfd6b0f4e3759d56dc2d3dffe294805f4bc2b7f0cbbe98c1b3fba2926a19"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_1_registration.json": {
+      "bytes": 23020,
+      "sha256": "235ba13aa91acab23fb41917b5f1b4d65644a85214688c70c180a652f339331c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_1_result.json": {
+      "bytes": 34944,
+      "sha256": "577e79ebeb541dfbc93d8a79f0422f5fb8c2b3d635c809ea1d55ae7e568cbcf1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_2_registration.json": {
+      "bytes": 23590,
+      "sha256": "c693642e33d45479bf23842ed30841bae06cc0d41762fb2ecf9bfb2c93742299"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_2_result.json": {
+      "bytes": 35633,
+      "sha256": "be60af44bd9d18fb1ec3bfcea660c41a6598e710427c253c96d26aebd3f10fcd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_3_registration.json": {
+      "bytes": 23884,
+      "sha256": "b05ccc3451f0b2e74303fe5761a0a690373d0854c8bea2983210569cd9590c4d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_3_result.json": {
+      "bytes": 35958,
+      "sha256": "a4e32e88453e9c406977c247c97c76303d50ffd92bcdd4aa387f325223664eb4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_4_registration.json": {
+      "bytes": 24355,
+      "sha256": "9982532fc4a275e3c31be43db7b0796d49bddf8c9d6913fb4e06d9a4891ed18c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full/query_4_result.json": {
+      "bytes": 36420,
+      "sha256": "a7e2630799524e0ff2b36056f06a416c1340d0ebff5f2502ce751bdc4e59137f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_full.json": {
+      "bytes": 160195,
+      "sha256": "f869067c028cc139ed85c84fad568f63a70986caac6940a3a3bc8a7d347d06e6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_1_registration.json": {
+      "bytes": 23027,
+      "sha256": "b04002e51c73ec0ad4f48e61e47b9cdd4b8730c0ae544df5151bdc0794521960"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_1_result.json": {
+      "bytes": 34904,
+      "sha256": "23f216053be99a272488ca0da6b2541c3d06704d25ebb17e06252100c35b1578"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_2_registration.json": {
+      "bytes": 23347,
+      "sha256": "bb6ac4e64d7b2a0ac0baf213a059e6aee235b7e1f7daecff66ae59f5b0287949"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_2_result.json": {
+      "bytes": 35384,
+      "sha256": "eb8ab5c6c8517a6217b4f4a6e85e3ce888254137744bdb11216dae0482551fae"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_3_registration.json": {
+      "bytes": 23723,
+      "sha256": "18937a15e9f3671a3d471e30329005bd555f7275404b6068bc549ea9a9733392"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_3_result.json": {
+      "bytes": 35789,
+      "sha256": "55810269b947dd16fb99b224624f6147dd557c562cbc3cb04c4b01da4d382ceb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_4_registration.json": {
+      "bytes": 24142,
+      "sha256": "fa2d07d38f5c89bf2a9ef9681048e0f007748d5730b38a5f921a7266023556c8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only/query_4_result.json": {
+      "bytes": 36200,
+      "sha256": "840efd12b0d299ed9ed613c49b3b0c0e34bb0335be5f86ae8ff3ff550da14640"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_global_only.json": {
+      "bytes": 159471,
+      "sha256": "fe59617408a0f9640644453f1be25dadbe4f8a6600adccc7bb43720f123b7644"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_1_registration.json": {
+      "bytes": 23030,
+      "sha256": "aa2181555d516f48eadbf2bee28c28f4f6285a0afbd29223a947ce9db0e2d27e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_1_result.json": {
+      "bytes": 34677,
+      "sha256": "0ee0550ebb588fc64b81d02cecb1aaf4d801df7875c53993ebd1b10fee8cb790"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_2_registration.json": {
+      "bytes": 23048,
+      "sha256": "ede5a09cbce1e18be495af81d4be94182ad33105827aab41531dde453e2f70a5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_2_result.json": {
+      "bytes": 34997,
+      "sha256": "4c9aade6051ed5be959964329723f0d8d5f3b9deabad1567977deb5c96297e40"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_3_registration.json": {
+      "bytes": 23504,
+      "sha256": "ca4b9da3e5a79eba177acb344ba0c26a3815b14fda11639f8bf59bc3cf15285f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_3_result.json": {
+      "bytes": 35532,
+      "sha256": "5cdedd4afa24f293782afe8170402f27fe50f436051c63f03c40ac99d8fad570"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_4_registration.json": {
+      "bytes": 23948,
+      "sha256": "0a73f447c67a63e9d656c16a34220f32fad39f001760c6c1c737c543539b3040"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current/query_4_result.json": {
+      "bytes": 35990,
+      "sha256": "df09ac4947457c1635cf1988da13227bf001d3277585d31a4bcd7530f722c3d6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_mismatch_joint_hidden_current.json": {
+      "bytes": 158309,
+      "sha256": "c719697b2eabc969c63ce9c4ea59af3cf5803a671f2343ae5066512f024f04dd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_1_registration.json": {
+      "bytes": 107416,
+      "sha256": "50781596749cd9fc042f342d0955fe1c3c2a8a257786d3d7a4a8b7613cca6542"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_1_result.json": {
+      "bytes": 123380,
+      "sha256": "926e2fe41a7bc99f518f6149cc5aeaa18d210c55f5e2caa7b0c0ba5e94ac4615"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_2_registration.json": {
+      "bytes": 109275,
+      "sha256": "5ef8acf62cb2fbd31fe8cc6213cdd5e8c953bad462bc6888cbb0b80af33c5e68"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_2_result.json": {
+      "bytes": 125283,
+      "sha256": "0b8a626dff5a3afbe24297a6ce8cb1af2b29d1274958dc37b5fcb86ed17bb407"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_3_registration.json": {
+      "bytes": 109466,
+      "sha256": "c8ede911d3d69ab4ea0503664a1bb556fd47972ffdc1d37b6a44c2c72ed6265c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_3_result.json": {
+      "bytes": 125528,
+      "sha256": "2009d7feacaad75694ddf2b2b3c7bbfbb02750fcfda4ffcd574b7324e6295b9f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_4_registration.json": {
+      "bytes": 109721,
+      "sha256": "19e0ac06b8017c29ff362ea25bb03d7592e4cc3a0a32896fdddbd7c7f1b6752c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full/query_4_result.json": {
+      "bytes": 125744,
+      "sha256": "b5b28702ac6e0f0249b397414bf1e28067dd23157c88bcde43fabc23b3d1c936"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_full.json": {
+      "bytes": 554539,
+      "sha256": "3dfa57ba4e4582e2b6dbce449f7e70ef17a7b3ad62cf130e9a34e56c7ee9c441"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_1_registration.json": {
+      "bytes": 107423,
+      "sha256": "67fd904989eccc55b8e7db3ada9f025ccaeaae0d05a6ee0b1848d6e4776286bf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_1_result.json": {
+      "bytes": 123354,
+      "sha256": "113b1f5d295b4f5f80394ba143b1f5b732d3780ef653fbab2920eea00694b923"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_2_registration.json": {
+      "bytes": 108398,
+      "sha256": "a6c2c4d663fbe443f687a5cba462e424f7ca08e2b256f7972c02edb5caf119e1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_2_result.json": {
+      "bytes": 124402,
+      "sha256": "a6c0b1b14ca3b89a556daede2e07933a91311432e91dc7da1151c0720890a4ca"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_3_registration.json": {
+      "bytes": 108528,
+      "sha256": "856d9b026567f228289b533772a25926f5045b9e45e00a1ac1011fe4c62f955b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_3_result.json": {
+      "bytes": 124586,
+      "sha256": "188b064560e34fddb372f3c661eb083f57c4816d860ec93c14905ff0da1902a0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_4_registration.json": {
+      "bytes": 108746,
+      "sha256": "762d674f7e104a1d19d7a12fb898aef312fb481fe8efabe0af7d06ec527b4601"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only/query_4_result.json": {
+      "bytes": 124765,
+      "sha256": "c137a3980d775f4f76b7eef097345743727957bbcc6a3a9516b4bffe4f86c7fe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_global_only.json": {
+      "bytes": 551689,
+      "sha256": "6b24962ed1d1be59d9897229c92b6dbbf7b319c07de0a34b2d3808502ea28f45"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_1_registration.json": {
+      "bytes": 107426,
+      "sha256": "cbabda6c147f0d84a3890c3877170b9a304eec18cf850530d20f11a719113317"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_1_result.json": {
+      "bytes": 123279,
+      "sha256": "1def8ab2cd615db13caa4a953d9468d56c106d4b4245fa386fc9bf56e9dff6dc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_2_registration.json": {
+      "bytes": 107446,
+      "sha256": "7555a8f6642e0b0534085c7822df46480592b1fea86faf159a65694538e41751"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_2_result.json": {
+      "bytes": 123438,
+      "sha256": "214120bf126c6ead3ad288454da61218f55a07cc1f1ec21c32ee5fc9753bef9d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_3_registration.json": {
+      "bytes": 107628,
+      "sha256": "77a20d00a89e117aa2b9060947b218e817426d6b1ee88f92d61a38e1c47f8013"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_3_result.json": {
+      "bytes": 123642,
+      "sha256": "d22bfaf18522c1080d66d59bedb928cc3bcc54e6b66d7b27c815177f25e78fbf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_4_registration.json": {
+      "bytes": 107925,
+      "sha256": "22de5def7a98c996921772a841564d4184075961cf60834e2e3d1f6f4a38992f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current/query_4_result.json": {
+      "bytes": 123936,
+      "sha256": "da023f78a19440d5ffb26e4cf7067fb3224447a389b8105782fa7f09d7ba6ae5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/replay/Hydraulic_G3_original_quadratic_hidden_current.json": {
+      "bytes": 548819,
+      "sha256": "2ebfb0c1d83b7cca562b35ee0cde74aae8d5e8c4e221168bfcadf253e78ffa87"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/REPORT.md": {
+      "bytes": 5178,
+      "sha256": "68b3295034d32d6d2488631e5435bb63b84ebc1716d3baf4cd7a52fa7230b205"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/result_audit.json": {
+      "bytes": 1816107,
+      "sha256": "31ff197cf091476e669ee6ad27c225301b677a50193be6e4241344552f9e0651"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/result_audit_check.py": {
+      "bytes": 24169,
+      "sha256": "d49b349a13d6386e49b87d5f6cbc23145f99ddbdb14cb33ad43a105016b56062"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/results.json": {
+      "bytes": 87050,
+      "sha256": "d3420df6e756c1524732b9d33b15324f3f510d896ccc4fd7a13a58453e3fd9b2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/run.log": {
+      "bytes": 2172,
+      "sha256": "627d9ef248312372baa0fd557e584e3808355be9f58a28c14f8f0a9518668d12"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/source_publication_receipt.json": {
+      "bytes": 409,
+      "sha256": "64aa1c4649b6322edd35f54c80b80e4cf64ef206840455cec52a72eaac810375"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/STATUS.md": {
+      "bytes": 552,
+      "sha256": "28e6d62bc9ebfdf5b96386d76ed14b819bd2110c5d1c8a0f94415703935e6c15"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/ETT_mismatch/response.json": {
+      "bytes": 3847,
+      "sha256": "1f2381073d7afe4977937355956de2afe247aa80057dc9f85204f9bdb1a83f21"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/Hydraulic_mismatch/response.json": {
+      "bytes": 4038,
+      "sha256": "4b6c1e783601f14140a7f9dc8852c45f3b8c05d05a4c22611d03123fa1033e5e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/paper/images/strong_agent_budgets.pdf": {
+      "bytes": 24257,
+      "sha256": "ec2240fc46a523b06782b9685a36ac5eadf4cdf39ffb106102e54d3aacb36cd0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/paper/main.tex": {
+      "bytes": 23890,
+      "sha256": "311ccaef8426d8a15db469ecbcba93ff62a9c99d82809db725902b49ed2fc119"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_augmented_records.json": {
+      "bytes": 330573,
+      "sha256": "91c2365172a39e824a5dadd448b41977fd174a3da0016536316c403970dc934c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_augmented_records.json": {
+      "bytes": 330687,
+      "sha256": "18807f4fb17f15a0acd0fbb806bba98d5b7975c163a6421b853c03cf5aba8ce5"
+    },
+    "scripts/conditional_diagnosis.py": {
+      "bytes": 12295,
+      "sha256": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee"
+    },
+    "scripts/diagnosis_pool_features.py": {
+      "bytes": 5047,
+      "sha256": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5"
+    },
+    "scripts/feedback_forks.py": {
+      "bytes": 12445,
+      "sha256": "8ca174f7389256c02b629540168752023804ba5bd5427a99afc099306b7a169b"
+    },
+    "scripts/package_feedback_forks.py": {
+      "bytes": 2266,
+      "sha256": "00889ce78ed092b4324a5c45cbadb153e4482b1e9fafab1c4b0a51d72d961979"
+    },
+    "scripts/parent_measurement_tables.py": {
+      "bytes": 4083,
+      "sha256": "dd522c6f3821fcca2486f24c779bcf598b8290b95c917b6173ec22bf87b9cf08"
+    },
+    "scripts/replay_conditional_diagnosis.py": {
+      "bytes": 10655,
+      "sha256": "5a1f5f4ba5d43db7ac86b7f58e7de189bd4b961f161f48d5312554ff8c52be7a"
+    },
+    "scripts/replay_window_signals.py": {
+      "bytes": 10508,
+      "sha256": "dc3a39786f8b0c8b479cd3c5b578a308225c37b7417a2d6240cbc6acdbd1d704"
+    },
+    "scripts/summarize_feedback_forks.py": {
+      "bytes": 2430,
+      "sha256": "b1526429ffa256c6e217466a920ea4b524af6bdef6bf8ebc264a03cd2c2e76a8"
+    },
+    "scripts/window_measurement_dsl.py": {
+      "bytes": 4357,
+      "sha256": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878"
+    }
+  }
+}

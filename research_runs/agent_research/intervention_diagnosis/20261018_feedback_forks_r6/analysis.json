@@ -1,0 +1,1452 @@
+{
+  "status": "DESCRIPTIVE_PAIRED_SUMMARY",
+  "pairs": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh1:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh1:FAVOR_LATE:W",
+        "ETT:ETTh1:FAVOR_LATE:S",
+        "ETT:ETTh1:FAVOR_EARLY:W",
+        "ETT:ETTh1:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "ETT:ETTh2:FAVOR_LATE:W",
+      "full_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:S",
+        "ETT:ETTh2:FAVOR_EARLY:W"
+      ],
+      "other_queries": [
+        "ETT:ETTh2:FAVOR_LATE:W",
+        "ETT:ETTh2:FAVOR_LATE:S",
+        "ETT:ETTh2:FAVOR_EARLY:W",
+        "ETT:ETTh2:FAVOR_EARLY:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": -0.023331066360900942,
+      "continuation_gain_difference": -0.023331066360900942,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S",
+        "Hydraulic:G1:KEEP_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 3,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": -0.023331066360900942,
+      "continuation_gain_difference": -0.023331066360900942,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S",
+        "Hydraulic:G1:KEEP_FIRST:W"
+      ],
+      "subsequent_action_positions_changed": 3,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": -0.0006300145858662287,
+      "continuation_gain_difference": -0.0006300145858662287,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": -0.023331066360900942,
+      "continuation_gain_difference": -0.023331066360900942,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G1:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:W",
+        "Hydraulic:G1:FAVOR_FIRST:W",
+        "Hydraulic:G1:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G1:KEEP_FIRST:S",
+        "Hydraulic:G1:FAVOR_FIRST:S",
+        "Hydraulic:G1:FAVOR_SECOND:S",
+        "Hydraulic:G1:KEEP_FIRST:W"
+      ],
+      "subsequent_action_positions_changed": 3,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": -0.0006300145858662287,
+      "continuation_gain_difference": -0.0006300145858662287,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.30018001032132885,
+      "continuation_gain_difference": 0.30018001032132885,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:W",
+        "Hydraulic:G2:KEEP_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:S",
+        "Hydraulic:G2:KEEP_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.011189241332215993,
+      "continuation_gain_difference": 0.011189241332215993,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.30018001032132885,
+      "continuation_gain_difference": 0.30018001032132885,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S",
+        "Hydraulic:G2:KEEP_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.017413051060077456,
+      "continuation_gain_difference": 0.017413051060077456,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.30018001032132885,
+      "continuation_gain_difference": 0.30018001032132885,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G2:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_SECOND:W",
+        "Hydraulic:G2:FAVOR_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G2:KEEP_FIRST:S",
+        "Hydraulic:G2:FAVOR_FIRST:S",
+        "Hydraulic:G2:KEEP_FIRST:W",
+        "Hydraulic:G2:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.017413051060077456,
+      "continuation_gain_difference": 0.017413051060077456,
+      "actual_recommendation_changed": true,
+      "continuation_recommendation_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:KEEP_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:KEEP_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:KEEP_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:S",
+        "Hydraulic:G3:KEEP_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S",
+        "Hydraulic:G3:KEEP_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-global_only",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 0,
+      "subsequent_queried_sets_differ": false,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 2,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S"
+      ],
+      "subsequent_action_positions_changed": 1,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "comparison": "full-minus-hidden_current",
+      "queries": 4,
+      "prefix": "Hydraulic:G3:KEEP_FIRST:S",
+      "full_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_SECOND:W",
+        "Hydraulic:G3:FAVOR_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "other_queries": [
+        "Hydraulic:G3:KEEP_FIRST:S",
+        "Hydraulic:G3:FAVOR_FIRST:S",
+        "Hydraulic:G3:KEEP_FIRST:W",
+        "Hydraulic:G3:FAVOR_SECOND:S"
+      ],
+      "subsequent_action_positions_changed": 2,
+      "subsequent_queried_sets_differ": true,
+      "actual_gain_difference": 0.0,
+      "continuation_gain_difference": 0.0,
+      "actual_recommendation_changed": false,
+      "continuation_recommendation_changed": false
+    }
+  ],
+  "policy_seconds_sum": 1.3426033000032476,
+  "outer_seconds": 1.8934982999999193,
+  "known_cost_nodes": 79,
+  "nodes": 90,
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "cumulative_full_trainings": 464
+}

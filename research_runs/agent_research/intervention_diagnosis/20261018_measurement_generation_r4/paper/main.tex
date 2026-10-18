@@ -16,6 +16,7 @@ Seventy complete policy trajectories show no total-gain prediction or selection 
 Conditional updating also fails to outperform strong fixed response models.
 A frozen strong-prompt Agent completes 20 further decision calls and matches the fixed quadratic model at four queries, while trailing it and the exact uniform-random expectation at two queries.
 The result is a reproducible negative development finding, not evidence of method superiority or independent generalization.
+Forty-five fixed-prefix feedback forks show benefits from revealing the first overall response in some tasks, but no additional selection gain from revealing its local contrast.
 \end{abstract}
 
 \section{Question and scope}
@@ -215,6 +216,54 @@ Nine of ten historical query-cost nodes are known; the remaining node stays unkn
 This comparison matches query counts, not complete monetary or wall-clock budgets.
 All 20 transport fallbacks are retained and no Agent call is regenerated.
 
+\subsection{Fixed-prefix feedback interventions}
+We subsequently freeze a separate numerical-policy experiment with a common first query chosen by the source-only primitive reference.
+For each task, three policies (original quadratic, mismatch conditional and mismatch joint) branch before revealing this result.
+The branches reveal full $Y,Z$ and NMAE feedback, reveal only $Y$ and NMAE, or hide the entire first result.
+All later queries are chosen independently and receive full feedback.
+Missing values are not imputed: gain regression uses visible $Y$ rows and conditional regression uses complete $(Y,Z)$ rows.
+With only $Y$, joint evidence uses its marginal likelihood ratio, while conditional evidence remains unchanged.
+This produces 45 trajectories, 180 queries and 90 budget nodes.
+The forced prefix differs from the freely chosen first query in the preceding experiment, so two-query quadratic results are not the same baseline run.
+
+\begin{table}[ht]
+\centering
+\caption{Fixed-prefix five-task mean NMSE improvement (\%). Full and overall-only feedback coincide.}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{2 queries} & \multicolumn{2}{c}{4 queries}\\
+Policy & Full/overall & Hidden & Full/overall & Hidden\\
+\midrule
+Original quadratic & 6.451885 & 0.914906 & 12.554207 & 12.330422\\
+Mismatch conditional & 6.003600 & 0.466621 & 7.786365 & 7.450704\\
+Mismatch joint & 6.003600 & 0.466621 & 7.786365 & 7.450704\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All full-minus-overall-only gain differences are zero, providing no evidence of extra selection value from the first local contrast.
+Full-minus-hidden mean gain is 5.536979 percentage points at two queries for all three policies, driven by G2 (+30.018001) and offset by G1 ($-2.333107$).
+At four queries the difference is 0.223785 points for quadratic and 0.335661 for conditional/joint.
+The latter includes a G1 decrease of 0.063001 points.
+Excluding the first query from the eligible adoption ledger yields identical results, so these differences are not direct adoption of the revealed first result.
+Across 60 task/policy/budget comparisons, 18 subsequent queried sets and 11 gains differ.
+These interventions isolate an information effect within fixed deterministic policies; they do not establish an Agent textual-feedback effect, a unique mechanism, or a population causal effect.
+An independent audit verifies 850 model components and 10,489 numerical comparisons, with maximum discrepancy $5.69\times10^{-14}$.
+Historical query cost is known at 79/90 nodes; 11 remain unknown.
+Policy-internal execution sums to 1.342603 seconds and the measured outer loop takes 1.893498 seconds; no new LLM call or forecasting training is performed.
+
+\paragraph{What a diagnostic-to-decision bridge would require.}
+A shared latent mechanism can supply a bridge, but it is an additional assumption.
+For $Y=a+\mu\theta+\epsilon_Y$ and $Z=b+\nu\theta+\epsilon_Z$ with known Gaussian noise covariance $\Sigma$, let $c=\Sigma_{ZY}/\Sigma_{YY}$, $s^2=\Sigma_{ZZ}-\Sigma_{ZY}^2/\Sigma_{YY}$, and $g=\nu-c\mu$.
+If $V_Y$ is the posterior variance of $\theta$ after $Y$, then observing $Z$ reduces the variance of a future mean with loading $\mu_*$ by
+\[
+ \frac{\mu_*^2 V_Y^2 g^2}{s^2+V_Y g^2}.
+\]
+This requires informative residual loading and a shared mechanism that transfers to candidate gains; changing rankings additionally requires distinct action loadings.
+Correct joint Bayesian updating has nonnegative expected value of free information for an optimal decision, not guaranteed realized gain for our heuristic.
+Factoring the joint likelihood as $p(Y)p(Z\mid Y)$ gives the same posterior and is not a new algorithm.
+Our current independent regressors do not establish these structural assumptions.
+
 \section{Development history, audit and cost}
 The initial scalar-combination study used four calls and retained two mismatch-generator abstentions.
 It lacked conditional-$Z$ residual input and showed extreme source extrapolation.
@@ -251,7 +300,7 @@ One removal-based generated feature is identically zero on ETT because its actio
 A generated cancellation statistic is motivated as a reliability measurement, but our fixed model places it in a mean function with globally estimated residual scale; the corresponding heteroscedastic interpretation is not tested.
 We preserve this mismatch rather than redesigning the head after observing results.
 
-A fixed-prefix feedback intervention, complete costs, and independent-source confirmation remain missing.
+A numerical fixed-prefix feedback intervention is complete; an Agent text-feedback intervention, complete costs, and independent-source confirmation remain missing.
 The strong adaptive Agent comparator has been completed but does not rescue the proposed conditional-mixture mechanism.
 The tested implementation does not establish H1 signal benefit, H2 conditional-update benefit, or H3 decision superiority.
 This does not prove that every conditional diagnostic learner must fail.
