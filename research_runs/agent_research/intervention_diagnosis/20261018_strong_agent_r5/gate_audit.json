@@ -1,0 +1,339 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "code_sha256": "4e348e05d383580d5e361b07b96f0f587eb62e835b3909997a5874e731e20d32",
+  "protocol_sha256": "e384efc3804dbea33bec14ce18de2006e2a9f63af8ab77cc21d8a444317995e4",
+  "checks": [
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh1",
+      "history": 0,
+      "source_records": 24,
+      "pending": 4,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh1",
+      "history": 2,
+      "source_records": 24,
+      "pending": 2,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh2",
+      "history": 0,
+      "source_records": 24,
+      "pending": 4,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh2",
+      "history": 2,
+      "source_records": 24,
+      "pending": 2,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G1",
+      "history": 0,
+      "source_records": 8,
+      "pending": 8,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G1",
+      "history": 2,
+      "source_records": 8,
+      "pending": 6,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G2",
+      "history": 0,
+      "source_records": 8,
+      "pending": 8,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G2",
+      "history": 2,
+      "source_records": 8,
+      "pending": 6,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G3",
+      "history": 0,
+      "source_records": 8,
+      "pending": 8,
+      "model_components_checked": 6
+    },
+    {
+      "check": "real_pool_input_isolation",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G3",
+      "history": 2,
+      "source_records": 8,
+      "pending": 6,
+      "model_components_checked": 6
+    },
+    {
+      "check": "adoption_thresholds_and_unknown_cost",
+      "status": "PASS"
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.0
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.0
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.040690002307001504
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.06643717058959907
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.010697277684875531
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.01815154797331753
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.3413599970760307
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.47851284806358174
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.0
+    },
+    {
+      "check": "uniform_subset_enumeration",
+      "status": "PASS",
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.0
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "valid",
+      "subprocess_invocations": 1,
+      "revealed": true
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "valid"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "invalid_candidate",
+      "subprocess_invocations": 1,
+      "revealed": false
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "invalid_candidate"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "nonfinite",
+      "subprocess_invocations": 1,
+      "revealed": false
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "nonfinite"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "tool",
+      "subprocess_invocations": 1,
+      "revealed": false
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "tool"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "exit_failure",
+      "subprocess_invocations": 1,
+      "revealed": false
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "exit_failure"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "no_completed",
+      "subprocess_invocations": 1,
+      "revealed": false
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "no_completed"
+    },
+    {
+      "check": "decision_validation_gate",
+      "status": "PASS",
+      "case": "transport_reconnect",
+      "subprocess_invocations": 1,
+      "revealed": true
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "transport_reconnect"
+    },
+    {
+      "check": "malformed_event_fails_closed",
+      "status": "PASS",
+      "limitation": "JSON parsing occurs before receipt try/except; no FAILED receipt written"
+    },
+    {
+      "check": "step_restart_does_not_repeat",
+      "status": "PASS",
+      "case": "malformed_event"
+    },
+    {
+      "check": "scheduler_gate",
+      "status": "PASS",
+      "case": "all_pass",
+      "mock_step_calls": 20,
+      "actual_LLM_calls": 0,
+      "restart_repeats": 0
+    },
+    {
+      "check": "scheduler_gate",
+      "status": "PASS",
+      "case": "first_round_failure",
+      "mock_step_calls": 5,
+      "actual_LLM_calls": 0,
+      "restart_repeats": 0
+    },
+    {
+      "check": "scheduler_gate",
+      "status": "PASS",
+      "case": "step_exception",
+      "mock_step_calls": 3,
+      "actual_LLM_calls": 0,
+      "restart_repeats": 0
+    }
+  ],
+  "actual_LLM_calls": 0,
+  "prepare_executed": false,
+  "new_full_trainings": 0,
+  "findings": [
+    {
+      "kind": "reproduced",
+      "severity": "medium",
+      "file": "scripts/strong_agent_baseline.py",
+      "line": 114,
+      "condition": "A subprocess event line is malformed JSON, or call_task otherwise raises before returning False.",
+      "actual": "The exception leaves call_task without receipt.json and leaves run without stopped.json; no target revelation or later round occurs.",
+      "expected": "Preserve the failed call and a machine-readable failure/stop receipt, while stopping subsequent rounds.",
+      "impact": "Failure/cost accounting and stage stop reason are incomplete; no observed label leak or repeated call."
+    }
+  ],
+  "limitations": [
+    "Mock subprocess/scheduler checks do not validate live Codex transport behavior.",
+    "No full new policy/strategy, r4 mathematical audit, external calls or prepare was executed.",
+    "Restart is fail-closed and cannot resume a partial run."
+  ]
+}

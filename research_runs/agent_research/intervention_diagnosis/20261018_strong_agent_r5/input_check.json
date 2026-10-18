@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "prefix": 0,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "prefix": 2,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 2
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "prefix": 0,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "prefix": 2,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 2
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "prefix": 0,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "prefix": 2,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 6
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "prefix": 0,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "prefix": 2,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 6
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "prefix": 0,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "prefix": 2,
+      "hidden_target_label_and_cost_perturbation_invariant": true,
+      "remaining_candidates": 6
+    }
+  ],
+  "actual_hidden_values_perturbed": true,
+  "LLM_calls": 0
+}

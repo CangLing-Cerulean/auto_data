@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "malformed_event_json",
+      "status": "PASS",
+      "failed_receipt": {
+        "exit_code": 0,
+        "seconds": 0.0050178000019514,
+        "usage": null,
+        "tool_items": [],
+        "transport_errors": [],
+        "model_requested": "gpt-6.1-sol",
+        "reasoning_requested": "high",
+        "status": "FAILED",
+        "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+      },
+      "stopped": {
+        "failed_round": 1,
+        "reason": "One decision failed; remaining rounds not started"
+      },
+      "later_rounds": 0,
+      "target_revealed": false,
+      "mocked_subprocess_invocations": 1
+    },
+    {
+      "check": "subprocess_exception",
+      "status": "PASS",
+      "failed_receipt": {
+        "exit_code": null,
+        "seconds": 0.0007232999996631406,
+        "usage": null,
+        "tool_items": [],
+        "transport_errors": [],
+        "model_requested": "gpt-6.1-sol",
+        "reasoning_requested": "high",
+        "status": "FAILED",
+        "error": "OSError('Synthetic subprocess launch failure')"
+      },
+      "stopped": {
+        "failed_round": 1,
+        "reason": "One decision failed; remaining rounds not started"
+      },
+      "later_rounds": 0,
+      "target_revealed": false,
+      "mocked_subprocess_invocations": 1
+    },
+    {
+      "check": "run_task_exception",
+      "status": "PASS",
+      "stopped": {
+        "failed_round": 1,
+        "reason": "Unexpected execution exception; remaining rounds not started",
+        "error": "ValueError('Synthetic task execution exception')"
+      },
+      "later_rounds": 0,
+      "target_revealed": false
+    }
+  ],
+  "checks_count": 3,
+  "code_sha256": "9e786438c417ec19d9903666072689f1a7c17feec3548bfd8b8f2dd32827065e",
+  "prior_audit_sha256": "7684f14369b1c96c2d9f2aecd2557ac6d08de40f9155df4b93c4ce0bf9973ba2",
+  "prior_audit_unchanged": true,
+  "actual_LLM_calls": 0,
+  "prepare_executed": false,
+  "new_full_trainings": 0,
+  "scope": "Only malformed event JSON, subprocess exception, and unexpected task exception paths. Prior 40-check audit was not rerun.",
+  "limitation": "Mocked subprocess/task exceptions; no live Codex transport validation."
+}
