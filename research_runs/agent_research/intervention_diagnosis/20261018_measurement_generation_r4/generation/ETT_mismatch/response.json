@@ -1,0 +1,19 @@
+{
+  "signals": [
+    {
+      "name": "action_aligned_nonlinear_error_affinity",
+      "expression": "exposure_shift_first * mean(center(tanh(E_contrast)) * center(tanh(square(B_level_energy - second_mean(A_level_energy)) - square(B_level_energy - first_mean(A_level_energy)))))",
+      "measurement_meaning": "Measures whether bounded parent target-versus-complement error excess concentrates in B windows whose energy favors the A group receiving increased exposure. The affinity is positive when a window is closer to the first group's mean. Centering measures localization separately from average error contrast.",
+      "limitation": "Uncomputed candidate; quartile summaries do not determine its value. Group means incompletely describe coverage, and nonlinear saturation discards magnitude. It may duplicate existing controls or contribute too little at the prescribed ridge scale. A positive value does not establish positive Y or Z.",
+      "falsifying_response": "On additional independent source tasks, test the hypothesis that larger scores accompany larger Z within implementation and comparable Y. Repeated reversed associations, or no improvement over the full controls in source-task-out conditional Z prediction, would reject its proposed diagnostic value."
+    },
+    {
+      "name": "weighted_implementation_error_affinity",
+      "expression": "weighted_implementation * exposure_shift_first * mean(center(tanh(E_contrast)) * center(tanh(square(B_level_energy - second_mean(A_level_energy)) - square(B_level_energy - first_mean(A_level_energy)))))",
+      "measurement_meaning": "Provides an implementation interaction with the same nonlinear parent measurement, allowing its fitted association with response to differ between uniform sampling with weights and nonuniform sampling.",
+      "limitation": "This is an interaction with the first candidate, not an independent parent diagnostic. It measures no update dynamics and establishes no mechanism for S/W differences. Two tasks cannot establish a transferable implementation interaction.",
+      "falsifying_response": "Across new tasks with matched S/W recipes, test whether this interaction improves prediction of the W-minus-S Z difference beyond the first measurement and all controls. Failure to reduce source-task-out error, or unstable fitted direction across tasks, would reject its added value."
+    }
+  ],
+  "reasoning": "Qualified conditional mismatches challenge explanations based solely on inaccurate global-gain prediction: R5 has positive residuals and R8 negative residuals under both predictors even after conditioning retrospectively on observed seed Y. T1 R2 and R4 also remain qualified under both predictors; quadratic R1 and R3 have negative residuals. These counterexamples do not identify missing information or a causal mechanism. Misspecification, regularization, limited task support and stochastic variation remain possible explanations despite strong controls and source-task-out fitting. Three seeds are not independent tasks.\n\nRecipe performance and diagnostic reliability differ: R6 has positive Y but negative Z, while R3 has negative Y but positive Z. With p=0.5, target improvement equals Y+0.5*Z, so positive Z alone does not establish target improvement. Y, Z and conditional residuals appear only in retrospective evaluation, never in these expressions.\n\nThe energy profiles motivate testing nonlinear localization: T1's contrast profile is nonmonotonic, while T2's lowest-energy quartile has the largest contrast. Neither candidate's value nor information gain is established by those summaries. Evaluate both against all stated controls using the prescribed task-balanced ridge and scale floors on additional independent tasks. Abstain from deployment or recipe recommendations if incremental performance remains unsupported."
+}

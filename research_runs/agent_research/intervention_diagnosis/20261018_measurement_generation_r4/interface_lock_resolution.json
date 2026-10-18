@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "audit_completion": "complete",
+  "scope": "Only empty call lists, missing manifest/physical files, and changed generation-lock association; two valid-fixture sanity checks.",
+  "checks": [
+    {
+      "case": "empty generation calls at seal",
+      "runner": "seal",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "empty output calls at replay",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "changed generation lock association",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "missing output manifest file: response.json",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "missing output manifest file: receipt.json",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "missing output manifest file: prompt.txt",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "missing output manifest file: events.jsonl",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "AssertionError",
+      "writes": 0
+    },
+    {
+      "case": "missing physical events file at seal",
+      "runner": "seal",
+      "status": "PASS",
+      "actual": "FileNotFoundError",
+      "writes": 0
+    },
+    {
+      "case": "missing physical events file at replay",
+      "runner": "replay",
+      "status": "PASS",
+      "actual": "FileNotFoundError",
+      "writes": 0
+    }
+  ],
+  "positive_fixture_sanity": {
+    "replay": "reaches pool boundary only",
+    "seal": "one in-memory output lock write"
+  },
+  "resolved_findings": [
+    "reproduced_lock_schema_gap",
+    "reproduced_unchecked_lock_link"
+  ],
+  "reviewed_locations": [
+    "scripts/generate_window_signals.py:78",
+    "scripts/replay_window_signals.py:98-102"
+  ],
+  "script_sha256": {
+    "replay_window_signals.py": "dc3a39786f8b0c8b479cd3c5b578a308225c37b7417a2d6240cbc6acdbd1d704",
+    "generate_window_signals.py": "f4872b26b74b21a6fb2ca9159951d6dc6b3fc1f7b2bcc74671682e1d3f75a563"
+  },
+  "limitations": [
+    "Runtime tests use in-memory read/sha/write fixtures, not actual generation outputs.",
+    "No previous 22 hash-tampering checks, 23 expression checks, 9 matrices or 14 method checks repeated.",
+    "No LLM calls, strategy execution, training, or D/test access."
+  ],
+  "command": "Run stored probe_source with python -c in PowerShell 7 from project root.",
+  "probe_source": "from pathlib import Path\nfrom unittest.mock import patch\nfrom contextlib import redirect_stdout\nimport copy, hashlib, io, json, sys\nroot=Path.cwd();sys.path.insert(0,str(root/'scripts'))\nimport replay_window_signals as replay\nimport generate_window_signals as generator\nstage=root/'research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4'\nbase=stage.parent\ncall_names=[f'{f}_{m}' for f in ('ETT','Hydraulic') for m in ('ordinary','mismatch')]\nfilenames=('response.json','receipt.json','prompt.txt','events.jsonl')\nclass GateReached(Exception):pass\n\ndef probe(kind,mutation=None):\n    hashes={str(stage/'evaluation_lock.json'):'evaluation',str(stage/'PROTOCOL.md'):'protocol',str(stage/'generation/generation_lock.json'):'generation'}\n    scripts={name:'code_'+name for name in generator.SCRIPTS}\n    hashes.update({str(root/'scripts'/name):value for name,value in scripts.items()})\n    tables={name:'table_'+name for name in ('ETT_ETTh1.npz','ETT_ETTh2.npz','Hydraulic_G1.npz','Hydraulic_G2.npz','Hydraulic_G3.npz')}\n    hashes.update({str(base/'20261018_parent_measurements_r3/frequency_corrected'/name):value for name,value in tables.items()})\n    pool=base/'20261018_conditional_diagnosis_r1/development_pool.json';hashes[str(pool)]='pool'\n    reads={};calls={};entries=[]\n    for name in call_names:\n        values={filename:name+'_'+filename for filename in filenames};calls[name]=values\n        folder=stage/'generation'/name\n        hashes.update({str(folder/filename):value for filename,value in values.items()})\n        reads[str(folder/'receipt.json')]={'status':'PASS','response_sha256':values['response.json']}\n        entries.append({'name':name,'prompt_sha256':values['prompt.txt']})\n    reads[str(stage/'evaluation_lock.json')]={'script_sha256':scripts,'table_sha256':tables,'protocol_sha256':'protocol','pool_sha256':'pool'}\n    reads[str(stage/'generated_outputs_lock.json')]={'evaluation_lock_sha256':'evaluation','generation_lock_sha256':'generation','calls':calls}\n    reads[str(stage/'generation/generation_lock.json')]={'evaluation_lock_sha256':'evaluation','script_sha256':scripts,'protocol_sha256':'protocol','calls':entries}\n    if mutation:mutation(reads,hashes)\n    writes=[]\n    def fake_read(path):\n        if Path(path)==pool:raise GateReached()\n        return copy.deepcopy(reads[str(path)])\n    def fake_sha(path):\n        if str(path) not in hashes:raise FileNotFoundError(str(path))\n        return hashes[str(path)]\n    module=replay if kind=='replay' else generator\n    try:\n        with patch.object(module,'read',fake_read),patch.object(module,'sha',fake_sha),patch.object(module,'write',lambda p,v:writes.append((str(p),v))),redirect_stdout(io.StringIO()):\n            module.main() if kind=='replay' else module.seal()\n    except GateReached:return 'gate_passed',len(writes)\n    except (AssertionError,FileNotFoundError) as exc:return type(exc).__name__,len(writes)\n    return 'sealed',len(writes)\n\nassert probe('replay')==('gate_passed',0)\nassert probe('seal')==('sealed',1)\nchecks=[]\nmutations=[\n('empty generation calls at seal','seal',lambda r,h:r[str(stage/'generation/generation_lock.json')].__setitem__('calls',[])),\n('empty output calls at replay','replay',lambda r,h:r[str(stage/'generated_outputs_lock.json')].__setitem__('calls',{})),\n('changed generation lock association','replay',lambda r,h:h.__setitem__(str(stage/'generation/generation_lock.json'),'changed')),\n]\nfor filename in filenames:\n    mutations.append((f'missing output manifest file: {filename}','replay',lambda r,h,f=filename:r[str(stage/'generated_outputs_lock.json')]['calls']['ETT_ordinary'].pop(f)))\nmutations.append(('missing physical events file at seal','seal',lambda r,h:h.pop(str(stage/'generation/ETT_ordinary/events.jsonl'))))\nmutations.append(('missing physical events file at replay','replay',lambda r,h:h.pop(str(stage/'generation/ETT_ordinary/events.jsonl'))))\nfor label,kind,mutation in mutations:\n    outcome,writes=probe(kind,mutation)\n    assert outcome in ('AssertionError','FileNotFoundError') and writes==0,(label,outcome,writes)\n    checks.append({'case':label,'runner':kind,'status':'PASS','actual':outcome,'writes':writes})\npath=stage/'interface_lock_resolution.json'\nold=json.loads(path.read_text(encoding='utf-8-sig')) if path.exists() else {}\nresult={'status':'PASS','audit_completion':'complete','scope':'Only empty call lists, missing manifest/physical files, and changed generation-lock association; two valid-fixture sanity checks.','checks':checks,'positive_fixture_sanity':{'replay':'reaches pool boundary only','seal':'one in-memory output lock write'},'resolved_findings':['reproduced_lock_schema_gap','reproduced_unchecked_lock_link'],'reviewed_locations':['scripts/generate_window_signals.py:78','scripts/replay_window_signals.py:98-102'],'script_sha256':{name:hashlib.sha256((root/'scripts'/name).read_bytes()).hexdigest() for name in ('replay_window_signals.py','generate_window_signals.py')},'limitations':['Runtime tests use in-memory read/sha/write fixtures, not actual generation outputs.','No previous 22 hash-tampering checks, 23 expression checks, 9 matrices or 14 method checks repeated.','No LLM calls, strategy execution, training, or D/test access.'],'command':'Run stored probe_source with python -c in PowerShell 7 from project root.'}\nif 'probe_source' in old:result['probe_source']=old['probe_source']\npath.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')\nprint(json.dumps({'status':'PASS','targeted_rejections':len(checks),'sanity_checks':2,'writes_in_rejected_cases':0}))"
+}

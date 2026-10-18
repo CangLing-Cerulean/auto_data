@@ -1,0 +1,31 @@
+{
+  "calls": {
+    "ETT_ordinary": {
+      "response.json": "787861f39bcb52ad0ff909dfac33b91504b852535d81d23a06b9861cd5b66fa9",
+      "receipt.json": "5378390df8f814560d79e64bf0950fce0c043b843d231ed48da1857aa6729f03",
+      "prompt.txt": "b25439fa70cf62478257241268538b867c55260b85146cd31de9e2695da1968e",
+      "events.jsonl": "695cc0d1c833424762a8caa75f5943617ba210d6dd2baa65c1d5ed49daff64ff"
+    },
+    "ETT_mismatch": {
+      "response.json": "1f2381073d7afe4977937355956de2afe247aa80057dc9f85204f9bdb1a83f21",
+      "receipt.json": "85b6ea70be7fdcea8fd817f6ee40f7687ffabd410febe47106bbeb9e2ecac6cf",
+      "prompt.txt": "1e978c6134985d61a940f95b79f258c027a79bc2c4875e3aace1f8cbde278ca6",
+      "events.jsonl": "10cc66b660f86da5607f7fefbdadfdaf33d0b556a322f2e490f744854ca7a3a2"
+    },
+    "Hydraulic_ordinary": {
+      "response.json": "d813a182c7f0900bc7c42cc1157fd29439cabb563a8cb3bff43284783fe41079",
+      "receipt.json": "9d481cf08dffea02a6bf51e8d0c9f7395699eb94baf4ae2708afd943f70bed5c",
+      "prompt.txt": "cb5d5168553e9a0a09f8b816cff9b3d54df7ae84d73c2de030b1625cd4695eca",
+      "events.jsonl": "ffabb858b9b50fc384b9b678b3effa04b832fecc6b2b4f1df0987dce06f5401a"
+    },
+    "Hydraulic_mismatch": {
+      "response.json": "4b6c1e783601f14140a7f9dc8852c45f3b8c05d05a4c22611d03123fa1033e5e",
+      "receipt.json": "de1dd23531115a4905c3a7e996533ecefd45e163794c156107586837e66a878a",
+      "prompt.txt": "0c077616f676758cd5ba906109332c3c12b01c3a88e548193a4c5b671217b108",
+      "events.jsonl": "362765cf04204100572952a297e1a8cab5881d001ae7543976f813cb14ca2a0a"
+    }
+  },
+  "evaluation_lock_sha256": "2073f4ecd6a62fd0734ac7671c08013184548ea9fa2666e339e379c87a732745",
+  "generation_lock_sha256": "189ddef2593e63e0cfb4b213f7b030e655da66b72ff5e47b0903666b673178dc",
+  "target_measurements_not_yet_evaluated": true
+}

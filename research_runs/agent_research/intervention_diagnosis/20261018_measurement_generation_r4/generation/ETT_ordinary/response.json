@@ -1,0 +1,19 @@
+{
+  "signals": [
+    {
+      "name": "action_aligned_nonlinear_loss_proximity",
+      "expression": "exposure_shift_first * mean(E_loss * (tanh(square(B_level_energy - second_mean(A_level_energy))) - tanh(square(B_level_energy - first_mean(A_level_energy)))))",
+      "measurement_meaning": "Parent global-loss-weighted difference in nonlinear proximity to the frozen A energy centroids, signed by exposure direction. Positive values indicate that the favored centroid is closer to higher-loss B windows under this distance transform.",
+      "limitation": "Centroids omit within-group support and other input dimensions. Its value and predictive contribution are uncomputed; strong coverage controls may already capture its useful variation.",
+      "falsifying_response": "Across additional source tasks, adding this measurement fails to reduce task-out Y prediction error beyond the full stated controls."
+    },
+    {
+      "name": "weighted_action_loss_heterogeneity",
+      "expression": "weighted_implementation * abs(exposure_shift_first) * mean(square(center(E_loss)))",
+      "measurement_meaning": "Dispersion of seed-averaged normalized parent window losses, multiplied by exposure magnitude for weighted implementations. This supplies a candidate moderator of implementation-dependent Y response.",
+      "limitation": "Window loss dispersion does not measure optimizer variability or identify an implementation mechanism. Seed averaging hides seed-specific heterogeneity, and this unsigned measurement cannot distinguish exposure directions.",
+      "falsifying_response": "On additional source tasks, its inclusion fails to improve task-out Y prediction, including weighted-action predictions, beyond controls and the first measurement."
+    }
+  ],
+  "reasoning": "Opposite energy–loss correlations across T1 and T2, together with nonmonotone energy quartile profiles, motivate testing nonlinear loss-weighted proximity. Larger implementation-dependent Y errors in T2 motivate the heterogeneity moderator, with its coefficient and sign learned rather than presumed. Both use only permitted runtime inputs. Neither has been evaluated or shown to add information beyond the strong controls. Two source tasks and repeated seeds cannot establish generalization or causality; abstain from retaining either measurement if further task-out evaluation provides no predictive benefit."
+}

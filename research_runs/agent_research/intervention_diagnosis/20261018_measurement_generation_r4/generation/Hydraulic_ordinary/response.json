@@ -1,0 +1,19 @@
+{
+  "signals": [
+    {
+      "name": "loss_weighted_energy_affinity_shift",
+      "expression": "exposure_shift_first * mean(E_loss * (safe_ratio(1, square(B_level_energy - first_mean(A_level_energy))) - safe_ratio(1, square(B_level_energy - second_mean(A_level_energy)))))",
+      "measurement_meaning": "Signed exposure shift toward the A group whose energy centroid has greater bounded affinity to B windows, weighted by normalized parent loss.",
+      "limitation": "Centroids omit within-group distributions. This nonlinear measurement is uncomputed; neither its predictive coefficient nor incremental value is established.",
+      "falsifying_response": "Adding the frozen measurement fails to reduce task-balanced Y prediction error on new held-out tasks beyond the strongest stated controls."
+    },
+    {
+      "name": "removal_loss_concentration",
+      "expression": "removed_fraction * mean(E_loss * log1p_abs(E_loss))",
+      "measurement_meaning": "Removal magnitude multiplied by a nonlinear measure of parent window-loss concentration, emphasizing high-loss windows.",
+      "limitation": "Its value cannot be recovered from the supplied quartile means. Seed-averaged losses omit seed variability, and concentration does not determine the direction of Y.",
+      "falsifying_response": "After controlling for existing features and the affinity measurement, this measurement provides no reproducible reduction in Y prediction error across new held-out tasks."
+    }
+  ],
+  "reasoning": "Energy is a candidate because its parent loss association and early/late group geometry differ across the sources, while Y responses depend strongly on exposure direction and removal. The second candidate tests nonlinear loss concentration as an additional predictor of removal responses. Both use permitted runtime inputs exclusively. No candidate values or prediction gains have been computed. Three source tasks, repeated seeds, and residual mismatches cannot establish generalization or causal mechanisms. Freeze these candidates before testing on new tasks with the specified ridge procedure; abstain from retaining either without incremental predictive benefit beyond all controls."
+}
