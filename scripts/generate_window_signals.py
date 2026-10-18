@@ -74,6 +74,11 @@ def run(name):
 
 def seal():
     lock=read(OUT/'generation_lock.json');calls={}
+    expected={f'{family}_{mode}' for family in ('ETT','Hydraulic') for mode in ('ordinary','mismatch')}
+    assert len(lock['calls'])==4 and {entry['name'] for entry in lock['calls']}==expected
+    assert set(lock['script_sha256'])==set(SCRIPTS)
+    for name,value in lock['script_sha256'].items():assert sha(ROOT/'scripts'/name)==value
+    assert sha(STAGE/'PROTOCOL.md')==lock['protocol_sha256']
     assert sha(STAGE/'evaluation_lock.json')==lock['evaluation_lock_sha256']
     for entry in lock['calls']:
         folder=OUT/entry['name'];receipt=read(folder/'receipt.json')

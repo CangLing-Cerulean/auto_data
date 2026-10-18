@@ -25,3 +25,5 @@
 ## 已保留的准备修正
 
 r3初审发现高频能量漏计rFFT双份频点，已另存修正表。最初inputs及input_preparation与生成准备器副本保留于本阶段，用于追踪这次准备修正；没有任何LLM见过它们。唯一待发送输入为corrected_inputs，测量只用r3/frequency_corrected。旧闭合批次、D/test、存储禁区和阶段GitHub要求保持。
+
+初次调用前冻结89dabcf后，锁门禁窄审发现空调用清单可被接受。尚无生成调用；另保留pre_lock_correction两份原锁，修正精确4调用、4文件/调用、4源码、5父表集合及generation锁关联后重新锁定。实际提示词、信息、方法和预算不变，不把工程门禁缺陷称为科学结果失败。

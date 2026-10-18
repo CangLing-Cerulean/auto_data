@@ -88,12 +88,17 @@ def run(training,held,method,original_names,signal_names):
 
 def main():
     lock=read(OUT/'evaluation_lock.json')
+    assert set(lock['script_sha256'])=={'window_measurement_dsl.py','prepare_window_signal_inputs.py','replay_window_signals.py','generate_window_signals.py'}
     for name,value in lock['script_sha256'].items():assert sha(ROOT/'scripts'/name)==value
     assert sha(OUT/'PROTOCOL.md')==lock['protocol_sha256']
+    assert set(lock['table_sha256'])=={'ETT_ETTh1.npz','ETT_ETTh2.npz','Hydraulic_G1.npz','Hydraulic_G2.npz','Hydraulic_G3.npz'}
     for name,value in lock['table_sha256'].items():assert sha(BASE/'20261018_parent_measurements_r3/frequency_corrected'/name)==value
     outputs=read(OUT/'generated_outputs_lock.json')
     assert outputs['evaluation_lock_sha256']==sha(OUT/'evaluation_lock.json')
+    assert outputs['generation_lock_sha256']==sha(OUT/'generation/generation_lock.json')
+    assert set(outputs['calls'])=={f'{family}_{mode}' for family in ('ETT','Hydraulic') for mode in ('ordinary','mismatch')}
     for name,entry in outputs['calls'].items():
+        assert set(entry)=={'response.json','receipt.json','prompt.txt','events.jsonl'}
         for filename,value in entry.items():assert sha(OUT/'generation'/name/filename)==value
     old=BASE/'20261018_conditional_diagnosis_r1/development_pool.json';assert sha(old)==lock['pool_sha256']
     records=read(old)['records'];original_names=tuple(sorted(records[0]['features']));results=[];rows=[];timings=[];output=OUT/'replay';output.mkdir()

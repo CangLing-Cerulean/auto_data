@@ -1,0 +1,73 @@
+{
+  "status": "FAIL",
+  "audit_completion": "complete",
+  "scope": "Narrow lock/seal addendum; previous DSL/ridge/method tests not repeated",
+  "checks": [
+    {
+      "test": "replay valid fixture reaches pool boundary only",
+      "status": "PASS"
+    },
+    {
+      "test": "replay rejects changed protocol, five tables, sixteen output artifacts",
+      "status": "PASS",
+      "rejections": 22
+    },
+    {
+      "test": "generated output lock evaluation hash mismatch rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "seal binds four calls x four artifacts and both lock hashes",
+      "status": "PASS"
+    },
+    {
+      "test": "seal rejects failed receipt, changed response/prompt/evaluation before writing",
+      "status": "PASS",
+      "rejections": 4
+    }
+  ],
+  "findings": [
+    {
+      "classification": "reproduced_lock_schema_gap",
+      "location": "scripts/generate_window_signals.py:76-83; scripts/replay_window_signals.py:94-97",
+      "trigger": "generation_lock.calls=[] at seal, or generated_outputs_lock.calls={} at replay",
+      "actual": {
+        "seal_empty_calls": {
+          "actual": "sealed",
+          "sealed_calls": 0
+        },
+        "replay_empty_calls": {
+          "actual": "gate_passed"
+        }
+      },
+      "expected": "Require exactly ETT_ordinary, ETT_mismatch, Hydraulic_ordinary, Hydraulic_mismatch; reject missing/extra calls before seal or replay.",
+      "impact": "The claim that seal requires four PASS outputs is not enforced independently of the generation lock list; an incomplete outputs lock does not authenticate all consumed generation outputs.",
+      "scope": "Synthetic in-memory fixture; no real artifact was edited or strategy run."
+    },
+    {
+      "classification": "reproduced_unchecked_lock_link",
+      "location": "scripts/replay_window_signals.py:94-98",
+      "trigger": "Current generation_lock.json differs from generated_outputs_lock.generation_lock_sha256",
+      "actual": {
+        "actual": "gate_passed"
+      },
+      "expected": "Verify stored generation_lock_sha256 against current generation_lock.json.",
+      "impact": "The recorded generation-lock link is not enforced by replay, although frozen prompt/response artifact hashes remain checked when calls are complete."
+    }
+  ],
+  "scripts_sha256": {
+    "replay_window_signals.py": "05ab6741973d476a40542efc37b0725fe562d33a8e4a39c9be31711287b4439f",
+    "generate_window_signals.py": "8b69685b791bfdba6d6e6cf1c7e7896dd543e8b51b89745da0e9ca9cb0456f33"
+  },
+  "exclusive_write_review": {
+    "file": "scripts/diagnosis_pool_features.py:18-20",
+    "mode": "x",
+    "result": "Existing output locks are not overwritten by write()"
+  },
+  "limitations": [
+    "All runtime probes use in-memory patched read/sha/write; no actual locks, generation files, parent tables or pool labels loaded.",
+    "No LLM calls or full strategy execution.",
+    "No D/test access."
+  ],
+  "command": "pwsh; inline Python with unittest.mock.patch (fixture and exact trigger details recorded here)"
+}
