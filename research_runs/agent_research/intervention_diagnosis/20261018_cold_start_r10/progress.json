@@ -10,5 +10,8 @@
   "remote_execution_started": false,
   "automatic_review_rejection": "approval_block.json",
   "protocol": "PROTOCOL.md",
-  "next": "Explicit approval for frozen r10 code and ABC arrays to existing server, then prepare/deploy/run; do not restart r9"
+  "next": "Explicit approval for frozen r10 code and ABC arrays to existing server, then prepare/deploy/run; do not restart r9",
+  "result_auditor_implemented": true,
+  "result_auditor_synthetic_checks": 8,
+  "real_result_audit_executed": false
 }

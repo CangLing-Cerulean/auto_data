@@ -1,0 +1,22 @@
+{
+  "status": "PASS_synthetic_only",
+  "checks": [
+    "independent_per_channel_double_reference_370_channels",
+    "all_response_metrics_and_hashes",
+    "corrupted_response_rejected",
+    "recommendation_guardrail_and_earliest_tie",
+    "chronological_cross_arm_physical_budget",
+    "double_counted_physical_training_rejected",
+    "exact_own_history_prompt_audit",
+    "tool_event_rejected_despite_clean_receipt"
+  ],
+  "count": 8,
+  "reference_max_absolute_error": 3.4162186746122813e-07,
+  "reference_rtol": 1e-05,
+  "reference_atol": 2e-06,
+  "auditor_sha256": "b7a7d813f18cb69a2757ba6c8b33f4b2cdeb9a4fb74c2410ae5f8d113160e5e1",
+  "real_trial_assets_read": false,
+  "actual_trial_audit_executed": false,
+  "new_full_trainings": 0,
+  "new_llm_calls": 0
+}
