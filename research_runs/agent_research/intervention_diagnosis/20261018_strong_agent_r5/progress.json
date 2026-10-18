@@ -1,5 +1,5 @@
 {
-  "status": "ACCEPTED_SYNC_PENDING",
+  "status": "ACCEPTED_RESULT_AND_RELEASE_VERIFIED",
   "calls": 20,
   "valid_calls": 20,
   "failed_calls": 0,
@@ -16,5 +16,7 @@
   "conditional_method_increment": false,
   "queue_active": false,
   "source_commit": "7b2a165602c8aa83cbf2f32b6f19eafec9a743f7",
-  "D_test_access": false
+  "D_test_access": false,
+  "result_commit": "1b90593cdffb94a63bfd519bef39f791a7905f9c",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/strong-agent-20261018-r5"
 }
