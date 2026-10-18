@@ -1,0 +1,4015 @@
+{
+  "status": "PASS",
+  "scope": "frozen_prediction_geometry_only",
+  "input_sha256": {
+    "protocol": "d124dc37f71d5a67a88f8e867ca94c3e63aff1573378dc86d9aa2f08b2d58016",
+    "script": "1d38e1911605c26032fb2483050ebc3e98b44e5c4e9752abc14a83e87bdd06bd",
+    "old_summary": "fcbc7cb2ec07e72f5d48557fee614343adb9ee3dca85bd632f229df3ca7c47ab",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G1_ordinary_conditional.json": "e432ddbd87f3331c398be0b33647cb69a4bdf476a6419a21593bc03771bf0017",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_augmented_records.json": "91c2365172a39e824a5dadd448b41977fd174a3da0016536316c403970dc934c",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G1_mismatch_conditional.json": "e85e0cc49aafd1fbe1fad1ccada915d1343288e412166eea8a917a6fbeffa914",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G2_ordinary_conditional.json": "0068eb204229462ab9f7493aa1440edf18f9192991fc80f0a820b596911c5eb3",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G2_mismatch_conditional.json": "ca927fa919236baebaf2d73aeb69b5048d736e4578c61d90ebe2601652d39a5b",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G3_ordinary_conditional.json": "e4b47285bc0cdbf8617f914856c2e1abe8dca0f717bcffeb889d8d20274c8dba",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_G3_mismatch_conditional.json": "6d32a682228b649c81d73fcc54bd8917c751829a3929399585963bbb1ad61132",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_ETTh1_ordinary_conditional.json": "6d276c4384b5ac872f109fca77df516d7997f85df7c76396209523272f1a1d5e",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_augmented_records.json": "18807f4fb17f15a0acd0fbb806bba98d5b7975c163a6421b853c03cf5aba8ce5",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_ETTh1_mismatch_conditional.json": "c12438714a7b33df785850f82818a9d7f8dd0001463caa0a9b5f0455cd6cfdb3",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_ETTh2_ordinary_conditional.json": "976dee1fc2843665fc5af0f63d4c1f77c09c3ad7baa9cf6f428d2b8302241672",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_ETTh2_mismatch_conditional.json": "ee8dcc84945c450158409a99a722b12bed5ddc8215345fc699f6b8fcb73cb4f2"
+  },
+  "comparisons": 256,
+  "max_prediction_error": 8.881784197001252e-16,
+  "states": 64,
+  "trajectories": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "steps": 4,
+      "nontrivial": 3,
+      "nontrivial_invariant": 3,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "steps": 4,
+      "nontrivial": 3,
+      "nontrivial_invariant": 3,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "steps": 4,
+      "nontrivial": 3,
+      "nontrivial_invariant": 3,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "steps": 4,
+      "nontrivial": 3,
+      "nontrivial_invariant": 3,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 7,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 6,
+      "whole_path_invariant": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 7,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 7,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 7,
+      "whole_path_invariant": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "steps": 8,
+      "nontrivial": 7,
+      "nontrivial_invariant": 7,
+      "whole_path_invariant": true
+    }
+  ],
+  "states_detail": [
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G1:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "ordinary_measurement_0": 0.25,
+        "ordinary_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.0050180822395669246,
+          "ordinary_measurement_0": -0.005190616625947063,
+          "ordinary_measurement_1": -0.004997108892786437
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.019464301761184567,
+          "ordinary_measurement_0": -0.019636836147564705,
+          "ordinary_measurement_1": -0.019903031966533855
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.012629052502268836,
+          "ordinary_measurement_0": -0.012456520539875539,
+          "ordinary_measurement_1": -0.0126080796559108
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": -0.027075272023886477,
+          "ordinary_measurement_0": -0.026902740061493183,
+          "ordinary_measurement_1": -0.02751400272965822
+        },
+        "Hydraulic:G1:KEEP_FIRST:S": {
+          "reference": -0.001211245888493619,
+          "ordinary_measurement_0": -0.001556313841271796,
+          "ordinary_measurement_1": -0.0011902722914130623
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.01565746541011126,
+          "ordinary_measurement_0": -0.01600253336288944,
+          "ordinary_measurement_1": -0.016581267333217645
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.01643318641389744,
+          "ordinary_measurement_0": -0.01608812166912875,
+          "ordinary_measurement_1": -0.016412213817661787
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.03087940593551508,
+          "ordinary_measurement_0": -0.03053434119074639,
+          "ordinary_measurement_1": -0.03180320885946637
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G1:KEEP_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G1:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.0038068363510733055,
+          "ordinary_measurement_0": 0.0036343027846752664,
+          "ordinary_measurement_1": 0.0038068366013733748
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690948,
+          "ordinary_measurement_0": 0.01808052230629291,
+          "ordinary_measurement_1": 0.01871275967512079
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775217,
+          "ordinary_measurement_0": 0.010900206698603743,
+          "ordinary_measurement_1": 0.011417807364497738
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": 0.02586402613539286,
+          "ordinary_measurement_0": 0.025346426220221388,
+          "ordinary_measurement_1": 0.026323730438245155
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "ordinary_measurement_0": 0.014446219521617645,
+          "ordinary_measurement_1": 0.015390995041804582
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "ordinary_measurement_0": 0.014531807827856954,
+          "ordinary_measurement_1": 0.015221941526248724
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "ordinary_measurement_0": 0.028978027349474595,
+          "ordinary_measurement_1": 0.03061293656805331
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0036343027846752664,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G1:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.5001264458238971,
+        "ordinary_measurement_0": 0.24982390137703964,
+        "ordinary_measurement_1": 0.2500496527990634
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.28687423278653745,
+          "ordinary_measurement_0": -0.28609677563706654,
+          "ordinary_measurement_1": -0.2868855983053917
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.2728804120679413,
+          "ordinary_measurement_0": -0.2724785651870295,
+          "ordinary_measurement_1": -0.27221679904146395
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.27552615794884355,
+          "ordinary_measurement_0": -0.26910904932678664,
+          "ordinary_measurement_1": -0.275538835696802
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": -0.2615323372302474,
+          "ordinary_measurement_0": -0.25549083887674967,
+          "ordinary_measurement_1": -0.26087003643287426
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.3478752755859206,
+          "ordinary_measurement_0": -0.34937771666015727,
+          "ordinary_measurement_1": -0.34649190069455826
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.33917294662912895,
+          "ordinary_measurement_0": -0.3290204744896345,
+          "ordinary_measurement_1": -0.3391814797403427
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.3251791259105328,
+          "ordinary_measurement_0": -0.3154022640395975,
+          "ordinary_measurement_1": -0.3237983754773789
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G1:FAVOR_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G1:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.025341895556290073,
+          "ordinary_measurement_0": 0.030605936760316865,
+          "ordinary_measurement_1": 0.026015561872517412
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": 0.0113480748376939,
+          "ordinary_measurement_0": 0.016987726310279838,
+          "ordinary_measurement_1": 0.011346762608589689
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.013993820718596173,
+          "ordinary_measurement_0": 0.013618210450036972,
+          "ordinary_measurement_1": 0.014668799263927723
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0863429383556732,
+          "ordinary_measurement_0": 0.0938868777834076,
+          "ordinary_measurement_1": 0.085621864261684
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.07764060939888157,
+          "ordinary_measurement_0": 0.07352963561288484,
+          "ordinary_measurement_1": 0.07831144330746842
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.0636467886802854,
+          "ordinary_measurement_0": 0.05991142516284781,
+          "ordinary_measurement_1": 0.06292833904450462
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.011346762608589689,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G1:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.5002384913020899,
+        "ordinary_measurement_0": 0.24981001835558037,
+        "ordinary_measurement_1": 0.2499514903423298
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.17169104934782192,
+          "ordinary_measurement_0": -0.1739811007486454,
+          "ordinary_measurement_1": -0.17664341180765059
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.13730223131130256,
+          "ordinary_measurement_0": -0.14093039755713851,
+          "ordinary_measurement_1": -0.1296516990864686
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.15251916871756271,
+          "ordinary_measurement_0": -0.14741125182651746,
+          "ordinary_measurement_1": -0.15821698418055585
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.2237058759582779,
+          "ordinary_measurement_0": -0.2293028778273325,
+          "ordinary_measurement_1": -0.19927416512710389
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.21975093273427881,
+          "ordinary_measurement_0": -0.20921388317458348,
+          "ordinary_measurement_1": -0.2244984805235275
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.18536211469775943,
+          "ordinary_measurement_0": -0.1761631799830766,
+          "ordinary_measurement_1": -0.1624213098729144
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G1:FAVOR_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G1:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.03438881803651936,
+          "ordinary_measurement_0": 0.03305070319150688,
+          "ordinary_measurement_1": 0.046991712721181994
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.01521693740626015,
+          "ordinary_measurement_0": 0.006480854269378944,
+          "ordinary_measurement_1": 0.02856528509408726
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.08640364464697534,
+          "ordinary_measurement_0": 0.08837248027019398,
+          "ordinary_measurement_1": 0.0696224660406353
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.08244870142297625,
+          "ordinary_measurement_0": 0.06828348561744496,
+          "ordinary_measurement_1": 0.09484678143705891
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.048059883386456864,
+          "ordinary_measurement_0": 0.03523278242593808,
+          "ordinary_measurement_1": 0.0327696107864458
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.006480854269378944,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G1:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.5010943402650873,
+        "ordinary_measurement_0": 0.24970158452471566,
+        "ordinary_measurement_1": 0.24920407521019705
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.11961689912003506,
+          "ordinary_measurement_0": -0.12071837120338828,
+          "ordinary_measurement_1": -0.12656391270040449
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.11012999681124744,
+          "ordinary_measurement_0": -0.10632325599835542,
+          "ordinary_measurement_1": -0.11745679317218906
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.16022695042872354,
+          "ordinary_measurement_0": -0.1635250772038327,
+          "ordinary_measurement_1": -0.1357311925690431
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.17418477833161586,
+          "ordinary_measurement_0": -0.16716619635551386,
+          "ordinary_measurement_1": -0.1802614302861534
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.14125314581114828,
+          "ordinary_measurement_0": -0.13473484679376696,
+          "ordinary_measurement_1": -0.11751695351261221
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G1:FAVOR_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G1:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.009486902308787626,
+          "ordinary_measurement_0": 0.014395115205032866,
+          "ordinary_measurement_1": 0.009107119528215427
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0500969536174761,
+          "ordinary_measurement_0": 0.057201821205477274,
+          "ordinary_measurement_1": 0.018274399396854032
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.06405478152036842,
+          "ordinary_measurement_0": 0.06084294035715844,
+          "ordinary_measurement_1": 0.06280463711396435
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.031123148999900846,
+          "ordinary_measurement_0": 0.028411590795411543,
+          "ordinary_measurement_1": 6.016034042315155e-05
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 6.016034042315155e-05,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G1:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5007659736029358,
+        "ordinary_measurement_0": 0.2493822818709498,
+        "ordinary_measurement_1": 0.24985174452611442
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.09038903131787307,
+          "ordinary_measurement_0": -0.09241321303005869,
+          "ordinary_measurement_1": -0.09357080470359595
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.13769314038235436,
+          "ordinary_measurement_0": -0.14148171635492657,
+          "ordinary_measurement_1": -0.12159590667313992
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.13608500025541284,
+          "ordinary_measurement_0": -0.13018629175069552,
+          "ordinary_measurement_1": -0.138815570723285
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.11933736203494136,
+          "ordinary_measurement_0": -0.11355627981424982,
+          "ordinary_measurement_1": -0.10334865868708366
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G1:FAVOR_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G1:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.04730410906448129,
+          "ordinary_measurement_0": 0.04906850332486788,
+          "ordinary_measurement_1": 0.02802510196954397
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.04569596893753977,
+          "ordinary_measurement_0": 0.03777307872063683,
+          "ordinary_measurement_1": 0.045244766019689034
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.028948330717068288,
+          "ordinary_measurement_0": 0.02114306678419113,
+          "ordinary_measurement_1": 0.009777853983487711
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.009777853983487711,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G1:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5012277979216312,
+        "ordinary_measurement_0": 0.249482272103394,
+        "ordinary_measurement_1": 0.24928992997497476
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.11437876941722568,
+          "ordinary_measurement_0": -0.11724437069408725,
+          "ordinary_measurement_1": -0.1035078676151549
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.1109639640391219,
+          "ordinary_measurement_0": -0.10626122009030631,
+          "ordinary_measurement_1": -0.11247435784047002
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.1044378424819789,
+          "ordinary_measurement_0": -0.09989429860410007,
+          "ordinary_measurement_1": -0.09368539518903844
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G1:KEEP_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G1:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.009940926935246772,
+          "ordinary_measurement_0": 0.01735007208998718,
+          "ordinary_measurement_1": 0.00982247242611646
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.006526121557142994,
+          "ordinary_measurement_0": 0.0063669214862062395,
+          "ordinary_measurement_1": 0.01878896265143158
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0063669214862062395,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G1:KEEP_SECOND:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5005984073089342,
+        "ordinary_measurement_0": 0.24874483255362226,
+        "ordinary_measurement_1": 0.2506567601374435
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.10332951069705132,
+          "ordinary_measurement_0": -0.1067641180405305,
+          "ordinary_measurement_1": -0.09522209567021446
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.10028439498769054,
+          "ordinary_measurement_0": -0.09684981211439561,
+          "ordinary_measurement_1": -0.10356302198548827
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G1:KEEP_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G1:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0030451157093607795,
+          "ordinary_measurement_0": 0.00991430592613489,
+          "ordinary_measurement_1": -0.008340926315273806
+        }
+      },
+      "all_components_select_registered": false,
+      "min_margin": -0.008340926315273806,
+      "near_boundary": [],
+      "robust_convex_invariance": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G1:KEEP_FIRST:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5005553004480204,
+        "ordinary_measurement_0": 0.24842586265778283,
+        "ordinary_measurement_1": 0.25101883689419685
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.09985709226082858,
+          "ordinary_measurement_0": -0.10305906400149147,
+          "ordinary_measurement_1": -0.09218935556951227
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G1:KEEP_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G1:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G1:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "mismatch_measurement_0": 0.25,
+        "mismatch_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.0050180822395669246,
+          "mismatch_measurement_0": -0.005007474819463455,
+          "mismatch_measurement_1": -0.005018225486203214
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.019464301761184567,
+          "mismatch_measurement_0": -0.019453694341081094,
+          "mismatch_measurement_1": -0.019457013556327243
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.012629052502268836,
+          "mismatch_measurement_0": -0.012639660414490543,
+          "mismatch_measurement_1": -0.012628909370530916
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": -0.027075272023886477,
+          "mismatch_measurement_0": -0.027085879936108184,
+          "mismatch_measurement_1": -0.027082560445326993
+        },
+        "Hydraulic:G1:KEEP_FIRST:S": {
+          "reference": -0.001211245888493619,
+          "mismatch_measurement_0": -0.001190030953189074,
+          "mismatch_measurement_1": -0.001211532375159429
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.01565746541011126,
+          "mismatch_measurement_0": -0.015636250474806716,
+          "mismatch_measurement_1": -0.015642888942947433
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.01643318641389744,
+          "mismatch_measurement_0": -0.01645440214324325,
+          "mismatch_measurement_1": -0.01643290014381483
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.03087940593551508,
+          "mismatch_measurement_0": -0.03090062166486089,
+          "mismatch_measurement_1": -0.03089398272094693
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G1:KEEP_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G1:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.0038068363510733055,
+          "mismatch_measurement_0": 0.003817443866274381,
+          "mismatch_measurement_1": 0.003806693111043785
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690948,
+          "mismatch_measurement_0": 0.01826366338789202,
+          "mismatch_measurement_1": 0.018245481181167814
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775217,
+          "mismatch_measurement_0": 0.011449629461301469,
+          "mismatch_measurement_1": 0.011417376995371487
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": 0.02586402613539286,
+          "mismatch_measurement_0": 0.02589584898291911,
+          "mismatch_measurement_1": 0.025871028070167564
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "mismatch_measurement_0": 0.014446219521617641,
+          "mismatch_measurement_1": 0.014431356567788003
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "mismatch_measurement_0": 0.015264371190054176,
+          "mismatch_measurement_1": 0.0152213677686554
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "mismatch_measurement_0": 0.029710590711671817,
+          "mismatch_measurement_1": 0.029682450345787502
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.003806693111043785,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G1:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.49999283238834413,
+        "mismatch_measurement_0": 0.25001082426907867,
+        "mismatch_measurement_1": 0.2499963433425772
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.28687423278653745,
+          "mismatch_measurement_0": -0.2868607450928267,
+          "mismatch_measurement_1": -0.28687418842716395
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.2728804120679413,
+          "mismatch_measurement_0": -0.2728734404692175,
+          "mismatch_measurement_1": -0.27287167082024044
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.27552615794884355,
+          "mismatch_measurement_0": -0.2754148310733339,
+          "mismatch_measurement_1": -0.2755257919081352
+        },
+        "Hydraulic:G1:FAVOR_SECOND:W": {
+          "reference": -0.2615323372302474,
+          "mismatch_measurement_0": -0.2614275264497247,
+          "mismatch_measurement_1": -0.2615407110629094
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.3478752755859206,
+          "mismatch_measurement_0": -0.3479013399658686,
+          "mismatch_measurement_1": -0.3478579246153693
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.33917294662912895,
+          "mismatch_measurement_0": -0.33899681655049213,
+          "mismatch_measurement_1": -0.3391723675650842
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.3251791259105328,
+          "mismatch_measurement_0": -0.32500951192688293,
+          "mismatch_measurement_1": -0.3251960051007071
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G1:FAVOR_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G1:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.025341895556290073,
+          "mismatch_measurement_0": 0.025433218643101996,
+          "mismatch_measurement_1": 0.025333477364254564
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": 0.0113480748376939,
+          "mismatch_measurement_0": 0.011445914019492798,
+          "mismatch_measurement_1": 0.01133095975733106
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.013993820718596173,
+          "mismatch_measurement_0": 0.013987304623609198,
+          "mismatch_measurement_1": 0.013985080845225817
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0863429383556732,
+          "mismatch_measurement_0": 0.08647381351614386,
+          "mismatch_measurement_1": 0.08631721355245991
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.07764060939888157,
+          "mismatch_measurement_0": 0.07756929010076741,
+          "mismatch_measurement_1": 0.0776316565021748
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.0636467886802854,
+          "mismatch_measurement_0": 0.06358198547715821,
+          "mismatch_measurement_1": 0.06365529403779774
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.01133095975733106,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G1:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.4999913308023502,
+        "mismatch_measurement_0": 0.25001385027464945,
+        "mismatch_measurement_1": 0.2499948189230004
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.17169104934782192,
+          "mismatch_measurement_0": -0.17173442623495996,
+          "mismatch_measurement_1": -0.17169462297431487
+        },
+        "Hydraulic:G1:FAVOR_FIRST:W": {
+          "reference": -0.13730223131130256,
+          "mismatch_measurement_0": -0.1373709540256579,
+          "mismatch_measurement_1": -0.13731813192372896
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.15251916871756271,
+          "mismatch_measurement_0": -0.1524224167395416,
+          "mismatch_measurement_1": -0.1525237074902261
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.2237058759582779,
+          "mismatch_measurement_0": -0.22381189059799536,
+          "mismatch_measurement_1": -0.2237314797427246
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.21975093273427881,
+          "mismatch_measurement_0": -0.21955134381646071,
+          "mismatch_measurement_1": -0.21975506106363937
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.18536211469775943,
+          "mismatch_measurement_0": -0.18518787160715866,
+          "mismatch_measurement_1": -0.18534533372857284
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G1:FAVOR_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G1:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.03438881803651936,
+          "mismatch_measurement_0": 0.034363472209302054,
+          "mismatch_measurement_1": 0.034376491050585906
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": 0.01521693740626015,
+          "mismatch_measurement_0": 0.01505146271388369,
+          "mismatch_measurement_1": 0.015205575566497126
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.08640364464697534,
+          "mismatch_measurement_0": 0.08644093657233745,
+          "mismatch_measurement_1": 0.08641334781899562
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.08244870142297625,
+          "mismatch_measurement_0": 0.0821803897908028,
+          "mismatch_measurement_1": 0.08243692913991041
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.048059883386456864,
+          "mismatch_measurement_0": 0.04781691758150075,
+          "mismatch_measurement_1": 0.04802720180484388
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.01505146271388369,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G1:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.4999573578786955,
+        "mismatch_measurement_0": 0.25003756172303543,
+        "mismatch_measurement_1": 0.250005080398269
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.11961689912003506,
+          "mismatch_measurement_0": -0.11963562345692803,
+          "mismatch_measurement_1": -0.11961724187488497
+        },
+        "Hydraulic:G1:FAVOR_SECOND:S": {
+          "reference": -0.11012999681124744,
+          "mismatch_measurement_0": -0.11006528379339565,
+          "mismatch_measurement_1": -0.11012881204072593
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.16022695042872354,
+          "mismatch_measurement_0": -0.16028301630236258,
+          "mismatch_measurement_1": -0.1601986971292982
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.17418477833161586,
+          "mismatch_measurement_0": -0.17406546494954891,
+          "mismatch_measurement_1": -0.17418259404518688
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.14125314581114828,
+          "mismatch_measurement_0": -0.14114233697529785,
+          "mismatch_measurement_1": -0.14128039716689722
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G1:FAVOR_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G1:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": 0.009486902308787626,
+          "mismatch_measurement_0": 0.009570339663532379,
+          "mismatch_measurement_1": 0.00948842983415904
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0500969536174761,
+          "mismatch_measurement_0": 0.050217732508966925,
+          "mismatch_measurement_1": 0.05006988508857228
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.06405478152036842,
+          "mismatch_measurement_0": 0.06400018115615326,
+          "mismatch_measurement_1": 0.06405378200446095
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.031123148999900846,
+          "mismatch_measurement_0": 0.031077053181902195,
+          "mismatch_measurement_1": 0.03115158512617129
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.009486902308787626,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G1:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.4999293936299936,
+        "mismatch_measurement_0": 0.25007866872376167,
+        "mismatch_measurement_1": 0.24999193764624475
+      },
+      "component_predictions": {
+        "Hydraulic:G1:FAVOR_FIRST:S": {
+          "reference": -0.09038903131787307,
+          "mismatch_measurement_0": -0.09042331129877808,
+          "mismatch_measurement_1": -0.09038951040788903
+        },
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.13769314038235436,
+          "mismatch_measurement_0": -0.13775730035099815,
+          "mismatch_measurement_1": -0.137667883343228
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.13608500025541284,
+          "mismatch_measurement_0": -0.135985102911443,
+          "mismatch_measurement_1": -0.1360836041041342
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.11933736203494136,
+          "mismatch_measurement_0": -0.11923945669015411,
+          "mismatch_measurement_1": -0.11936214770291477
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:FAVOR_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G1:FAVOR_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G1:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.04730410906448129,
+          "mismatch_measurement_0": 0.04733398905222007,
+          "mismatch_measurement_1": 0.04727837293533896
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.04569596893753977,
+          "mismatch_measurement_0": 0.04556179161266492,
+          "mismatch_measurement_1": 0.045694093696245164
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": 0.028948330717068288,
+          "mismatch_measurement_0": 0.02881614539137603,
+          "mismatch_measurement_1": 0.028972637295025735
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.02881614539137603,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G1:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.4999153686128153,
+        "mismatch_measurement_0": 0.2500975019069629,
+        "mismatch_measurement_1": 0.24998712948022167
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.11437876941722568,
+          "mismatch_measurement_0": -0.11442234208849128,
+          "mismatch_measurement_1": -0.11435633618455712
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.1109639640391219,
+          "mismatch_measurement_0": -0.11089245530464,
+          "mismatch_measurement_1": -0.11096283322333327
+        },
+        "Hydraulic:G1:KEEP_SECOND:W": {
+          "reference": -0.1044378424819789,
+          "mismatch_measurement_0": -0.1043687544514562,
+          "mismatch_measurement_1": -0.10445987246058645
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G1:KEEP_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G1:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.009940926935246772,
+          "mismatch_measurement_0": 0.01005358763703508,
+          "mismatch_measurement_1": 0.00989646372397067
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": 0.006526121557142994,
+          "mismatch_measurement_0": 0.006523700853183795,
+          "mismatch_measurement_1": 0.006502960762746812
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.006502960762746812,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G1:KEEP_SECOND:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.4999440139329996,
+        "mismatch_measurement_0": 0.2500735442352459,
+        "mismatch_measurement_1": 0.2499824418317545
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.10332951069705132,
+          "mismatch_measurement_0": -0.10337985682735763,
+          "mismatch_measurement_1": -0.1033081654322056
+        },
+        "Hydraulic:G1:KEEP_SECOND:S": {
+          "reference": -0.10028439498769054,
+          "mismatch_measurement_0": -0.10023404833664343,
+          "mismatch_measurement_1": -0.10028002975362145
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G1:KEEP_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G1:KEEP_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": 0.0030451157093607795,
+          "mismatch_measurement_0": 0.0031458084907142053,
+          "mismatch_measurement_1": 0.0030281356785841484
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0030281356785841484,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G1:KEEP_FIRST:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.4999292883741732,
+        "mismatch_measurement_0": 0.2500984788083812,
+        "mismatch_measurement_1": 0.24997223281744546
+      },
+      "component_predictions": {
+        "Hydraulic:G1:KEEP_FIRST:W": {
+          "reference": -0.09985709226082858,
+          "mismatch_measurement_0": -0.09989941028107258,
+          "mismatch_measurement_1": -0.09983733666281043
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G1:KEEP_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G1:KEEP_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G1:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G2:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "ordinary_measurement_0": 0.25,
+        "ordinary_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -0.026193644695163422,
+          "ordinary_measurement_0": -0.0261264697836352,
+          "ordinary_measurement_1": -0.026189251199180846
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -0.04063986421678106,
+          "ordinary_measurement_0": -0.040572689305252846,
+          "ordinary_measurement_1": -0.040807023715296625
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -0.03380461495786533,
+          "ordinary_measurement_0": -0.033871797493769035,
+          "ordinary_measurement_1": -0.03380022196230521
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": -0.048250834479482974,
+          "ordinary_measurement_0": -0.048318017015386676,
+          "ordinary_measurement_1": -0.04841799447842099
+        },
+        "Hydraulic:G2:KEEP_FIRST:S": {
+          "reference": -0.02238680834409012,
+          "ordinary_measurement_0": -0.022252455100857254,
+          "ordinary_measurement_1": -0.022382414597807473
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.03683302786570776,
+          "ordinary_measurement_0": -0.0366986746224749,
+          "ordinary_measurement_1": -0.03719710852434878
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -0.03760874886949394,
+          "ordinary_measurement_0": -0.037743110521124924,
+          "ordinary_measurement_1": -0.037604356124056194
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.05205496839111158,
+          "ordinary_measurement_0": -0.052189330042742565,
+          "ordinary_measurement_1": -0.0524190500505975
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G2:KEEP_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G2:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.0038068363510733033,
+          "ordinary_measurement_0": 0.0038740146827779473,
+          "ordinary_measurement_1": 0.003806836601373372
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690944,
+          "ordinary_measurement_0": 0.018320234204395592,
+          "ordinary_measurement_1": 0.018424609117489152
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775214,
+          "ordinary_measurement_0": 0.01161934239291178,
+          "ordinary_measurement_1": 0.01141780736449774
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": 0.025864026135392855,
+          "ordinary_measurement_0": 0.026065561914529422,
+          "ordinary_measurement_1": 0.026035579880613516
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "ordinary_measurement_0": 0.014446219521617645,
+          "ordinary_measurement_1": 0.014814693926541306
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "ordinary_measurement_0": 0.01549065542026767,
+          "ordinary_measurement_1": 0.015221941526248721
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "ordinary_measurement_0": 0.02993687494188531,
+          "ordinary_measurement_1": 0.030036635452790027
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0038068363510733033,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G2:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.49857603651965476,
+        "ordinary_measurement_0": 0.23958896852624048,
+        "ordinary_measurement_1": 0.26183499495410467
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -3.441551112894796,
+          "ordinary_measurement_0": -3.440333175620576,
+          "ordinary_measurement_1": -3.4415691826220667
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -3.323276601656212,
+          "ordinary_measurement_0": -3.322180102765311,
+          "ordinary_measurement_1": -3.3221118920027455
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -3.360686177392702,
+          "ordinary_measurement_0": -3.3557117043516853,
+          "ordinary_measurement_1": -3.3607063312415586
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": -3.2424116661541182,
+          "ordinary_measurement_0": -3.2375586314964195,
+          "ordinary_measurement_1": -3.2412490406222374
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -3.6872125358297176,
+          "ordinary_measurement_0": -3.687698289362992,
+          "ordinary_measurement_1": -3.6846778734422148
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -3.6437571760641143,
+          "ordinary_measurement_0": -3.6366084196804755,
+          "ordinary_measurement_1": -3.643770738907795
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -3.5254826648255304,
+          "ordinary_measurement_0": -3.51845534682521,
+          "ordinary_measurement_1": -3.5229521706811986
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G2:FAVOR_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G2:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.19913944674067796,
+          "ordinary_measurement_0": 0.20277454412415663,
+          "ordinary_measurement_1": 0.20032014199982928
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": 0.08086493550209362,
+          "ordinary_measurement_0": 0.0846214712688913,
+          "ordinary_measurement_1": 0.08086285138050808
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.1182745112385839,
+          "ordinary_measurement_0": 0.11815307285526577,
+          "ordinary_measurement_1": 0.1194572906193212
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.4448008696755994,
+          "ordinary_measurement_0": 0.4501396578665724,
+          "ordinary_measurement_1": 0.44342883281997736
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.40134550990999607,
+          "ordinary_measurement_0": 0.399049788184056,
+          "ordinary_measurement_1": 0.4025216982855575
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.28307099867141217,
+          "ordinary_measurement_0": 0.2808967153287907,
+          "ordinary_measurement_1": 0.2817031300589612
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.08086285138050808,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G2:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.4984692363249163,
+        "ordinary_measurement_0": 0.23974263583949618,
+        "ordinary_measurement_1": 0.2617881278355875
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -1.755483335690573,
+          "ordinary_measurement_0": -1.758478978504823,
+          "ordinary_measurement_1": -1.7672992658397855
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -1.2738203988095373,
+          "ordinary_measurement_0": -1.278710539613227,
+          "ordinary_measurement_1": -1.2616279413995066
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -1.5059410246001042,
+          "ordinary_measurement_0": -1.498515182058087,
+          "ordinary_measurement_1": -1.5192279919376317
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -2.06978946209235,
+          "ordinary_measurement_0": -2.077519603465854,
+          "ordinary_measurement_1": -2.0225432964155283
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -2.052367776792448,
+          "ordinary_measurement_0": -2.037360449463978,
+          "ordinary_measurement_1": -2.063189278170595
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -1.570704839911412,
+          "ordinary_measurement_0": -1.5575920105723822,
+          "ordinary_measurement_1": -1.5264007486112212
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G2:FAVOR_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G2:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.4816629368810357,
+          "ordinary_measurement_0": 0.4797684388915959,
+          "ordinary_measurement_1": 0.5056713244402788
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.2321206257905668,
+          "ordinary_measurement_0": 0.2198046424448601,
+          "ordinary_measurement_1": 0.25760005053812507
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.7959690632828125,
+          "ordinary_measurement_0": 0.7988090638526268,
+          "ordinary_measurement_1": 0.7609153550160217
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.7785473779829106,
+          "ordinary_measurement_0": 0.7586499098507511,
+          "ordinary_measurement_1": 0.8015613367710883
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.29688444110187473,
+          "ordinary_measurement_0": 0.27888147095915516,
+          "ordinary_measurement_1": 0.2647728072117146
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.2198046424448601,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G2:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.4984388306194932,
+        "ordinary_measurement_0": 0.2394754879649761,
+        "ordinary_measurement_1": 0.26208568141553074
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -1.4097188976911237,
+          "ordinary_measurement_0": -1.4109894459703871,
+          "ordinary_measurement_1": -1.4228861778118687
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -1.2404648452821005,
+          "ordinary_measurement_0": -1.2345004846277576,
+          "ordinary_measurement_1": -1.254351906909269
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.6561392722362775,
+          "ordinary_measurement_0": -1.660761934108524,
+          "ordinary_measurement_1": -1.6181741741994602
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.7332261766782848,
+          "ordinary_measurement_0": -1.7226026478293748,
+          "ordinary_measurement_1": -1.744743698006421
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -1.3176311674182315,
+          "ordinary_measurement_0": -1.307784011423265,
+          "ordinary_measurement_1": -1.281105632394261
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G2:FAVOR_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G2:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.16925405240902314,
+          "ordinary_measurement_0": 0.17648896134262948,
+          "ordinary_measurement_1": 0.16853427090259965
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.415674426954177,
+          "ordinary_measurement_0": 0.4262614494807664,
+          "ordinary_measurement_1": 0.3638222672901912
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.4927613313961843,
+          "ordinary_measurement_0": 0.48810216320161715,
+          "ordinary_measurement_1": 0.49039179109715203
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.07716632213613095,
+          "ordinary_measurement_0": 0.07328352679550743,
+          "ordinary_measurement_1": 0.026753725484991886
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.026753725484991886,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G2:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.4985486289434733,
+        "ordinary_measurement_0": 0.23951145746529579,
+        "ordinary_measurement_1": 0.26193991359123087
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -0.9559650249193234,
+          "ordinary_measurement_0": -0.9591114589531887,
+          "ordinary_measurement_1": -0.9608985121874414
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.3622825870263935,
+          "ordinary_measurement_0": -1.3682741917538486,
+          "ordinary_measurement_1": -1.3414758853016897
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.2168463072650377,
+          "ordinary_measurement_0": -1.2073121593978353,
+          "ordinary_measurement_1": -1.2210801432011589
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.9994681432350029,
+          "ordinary_measurement_0": -0.99012367341404,
+          "ordinary_measurement_1": -0.9788296720333213
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G2:FAVOR_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G2:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.40631756210707004,
+          "ordinary_measurement_0": 0.40916273280065985,
+          "ordinary_measurement_1": 0.38057737311424833
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.2608812823457143,
+          "ordinary_measurement_0": 0.2482007004446466,
+          "ordinary_measurement_1": 0.2601816310137175
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.043503118315679434,
+          "ordinary_measurement_0": 0.03101221446085123,
+          "ordinary_measurement_1": 0.017931159845879896
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.017931159845879896,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G2:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.49870336559384953,
+        "ordinary_measurement_0": 0.23952308607572534,
+        "ordinary_measurement_1": 0.26177354833042504
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.1954137509449436,
+          "ordinary_measurement_0": -1.2000372667103347,
+          "ordinary_measurement_1": -1.1797781128232514
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.066597719807782,
+          "ordinary_measurement_0": -1.0586564968562204,
+          "ordinary_measurement_1": -1.0691836497090481
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.9089872898076049,
+          "ordinary_measurement_0": -0.9013029288430094,
+          "ordinary_measurement_1": -0.893554423317982
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G2:KEEP_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G2:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.2864264611373387,
+          "ordinary_measurement_0": 0.2987343378673253,
+          "ordinary_measurement_1": 0.28622368950526944
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.15761043000017716,
+          "ordinary_measurement_0": 0.157353568013211,
+          "ordinary_measurement_1": 0.17562922639106615
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.157353568013211,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G2:KEEP_SECOND:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.4987362249294862,
+        "ordinary_measurement_0": 0.23950836516014704,
+        "ordinary_measurement_1": 0.26175540991036667
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.8468713669186604,
+          "ordinary_measurement_0": -0.8541512251967756,
+          "ordinary_measurement_1": -0.8189589213191449
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -0.7116569472346095,
+          "ordinary_measurement_0": -0.7043770627436535,
+          "ordinary_measurement_1": -0.7247766447134126
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G2:KEEP_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G2:KEEP_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.1352144196840509,
+          "ordinary_measurement_0": 0.14977416245312203,
+          "ordinary_measurement_1": 0.0941822766057323
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0941822766057323,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G2:KEEP_FIRST:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.4987638804370545,
+        "ordinary_measurement_0": 0.23949165071807163,
+        "ordinary_measurement_1": 0.2617444688448739
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.6653349152247923,
+          "ordinary_measurement_0": -0.6738643494082553,
+          "ordinary_measurement_1": -0.6449755093189032
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G2:KEEP_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G2:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G2:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "mismatch_measurement_0": 0.25,
+        "mismatch_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -0.026193644695163422,
+          "mismatch_measurement_0": -0.026194051051821446,
+          "mismatch_measurement_1": -0.026193787998685793
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -0.04063986421678106,
+          "mismatch_measurement_0": -0.04064027057343909,
+          "mismatch_measurement_1": -0.040639994627443284
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -0.03380461495786533,
+          "mismatch_measurement_0": -0.03380420943113837,
+          "mismatch_measurement_1": -0.03380447188301349
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": -0.048250834479482974,
+          "mismatch_measurement_0": -0.04825042895275601,
+          "mismatch_measurement_1": -0.04825070439917611
+        },
+        "Hydraulic:G2:KEEP_FIRST:S": {
+          "reference": -0.02238680834409012,
+          "mismatch_measurement_0": -0.02238762079340215,
+          "mismatch_measurement_1": -0.022387094887642008
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.03683302786570776,
+          "mismatch_measurement_0": -0.03683384031501979,
+          "mismatch_measurement_1": -0.03683328857269694
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -0.03760874886949394,
+          "mismatch_measurement_0": -0.037607937552035994,
+          "mismatch_measurement_1": -0.03760846265629741
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.05205496839111158,
+          "mismatch_measurement_0": -0.052054157073653635,
+          "mismatch_measurement_1": -0.05205470811616258
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G2:KEEP_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G2:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.0038068363510733033,
+          "mismatch_measurement_0": 0.003806430258419296,
+          "mismatch_measurement_1": 0.003806693111043785
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690944,
+          "mismatch_measurement_0": 0.018252649780036937,
+          "mismatch_measurement_1": 0.018252899739801275
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775214,
+          "mismatch_measurement_0": 0.01141658863773622,
+          "mismatch_measurement_1": 0.011417376995371483
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": 0.025864026135392855,
+          "mismatch_measurement_0": 0.02586280815935386,
+          "mismatch_measurement_1": 0.0258636095115341
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "mismatch_measurement_0": 0.014446219521617638,
+          "mismatch_measurement_1": 0.014446193685054929
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "mismatch_measurement_0": 0.015220316758633844,
+          "mismatch_measurement_1": 0.0152213677686554
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "mismatch_measurement_0": 0.029666536280251486,
+          "mismatch_measurement_1": 0.02966761322852057
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.003806430258419296,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G2:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.5000477583538586,
+        "mismatch_measurement_0": 0.24995824809094777,
+        "mismatch_measurement_1": 0.24999399355519364
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -3.441551112894796,
+          "mismatch_measurement_0": -3.4415505872076655,
+          "mismatch_measurement_1": -3.4415509485010736
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -3.323276601656212,
+          "mismatch_measurement_0": -3.323276128402134,
+          "mismatch_measurement_1": -3.3232764303443973
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -3.360686177392702,
+          "mismatch_measurement_0": -3.3606840307392183,
+          "mismatch_measurement_1": -3.360685506106542
+        },
+        "Hydraulic:G2:FAVOR_SECOND:W": {
+          "reference": -3.2424116661541182,
+          "mismatch_measurement_0": -3.242409571933687,
+          "mismatch_measurement_1": -3.2424110347587582
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -3.6872125358297176,
+          "mismatch_measurement_0": -3.6872127455619284,
+          "mismatch_measurement_1": -3.6872125546904457
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -3.6437571760641143,
+          "mismatch_measurement_0": -3.6437540914305644,
+          "mismatch_measurement_1": -3.643756211462505
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -3.5254826648255304,
+          "mismatch_measurement_0": -3.525479632625033,
+          "mismatch_measurement_1": -3.525481763519168
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G2:FAVOR_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G2:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.19913944674067796,
+          "mismatch_measurement_0": 0.19914101527397854,
+          "mismatch_measurement_1": 0.19913991374231532
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": 0.08086493550209362,
+          "mismatch_measurement_0": 0.0808665564684472,
+          "mismatch_measurement_1": 0.0808653955856391
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.1182745112385839,
+          "mismatch_measurement_0": 0.11827445880553134,
+          "mismatch_measurement_1": 0.1182744713477839
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.4448008696755994,
+          "mismatch_measurement_0": 0.4448031736282414,
+          "mismatch_measurement_1": 0.4448015199316875
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.40134550990999607,
+          "mismatch_measurement_0": 0.40134451949687744,
+          "mismatch_measurement_1": 0.4013451767037468
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.28307099867141217,
+          "mismatch_measurement_0": 0.2830700606913461,
+          "mismatch_measurement_1": 0.28307072876040973
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.08086493550209362,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G2:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.5000476450833314,
+        "mismatch_measurement_0": 0.24995838119553015,
+        "mismatch_measurement_1": 0.24999397372113843
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -1.755483335690573,
+          "mismatch_measurement_0": -1.7554841950083144,
+          "mismatch_measurement_1": -1.7554835653465077
+        },
+        "Hydraulic:G2:FAVOR_FIRST:W": {
+          "reference": -1.2738203988095373,
+          "mismatch_measurement_0": -1.2738218017058276,
+          "mismatch_measurement_1": -1.2738207379527389
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -1.5059410246001042,
+          "mismatch_measurement_0": -1.5059388941021477,
+          "mismatch_measurement_1": -1.5059403896490797
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -2.06978946209235,
+          "mismatch_measurement_0": -2.0697916802227856,
+          "mismatch_measurement_1": -2.06978999987766
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -2.052367776792448,
+          "mismatch_measurement_0": -2.052363471712939,
+          "mismatch_measurement_1": -2.0523665184252837
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -1.570704839911412,
+          "mismatch_measurement_0": -1.5707010784104523,
+          "mismatch_measurement_1": -1.5707038186776483
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G2:FAVOR_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G2:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.4816629368810357,
+          "mismatch_measurement_0": 0.48166239330248684,
+          "mismatch_measurement_1": 0.48166282739376887
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": 0.2321206257905668,
+          "mismatch_measurement_0": 0.23211709239632006,
+          "mismatch_measurement_1": 0.23211965169634086
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.7959690632828125,
+          "mismatch_measurement_0": 0.795969878516958,
+          "mismatch_measurement_1": 0.795969261924921
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.7785473779829106,
+          "mismatch_measurement_0": 0.7785416700071115,
+          "mismatch_measurement_1": 0.7785457804725449
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.29688444110187473,
+          "mismatch_measurement_0": 0.29687927670462466,
+          "mismatch_measurement_1": 0.29688308072490943
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.23211709239632006,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G2:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.5000478018994646,
+        "mismatch_measurement_0": 0.2499582128454946,
+        "mismatch_measurement_1": 0.24999398525504077
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -1.4097188976911237,
+          "mismatch_measurement_0": -1.4097193052811743,
+          "mismatch_measurement_1": -1.4097190194495708
+        },
+        "Hydraulic:G2:FAVOR_SECOND:S": {
+          "reference": -1.2404648452821005,
+          "mismatch_measurement_0": -1.2404629317632454,
+          "mismatch_measurement_1": -1.2404642732017437
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.6561392722362775,
+          "mismatch_measurement_0": -1.6561407556680987,
+          "mismatch_measurement_1": -1.6561396484318336
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.7332261766782848,
+          "mismatch_measurement_0": -1.7332227687789088,
+          "mismatch_measurement_1": -1.733225157901232
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -1.3176311674182315,
+          "mismatch_measurement_0": -1.317628008632241,
+          "mismatch_measurement_1": -1.3176302905119666
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G2:FAVOR_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G2:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": 0.16925405240902314,
+          "mismatch_measurement_0": 0.16925637351792888,
+          "mismatch_measurement_1": 0.1692547462478271
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.415674426954177,
+          "mismatch_measurement_0": 0.4156778239048533,
+          "mismatch_measurement_1": 0.4156753752300899
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.4927613313961843,
+          "mismatch_measurement_0": 0.4927598370156634,
+          "mismatch_measurement_1": 0.4927608846994884
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.07716632213613095,
+          "mismatch_measurement_0": 0.07716507686899554,
+          "mismatch_measurement_1": 0.07716601731022288
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.07716507686899554,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G2:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5000478498475844,
+        "mismatch_measurement_0": 0.24995817564852352,
+        "mismatch_measurement_1": 0.24999397450389202
+      },
+      "component_predictions": {
+        "Hydraulic:G2:FAVOR_FIRST:S": {
+          "reference": -0.9559650249193234,
+          "mismatch_measurement_0": -0.9559660125255962,
+          "mismatch_measurement_1": -0.955965319257869
+        },
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.3622825870263935,
+          "mismatch_measurement_0": -1.3622844681100763,
+          "mismatch_measurement_1": -1.3622830775594066
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.2168463072650377,
+          "mismatch_measurement_0": -1.216843315113599,
+          "mismatch_measurement_1": -1.2168454152625692
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.9994681432350029,
+          "mismatch_measurement_0": -0.9994652106487248,
+          "mismatch_measurement_1": -0.9994673393771882
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:FAVOR_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G2:FAVOR_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G2:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.40631756210707004,
+          "mismatch_measurement_0": 0.4063184555844801,
+          "mismatch_measurement_1": 0.4063177583015376
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.2608812823457143,
+          "mismatch_measurement_0": 0.2608773025880027,
+          "mismatch_measurement_1": 0.2608800960047002
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": 0.043503118315679434,
+          "mismatch_measurement_0": 0.043499198123128635,
+          "mismatch_measurement_1": 0.04350202011931925
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.043499198123128635,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G2:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5000479609961019,
+        "mismatch_measurement_0": 0.24995806718556124,
+        "mismatch_measurement_1": 0.24999397181833685
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -1.1954137509449436,
+          "mismatch_measurement_0": -1.1954153225071,
+          "mismatch_measurement_1": -1.1954141641766811
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -1.066597719807782,
+          "mismatch_measurement_0": -1.0665950216227873,
+          "mismatch_measurement_1": -1.0665969051820012
+        },
+        "Hydraulic:G2:KEEP_SECOND:W": {
+          "reference": -0.9089872898076049,
+          "mismatch_measurement_0": -0.9089846789316188,
+          "mismatch_measurement_1": -0.9089865629279578
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G2:KEEP_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G2:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.2864264611373387,
+          "mismatch_measurement_0": 0.2864306435754812,
+          "mismatch_measurement_1": 0.28642760124872335
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": 0.15761043000017716,
+          "mismatch_measurement_0": 0.15761034269116847,
+          "mismatch_measurement_1": 0.15761034225404347
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.15761034225404347,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G2:KEEP_SECOND:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5000480219765295,
+        "mismatch_measurement_0": 0.24995801539148724,
+        "mismatch_measurement_1": 0.2499939626319832
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.8468713669186604,
+          "mismatch_measurement_0": -0.8468737137700432,
+          "mismatch_measurement_1": -0.846871982006663
+        },
+        "Hydraulic:G2:KEEP_SECOND:S": {
+          "reference": -0.7116569472346095,
+          "mismatch_measurement_0": -0.7116546011079583,
+          "mismatch_measurement_1": -0.7116562389847413
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G2:KEEP_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G2:KEEP_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": 0.1352144196840509,
+          "mismatch_measurement_0": 0.13521911266208486,
+          "mismatch_measurement_1": 0.13521574302192174
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.1352144196840509,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G2:KEEP_FIRST:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5000480754001568,
+        "mismatch_measurement_0": 0.24995797205640072,
+        "mismatch_measurement_1": 0.24999395254344242
+      },
+      "component_predictions": {
+        "Hydraulic:G2:KEEP_FIRST:W": {
+          "reference": -0.6653349152247923,
+          "mismatch_measurement_0": -0.6653376277728983,
+          "mismatch_measurement_1": -0.6653356397688884
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G2:KEEP_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G2:KEEP_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G2:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G3:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "ordinary_measurement_0": 0.25,
+        "ordinary_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.01060332237376336,
+          "ordinary_measurement_0": -0.010617350014031943,
+          "ordinary_measurement_1": -0.010586722107900542
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.025049541895381,
+          "ordinary_measurement_0": -0.025063569535649588,
+          "ordinary_measurement_1": -0.025119182261531016
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.018214292636465273,
+          "ordinary_measurement_0": -0.0182002687918316,
+          "ordinary_measurement_1": -0.018197692871024906
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": -0.03266051215808291,
+          "ordinary_measurement_0": -0.03264648831344924,
+          "ordinary_measurement_1": -0.03273015302465538
+        },
+        "Hydraulic:G3:KEEP_FIRST:S": {
+          "reference": -0.006796486022690055,
+          "ordinary_measurement_0": -0.0068245397974210885,
+          "ordinary_measurement_1": -0.006779885506527168
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.021242705544307697,
+          "ordinary_measurement_0": -0.02127075931903873,
+          "ordinary_measurement_1": -0.021423954708097864
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.022018426548093877,
+          "ordinary_measurement_0": -0.021990377353020396,
+          "ordinary_measurement_1": -0.022001827032775895
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.03646464606971152,
+          "ordinary_measurement_0": -0.03643659687463804,
+          "ordinary_measurement_1": -0.03664589623434659
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G3:KEEP_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G3:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.003806836351073306,
+          "ordinary_measurement_0": 0.003792810216610855,
+          "ordinary_measurement_1": 0.0038068366013733748
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690944,
+          "ordinary_measurement_0": 0.0182390297382285,
+          "ordinary_measurement_1": 0.01833929675500385
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775217,
+          "ordinary_measurement_0": 0.01137572899441051,
+          "ordinary_measurement_1": 0.01141780736449774
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": 0.025864026135392855,
+          "ordinary_measurement_0": 0.02582194851602815,
+          "ordinary_measurement_1": 0.025950267518128213
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "ordinary_measurement_0": 0.014446219521617641,
+          "ordinary_measurement_1": 0.014644069201570697
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "ordinary_measurement_0": 0.015165837555599308,
+          "ordinary_measurement_1": 0.015221941526248728
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "ordinary_measurement_0": 0.02961205707721695,
+          "ordinary_measurement_1": 0.02986601072781942
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.003792810216610855,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G3:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.49894458236014194,
+        "ordinary_measurement_0": 0.2502500057024136,
+        "ordinary_measurement_1": 0.2508054119374443
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.5697854870343326,
+          "ordinary_measurement_0": -0.5697696614459474,
+          "ordinary_measurement_1": -0.5697972493803032
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.5388892681175005,
+          "ordinary_measurement_0": -0.5388782603564782,
+          "ordinary_measurement_1": -0.5387148610080207
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.5471697301878036,
+          "ordinary_measurement_0": -0.5470698621313369,
+          "ordinary_measurement_1": -0.5471828502689354
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": -0.5162735112709714,
+          "ordinary_measurement_0": -0.5161784610418678,
+          "ordinary_measurement_1": -0.5161004618966528
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.6607173181793323,
+          "ordinary_measurement_0": -0.6607365894887844,
+          "ordinary_measurement_1": -0.660293693034482
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.6463820234031065,
+          "ordinary_measurement_0": -0.6462283919490326,
+          "ordinary_measurement_1": -0.6463908539127341
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.6154858044862742,
+          "ordinary_measurement_0": -0.6153369908595634,
+          "ordinary_measurement_1": -0.6150648948117463
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G3:FAVOR_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G3:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.0535119757633612,
+          "ordinary_measurement_0": 0.05359120040407961,
+          "ordinary_measurement_1": 0.053696787483650366
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": 0.022615756846529056,
+          "ordinary_measurement_0": 0.022699799314610414,
+          "ordinary_measurement_1": 0.022614399111367867
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.03089621891683214,
+          "ordinary_measurement_0": 0.030891401089469084,
+          "ordinary_measurement_1": 0.03108238837228261
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.1444438069083609,
+          "ordinary_measurement_0": 0.14455812844691662,
+          "ordinary_measurement_1": 0.14419323113782923
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.13010851213213503,
+          "ordinary_measurement_0": 0.13004993090716477,
+          "ordinary_measurement_1": 0.13029039201608128
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.09921229321530278,
+          "ordinary_measurement_0": 0.09915852981769557,
+          "ordinary_measurement_1": 0.09896443291509349
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.022614399111367867,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G3:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.4989282780720696,
+        "ordinary_measurement_0": 0.2502775415148818,
+        "ordinary_measurement_1": 0.2507941804130487
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.38094602486051904,
+          "ordinary_measurement_0": -0.3809765665490195,
+          "ordinary_measurement_1": -0.3812750800763369
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.32072102549141507,
+          "ordinary_measurement_0": -0.3207698162792708,
+          "ordinary_measurement_1": -0.3203345818370635
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.3466971062838138,
+          "ordinary_measurement_0": -0.3466269028501049,
+          "ordinary_measurement_1": -0.34706950496305483
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.46194196964122264,
+          "ordinary_measurement_0": -0.4620177590023564,
+          "ordinary_measurement_1": -0.4603979348111066
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.45366913185691604,
+          "ordinary_measurement_0": -0.4535251818742759,
+          "ordinary_measurement_1": -0.45397440327945626
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.39344413248781207,
+          "ordinary_measurement_0": -0.39331843160452723,
+          "ordinary_measurement_1": -0.3919867845845424
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G3:FAVOR_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G3:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.06022499936910397,
+          "ordinary_measurement_0": 0.0602067502697487,
+          "ordinary_measurement_1": 0.060940498239273444
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.025976080792398715,
+          "ordinary_measurement_0": 0.025857086570834076,
+          "ordinary_measurement_1": 0.02673492312599135
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.14122094414980757,
+          "ordinary_measurement_0": 0.1412479427230856,
+          "ordinary_measurement_1": 0.1400633529740431
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.13294810636550097,
+          "ordinary_measurement_0": 0.13275536559500506,
+          "ordinary_measurement_1": 0.13363982144239278
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.072723106996397,
+          "ordinary_measurement_0": 0.07254861532525642,
+          "ordinary_measurement_1": 0.07165220274747891
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.025857086570834076,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G3:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.49890212052289545,
+        "ordinary_measurement_0": 0.25024754824062934,
+        "ordinary_measurement_1": 0.2508503312364751
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.28515862512273005,
+          "ordinary_measurement_0": -0.28517428490052144,
+          "ordinary_measurement_1": -0.2856031154969454
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.2660661677353833,
+          "ordinary_measurement_0": -0.2660073256250569,
+          "ordinary_measurement_1": -0.26653495361200746
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.34906707964860556,
+          "ordinary_measurement_0": -0.3491164260264047,
+          "ordinary_measurement_1": -0.34752877205680005
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.3700949336899309,
+          "ordinary_measurement_0": -0.36998756556563345,
+          "ordinary_measurement_1": -0.37048372915115363
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.31088216487391196,
+          "ordinary_measurement_0": -0.31078250747547564,
+          "ordinary_measurement_1": -0.3093924482869242
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G3:FAVOR_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G3:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.019092457387346773,
+          "ordinary_measurement_0": 0.019166959275464523,
+          "ordinary_measurement_1": 0.01906816188493793
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.08300091191322229,
+          "ordinary_measurement_0": 0.08310910040134778,
+          "ordinary_measurement_1": 0.08099381844479259
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.10402876595454763,
+          "ordinary_measurement_0": 0.10398023994057654,
+          "ordinary_measurement_1": 0.10394877553914617
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.044815997138528685,
+          "ordinary_measurement_0": 0.04477518185041873,
+          "ordinary_measurement_1": 0.04285749467491673
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.01906816188493793,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G3:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.4989390175923271,
+        "ordinary_measurement_0": 0.2502867940020527,
+        "ordinary_measurement_1": 0.2507741884056202
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.24332893425039112,
+          "ordinary_measurement_0": -0.24335885595995696,
+          "ordinary_measurement_1": -0.24353486808515223
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.3124756347634225,
+          "ordinary_measurement_0": -0.3125319180120741,
+          "ordinary_measurement_1": -0.31147099047318394
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.31401222520543337,
+          "ordinary_measurement_0": -0.3139240372630192,
+          "ordinary_measurement_1": -0.3141889518521039
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.2771753204838316,
+          "ordinary_measurement_0": -0.2770888899773564,
+          "ordinary_measurement_1": -0.2761776955598154
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_FIRST:S",
+        "ordinary_measurement_0": "Hydraulic:G3:FAVOR_FIRST:S",
+        "ordinary_measurement_1": "Hydraulic:G3:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.06914670051303137,
+          "ordinary_measurement_0": 0.06917306205211712,
+          "ordinary_measurement_1": 0.0679361223880317
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.07068329095504225,
+          "ordinary_measurement_0": 0.07056518130306225,
+          "ordinary_measurement_1": 0.07065408376695165
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.03384638623344047,
+          "ordinary_measurement_0": 0.03373003401739946,
+          "ordinary_measurement_1": 0.03264282747466318
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.03264282747466318,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G3:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.49901866140907963,
+        "ordinary_measurement_0": 0.2502861358100592,
+        "ordinary_measurement_1": 0.2506952027808612
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.29029279891480575,
+          "ordinary_measurement_0": -0.29034243533732323,
+          "ordinary_measurement_1": -0.28949409822425926
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.2912799376673173,
+          "ordinary_measurement_0": -0.2911973914497541,
+          "ordinary_measurement_1": -0.2913971802090172
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.2630075402293947,
+          "ordinary_measurement_0": -0.26292775159086024,
+          "ordinary_measurement_1": -0.26221803077752087
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_SECOND:W",
+        "ordinary_measurement_0": "Hydraulic:G3:KEEP_SECOND:W",
+        "ordinary_measurement_1": "Hydraulic:G3:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.02728525868541104,
+          "ordinary_measurement_0": 0.027414683746462998,
+          "ordinary_measurement_1": 0.027276067446738383
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.028272397437922592,
+          "ordinary_measurement_0": 0.028269639858893858,
+          "ordinary_measurement_1": 0.029179149431496354
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.027276067446738383,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G3:KEEP_FIRST:W",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.49927553261341945,
+        "ordinary_measurement_0": 0.24989636462552622,
+        "ordinary_measurement_1": 0.2508281027610543
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.4246984422156471,
+          "ordinary_measurement_0": -0.4247111820664323,
+          "ordinary_measurement_1": -0.42727946249618015
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.4412811592413486,
+          "ordinary_measurement_0": -0.4412684199764661,
+          "ordinary_measurement_1": -0.44017992125866956
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_FIRST:W",
+        "ordinary_measurement_0": "Hydraulic:G3:KEEP_FIRST:W",
+        "ordinary_measurement_1": "Hydraulic:G3:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.016582717025701466,
+          "ordinary_measurement_0": 0.016557237910033773,
+          "ordinary_measurement_1": 0.012900458762489408
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.012900458762489408,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G3:KEEP_SECOND:S",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.49906114575303967,
+        "ordinary_measurement_0": 0.24978366510828112,
+        "ordinary_measurement_1": 0.25115518913867907
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.44640846032634024,
+          "ordinary_measurement_0": -0.4463794960331516,
+          "ordinary_measurement_1": -0.4448024740266595
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_SECOND:S",
+        "ordinary_measurement_0": "Hydraulic:G3:KEEP_SECOND:S",
+        "ordinary_measurement_1": "Hydraulic:G3:KEEP_SECOND:S"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 1,
+      "selected": "Hydraulic:G3:KEEP_FIRST:S",
+      "candidates": 8,
+      "weights": {
+        "reference": 0.5,
+        "mismatch_measurement_0": 0.25,
+        "mismatch_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.01060332237376336,
+          "mismatch_measurement_0": -0.010603497931766383,
+          "mismatch_measurement_1": -0.010603465635403852
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.025049541895381,
+          "mismatch_measurement_0": -0.025049717453384024,
+          "mismatch_measurement_1": -0.025049516886301894
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.018214292636465273,
+          "mismatch_measurement_0": -0.01821411765968158,
+          "mismatch_measurement_1": -0.018214149519731552
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": -0.03266051215808291,
+          "mismatch_measurement_0": -0.032660337181299216,
+          "mismatch_measurement_1": -0.03266053741375362
+        },
+        "Hydraulic:G3:KEEP_FIRST:S": {
+          "reference": -0.006796486022690055,
+          "mismatch_measurement_0": -0.006796836999047947,
+          "mismatch_measurement_1": -0.006796772524360067
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.021242705544307697,
+          "mismatch_measurement_0": -0.021243056520665587,
+          "mismatch_measurement_1": -0.021242655453696094
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.022018426548093877,
+          "mismatch_measurement_0": -0.022018076454878337,
+          "mismatch_measurement_1": -0.022018140293015468
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.03646464606971152,
+          "mismatch_measurement_0": -0.03646429597649598,
+          "mismatch_measurement_1": -0.03646469650859955
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G3:KEEP_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G3:KEEP_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.003806836351073306,
+          "mismatch_measurement_0": 0.0038066609327184354,
+          "mismatch_measurement_1": 0.003806693111043785
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": 0.018253055872690944,
+          "mismatch_measurement_0": 0.018252880454336075,
+          "mismatch_measurement_1": 0.018252744361941825
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.011417806613775217,
+          "mismatch_measurement_0": 0.011417280660633631,
+          "mismatch_measurement_1": 0.011417376995371485
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": 0.025864026135392855,
+          "mismatch_measurement_0": 0.025863500182251267,
+          "mismatch_measurement_1": 0.02586376488939355
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.014446219521617641,
+          "mismatch_measurement_0": 0.01444621952161764,
+          "mismatch_measurement_1": 0.014445882929336027
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.015221940525403821,
+          "mismatch_measurement_0": 0.01522123945583039,
+          "mismatch_measurement_1": 0.015221367768655401
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.029668160047021462,
+          "mismatch_measurement_0": 0.029667458977448033,
+          "mismatch_measurement_1": 0.02966792398423948
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.0038066609327184354,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 2,
+      "selected": "Hydraulic:G3:FAVOR_SECOND:W",
+      "candidates": 7,
+      "weights": {
+        "reference": 0.5000005837314601,
+        "mismatch_measurement_0": 0.24999782262679132,
+        "mismatch_measurement_1": 0.2500015936417486
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.5697854870343326,
+          "mismatch_measurement_0": -0.5697854136830146,
+          "mismatch_measurement_1": -0.5697854207328237
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.5388892681175005,
+          "mismatch_measurement_0": -0.5388892171174797,
+          "mismatch_measurement_1": -0.5388890072722076
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.5471697301878036,
+          "mismatch_measurement_0": -0.5471692674124051,
+          "mismatch_measurement_1": -0.5471693118968776
+        },
+        "Hydraulic:G3:FAVOR_SECOND:W": {
+          "reference": -0.5162735112709714,
+          "mismatch_measurement_0": -0.5162730708468702,
+          "mismatch_measurement_1": -0.5162733280244864
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.6607173181793323,
+          "mismatch_measurement_0": -0.6607174075845217,
+          "mismatch_measurement_1": -0.6607169693977822
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.6463820234031065,
+          "mismatch_measurement_0": -0.6463813116088376,
+          "mismatch_measurement_1": -0.6463813799806187
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.6154858044862742,
+          "mismatch_measurement_0": -0.6154851150433027,
+          "mismatch_measurement_1": -0.61548561090234
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G3:FAVOR_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G3:FAVOR_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.0535119757633612,
+          "mismatch_measurement_0": 0.053512342836144366,
+          "mismatch_measurement_1": 0.05351209270833723
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": 0.022615756846529056,
+          "mismatch_measurement_0": 0.022616146270609483,
+          "mismatch_measurement_1": 0.02261567924772112
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.03089621891683214,
+          "mismatch_measurement_0": 0.030896196565534884,
+          "mismatch_measurement_1": 0.03089598387239112
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.1444438069083609,
+          "mismatch_measurement_0": 0.14444433673765145,
+          "mismatch_measurement_1": 0.1444436413732958
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.13010851213213503,
+          "mismatch_measurement_0": 0.13010824076196736,
+          "mismatch_measurement_1": 0.1301080519561323
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.09921229321530278,
+          "mismatch_measurement_0": 0.09921204419643248,
+          "mismatch_measurement_1": 0.09921228287785355
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.02261567924772112,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 3,
+      "selected": "Hydraulic:G3:FAVOR_FIRST:W",
+      "candidates": 6,
+      "weights": {
+        "reference": 0.5000004710739012,
+        "mismatch_measurement_0": 0.24999791676369743,
+        "mismatch_measurement_1": 0.25000161216240135
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.38094602486051904,
+          "mismatch_measurement_0": -0.38094614283624273,
+          "mismatch_measurement_1": -0.38094604932088877
+        },
+        "Hydraulic:G3:FAVOR_FIRST:W": {
+          "reference": -0.32072102549141507,
+          "mismatch_measurement_0": -0.32072121397191833,
+          "mismatch_measurement_1": -0.32072086754889473
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.3466971062838138,
+          "mismatch_measurement_0": -0.34669683513154137,
+          "mismatch_measurement_1": -0.3466967791145074
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.46194196964122264,
+          "mismatch_measurement_0": -0.461942262527187,
+          "mismatch_measurement_1": -0.4619417113471721
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.45366913185691604,
+          "mismatch_measurement_0": -0.4536685759821087,
+          "mismatch_measurement_1": -0.45366857106270486
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.39344413248781207,
+          "mismatch_measurement_0": -0.39344364711778435,
+          "mismatch_measurement_1": -0.3934440443596153
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G3:FAVOR_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G3:FAVOR_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.06022499936910397,
+          "mismatch_measurement_0": 0.0602249288643244,
+          "mismatch_measurement_1": 0.06022518177199404
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": 0.025976080792398715,
+          "mismatch_measurement_0": 0.02597562115962304,
+          "mismatch_measurement_1": 0.025975911565612686
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.14122094414980757,
+          "mismatch_measurement_0": 0.14122104855526868,
+          "mismatch_measurement_1": 0.14122084379827737
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.13294810636550097,
+          "mismatch_measurement_0": 0.13294736201019036,
+          "mismatch_measurement_1": 0.13294770351381013
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.072723106996397,
+          "mismatch_measurement_0": 0.07272243314586602,
+          "mismatch_measurement_1": 0.07272317681072055
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.02597562115962304,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 4,
+      "selected": "Hydraulic:G3:FAVOR_SECOND:S",
+      "candidates": 5,
+      "weights": {
+        "reference": 0.5000005113814164,
+        "mismatch_measurement_0": 0.249997771083919,
+        "mismatch_measurement_1": 0.25000171753466466
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.28515862512273005,
+          "mismatch_measurement_0": -0.28515870272340027,
+          "mismatch_measurement_1": -0.2851587002656177
+        },
+        "Hydraulic:G3:FAVOR_SECOND:S": {
+          "reference": -0.2660661677353833,
+          "mismatch_measurement_0": -0.2660658762575495,
+          "mismatch_measurement_1": -0.26606588522775704
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.34906707964860556,
+          "mismatch_measurement_0": -0.34906732426590753,
+          "mismatch_measurement_1": -0.34906688213649706
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.3700949336899309,
+          "mismatch_measurement_0": -0.37009440194235294,
+          "mismatch_measurement_1": -0.3700944182845328
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.31088216487391196,
+          "mismatch_measurement_0": -0.3108816713342061,
+          "mismatch_measurement_1": -0.31088212103096863
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G3:FAVOR_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G3:FAVOR_SECOND:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": 0.019092457387346773,
+          "mismatch_measurement_0": 0.019092826465850754,
+          "mismatch_measurement_1": 0.019092815037860644
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.08300091191322229,
+          "mismatch_measurement_0": 0.08300144800835801,
+          "mismatch_measurement_1": 0.08300099690874002
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.10402876595454763,
+          "mismatch_measurement_0": 0.10402852568480342,
+          "mismatch_measurement_1": 0.10402853305677578
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.044815997138528685,
+          "mismatch_measurement_0": 0.04481579507665656,
+          "mismatch_measurement_1": 0.04481623580321159
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.019092457387346773,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 5,
+      "selected": "Hydraulic:G3:FAVOR_FIRST:S",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5000004123461591,
+        "mismatch_measurement_0": 0.2499978057959417,
+        "mismatch_measurement_1": 0.25000178185789923
+      },
+      "component_predictions": {
+        "Hydraulic:G3:FAVOR_FIRST:S": {
+          "reference": -0.24332893425039112,
+          "mismatch_measurement_0": -0.24332908692513908,
+          "mismatch_measurement_1": -0.2433290786676744
+        },
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.3124756347634225,
+          "mismatch_measurement_0": -0.3124759220612596,
+          "mismatch_measurement_1": -0.31247548057379193
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.31401222520543337,
+          "mismatch_measurement_0": -0.31401177548216386,
+          "mismatch_measurement_1": -0.3140117995405867
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.2771753204838316,
+          "mismatch_measurement_0": -0.27717487973543464,
+          "mismatch_measurement_1": -0.27717532933069783
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:FAVOR_FIRST:S",
+        "mismatch_measurement_0": "Hydraulic:G3:FAVOR_FIRST:S",
+        "mismatch_measurement_1": "Hydraulic:G3:FAVOR_FIRST:S"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.06914670051303137,
+          "mismatch_measurement_0": 0.06914683513612055,
+          "mismatch_measurement_1": 0.06914640190611754
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.07068329095504225,
+          "mismatch_measurement_0": 0.07068268855702478,
+          "mismatch_measurement_1": 0.07068272087291233
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": 0.03384638623344047,
+          "mismatch_measurement_0": 0.033845792810295566,
+          "mismatch_measurement_1": 0.033846250663023436
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.033845792810295566,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 6,
+      "selected": "Hydraulic:G3:KEEP_SECOND:W",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5000006463736162,
+        "mismatch_measurement_0": 0.24999765998529466,
+        "mismatch_measurement_1": 0.25000169364108915
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.29029279891480575,
+          "mismatch_measurement_0": -0.29029307575457086,
+          "mismatch_measurement_1": -0.29029264360584356
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.2912799376673173,
+          "mismatch_measurement_0": -0.2912794777456041,
+          "mismatch_measurement_1": -0.29127951265211394
+        },
+        "Hydraulic:G3:KEEP_SECOND:W": {
+          "reference": -0.2630075402293947,
+          "mismatch_measurement_0": -0.26300709568766845,
+          "mismatch_measurement_1": -0.2630075404665307
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_SECOND:W",
+        "mismatch_measurement_0": "Hydraulic:G3:KEEP_SECOND:W",
+        "mismatch_measurement_1": "Hydraulic:G3:KEEP_SECOND:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": 0.02728525868541104,
+          "mismatch_measurement_0": 0.027285980066902416,
+          "mismatch_measurement_1": 0.027285103139312872
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.028272397437922592,
+          "mismatch_measurement_0": 0.02827238205793564,
+          "mismatch_measurement_1": 0.02827197218558325
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.027285103139312872,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 7,
+      "selected": "Hydraulic:G3:KEEP_FIRST:W",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5000037927517006,
+        "mismatch_measurement_0": 0.24999458586639742,
+        "mismatch_measurement_1": 0.250001621381902
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_FIRST:W": {
+          "reference": -0.4246984422156471,
+          "mismatch_measurement_0": -0.42469876144269136,
+          "mismatch_measurement_1": -0.4246982970353599
+        },
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.4412811592413486,
+          "mismatch_measurement_0": -0.44128084028914544,
+          "mismatch_measurement_1": -0.4412807474967135
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_FIRST:W",
+        "mismatch_measurement_0": "Hydraulic:G3:KEEP_FIRST:W",
+        "mismatch_measurement_1": "Hydraulic:G3:KEEP_FIRST:W"
+      },
+      "selected_minus_competitor": {
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": 0.016582717025701466,
+          "mismatch_measurement_0": 0.016582078846454074,
+          "mismatch_measurement_1": 0.016582450461353593
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.016582078846454074,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "step": 8,
+      "selected": "Hydraulic:G3:KEEP_SECOND:S",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5000038444280902,
+        "mismatch_measurement_0": 0.249994514674407,
+        "mismatch_measurement_1": 0.2500016408975027
+      },
+      "component_predictions": {
+        "Hydraulic:G3:KEEP_SECOND:S": {
+          "reference": -0.44640846032634024,
+          "mismatch_measurement_0": -0.446408091498742,
+          "mismatch_measurement_1": -0.4464080814745166
+        }
+      },
+      "component_winners": {
+        "reference": "Hydraulic:G3:KEEP_SECOND:S",
+        "mismatch_measurement_0": "Hydraulic:G3:KEEP_SECOND:S",
+        "mismatch_measurement_1": "Hydraulic:G3:KEEP_SECOND:S"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "step": 1,
+      "selected": "ETT:ETTh1:FAVOR_LATE:W",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5,
+        "ordinary_measurement_0": 0.25,
+        "ordinary_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.01486067831060741,
+          "ordinary_measurement_0": 0.015258569699664132,
+          "ordinary_measurement_1": 0.0472333623804769
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.026072774565259842,
+          "ordinary_measurement_0": 0.026470665954316696,
+          "ordinary_measurement_1": 0.05844545863512938
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.2335276943861121,
+          "ordinary_measurement_0": 0.23312985008758033,
+          "ordinary_measurement_1": 0.2658987249986829
+        },
+        "ETT:ETTh1:FAVOR_LATE:W": {
+          "reference": 0.2447397906407645,
+          "ordinary_measurement_0": 0.2443419463422329,
+          "ordinary_measurement_1": 0.27711082125333536
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_LATE:W",
+        "ordinary_measurement_0": "ETT:ETTh1:FAVOR_LATE:W",
+        "ordinary_measurement_1": "ETT:ETTh1:FAVOR_LATE:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.2298791123301571,
+          "ordinary_measurement_0": 0.22908337664256878,
+          "ordinary_measurement_1": 0.22987745887285846
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.21866701607550468,
+          "ordinary_measurement_0": 0.21787128038791623,
+          "ordinary_measurement_1": 0.218665362618206
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.011212096254652415,
+          "ordinary_measurement_0": 0.011212096254652582,
+          "ordinary_measurement_1": 0.01121209625465247
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.011212096254652415,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "step": 2,
+      "selected": "ETT:ETTh1:FAVOR_LATE:S",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5009801468109776,
+        "ordinary_measurement_0": 0.2505932791612067,
+        "ordinary_measurement_1": 0.24842657402781576
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.19218135593598618,
+          "ordinary_measurement_0": -0.19149922179023388,
+          "ordinary_measurement_1": -0.18405858264765576
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": -0.190080474580022,
+          "ordinary_measurement_0": -0.18937457841996536,
+          "ordinary_measurement_1": -0.18365035937349009
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.023771402131913606,
+          "ordinary_measurement_0": 0.023664473067544364,
+          "ordinary_measurement_1": 0.03138836350000728
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_LATE:S",
+        "ordinary_measurement_0": "ETT:ETTh1:FAVOR_LATE:S",
+        "ordinary_measurement_1": "ETT:ETTh1:FAVOR_LATE:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.2159527580678998,
+          "ordinary_measurement_0": 0.21516369485777825,
+          "ordinary_measurement_1": 0.21544694614766305
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.21385187671193562,
+          "ordinary_measurement_0": 0.21303905148750973,
+          "ordinary_measurement_1": 0.21503872287349737
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.21303905148750973,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "step": 3,
+      "selected": "ETT:ETTh1:FAVOR_EARLY:W",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5020156418780749,
+        "ordinary_measurement_0": 0.2512281961032659,
+        "ordinary_measurement_1": 0.2467561620186592
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.19421754990472662,
+          "ordinary_measurement_0": -0.19351443564141543,
+          "ordinary_measurement_1": -0.18758747115353708
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": -0.1846912968782805,
+          "ordinary_measurement_0": -0.18398818261496927,
+          "ordinary_measurement_1": -0.1780612181270909
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_EARLY:W",
+        "ordinary_measurement_0": "ETT:ETTh1:FAVOR_EARLY:W",
+        "ordinary_measurement_1": "ETT:ETTh1:FAVOR_EARLY:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.009526253026446108,
+          "ordinary_measurement_0": 0.009526253026446163,
+          "ordinary_measurement_1": 0.009526253026446191
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.009526253026446108,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "step": 4,
+      "selected": "ETT:ETTh1:FAVOR_EARLY:S",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5030480904240736,
+        "ordinary_measurement_0": 0.2518610855005657,
+        "ordinary_measurement_1": 0.2450908240753607
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.14049264817744472,
+          "ordinary_measurement_0": -0.13998283042422305,
+          "ordinary_measurement_1": -0.13376323700663345
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_EARLY:S",
+        "ordinary_measurement_0": "ETT:ETTh1:FAVOR_EARLY:S",
+        "ordinary_measurement_1": "ETT:ETTh1:FAVOR_EARLY:S"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "step": 1,
+      "selected": "ETT:ETTh1:FAVOR_LATE:W",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5,
+        "mismatch_measurement_0": 0.25,
+        "mismatch_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.01486067831060741,
+          "mismatch_measurement_0": 0.014855854647698823,
+          "mismatch_measurement_1": 0.017569696194555468
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.026072774565259842,
+          "mismatch_measurement_0": 0.026067950902351325,
+          "mismatch_measurement_1": 0.02878179244920804
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.2335276943861121,
+          "mismatch_measurement_0": 0.23353251747813886,
+          "mismatch_measurement_1": 0.23623671227006027
+        },
+        "ETT:ETTh1:FAVOR_LATE:W": {
+          "reference": 0.2447397906407645,
+          "mismatch_measurement_0": 0.24474461373279136,
+          "mismatch_measurement_1": 0.24744880852471285
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_LATE:W",
+        "mismatch_measurement_0": "ETT:ETTh1:FAVOR_LATE:W",
+        "mismatch_measurement_1": "ETT:ETTh1:FAVOR_LATE:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.2298791123301571,
+          "mismatch_measurement_0": 0.22988875908509254,
+          "mismatch_measurement_1": 0.22987911233015737
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.21866701607550468,
+          "mismatch_measurement_0": 0.21867666283044002,
+          "mismatch_measurement_1": 0.21866701607550482
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.011212096254652415,
+          "mismatch_measurement_0": 0.011212096254652498,
+          "mismatch_measurement_1": 0.011212096254652582
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.011212096254652415,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "step": 2,
+      "selected": "ETT:ETTh1:FAVOR_LATE:S",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5000258551595567,
+        "mismatch_measurement_0": 0.25001819755019555,
+        "mismatch_measurement_1": 0.24995594729024784
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.19218135593598618,
+          "mismatch_measurement_0": -0.19218957625205543,
+          "mismatch_measurement_1": -0.19145875278721736
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": -0.190080474580022,
+          "mismatch_measurement_0": -0.19008898124925094,
+          "mismatch_measurement_1": -0.1895084795516774
+        },
+        "ETT:ETTh1:FAVOR_LATE:S": {
+          "reference": 0.023771402131913606,
+          "mismatch_measurement_0": 0.02377269072113244,
+          "mismatch_measurement_1": 0.024449138673823017
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_LATE:S",
+        "mismatch_measurement_0": "ETT:ETTh1:FAVOR_LATE:S",
+        "mismatch_measurement_1": "ETT:ETTh1:FAVOR_LATE:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.2159527580678998,
+          "mismatch_measurement_0": 0.21596226697318788,
+          "mismatch_measurement_1": 0.21590789146104036
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": 0.21385187671193562,
+          "mismatch_measurement_0": 0.2138616719703834,
+          "mismatch_measurement_1": 0.2139576182255004
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.21385187671193562,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "step": 3,
+      "selected": "ETT:ETTh1:FAVOR_EARLY:W",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5000108339364926,
+        "mismatch_measurement_0": 0.25001686463396033,
+        "mismatch_measurement_1": 0.24997230142954707
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.19421754990472662,
+          "mismatch_measurement_0": -0.19422602379963372,
+          "mismatch_measurement_1": -0.19362352223128074
+        },
+        "ETT:ETTh1:FAVOR_EARLY:W": {
+          "reference": -0.1846912968782805,
+          "mismatch_measurement_0": -0.18469977077318753,
+          "mismatch_measurement_1": -0.18409726920483446
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_EARLY:W",
+        "mismatch_measurement_0": "ETT:ETTh1:FAVOR_EARLY:W",
+        "mismatch_measurement_1": "ETT:ETTh1:FAVOR_EARLY:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": 0.009526253026446108,
+          "mismatch_measurement_0": 0.009526253026446191,
+          "mismatch_measurement_1": 0.009526253026446274
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.009526253026446108,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "step": 4,
+      "selected": "ETT:ETTh1:FAVOR_EARLY:S",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.4999923742457449,
+        "mismatch_measurement_0": 0.2500136559064677,
+        "mismatch_measurement_1": 0.24999396984778752
+      },
+      "component_predictions": {
+        "ETT:ETTh1:FAVOR_EARLY:S": {
+          "reference": -0.14049264817744472,
+          "mismatch_measurement_0": -0.14049871604715433,
+          "mismatch_measurement_1": -0.13974773148083935
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh1:FAVOR_EARLY:S",
+        "mismatch_measurement_0": "ETT:ETTh1:FAVOR_EARLY:S",
+        "mismatch_measurement_1": "ETT:ETTh1:FAVOR_EARLY:S"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "step": 1,
+      "selected": "ETT:ETTh2:FAVOR_LATE:W",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5,
+        "ordinary_measurement_0": 0.25,
+        "ordinary_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.22557342929533705,
+          "ordinary_measurement_0": -0.2290978589781735,
+          "ordinary_measurement_1": -0.19766360849617118
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.21436133304068464,
+          "ordinary_measurement_0": -0.21788576272352095,
+          "ordinary_measurement_1": -0.1864515122415187
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": -0.006906413219832383,
+          "ordinary_measurement_0": -0.0033824006539474273,
+          "ordinary_measurement_1": 0.021001754122034786
+        },
+        "ETT:ETTh2:FAVOR_LATE:W": {
+          "reference": 0.004305683034820049,
+          "ordinary_measurement_0": 0.007829695600705136,
+          "ordinary_measurement_1": 0.03221385037668726
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_LATE:W",
+        "ordinary_measurement_0": "ETT:ETTh2:FAVOR_LATE:W",
+        "ordinary_measurement_1": "ETT:ETTh2:FAVOR_LATE:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": 0.2298791123301571,
+          "ordinary_measurement_0": 0.23692755457887865,
+          "ordinary_measurement_1": 0.22987745887285843
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.21866701607550468,
+          "ordinary_measurement_0": 0.22571545832422607,
+          "ordinary_measurement_1": 0.21866536261820596
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": 0.011212096254652432,
+          "ordinary_measurement_0": 0.011212096254652564,
+          "ordinary_measurement_1": 0.011212096254652474
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.011212096254652432,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "step": 2,
+      "selected": "ETT:ETTh2:FAVOR_LATE:S",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.5012036170979105,
+        "ordinary_measurement_0": 0.25064654179821066,
+        "ordinary_measurement_1": 0.24814984110387892
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.3226782882749607,
+          "ordinary_measurement_0": -0.32841008616922335,
+          "ordinary_measurement_1": -0.31301760696379033
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.3229893586200105,
+          "ordinary_measurement_0": -0.32898695795787164,
+          "ordinary_measurement_1": -0.315341870878852
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": -0.10744405778996055,
+          "ordinary_measurement_0": -0.10624795129376781,
+          "ordinary_measurement_1": -0.09838468672490751
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_LATE:S",
+        "ordinary_measurement_0": "ETT:ETTh2:FAVOR_LATE:S",
+        "ordinary_measurement_1": "ETT:ETTh2:FAVOR_LATE:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": 0.21523423048500015,
+          "ordinary_measurement_0": 0.22216213487545555,
+          "ordinary_measurement_1": 0.2146329202388828
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.21554530083004994,
+          "ordinary_measurement_0": 0.22273900666410384,
+          "ordinary_measurement_1": 0.2169571841539445
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.2146329202388828,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "step": 3,
+      "selected": "ETT:ETTh2:FAVOR_EARLY:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5022654247322107,
+        "ordinary_measurement_0": 0.2512567951527338,
+        "ordinary_measurement_1": 0.24647778011505556
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.27534582878430136,
+          "ordinary_measurement_0": -0.28131851295514737,
+          "ordinary_measurement_1": -0.26725283203755856
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.2814356204922628,
+          "ordinary_measurement_0": -0.28740830466310874,
+          "ordinary_measurement_1": -0.27334262374552
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_EARLY:S",
+        "ordinary_measurement_0": "ETT:ETTh2:FAVOR_EARLY:S",
+        "ordinary_measurement_1": "ETT:ETTh2:FAVOR_EARLY:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.006089791707961423,
+          "ordinary_measurement_0": 0.006089791707961367,
+          "ordinary_measurement_1": 0.006089791707961423
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.006089791707961367,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "step": 4,
+      "selected": "ETT:ETTh2:FAVOR_EARLY:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5031165692137753,
+        "ordinary_measurement_0": 0.2515278273267681,
+        "ordinary_measurement_1": 0.2453556034594566
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.1968860397821949,
+          "ordinary_measurement_0": -0.20121934611393938,
+          "ordinary_measurement_1": -0.18852300211993825
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_EARLY:W",
+        "ordinary_measurement_0": "ETT:ETTh2:FAVOR_EARLY:W",
+        "ordinary_measurement_1": "ETT:ETTh2:FAVOR_EARLY:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "step": 1,
+      "selected": "ETT:ETTh2:FAVOR_LATE:W",
+      "candidates": 4,
+      "weights": {
+        "reference": 0.5,
+        "mismatch_measurement_0": 0.25,
+        "mismatch_measurement_1": 0.25
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.22557342929533705,
+          "mismatch_measurement_0": -0.22552630522620018,
+          "mismatch_measurement_1": -0.22238563968275704
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.21436133304068464,
+          "mismatch_measurement_0": -0.21431420897154768,
+          "mismatch_measurement_1": -0.2111735434281045
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": -0.006906413219832383,
+          "mismatch_measurement_0": -0.006953531711826657,
+          "mismatch_measurement_1": -0.00371862360725225
+        },
+        "ETT:ETTh2:FAVOR_LATE:W": {
+          "reference": 0.004305683034820049,
+          "mismatch_measurement_0": 0.0042585645428258444,
+          "mismatch_measurement_1": 0.007493472647400323
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_LATE:W",
+        "mismatch_measurement_0": "ETT:ETTh2:FAVOR_LATE:W",
+        "mismatch_measurement_1": "ETT:ETTh2:FAVOR_LATE:W"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": 0.2298791123301571,
+          "mismatch_measurement_0": 0.229784869769026,
+          "mismatch_measurement_1": 0.22987911233015737
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.21866701607550468,
+          "mismatch_measurement_0": 0.21857277351437351,
+          "mismatch_measurement_1": 0.21866701607550482
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": 0.011212096254652432,
+          "mismatch_measurement_0": 0.011212096254652502,
+          "mismatch_measurement_1": 0.011212096254652573
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.011212096254652432,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "step": 2,
+      "selected": "ETT:ETTh2:FAVOR_LATE:S",
+      "candidates": 3,
+      "weights": {
+        "reference": 0.500129020184512,
+        "mismatch_measurement_0": 0.2500733182363938,
+        "mismatch_measurement_1": 0.2497976615790942
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.3226782882749607,
+          "mismatch_measurement_0": -0.3225960116726006,
+          "mismatch_measurement_1": -0.32218261342498555
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.3229893586200105,
+          "mismatch_measurement_0": -0.3229032665935748,
+          "mismatch_measurement_1": -0.32259699449823187
+        },
+        "ETT:ETTh2:FAVOR_LATE:S": {
+          "reference": -0.10744405778996055,
+          "mismatch_measurement_0": -0.10746122719829988,
+          "mismatch_measurement_1": -0.10697915951307661
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_LATE:S",
+        "mismatch_measurement_0": "ETT:ETTh2:FAVOR_LATE:S",
+        "mismatch_measurement_1": "ETT:ETTh2:FAVOR_LATE:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": 0.21523423048500015,
+          "mismatch_measurement_0": 0.21513478447430073,
+          "mismatch_measurement_1": 0.21520345391190893
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.21554530083004994,
+          "mismatch_measurement_0": 0.21544203939527495,
+          "mismatch_measurement_1": 0.21561783498515524
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.21513478447430073,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "step": 3,
+      "selected": "ETT:ETTh2:FAVOR_EARLY:S",
+      "candidates": 2,
+      "weights": {
+        "reference": 0.5001805428512685,
+        "mismatch_measurement_0": 0.2501034152013041,
+        "mismatch_measurement_1": 0.24971604194742747
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:S": {
+          "reference": -0.27534582878430136,
+          "mismatch_measurement_0": -0.27526264963723435,
+          "mismatch_measurement_1": -0.2747055867024373
+        },
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.2814356204922628,
+          "mismatch_measurement_0": -0.2813524413451958,
+          "mismatch_measurement_1": -0.2807953784103988
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_EARLY:S",
+        "mismatch_measurement_0": "ETT:ETTh2:FAVOR_EARLY:S",
+        "mismatch_measurement_1": "ETT:ETTh2:FAVOR_EARLY:S"
+      },
+      "selected_minus_competitor": {
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": 0.006089791707961423,
+          "mismatch_measurement_0": 0.006089791707961478,
+          "mismatch_measurement_1": 0.006089791707961534
+        }
+      },
+      "all_components_select_registered": true,
+      "min_margin": 0.006089791707961423,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "step": 4,
+      "selected": "ETT:ETTh2:FAVOR_EARLY:W",
+      "candidates": 1,
+      "weights": {
+        "reference": 0.5001435897312093,
+        "mismatch_measurement_0": 0.2501075265436194,
+        "mismatch_measurement_1": 0.24974888372517132
+      },
+      "component_predictions": {
+        "ETT:ETTh2:FAVOR_EARLY:W": {
+          "reference": -0.1968860397821949,
+          "mismatch_measurement_0": -0.19681198080664783,
+          "mismatch_measurement_1": -0.1957994917359482
+        }
+      },
+      "component_winners": {
+        "reference": "ETT:ETTh2:FAVOR_EARLY:W",
+        "mismatch_measurement_0": "ETT:ETTh2:FAVOR_EARLY:W",
+        "mismatch_measurement_1": "ETT:ETTh2:FAVOR_EARLY:W"
+      },
+      "selected_minus_competitor": {},
+      "all_components_select_registered": true,
+      "min_margin": null,
+      "near_boundary": [],
+      "robust_convex_invariance": true
+    }
+  ],
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "cumulative_full_trainings": 464
+}
