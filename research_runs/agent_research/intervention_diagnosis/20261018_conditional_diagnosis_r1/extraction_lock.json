@@ -1,0 +1,26 @@
+{
+  "authorization": "2026-10-18 user requested experiments for conditional diagnosis paper",
+  "scope": "read-only original A/B/C and 30 saved ETT checkpoints; zero optimizer updates",
+  "remote_root": "/root/auto_data_experiments/20261018_conditional_diagnosis_r1",
+  "files": {
+    "conditional_diagnosis.py": {
+      "sha256": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee",
+      "bytes": 12295
+    },
+    "diagnosis_pool_features.py": {
+      "sha256": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5",
+      "bytes": 5047
+    },
+    "extract_ett_diagnosis.py": {
+      "sha256": "ee96ee15d7aa274b39c0c6f8fd76200dd23e79e4932e9140606fbe585ba84875",
+      "bytes": 4754
+    },
+    "PROTOCOL.md": {
+      "sha256": "83fdd3a261ab24a4ef66dae85c0252da8ee3d36dee5bc593b6ebd57e9daa650d",
+      "bytes": 4839
+    }
+  },
+  "minimum_free_bytes": 67108864,
+  "maximum_new_full_trainings": 0,
+  "D_test_access": false
+}

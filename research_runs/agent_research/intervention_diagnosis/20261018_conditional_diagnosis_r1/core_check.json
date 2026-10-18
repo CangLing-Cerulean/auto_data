@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "paired_response_and_inverse_coordinates",
+    "parent_comparison_not_B0_credit",
+    "empty_complement_and_zero_denominator_rejected",
+    "identical_predictive_information_has_zero_evidence",
+    "joint_conditional_factorization_and_shared_marginal_equivalence",
+    "frozen_prediction_scored_before_update_and_positive_recipe_preserved",
+    "duplicate_record_and_duplicate_summary_cannot_add_evidence",
+    "revision_does_not_inherit_evidence_or_remove_observed_benefit",
+    "diagnostic_reliability_has_actual_unqueried_gain_prediction_path"
+  ],
+  "count": 9,
+  "seconds": 0.007915199999843026,
+  "full_model_trainings": 0,
+  "scientific_efficacy_claim": false,
+  "scope": "finite numerical unit cases only; no sensor records generated"
+}
