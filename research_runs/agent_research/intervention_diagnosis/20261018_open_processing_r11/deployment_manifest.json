@@ -1,0 +1,83 @@
+{
+  "source_commit": "ec8b3f0acb3dc0ed01431061dc67e16f30cd1975",
+  "bundle_sha256": "44096157fb596cd2345d485e0d1a282701c47767c4afb3cd2614342b5624da3e",
+  "bundle_bytes": 65427,
+  "files": {
+    "coldstart_model.py": {
+      "bytes": 4240,
+      "sha256": "bbf03c517b7a66abfc8ff1f629290d94e25f1e90b9eaf3ab4f1098e54b8bcec2"
+    },
+    "coldstart_expressions.py": {
+      "bytes": 11988,
+      "sha256": "06981279ae586b76928183d1a1f87843f251cedcd58b9d720c61b2e6c7b26e74"
+    },
+    "coldstart_reference.py": {
+      "bytes": 6464,
+      "sha256": "d76f7c8dd03fdb6c8cc98e34c2cea632397db6ef72812b86cfdfbfddf60560fc"
+    },
+    "coldstart_runtime.py": {
+      "bytes": 14786,
+      "sha256": "267f426ea445171b992af12716cddb484078b94ac014d2cb06c6fe520d809c93"
+    },
+    "coldstart_trial.py": {
+      "bytes": 17729,
+      "sha256": "c903c59cfe477fdcf89b8de1ba269e607212878ac90370f89336a74a2cc93b79"
+    },
+    "manage_coldstart_trial.py": {
+      "bytes": 4964,
+      "sha256": "f09e5b58be61eeb7d97cbe9effb86dbb53e731bdc8fb35fbe7e2b45424bd0d1e"
+    },
+    "audit_coldstart_trial.py": {
+      "bytes": 14945,
+      "sha256": "b7a7d813f18cb69a2757ba6c8b33f4b2cdeb9a4fb74c2410ae5f8d113160e5e1"
+    },
+    "open_processing_program.py": {
+      "bytes": 17681,
+      "sha256": "89bef3324042b7c4c216b9949ab8cf025fd58ede3468558815e5b7b8e8f4cbc5"
+    },
+    "open_processing_sandbox.py": {
+      "bytes": 9695,
+      "sha256": "4f4ef681895b61da4923022a83658bc78eda5d916f6aef21d9b2822d994f3526"
+    },
+    "open_processing_materialize.py": {
+      "bytes": 10527,
+      "sha256": "5b9e3279fdb043f2d4edc3644e4cc26dc0d3d147b0d2751e3ad6717a30122420"
+    },
+    "open_processing_reference.py": {
+      "bytes": 1526,
+      "sha256": "3c80b7d1bc0df6ad63b3df1f4585151ce03e4b6e426c57731a6942cd17e19acb"
+    },
+    "open_processing_runtime.py": {
+      "bytes": 16478,
+      "sha256": "69a87634c079b8ecc4ec406b6b155272bfecfe0edd683c3357d2f3bdf1148306"
+    },
+    "open_processing_trial.py": {
+      "bytes": 13340,
+      "sha256": "d97eb28a115ca7d13818fa9d5b953107dbbe90d0cf40e863348e7468f2797790"
+    },
+    "preflight_open_processing.py": {
+      "bytes": 4006,
+      "sha256": "a28ac7ac172e91c3d5180c4743ee7c35c686dc8303d5a6b7de4df027da9eaff5"
+    },
+    "manage_open_processing.py": {
+      "bytes": 6250,
+      "sha256": "af8e3d9379d74d94b29ee1c62adbdaa95b0ea329bb2d3c95756d26da6cbb1fb0"
+    },
+    "audit_open_processing.py": {
+      "bytes": 29455,
+      "sha256": "d7c7207e3e7cec0598ff8e3ce4c9b97b35e35e32168a2c42aa0c4839c389ba1e"
+    },
+    "execution_lock.json": {
+      "bytes": 5879,
+      "sha256": "aae59b5454edff511de3d747c595cb8bbefcf436c007db9b78ba9508bfe20683"
+    },
+    "PROTOCOL.md": {
+      "bytes": 7967,
+      "sha256": "fc036668da781862fc19ed19faedabbadbe4ae5b54499b7887e8b42cc20195e1"
+    },
+    "AGENT_INTERFACE.txt": {
+      "bytes": 10933,
+      "sha256": "432a5854798b0bbe2a77ce0e454c2acbe8e7f2edc1a12022cc7c2bb5928b587e"
+    }
+  }
+}

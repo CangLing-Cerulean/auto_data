@@ -1,0 +1,33 @@
+{
+  "exit": {
+    "returncode": 0,
+    "started": 1792327398.004774,
+    "finished": 1792327417.5136201
+  },
+  "files": {
+    "preflight_receipt.json": {
+      "sha256": "71290c38748b4e424549f86ca339cddfeec6e6312746ddbf6e8471e2570c157d",
+      "bytes": 8692
+    },
+    "parent_reuse_receipt.json": {
+      "sha256": "49efe2a7122408c31ea8658608808ba2d8c27ab528e3ab8f668a64d422d066eb",
+      "bytes": 3615
+    },
+    "prepared_parent_facts.json": {
+      "sha256": "7c26b378a03d9c7c2781a9639f00bb5539564ec651b11736f2b05b245de6bcf1",
+      "bytes": 54714
+    },
+    "preflight_control/started.json": {
+      "sha256": "e68ee68e9c0c1a870a0051f2565105db9d4b2c694a826652ab6c08dfb6e99b44",
+      "bytes": 35
+    },
+    "preflight_control/exit.json": {
+      "sha256": "14fc3b9872ddfae77b3263639f6da64ab424589c06960d2a214abe68f298d27a",
+      "bytes": 79
+    },
+    "preflight_control/run.log": {
+      "sha256": "bbc366660778849e91f7cf5d1d2aaa3ca53518395c1b5d8ec9ff5efa03fe48ec",
+      "bytes": 63
+    }
+  }
+}

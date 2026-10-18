@@ -1,13 +1,14 @@
 {
-  "status": "engineering_before_publication",
+  "status": "preflight_passed_before_exploration",
   "new_full_trainings": 0,
   "cumulative_full_trainings": 515,
   "new_llm_calls": 0,
-  "new_real_program_execution": false,
+  "new_real_program_execution": true,
+  "real_program_scope": "Fixed identity interface preflight only; generated programs not yet executed",
   "D_accessed": false,
   "execution_started": false,
-  "parent_reuse_verified": false,
+  "parent_reuse_verified": true,
   "synthetic_gpu_adam_updates": 18,
-  "next": "Finish focused source review, freeze and publish source, deploy and verify real identity interface before exploration",
+  "next": "Publish preflight receipts, then run fixed two-arm eight-attempt exploration without restarting existing IDs",
   "authorization": "Inherited explicit current and future code/ABC upload and execution authorization; open processing separately requested"
 }
