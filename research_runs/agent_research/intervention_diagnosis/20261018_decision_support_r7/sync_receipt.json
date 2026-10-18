@@ -1,0 +1,21 @@
+{
+  "status": "result_commit_and_release_verified",
+  "source_commit": "3816525495ae5aee33d6e87712754a352a3d2de7",
+  "repository": "CangLing-Cerulean/auto_data",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/decision-support-20261018-r7",
+  "assets": [
+    {
+      "name": "frozen_decision_support_r7.tar.gz",
+      "bytes": 248384,
+      "sha256": "99ca5039ec216f6cd4bd344368893a8b1d44e1c1a41aa16034588247e1020651",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/decision-support-20261018-r7/frozen_decision_support_r7.tar.gz",
+      "asset_id": 652858960
+    }
+  ],
+  "archive_members": 23,
+  "validation": "frozen snapshot hashes and independent scalar reconstruction",
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "new_LLM_calls": 0,
+  "global_indexes_published": false
+}
