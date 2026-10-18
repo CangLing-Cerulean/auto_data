@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "measurement": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "source": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            },
+            "expected_information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source",
+            "meaning",
+            "expected_information"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "reasoning": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "measurement",
+    "reasoning"
+  ],
+  "additionalProperties": false
+}

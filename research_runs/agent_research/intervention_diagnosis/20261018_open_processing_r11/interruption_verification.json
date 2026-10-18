@@ -1,0 +1,31 @@
+{
+  "status": "PASS_stopped_before_generated_execution",
+  "categories": {
+    "measurements": {
+      "exists": false,
+      "children": []
+    },
+    "queries": {
+      "exists": false,
+      "children": []
+    },
+    "runs": {
+      "exists": false,
+      "children": []
+    },
+    "control": {
+      "exists": false,
+      "children": []
+    },
+    "audit_control": {
+      "exists": false,
+      "children": []
+    }
+  },
+  "preflight_completed": true,
+  "D_accessed": false,
+  "verified_at": 1792327777.6272032,
+  "local_supervisor_exit_code": 1,
+  "failed_call": "STRONG/01_measurement",
+  "call_receipt_sha256": "6cda3af1ce20fb22bdb4a1438853971a9ace99becb5e61ddba386c410ee13839"
+}

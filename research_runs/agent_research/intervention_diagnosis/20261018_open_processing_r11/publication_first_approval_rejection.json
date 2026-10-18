@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED_BEFORE_EXECUTION",
+  "action": "Commit and publish r11 interruption records including complete call prompt, response and logs to existing GitHub repository",
+  "reason": "Sensitive content and scope of full call records had not been sufficiently verified; standing stage synchronization authorization did not clearly establish these specific payloads for this destination.",
+  "commit_or_upload_executed_by_rejected_command": false,
+  "followup": "Exact prompt reconstruction from already published interface and parent facts, complete response/events/stderr content review and credential scan recorded in publication_content_review.json. A second approval review still rejected publication because parent statistics/full context and the GitHub destination needed explicit authorization; no command executed. User then explicitly authorized complete records to CangLing-Cerulean/auto_data; see PUBLICATION_AUTHORIZATION.md."
+}

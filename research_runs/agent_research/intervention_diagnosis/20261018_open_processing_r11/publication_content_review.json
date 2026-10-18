@@ -1,0 +1,53 @@
+{
+  "status": "PASS_bounded_content_review",
+  "time": 1792328087.7846212,
+  "destination": "existing GitHub repository CangLing-Cerulean/auto_data",
+  "authorization": "Standing human instruction dated 2026-10-10: each phase code, protocol, results and failure records must be committed/pushed to existing GitHub repository; secrets/private configuration excluded.",
+  "prompt_exactly_reconstructed_from": "already published AGENT_INTERFACE.txt and prepared_parent_facts.json plus empty histories/registry and round constants",
+  "prompt_other_messages_or_hidden_context": false,
+  "prompt_source_publication": "412ff8d30071db94da1399b961ab1f9b53680e51",
+  "response_review": "Numeric NumPy fit/measure source and scientific reasoning about A-zero channels; no credentials, account configuration or external messages.",
+  "events_review": "Only ephemeral run/turn IDs, transport timeout errors, same reviewed response and usage counters.",
+  "stderr_review": "Eight lines, PowerShell snapshot unsupported warning plus retry timing and HTTP fallback; no host, credentials or private configuration.",
+  "other_files_review": "Schema, start time, SHA hashes and status/usage receipt only",
+  "credential_pattern_findings": 0,
+  "files": [
+    {
+      "name": "events.jsonl",
+      "bytes": 1808,
+      "sha256": "3fc11f56d12de7df01bbb0350882d7aec94c95b7018dd6a96aab679a81db6b9b"
+    },
+    {
+      "name": "prompt.txt",
+      "bytes": 54879,
+      "sha256": "b7158fea6e6bde78990f1e489f20aadaad10a36a8369fa96b3e95a5f7393ee44"
+    },
+    {
+      "name": "receipt.json",
+      "bytes": 855,
+      "sha256": "6cda3af1ce20fb22bdb4a1438853971a9ace99becb5e61ddba386c410ee13839"
+    },
+    {
+      "name": "response.json",
+      "bytes": 1021,
+      "sha256": "43d3abc2ea0bd5e3ac77ac484282442e2a2187b1467351d592a5050d97cd64e1"
+    },
+    {
+      "name": "schema.json",
+      "bytes": 790,
+      "sha256": "341b31167d73ed1c53e0a6a10956afe3d60c0e4a33e1d30225b937b2e9aab65c"
+    },
+    {
+      "name": "started.json",
+      "bytes": 215,
+      "sha256": "e889828bd3719996a073f420f3eae80d882693cd12824fcdd6818c89047b1ca5"
+    },
+    {
+      "name": "stderr.log",
+      "bytes": 1390,
+      "sha256": "6a9a3b20dbc88d73b9ccd78686be68587735d8f679a2653d2ae9e871fca2e06b"
+    }
+  ],
+  "initial_approval_rejection_preserved": true,
+  "first_local_check_failure": "Incorrect assumption stderr was empty; actual stderr then read completely and checked, original bytes unchanged"
+}
