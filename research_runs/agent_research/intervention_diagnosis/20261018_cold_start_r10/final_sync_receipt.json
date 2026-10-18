@@ -1,0 +1,29 @@
+{
+  "status": "result_commit_and_release_verified",
+  "source_commit": "42f3c06175b45b1d94a1e92b5dd22f9123af02e4",
+  "tree_sha": "0f2303427649cbafdf5790aaea6e8671ecff1031",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/cold-start-r10-development-20261018",
+  "assets": [
+    {
+      "name": "r10-results.tar.gz",
+      "bytes": 325264935,
+      "sha256": "5498314069015a11e3d03d2fe004c3121b31b789c0b96bdd2f588ad23e8ef4c0",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/cold-start-r10-development-20261018/r10-results.tar.gz",
+      "asset_id": 653451475
+    },
+    {
+      "name": "r10-decisions.tar.gz",
+      "bytes": 1252122,
+      "sha256": "233ef2d5933ad06ac906df023afc12359526e45b6886fe49cd7e15d99542393d",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/cold-start-r10-development-20261018/r10-decisions.tar.gz",
+      "asset_id": 653454587
+    }
+  ],
+  "new_full_trainings": 51,
+  "cumulative_full_trainings": 515,
+  "development_audit": "PASS",
+  "D_accessed": false,
+  "global_indexes_uploaded": false,
+  "metadata_publication_pending": true,
+  "earlier_sync_receipt_is_source_preparation_history": true
+}

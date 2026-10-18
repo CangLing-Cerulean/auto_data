@@ -35,6 +35,6 @@
 
 用户在D读取前要求开放处理能力，因此本轮D最终评估延期，见D_DEFERRED_FOR_OPEN_PROCESSING.md。D解析器虽已发布，但未建立执行锁、未解析D或评价模型；不能把旧trial_completed中的pending字段当成已经评估。基础测试未访问。
 
-服务器模型/查询/控制/审计资产通过流式归档收回，未在服务器增建压缩副本：730成员、325264935字节，SHA256 `5498314069015a11e3d03d2fe004c3121b31b789c0b96bdd2f588ad23e8ef4c0`。逐成员集合、类型、大小、SHA及gzip CRC已核对。原始LLM调用、提示和决策以独立decisions归档交付；代码、报告、失败与元数据在Git。GitHub/Release是否完成以sync_receipt及metadata_sync_receipt为准。
+服务器模型/查询/控制/审计资产通过流式归档收回，未在服务器增建压缩副本：730成员、325264935字节，SHA256 `5498314069015a11e3d03d2fe004c3121b31b789c0b96bdd2f588ad23e8ef4c0`。逐成员集合、类型、大小、SHA及gzip CRC已核对。原始LLM调用、提示和决策以独立decisions归档交付；代码、报告、失败与元数据在Git。GitHub/Release是否完成以final_sync_receipt及final_metadata_sync_receipt为准；旧sync_receipt仅为准备阶段历史。
 
 下一步是独立r11开放处理开发比较，保持固定骨干、全部真值和A-only拟合，允许通用输入变换与输出坐标还原。它使用同一已揭示来源；两因素消融、强联合更新、独立来源迁移、最终D及完整端到端成本仍是论文证据缺口。

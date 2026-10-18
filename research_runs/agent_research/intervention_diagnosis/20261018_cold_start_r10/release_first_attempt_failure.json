@@ -1,0 +1,9 @@
+{
+  "status": "FAILED",
+  "operation": "GitHub Release creation",
+  "http_status": 422,
+  "manifest_defect": "Missing title passed as null release name",
+  "asset_upload_observed": false,
+  "repair": "Add release title; preserve exact asset bytes and target commit",
+  "changes_research_results": false
+}
