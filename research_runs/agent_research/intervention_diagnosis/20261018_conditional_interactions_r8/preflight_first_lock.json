@@ -1,0 +1,71 @@
+{
+  "protocol_sha256": "42310de35e8a28893bdd8b0c6a818d31653e686227d908bd1b12ee7e3fd29301",
+  "scripts": {
+    "conditional_interactions.py": "76b57239d70e1ff0c58a3e494176546b51915edd4f5e1af1fb363c5e9fc96e8b",
+    "conditional_diagnosis.py": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee",
+    "diagnosis_pool_features.py": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5",
+    "replay_conditional_diagnosis.py": "5a1f5f4ba5d43db7ac86b7f58e7de189bd4b961f161f48d5312554ff8c52be7a",
+    "replay_window_signals.py": "dc3a39786f8b0c8b479cd3c5b578a308225c37b7417a2d6240cbc6acdbd1d704",
+    "window_measurement_dsl.py": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878"
+  },
+  "inputs": {
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/ETT_augmented_records.json": "91c2365172a39e824a5dadd448b41977fd174a3da0016536316c403970dc934c",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/ETT_ordinary/response.json": "787861f39bcb52ad0ff909dfac33b91504b852535d81d23a06b9861cd5b66fa9",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/ETT_mismatch/response.json": "1f2381073d7afe4977937355956de2afe247aa80057dc9f85204f9bdb1a83f21",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/replay/Hydraulic_augmented_records.json": "18807f4fb17f15a0acd0fbb806bba98d5b7975c163a6421b853c03cf5aba8ce5",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/Hydraulic_ordinary/response.json": "d813a182c7f0900bc7c42cc1157fd29439cabb563a8cb3bff43284783fe41079",
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/generation/Hydraulic_mismatch/response.json": "4b6c1e783601f14140a7f9dc8852c45f3b8c05d05a4c22611d03123fa1033e5e"
+  },
+  "methods": {
+    "A00": [
+      "fixed",
+      "none"
+    ],
+    "A01": [
+      "fixed",
+      "conditional"
+    ],
+    "A10": [
+      "mismatch",
+      "none"
+    ],
+    "A11": [
+      "mismatch",
+      "conditional"
+    ],
+    "JOINT": [
+      "mismatch",
+      "joint"
+    ],
+    "ORDINARY_FIXED": [
+      "ordinary",
+      "none"
+    ],
+    "ORDINARY_CONDITIONAL": [
+      "ordinary",
+      "conditional"
+    ]
+  },
+  "normalizers": {
+    "ETT": {
+      "aligned_level_shift": 0.03519492354000929,
+      "aligned_variance_shift": 0.043530229371337055,
+      "aligned_roughness_shift": 0.005992125821418542,
+      "optimizer_exposure_interaction": 0.1767766959157277,
+      "mismatch_measurement_0": 0.007241731054256209,
+      "mismatch_measurement_1": 0.0051206771359937715,
+      "ordinary_measurement_0": 0.016555120451159477,
+      "ordinary_measurement_1": 0.06457446944923136
+    },
+    "Hydraulic": {
+      "aligned_level_shift": 0.9227576009131983,
+      "aligned_variance_shift": 0.018887650952058823,
+      "aligned_roughness_shift": 0.0031779536054446452,
+      "optimizer_exposure_interaction": 0.5153882032022076,
+      "mismatch_measurement_0": 0.04099626215059424,
+      "mismatch_measurement_1": 0.4001664913183309,
+      "ordinary_measurement_0": 0.09623695737819103,
+      "ordinary_measurement_1": 0.3701235584125155
+    }
+  }
+}

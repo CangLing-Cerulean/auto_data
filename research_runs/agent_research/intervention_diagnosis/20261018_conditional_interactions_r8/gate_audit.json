@@ -1,0 +1,132 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "check": "locked_inputs_matrix_and_source_RMS",
+      "status": "PASS",
+      "details": {
+        "methods": 7,
+        "paths": 35,
+        "queries": 224,
+        "nodes": 91,
+        "tasks": [
+          {
+            "family": "Hydraulic",
+            "task": "G1",
+            "candidates": 8,
+            "unknown_costs": 1
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G2",
+            "candidates": 8,
+            "unknown_costs": 0
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G3",
+            "candidates": 8,
+            "unknown_costs": 0
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh1",
+            "candidates": 4,
+            "unknown_costs": 0
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh2",
+            "candidates": 4,
+            "unknown_costs": 0
+          }
+        ],
+        "independently_verified_source_RMS": 16,
+        "inspected_only": "locked metadata and preexisting augmented feature/label summaries; no raw arrays"
+      }
+    },
+    {
+      "check": "task_equal_source_normalization_zero_support",
+      "status": "PASS",
+      "details": {
+        "equal_task_RMS": true,
+        "zero_source_target_suppression": true
+      }
+    },
+    {
+      "check": "persistent_signal_bounded_interaction_unitfloor",
+      "status": "PASS",
+      "details": {
+        "ordinary_column_retained": true,
+        "bounded": true,
+        "gate_extremes": [
+          -1000000.0,
+          1000000.0
+        ],
+        "unit_floor_exact": true
+      }
+    },
+    {
+      "check": "hidden_labels_reproducibility_and_scorer_independence",
+      "status": "PASS",
+      "details": {
+        "hidden_label_intervention": true,
+        "repeat_exact": true,
+        "rho_independent_scoring_models": true,
+        "synthetic_policy_calls": 3,
+        "real_policy_calls": 0
+      }
+    },
+    {
+      "check": "none_conditional_joint_buckets_and_adoption",
+      "status": "PASS",
+      "details": {
+        "update_cases": 6,
+        "no_input_mutation": true,
+        "observed_gain_guardrail_and_tie": true
+      }
+    },
+    {
+      "check": "registration_oracle_score_update_nextfit",
+      "status": "PASS",
+      "details": {
+        "order": [
+          "selected, predictions, gain, ref, experts = policy(",
+          "write(reg_path, registration)",
+          "write(folder / 'initial_forecasts.json'",
+          "revealed = oracle[selected['id']]",
+          "reference_scores = ref.log_scores(",
+          "after = update_support(",
+          "write(folder / f'{step:02d}_event.json'",
+          "visible.append(visible_response(revealed))"
+        ],
+        "scope": "AST/source structure; saved real event order pending result audit"
+      }
+    },
+    {
+      "check": "constant_collinear_fit",
+      "status": "PASS",
+      "details": {
+        "constant_collinear_design": true,
+        "predictive_std_floor": 0.01
+      }
+    },
+    {
+      "check": "finite_extreme_source_RMS",
+      "status": "FAIL",
+      "error": "AssertionError('finite source RMS overflow/underflow: [{\\'input\\': 1e+200, \\'expected\\': 1e+200, \\'passed\\': False, \\'error\\': \"OverflowError(34, \\'Result too large\\')\"}, {\\'input\\': 1e-200, \\'actual\\': 0.0, \\'expected\\': 1e-200, \\'passed\\': False}]')",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\31227\\Desktop\\auto_data\\research_runs\\agent_research\\intervention_diagnosis\\20261018_conditional_interactions_r8\\gate_check.py\", line 33, in check\n    CHECKS.append(dict(check=name, status='PASS', details=function()))\n                                                          ~~~~~~~~^^\n  File \"C:\\Users\\31227\\Desktop\\auto_data\\research_runs\\agent_research\\intervention_diagnosis\\20261018_conditional_interactions_r8\\gate_check.py\", line 203, in extreme_source_RMS\n    require(all(r['passed'] for r in observations), 'finite source RMS overflow/underflow: ' + repr(observations))\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\31227\\Desktop\\auto_data\\research_runs\\agent_research\\intervention_diagnosis\\20261018_conditional_interactions_r8\\gate_check.py\", line 23, in require\n    raise AssertionError(message)\nAssertionError: finite source RMS overflow/underflow: [{'input': 1e+200, 'expected': 1e+200, 'passed': False, 'error': \"OverflowError(34, 'Result too large')\"}, {'input': 1e-200, 'actual': 0.0, 'expected': 1e-200, 'passed': False}]\n"
+    }
+  ],
+  "production_script_sha256": "76b57239d70e1ff0c58a3e494176546b51915edd4f5e1af1fb363c5e9fc96e8b",
+  "protocol_sha256": "42310de35e8a28893bdd8b0c6a818d31653e686227d908bd1b12ee7e3fd29301",
+  "execution_lock_sha256": "abf4f4981c771e1243606af8a6b50d0c36f1d30f0b7bf23c395d2accc2576529",
+  "checker_sha256": "b26232f644d904548dec6b1ea1208b51a3347317c6ab1027b4fcc26235c4d1b1",
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "real_policy_trajectories_executed": 0,
+  "not_covered": [
+    "saved real snapshots/events/results: awaiting results-ready",
+    "raw arrays, D/test, servers, and external calls: excluded"
+  ]
+}

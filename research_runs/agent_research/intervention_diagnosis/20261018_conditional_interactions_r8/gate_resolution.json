@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "finite_extreme_RMS_correction",
+      "status": "PASS",
+      "details": [
+        {
+          "input_magnitude": 1e+200,
+          "actual": 1e+200,
+          "expected": 1e+200
+        },
+        {
+          "input_magnitude": 1e-200,
+          "actual": 1e-200,
+          "expected": 1e-200
+        }
+      ]
+    },
+    {
+      "check": "all_16_source_RMS",
+      "status": "PASS",
+      "details": [
+        {
+          "source": "ETT",
+          "name": "aligned_level_shift",
+          "locked": 0.03519492354000929,
+          "independent": 0.03519492354000929
+        },
+        {
+          "source": "ETT",
+          "name": "aligned_variance_shift",
+          "locked": 0.043530229371337055,
+          "independent": 0.04353022937133705
+        },
+        {
+          "source": "ETT",
+          "name": "aligned_roughness_shift",
+          "locked": 0.005992125821418542,
+          "independent": 0.005992125821418541
+        },
+        {
+          "source": "ETT",
+          "name": "optimizer_exposure_interaction",
+          "locked": 0.17677669591572767,
+          "independent": 0.17677669591572767
+        },
+        {
+          "source": "ETT",
+          "name": "mismatch_measurement_0",
+          "locked": 0.007241731054256209,
+          "independent": 0.007241731054256208
+        },
+        {
+          "source": "ETT",
+          "name": "mismatch_measurement_1",
+          "locked": 0.0051206771359937715,
+          "independent": 0.0051206771359937715
+        },
+        {
+          "source": "ETT",
+          "name": "ordinary_measurement_0",
+          "locked": 0.016555120451159477,
+          "independent": 0.016555120451159474
+        },
+        {
+          "source": "ETT",
+          "name": "ordinary_measurement_1",
+          "locked": 0.06457446944923136,
+          "independent": 0.06457446944923136
+        },
+        {
+          "source": "Hydraulic",
+          "name": "aligned_level_shift",
+          "locked": 0.9227576009131983,
+          "independent": 0.9227576009131984
+        },
+        {
+          "source": "Hydraulic",
+          "name": "aligned_variance_shift",
+          "locked": 0.018887650952058823,
+          "independent": 0.018887650952058823
+        },
+        {
+          "source": "Hydraulic",
+          "name": "aligned_roughness_shift",
+          "locked": 0.0031779536054446457,
+          "independent": 0.0031779536054446457
+        },
+        {
+          "source": "Hydraulic",
+          "name": "optimizer_exposure_interaction",
+          "locked": 0.5153882032022076,
+          "independent": 0.5153882032022077
+        },
+        {
+          "source": "Hydraulic",
+          "name": "mismatch_measurement_0",
+          "locked": 0.04099626215059424,
+          "independent": 0.04099626215059424
+        },
+        {
+          "source": "Hydraulic",
+          "name": "mismatch_measurement_1",
+          "locked": 0.40016649131833093,
+          "independent": 0.40016649131833093
+        },
+        {
+          "source": "Hydraulic",
+          "name": "ordinary_measurement_0",
+          "locked": 0.09623695737819103,
+          "independent": 0.09623695737819105
+        },
+        {
+          "source": "Hydraulic",
+          "name": "ordinary_measurement_1",
+          "locked": 0.37012355841251554,
+          "independent": 0.37012355841251554
+        }
+      ]
+    },
+    {
+      "check": "revised_code_lock_and_retained_failure",
+      "status": "PASS",
+      "details": {
+        "current_source_sha256": "bf56145e8427103087508948e921f8130d156bdcb8712fc6d4adf76447ea800f",
+        "old_lock_sha256": "abf4f4981c771e1243606af8a6b50d0c36f1d30f0b7bf23c395d2accc2576529",
+        "first_gate_sha256": "2a41ada14ca07e583ebe7943defb2f4d1a56512e18c2574a85a6735af1b90789",
+        "scripts_verified": 6
+      }
+    }
+  ],
+  "execution_lock_sha256": "8830b6e0f21835feed38411b01f6642f391e53895c5c37af7f7e5bb1339cdf8f",
+  "checker_sha256": "45ba07b659f07e520551af4396664b07479a527cf29c4a7aa6ca3c1f85c9868e",
+  "scope": "RMS correction only; prior seven passing gates not repeated",
+  "real_policy_trajectories_executed": 0,
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0
+}
