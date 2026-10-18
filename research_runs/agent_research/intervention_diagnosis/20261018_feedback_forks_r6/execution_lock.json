@@ -1,0 +1,56 @@
+{
+  "scripts": {
+    "feedback_forks.py": "8ca174f7389256c02b629540168752023804ba5bd5427a99afc099306b7a169b",
+    "replay_window_signals.py": "dc3a39786f8b0c8b479cd3c5b578a308225c37b7417a2d6240cbc6acdbd1d704",
+    "conditional_diagnosis.py": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee",
+    "diagnosis_pool_features.py": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5",
+    "replay_conditional_diagnosis.py": "5a1f5f4ba5d43db7ac86b7f58e7de189bd4b961f161f48d5312554ff8c52be7a",
+    "window_measurement_dsl.py": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878",
+    "parent_measurement_tables.py": "dd522c6f3821fcca2486f24c779bcf598b8290b95c917b6173ec22bf87b9cf08"
+  },
+  "protocol_sha256": "f354155f3981d09a0714912cf45870d051e9bda172626717324e5d28554ea6d9",
+  "prefixes_sha256": "be9e6ce16b128cd3f787d56100a8a710ebc9673fbc9a373a439616a8c33bdbb3",
+  "pools": {
+    "ETT": "91c2365172a39e824a5dadd448b41977fd174a3da0016536316c403970dc934c",
+    "Hydraulic": "18807f4fb17f15a0acd0fbb806bba98d5b7975c163a6421b853c03cf5aba8ce5"
+  },
+  "definitions": {
+    "ETT": "1f2381073d7afe4977937355956de2afe247aa80057dc9f85204f9bdb1a83f21",
+    "Hydraulic": "4b6c1e783601f14140a7f9dc8852c45f3b8c05d05a4c22611d03123fa1033e5e"
+  },
+  "methods": [
+    "original_quadratic",
+    "mismatch_conditional",
+    "mismatch_joint"
+  ],
+  "branches": [
+    "full",
+    "global_only",
+    "hidden_current"
+  ],
+  "tasks": [
+    [
+      "ETT",
+      "ETTh1"
+    ],
+    [
+      "ETT",
+      "ETTh2"
+    ],
+    [
+      "Hydraulic",
+      "G1"
+    ],
+    [
+      "Hydraulic",
+      "G2"
+    ],
+    [
+      "Hydraulic",
+      "G3"
+    ]
+  ],
+  "queries": 4,
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0
+}

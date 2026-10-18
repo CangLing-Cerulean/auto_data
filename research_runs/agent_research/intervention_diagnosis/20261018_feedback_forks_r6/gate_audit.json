@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "full_fit_matches_r4",
+      "status": "PASS",
+      "details": {
+        "model_components": 16,
+        "exact_snapshots": true
+      }
+    },
+    {
+      "check": "partial_head_training_sets",
+      "status": "PASS",
+      "details": {
+        "Y_rows": 26,
+        "Z_rows": 25
+      }
+    },
+    {
+      "check": "prefix_and_hidden_response_perturbations",
+      "status": "PASS",
+      "details": {
+        "prefixes": [
+          {
+            "family": "ETT",
+            "task": "ETTh1",
+            "selected": "ETT:ETTh1:FAVOR_LATE:W"
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh2",
+            "selected": "ETT:ETTh2:FAVOR_LATE:W"
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G1",
+            "selected": "Hydraulic:G1:KEEP_FIRST:S"
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G2",
+            "selected": "Hydraulic:G2:KEEP_FIRST:S"
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G3",
+            "selected": "Hydraulic:G3:KEEP_FIRST:S"
+          }
+        ],
+        "masked_continuation_pairs": 10
+      }
+    },
+    {
+      "check": "scores_and_adoption",
+      "status": "PASS",
+      "details": {
+        "score_cases": 12,
+        "adoption_and_continuation_separate": true
+      }
+    },
+    {
+      "check": "register_reveal_evaluation_and_branch_flow",
+      "status": "PASS",
+      "details": {
+        "registration_line": 105,
+        "reveal_line": 107,
+        "evaluation_line": 115,
+        "branch_state": "local per trajectory",
+        "limitation": "Static dataflow plus local interface perturbations; no full trajectory executed at gate."
+      }
+    }
+  ],
+  "failures": [],
+  "audit_seconds": 0.11986150000302587,
+  "code_sha256": "8ca174f7389256c02b629540168752023804ba5bd5427a99afc099306b7a169b",
+  "auditor_sha256": "4fe83f46c6d00f044915da11c9280d865bb8ec8c44c47d035c7a18c533e20317",
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "full_trajectories_executed": 0,
+  "scope": "Locked-feature pools and local interfaces only; no raw arrays, D/test, server, prepare or run.",
+  "previous_attempt": null
+}
