@@ -1,0 +1,30 @@
+{
+  "status": "FAILED",
+  "checks": [
+    "A_normalization",
+    "A_independent_forward",
+    "B_independent_forward"
+  ],
+  "gaps": [
+    {
+      "part": "A",
+      "absolute": 8.978385648283904e-07,
+      "outside": 0
+    },
+    {
+      "part": "B",
+      "absolute": 1.0662373988168383e-05,
+      "outside": 0
+    },
+    {
+      "part": "C",
+      "absolute": 0.0006894342365058037,
+      "outside": 1
+    }
+  ],
+  "error": "AssertionError('\\nNot equal to tolerance rtol=1e-05, atol=2e-06\\n\\nMismatched elements: 1 / 8880 (0.0113%)\\nMismatch at index:\\n [2, 1, 184]: 1.8048043251037598 (ACTUAL), 1.8047768865401617 (DESIRED)\\nMax absolute difference among violations: 2.74385636e-05\\nMax relative difference among violations: 1.52032995e-05\\n ACTUAL: array([[[ 4.520014e+00, -2.114674e-01,  1.095404e-01, ...,\\n          3.931747e-01, -2.379779e-01,  7.402329e-01],\\n        [ 4.595778e+00,  1.238687e-01, -5.640407e-01, ...,...\\n DESIRED: array([[[ 4.520015e+00, -2.114673e-01,  1.095402e-01, ...,\\n          3.931748e-01, -2.379779e-01,  7.402327e-01],\\n        [ 4.595778e+00,  1.238686e-01, -5.640410e-01, ...,...')",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 33, in <module>\n  File \"/opt/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 1768, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/opt/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 983, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=1e-05, atol=2e-06\n\nMismatched elements: 1 / 8880 (0.0113%)\nMismatch at index:\n [2, 1, 184]: 1.8048043251037598 (ACTUAL), 1.8047768865401617 (DESIRED)\nMax absolute difference among violations: 2.74385636e-05\nMax relative difference among violations: 1.52032995e-05\n ACTUAL: array([[[ 4.520014e+00, -2.114674e-01,  1.095404e-01, ...,\n          3.931747e-01, -2.379779e-01,  7.402329e-01],\n        [ 4.595778e+00,  1.238687e-01, -5.640407e-01, ...,...\n DESIRED: array([[[ 4.520015e+00, -2.114673e-01,  1.095402e-01, ...,\n          3.931748e-01, -2.379779e-01,  7.402327e-01],\n        [ 4.595778e+00,  1.238686e-01, -5.640410e-01, ...,...\n",
+  "optimizer_updates": 0,
+  "new_full_trainings": 0,
+  "D_accessed": false
+}

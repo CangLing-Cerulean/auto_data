@@ -1,0 +1,36 @@
+{
+  "status": "PASS_supplementary_operand_roundoff_bound",
+  "records": [
+    {
+      "part": "A",
+      "values": 8880,
+      "fixed_output_tolerance_failures": 0,
+      "maximum_absolute_gap": 8.978385648283904e-07,
+      "maximum_gap_over_bound": 0.49102867645078185,
+      "maximum_float64_gap": 8.881784197001252e-16
+    },
+    {
+      "part": "B",
+      "values": 8880,
+      "fixed_output_tolerance_failures": 0,
+      "maximum_absolute_gap": 1.0662373988168383e-05,
+      "maximum_gap_over_bound": 0.49102867645078185,
+      "maximum_float64_gap": 7.105427357601002e-15
+    },
+    {
+      "part": "C",
+      "values": 8880,
+      "fixed_output_tolerance_failures": 1,
+      "maximum_absolute_gap": 0.0006894342365058037,
+      "maximum_gap_over_bound": 0.49102867645078185,
+      "maximum_float64_gap": 9.094947017729282e-13
+    }
+  ],
+  "original_fixed_output_tolerance_passed": false,
+  "training_code_changed": false,
+  "arrays_changed": false,
+  "optimizer_updates": 0,
+  "new_full_trainings": 0,
+  "D_accessed": false,
+  "roundoff_code_sha256": "b563861b6c4f9f5734a5ef52add866dd8700e24a8a30b386872661c8e63d0d56"
+}

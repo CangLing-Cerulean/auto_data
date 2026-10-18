@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-18T10:36:30.012940+00:00",
+  "arrays_sha256": "5e7e4cd5ff01004150114c1f05cd8c4111571369a4fcd62749d831d630040c00",
+  "data_summary_sha256": "cfb547e45d3567844d0578625056493d940ce53b1e6bc8998a914fcb35bbeaa9",
+  "source_sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b",
+  "source_index_sha256": "95f5b9b76f50b30ab79b83117095a8a72cc93037ec80b610a37177f40cd7b32c",
+  "execution_lock_sha256": "2f1fa27114adb8aed30bc879b0dd28ea1acf8fe37f258057e0cda1e3540e9590",
+  "source_publication_receipt_sha256": "fd94c63adbd1d2fc7a698a37bf29f61bae84c5858e2c28f4638ae05c6e52a8f4",
+  "source_commit": "9baae9fc3e5fee64058e57ec0d41fba97de29a6b",
+  "source_tree": "56b97e83f9ff09c071832c1f889cfc94c3bbb292",
+  "shapes": {
+    "A": [
+      11520,
+      370
+    ],
+    "B": [
+      2880,
+      370
+    ],
+    "C": [
+      2880,
+      370
+    ]
+  },
+  "dtype": "float32",
+  "normalization_dtype": "float64",
+  "normalization_fit": "A",
+  "std_ddof": 0,
+  "source_row_starts": {
+    "A": 70176,
+    "B": 81696,
+    "C": 84576
+  },
+  "source_row_stops": {
+    "A": 81696,
+    "B": 84576,
+    "C": 87456
+  },
+  "windows_expanded": false,
+  "D_values_decoded": false,
+  "D_values_parsed": false,
+  "seconds": {
+    "lock_and_source_hash": 0.792508499995165,
+    "total": 2.2822558999978355
+  }
+}
