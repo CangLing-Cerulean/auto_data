@@ -1,0 +1,1734 @@
+{
+  "registry": [
+    {
+      "id": "q1",
+      "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))",
+      "meaning": "Per-window average across channels of log-transformed mean squared successive input changes.",
+      "expected_information": "Whether input roughness varies enough across windows to support a bounded reweighting experiment, and how its distribution differs across A, B, and C."
+    },
+    {
+      "id": "q2",
+      "expression": "mean_channels(log1p_abs(square(mean_time(x))))",
+      "meaning": "Per-window average across channels of log-transformed squared temporal input means.",
+      "expected_information": "Whether sustained input levels provide window variation and parent B error associations distinct from q1's successive-change roughness."
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))",
+          "meaning": "Per-window average across channels of log-transformed mean squared successive input changes.",
+          "expected_information": "Whether input roughness varies enough across windows to support a bounded reweighting experiment, and how its distribution differs across A, B, and C."
+        },
+        "reasoning": "No recipe outcomes have been observed. This measurement provides an input-derived candidate for testing whether emphasizing windows with larger temporal changes improves prediction; its usefulness remains unestablished."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": 7.921737668956783e-17,
+              "std": 0.9999999999999999,
+              "quantiles": [
+                -1.9483230575786148,
+                -0.8620284945531689,
+                -0.4506975848706863,
+                -0.14841489125214105,
+                0.31867295885594554,
+                0.9643502080112349,
+                13.710170218107164
+              ]
+            },
+            "B": {
+              "mean": 0.2631936983521291,
+              "std": 0.6263589699951775,
+              "quantiles": [
+                -1.362495520626088,
+                -0.44626151057480506,
+                -0.1728049846712835,
+                0.1775037721178438,
+                0.6117381527807764,
+                1.2094657054766382,
+                2.2439625845065234
+              ]
+            },
+            "parent_B_error_correlation": 0.15313346615971007,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.1518455004178905
+              },
+              {
+                "count": 710,
+                "mse": 4.057436473466431
+              },
+              {
+                "count": 710,
+                "mse": 4.2525166101344425
+              },
+              {
+                "count": 711,
+                "mse": 3.2544667799320948
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.08163411732747372,
+            "std": 0.020351617271286513,
+            "scale": 0.020351617271286513,
+            "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+          }
+        },
+        "seconds": 1.4089613892138004
+      },
+      "decision": {
+        "mode": "W",
+        "weight_expression": "1 + 0.5 * tanh(q1)",
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "horizons": [
+            0,
+            4
+          ]
+        },
+        "diagnostic_claim": "Exploratory hypothesis: bounded emphasis on rougher input windows preferentially improves horizons 0 and 4, yielding positive Z after accounting for observed Y through the frozen joint forecast.",
+        "falsifying_response": "Adverse conditional evidence is Z below 0.004 + 0.3*(0.06/0.04)*(Y-0.002) by more than 1.645*0.06*sqrt(1-0.3*0.3). Global improvement alone does not support the diagnosis.",
+        "forecast": {
+          "mean_y": 0.002,
+          "mean_z": 0.004,
+          "std_y": 0.04,
+          "std_z": 0.06,
+          "rho": 0.3
+        },
+        "reasoning": "Recorded B roughness/error correlation is 0.1531, but quartile errors are nonmonotonic; this motivates only mild emphasis. Raw weights remain between 0.5 and 1.5, guaranteeing all A windows positive and normalized maximum at most 3. Horizons 0 and 4 have the largest supplied parent B MSEs; their preferential response remains untested. The target and complement are nonempty by construction. Forecast values are prospective judgments, not observations."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "fa4310049dd55f19db204fc7264a5b3cfec449b74ebc1f4f0596642ceacff036",
+        "run": "R_fa4310049dd55f19db204fc7264a5b3cfec449b74ebc1f4f0596642ceacff036",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.9376473453899523,
+            1.0,
+            0.5626809183737098,
+            0.25
+          ],
+          "parent_B_contrast_by_seed": [
+            0.5400486611998774,
+            1.5938567077768158,
+            -0.22366276381667846
+          ],
+          "p_B": 0.25,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 0.9728111237573223,
+            "raw_max": 1.4999999999987654,
+            "mean": 1.0000000000000002,
+            "max": 1.5419231579150363,
+            "sum_weights": 11481.000000000002,
+            "sum_weights_squared": 12244.475555172869,
+            "squared_sum_weights": 131813361.00000004,
+            "ess": 10765.129172422043
+          },
+          "weights_sha256": "665b6e8539731738aab32ccc5a6c0596441bde461585d59a15777bfd470081f1",
+          "recipe_identity": "fa4310049dd55f19db204fc7264a5b3cfec449b74ebc1f4f0596642ceacff036",
+          "fit_A": {
+            "q1": {
+              "mean": 0.08163411732747372,
+              "std": 0.020351617271286513,
+              "scale": 0.020351617271286513,
+              "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+            }
+          },
+          "p_C": 0.25,
+          "target_sha256": "5baf9adb8cb5f9a4212d3656083cd5f1da8bd49868c0919759143a10302b75e4",
+          "reference_forecast": {
+            "n": 0,
+            "df": 2,
+            "loc": [
+              0.0,
+              0.0
+            ],
+            "scale": [
+              [
+                2.629146180109353,
+                0.0
+              ],
+              [
+                0.0,
+                2.629146180109353
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "M": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0
+                ]
+              ],
+              "nu": 3
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": 3.0570804937120215e-08,
+            "Z": -5.9240899583900665e-08,
+            "target_gain": -1.3859869892821706e-08,
+            "complement_gain": 4.5381029691078955e-08,
+            "NMAE_gain": 0.0005358752549396995,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "77f525aedeb34435c1a04d6e661e44f042e2d9a7f6ab246fce4844e68e4e168b"
+          },
+          {
+            "seed": 18432,
+            "Y": 4.2022737114453663e-08,
+            "Z": -7.287947812012298e-08,
+            "target_gain": -1.263687142827057e-08,
+            "complement_gain": 6.024260669185241e-08,
+            "NMAE_gain": 0.0005399122843795512,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "3f96a6d6be6f8719807ea732158f420892e1e6b5e79d3bc27a85a7fa46732729"
+          },
+          {
+            "seed": 18433,
+            "Y": 3.2458310241317614e-08,
+            "Z": -6.545660643984355e-08,
+            "target_gain": -1.6634144710775857e-08,
+            "complement_gain": 4.88224617290677e-08,
+            "NMAE_gain": 0.0005720752816403829,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "753cec2502316a61d88e1860b2a61cab8c6efb542a0c9f93218e19e767fd7888"
+          }
+        ],
+        "Y": 3.50172840976305e-08,
+        "Z": -6.58589947146224e-08,
+        "NMAE_gain": 0.0005492876069865446,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 48.04605197440833,
+        "seconds": 52.21796781849116
+      },
+      "reference_forecast": {
+        "n": 0,
+        "df": 2,
+        "loc": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          [
+            2.629146180109353,
+            0.0
+          ],
+          [
+            0.0,
+            2.629146180109353
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "M": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "Psi": [
+            [
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "nu": 3
+        }
+      },
+      "conditional_evidence": {
+        "log_ratio": 3.2216465874778732,
+        "hypothesis_logpdf": 1.9401607183412513,
+        "reference_logpdf": -1.2814858691366222,
+        "reference_conditional": {
+          "df": 3.0,
+          "loc": 0.0,
+          "scale": 1.7527641200729027
+        },
+        "hypothesis_conditional": {
+          "loc": 0.003100015757777844,
+          "std": 0.057236352085016734
+        }
+      },
+      "diagnostic_version": "7f112de952a75498adeaccfdfd7dceef26e748c84605bb790ae7faa91f647349"
+    },
+    {
+      "round": 2,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "mean_channels(log1p_abs(square(mean_time(x))))",
+          "meaning": "Per-window average across channels of log-transformed squared temporal input means.",
+          "expected_information": "Whether sustained input levels provide window variation and parent B error associations distinct from q1's successive-change roughness."
+        },
+        "reasoning": "Round 1 produced mean Y=3.50172840976305e-08, below the recipe selection threshold. Its conditional Z evidence did not meet the declared adverse criterion, so it does not compel diagnostic revision. This measurement explores a different input property for future weighting; its usefulness and relationship to q1 remain unobserved."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": 7.921737668956783e-17,
+              "std": 0.9999999999999999,
+              "quantiles": [
+                -1.9483230575786148,
+                -0.8620284945531689,
+                -0.4506975848706863,
+                -0.14841489125214105,
+                0.31867295885594554,
+                0.9643502080112349,
+                13.710170218107164
+              ]
+            },
+            "B": {
+              "mean": 0.2631936983521291,
+              "std": 0.6263589699951775,
+              "quantiles": [
+                -1.362495520626088,
+                -0.44626151057480506,
+                -0.1728049846712835,
+                0.1775037721178438,
+                0.6117381527807764,
+                1.2094657054766382,
+                2.2439625845065234
+              ]
+            },
+            "parent_B_error_correlation": 0.15313346615971007,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.1518455004178905
+              },
+              {
+                "count": 710,
+                "mse": 4.057436473466431
+              },
+              {
+                "count": 710,
+                "mse": 4.2525166101344425
+              },
+              {
+                "count": 711,
+                "mse": 3.2544667799320948
+              }
+            ]
+          },
+          "q2": {
+            "A": {
+              "mean": -2.970651625858793e-17,
+              "std": 1.0,
+              "quantiles": [
+                -1.8154437233585834,
+                -1.3099997747254801,
+                -0.810616966202733,
+                -0.056013075996384644,
+                0.7448005822875524,
+                1.4390724711014302,
+                3.047778480978859
+              ]
+            },
+            "B": {
+              "mean": 0.3628266622105315,
+              "std": 1.0441672400380817,
+              "quantiles": [
+                -1.6220300479552652,
+                -0.9714111489951653,
+                -0.5336763984389588,
+                0.3369565083735588,
+                1.206169773149899,
+                1.8620011856251857,
+                2.6738478169371094
+              ]
+            },
+            "parent_B_error_correlation": 0.07114725567732373,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.9468455854611126
+              },
+              {
+                "count": 710,
+                "mse": 3.598690593772992
+              },
+              {
+                "count": 710,
+                "mse": 3.649759833959761
+              },
+              {
+                "count": 711,
+                "mse": 3.520594522949928
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.08163411732747372,
+            "std": 0.020351617271286513,
+            "scale": 0.020351617271286513,
+            "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+          },
+          "q2": {
+            "mean": 0.34994434075055514,
+            "std": 0.13549451380287356,
+            "scale": 0.13549451380287356,
+            "expression": "mean_channels(log1p_abs(square(mean_time(x))))"
+          }
+        },
+        "seconds": 1.5984968040138483
+      },
+      "decision": {
+        "mode": "S",
+        "weight_expression": "1 + 0.5 * tanh(q1)",
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            29
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "diagnostic_claim": "Channel 29 has zero A input mean and standard deviation but the largest supplied parent B channel MSE. Hypothesis: its gain remains negligible under this sampling change, so Z conditional on Y is approximately -370*Y/369. This is a new diagnostic version.",
+        "falsifying_response": "Challenge the diagnosis if abs(Z + 370*Y/369) exceeds 1.645*0.015*sqrt(1-0.6684733514*0.6684733514). Evaluate this conditional discrepancy separately from recipe utility.",
+        "forecast": {
+          "mean_y": 0,
+          "mean_z": 0,
+          "std_y": 0.01,
+          "std_z": 0.015,
+          "rho": -0.6684733514
+        },
+        "reasoning": "Round 1 produced mean Y=3.50172840976305e-8, below the selection threshold. Switching its weights from W to S tests sampling response while holding the weighting function fixed. q2's B error correlation of 0.0711 provides limited motivation for changing weights simultaneously. The previous weight validation guarantees positive weights for all 11481 A windows and normalized maximum below 20. The channel target and complement are nonempty in both partitions. The conditional relationship follows from the supplied gain identity if target gain is negligible; that premise remains untested. Forecast uncertainty is prospective judgment, not a measurement."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "3304dd32b8ec0eab1900ed72d662d36117d3e5ab99e76bf60335f18740f2f1d3",
+        "run": "R_3304dd32b8ec0eab1900ed72d662d36117d3e5ab99e76bf60335f18740f2f1d3",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.9376473453899523,
+            0.0,
+            1.0,
+            0.002702702702702703
+          ],
+          "parent_B_contrast_by_seed": [
+            344.0299591899265,
+            351.00687621363005,
+            339.0468356556032
+          ],
+          "p_B": 0.002702702702702703,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 0.9728111237573223,
+            "raw_max": 1.4999999999987654,
+            "mean": 1.0000000000000002,
+            "max": 1.5419231579150363,
+            "sum_weights": 11481.000000000002,
+            "sum_weights_squared": 12244.475555172869,
+            "squared_sum_weights": 131813361.00000004,
+            "ess": 10765.129172422043
+          },
+          "weights_sha256": "665b6e8539731738aab32ccc5a6c0596441bde461585d59a15777bfd470081f1",
+          "recipe_identity": "3304dd32b8ec0eab1900ed72d662d36117d3e5ab99e76bf60335f18740f2f1d3",
+          "fit_A": {
+            "q1": {
+              "mean": 0.08163411732747372,
+              "std": 0.020351617271286513,
+              "scale": 0.020351617271286513,
+              "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+            },
+            "q2": {
+              "mean": 0.34994434075055514,
+              "std": 0.13549451380287356,
+              "scale": 0.13549451380287356,
+              "expression": "mean_channels(log1p_abs(square(mean_time(x))))"
+            }
+          },
+          "p_C": 0.002702702702702703,
+          "target_sha256": "4ac1729936ea3a406c4e4b4bd6b5bb7f83004084b06982d7a4f64bffdd3a1203",
+          "reference_forecast": {
+            "n": 1,
+            "df": 3,
+            "loc": [
+              2.2925383901698417e-08,
+              -4.311707135833562e-08
+            ],
+            "scale": [
+              [
+                0.8751339815111027,
+                -3.83819800724068e-16
+              ],
+              [
+                -3.83819800724068e-16,
+                0.875133981511103
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  2.0,
+                  1.0,
+                  0.9376473453899523,
+                  1.0,
+                  0.5626809183737098,
+                  0.25
+                ],
+                [
+                  1.0,
+                  2.0,
+                  0.9376473453899523,
+                  1.0,
+                  0.5626809183737098,
+                  0.25
+                ],
+                [
+                  0.9376473453899523,
+                  0.9376473453899523,
+                  1.8791825443168246,
+                  0.9376473453899523,
+                  0.5275962694146894,
+                  0.23441183634748808
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.9376473453899523,
+                  2.0,
+                  0.5626809183737098,
+                  0.25
+                ],
+                [
+                  0.5626809183737098,
+                  0.5626809183737098,
+                  0.5275962694146894,
+                  0.5626809183737098,
+                  1.3166098159018815,
+                  0.14067022959342745
+                ],
+                [
+                  0.25,
+                  0.25,
+                  0.23441183634748808,
+                  0.25,
+                  0.14067022959342745,
+                  1.0625
+                ]
+              ],
+              "M": [
+                [
+                  6.659440308521385e-09,
+                  -1.2524787555152818e-08
+                ],
+                [
+                  6.659440308521384e-09,
+                  -1.2524787555152816e-08
+                ],
+                [
+                  6.244206527067921e-09,
+                  -1.1743833802662156e-08
+                ],
+                [
+                  6.659440308521385e-09,
+                  -1.252478755515282e-08
+                ],
+                [
+                  3.747139988653714e-09,
+                  -7.047458963969e-09
+                ],
+                [
+                  1.664860077130346e-09,
+                  -3.1311968887882045e-09
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0000000000000004,
+                  -4.3858404408125332e-16
+                ],
+                [
+                  -4.3858404408125332e-16,
+                  1.0000000000000009
+                ]
+              ],
+              "nu": 4
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": 8.672156541073702e-08,
+            "Z": -8.695003917628009e-08,
+            "target_gain": 6.526199231773408e-12,
+            "complement_gain": 8.695656537551187e-08,
+            "NMAE_gain": 0.00034374465889353,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "6207cb377daa59094d90a73bce4eb1d111f213135f9e1f4b8733db6e6ce0f2e6"
+          },
+          {
+            "seed": 18432,
+            "Y": 2.8393219024671322e-08,
+            "Z": -2.8473856537451326e-08,
+            "target_gain": -3.6810365534197814e-12,
+            "complement_gain": 2.8470175500897905e-08,
+            "NMAE_gain": 0.00027169629606682566,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "10b2a816baccb312d1dbb35c28ed914c8c39d4c0e44d0ae0521c614ac46471a0"
+          },
+          {
+            "seed": 18433,
+            "Y": -2.824840749030729e-07,
+            "Z": 2.83240106298756e-07,
+            "target_gain": -9.482149214541752e-12,
+            "complement_gain": -2.832495884479705e-07,
+            "NMAE_gain": -0.0005170514198331588,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "9714bdd5c3f72ce1f8deb7d8059759528fdcb961c5521f882354468cac239aee"
+          }
+        ],
+        "Y": -5.5789763489221513e-08,
+        "Z": 5.593873686167486e-08,
+        "NMAE_gain": 3.279651170906561e-05,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 42.58471189625561,
+        "seconds": 46.8067695312202
+      },
+      "reference_forecast": {
+        "n": 1,
+        "df": 3,
+        "loc": [
+          2.2925383901698417e-08,
+          -4.311707135833562e-08
+        ],
+        "scale": [
+          [
+            0.8751339815111027,
+            -3.83819800724068e-16
+          ],
+          [
+            -3.83819800724068e-16,
+            0.875133981511103
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              2.0,
+              1.0,
+              0.9376473453899523,
+              1.0,
+              0.5626809183737098,
+              0.25
+            ],
+            [
+              1.0,
+              2.0,
+              0.9376473453899523,
+              1.0,
+              0.5626809183737098,
+              0.25
+            ],
+            [
+              0.9376473453899523,
+              0.9376473453899523,
+              1.8791825443168246,
+              0.9376473453899523,
+              0.5275962694146894,
+              0.23441183634748808
+            ],
+            [
+              1.0,
+              1.0,
+              0.9376473453899523,
+              2.0,
+              0.5626809183737098,
+              0.25
+            ],
+            [
+              0.5626809183737098,
+              0.5626809183737098,
+              0.5275962694146894,
+              0.5626809183737098,
+              1.3166098159018815,
+              0.14067022959342745
+            ],
+            [
+              0.25,
+              0.25,
+              0.23441183634748808,
+              0.25,
+              0.14067022959342745,
+              1.0625
+            ]
+          ],
+          "M": [
+            [
+              6.659440308521385e-09,
+              -1.2524787555152818e-08
+            ],
+            [
+              6.659440308521384e-09,
+              -1.2524787555152816e-08
+            ],
+            [
+              6.244206527067921e-09,
+              -1.1743833802662156e-08
+            ],
+            [
+              6.659440308521385e-09,
+              -1.252478755515282e-08
+            ],
+            [
+              3.747139988653714e-09,
+              -7.047458963969e-09
+            ],
+            [
+              1.664860077130346e-09,
+              -3.1311968887882045e-09
+            ]
+          ],
+          "Psi": [
+            [
+              1.0000000000000004,
+              -4.3858404408125332e-16
+            ],
+            [
+              -4.3858404408125332e-16,
+              1.0000000000000009
+            ]
+          ],
+          "nu": 4
+        }
+      },
+      "conditional_evidence": {
+        "log_ratio": 4.347134638732872,
+        "hypothesis_logpdf": 3.576835563256768,
+        "reference_logpdf": -0.7702990754761043,
+        "reference_conditional": {
+          "df": 4.0,
+          "loc": -4.311707135833559e-08,
+          "scale": 0.6563504861333288
+        },
+        "hypothesis_conditional": {
+          "loc": 5.594095526017988e-08,
+          "std": 0.011156041419576736
+        }
+      },
+      "diagnostic_version": "4d7b990c37aa70b5d76c763b74e17efc671b5ba739aa9d900570e393b15ae6bb",
+      "recommendation": "PARENT"
+    }
+  ],
+  "reference_history": [
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.9376473453899523,
+        1.0,
+        0.5626809183737098,
+        0.25
+      ],
+      "y": [
+        3.50172840976305e-08,
+        -6.58589947146224e-08
+      ]
+    },
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.9376473453899523,
+        0.0,
+        1.0,
+        0.002702702702702703
+      ],
+      "y": [
+        -5.5789763489221513e-08,
+        5.593873686167486e-08
+      ]
+    }
+  ],
+  "diagnostic_ledger": {
+    "7f112de952a75498adeaccfdfd7dceef26e748c84605bb790ae7faa91f647349": {
+      "definition": {
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "horizons": [
+            0,
+            4
+          ]
+        },
+        "claim": "Exploratory hypothesis: bounded emphasis on rougher input windows preferentially improves horizons 0 and 4, yielding positive Z after accounting for observed Y through the frozen joint forecast.",
+        "registry": [
+          {
+            "id": "q1",
+            "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+          }
+        ]
+      },
+      "queries": [
+        1
+      ],
+      "sum_log_ratio": 3.2216465874778732
+    },
+    "4d7b990c37aa70b5d76c763b74e17efc671b5ba739aa9d900570e393b15ae6bb": {
+      "definition": {
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            29
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "claim": "Channel 29 has zero A input mean and standard deviation but the largest supplied parent B channel MSE. Hypothesis: its gain remains negligible under this sampling change, so Z conditional on Y is approximately -370*Y/369. This is a new diagnostic version.",
+        "registry": [
+          {
+            "id": "q1",
+            "expression": "mean_channels(log1p_abs(mean_time(square(diff_time(x)))))"
+          },
+          {
+            "id": "q2",
+            "expression": "mean_channels(log1p_abs(square(mean_time(x))))"
+          }
+        ]
+      },
+      "queries": [
+        2
+      ],
+      "sum_log_ratio": 4.347134638732872
+    }
+  }
+}

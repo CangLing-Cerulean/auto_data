@@ -1,0 +1,2787 @@
+{
+  "registry": [
+    {
+      "id": "q1",
+      "expression": "mean_channels(mean_time(tanh(x)))",
+      "meaning": "Window-level average of bounded input values across all times and channels, retaining zero inputs.",
+      "expected_information": "Its variation in A and distribution across partitions will indicate whether it can distinguish input-level regimes for a weighting experiment."
+    },
+    {
+      "id": "q2",
+      "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))",
+      "meaning": "Window-level average across channels of mean squared adjacent-time change scaled by one plus mean squared input level.",
+      "expected_information": "Measure variation and partition shifts in relative temporal roughness, and its association with parent B error, to inform a different weighting experiment."
+    },
+    {
+      "id": "q3",
+      "expression": "log1p_abs(mean_channels(mean_time(square(x))))",
+      "meaning": "Log-transformed window mean squared input magnitude across all times and channels, retaining zeros.",
+      "expected_information": "Determine its A variation, B distribution shift, and association with parent B error before choosing a magnitude-based weighting experiment."
+    },
+    {
+      "id": "q4",
+      "expression": "mean_channels(mean_time(square(tanh(x))))",
+      "meaning": "Window mean squared bounded input value across all times and channels, retaining zeros.",
+      "expected_information": "Measure A variation, B distribution shift, and association with parent B error when each input's magnitude contribution is bounded."
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "mean_channels(mean_time(tanh(x)))",
+          "meaning": "Window-level average of bounded input values across all times and channels, retaining zero inputs.",
+          "expected_information": "Its variation in A and distribution across partitions will indicate whether it can distinguish input-level regimes for a weighting experiment."
+        },
+        "reasoning": "The supplied B input means show shifts across multiple channels. This measurement provides a bounded window-level summary to investigate those shifts; no benefit from weighting has yet been observed."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": -1.9804344172391957e-17,
+              "std": 1.0,
+              "quantiles": [
+                -1.8631837610606556,
+                -1.4981065590129454,
+                -0.9470830071400214,
+                0.21801402964017322,
+                0.8879701091614587,
+                1.1790046200954203,
+                1.7126119088283174
+              ]
+            },
+            "B": {
+              "mean": -0.17147665436724943,
+              "std": 0.9117340006963645,
+              "quantiles": [
+                -1.8278190900482543,
+                -1.564391514040804,
+                -1.030205276483274,
+                0.029390633499826055,
+                0.6597668553580086,
+                0.8936826636122656,
+                1.1160026110912313
+              ]
+            },
+            "parent_B_error_correlation": 0.2563563915565771,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.7205812882677227
+              },
+              {
+                "count": 710,
+                "mse": 3.034658092666044
+              },
+              {
+                "count": 710,
+                "mse": 3.2031609321443897
+              },
+              {
+                "count": 711,
+                "mse": 4.755750566666035
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.003429540044078845,
+            "std": 0.33548720210791966,
+            "scale": 0.33548720210791966,
+            "expression": "mean_channels(mean_time(tanh(x)))"
+          }
+        },
+        "seconds": 1.0506514823064208
+      },
+      "decision": {
+        "mode": "S",
+        "weight_expression": "1 + 0.75 * tanh(q1)",
+        "target": {
+          "window_expression": "q1 > 0",
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "diagnostic_claim": "Increasing sampling weight with q1 will produce positive mean global gain Y and greater gain on q1 > 0 windows than on their complement, Z > 0.",
+        "falsifying_response": "A three-seed mean Y <= 0 or Z <= 0 would challenge the claim; deterioration on the emphasized target would particularly challenge the weighting direction.",
+        "forecast": {
+          "mean_y": 0.01,
+          "mean_z": 0.02,
+          "std_y": 0.08,
+          "std_z": 0.12,
+          "rho": 0.3
+        },
+        "reasoning": "Reported B error increases across q1 quartiles, with correlation 0.2564. This motivates testing increased sampling of higher-q1 windows, without establishing that their errors are reducible. Bounded weights retain every A window and guarantee a normalized maximum below 7. No recipe outcomes yet support an improvement estimate; the forecast is a tentative experimental judgment."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "99bca813cf596138ab6e4b0d9a8d58493ed1d95ad1b1b0e11a7d0017f66b99ea",
+        "run": "R_99bca813cf596138ab6e4b0d9a8d58493ed1d95ad1b1b0e11a7d0017f66b99ea",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.7985297219764873,
+            0.0,
+            0.3116601140991552,
+            0.5082717353044702
+          ],
+          "parent_B_contrast_by_seed": [
+            0.3096602182450837,
+            0.2626518008255913,
+            0.39483719155401614
+          ],
+          "p_B": 0.5082717353044702,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 1.0283959256680086,
+            "raw_max": 1.7027254143591712,
+            "mean": 1.0,
+            "max": 1.6557099963743465,
+            "sum_weights": 11481.0,
+            "sum_weights_squared": 14377.67397258891,
+            "squared_sum_weights": 131813361.0,
+            "ess": 9167.919738012051
+          },
+          "weights_sha256": "01a1701694b46a77c7888fe2f3ddbe8babba5722846597573bf3695e492c9b8a",
+          "recipe_identity": "99bca813cf596138ab6e4b0d9a8d58493ed1d95ad1b1b0e11a7d0017f66b99ea",
+          "fit_A": {
+            "q1": {
+              "mean": 0.003429540044078845,
+              "std": 0.33548720210791966,
+              "scale": 0.33548720210791966,
+              "expression": "mean_channels(mean_time(tanh(x)))"
+            }
+          },
+          "p_C": 0.5607180570221753,
+          "target_sha256": "4725e98437ba5af1b1e68a30cb7a9116adae7ca35631768e25fec7e4dd62a320",
+          "reference_forecast": {
+            "n": 0,
+            "df": 2,
+            "loc": [
+              0.0,
+              0.0
+            ],
+            "scale": [
+              [
+                1.9965609502547812,
+                0.0
+              ],
+              [
+                0.0,
+                1.9965609502547812
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "M": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0
+                ]
+              ],
+              "nu": 3
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": -8.255409685373638e-07,
+            "Z": 4.162371886890367e-06,
+            "target_gain": 1.0029138411848377e-06,
+            "complement_gain": -3.15945804570553e-06,
+            "NMAE_gain": -0.002276151601534826,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "ed4b7e1527de4657633c82843f1c5a667b89918f61b997ddd2ec07a375875699"
+          },
+          {
+            "seed": 18432,
+            "Y": -6.682158896777951e-07,
+            "Z": 3.8012776843301907e-06,
+            "target_gain": 1.0016167573159757e-06,
+            "complement_gain": -2.799660927014215e-06,
+            "NMAE_gain": -0.0014672833361228932,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "2ce298a630dc991b11004d66b52610e437a12c3190336b816fda516b14d97d30"
+          },
+          {
+            "seed": 18433,
+            "Y": -1.0404051687284826e-06,
+            "Z": 3.8048222848951825e-06,
+            "target_gain": 6.309845572063073e-07,
+            "complement_gain": -3.173837727688875e-06,
+            "NMAE_gain": -0.0025183505652712768,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "8da00bcffcacafc61fdefeb6775b31fffd902fbef9a862a98641ee10e1f5a426"
+          }
+        ],
+        "Y": -8.447206756478805e-07,
+        "Z": 3.92282395203858e-06,
+        "NMAE_gain": -0.002087261834309665,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 46.81936409138143,
+        "seconds": 50.7114345850423
+      },
+      "reference_forecast": {
+        "n": 0,
+        "df": 2,
+        "loc": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          [
+            1.9965609502547812,
+            0.0
+          ],
+          [
+            0.0,
+            1.9965609502547812
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "M": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "Psi": [
+            [
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "nu": 3
+        }
+      }
+    },
+    {
+      "round": 2,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))",
+          "meaning": "Window-level average across channels of mean squared adjacent-time change scaled by one plus mean squared input level.",
+          "expected_information": "Measure variation and partition shifts in relative temporal roughness, and its association with parent B error, to inform a different weighting experiment."
+        },
+        "reasoning": "The first recipe produced mean Y=-8.4472e-7 and NMAE gain=-0.0020873, challenging its positive global-gain claim. This measurement examines temporal changes beyond q1's input-level summary. Neither a beneficial weighting direction nor improvement from this measurement has been established."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": -1.9804344172391957e-17,
+              "std": 1.0,
+              "quantiles": [
+                -1.8631837610606556,
+                -1.4981065590129454,
+                -0.9470830071400214,
+                0.21801402964017322,
+                0.8879701091614587,
+                1.1790046200954203,
+                1.7126119088283174
+              ]
+            },
+            "B": {
+              "mean": -0.17147665436724943,
+              "std": 0.9117340006963645,
+              "quantiles": [
+                -1.8278190900482543,
+                -1.564391514040804,
+                -1.030205276483274,
+                0.029390633499826055,
+                0.6597668553580086,
+                0.8936826636122656,
+                1.1160026110912313
+              ]
+            },
+            "parent_B_error_correlation": 0.2563563915565771,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.7205812882677227
+              },
+              {
+                "count": 710,
+                "mse": 3.034658092666044
+              },
+              {
+                "count": 710,
+                "mse": 3.2031609321443897
+              },
+              {
+                "count": 711,
+                "mse": 4.755750566666035
+              }
+            ]
+          },
+          "q2": {
+            "A": {
+              "mean": -2.7230973237038942e-17,
+              "std": 1.0,
+              "quantiles": [
+                -2.0069571100529773,
+                -1.0648566243374014,
+                -0.6717935544248509,
+                -0.14038426223308553,
+                0.505795328786819,
+                1.2836047897545781,
+                9.58574494252237
+              ]
+            },
+            "B": {
+              "mean": -0.031817809468762205,
+              "std": 0.715046861724747,
+              "quantiles": [
+                -1.7147855090896922,
+                -0.9042192081576343,
+                -0.5231457544785365,
+                -0.12109636912986631,
+                0.35735632463914807,
+                1.0466315348706297,
+                2.1259092202372556
+              ]
+            },
+            "parent_B_error_correlation": -0.029684502705206766,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 3.049639237027634
+              },
+              {
+                "count": 710,
+                "mse": 4.037339027575973
+              },
+              {
+                "count": 710,
+                "mse": 3.624298756398178
+              },
+              {
+                "count": 711,
+                "mse": 3.005339226826688
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.003429540044078845,
+            "std": 0.33548720210791966,
+            "scale": 0.33548720210791966,
+            "expression": "mean_channels(mean_time(tanh(x)))"
+          },
+          "q2": {
+            "mean": 0.04763183192374561,
+            "std": 0.011924858114510047,
+            "scale": 0.011924858114510047,
+            "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+          }
+        },
+        "seconds": 1.945732151158154
+      },
+      "decision": {
+        "mode": "S",
+        "weight_expression": "1 - 0.75 * tanh(q1)",
+        "target": {
+          "window_expression": "q1 <= 0",
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "diagnostic_claim": "Reversing the q1 sampling emphasis will produce positive three-seed mean global gain Y and greater gain on q1 <= 0 windows than on their complement, Z > 0.",
+        "falsifying_response": "Three-seed mean Y <= 0 or Z <= 0 would challenge this reversal hypothesis. Negative mean NMAE gain would also challenge its practical value.",
+        "forecast": {
+          "mean_y": 8e-07,
+          "mean_z": 4e-06,
+          "std_y": 3e-06,
+          "std_z": 1e-05,
+          "rho": 0.3
+        },
+        "reasoning": "The first recipe harmed global MSE and NMAE in every seed; its q1 <= 0 complement deteriorated in every seed. Reversing only the weighting direction directly tests whether that deterioration can be reduced. This is a hypothesis, not an observed reversal effect. q2 has weak error correlation and nonmonotonic quartile errors, providing less direct evidence for a weighting direction. All A windows retain positive weights; raw weights lie between 0.25 and 1.75, guaranteeing normalized maximum below 7. The forecast reflects the very small observed global response, with uncertainty for asymmetric reversal effects."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "2520ce0339a767ce73062601a12082f45e65b4fe91ba345f48a92399b2b7a4cc",
+        "run": "R_2520ce0339a767ce73062601a12082f45e65b4fe91ba345f48a92399b2b7a4cc",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.7796307868707538,
+            0.0,
+            -0.3116601140991552,
+            0.4917282646955297
+          ],
+          "parent_B_contrast_by_seed": [
+            -0.3096602182450837,
+            -0.2626518008255913,
+            -0.39483719155401614
+          ],
+          "p_B": 0.4917282646955297,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 0.9716040743319914,
+            "raw_max": 1.7147291066749097,
+            "mean": 1.0,
+            "max": 1.7648434706841265,
+            "sum_weights": 11481.0,
+            "sum_weights_squared": 14726.201419112642,
+            "squared_sum_weights": 131813361.0,
+            "ess": 8950.941064063125
+          },
+          "weights_sha256": "39858feb8bd545a8445e6f0f300d7a4fd1f887cde545e9c9075df7cfd444422c",
+          "recipe_identity": "2520ce0339a767ce73062601a12082f45e65b4fe91ba345f48a92399b2b7a4cc",
+          "fit_A": {
+            "q1": {
+              "mean": 0.003429540044078845,
+              "std": 0.33548720210791966,
+              "scale": 0.33548720210791966,
+              "expression": "mean_channels(mean_time(tanh(x)))"
+            },
+            "q2": {
+              "mean": 0.04763183192374561,
+              "std": 0.011924858114510047,
+              "scale": 0.011924858114510047,
+              "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+            }
+          },
+          "p_C": 0.4392819429778247,
+          "target_sha256": "196a71c36af5c19afd5d41595d094fbe89c3ef64d312cf88207c1c72bb1b8e7e",
+          "reference_forecast": {
+            "n": 1,
+            "df": 3,
+            "loc": [
+              -5.871101020484352e-07,
+              2.72649840023505e-06
+            ],
+            "scale": [
+              [
+                0.6725943623728089,
+                -5.581521435983896e-13
+              ],
+              [
+                -5.581521435983896e-13,
+                0.6725943623752807
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  2.0,
+                  1.0,
+                  0.7985297219764873,
+                  0.0,
+                  0.3116601140991552,
+                  0.5082717353044702
+                ],
+                [
+                  1.0,
+                  2.0,
+                  0.7985297219764873,
+                  0.0,
+                  0.3116601140991552,
+                  0.5082717353044702
+                ],
+                [
+                  0.7985297219764873,
+                  0.7985297219764873,
+                  1.637649716879846,
+                  0.0,
+                  0.24886986426275873,
+                  0.40587008748118536
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.3116601140991552,
+                  0.3116601140991552,
+                  0.24886986426275873,
+                  0.0,
+                  1.0971320267202984,
+                  0.15840802701836681
+                ],
+                [
+                  0.5082717353044702,
+                  0.5082717353044702,
+                  0.40587008748118536,
+                  0.0,
+                  0.15840802701836681,
+                  1.2583401569094175
+                ]
+              ],
+              "M": [
+                [
+                  -2.1154392395085308e-07,
+                  9.823952410613833e-07
+                ],
+                [
+                  -2.1154392395085305e-07,
+                  9.823952410613833e-07
+                ],
+                [
+                  -1.6892411077828983e-07,
+                  7.844717987157706e-07
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  -6.592980347550591e-08,
+                  3.061734129196579e-07
+                ],
+                [
+                  -1.0752179731961697e-07,
+                  4.993237339291226e-07
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0000000000001787,
+                  -8.298495717826341e-13
+                ],
+                [
+                  -8.298495717826341e-13,
+                  1.0000000000038538
+                ]
+              ],
+              "nu": 4
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": -7.834288863551081e-07,
+            "Z": 3.930562753466698e-06,
+            "target_gain": 1.4205086233683495e-06,
+            "complement_gain": -2.5100541300983483e-06,
+            "NMAE_gain": -0.003108840605455576,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "8160c3ab1e62605945663cc3cec163a75151f110858e4edad4308b89657ec54c"
+          },
+          {
+            "seed": 18432,
+            "Y": -2.9766218245931405e-07,
+            "Z": 2.7023711892193664e-06,
+            "target_gain": 1.2176061399855776e-06,
+            "complement_gain": -1.4847650492337886e-06,
+            "NMAE_gain": -0.0013290118672066864,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "38b8b3a63966db77333b1f090f85ca5c0863266531016fcbc3ee638402db79a3"
+          },
+          {
+            "seed": 18433,
+            "Y": -9.000314974493693e-07,
+            "Z": 3.835140943628881e-06,
+            "target_gain": 1.2504012806976154e-06,
+            "complement_gain": -2.584739662931266e-06,
+            "NMAE_gain": -0.0032474292355406664,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "72e4c8d8193973ccbb9e5e3e5fd9223e674128a3c26757aafed659c8fe9a713b"
+          }
+        ],
+        "Y": -6.603741887545971e-07,
+        "Z": 3.489358295438315e-06,
+        "NMAE_gain": -0.002561760569400976,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 31.496268508024514,
+        "seconds": 35.35039433836937
+      },
+      "reference_forecast": {
+        "n": 1,
+        "df": 3,
+        "loc": [
+          -5.871101020484352e-07,
+          2.72649840023505e-06
+        ],
+        "scale": [
+          [
+            0.6725943623728089,
+            -5.581521435983896e-13
+          ],
+          [
+            -5.581521435983896e-13,
+            0.6725943623752807
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              2.0,
+              1.0,
+              0.7985297219764873,
+              0.0,
+              0.3116601140991552,
+              0.5082717353044702
+            ],
+            [
+              1.0,
+              2.0,
+              0.7985297219764873,
+              0.0,
+              0.3116601140991552,
+              0.5082717353044702
+            ],
+            [
+              0.7985297219764873,
+              0.7985297219764873,
+              1.637649716879846,
+              0.0,
+              0.24886986426275873,
+              0.40587008748118536
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3116601140991552,
+              0.3116601140991552,
+              0.24886986426275873,
+              0.0,
+              1.0971320267202984,
+              0.15840802701836681
+            ],
+            [
+              0.5082717353044702,
+              0.5082717353044702,
+              0.40587008748118536,
+              0.0,
+              0.15840802701836681,
+              1.2583401569094175
+            ]
+          ],
+          "M": [
+            [
+              -2.1154392395085308e-07,
+              9.823952410613833e-07
+            ],
+            [
+              -2.1154392395085305e-07,
+              9.823952410613833e-07
+            ],
+            [
+              -1.6892411077828983e-07,
+              7.844717987157706e-07
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -6.592980347550591e-08,
+              3.061734129196579e-07
+            ],
+            [
+              -1.0752179731961697e-07,
+              4.993237339291226e-07
+            ]
+          ],
+          "Psi": [
+            [
+              1.0000000000001787,
+              -8.298495717826341e-13
+            ],
+            [
+              -8.298495717826341e-13,
+              1.0000000000038538
+            ]
+          ],
+          "nu": 4
+        }
+      },
+      "recommendation": "PARENT"
+    },
+    {
+      "round": 3,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "log1p_abs(mean_channels(mean_time(square(x))))",
+          "meaning": "Log-transformed window mean squared input magnitude across all times and channels, retaining zeros.",
+          "expected_information": "Determine its A variation, B distribution shift, and association with parent B error before choosing a magnitude-based weighting experiment."
+        },
+        "reasoning": "Both q1 weighting directions produced negative global and NMAE gains. q2 showed weak error correlation. This measurement examines input magnitude that bounded q1 and relative-change q2 do not directly summarize. Channel 29 has zero A variance yet dominates reported B channel error, so a B error association alone would not establish a useful training-weight direction."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": -1.9804344172391957e-17,
+              "std": 1.0,
+              "quantiles": [
+                -1.8631837610606556,
+                -1.4981065590129454,
+                -0.9470830071400214,
+                0.21801402964017322,
+                0.8879701091614587,
+                1.1790046200954203,
+                1.7126119088283174
+              ]
+            },
+            "B": {
+              "mean": -0.17147665436724943,
+              "std": 0.9117340006963645,
+              "quantiles": [
+                -1.8278190900482543,
+                -1.564391514040804,
+                -1.030205276483274,
+                0.029390633499826055,
+                0.6597668553580086,
+                0.8936826636122656,
+                1.1160026110912313
+              ]
+            },
+            "parent_B_error_correlation": 0.2563563915565771,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.7205812882677227
+              },
+              {
+                "count": 710,
+                "mse": 3.034658092666044
+              },
+              {
+                "count": 710,
+                "mse": 3.2031609321443897
+              },
+              {
+                "count": 711,
+                "mse": 4.755750566666035
+              }
+            ]
+          },
+          "q2": {
+            "A": {
+              "mean": -2.7230973237038942e-17,
+              "std": 1.0,
+              "quantiles": [
+                -2.0069571100529773,
+                -1.0648566243374014,
+                -0.6717935544248509,
+                -0.14038426223308553,
+                0.505795328786819,
+                1.2836047897545781,
+                9.58574494252237
+              ]
+            },
+            "B": {
+              "mean": -0.031817809468762205,
+              "std": 0.715046861724747,
+              "quantiles": [
+                -1.7147855090896922,
+                -0.9042192081576343,
+                -0.5231457544785365,
+                -0.12109636912986631,
+                0.35735632463914807,
+                1.0466315348706297,
+                2.1259092202372556
+              ]
+            },
+            "parent_B_error_correlation": -0.029684502705206766,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 3.049639237027634
+              },
+              {
+                "count": 710,
+                "mse": 4.037339027575973
+              },
+              {
+                "count": 710,
+                "mse": 3.624298756398178
+              },
+              {
+                "count": 711,
+                "mse": 3.005339226826688
+              }
+            ]
+          },
+          "q3": {
+            "A": {
+              "mean": -8.515867994128542e-16,
+              "std": 1.0,
+              "quantiles": [
+                -2.2027963274932767,
+                -1.3502469128002192,
+                -0.8383274254202729,
+                0.08503815688599681,
+                0.7731696356590937,
+                1.1739556039647803,
+                5.664874078395535
+              ]
+            },
+            "B": {
+              "mean": 6.581741407110884,
+              "std": 4.188213574229164,
+              "quantiles": [
+                -1.2006641790549053,
+                0.08398990385789698,
+                1.1835395447448394,
+                7.8289094699461845,
+                9.965273928263695,
+                11.291090603714897,
+                12.312372802923328
+              ]
+            },
+            "parent_B_error_correlation": 0.777378483708877,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 0.24265908175132095
+              },
+              {
+                "count": 710,
+                "mse": 3.609976866444674
+              },
+              {
+                "count": 710,
+                "mse": 5.189394199773033
+              },
+              {
+                "count": 711,
+                "mse": 4.672238354609048
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.003429540044078845,
+            "std": 0.33548720210791966,
+            "scale": 0.33548720210791966,
+            "expression": "mean_channels(mean_time(tanh(x)))"
+          },
+          "q2": {
+            "mean": 0.04763183192374561,
+            "std": 0.011924858114510047,
+            "scale": 0.011924858114510047,
+            "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+          },
+          "q3": {
+            "mean": 0.6400490040668875,
+            "std": 0.10929557035071644,
+            "scale": 0.10929557035071644,
+            "expression": "log1p_abs(mean_channels(mean_time(square(x))))"
+          }
+        },
+        "seconds": 2.2705913987010717
+      },
+      "decision": {
+        "mode": "W",
+        "weight_expression": "1 + 0.9 * tanh(q3)",
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            29
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "diagnostic_claim": "Magnitude-emphasized loss weighting will produce positive three-seed mean Y and nonnegative mean NMAE gain. The declared target separately measures whether channel 29 benefits despite its zero A variance.",
+        "falsifying_response": "Mean Y <= 0 or mean NMAE gain < 0 would challenge the improvement claim. Nonpositive target gain would show that this recipe did not improve the declared channel-29 target.",
+        "forecast": {
+          "mean_y": 1e-06,
+          "mean_z": 0,
+          "std_y": 1e-05,
+          "std_z": 0.004,
+          "rho": 0.2
+        },
+        "reasoning": "Both q1 sampling directions harmed global MSE and NMAE. q3 provides a different experimental direction: its reported B error correlation is 0.7774, and its distribution shifts substantially from A to B. These observations motivate magnitude emphasis but do not establish reducible error. Mode W also changes the training response being tested. Raw weights remain between 0.1 and 1.9, retaining every A window and guaranteeing normalized maximum below 19. Channel 29 has reported zero A variance and unusually large B error; targeting it makes this limitation explicit. The forecast retains a small global response scale because neither previous recipe produced substantial global change, with broader uncertainty for the previously unmeasured channel-specific contrast."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "34381a634ba38183d28a03cf8058632d9bc256bcca51c9e6c1a1359872b1c2f3",
+        "run": "R_34381a634ba38183d28a03cf8058632d9bc256bcca51c9e6c1a1359872b1c2f3",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.7453012430538749,
+            1.0,
+            1.0,
+            0.002702702702702703
+          ],
+          "parent_B_contrast_by_seed": [
+            344.0299591899265,
+            351.00687621363005,
+            339.0468356556032
+          ],
+          "p_B": 0.002702702702702703,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 1.009873345006281,
+            "raw_max": 1.8999783817674998,
+            "mean": 1.0000000000000002,
+            "max": 1.881402644363965,
+            "sum_weights": 11481.000000000002,
+            "sum_weights_squared": 15404.509394022421,
+            "squared_sum_weights": 131813361.00000004,
+            "ess": 8556.803571501538
+          },
+          "weights_sha256": "3fa9c734f0c2c97471e636a1acb06470ec944e3712f4a0eb8c0295fde9e9268a",
+          "recipe_identity": "34381a634ba38183d28a03cf8058632d9bc256bcca51c9e6c1a1359872b1c2f3",
+          "fit_A": {
+            "q1": {
+              "mean": 0.003429540044078845,
+              "std": 0.33548720210791966,
+              "scale": 0.33548720210791966,
+              "expression": "mean_channels(mean_time(tanh(x)))"
+            },
+            "q2": {
+              "mean": 0.04763183192374561,
+              "std": 0.011924858114510047,
+              "scale": 0.011924858114510047,
+              "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+            },
+            "q3": {
+              "mean": 0.6400490040668875,
+              "std": 0.10929557035071644,
+              "scale": 0.10929557035071644,
+              "expression": "log1p_abs(mean_channels(mean_time(square(x))))"
+            }
+          },
+          "p_C": 0.002702702702702703,
+          "target_sha256": "4ac1729936ea3a406c4e4b4bd6b5bb7f83004084b06982d7a4f64bffdd3a1203",
+          "reference_forecast": {
+            "n": 2,
+            "df": 4,
+            "loc": [
+              -6.242646984613765e-07,
+              2.9512879594839913e-06
+            ],
+            "scale": [
+              [
+                0.8516565232764048,
+                -7.303366915850571e-13
+              ],
+              [
+                -7.303366915850578e-13,
+                0.851656523279778
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  3.0,
+                  2.0,
+                  1.5781605088472412,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                [
+                  2.0,
+                  3.0,
+                  1.5781605088472412,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                [
+                  1.5781605088472412,
+                  1.5781605088472412,
+                  2.245473880716557,
+                  0.0,
+                  0.0058900442714054195,
+                  0.7892365814123515
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0058900442714054195,
+                  0.0,
+                  1.1942640534405968,
+                  0.00515593993757842
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.7892365814123515,
+                  0.0,
+                  0.00515593993757842,
+                  1.5001368432098943
+                ]
+              ],
+              "M": [
+                [
+                  -2.2261697298422684e-07,
+                  1.0976930002357933e-06
+                ],
+                [
+                  -2.2261697298422687e-07,
+                  1.0976930002357938e-06
+                ],
+                [
+                  -1.7708006435753048e-07,
+                  8.693953973364156e-07
+                ],
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  -4.6748573285551486e-08,
+                  1.0644948390563985e-07
+                ],
+                [
+                  -1.1254923500816083e-07,
+                  5.51671763648041e-07
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0000000000001814,
+                  -8.575484031702287e-13
+                ],
+                [
+                  -8.575484031702295e-13,
+                  1.0000000000041422
+                ]
+              ],
+              "nu": 5
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": -2.298711929574397e-06,
+            "Z": 2.3050139976950157e-06,
+            "target_gain": 7.23001773814913e-11,
+            "complement_gain": -2.3049416975176342e-06,
+            "NMAE_gain": -0.007889884390257507,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "08876b231ef1b8b8c2e4aa580410e8ebe6afa118a5c2c5c0b81d5178fbedd2c8"
+          },
+          {
+            "seed": 18432,
+            "Y": -1.8436246012761416e-06,
+            "Z": 1.8486189878051844e-06,
+            "target_gain": -1.880845062025555e-12,
+            "complement_gain": -1.8486208686502463e-06,
+            "NMAE_gain": -0.006484716481709896,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "d1f13191a59662c11194cd65e9dee8d0a5de3988cd3c562844330eedc24f86e0"
+          },
+          {
+            "seed": 18433,
+            "Y": -2.205069060455483e-06,
+            "Z": 2.2109463733752155e-06,
+            "target_gain": -9.821783581044288e-11,
+            "complement_gain": -2.211044591211026e-06,
+            "NMAE_gain": -0.007484197505842838,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "e81bf9c1d574ac556ac68c3641dd3f85d214a1d9347c4f1438409f0701e6e236"
+          }
+        ],
+        "Y": -2.1158018637686737e-06,
+        "Z": 2.121526452958472e-06,
+        "NMAE_gain": -0.007286266125936747,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 48.59300209861249,
+        "seconds": 53.88934270199388
+      },
+      "reference_forecast": {
+        "n": 2,
+        "df": 4,
+        "loc": [
+          -6.242646984613765e-07,
+          2.9512879594839913e-06
+        ],
+        "scale": [
+          [
+            0.8516565232764048,
+            -7.303366915850571e-13
+          ],
+          [
+            -7.303366915850578e-13,
+            0.851656523279778
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              3.0,
+              2.0,
+              1.5781605088472412,
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              2.0,
+              3.0,
+              1.5781605088472412,
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              1.5781605088472412,
+              1.5781605088472412,
+              2.245473880716557,
+              0.0,
+              0.0058900442714054195,
+              0.7892365814123515
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0058900442714054195,
+              0.0,
+              1.1942640534405968,
+              0.00515593993757842
+            ],
+            [
+              1.0,
+              1.0,
+              0.7892365814123515,
+              0.0,
+              0.00515593993757842,
+              1.5001368432098943
+            ]
+          ],
+          "M": [
+            [
+              -2.2261697298422684e-07,
+              1.0976930002357933e-06
+            ],
+            [
+              -2.2261697298422687e-07,
+              1.0976930002357938e-06
+            ],
+            [
+              -1.7708006435753048e-07,
+              8.693953973364156e-07
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -4.6748573285551486e-08,
+              1.0644948390563985e-07
+            ],
+            [
+              -1.1254923500816083e-07,
+              5.51671763648041e-07
+            ]
+          ],
+          "Psi": [
+            [
+              1.0000000000001814,
+              -8.575484031702287e-13
+            ],
+            [
+              -8.575484031702295e-13,
+              1.0000000000041422
+            ]
+          ],
+          "nu": 5
+        }
+      }
+    },
+    {
+      "round": 4,
+      "measurement_proposal": {
+        "measurement": {
+          "expression": "mean_channels(mean_time(square(tanh(x))))",
+          "meaning": "Window mean squared bounded input value across all times and channels, retaining zeros.",
+          "expected_information": "Measure A variation, B distribution shift, and association with parent B error when each input's magnitude contribution is bounded."
+        },
+        "reasoning": "All three recipes harmed global MSE and NMAE. Despite q3's strong B error correlation, its weighting produced mean Y=-2.1158e-6. This measurement limits individual input contributions to investigate a different magnitude summary before choosing another recipe; useful weighting behavior remains unestablished."
+      },
+      "measurement_feedback": {
+        "status": "PASS",
+        "measurements": {
+          "q1": {
+            "A": {
+              "mean": -1.9804344172391957e-17,
+              "std": 1.0,
+              "quantiles": [
+                -1.8631837610606556,
+                -1.4981065590129454,
+                -0.9470830071400214,
+                0.21801402964017322,
+                0.8879701091614587,
+                1.1790046200954203,
+                1.7126119088283174
+              ]
+            },
+            "B": {
+              "mean": -0.17147665436724943,
+              "std": 0.9117340006963645,
+              "quantiles": [
+                -1.8278190900482543,
+                -1.564391514040804,
+                -1.030205276483274,
+                0.029390633499826055,
+                0.6597668553580086,
+                0.8936826636122656,
+                1.1160026110912313
+              ]
+            },
+            "parent_B_error_correlation": 0.2563563915565771,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 2.7205812882677227
+              },
+              {
+                "count": 710,
+                "mse": 3.034658092666044
+              },
+              {
+                "count": 710,
+                "mse": 3.2031609321443897
+              },
+              {
+                "count": 711,
+                "mse": 4.755750566666035
+              }
+            ]
+          },
+          "q2": {
+            "A": {
+              "mean": -2.7230973237038942e-17,
+              "std": 1.0,
+              "quantiles": [
+                -2.0069571100529773,
+                -1.0648566243374014,
+                -0.6717935544248509,
+                -0.14038426223308553,
+                0.505795328786819,
+                1.2836047897545781,
+                9.58574494252237
+              ]
+            },
+            "B": {
+              "mean": -0.031817809468762205,
+              "std": 0.715046861724747,
+              "quantiles": [
+                -1.7147855090896922,
+                -0.9042192081576343,
+                -0.5231457544785365,
+                -0.12109636912986631,
+                0.35735632463914807,
+                1.0466315348706297,
+                2.1259092202372556
+              ]
+            },
+            "parent_B_error_correlation": -0.029684502705206766,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 3.049639237027634
+              },
+              {
+                "count": 710,
+                "mse": 4.037339027575973
+              },
+              {
+                "count": 710,
+                "mse": 3.624298756398178
+              },
+              {
+                "count": 711,
+                "mse": 3.005339226826688
+              }
+            ]
+          },
+          "q3": {
+            "A": {
+              "mean": -8.515867994128542e-16,
+              "std": 1.0,
+              "quantiles": [
+                -2.2027963274932767,
+                -1.3502469128002192,
+                -0.8383274254202729,
+                0.08503815688599681,
+                0.7731696356590937,
+                1.1739556039647803,
+                5.664874078395535
+              ]
+            },
+            "B": {
+              "mean": 6.581741407110884,
+              "std": 4.188213574229164,
+              "quantiles": [
+                -1.2006641790549053,
+                0.08398990385789698,
+                1.1835395447448394,
+                7.8289094699461845,
+                9.965273928263695,
+                11.291090603714897,
+                12.312372802923328
+              ]
+            },
+            "parent_B_error_correlation": 0.777378483708877,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 0.24265908175132095
+              },
+              {
+                "count": 710,
+                "mse": 3.609976866444674
+              },
+              {
+                "count": 710,
+                "mse": 5.189394199773033
+              },
+              {
+                "count": 711,
+                "mse": 4.672238354609048
+              }
+            ]
+          },
+          "q4": {
+            "A": {
+              "mean": -1.0892389294815577e-16,
+              "std": 1.0,
+              "quantiles": [
+                -2.2821153553792635,
+                -1.3778724389341523,
+                -0.8212947912932054,
+                0.026929476967088743,
+                0.8218577061524077,
+                1.2839331730962629,
+                2.6363016328311044
+              ]
+            },
+            "B": {
+              "mean": 0.12473175552525008,
+              "std": 0.9734371374888838,
+              "quantiles": [
+                -1.6200841923847857,
+                -1.119382478898972,
+                -0.6240732687914773,
+                0.00754589158548933,
+                0.8162218533601174,
+                1.5988557515139217,
+                2.439463044054471
+              ]
+            },
+            "parent_B_error_correlation": -0.16743924939653093,
+            "parent_B_error_quartiles": [
+              {
+                "count": 710,
+                "mse": 4.032539442335275
+              },
+              {
+                "count": 710,
+                "mse": 3.1275628046328037
+              },
+              {
+                "count": 710,
+                "mse": 3.693212138721275
+              },
+              {
+                "count": 711,
+                "mse": 2.8635016333974703
+              }
+            ]
+          }
+        },
+        "fit_A": {
+          "q1": {
+            "mean": 0.003429540044078845,
+            "std": 0.33548720210791966,
+            "scale": 0.33548720210791966,
+            "expression": "mean_channels(mean_time(tanh(x)))"
+          },
+          "q2": {
+            "mean": 0.04763183192374561,
+            "std": 0.011924858114510047,
+            "scale": 0.011924858114510047,
+            "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+          },
+          "q3": {
+            "mean": 0.6400490040668875,
+            "std": 0.10929557035071644,
+            "scale": 0.10929557035071644,
+            "expression": "log1p_abs(mean_channels(mean_time(square(x))))"
+          },
+          "q4": {
+            "mean": 0.4013250976383868,
+            "std": 0.059223970104866526,
+            "scale": 0.059223970104866526,
+            "expression": "mean_channels(mean_time(square(tanh(x))))"
+          }
+        },
+        "seconds": 3.123723430559039
+      },
+      "decision": {
+        "mode": "W",
+        "weight_expression": "1 - 0.9 * tanh(q3)",
+        "target": {
+          "window_expression": "position >= 0",
+          "channels": [
+            29
+          ],
+          "horizons": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "diagnostic_claim": "Reversing round 3's magnitude weighting will produce mean Y > 0 and mean NMAE gain >= 0. Improvements will favor the complement of channel 29, producing Z < 0.",
+        "falsifying_response": "Mean Y <= 0, mean NMAE gain < 0, or Z >= 0 would challenge the corresponding predictions.",
+        "forecast": {
+          "mean_y": 1e-06,
+          "mean_z": -1e-06,
+          "std_y": 3e-06,
+          "std_z": 3e-06,
+          "rho": -0.95
+        },
+        "reasoning": "Round 3's magnitude emphasis harmed MSE and NMAE in every seed while channel-29 target gains remained near zero. Reversing its weighting direction in the same mode directly tests whether magnitude de-emphasis improves the remaining predictions. q4's negative B error correlation further shows that magnitude associations depend on the summary used; it does not establish a beneficial weighting direction. All windows retain positive weights, and raw weights between 0.1 and 1.9 guarantee normalized maximum below 19. The forecast is tentative; its negative correlation reflects the previously observed near-invariance of the declared target."
+      },
+      "result": {
+        "status": "completed",
+        "recipe_identity": "56382c5716a34d3a525f18772fdc7a0b026e4d58f07b2f94e28a6a437cbf06c7",
+        "run": "R_56382c5716a34d3a525f18772fdc7a0b026e4d58f07b2f94e28a6a437cbf06c7",
+        "prequery": {
+          "x": [
+            1.0,
+            1.0,
+            0.7377317274829873,
+            1.0,
+            1.0,
+            0.002702702702702703
+          ],
+          "parent_B_contrast_by_seed": [
+            344.0299591899265,
+            351.00687621363005,
+            339.0468356556032
+          ],
+          "p_B": 0.002702702702702703,
+          "weight_stats": {
+            "n": 11481,
+            "nonzero": 11481,
+            "raw_mean": 0.990126654993719,
+            "raw_max": 1.8782891019794576,
+            "mean": 1.0,
+            "max": 1.8970190252997208,
+            "sum_weights": 11481.0,
+            "sum_weights_squared": 15562.567763177518,
+            "squared_sum_weights": 131813361.0,
+            "ess": 8469.897963232177
+          },
+          "weights_sha256": "a90a658c9064dac8c72aa4ac4ff1bf38bdee1a560c9882f9c7b73396df7d0fb9",
+          "recipe_identity": "56382c5716a34d3a525f18772fdc7a0b026e4d58f07b2f94e28a6a437cbf06c7",
+          "fit_A": {
+            "q1": {
+              "mean": 0.003429540044078845,
+              "std": 0.33548720210791966,
+              "scale": 0.33548720210791966,
+              "expression": "mean_channels(mean_time(tanh(x)))"
+            },
+            "q2": {
+              "mean": 0.04763183192374561,
+              "std": 0.011924858114510047,
+              "scale": 0.011924858114510047,
+              "expression": "mean_channels(safe_ratio(mean_time(square(diff_time(x))), mean_time(square(x))))"
+            },
+            "q3": {
+              "mean": 0.6400490040668875,
+              "std": 0.10929557035071644,
+              "scale": 0.10929557035071644,
+              "expression": "log1p_abs(mean_channels(mean_time(square(x))))"
+            },
+            "q4": {
+              "mean": 0.4013250976383868,
+              "std": 0.059223970104866526,
+              "scale": 0.059223970104866526,
+              "expression": "mean_channels(mean_time(square(tanh(x))))"
+            }
+          },
+          "p_C": 0.002702702702702703,
+          "target_sha256": "4ac1729936ea3a406c4e4b4bd6b5bb7f83004084b06982d7a4f64bffdd3a1203",
+          "reference_forecast": {
+            "n": 3,
+            "df": 5,
+            "loc": [
+              -1.6761767090401731e-06,
+              2.3587690494828363e-06
+            ],
+            "scale": [
+              [
+                0.3411793205866528,
+                -1.6862804890672117e-13
+              ],
+              [
+                -1.6862804890672062e-13,
+                0.3411793205878504
+              ]
+            ],
+            "posterior": {
+              "K": [
+                [
+                  4.0,
+                  3.0,
+                  2.323461751901116,
+                  1.0,
+                  1.0,
+                  1.0027027027027027
+                ],
+                [
+                  3.0,
+                  4.0,
+                  2.323461751901116,
+                  1.0,
+                  1.0,
+                  1.0027027027027027
+                ],
+                [
+                  2.323461751901116,
+                  2.323461751901116,
+                  2.800947823614208,
+                  0.7453012430538749,
+                  0.7511912873252803,
+                  0.7912509090962809
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.7453012430538749,
+                  2.0,
+                  1.0,
+                  0.002702702702702703
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.7511912873252803,
+                  1.0,
+                  2.194264053440597,
+                  0.007858642640281122
+                ],
+                [
+                  1.0027027027027027,
+                  1.0027027027027027,
+                  0.7912509090962809,
+                  0.002702702702702703,
+                  0.007858642640281122,
+                  1.5001441478117936
+                ]
+              ],
+              "M": [
+                [
+                  -3.250711668618987e-07,
+                  1.040696400862234e-06
+                ],
+                [
+                  -3.250711668618987e-07,
+                  1.0406964008622337e-06
+                ],
+                [
+                  -2.3661046617733407e-07,
+                  8.362778612488103e-07
+                ],
+                [
+                  -4.3783412812053627e-07,
+                  -2.435728148166754e-07
+                ],
+                [
+                  -4.1379610771657036e-07,
+                  -9.774382902009729e-08
+                ],
+                [
+                  5.583613548748387e-08,
+                  6.453467333029458e-07
+                ]
+              ],
+              "Psi": [
+                [
+                  1.0000000000008342,
+                  -4.942504974126462e-13
+                ],
+                [
+                  -4.942504974126446e-13,
+                  1.0000000000043443
+                ]
+              ],
+              "nu": 6
+            }
+          }
+        },
+        "responses": [
+          {
+            "seed": 18431,
+            "Y": -1.568551894457054e-07,
+            "Z": 1.573320188180647e-07,
+            "target_gain": 5.160744641623829e-11,
+            "complement_gain": -1.5728041137164846e-07,
+            "NMAE_gain": 0.0006793930317103847,
+            "parent_residual_sha256": "59b2bc62c0a7414a66e6064768dfb32a3c8bebfd4fec9e73d1b337f5fd0cb58c",
+            "child_residual_sha256": "93d21775276b6fbd94fc03d726924d240621abf7f824491350e09ef7773b0a28"
+          },
+          {
+            "seed": 18432,
+            "Y": -2.841296013082223e-08,
+            "Z": 2.8505938586045126e-08,
+            "target_gain": 1.5935650580021574e-11,
+            "complement_gain": -2.8490002935465106e-08,
+            "NMAE_gain": 0.0013256710045067566,
+            "parent_residual_sha256": "b51563b4e2802a448c449279271e86045d3528daae792eabbdab626a1cd6f22f",
+            "child_residual_sha256": "cfbceb459cb03b9d049c1dd8e260170ee89f7e493e9a6b17cb1213b6ad367c92"
+          },
+          {
+            "seed": 18433,
+            "Y": -3.8997294374659826e-07,
+            "Z": 3.9095532595554775e-07,
+            "target_gain": -7.425394681500422e-11,
+            "complement_gain": -3.9102957990236276e-07,
+            "NMAE_gain": 6.308787966624596e-05,
+            "parent_residual_sha256": "a345c9c96f80b4180ff59a7907ff5c8e25e11331d7a5392beb55de3f2fc683ca",
+            "child_residual_sha256": "3daaf28a04f9b2554efaa9b350854d1ca2cae65d60d02b09d8214cd7021b8d0f"
+          }
+        ],
+        "Y": -1.9174703110770864e-07,
+        "Z": 1.9226442778655254e-07,
+        "NMAE_gain": 0.0006893839719611291,
+        "reused_cross_arm": false,
+        "actual_new_full_trainings": 3,
+        "logical_full_trainings": 3,
+        "logical_training_seconds": 45.51970698777586,
+        "seconds": 51.986241672188044
+      },
+      "reference_forecast": {
+        "n": 3,
+        "df": 5,
+        "loc": [
+          -1.6761767090401731e-06,
+          2.3587690494828363e-06
+        ],
+        "scale": [
+          [
+            0.3411793205866528,
+            -1.6862804890672117e-13
+          ],
+          [
+            -1.6862804890672062e-13,
+            0.3411793205878504
+          ]
+        ],
+        "posterior": {
+          "K": [
+            [
+              4.0,
+              3.0,
+              2.323461751901116,
+              1.0,
+              1.0,
+              1.0027027027027027
+            ],
+            [
+              3.0,
+              4.0,
+              2.323461751901116,
+              1.0,
+              1.0,
+              1.0027027027027027
+            ],
+            [
+              2.323461751901116,
+              2.323461751901116,
+              2.800947823614208,
+              0.7453012430538749,
+              0.7511912873252803,
+              0.7912509090962809
+            ],
+            [
+              1.0,
+              1.0,
+              0.7453012430538749,
+              2.0,
+              1.0,
+              0.002702702702702703
+            ],
+            [
+              1.0,
+              1.0,
+              0.7511912873252803,
+              1.0,
+              2.194264053440597,
+              0.007858642640281122
+            ],
+            [
+              1.0027027027027027,
+              1.0027027027027027,
+              0.7912509090962809,
+              0.002702702702702703,
+              0.007858642640281122,
+              1.5001441478117936
+            ]
+          ],
+          "M": [
+            [
+              -3.250711668618987e-07,
+              1.040696400862234e-06
+            ],
+            [
+              -3.250711668618987e-07,
+              1.0406964008622337e-06
+            ],
+            [
+              -2.3661046617733407e-07,
+              8.362778612488103e-07
+            ],
+            [
+              -4.3783412812053627e-07,
+              -2.435728148166754e-07
+            ],
+            [
+              -4.1379610771657036e-07,
+              -9.774382902009729e-08
+            ],
+            [
+              5.583613548748387e-08,
+              6.453467333029458e-07
+            ]
+          ],
+          "Psi": [
+            [
+              1.0000000000008342,
+              -4.942504974126462e-13
+            ],
+            [
+              -4.942504974126446e-13,
+              1.0000000000043443
+            ]
+          ],
+          "nu": 6
+        }
+      },
+      "recommendation": "PARENT"
+    }
+  ],
+  "reference_history": [
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.7985297219764873,
+        0.0,
+        0.3116601140991552,
+        0.5082717353044702
+      ],
+      "y": [
+        -8.447206756478805e-07,
+        3.92282395203858e-06
+      ]
+    },
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.7796307868707538,
+        0.0,
+        -0.3116601140991552,
+        0.4917282646955297
+      ],
+      "y": [
+        -6.603741887545971e-07,
+        3.489358295438315e-06
+      ]
+    },
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.7453012430538749,
+        1.0,
+        1.0,
+        0.002702702702702703
+      ],
+      "y": [
+        -2.1158018637686737e-06,
+        2.121526452958472e-06
+      ]
+    },
+    {
+      "x": [
+        1.0,
+        1.0,
+        0.7377317274829873,
+        1.0,
+        1.0,
+        0.002702702702702703
+      ],
+      "y": [
+        -1.9174703110770864e-07,
+        1.9226442778655254e-07
+      ]
+    }
+  ],
+  "diagnostic_ledger": {}
+}

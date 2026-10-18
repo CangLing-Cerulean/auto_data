@@ -29,6 +29,10 @@ def main():
             r=item['result'];component_seconds+=item['measurement_feedback'].get('seconds',0.)+r.get('seconds',0.)
             row=dict(arm=arm,round=item['round'],status=r['status'],run=r.get('run'),
                      NMSE_gain=r.get('Y'),NMAE_gain=r.get('NMAE_gain'),Z=r.get('Z'))
+            measurement=item['measurement_proposal']['measurement']
+            row['new_measurement_expression']=measurement['expression'] if measurement else None
+            row['new_measurement_meaning']=measurement['meaning'] if measurement else None
+            row['diagnostic_claim']=item.get('decision',{}).get('diagnostic_claim')
             if r['status']=='completed':
                 queries+=1;lookup[r['run']]=r;f=item['decision']['forecast']
                 errors_y.append(abs(r['Y']-f['mean_y']));errors_z.append(abs(r['Z']-f['mean_z']))
