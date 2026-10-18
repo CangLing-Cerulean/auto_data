@@ -1,0 +1,13 @@
+{
+  "status": "PASS_synthetic_only",
+  "checks": [
+    "exact_coordinates_and_decimal_comma",
+    "unselected_measurements_not_decoded",
+    "selected_invalid_rejected_2",
+    "selected_invalid_rejected_3"
+  ],
+  "count": 4,
+  "code_sha256": "9399d8b1d72123ab9246b73f89229b9b7a3aa4eec889f3f21dfdabdafdded94b",
+  "real_D_accessed": false,
+  "new_full_trainings": 0
+}
