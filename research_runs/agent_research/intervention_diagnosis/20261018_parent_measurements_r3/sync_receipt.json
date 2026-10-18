@@ -1,0 +1,26 @@
+{
+  "status": "result_commit_and_release_verified",
+  "source_commit": "f4a5b7b4fad6d583ffe22b2633632a35ff6fc25f",
+  "repository": "CangLing-Cerulean/auto_data",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/predictive-support-measurements-20261018-r2-r3",
+  "assets": [
+    {
+      "name": "predictive_support_and_parent_measurements.tar.gz",
+      "bytes": 10726828,
+      "sha256": "8fedad7e3e211c0ad270676929caaa3747a132583d8d9c4487d25dff983d975f",
+      "download_url": "https://github.com/CangLing-Cerulean/auto_data/releases/download/predictive-support-measurements-20261018-r2-r3/predictive_support_and_parent_measurements.tar.gz",
+      "asset_id": 652690869
+    }
+  ],
+  "archive_members": 46,
+  "r2_audit": "PASS",
+  "r3_original_audit": "PASS_WITH_FINDING",
+  "r3_correction_audit": "PASS",
+  "ETT_independent_table_numeric_audit": false,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "new_LLM_calls": 0,
+  "global_indexes_published": false,
+  "results_publication_receipt_sha256": "d68c7017b679f4fb2ee18b49b2ddf2179210560398bba1f506feb6b96e0077ec",
+  "release_receipt_sha256": "033ee3734f32f34f9f85c3fa9618039caeef5b2107d71eb6c7f003c473c71fff"
+}
