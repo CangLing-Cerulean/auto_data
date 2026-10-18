@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "expression": {
+            "type": "string"
+          },
+          "measurement_meaning": {
+            "type": "string"
+          },
+          "limitation": {
+            "type": "string"
+          },
+          "falsifying_response": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "expression",
+          "measurement_meaning",
+          "limitation",
+          "falsifying_response"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 2
+    },
+    "reasoning": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "signals",
+    "reasoning"
+  ]
+}

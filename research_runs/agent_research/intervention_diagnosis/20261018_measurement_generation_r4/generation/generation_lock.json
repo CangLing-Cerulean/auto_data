@@ -1,0 +1,45 @@
+{
+  "calls": [
+    {
+      "name": "ETT_ordinary",
+      "family": "ETT",
+      "mode": "ordinary",
+      "input_sha256": "7157cee2fb5fc9480d057b43aff37e3d7bd1fff43ae04808128dfe99a2d15308",
+      "prompt_sha256": "b25439fa70cf62478257241268538b867c55260b85146cd31de9e2695da1968e"
+    },
+    {
+      "name": "ETT_mismatch",
+      "family": "ETT",
+      "mode": "mismatch",
+      "input_sha256": "7157cee2fb5fc9480d057b43aff37e3d7bd1fff43ae04808128dfe99a2d15308",
+      "prompt_sha256": "1e978c6134985d61a940f95b79f258c027a79bc2c4875e3aace1f8cbde278ca6"
+    },
+    {
+      "name": "Hydraulic_ordinary",
+      "family": "Hydraulic",
+      "mode": "ordinary",
+      "input_sha256": "f9bae840c8d8d3e7c987317800251271d65e9f46d6d2ca4e9a60ea03d4fc2c9a",
+      "prompt_sha256": "cb5d5168553e9a0a09f8b816cff9b3d54df7ae84d73c2de030b1625cd4695eca"
+    },
+    {
+      "name": "Hydraulic_mismatch",
+      "family": "Hydraulic",
+      "mode": "mismatch",
+      "input_sha256": "f9bae840c8d8d3e7c987317800251271d65e9f46d6d2ca4e9a60ea03d4fc2c9a",
+      "prompt_sha256": "0c077616f676758cd5ba906109332c3c12b01c3a88e548193a4c5b671217b108"
+    }
+  ],
+  "model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "max_calls": 4,
+  "no_regeneration": true,
+  "script_sha256": {
+    "window_measurement_dsl.py": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878",
+    "prepare_window_signal_inputs.py": "a15bd196c1a3c1d8a3c2c228c0a3d06c1193090d0b8417373d394ace4fd7529a",
+    "replay_window_signals.py": "05ab6741973d476a40542efc37b0725fe562d33a8e4a39c9be31711287b4439f",
+    "generate_window_signals.py": "8b69685b791bfdba6d6e6cf1c7e7896dd543e8b51b89745da0e9ca9cb0456f33"
+  },
+  "protocol_sha256": "90e5425bac64c2bdd388a5f05e26e8693f53c86623e897d74afccf383a473de3",
+  "evaluation_lock_sha256": "146a9de2604569276c85276cef7da74c2560db5adf7530e0185e06c15d112d2c",
+  "schema_sha256": "5774c1a01d9b98c05deab71059738c9f82dac809423cd6cef399bdd84a8d9f6e"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "packets": [
+    {
+      "family": "ETT",
+      "sha256": "c3aed97767a486fc2317797caf4d163a2634b66b14ff25e671f2da1849bda821",
+      "bytes": 78593,
+      "source_packet_sha256": "da0ff8ca676660f1e0cb8db6e77c303ede16308ca60e23afa02d7c7be161af26",
+      "parent_asset_sha256": {
+        "T1": "366951cc2e375df1253b9a1197fda4e8bea0856c1459dcc463cf333e7c8db8df",
+        "T2": "ddb413fd8140bde58e48957e10986341fe6de2693a1342c2321521ac6448f2fd"
+      }
+    },
+    {
+      "family": "Hydraulic",
+      "sha256": "3412e7510a580617198d60c3f213dd891a06254bf7bd4ecd2c8bc215a3d57fca",
+      "bytes": 182846,
+      "source_packet_sha256": "b0bbd180d311a42507bddbdc8e63f53902a803950af6f4ded78d5107f5cb5828",
+      "parent_asset_sha256": {
+        "T1": "125cca2031638a1db5d8433bb0cb9b690e6071fefde9f06657f709eab476b684",
+        "T2": "fc28f139764332e665812961ab58f97f008060dbaa262169353a7e695d90ab14",
+        "T3": "6e92d26ff3bce55174b449f193b646c1b61afb1fcc5fb238cdd08d191a968cfe"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "normalization": true,
+      "contrast": true,
+      "invalid_expressions_rejected": 5
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "normalization": true,
+      "contrast": true,
+      "invalid_expressions_rejected": 5
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "normalization": true,
+      "contrast": true,
+      "invalid_expressions_rejected": 5
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "normalization": true,
+      "contrast": true,
+      "invalid_expressions_rejected": 5
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "normalization": true,
+      "contrast": true,
+      "invalid_expressions_rejected": 5
+    }
+  ],
+  "new_LLM_calls": 0,
+  "new_full_trainings": 0,
+  "interpreter_sha256": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878",
+  "preparer_sha256": "1ad938ddeb6030b39f8708f898d53b6c8cdaf0b8bbb5a9ebb83e6ed64256ef1e",
+  "evaluation_not_yet_frozen": true
+}

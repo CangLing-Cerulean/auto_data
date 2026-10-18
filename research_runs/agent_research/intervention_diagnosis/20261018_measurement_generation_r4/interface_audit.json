@@ -1,0 +1,711 @@
+{
+  "status": "PASS",
+  "scope": "r4 interface, provenance, bounded AST, dual/primal algebra, synthetic policy wiring only",
+  "scripts_sha256": {
+    "window_measurement_dsl.py": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878",
+    "prepare_window_signal_inputs.py": "a15bd196c1a3c1d8a3c2c228c0a3d06c1193090d0b8417373d394ace4fd7529a",
+    "replay_window_signals.py": "b7c9b1271fd861b75f148f00be22469ec20851f124850360f7fcd47f3198a9b7"
+  },
+  "dsl": {
+    "status": "PASS",
+    "rejected": 23,
+    "valid_checked": 4,
+    "equal_length_axis_probe": true,
+    "arbitrary_feature_inaccessible": true
+  },
+  "packets": {
+    "status": "PASS",
+    "packets": [
+      {
+        "family": "ETT",
+        "source_records": 8,
+        "facts": 16,
+        "source_facts_match": true,
+        "source_summary_match": true,
+        "arrays": [
+          {
+            "task": "ETTh1",
+            "keys": [
+              "A_first",
+              "A_inputs",
+              "A_starts",
+              "B_errors_s2026101901",
+              "B_errors_s2026101902",
+              "B_errors_s2026101903",
+              "B_inputs",
+              "B_starts"
+            ]
+          },
+          {
+            "task": "ETTh2",
+            "keys": [
+              "A_first",
+              "A_inputs",
+              "A_starts",
+              "B_errors_s2026101901",
+              "B_errors_s2026101902",
+              "B_errors_s2026101903",
+              "B_inputs",
+              "B_starts"
+            ]
+          }
+        ]
+      },
+      {
+        "family": "Hydraulic",
+        "source_records": 24,
+        "facts": 48,
+        "source_facts_match": true,
+        "source_summary_match": true,
+        "arrays": [
+          {
+            "task": "G1",
+            "keys": [
+              "A_first",
+              "A_inputs",
+              "A_starts",
+              "B_errors_s2026101701",
+              "B_errors_s2026101702",
+              "B_errors_s2026101703",
+              "B_inputs",
+              "B_starts"
+            ]
+          },
+          {
+            "task": "G2",
+            "keys": [
+              "A_first",
+              "A_inputs",
+              "A_starts",
+              "B_errors_s2026101701",
+              "B_errors_s2026101702",
+              "B_errors_s2026101703",
+              "B_inputs",
+              "B_starts"
+            ]
+          },
+          {
+            "task": "G3",
+            "keys": [
+              "A_first",
+              "A_inputs",
+              "A_starts",
+              "B_errors_s2026101701",
+              "B_errors_s2026101702",
+              "B_errors_s2026101703",
+              "B_inputs",
+              "B_starts"
+            ]
+          }
+        ]
+      }
+    ],
+    "limitation": "Checks corrected table schema/provenance and summaries, not reconstruction from raw parent tensors."
+  },
+  "dual_ridge": {
+    "status": "PASS",
+    "cases": [
+      {
+        "rows": 9,
+        "columns": 3,
+        "rank_deficient": false,
+        "ridge": 0.01,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 1.504352198367087e-14,
+          "std": 1.1102230246251565e-15
+        },
+        "prediction_error": 4.0245584642661925e-15
+      },
+      {
+        "rows": 9,
+        "columns": 3,
+        "rank_deficient": false,
+        "ridge": 1.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 2.7755575615628914e-17,
+          "std": 2.220446049250313e-16
+        },
+        "prediction_error": 2.7755575615628914e-17
+      },
+      {
+        "rows": 9,
+        "columns": 3,
+        "rank_deficient": false,
+        "ridge": 5.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 2.7755575615628914e-17,
+          "std": 0.0
+        },
+        "prediction_error": 2.7755575615628914e-17
+      },
+      {
+        "rows": 7,
+        "columns": 15,
+        "rank_deficient": false,
+        "ridge": 0.01,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 1.6925696955105707e-14,
+          "std": 5.329070518200751e-15
+        },
+        "prediction_error": 2.4424906541753444e-14
+      },
+      {
+        "rows": 7,
+        "columns": 15,
+        "rank_deficient": false,
+        "ridge": 1.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 2.220446049250313e-16,
+          "std": 0.0
+        },
+        "prediction_error": 4.440892098500626e-16
+      },
+      {
+        "rows": 7,
+        "columns": 15,
+        "rank_deficient": false,
+        "ridge": 5.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 1.1102230246251565e-16,
+          "std": 0.0
+        },
+        "prediction_error": 3.3306690738754696e-16
+      },
+      {
+        "rows": 10,
+        "columns": 6,
+        "rank_deficient": true,
+        "ridge": 0.01,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 2.4175106361212784e-14,
+          "std": 9.992007221626409e-16
+        },
+        "prediction_error": 3.3306690738754696e-14
+      },
+      {
+        "rows": 10,
+        "columns": 6,
+        "rank_deficient": true,
+        "ridge": 1.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 6.938893903907228e-17,
+          "std": 2.220446049250313e-16
+        },
+        "prediction_error": 1.1102230246251565e-16
+      },
+      {
+        "rows": 10,
+        "columns": 6,
+        "rank_deficient": true,
+        "ridge": 5.0,
+        "max_field_error": {
+          "center": 0.0,
+          "scale": 0.0,
+          "beta": 2.7755575615628914e-17,
+          "std": 0.0
+        },
+        "prediction_error": 5.551115123125783e-17
+      }
+    ],
+    "algebra": "With weighted-centered X, unpenalized intercept is weighted mean(y); A^T(AA^T+lambda I)^-1 equals (A^TA+lambda I)^-1 A^T."
+  },
+  "policy": {
+    "status": "PASS",
+    "methods": [
+      {
+        "method": "reference",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "original_quadratic",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance",
+          "aligned_level_shift",
+          "aligned_variance_shift",
+          "aligned_roughness_shift",
+          "optimizer_exposure_interaction",
+          "old_extra"
+        ],
+        "quadratic": true,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "window_fixed",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "B_input_roughness",
+          "B_input_variance",
+          "aligned_level_shift",
+          "aligned_roughness_shift",
+          "aligned_variance_shift",
+          "exposure_shift_first",
+          "first_B_level_distance",
+          "first_input_roughness",
+          "first_input_variance",
+          "first_training_mass",
+          "old_extra",
+          "optimizer_exposure_interaction",
+          "parent_B_best_fraction",
+          "parent_B_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_curve_reversal",
+          "parent_B_learning_gain",
+          "parent_B_local_contrast",
+          "parent_B_log_loss",
+          "parent_B_target_bias",
+          "parent_B_target_ratio",
+          "removed_fraction",
+          "second_B_level_distance",
+          "second_input_roughness",
+          "second_input_variance",
+          "target_weight_second_moment",
+          "weighted_implementation",
+          "window_correlation_level_loss",
+          "window_coverage_level"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "window_quadratic",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "B_input_roughness",
+          "B_input_variance",
+          "aligned_level_shift",
+          "aligned_roughness_shift",
+          "aligned_variance_shift",
+          "exposure_shift_first",
+          "first_B_level_distance",
+          "first_input_roughness",
+          "first_input_variance",
+          "first_training_mass",
+          "old_extra",
+          "optimizer_exposure_interaction",
+          "parent_B_best_fraction",
+          "parent_B_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_curve_reversal",
+          "parent_B_learning_gain",
+          "parent_B_local_contrast",
+          "parent_B_log_loss",
+          "parent_B_target_bias",
+          "parent_B_target_ratio",
+          "removed_fraction",
+          "second_B_level_distance",
+          "second_input_roughness",
+          "second_input_variance",
+          "target_weight_second_moment",
+          "weighted_implementation",
+          "window_correlation_level_loss",
+          "window_coverage_level"
+        ],
+        "quadratic": true,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "manual_uniform",
+        "mode": "uniform",
+        "diagnostic_models": 4,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "manual_conditional",
+        "mode": "conditional",
+        "diagnostic_models": 4,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "ordinary_uniform",
+        "mode": "uniform",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "ordinary_joint",
+        "mode": "joint",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "ordinary_conditional",
+        "mode": "conditional",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "ordinary_combined",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance",
+          "ordinary_measurement_0"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "mismatch_uniform",
+        "mode": "uniform",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "mismatch_joint",
+        "mode": "joint",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "mismatch_conditional",
+        "mode": "conditional",
+        "diagnostic_models": 1,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      },
+      {
+        "method": "mismatch_combined",
+        "mode": "uniform",
+        "diagnostic_models": 0,
+        "reference_features": [
+          "exposure_shift_first",
+          "removed_fraction",
+          "weighted_implementation",
+          "target_weight_second_moment",
+          "first_training_mass",
+          "parent_B_log_loss",
+          "parent_B_target_ratio",
+          "parent_B_local_contrast",
+          "parent_B_bias",
+          "parent_B_target_bias",
+          "parent_B_channel_dispersion",
+          "parent_B_learning_gain",
+          "parent_B_best_fraction",
+          "parent_B_curve_reversal",
+          "B_input_variance",
+          "B_input_roughness",
+          "first_input_variance",
+          "second_input_variance",
+          "first_input_roughness",
+          "second_input_roughness",
+          "first_B_level_distance",
+          "second_B_level_distance",
+          "mismatch_measurement_0"
+        ],
+        "quadratic": false,
+        "registered_before_label_access": true
+      }
+    ],
+    "limitation": "Two synthetic candidates and stub prediction models; no full real strategy replay or scientific effect test."
+  },
+  "findings": [
+    {
+      "classification": "suspected_freeze_provenance_gap",
+      "location": "scripts/replay_window_signals.py:90-99; scripts/replay_window_signals.py:47-48",
+      "trigger": "Parent NPZ or generation response plus its receipt change after evaluation freeze.",
+      "actual": "Replay main validates script and pool lock hashes and response-to-receipt consistency; parent arrays are loaded without a hash check, and response/receipt are not compared to evaluation_lock.",
+      "expected": "Frozen evaluation provenance should bind the exact parent assets and generation outputs, either in this runner or an explicit verified launch gate.",
+      "impact": "A changed measurement input or replaced receipt-consistent response could produce different replay features without rejection by this runner.",
+      "limitation": "Static control-flow finding; evaluation lock/launch gate did not yet exist, and no tampering or full replay was performed."
+    }
+  ],
+  "harness_history": [
+    "Initial harness assumed Hydraulic seed IDs for ETT; schema assertion failed. Inspection showed ETT seeds 2026101901..03, Hydraulic 2026101701..03; corrected harness to require exactly three B-error seed arrays and A/B-only keys. This was an audit-harness failure, not a reviewed-code defect."
+  ],
+  "limitations": [
+    "Generator and evaluation locks are not reviewed here; they were not present at audit start.",
+    "Replay main checks locked script and pool hashes, but does not itself check parent table hashes or bind generation response/receipt hashes to evaluation_lock.",
+    "Existing generation receipts are checked for response content hash only; generator input isolation and budget need their own lock/audit.",
+    "No LLM calls, new training, full new strategy replay, D/test reads, raw-data reconstruction, or scientific effectiveness claim."
+  ],
+  "audited_scripts_stable": true,
+  "audit_script_sha256": "6e31c7081124341f52f3953cd8b89840b46b66003c2cb52360f67576998efc26"
+}
