@@ -1,0 +1,397 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "locked_inputs_and_production_identity",
+      "status": "PASS",
+      "details": {
+        "scripts": 6,
+        "inputs": 6
+      }
+    },
+    {
+      "check": "Hydraulic_G1_A00",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A00",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_A01",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A01",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_A10",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A10",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_A11",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A11",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_JOINT",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "JOINT",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_ORDINARY_FIXED",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_FIXED",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G1_ORDINARY_CONDITIONAL",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_CONDITIONAL",
+        "task": "G1"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_A00",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A00",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_A01",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A01",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_A10",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A10",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_A11",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A11",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_JOINT",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "JOINT",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_ORDINARY_FIXED",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_FIXED",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G2_ORDINARY_CONDITIONAL",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_CONDITIONAL",
+        "task": "G2"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_A00",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A00",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_A01",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A01",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_A10",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A10",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_A11",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "A11",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_JOINT",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "JOINT",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_ORDINARY_FIXED",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_FIXED",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "Hydraulic_G3_ORDINARY_CONDITIONAL",
+      "status": "PASS",
+      "details": {
+        "queries": 8,
+        "nodes": 3,
+        "method": "ORDINARY_CONDITIONAL",
+        "task": "G3"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_A00",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A00",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_A01",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A01",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_A10",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A10",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_A11",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A11",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_JOINT",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "JOINT",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_ORDINARY_FIXED",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "ORDINARY_FIXED",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh1_ORDINARY_CONDITIONAL",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "ORDINARY_CONDITIONAL",
+        "task": "ETTh1"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_A00",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A00",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_A01",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A01",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_A10",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A10",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_A11",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "A11",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_JOINT",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "JOINT",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_ORDINARY_FIXED",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "ORDINARY_FIXED",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "ETT_ETTh2_ORDINARY_CONDITIONAL",
+      "status": "PASS",
+      "details": {
+        "queries": 4,
+        "nodes": 2,
+        "method": "ORDINARY_CONDITIONAL",
+        "task": "ETTh2"
+      }
+    },
+    {
+      "check": "matrix_nodes_and_task_equal_summaries",
+      "status": "PASS",
+      "details": {
+        "paths": 35,
+        "queries": 224,
+        "nodes": 91,
+        "summaries": 21
+      }
+    },
+    {
+      "check": "analysis_forecasts_52_pairs_support_cost_and_archived_baselines",
+      "status": "PASS",
+      "details": {
+        "pairs": 52,
+        "forecasts": 7,
+        "support_history_queries": 224,
+        "archived_baseline_rows": 13,
+        "known_cost_nodes": 70
+      }
+    }
+  ],
+  "numeric_comparisons": 3843903,
+  "independently_reconstructed_unique_model_heads": 1036,
+  "queries_checked": 224,
+  "maximum_absolute_numeric_difference": 1.4210854715202004e-13,
+  "seconds": 5.150063000000955,
+  "algorithm": "task-weighted centered ridge via thin SVD; scalar fsum snapshot predictions and Gaussian log densities",
+  "results_sha256": "7f571da7241428fd3db2da63c3a96e0ab5ffd4355df81d596e72db5f86442bc6",
+  "execution_lock_sha256": "8830b6e0f21835feed38411b01f6642f391e53895c5c37af7f7e5bb1339cdf8f",
+  "analysis_sha256": "938e1454ff184fa3c21ad29a5aac8d33c4d8eddea532d9083451fada3b532cd9",
+  "checker_sha256": "1cd5dfc5828f5e6f27a6aad61132f1ae0930eb2fc24b5d89be001c1c613bc071",
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "limitation": "Numerical/event-chain audit, not operating-system label isolation or independent scientific confirmation"
+}

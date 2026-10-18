@@ -1,0 +1,8 @@
+{
+  "status": "publication_transport_failure",
+  "stage": "source_publication",
+  "local_commit_short": "0b08844",
+  "message": "Received an unexpected EOF or 0 bytes from the transport stream.",
+  "scientific_run_started": false,
+  "retry_policy": "same committed bytes only; publisher verifies remote parent and exact commit/tree; no force update"
+}

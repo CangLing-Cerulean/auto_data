@@ -1,0 +1,2219 @@
+{
+  "status": "DESCRIPTIVE_REGISTERED_COMPARISONS",
+  "results_sha256": "7f571da7241428fd3db2da63c3a96e0ab5ffd4355df81d596e72db5f86442bc6",
+  "forecast_metrics": [
+    {
+      "method": "A00",
+      "tasks": 5,
+      "task_equal_MAE": 0.508376417490708,
+      "task_equal_coverage": 0.625,
+      "task_equal_width": 2.097990091228894,
+      "task_equal_pairwise_error": 0.47857142857142854
+    },
+    {
+      "method": "A01",
+      "tasks": 5,
+      "task_equal_MAE": 0.508376417490708,
+      "task_equal_coverage": 0.625,
+      "task_equal_width": 2.097990091228894,
+      "task_equal_pairwise_error": 0.47857142857142854
+    },
+    {
+      "method": "A10",
+      "tasks": 5,
+      "task_equal_MAE": 0.5098770942691064,
+      "task_equal_coverage": 0.625,
+      "task_equal_width": 2.1226587089887774,
+      "task_equal_pairwise_error": 0.4714285714285714
+    },
+    {
+      "method": "A11",
+      "tasks": 5,
+      "task_equal_MAE": 0.5098770942691064,
+      "task_equal_coverage": 0.625,
+      "task_equal_width": 2.1226587089887774,
+      "task_equal_pairwise_error": 0.4714285714285714
+    },
+    {
+      "method": "JOINT",
+      "tasks": 5,
+      "task_equal_MAE": 0.5098770942691064,
+      "task_equal_coverage": 0.625,
+      "task_equal_width": 2.1226587089887774,
+      "task_equal_pairwise_error": 0.4714285714285714
+    },
+    {
+      "method": "ORDINARY_CONDITIONAL",
+      "tasks": 5,
+      "task_equal_MAE": 0.49483247854234846,
+      "task_equal_coverage": 0.6,
+      "task_equal_width": 2.1275311320788175,
+      "task_equal_pairwise_error": 0.47857142857142854
+    },
+    {
+      "method": "ORDINARY_FIXED",
+      "tasks": 5,
+      "task_equal_MAE": 0.49483247854234846,
+      "task_equal_coverage": 0.6,
+      "task_equal_width": 2.1275311320788175,
+      "task_equal_pairwise_error": 0.47857142857142854
+    }
+  ],
+  "pairs": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-A10",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-A10",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-A10",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-A10",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A10",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A10",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A10",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A10",
+      "queries": 2,
+      "gain_difference": -0.017413051060077456,
+      "recommendation_changed": true,
+      "query_set_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A10",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A10",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A10",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A10",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A10",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-A01",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-A01",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-A01",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-A01",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A01",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A01",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-A01",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A01",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A01",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-A01",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A01",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A01",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-A01",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-JOINT",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-JOINT",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-JOINT",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-JOINT",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-JOINT",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-JOINT",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-JOINT",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-JOINT",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-JOINT",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-JOINT",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-JOINT",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-JOINT",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-JOINT",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 4,
+      "gain_difference": 0.022701051775034713,
+      "recommendation_changed": true,
+      "query_set_changed": true
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 2,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 4,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "comparison": "A11-minus-ORDINARY_CONDITIONAL",
+      "queries": 8,
+      "gain_difference": 0.0,
+      "recommendation_changed": false,
+      "query_set_changed": false
+    }
+  ],
+  "support_changes": [
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "A00",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "A01",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 0.15404859583696662
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 0.221365583788258
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.221365583788258
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.221365583788258
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.22503546079364312
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.36410800243073727
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.36410800243073727
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.36410800243073727
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "A10",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "A11",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 0.15404859583696662
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 0.221365583788258
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.30518115264103374
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.24243763082168357
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.24243763082168357
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.36927860146817304
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.40130198491499636
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.4113094974170328
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "JOINT",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 4.4886861617656955
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 4.624168946188527
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.624168946188527
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.624168946188527
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 4.624815524097015
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 4.909844056101919
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.909844056101919
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.909844056101919
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ORDINARY_FIXED",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ORDINARY_CONDITIONAL",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 0.3795380756010105
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 0.36342599294675204
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.36342599294675204
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.6662007160797414
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.6662007160797414
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.5856121286524023
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.5856121286524023
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.5856121286524023
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "A00",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "A01",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 23.05330768381927
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 23.103488199592334
+        },
+        {
+          "step": 3,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 23.12591570539712
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 23.12591570539712
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "A10",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "A11",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.05330768381927
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.103488199592334
+        },
+        {
+          "step": 3,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 23.12591570539712
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.12591570539712
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "JOINT",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 242.21900310877618
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 242.30696426586903
+        },
+        {
+          "step": 3,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 242.35863762142685
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 242.35863762142685
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 242.35863762142685
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 242.35863762142685
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 242.32284080655418
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 242.32284080655418
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ORDINARY_FIXED",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ORDINARY_CONDITIONAL",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.05330768381927
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.103488199592334
+        },
+        {
+          "step": 3,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 4,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 6,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.13576173485808
+        },
+        {
+          "step": 7,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 23.12591570539712
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 23.12591570539712
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "A00",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "A01",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 3.870045337297377
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 4,
+          "max_abs_support": 3.9021430455905386
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 3.9021430455905386
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 3.888714648688433
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 3.888714648688433
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 3.883381725257046
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 3.883381725257046
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 3.883381725257046
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "A10",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "A11",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 3.9038593077548
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 3.964401210931532
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 3.964401210931532
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 3.942579212453218
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 3.942579212453218
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 3.9311709603220946
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 3.9311709603220946
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 3.9311709603220946
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "JOINT",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 14.911250622024113
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 14.971862341356251
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 14.971862341356251
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 14.776900267500027
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 14.776900267500027
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 14.770202794120637
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 14.770202794120637
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 14.770202794120637
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ORDINARY_FIXED",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ORDINARY_CONDITIONAL",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 4.51020402755422
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 6,
+          "max_abs_support": 4.6168448647545315
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.6168448647545315
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 4.583504715346425
+        },
+        {
+          "step": 5,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.583504715346425
+        },
+        {
+          "step": 6,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 4.520716692590946
+        },
+        {
+          "step": 7,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.520716692590946
+        },
+        {
+          "step": 8,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 4.520716692590946
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "A00",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "A01",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 4,
+          "max_abs_support": 0.004353130490249324
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.004353130490249324
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.012513277283916296
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.012513277283916296
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "A10",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "A11",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.004353130490249324
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.004353130490249324
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.012513277283916296
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.012513277283916296
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "JOINT",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.00812402387802047
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.0121034231440309
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.0708549024199574
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.0708549024199574
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ORDINARY_FIXED",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ORDINARY_CONDITIONAL",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.004353130490249324
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.004438680993663818
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.012513277283916296
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.012513277283916296
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "A00",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "A01",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 4,
+          "max_abs_support": 0.0046594446058655925
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.0046594446058655925
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 8,
+          "max_abs_support": 0.021322040172818246
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 8,
+          "max_abs_support": 0.021829202510909085
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "A10",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "A11",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.0046594446058655925
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.0046594446058655925
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.021322040172818246
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.021829202510909085
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "JOINT",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.01722386908638729
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.017230280217002347
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.04320809948209692
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.05038801900155354
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ORDINARY_FIXED",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 0,
+          "max_abs_support": 0.0
+        }
+      ]
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ORDINARY_CONDITIONAL",
+      "steps": [
+        {
+          "step": 1,
+          "implementation": "W",
+          "nonzero_support": 6,
+          "max_abs_support": 0.00468818927493142
+        },
+        {
+          "step": 2,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.00468818927493142
+        },
+        {
+          "step": 3,
+          "implementation": "W",
+          "nonzero_support": 12,
+          "max_abs_support": 0.021322040172818246
+        },
+        {
+          "step": 4,
+          "implementation": "S",
+          "nonzero_support": 12,
+          "max_abs_support": 0.021829202510909085
+        }
+      ]
+    }
+  ],
+  "existing_baselines": [
+    {
+      "method": "original_quadratic",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.07332343618218559,
+      "mean_regret": 0.052218633938229876
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12554207012041546,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "window_fixed",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.10758842273031546,
+      "mean_regret": 0.017953647390100004
+    },
+    {
+      "method": "window_fixed",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12087585684823528,
+      "mean_regret": 0.004666213272180189
+    },
+    {
+      "method": "window_fixed",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "strong_agent_r5",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06570245533175165
+    },
+    {
+      "method": "random_r5",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.07854945541358155
+    },
+    {
+      "method": "strong_agent_r5",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12554207012041546
+    },
+    {
+      "method": "random_r5",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.11262031332529965
+    }
+  ],
+  "nodes": 91,
+  "known_cost_nodes": 70,
+  "policy_seconds_sum": 10.872770999998465,
+  "outer_seconds": 11.118358899999293,
+  "new_full_trainings": 0,
+  "new_LLM_calls": 0,
+  "cumulative_full_trainings": 464
+}

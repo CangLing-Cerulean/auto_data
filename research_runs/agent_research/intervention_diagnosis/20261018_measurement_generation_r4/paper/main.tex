@@ -17,6 +17,7 @@ Conditional updating also fails to outperform strong fixed response models.
 A frozen strong-prompt Agent completes 20 further decision calls and matches the fixed quadratic model at four queries, while trailing it and the exact uniform-random expectation at two queries.
 The result is a reproducible negative development finding, not evidence of method superiority or independent generalization.
 Forty-five fixed-prefix feedback forks show benefits from revealing the first overall response in some tasks, but no additional selection gain from revealing its local contrast.
+A further 35 trajectories replace expert averaging with evidence-gated conditional interactions while preserving ordinary signal features; evidence now changes decisions, but lowers two-query gains and adds no four-query benefit.
 \end{abstract}
 
 \section{Question and scope}
@@ -252,8 +253,9 @@ An independent audit verifies 850 model components and 10,489 numerical comparis
 Historical query cost is known at 79/90 nodes; 11 remain unknown.
 Policy-internal execution sums to 1.342603 seconds and the measured outer loop takes 1.893498 seconds; no new LLM call or forecasting training is performed.
 
-\paragraph{What a diagnostic-to-decision bridge would require.}
+\paragraph{One possible diagnostic-to-decision bridge.}
 A shared latent mechanism can supply a bridge, but it is an additional assumption.
+This is a sufficient modeling construction, not a necessary prerequisite for empirical signal learning.
 For $Y=a+\mu\theta+\epsilon_Y$ and $Z=b+\nu\theta+\epsilon_Z$ with known Gaussian noise covariance $\Sigma$, let $c=\Sigma_{ZY}/\Sigma_{YY}$, $s^2=\Sigma_{ZZ}-\Sigma_{ZY}^2/\Sigma_{YY}$, and $g=\nu-c\mu$.
 If $V_Y$ is the posterior variance of $\theta$ after $Y$, then observing $Z$ reduces the variance of a future mean with loading $\mu_*$ by
 \[
@@ -263,6 +265,62 @@ This requires informative residual loading and a shared mechanism that transfers
 Correct joint Bayesian updating has nonnegative expected value of free information for an optimal decision, not guaranteed realized gain for our heuristic.
 Factoring the joint likelihood as $p(Y)p(Z\mid Y)$ gives the same posterior and is not a new algorithm.
 Our current independent regressors do not establish these structural assumptions.
+
+\subsection{Preserving useful features while gating diagnostic interactions}
+A read-only examination of the frozen generated-expert forecasts identifies a specific limitation of the first implementation.
+In all five mismatch-generation tasks, the reference and both gain experts select the same candidate at every step.
+There are 27 nontrivial states; the smallest componentwise winning margin is 0.003028 response units.
+No convex reweighting can change these choices, and induction gives the same complete query paths while the fit and feedback rules remain fixed.
+This is a certificate for those predictors, not a general failure theorem for diagnostic learning.
+
+We therefore freeze one subsequent implementation with a single gain regressor and a common factorial comparison.
+The shared core is the original 26 features and their quadratic products.
+For each fixed or generated signal $q$, source-task-balanced RMS $r_q$ defines $u_q=\tanh(q/r_q)$; a source-identically-zero signal remains unavailable.
+All gain models retain the ordinary feature $u_q$ independently of its diagnostic support.
+Additional implementation-specific features are
+\[
+ v_{q,k}(x)=\sqrt{\operatorname{sigmoid}(\rho_{q,k})}\,u_q(x)\,\mathbf 1\{\operatorname{implementation}(x)=k\},\qquad k\in\{S,W\}.
+\]
+Support starts at zero, is scored with fixed-gate diagnostic predictors, and updates only the observed implementation context before the next fit.
+Thus loss of diagnostic support attenuates additional interactions without deleting ordinary signal information, true gain labels, or retained recipes.
+These are new conditional-prediction diagnostic versions; we do not automatically validate the original generated verbal explanations.
+
+Seven policies form 35 trajectories, 224 queries and 91 nodes.
+A00/A01 use four fixed signals, A10/A11 add the two mismatch-generated signals; odd-indexed variants update conditional support, while A00/A10 leave it fixed.
+Additional controls update joint support or use ordinary-generated signals, with and without conditional updates.
+All groups receive complete responses and share normalization, regression structure and budgets.
+The common representation and strong-core changes preclude attributing differences from the earlier implementation solely to support gating.
+
+\begin{table}[ht]
+\centering
+\caption{Evidence-gated interaction revision: five-task mean gain (\%).}
+\begin{tabular}{lrr}
+\toprule
+Policy & 2 queries & 4 queries\\
+\midrule
+A00: fixed signals, fixed support & 7.332344 & 12.541607\\
+A01: fixed signals, conditional support & 6.984083 & 12.541607\\
+A10: mismatch signals, fixed support & 7.332344 & 12.541607\\
+A11: mismatch signals, conditional support & 6.984083 & 12.541607\\
+Mismatch signals, joint support & 6.984083 & 12.541607\\
+Ordinary signals, fixed or conditional support & 6.984083 & 12.087586\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A11 adds no adoption gain over A01 at any node.
+Relative to A10, it loses 0.348261 percentage points at two queries and ties at four.
+On G2, support updating changes adoption from FAVOR\_SECOND/W (30.018001\%) to FAVOR\_SECOND/S (28.276696\%).
+Joint and conditional support have identical adoption gains.
+Initial task-equal gain MAE is 50.837642 points without new signals and 50.987709 with mismatch signals.
+Pairwise ranking error slightly decreases from 0.478571 to 0.471429, but both have 62.5\% coverage for nominal 95\% intervals, whose average widths exceed 209 percentage points.
+This internal ranking change does not establish decision value or calibration.
+The revised mechanism can affect decisions, but this test does not demonstrate a beneficial effect.
+
+An independent SVD audit verifies all trajectories and reconstructs 1,036 cached model components; 3,843,903 numerical comparisons have maximum discrepancy about $1.42\times10^{-13}$.
+A pre-run RMS overflow/underflow defect and its scaled-arithmetic repair are retained, as is a source-publication transport failure followed by a successful retry of the same commit.
+Historical query cost is known at 70/91 nodes, with 21 unknown; internal policy time is 10.872771 seconds and the measured outer loop 11.118359 seconds.
+No new language-model call, forecasting training, or sealed-partition evaluation is performed.
 
 \section{Development history, audit and cost}
 The initial scalar-combination study used four calls and retained two mismatch-generator abstentions.
@@ -302,7 +360,7 @@ We preserve this mismatch rather than redesigning the head after observing resul
 
 A numerical fixed-prefix feedback intervention is complete; an Agent text-feedback intervention, complete costs, and independent-source confirmation remain missing.
 The strong adaptive Agent comparator has been completed but does not rescue the proposed conditional-mixture mechanism.
-The tested implementation does not establish H1 signal benefit, H2 conditional-update benefit, or H3 decision superiority.
+The tested implementations do not establish H1 signal decision benefit, H2 conditional-update benefit, or H3 decision superiority.
 This does not prove that every conditional diagnostic learner must fail.
 Further claims require a frozen mechanism and evidence beyond this development pool, not more favorable prompts, thresholds or candidate subsets.
 
