@@ -1,0 +1,1029 @@
+{
+  "status": "SUMMARIZED_NOT_INDEPENDENT_AUDIT",
+  "calls": [
+    {
+      "name": "ETT_ordinary",
+      "exit_code": 0,
+      "seconds": 165.14637520000178,
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "usage": {
+        "input_tokens": 40935,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2012,
+        "reasoning_output_tokens": 1552
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "status": "PASS",
+      "signals": 2,
+      "response_sha256": "787861f39bcb52ad0ff909dfac33b91504b852535d81d23a06b9861cd5b66fa9",
+      "signals_detail": [
+        {
+          "name": "action_aligned_nonlinear_loss_proximity",
+          "expression": "exposure_shift_first * mean(E_loss * (tanh(square(B_level_energy - second_mean(A_level_energy))) - tanh(square(B_level_energy - first_mean(A_level_energy)))))",
+          "measurement_meaning": "Parent global-loss-weighted difference in nonlinear proximity to the frozen A energy centroids, signed by exposure direction. Positive values indicate that the favored centroid is closer to higher-loss B windows under this distance transform.",
+          "limitation": "Centroids omit within-group support and other input dimensions. Its value and predictive contribution are uncomputed; strong coverage controls may already capture its useful variation.",
+          "falsifying_response": "Across additional source tasks, adding this measurement fails to reduce task-out Y prediction error beyond the full stated controls."
+        },
+        {
+          "name": "weighted_action_loss_heterogeneity",
+          "expression": "weighted_implementation * abs(exposure_shift_first) * mean(square(center(E_loss)))",
+          "measurement_meaning": "Dispersion of seed-averaged normalized parent window losses, multiplied by exposure magnitude for weighted implementations. This supplies a candidate moderator of implementation-dependent Y response.",
+          "limitation": "Window loss dispersion does not measure optimizer variability or identify an implementation mechanism. Seed averaging hides seed-specific heterogeneity, and this unsigned measurement cannot distinguish exposure directions.",
+          "falsifying_response": "On additional source tasks, its inclusion fails to improve task-out Y prediction, including weighted-action predictions, beyond controls and the first measurement."
+        }
+      ],
+      "reasoning": "Opposite energy\u2013loss correlations across T1 and T2, together with nonmonotone energy quartile profiles, motivate testing nonlinear loss-weighted proximity. Larger implementation-dependent Y errors in T2 motivate the heterogeneity moderator, with its coefficient and sign learned rather than presumed. Both use only permitted runtime inputs. Neither has been evaluated or shown to add information beyond the strong controls. Two source tasks and repeated seeds cannot establish generalization or causality; abstain from retaining either measurement if further task-out evaluation provides no predictive benefit."
+    },
+    {
+      "name": "ETT_mismatch",
+      "exit_code": 0,
+      "seconds": 215.85951919999934,
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "usage": {
+        "input_tokens": 40946,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4333,
+        "reasoning_output_tokens": 3599
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "status": "PASS",
+      "signals": 2,
+      "response_sha256": "1f2381073d7afe4977937355956de2afe247aa80057dc9f85204f9bdb1a83f21",
+      "signals_detail": [
+        {
+          "name": "action_aligned_nonlinear_error_affinity",
+          "expression": "exposure_shift_first * mean(center(tanh(E_contrast)) * center(tanh(square(B_level_energy - second_mean(A_level_energy)) - square(B_level_energy - first_mean(A_level_energy)))))",
+          "measurement_meaning": "Measures whether bounded parent target-versus-complement error excess concentrates in B windows whose energy favors the A group receiving increased exposure. The affinity is positive when a window is closer to the first group's mean. Centering measures localization separately from average error contrast.",
+          "limitation": "Uncomputed candidate; quartile summaries do not determine its value. Group means incompletely describe coverage, and nonlinear saturation discards magnitude. It may duplicate existing controls or contribute too little at the prescribed ridge scale. A positive value does not establish positive Y or Z.",
+          "falsifying_response": "On additional independent source tasks, test the hypothesis that larger scores accompany larger Z within implementation and comparable Y. Repeated reversed associations, or no improvement over the full controls in source-task-out conditional Z prediction, would reject its proposed diagnostic value."
+        },
+        {
+          "name": "weighted_implementation_error_affinity",
+          "expression": "weighted_implementation * exposure_shift_first * mean(center(tanh(E_contrast)) * center(tanh(square(B_level_energy - second_mean(A_level_energy)) - square(B_level_energy - first_mean(A_level_energy)))))",
+          "measurement_meaning": "Provides an implementation interaction with the same nonlinear parent measurement, allowing its fitted association with response to differ between uniform sampling with weights and nonuniform sampling.",
+          "limitation": "This is an interaction with the first candidate, not an independent parent diagnostic. It measures no update dynamics and establishes no mechanism for S/W differences. Two tasks cannot establish a transferable implementation interaction.",
+          "falsifying_response": "Across new tasks with matched S/W recipes, test whether this interaction improves prediction of the W-minus-S Z difference beyond the first measurement and all controls. Failure to reduce source-task-out error, or unstable fitted direction across tasks, would reject its added value."
+        }
+      ],
+      "reasoning": "Qualified conditional mismatches challenge explanations based solely on inaccurate global-gain prediction: R5 has positive residuals and R8 negative residuals under both predictors even after conditioning retrospectively on observed seed Y. T1 R2 and R4 also remain qualified under both predictors; quadratic R1 and R3 have negative residuals. These counterexamples do not identify missing information or a causal mechanism. Misspecification, regularization, limited task support and stochastic variation remain possible explanations despite strong controls and source-task-out fitting. Three seeds are not independent tasks.\n\nRecipe performance and diagnostic reliability differ: R6 has positive Y but negative Z, while R3 has negative Y but positive Z. With p=0.5, target improvement equals Y+0.5*Z, so positive Z alone does not establish target improvement. Y, Z and conditional residuals appear only in retrospective evaluation, never in these expressions.\n\nThe energy profiles motivate testing nonlinear localization: T1's contrast profile is nonmonotonic, while T2's lowest-energy quartile has the largest contrast. Neither candidate's value nor information gain is established by those summaries. Evaluate both against all stated controls using the prescribed task-balanced ridge and scale floors on additional independent tasks. Abstain from deployment or recipe recommendations if incremental performance remains unsupported."
+    },
+    {
+      "name": "Hydraulic_ordinary",
+      "exit_code": 0,
+      "seconds": 186.52269700000033,
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "usage": {
+        "input_tokens": 73122,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2497,
+        "reasoning_output_tokens": 2070
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "status": "PASS",
+      "signals": 2,
+      "response_sha256": "d813a182c7f0900bc7c42cc1157fd29439cabb563a8cb3bff43284783fe41079",
+      "signals_detail": [
+        {
+          "name": "loss_weighted_energy_affinity_shift",
+          "expression": "exposure_shift_first * mean(E_loss * (safe_ratio(1, square(B_level_energy - first_mean(A_level_energy))) - safe_ratio(1, square(B_level_energy - second_mean(A_level_energy)))))",
+          "measurement_meaning": "Signed exposure shift toward the A group whose energy centroid has greater bounded affinity to B windows, weighted by normalized parent loss.",
+          "limitation": "Centroids omit within-group distributions. This nonlinear measurement is uncomputed; neither its predictive coefficient nor incremental value is established.",
+          "falsifying_response": "Adding the frozen measurement fails to reduce task-balanced Y prediction error on new held-out tasks beyond the strongest stated controls."
+        },
+        {
+          "name": "removal_loss_concentration",
+          "expression": "removed_fraction * mean(E_loss * log1p_abs(E_loss))",
+          "measurement_meaning": "Removal magnitude multiplied by a nonlinear measure of parent window-loss concentration, emphasizing high-loss windows.",
+          "limitation": "Its value cannot be recovered from the supplied quartile means. Seed-averaged losses omit seed variability, and concentration does not determine the direction of Y.",
+          "falsifying_response": "After controlling for existing features and the affinity measurement, this measurement provides no reproducible reduction in Y prediction error across new held-out tasks."
+        }
+      ],
+      "reasoning": "Energy is a candidate because its parent loss association and early/late group geometry differ across the sources, while Y responses depend strongly on exposure direction and removal. The second candidate tests nonlinear loss concentration as an additional predictor of removal responses. Both use permitted runtime inputs exclusively. No candidate values or prediction gains have been computed. Three source tasks, repeated seeds, and residual mismatches cannot establish generalization or causal mechanisms. Freeze these candidates before testing on new tasks with the specified ridge procedure; abstain from retaining either without incremental predictive benefit beyond all controls."
+    },
+    {
+      "name": "Hydraulic_mismatch",
+      "exit_code": 0,
+      "seconds": 175.5714951000009,
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "usage": {
+        "input_tokens": 73133,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2540,
+        "reasoning_output_tokens": 1805
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "status": "PASS",
+      "signals": 2,
+      "response_sha256": "4b6c1e783601f14140a7f9dc8852c45f3b8c05d05a4c22611d03123fa1033e5e",
+      "signals_detail": [
+        {
+          "name": "exposure_aligned_energy_error_localization",
+          "expression": "exposure_shift_first * mean(center(E_contrast) * (safe_ratio(1, square(B_level_energy - first_mean(A_level_energy))) - safe_ratio(1, square(B_level_energy - second_mean(A_level_energy)))))",
+          "measurement_meaning": "Measures whether the exposure change favors an A energy neighborhood associated with unusually large parent target-minus-complement error on B. Uses smooth nonlinear affinities to the frozen A group means; positive values indicate alignment with greater parent target error excess.",
+          "limitation": "Uncomputed. Group means summarize neighborhoods imperfectly, and parent error concentration does not establish responsiveness to training exposure. Implementation, removal, and other input dimensions may alter responses. Incremental value beyond the strong controls is unknown.",
+          "falsifying_response": "Preregister the hypothesis that larger values predict larger Z after controlling for recipe variables and existing features. Consistently nonpositive associations across new independent source tasks, or no improvement in task-out Z prediction under the specified ridge procedure, would reject that proposed predictive interpretation."
+        },
+        {
+          "name": "parent_window_contrast_cancellation",
+          "expression": "mean(abs(E_contrast)) - abs(mean(E_contrast))",
+          "measurement_meaning": "Measures cancellation between positive and negative parent window contrasts under the shared global normalization. A large value indicates that aggregate target error excess conceals opposing local error patterns; it is a candidate diagnostic reliability measurement.",
+          "limitation": "Uncomputed. Quartile profiles establish some sign heterogeneity but do not determine this statistic. Seed averaging can conceal additional variation. The measurement is constant across recipes sharing a parent and cannot alone explain implementation differences or determine Y or Z.",
+          "falsifying_response": "Test whether greater cancellation predicts larger absolute conditional Z residuals or poorer Z sign calibration across new tasks, with existing controls and recipe variables included. Repeatedly equal or better reliability at greater cancellation, together with no incremental task-out calibration benefit, would reject this reliability interpretation."
+        }
+      ],
+      "reasoning": "Qualified conditional mismatches challenge explanations based solely on inaccurate Y prediction: R1\u2013R2 retain positive residuals under both predictors even after conditioning on observed seed Y, while R19\u2013R20 and R24 retain negative residuals. Qualification depends on the predictor: R14 qualifies only for linear. These findings establish limitations of the fitted explanations, without identifying a causal mechanism or proving missing information; extrapolation, regularization, noise, and response heterogeneity remain possibilities.\n\nRecipe success and diagnostic reliability differ. R5 has Y about -0.447 and positive Z about 0.021 while both horizon portions deteriorate. Positive Z therefore does not establish target improvement. Sampling and weighted implementations also cannot be presumed interchangeable merely from corresponding exposure weights.\n\nThe nonlinear localization candidate is motivated by T1's nonmonotonic energy-quartile contrast profile. Cancellation is motivated by opposing contrast signs within T1 and T2 quartile profiles. Neither expression's value or predictive benefit follows from those summaries. Both use only permitted parent measurements and action inputs at runtime.\n\nThere are three source tasks, not independent tasks for each seed or predictor. Source-task-out fitting excludes the held source, but retrospective measurement selection still needs fresh task-level validation. Compare against all stated controls using the fixed ridge and scale floors; abstain from response or reliability claims unless incremental performance and calibration replicate."
+    }
+  ],
+  "decisions": [
+    {
+      "method": "reference",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "reference",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "reference",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.07332343618218559,
+      "mean_regret": 0.052218633938229876
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12554207012041546,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "original_quadratic",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "window_fixed",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.10758842273031546,
+      "mean_regret": 0.017953647390100004
+    },
+    {
+      "method": "window_fixed",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12087585684823528,
+      "mean_regret": 0.004666213272180189
+    },
+    {
+      "method": "window_fixed",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "window_quadratic",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.05655339185225028,
+      "mean_regret": 0.06898867826816518
+    },
+    {
+      "method": "window_quadratic",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12087585684823528,
+      "mean_regret": 0.004666213272180189
+    },
+    {
+      "method": "window_quadratic",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "manual_uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "manual_uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12541606720324222,
+      "mean_regret": 0.00012600291717324575
+    },
+    {
+      "method": "manual_uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "manual_conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "manual_conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "manual_conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "ordinary_uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "ordinary_uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "ordinary_uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "ordinary_joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "ordinary_joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "ordinary_joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "ordinary_conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "ordinary_conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "ordinary_conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "ordinary_combined",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "ordinary_combined",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "ordinary_combined",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "mismatch_uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "mismatch_uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "mismatch_uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "mismatch_joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "mismatch_conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "method": "mismatch_combined",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "method": "mismatch_combined",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "method": "mismatch_combined",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    }
+  ],
+  "initial_predictions": [
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "reference",
+      "mean_absolute_error": 0.13902000570003678,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "original_quadratic",
+      "mean_absolute_error": 0.14726885870914247,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "window_fixed",
+      "mean_absolute_error": 0.14122962672648312,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "window_quadratic",
+      "mean_absolute_error": 0.13963774127681103,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "manual_uniform",
+      "mean_absolute_error": 0.13892420442798895,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "manual_conditional",
+      "mean_absolute_error": 0.13892420442798895,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_uniform",
+      "mean_absolute_error": 0.13900178270358984,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_joint",
+      "mean_absolute_error": 0.13900178270358984,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_conditional",
+      "mean_absolute_error": 0.13900178270358984,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "ordinary_combined",
+      "mean_absolute_error": 0.13894711371220844,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_uniform",
+      "mean_absolute_error": 0.13901935162603105,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_joint",
+      "mean_absolute_error": 0.13901935162603105,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_conditional",
+      "mean_absolute_error": 0.13901935162603105,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "method": "mismatch_combined",
+      "mean_absolute_error": 0.1390173894858344,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "reference",
+      "mean_absolute_error": 1.3710790419083936,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "original_quadratic",
+      "mean_absolute_error": 1.4768902060453983,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "window_fixed",
+      "mean_absolute_error": 1.378030640632029,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "window_quadratic",
+      "mean_absolute_error": 1.4544831969005543,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "manual_uniform",
+      "mean_absolute_error": 1.3715390199024435,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "manual_conditional",
+      "mean_absolute_error": 1.3715390199024435,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_uniform",
+      "mean_absolute_error": 1.3711042340236166,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_joint",
+      "mean_absolute_error": 1.3711042340236166,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_conditional",
+      "mean_absolute_error": 1.3711042340236166,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "ordinary_combined",
+      "mean_absolute_error": 1.371179810370118,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_uniform",
+      "mean_absolute_error": 1.371078838411258,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_joint",
+      "mean_absolute_error": 1.371078838411258,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_conditional",
+      "mean_absolute_error": 1.371078838411258,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "method": "mismatch_combined",
+      "mean_absolute_error": 1.371078227953586,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "reference",
+      "mean_absolute_error": 0.49432655751409765,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "original_quadratic",
+      "mean_absolute_error": 0.47988993673420977,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "window_fixed",
+      "mean_absolute_error": 0.5030395395366306,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "window_quadratic",
+      "mean_absolute_error": 0.49751877719232,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "manual_uniform",
+      "mean_absolute_error": 0.49424366524083024,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "manual_conditional",
+      "mean_absolute_error": 0.49424366524083024,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_uniform",
+      "mean_absolute_error": 0.4943129513500681,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_joint",
+      "mean_absolute_error": 0.4943129513500681,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_conditional",
+      "mean_absolute_error": 0.4943129513500681,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "ordinary_combined",
+      "mean_absolute_error": 0.4942721328568545,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_uniform",
+      "mean_absolute_error": 0.49432655739175113,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_joint",
+      "mean_absolute_error": 0.49432655739175113,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_conditional",
+      "mean_absolute_error": 0.49432655739175113,
+      "candidate_count": 8
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "method": "mismatch_combined",
+      "mean_absolute_error": 0.49432655702473166,
+      "candidate_count": 8
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "reference",
+      "mean_absolute_error": 0.13063635447901045,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "original_quadratic",
+      "mean_absolute_error": 0.07623971437530117,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "window_fixed",
+      "mean_absolute_error": 0.012376053241869443,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "window_quadratic",
+      "mean_absolute_error": 0.037716778446310925,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "manual_uniform",
+      "mean_absolute_error": 0.13239343095416808,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "manual_conditional",
+      "mean_absolute_error": 0.13239343095416808,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_uniform",
+      "mean_absolute_error": 0.13872932470063115,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_joint",
+      "mean_absolute_error": 0.13872932470063115,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_conditional",
+      "mean_absolute_error": 0.13872932470063115,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "ordinary_combined",
+      "mean_absolute_error": 0.163008235365493,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_uniform",
+      "mean_absolute_error": 0.1313136088786373,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_joint",
+      "mean_absolute_error": 0.1313136088786373,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_conditional",
+      "mean_absolute_error": 0.1313136088786373,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "method": "mismatch_combined",
+      "mean_absolute_error": 0.1333453720775184,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "reference",
+      "mean_absolute_error": 0.17378871719972294,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "original_quadratic",
+      "mean_absolute_error": 0.06840270472056047,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "window_fixed",
+      "mean_absolute_error": 0.2837940964540306,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "window_quadratic",
+      "mean_absolute_error": 0.20112106646057204,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "manual_uniform",
+      "mean_absolute_error": 0.1642901628657254,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "manual_conditional",
+      "mean_absolute_error": 0.1642901628657254,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_uniform",
+      "mean_absolute_error": 0.17466956579865078,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_joint",
+      "mean_absolute_error": 0.17466956579865078,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_conditional",
+      "mean_absolute_error": 0.17466956579865078,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "ordinary_combined",
+      "mean_absolute_error": 0.17731211159543428,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_uniform",
+      "mean_absolute_error": 0.17377693687958157,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_joint",
+      "mean_absolute_error": 0.17377693687958157,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_conditional",
+      "mean_absolute_error": 0.17377693687958157,
+      "candidate_count": 4
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "method": "mismatch_combined",
+      "mean_absolute_error": 0.1737415959191575,
+      "candidate_count": 4
+    }
+  ],
+  "initial_task_equal_errors": [
+    {
+      "method": "manual_conditional",
+      "task_equal_initial_Y_MAE_pp": 46.02780966782312
+    },
+    {
+      "method": "manual_uniform",
+      "task_equal_initial_Y_MAE_pp": 46.02780966782312
+    },
+    {
+      "method": "mismatch_combined",
+      "task_equal_initial_Y_MAE_pp": 46.23018284921656
+    },
+    {
+      "method": "mismatch_conditional",
+      "task_equal_initial_Y_MAE_pp": 46.19030586374519
+    },
+    {
+      "method": "mismatch_joint",
+      "task_equal_initial_Y_MAE_pp": 46.19030586374519
+    },
+    {
+      "method": "mismatch_uniform",
+      "task_equal_initial_Y_MAE_pp": 46.19030586374519
+    },
+    {
+      "method": "ordinary_combined",
+      "task_equal_initial_Y_MAE_pp": 46.894388078002166
+    },
+    {
+      "method": "ordinary_conditional",
+      "task_equal_initial_Y_MAE_pp": 46.35635717153114
+    },
+    {
+      "method": "ordinary_joint",
+      "task_equal_initial_Y_MAE_pp": 46.35635717153114
+    },
+    {
+      "method": "ordinary_uniform",
+      "task_equal_initial_Y_MAE_pp": 46.35635717153114
+    },
+    {
+      "method": "original_quadratic",
+      "task_equal_initial_Y_MAE_pp": 44.97382841169224
+    },
+    {
+      "method": "reference",
+      "task_equal_initial_Y_MAE_pp": 46.17701353602522
+    },
+    {
+      "method": "window_fixed",
+      "task_equal_initial_Y_MAE_pp": 46.369399131820856
+    },
+    {
+      "method": "window_quadratic",
+      "task_equal_initial_Y_MAE_pp": 46.60955120553137
+    }
+  ],
+  "query_nodes": 182,
+  "known_cost_nodes": 152,
+  "policy_seconds": 3.4416400999980397,
+  "measurement_seconds": 0.21370099998966907,
+  "LLM_seconds_sum": 743.1000865000024,
+  "LLM_seconds_longest": 215.85951919999934,
+  "tokens_input": 228136,
+  "tokens_output": 11382,
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464
+}

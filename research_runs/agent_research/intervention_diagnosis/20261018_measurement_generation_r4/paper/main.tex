@@ -1,0 +1,205 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,hyperref}
+\title{Conditional Diagnostic Evidence and Executable Signal Discovery:\\A Controlled Retrospective Study}
+\author{Working research manuscript}
+\date{18 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Successful data interventions need not validate the explanations that motivated them.
+We implement separate updates for observed intervention value and conditional predictive evidence supporting diagnostic reuse.
+A source-isolated language model proposes executable measurements from parent-model windows and conditional-response counterexamples.
+Across 96 historical seed-level comparisons, aggregated into 32 candidate decisions on five tasks from two source families, we evaluate fixed-feature, ordinary-generation, and diagnostic-generation controls.
+After addressing an identifiable regression extrapolation failure, four new generation calls produce eight legal window measurements.
+Seventy complete policy trajectories show no total-gain prediction or selection benefit from these measurements at the registered budgets.
+Conditional updating also fails to outperform strong fixed response models.
+The result is a reproducible negative development finding, not evidence of method superiority or independent generalization.
+\end{abstract}
+
+\section{Question and scope}
+We study intervention selection under fixed forecasting backbones and source-specific training protocols.
+Our question is whether evidence about an explanation should govern its reuse independently of retaining an intervention with measured benefit.
+Intervention-driven verification appears in DoVer~\cite{dover}; language-guided hypothesis and error-slice discovery appears in LADDER~\cite{ladder}.
+Neither explanation verification nor conditional log scoring is itself claimed as novel mathematics.
+The empirical contribution sought is additional decision value from diagnostic reuse and newly measured information.
+The current experiments do not establish that contribution.
+
+\section{Separating recipe value from diagnostic evidence}
+Let $L_P>0$ denote parent global MSE and $L_C$ child global MSE.
+A target region $S$ has evaluation mass $p$ and complement $\bar S$.
+All response coordinates share the parent \emph{global} denominator:
+\[
+ d_S=(L_{P,S}-L_{C,S})/L_P,\quad
+ d_{\bar S}=(L_{P,\bar S}-L_{C,\bar S})/L_P,
+\]
+\[
+ Y=p\,d_S+(1-p)d_{\bar S},\qquad Z=d_S-d_{\bar S}.
+\]
+Hence $d_S=Y+(1-p)Z$ and $d_{\bar S}=Y-pZ$.
+These are two response coordinates, not three independent observations.
+Positive $Z$ need not imply positive target improvement.
+
+Before a query, freeze reference and diagnostic predictors
+$p_0(Y\mid x),p_0(Z\mid Y,x)$ and $p_h(Y\mid x),p_h(Z\mid Y,x)$.
+After revealing $(y,z)$, compute
+\[
+ E_h^{\rm cond}=\log p_h(z\mid y,x)-\log p_0(z\mid y,x).
+\]
+Observed $y$ is a scoring input only.
+It is unavailable for unqueried acquisition.
+The corresponding joint evidence satisfies
+\[
+ E_h^{\rm joint}=E_h^Y+E_h^{\rm cond}.
+\]
+When both models share the same $Y$ marginal, joint and conditional evidence are identical.
+Our ablation permits different marginals.
+
+Reliability accumulates as $\rho_h\leftarrow\rho_h+E_h$.
+Reference prior mass is 1 and total expert prior mass is 1:
+\[
+ (w_0,w_1,\ldots,w_H)\propto
+ (1,e^{\rho_1}/H,\ldots,e^{\rho_H}/H).
+\]
+Acquisition maximizes $w_0\widehat Y_0(x)+\sum_h w_h\widehat Y_h(x)$.
+All response regressors learn from actual revealed gains.
+The best measured eligible intervention is retained independently of diagnostic reliability.
+Each event contributes once; a revised diagnostic has a distinct version.
+These scores are predictive comparisons, not causal identification, calibrated tests, root-cause probabilities, or Bayes factors.
+
+\section{Predictor and measurement interface}
+The reference uses 22 common parent-state and action primitives.
+Four manual experts add fixed interactions, and a strong control uses all 26 fixed features and every quadratic product.
+Task-balanced ridge regression assigns each task total weight 1 and uses coefficient 1.
+The revised input scale is
+\[
+ s_j=\sqrt{\max\{\operatorname{Var}_{\rm train}(x_j),1\}}.
+\]
+The unit floor prevents a near-constant source feature from effectively eliminating regularization in its original coordinate.
+It is a development correction, not an innovation or guarantee of extrapolation.
+Leave-task-out residuals estimate the Gaussian predictive scale, with floor 0.01 in response-ratio units.
+For the large quadratic control, a weighted dual solve is algebraically equivalent to the primal ridge solve.
+
+Parent-only measurements expose eight input statistics for every A/B window and five normalized B error statistics per seed, plus target-minus-complement error contrast.
+Error vectors are averaged over the three seeds before executing a measurement.
+The generator may use bounded arithmetic, smooth transformations, vector centering and normalization, and window reductions.
+A and B vectors cannot be combined elementwise; reductions must precede cross-partition combinations.
+No candidate response is a runtime measurement input.
+Expressions have at most 95 AST nodes and cannot execute arbitrary code.
+
+The source prompt includes all original features, source-task-out $Y$ and conditional-$Z$ errors, and parent-window summaries with quartile error profiles.
+Ordinary and conditional-mismatch generation receive identical factual inputs and equal budgets.
+Each source/mode combination receives one Sol-high call and may return zero to two expressions.
+Target-family summaries and responses are absent.
+All four outputs are sealed and published before target measurements are calculated.
+
+The window control adds 104 fixed statistics to the original 26:
+eight action-aligned group-coverage contrasts, 48 input--error correlations, and 48 products of coverage with correlation.
+We test both its linear and complete quadratic expansions.
+The latter has 8,645 features.
+Thus a weak primitive reference is not the only comparator.
+
+\section{Experimental design}
+Hydraulic contributes three tasks with four actions and two implementations per task; ETT contributes two stations with two actions and two implementations.
+Sampling and corresponding loss weighting are distinct implementations.
+Three seeds produce 96 historical seed-level comparisons, aggregated into 32 candidate decisions.
+The target region is the latter half of each forecast horizon, with $p=1/2$ across all windows and channels.
+Original B-selected checkpoints are retained; no C-based checkpoint reselection is performed.
+All A/B/C results were previously revealed, so this is retrospective development.
+
+The measurement experiment uses family holdout only.
+A generator that sees all source tasks cannot claim a within-source held task is unseen.
+For each of five target tasks we run 14 complete policies:
+primitive reference; original quadratic; window linear and quadratic; manual uniform and conditional mixtures; and ordinary/mismatch generation each with uniform, joint, conditional and combined-regression variants.
+This yields 70 trajectories and 448 queries.
+A policy registers forecasts, reveals one candidate, scores the forecast, and only then refits.
+At 2/4 queries, an observed candidate must have mean $Y\geq0.01$ and NMAE gain $\geq-0.01$; otherwise retain the parent.
+Each query corresponds to three logical full trainings, plus a shared three-seed parent.
+Eight-query results cover only Hydraulic and are reported separately.
+
+\section{Results}
+\begin{table}[ht]
+\centering
+\caption{Family-held-out retrospective five-task mean NMSE improvement (\%).}
+\begin{tabular}{lrr}
+\toprule
+Policy & 2 queries & 4 queries\\
+\midrule
+Primitive reference & 6.003600 & 7.786365\\
+Original 26 features, quadratic & 7.332344 & 12.554207\\
+Window fixed features, linear & 10.758842 & 12.087586\\
+Window fixed features, quadratic & 5.655339 & 12.087586\\
+Manual experts, uniform & 6.003600 & 12.541607\\
+Manual experts, conditional & 6.003600 & 7.786365\\
+Ordinary measurements, all four variants & 6.003600 & 7.786365\\
+Mismatch measurements, all four variants & 6.003600 & 7.786365\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All four generation calls return two executable measurements.
+Examples include loss-weighted nonlinear proximity to training-group energy centroids, implementation interactions, removal-weighted loss concentration, and cancellation of opposing local parent errors.
+These aggregate window vectors and therefore exceed the earlier scalar-combination interface.
+This capability does not establish useful information gain.
+
+The generated mixtures have exactly the reference query sequence on all five tasks.
+The combined regressions also fail to improve the registered budget outcomes.
+The original quadratic baseline reaches the finite-pool oracle mean of 12.554207\% at four queries; generated policies have mean regret 4.767842 percentage points.
+Most of this gap is task G2, where generated policies select a 30.018001\% gain rather than the available 53.794211\% gain.
+On ETTh2 all compared four-query policies select mean gain 6.643717\%, but one seed degrades.
+Mean eligibility is not seed-stable superiority.
+
+Task-equal initial $Y$ MAE is 46.177014 percentage points for the reference, 44.973828 for the original quadratic baseline, 46.356357 for ordinary generated mixtures and 46.190306 for mismatch generated mixtures.
+The new measurements do not improve this predictive criterion.
+These task-equal errors are not interchangeable with candidate-equal errors reported in earlier stages.
+For a descriptive aggregation of audited conditional log scores, we first average over queries and two experts within each task and then over five tasks.
+Mean gains are $-0.00133207$ for ordinary generation and $-0.00001998$ for mismatch generation.
+Individual events and tasks can be positive; the scores are not identically zero.
+This post-hoc summary is neither a newly registered success criterion nor a significance test.
+
+\section{Development history, audit and cost}
+The initial scalar-combination study used four calls and retained two mismatch-generator abstentions.
+It lacked conditional-$Z$ residual input and showed extreme source extrapolation.
+A frozen-snapshot decomposition identified a near-constant weight-second-moment feature contributing 347.24748 response units to one predictor.
+A separately registered unit-scale revision controlled this extrapolation, but conditional updating still lacked decision value.
+No old result or abstention is overwritten.
+
+Initial parent measurement extraction omitted the double energy of internal real-FFT bins.
+Original tables and the finding are preserved; corrected tables change only the high-frequency column.
+An independent double-sided DFT verifies all 24,255 Hydraulic input windows.
+ETT checks cover table hashes, modification scope and parent B residual hashes; a second implementation did not recompute all original ETT input statistics.
+
+The final measurement experiment passes 48,056 independent checks:
+256 generated and 6,656 fixed measurements, 2,176 model components, 1,792 candidate predictions, 640 score triples, 182 nodes and 42 summaries.
+An independent observation-space calculation checks the large quadratic models without invoking the production fit.
+Maximum numerical discrepancy is approximately $3.70\times10^{-13}$.
+Model identity is supported by request records, and ordering by hashes, code and local timestamps; these are not external attestations.
+Pre-call lock defects and their repairs are preserved.
+
+The four new calls consume 228,136 input and 11,382 output tokens.
+Summed call time is 743.100087 seconds under parallel execution; the longest call is 215.859519 seconds.
+Transport falls back from WebSockets to HTTPS, with no additional generation.
+Policy-internal time sums to 3.441640 seconds and measurement computation to 0.213701 seconds.
+These omit portions of loading, serialization and transport.
+Historical query costs are known at 152/182 nodes; 30 remain unknown.
+There is no verifiable monetary bill and no complete wall-clock equal-budget superiority claim.
+No new full forecasting model is trained; the historical count remains 464.
+Sealed D/test partitions are not evaluated.
+
+\section{Limitations and next evidence}
+The study has five correlated tasks from only two source families, with strong development exposure.
+It supplies no source-level significance or independent confirmation.
+One removal-based generated feature is identically zero on ETT because its action menu contains no deletion.
+A generated cancellation statistic is motivated as a reliability measurement, but our fixed model places it in a mean function with globally estimated residual scale; the corresponding heteroscedastic interpretation is not tested.
+We preserve this mismatch rather than redesigning the head after observing results.
+
+A full strong-prompt adaptive agent, a fixed-prefix feedback intervention, complete costs, and independent-source confirmation remain necessary.
+The tested implementation does not establish H1 signal benefit, H2 conditional-update benefit, or H3 decision superiority.
+This does not prove that every conditional diagnostic learner must fail.
+Further claims require a frozen mechanism and evidence beyond this development pool, not more favorable prompts, thresholds or candidate subsets.
+
+\begin{thebibliography}{9}
+\bibitem{dover} M. Ma et al. \emph{DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems}. arXiv:2512.06749, 2025. \url{https://arxiv.org/abs/2512.06749}.
+\bibitem{ladder} S. Ghosh et al. \emph{LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers}. Findings of ACL, 2025; arXiv:2408.07832v13. \url{https://arxiv.org/abs/2408.07832}.
+\end{thebibliography}
+\end{document}

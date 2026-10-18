@@ -1,0 +1,129 @@
+{
+  "kind": "posthoc_descriptive_audited_score_aggregation_not_a_new_success_criterion",
+  "rows": [
+    {
+      "mode": "ordinary",
+      "family": "ETT",
+      "task": "ETTh1",
+      "mean_conditional_log_score_gain": -0.004120815596042953,
+      "min_score": -0.008848578952056207,
+      "max_score": 0.00046564566618684244,
+      "queries": 4,
+      "experts": 2,
+      "trace_sha256": "6d276c4384b5ac872f109fca77df516d7997f85df7c76396209523272f1a1d5e"
+    },
+    {
+      "mode": "ordinary",
+      "family": "ETT",
+      "task": "ETTh2",
+      "mean_conditional_log_score_gain": -0.004253006700571797,
+      "min_score": -0.009832497600875317,
+      "max_score": 0.0003154830963676969,
+      "queries": 4,
+      "experts": 2,
+      "trace_sha256": "976dee1fc2843665fc5af0f63d4c1f77c09c3ad7baa9cf6f428d2b8302241672"
+    },
+    {
+      "mode": "ordinary",
+      "family": "Hydraulic",
+      "task": "G1",
+      "mean_conditional_log_score_gain": 0.0012381239496846025,
+      "min_score": -0.004704140427020276,
+      "max_score": 0.02516062390205165,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "e432ddbd87f3331c398be0b33647cb69a4bdf476a6419a21593bc03771bf0017"
+    },
+    {
+      "mode": "ordinary",
+      "family": "Hydraulic",
+      "task": "G2",
+      "mean_conditional_log_score_gain": -3.3409134781285394e-05,
+      "min_score": -0.039684103869518594,
+      "max_score": 0.049105587266865314,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "0068eb204229462ab9f7493aa1440edf18f9192991fc80f0a820b596911c5eb3"
+    },
+    {
+      "mode": "ordinary",
+      "family": "Hydraulic",
+      "task": "G3",
+      "mean_conditional_log_score_gain": 0.000508747417462074,
+      "min_score": -0.002073136456282043,
+      "max_score": 0.0053295355941536116,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "e4b47285bc0cdbf8617f914856c2e1abe8dca0f717bcffeb889d8d20274c8dba"
+    },
+    {
+      "mode": "mismatch",
+      "family": "ETT",
+      "task": "ETTh1",
+      "mean_conditional_log_score_gain": 2.0393848079064067e-05,
+      "min_score": -0.00022793534814335992,
+      "max_score": 0.00012359878325107765,
+      "queries": 4,
+      "experts": 2,
+      "trace_sha256": "c12438714a7b33df785850f82818a9d7f8dd0001463caa0a9b5f0455cd6cfdb3"
+    },
+    {
+      "mode": "mismatch",
+      "family": "ETT",
+      "task": "ETTh2",
+      "mean_conditional_log_score_gain": -0.00016123386780288705,
+      "min_score": -0.0010676884694804933,
+      "max_score": 0.00020539013660073047,
+      "queries": 4,
+      "experts": 2,
+      "trace_sha256": "ee8dcc84945c450158409a99a722b12bed5ddc8215345fc699f6b8fcb73cb4f2"
+    },
+    {
+      "mode": "mismatch",
+      "family": "Hydraulic",
+      "task": "G1",
+      "mean_conditional_log_score_gain": 6.699617669166102e-05,
+      "min_score": -0.00015309661279472309,
+      "max_score": 0.0003528539019828081,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "e85e0cc49aafd1fbe1fad1ccada915d1343288e412166eea8a917a6fbeffa914"
+    },
+    {
+      "mode": "mismatch",
+      "family": "Hydraulic",
+      "task": "G2",
+      "mean_conditional_log_score_gain": -2.410227193219705e-05,
+      "min_score": -0.0002625337298240993,
+      "max_score": 7.59026564045584e-07,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "ca927fa919236baebaf2d73aeb69b5048d736e4578c61d90ebe2601652d39a5b"
+    },
+    {
+      "mode": "mismatch",
+      "family": "Hydraulic",
+      "task": "G3",
+      "mean_conditional_log_score_gain": -1.943214029227411e-06,
+      "min_score": -1.8589394524148872e-05,
+      "max_score": 5.207084438296761e-06,
+      "queries": 8,
+      "experts": 2,
+      "trace_sha256": "6d32a682228b649c81d73fcc54bd8917c751829a3929399585963bbb1ad61132"
+    }
+  ],
+  "summary": [
+    {
+      "mode": "ordinary",
+      "task_equal_mean_conditional_log_score_gain": -0.0013320720128498717,
+      "tasks": 5
+    },
+    {
+      "mode": "mismatch",
+      "task_equal_mean_conditional_log_score_gain": -1.9977865798717285e-05,
+      "tasks": 5
+    }
+  ],
+  "no_new_fitting": true,
+  "script_sha256": "319a30fbc406eeb3f575d63774f2e7c5862990d4e8254a7ebd85cdf8d0fd220b"
+}

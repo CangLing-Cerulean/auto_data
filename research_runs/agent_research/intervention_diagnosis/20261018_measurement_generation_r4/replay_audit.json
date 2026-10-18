@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "counts": {
+    "assertions": 48056,
+    "corrected_tables": 5,
+    "independent_expression_evaluations": 256,
+    "generation_calls": 4,
+    "recomputed_generated_measurements": 256,
+    "recomputed_fixed_measurements": 6656,
+    "steps": 448,
+    "independent_component_fits": 2176,
+    "component_snapshots": 2176,
+    "candidate_predictions": 1792,
+    "nodes": 182,
+    "unknown_cost_nodes": 30,
+    "expert_score_triples": 640,
+    "summaries": 42,
+    "csv_rows": 182
+  },
+  "error_count": 0,
+  "errors": [],
+  "max_abs_differences": {
+    "measurement": 1.4432899320127035e-15,
+    "oracle": 0.0,
+    "run_seconds": 0.0,
+    "fit_center": 5.329070518200751e-15,
+    "fit_scale": 2.6645352591003757e-15,
+    "fit_beta": 1.3322676295501878e-15,
+    "fit_std": 8.881784197001252e-16,
+    "ridge_stationarity": 1.762479051592436e-14,
+    "intercept_stationarity": 1.672273430841642e-15,
+    "candidate_prediction": 2.220446049250313e-15,
+    "registration_reference": 2.220446049250313e-15,
+    "event_response": 0.0,
+    "node_gain": 0.0,
+    "node_NMAE_gain": 0.0,
+    "node_negative_seed_count": 0.0,
+    "node_regret": 0.0,
+    "query_seconds": 0.0,
+    "registration_expert": 8.881784197001252e-16,
+    "reliability_before": 4.773959005888173e-15,
+    "expert_logscore": 5.329070518200751e-15,
+    "factorization": 3.694822225952521e-13,
+    "reliability_after": 4.773959005888173e-15,
+    "summary_gain": 0.0,
+    "summary_regret": 0.0,
+    "csv_queries": 0.0,
+    "csv_gain": 0.0,
+    "csv_NMAE_gain": 0.0,
+    "csv_negative_seed_count": 0.0,
+    "csv_logical_candidate_full_trainings": 0.0,
+    "csv_shared_parent_full_trainings": 0.0,
+    "csv_query_seconds": 0.0,
+    "csv_policy_seconds": 0.0,
+    "csv_regret": 0.0
+  },
+  "generation_calls": [
+    {
+      "name": "ETT_ordinary",
+      "signals": 2,
+      "seconds": 165.14637520000178,
+      "usage": {
+        "input_tokens": 40935,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2012,
+        "reasoning_output_tokens": 1552
+      },
+      "ast_nodes": [
+        44,
+        23
+      ]
+    },
+    {
+      "name": "ETT_mismatch",
+      "signals": 2,
+      "seconds": 215.85951919999934,
+      "usage": {
+        "input_tokens": 40946,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4333,
+        "reasoning_output_tokens": 3599
+      },
+      "ast_nodes": [
+        50,
+        54
+      ]
+    },
+    {
+      "name": "Hydraulic_ordinary",
+      "signals": 2,
+      "seconds": 186.52269700000033,
+      "usage": {
+        "input_tokens": 73122,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2497,
+        "reasoning_output_tokens": 2070
+      },
+      "ast_nodes": [
+        46,
+        17
+      ]
+    },
+    {
+      "name": "Hydraulic_mismatch",
+      "signals": 2,
+      "seconds": 175.5714951000009,
+      "usage": {
+        "input_tokens": 73133,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2540,
+        "reasoning_output_tokens": 1805
+      },
+      "ast_nodes": [
+        49,
+        19
+      ]
+    }
+  ],
+  "summary_sha256": "fcbc7cb2ec07e72f5d48557fee614343adb9ee3dca85bd632f229df3ca7c47ab",
+  "generated_outputs_lock_sha256": "9ef89298f5cc4d8fd387d3d5e72281a28162393d619b94f8bd7687474de8dc8b",
+  "audit_source_sha256": "d8d3437b0d071f892ed38d5b87c875850ecd827d2f484ce5293f72b87ebe0721",
+  "solver": "Independent observation-space symmetric eigensolve plus snapshot ridge stationarity; task-macro leave-task-out residual scale",
+  "tolerance": 2e-09,
+  "elapsed_seconds": 9.999482800001715,
+  "scope": "Four frozen source-only calls; five corrected parent tables; all new and fixed measurements; all 70 held-family strategies/448 steps/182 nodes/42 summaries. No production execution, raw arrays, D/test, servers or storage-prohibited paths.",
+  "limitations": [
+    "Requested model/reasoning verified from command records and locks; server model identity is not independently attested by these event streams.",
+    "Generation-before-target order checked through hash-chain, frozen source control flow and local file times; this is not tamper-proof temporal attestation.",
+    "Parent table hashes and correction receipt links are checked; original arrays and previously audited r2 source-packet regressions are not recomputed.",
+    "Timing checked only for finite/internal consistency; no generation, model fitting policy, original training or end-to-end runtime is rerun.",
+    "Interface synthetic probes and prior 14-method simulations are not repeated.",
+    "Eight-query summaries cover only three Hydraulic tasks; two/four-query summaries cover all five.",
+    "Floating-point argmax disagreements are accepted only within the stated tolerance and counted explicitly."
+  ]
+}

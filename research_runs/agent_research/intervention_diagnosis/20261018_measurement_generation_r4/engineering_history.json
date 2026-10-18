@@ -1,0 +1,14 @@
+{
+  "preserved_findings": [
+    "r3 unweighted rFFT high-frequency energy: corrected tables used only",
+    "reviewer fixture initial Hydraulic seed-ID mistake: retained in interface_audit",
+    "incomplete/empty call lock accepted and generation lock link unchecked: repaired before any generation; source89dabcf retained, corrected2be9738",
+    "four CLI WebSocket timeout fallbacks to HTTPS, no additional generation",
+    "one documentation apply_patch attempt failed matching a partial line; no files were written; corrected patch succeeded"
+  ],
+  "LLM_validation_failures": 0,
+  "full_training_failures": 0,
+  "replay_failures": 0,
+  "independent_audit_failures": 0,
+  "initial_science_results_never_overwritten": true
+}
