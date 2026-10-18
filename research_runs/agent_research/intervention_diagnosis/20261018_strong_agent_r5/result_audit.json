@@ -1,0 +1,3727 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "frozen_files_and_completion",
+      "status": "PASS",
+      "details": {
+        "calls": 20,
+        "execution_lock_sha256": "4ba995984181295bfe0b2a20dc7b89058f8c13f62be0ac0a9fbec11cae6f7278"
+      }
+    },
+    {
+      "check": "trajectory_ETT_ETTh1",
+      "status": "PASS",
+      "details": {
+        "calls": 4,
+        "nodes": 2,
+        "model_components": 24
+      }
+    },
+    {
+      "check": "trajectory_ETT_ETTh2",
+      "status": "PASS",
+      "details": {
+        "calls": 4,
+        "nodes": 2,
+        "model_components": 24
+      }
+    },
+    {
+      "check": "trajectory_Hydraulic_G1",
+      "status": "PASS",
+      "details": {
+        "calls": 4,
+        "nodes": 2,
+        "model_components": 24
+      }
+    },
+    {
+      "check": "trajectory_Hydraulic_G2",
+      "status": "PASS",
+      "details": {
+        "calls": 4,
+        "nodes": 2,
+        "model_components": 24
+      }
+    },
+    {
+      "check": "trajectory_Hydraulic_G3",
+      "status": "PASS",
+      "details": {
+        "calls": 4,
+        "nodes": 2,
+        "model_components": 24
+      }
+    },
+    {
+      "check": "aggregate_random_cost_tokens_and_rounds",
+      "status": "PASS",
+      "details": {
+        "summaries": [
+          {
+            "queries": 2,
+            "agent_mean_gain": 0.06570245533175165,
+            "uniform_random_expected_mean_gain": 0.07854945541358155
+          },
+          {
+            "queries": 4,
+            "agent_mean_gain": 0.12554207012041546,
+            "uniform_random_expected_mean_gain": 0.11262031332529968
+          }
+        ],
+        "calls": 20,
+        "trajectory_nodes": 10,
+        "independent_model_components": 120,
+        "process_seconds_sum": 2591.4953838999973,
+        "preparation_seconds_sum": 1.2723541000013938,
+        "usage_totals": {
+          "input_tokens": 577291,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 10160,
+          "reasoning_output_tokens": 8003
+        },
+        "transport_error_events": 20,
+        "request_to_last_revelation_seconds": 544.4417459964752,
+        "historical_generator_costs": [
+          {
+            "call": "ETT_ordinary",
+            "seconds": 165.14637520000178,
+            "usage": {
+              "input_tokens": 40935,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2012,
+              "reasoning_output_tokens": 1552
+            },
+            "status": "PASS"
+          },
+          {
+            "call": "ETT_mismatch",
+            "seconds": 215.85951919999934,
+            "usage": {
+              "input_tokens": 40946,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 4333,
+              "reasoning_output_tokens": 3599
+            },
+            "status": "PASS"
+          },
+          {
+            "call": "Hydraulic_ordinary",
+            "seconds": 186.52269700000033,
+            "usage": {
+              "input_tokens": 73122,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2497,
+              "reasoning_output_tokens": 2070
+            },
+            "status": "PASS"
+          },
+          {
+            "call": "Hydraulic_mismatch",
+            "seconds": 175.5714951000009,
+            "usage": {
+              "input_tokens": 73133,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2540,
+              "reasoning_output_tokens": 1805
+            },
+            "status": "PASS"
+          }
+        ],
+        "node_costs": [
+          {
+            "family": "ETT",
+            "task": "ETTh1",
+            "queries": 2,
+            "recommendation": "PARENT",
+            "gain": 0.0,
+            "NMAE_gain": 0.0,
+            "negative_seed_count": 0,
+            "query_seconds": 245.86608462035656,
+            "logical_candidate_full_trainings": 6,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh1",
+            "queries": 4,
+            "recommendation": "PARENT",
+            "gain": 0.0,
+            "NMAE_gain": 0.0,
+            "negative_seed_count": 0,
+            "query_seconds": 491.94775291066617,
+            "logical_candidate_full_trainings": 12,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh2",
+            "queries": 2,
+            "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+            "gain": 0.0224142510366059,
+            "NMAE_gain": 0.005261228088253957,
+            "negative_seed_count": 1,
+            "query_seconds": 248.3905921652913,
+            "logical_candidate_full_trainings": 6,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "ETT",
+            "task": "ETTh2",
+            "queries": 4,
+            "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+            "gain": 0.06643717058959907,
+            "NMAE_gain": 0.020686959271040056,
+            "negative_seed_count": 1,
+            "query_seconds": 497.0226431209594,
+            "logical_candidate_full_trainings": 12,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G1",
+            "queries": 2,
+            "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+            "gain": 0.023331066360900942,
+            "NMAE_gain": -0.0012734344114628236,
+            "negative_seed_count": 0,
+            "query_seconds": 221.75586752500385,
+            "logical_candidate_full_trainings": 6,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G1",
+            "queries": 4,
+            "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+            "gain": 0.023331066360900942,
+            "NMAE_gain": -0.0012734344114628236,
+            "negative_seed_count": 0,
+            "query_seconds": null,
+            "logical_candidate_full_trainings": 12,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G2",
+            "queries": 2,
+            "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+            "gain": 0.2827669592612514,
+            "NMAE_gain": 0.134791588457276,
+            "negative_seed_count": 0,
+            "query_seconds": 214.27588484808803,
+            "logical_candidate_full_trainings": 6,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G2",
+            "queries": 4,
+            "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+            "gain": 0.5379421136515773,
+            "NMAE_gain": 0.270456170223404,
+            "negative_seed_count": 0,
+            "query_seconds": 432.18633210659027,
+            "logical_candidate_full_trainings": 12,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G3",
+            "queries": 2,
+            "recommendation": "PARENT",
+            "gain": 0.0,
+            "NMAE_gain": 0.0,
+            "negative_seed_count": 0,
+            "query_seconds": 213.76905684079975,
+            "logical_candidate_full_trainings": 6,
+            "shared_parent_full_trainings": 3
+          },
+          {
+            "family": "Hydraulic",
+            "task": "G3",
+            "queries": 4,
+            "recommendation": "PARENT",
+            "gain": 0.0,
+            "NMAE_gain": 0.0,
+            "negative_seed_count": 0,
+            "query_seconds": 433.5181313548237,
+            "logical_candidate_full_trainings": 12,
+            "shared_parent_full_trainings": 3
+          }
+        ],
+        "timings": [
+          {
+            "call": "ETT_ETTh1_1",
+            "request_started": 1792307266.7558515,
+            "revealed_at": 1792307397.0929174,
+            "process_seconds": 130.32980180000231,
+            "preparation_seconds": 0.08132409999961965,
+            "usage": {
+              "input_tokens": 31728,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 507,
+              "reasoning_output_tokens": 395
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh1_2",
+            "request_started": 1792307408.515173,
+            "revealed_at": 1792307537.6667185,
+            "process_seconds": 129.1444862999997,
+            "preparation_seconds": 0.07141670000055456,
+            "usage": {
+              "input_tokens": 32779,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 491,
+              "reasoning_output_tokens": 385
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh1_3",
+            "request_started": 1792307544.4821615,
+            "revealed_at": 1792307671.112886,
+            "process_seconds": 126.62367870000162,
+            "preparation_seconds": 0.07184939999933704,
+            "usage": {
+              "input_tokens": 32887,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 361,
+              "reasoning_output_tokens": 252
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh1_4",
+            "request_started": 1792307673.584005,
+            "revealed_at": 1792307796.6023006,
+            "process_seconds": 123.00974069999938,
+            "preparation_seconds": 0.07244499999796972,
+            "usage": {
+              "input_tokens": 32067,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 293,
+              "reasoning_output_tokens": 181
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh2_1",
+            "request_started": 1792307266.7544148,
+            "revealed_at": 1792307401.5811107,
+            "process_seconds": 134.81988509999792,
+            "preparation_seconds": 0.07450520000202232,
+            "usage": {
+              "input_tokens": 31732,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 827,
+              "reasoning_output_tokens": 727
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh2_2",
+            "request_started": 1792307408.51702,
+            "revealed_at": 1792307544.3879063,
+            "process_seconds": 135.86448310000196,
+            "preparation_seconds": 0.06438980000166339,
+            "usage": {
+              "input_tokens": 32765,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 658,
+              "reasoning_output_tokens": 549
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh2_3",
+            "request_started": 1792307544.4846005,
+            "revealed_at": 1792307673.1393113,
+            "process_seconds": 128.64848859999984,
+            "preparation_seconds": 0.06904919999942649,
+            "usage": {
+              "input_tokens": 32868,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 519,
+              "reasoning_output_tokens": 405
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "ETT_ETTh2_4",
+            "request_started": 1792307673.5823698,
+            "revealed_at": 1792307798.476385,
+            "process_seconds": 124.88633489999847,
+            "preparation_seconds": 0.07127229999969131,
+            "usage": {
+              "input_tokens": 32049,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 316,
+              "reasoning_output_tokens": 204
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G1_1",
+            "request_started": 1792307266.751755,
+            "revealed_at": 1792307390.7189708,
+            "process_seconds": 123.96122019999893,
+            "preparation_seconds": 0.06398410000110744,
+            "usage": {
+              "input_tokens": 26848,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 253,
+              "reasoning_output_tokens": 159
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G1_2",
+            "request_started": 1792307408.5052192,
+            "revealed_at": 1792307534.269094,
+            "process_seconds": 125.75717389999772,
+            "preparation_seconds": 0.058937400001013884,
+            "usage": {
+              "input_tokens": 26939,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 358,
+              "reasoning_output_tokens": 245
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G1_3",
+            "request_started": 1792307544.475479,
+            "revealed_at": 1792307673.4691184,
+            "process_seconds": 128.98622120000073,
+            "preparation_seconds": 0.06237700000201585,
+            "usage": {
+              "input_tokens": 26124,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 501,
+              "reasoning_output_tokens": 401
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G1_4",
+            "request_started": 1792307673.5725188,
+            "revealed_at": 1792307804.3401897,
+            "process_seconds": 130.7566482000002,
+            "preparation_seconds": 0.059493699998711236,
+            "usage": {
+              "input_tokens": 27150,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 472,
+              "reasoning_output_tokens": 362
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G2_1",
+            "request_started": 1792307266.7518983,
+            "revealed_at": 1792307408.4212925,
+            "process_seconds": 141.6630436000014,
+            "preparation_seconds": 0.06558339999901364,
+            "usage": {
+              "input_tokens": 25907,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 847,
+              "reasoning_output_tokens": 748
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G2_2",
+            "request_started": 1792307408.5062423,
+            "revealed_at": 1792307541.5051477,
+            "process_seconds": 132.99123859999963,
+            "preparation_seconds": 0.05719080000199028,
+            "usage": {
+              "input_tokens": 26010,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 689,
+              "reasoning_output_tokens": 581
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G2_3",
+            "request_started": 1792307544.4733639,
+            "revealed_at": 1792307668.525578,
+            "process_seconds": 124.04469229999813,
+            "preparation_seconds": 0.052106800001638476,
+            "usage": {
+              "input_tokens": 27042,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 314,
+              "reasoning_output_tokens": 207
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G2_4",
+            "request_started": 1792307673.5675218,
+            "revealed_at": 1792307796.2236779,
+            "process_seconds": 122.64974230000007,
+            "preparation_seconds": 0.05521769999904791,
+            "usage": {
+              "input_tokens": 27131,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 355,
+              "reasoning_output_tokens": 244
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G3_1",
+            "request_started": 1792307266.7516954,
+            "revealed_at": 1792307393.0121634,
+            "process_seconds": 126.25000659999932,
+            "preparation_seconds": 0.06429940000089118,
+            "usage": {
+              "input_tokens": 25913,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 376,
+              "reasoning_output_tokens": 267
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G3_2",
+            "request_started": 1792307408.5053256,
+            "revealed_at": 1792307542.9999526,
+            "process_seconds": 134.4880372000007,
+            "preparation_seconds": 0.05088690000047791,
+            "usage": {
+              "input_tokens": 26025,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 707,
+              "reasoning_output_tokens": 590
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G3_3",
+            "request_started": 1792307544.473161,
+            "revealed_at": 1792307673.4863594,
+            "process_seconds": 129.0072947999979,
+            "preparation_seconds": 0.05402209999738261,
+            "usage": {
+              "input_tokens": 27073,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 511,
+              "reasoning_output_tokens": 399
+            },
+            "transport_events": 1
+          },
+          {
+            "call": "Hydraulic_G3_4",
+            "request_started": 1792307673.574133,
+            "revealed_at": 1792307811.1934414,
+            "process_seconds": 137.6131658000013,
+            "preparation_seconds": 0.052003099997818936,
+            "usage": {
+              "input_tokens": 26254,
+              "cached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 805,
+              "reasoning_output_tokens": 702
+            },
+            "transport_events": 1
+          }
+        ]
+      }
+    }
+  ],
+  "failures": [],
+  "numeric_comparisons": 786,
+  "max_absolute_numeric_difference": 4.440892098500626e-16,
+  "numeric_comparison_details": [
+    {
+      "context": "ETT_ETTh1_1/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/reference/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/fixed_quadratic/conditional/std",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_1/Q1/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/Q2/reference/suggestion",
+      "max_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q3/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q4/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_1/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_1/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/marginal/std",
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/Q1/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_2/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "context": "ETT_ETTh1_2/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "ETT_ETTh1_2/Q2/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_2/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "context": "ETT_ETTh1_2/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_2/Q3/reference/suggestion",
+      "max_absolute_error": 9.71445146547012e-17
+    },
+    {
+      "context": "ETT_ETTh1_2/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "context": "ETT_ETTh1_2/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 5.204170427930421e-17
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/marginal/std",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_3/Q1/reference/suggestion",
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "context": "ETT_ETTh1_3/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_3/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh1_3/Q3/reference/suggestion",
+      "max_absolute_error": 9.71445146547012e-17
+    },
+    {
+      "context": "ETT_ETTh1_3/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_3/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/fixed_quadratic/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh1_4/Q3/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh1_4/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh1_4/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/reference/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/fixed_quadratic/conditional/std",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/Q1/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_1/Q2/reference/suggestion",
+      "max_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.42861286636753e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/Q3/reference/suggestion",
+      "max_absolute_error": 7.806255641895632e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 2.862293735361732e-17
+    },
+    {
+      "context": "ETT_ETTh2_1/Q4/reference/suggestion",
+      "max_absolute_error": 5.204170427930421e-18
+    },
+    {
+      "context": "ETT_ETTh2_1/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_1/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 5.637851296924623e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/reference/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/marginal/std",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_2/measurement_combined/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/Q1/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/Q2/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/Q3/reference/suggestion",
+      "max_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "context": "ETT_ETTh2_2/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_2/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_3/Q1/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_3/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_3/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_3/Q3/reference/suggestion",
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "context": "ETT_ETTh2_3/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_3/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 6.765421556309548e-17
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/reference/conditional/std",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "ETT_ETTh2_4/Q3/reference/suggestion",
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "context": "ETT_ETTh2_4/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "context": "ETT_ETTh2_4/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q1/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q2/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q3/reference/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q4/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_1/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q5/reference/suggestion",
+      "max_absolute_error": 6.505213034913027e-19
+    },
+    {
+      "context": "Hydraulic_G1_1/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 1.5178830414797062e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.0842021724855044e-17
+    },
+    {
+      "context": "Hydraulic_G1_1/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q7/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_1/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q8/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_1/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/marginal/std",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q2/reference/suggestion",
+      "max_absolute_error": 1.0842021724855044e-19
+    },
+    {
+      "context": "Hydraulic_G1_2/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 5.099138342470888e-19
+    },
+    {
+      "context": "Hydraulic_G1_2/Q3/reference/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q4/reference/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q5/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_2/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 8.673617379884035e-19
+    },
+    {
+      "context": "Hydraulic_G1_2/Q7/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_2/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 8.673617379884035e-19
+    },
+    {
+      "context": "Hydraulic_G1_2/Q8/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_2/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_2/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 1.734723475976807e-18
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/marginal/std",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/Q2/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q3/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_3/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q4/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 4.163336342344337e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q6/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G1_3/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q7/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q8/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_3/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/Q3/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G1_4/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q4/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q6/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G1_4/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q7/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/Q8/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G1_4/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G1_4/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q1/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q2/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q3/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_1/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q4/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_1/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q5/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.204170427930421e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q7/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_1/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q8/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_1/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_1/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/fixed_quadratic/conditional/std",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q2/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q3/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G2_2/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q4/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q5/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q6/reference/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G2_2/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q7/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q8/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_2/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_2/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q2/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_3/Q4/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_3/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q5/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_3/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G2_3/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_3/Q7/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G2_3/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G2_3/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G2_3/Q8/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_3/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_3/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q2/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_4/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G2_4/Q4/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_4/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_4/Q5/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q6/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G2_4/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G2_4/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G2_4/Q8/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G2_4/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G2_4/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q1/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q1/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q1/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q2/reference/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 3.469446951953614e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q3/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q4/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_1/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q5/reference/suggestion",
+      "max_absolute_error": 8.673617379884035e-19
+    },
+    {
+      "context": "Hydraulic_G3_1/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3010426069826053e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q7/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_1/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q8/reference/suggestion",
+      "max_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "context": "Hydraulic_G3_1/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_1/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q2/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q3/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q3/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q3/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q4/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "Hydraulic_G3_2/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q5/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q6/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q7/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q8/reference/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_2/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_2/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/reference/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/fixed_quadratic/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/marginal/std",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q2/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q2/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q2/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q4/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q5/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q7/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q8/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_3/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_3/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/reference/conditional/std",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/fixed_quadratic/conditional/std",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/marginal/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/marginal/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/marginal/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/marginal/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/conditional/center",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/conditional/scale",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/conditional/beta",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/measurement_combined/conditional/std",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/Q4/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q4/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/Q4/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q5/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q5/fixed_quadratic/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/Q5/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q6/reference/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "Hydraulic_G3_4/Q6/fixed_quadratic/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q6/measurement_combined/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q7/reference/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q7/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q7/measurement_combined/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q8/reference/suggestion",
+      "max_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q8/fixed_quadratic/suggestion",
+      "max_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "context": "Hydraulic_G3_4/Q8/measurement_combined/suggestion",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "uniform_random_expected_gain",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "summary gains",
+      "max_absolute_error": 0.0
+    },
+    {
+      "context": "summary gains",
+      "max_absolute_error": 2.7755575615628914e-17
+    }
+  ],
+  "audit_seconds": 0.30319219999728375,
+  "code_sha256": "9e786438c417ec19d9903666072689f1a7c17feec3548bfd8b8f2dd32827065e",
+  "auditor_sha256": "4d9d9f6749d0ddbac40de3d3a4e695f698a47c301aef6f5794544d9bf92a0f1b",
+  "results_sha256": "98dae84eb08c7247e7e5477b2459de358534b1b03df22525c5c18eee12c4a67f",
+  "new_full_trainings": 0,
+  "actual_LLM_calls_by_auditor": 0,
+  "limitations": [
+    "Artifact hashes establish internal consistency, not cryptographic proof of historical creation order or absence of undocumented outside calls.",
+    "Recorded model request and event usage cannot independently attest the actual remote model identity, backend compute time, or transport causal behavior.",
+    "Process seconds and preparation seconds are recorded client measurements; concurrent sums are not elapsed wall time or an equal-compute comparison.",
+    "Preparation time includes fitting plus serialization and is not a standalone fitting timer.",
+    "Only the locked parent-feature/response pools and source measurement definitions are inspected; no raw arrays, D/test, new strategy execution, or repeated gate/r4 mathematics audit.",
+    "Scientific scope remains one adaptive trajectory per task across two previously revealed families."
+  ]
+}

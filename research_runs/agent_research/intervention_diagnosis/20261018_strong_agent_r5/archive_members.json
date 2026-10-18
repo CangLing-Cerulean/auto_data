@@ -1,0 +1,1074 @@
+{
+  "status": "PASS",
+  "members": {
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/paper/images/strong_agent_budgets.pdf": {
+      "bytes": 24257,
+      "sha256": "ec2240fc46a523b06782b9685a36ac5eadf4cdf39ffb106102e54d3aacb36cd0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/paper/main.tex": {
+      "bytes": 19888,
+      "sha256": "b7605943b251e99a57d02e43829379023404250ec5802fb321d10449b28e63a3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/.gitignore": {
+      "bytes": 79,
+      "sha256": "c1a2b89244fda9754b31ee606c16bc30ddde3ef423c209654ebb49a4343b450e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/analysis.json": {
+      "bytes": 12663,
+      "sha256": "33ff249fcf9a6981fea46080bb281770c7c7c78d0c2181bed9b46a13c224e65e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/ETT_ETTh1_first_prompt.txt": {
+      "bytes": 45097,
+      "sha256": "bfeeab4eafae1bbecae29cbdc1d43a93e6c24a74d5c6f4a60f2c399ed455774e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/ETT_ETTh2_first_prompt.txt": {
+      "bytes": 45122,
+      "sha256": "e6f5f26b373256cc2920f6cd2c251302d194133f274c5feb93609d18182c1fea"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/Hydraulic_G1_first_prompt.txt": {
+      "bytes": 28345,
+      "sha256": "870d96bc269e11106e1ac3a0ef6d25f24dfb4d6ff83a6b617c300ad87e8cfecd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/Hydraulic_G2_first_prompt.txt": {
+      "bytes": 28345,
+      "sha256": "6940b7cf9298750e2663c8a91f4046710052b99f1b6d7c4af37c2c2bd8c4a8f9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/Hydraulic_G3_first_prompt.txt": {
+      "bytes": 28355,
+      "sha256": "a499679ed2626f71eeb89ba14cfa7e8ab4bb3466a79b918b33fadadb6117608a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_preview/manifest.json": {
+      "bytes": 1632,
+      "sha256": "e8060be203fb4ff64ab0377b6e272baa62423371dde4b5b8d19cc5a90da237bb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/approval_rejection.json": {
+      "bytes": 439,
+      "sha256": "9f05b01f68e288602be59d55e39900506c6a13fe73eb6808d79a727768d27c0e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/events.jsonl": {
+      "bytes": 1282,
+      "sha256": "504cf9820d87e5a76280e70805657badc4a871a1cf67c20a7f9420763932ead8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/input.json": {
+      "bytes": 56702,
+      "sha256": "93fc3473b247c85b42570f5d6f002c461aacacd1ea0d24285c4323b0dad9dced"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/input_lock.json": {
+      "bytes": 531,
+      "sha256": "d642dbf8ba52b9cec911e8bc3d433795d5cb4cf93b39a0490fcf67272b2e7081"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/models.json": {
+      "bytes": 113669,
+      "sha256": "ab1f74e76128e8ee37e639f62df4bee76b00298448b8e3662aad2b6c1dc41f4d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/prompt.txt": {
+      "bytes": 45097,
+      "sha256": "bfeeab4eafae1bbecae29cbdc1d43a93e6c24a74d5c6f4a60f2c399ed455774e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/receipt.json": {
+      "bytes": 618,
+      "sha256": "fb8d124566cfc45d917b9a2b361e5ac9de8eed4792d38e48b6e58289035e98c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/response.json": {
+      "bytes": 508,
+      "sha256": "c91ef2355a6b9207fbb9a89cd4b888bef01898a39db8770fe1f5b782cdb44a62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/revealed.json": {
+      "bytes": 11777,
+      "sha256": "39bbdc34727cc55d21947ce0a6774db3d8d6c617b9042c6f3b9a212c2b491ca7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/schema.json": {
+      "bytes": 520,
+      "sha256": "c6e4a49526f37264f71b299e3519158664fe4931b4b32add9b46086faada607a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/started.json": {
+      "bytes": 90,
+      "sha256": "59bb98c762e5f73cd61badedf60523102c8c0b439fef43f5e523f1186b55b912"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_1/stderr.log": {
+      "bytes": 1390,
+      "sha256": "9033a9f081ec613a11312012e256c63a8e1624d4a5c0a492b1d7c8c24abee741"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/events.jsonl": {
+      "bytes": 1245,
+      "sha256": "e002eea12d9ea272d5771ceb08c0a7197c9d4e3264d0284415b77b0a82082d84"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/input.json": {
+      "bytes": 57290,
+      "sha256": "609d2d6fefac2de90407173f820c8ea10a7ed2c50d13a0969569633d5a1cba3d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/input_lock.json": {
+      "bytes": 531,
+      "sha256": "ae453221f7caecf62329a52056d4f60421731a20f6ff32f89c1cead68d3f6b80"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/models.json": {
+      "bytes": 117595,
+      "sha256": "3ce3177c6a21ce7f935e4d4678757e7220df4a85e7201764e130a5750a8d64fc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/prompt.txt": {
+      "bytes": 45634,
+      "sha256": "e6cbe1262dc28cb786deb5a0ccea11603354bbc97aa1c725a1246f2f8bdb6828"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/receipt.json": {
+      "bytes": 617,
+      "sha256": "3a109528c7ca17cd86a197eafb8768798c548acaa4fea7e83eaae6c33008e8db"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/response.json": {
+      "bytes": 471,
+      "sha256": "f6ef37ccde15ee0f440e63b6bc3042d802ad6ffe2702eeb1533a3824911d49fe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/revealed.json": {
+      "bytes": 23079,
+      "sha256": "f2604c99333921d1651f96d9f2055068d349be65e74a087c14fcaee00a867a30"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/schema.json": {
+      "bytes": 505,
+      "sha256": "d4dc3348639169e25919cb39e78ea389b5cbbacfe388be841f55ad69836db2d2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/started.json": {
+      "bytes": 89,
+      "sha256": "3acb42338be93342eea33a669ed514dfdeb6edd3d781c6f466d87969ab15cd53"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_2/stderr.log": {
+      "bytes": 1390,
+      "sha256": "af45701d23704a17aeea87c5b280ce88de4bfa240ecd705c116abf567c73d317"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/events.jsonl": {
+      "bytes": 1218,
+      "sha256": "78de326f2c1fcadd08ef9dc430f73cdda9d9f97574791647700a683d3020f9bb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/input.json": {
+      "bytes": 57830,
+      "sha256": "8345b70e8e8f5a988219652d516207f58f9170e230f8f953bfa6035c9a73e38c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/input_lock.json": {
+      "bytes": 531,
+      "sha256": "32164f893707fca0b820c83f309e510e9cf9941498225426302f03b74a6d8abf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/models.json": {
+      "bytes": 118033,
+      "sha256": "975ffaeff1051a1ab7d3a0abbe0468e288f5dea59dcd525af46542412d8fcf4b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/prompt.txt": {
+      "bytes": 46127,
+      "sha256": "b9ae3e5a073e65a1a73aefc5abf6ddc7651c802f13c9682f463705ae4deb5c6d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/receipt.json": {
+      "bytes": 618,
+      "sha256": "7187d7975cdd11ebcc64ae3c40abf804d98c202334f191a484bac784dbfc7486"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/response.json": {
+      "bytes": 444,
+      "sha256": "63e4f9c2cc50d23592c03fe456a1dfbf982157620d2d308442fe9647b6a5188b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/revealed.json": {
+      "bytes": 34336,
+      "sha256": "30e1aae593ebe30e76b3f0f1085a750c6283e06f64ebf9bbb4f3b4a0866a5cf1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/schema.json": {
+      "bytes": 490,
+      "sha256": "f347163a17b3c674370d957740fc4b7b8bf6c8bfdab3eaa5f89f0ec57dab74a8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/started.json": {
+      "bytes": 90,
+      "sha256": "3716842c74e743a622f5b9a94791691ae0bd0ed354e149932029a5067a2f31af"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_3/stderr.log": {
+      "bytes": 1390,
+      "sha256": "e1f194e708ebab68ab3fa280a33d6a15468a6726392adf253dad057859a2832b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/events.jsonl": {
+      "bytes": 1267,
+      "sha256": "e8d904d4d56630c2e4138f15d9d087655ccbc4d5b40f419c55804fb3a4055cfe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/input.json": {
+      "bytes": 58340,
+      "sha256": "28adfb8c6f9e736a1a904def129aa225733d25eb910f43a82cd8e713b977aea9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/input_lock.json": {
+      "bytes": 531,
+      "sha256": "6e7b62760c90b62fd4930ba8616309ca3cb0271eb328d89c9b605abd5dcce29c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/models.json": {
+      "bytes": 118287,
+      "sha256": "ba1fa63787da094320e611f7b208527c8285a60c7f775cedce78eaca0a1f9663"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/prompt.txt": {
+      "bytes": 46590,
+      "sha256": "3341921cee6fb6db9f131848c9eeb526118b06f5cf12e616b91a687fad6b4a9d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/receipt.json": {
+      "bytes": 618,
+      "sha256": "715de1a523168033fc8683ec1e77f5d1f6db826085037b32c4e077a54bfd312d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/response.json": {
+      "bytes": 493,
+      "sha256": "248cf9238d3aafc1e5a0d5ce37877f4880f906e1ecfbcfff48ad4e072d7b8e02"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/revealed.json": {
+      "bytes": 45664,
+      "sha256": "93ff9a9fcb7d1c80dd2ce5bab7632c3ba725b793e2d06ebf4032280e0efb953a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/schema.json": {
+      "bytes": 475,
+      "sha256": "4fe4996abec7b3b9a63e164b544cb0b6a9e0fef753a9c03074e00e82b13c3990"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/started.json": {
+      "bytes": 89,
+      "sha256": "99c1b161383863b32ccbf8299442fcb6c5d4a2e6c1faf9813618019fcec3815d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh1_4/stderr.log": {
+      "bytes": 1390,
+      "sha256": "b50bc742c3134476a12dc823c1d1c9c2653c9241df7c0c52779e5c26079e6296"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/events.jsonl": {
+      "bytes": 1223,
+      "sha256": "00cb68f0128d26810f86a34d7e2da0e3fdf29a7441ac9863aec614b21fa0ad82"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/input.json": {
+      "bytes": 56727,
+      "sha256": "b00d6ce1eb3609c249f4911f7a223bd2117cd889e58529ef0b898714f095142b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/input_lock.json": {
+      "bytes": 531,
+      "sha256": "9ed519952595be77cb8fd12e68fd9769aa5350ab825978d3fc248428285f4e55"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/models.json": {
+      "bytes": 113669,
+      "sha256": "ab1f74e76128e8ee37e639f62df4bee76b00298448b8e3662aad2b6c1dc41f4d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/prompt.txt": {
+      "bytes": 45122,
+      "sha256": "e6f5f26b373256cc2920f6cd2c251302d194133f274c5feb93609d18182c1fea"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/receipt.json": {
+      "bytes": 618,
+      "sha256": "662796ead0f483a543800505a94660e94741cd296ce3ece06efe2b2687892a11"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/response.json": {
+      "bytes": 449,
+      "sha256": "0ca453bcd39168e1d0157dd2023928a47812121b4a3456985b4a12d7155bdb4a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/revealed.json": {
+      "bytes": 11737,
+      "sha256": "6e83368b91059b1264bdced345f80e6f505d54e966768906651d329510300ed4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/schema.json": {
+      "bytes": 520,
+      "sha256": "c6e4a49526f37264f71b299e3519158664fe4931b4b32add9b46086faada607a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/started.json": {
+      "bytes": 90,
+      "sha256": "77fbec62a11e7aa871cd345aea573dc35118de616b92240078a4838454df3204"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_1/stderr.log": {
+      "bytes": 1390,
+      "sha256": "a78f9ed23362d482540548a5d602ec7fd37699cd41ec70cd85b21db6ce76f805"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/events.jsonl": {
+      "bytes": 1258,
+      "sha256": "c12334d833c885b6881ca9bed5102296bf01ea11c43be749c90f663356da5922"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/input.json": {
+      "bytes": 57232,
+      "sha256": "ad776ccc58064842ae1b5d33639290e0d1086a82bba4d6df9826a0a0a9eb4fde"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/input_lock.json": {
+      "bytes": 531,
+      "sha256": "ee077e9fb69d59d7d8400c4c0cc608fbe3eb96883b158bd5ff63db30d84a7516"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/models.json": {
+      "bytes": 117724,
+      "sha256": "eb9ec020aa94ac1cb1b6d403a3cd2b4927ea5feb0c415094416f0faf6d1a7e46"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/prompt.txt": {
+      "bytes": 45576,
+      "sha256": "b212fe9d86af0cdf67c260fd89869ac8be5398f6e3cd879972d5938b264ce27d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/receipt.json": {
+      "bytes": 618,
+      "sha256": "326dc09655f533a502fd678d6f6072ce45f6060908dae6f7161920e48c776ae7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/response.json": {
+      "bytes": 484,
+      "sha256": "ebaf8bd4ca425c6e0bb1b22e201ab37722a07250a013eae0fbb1fb050ebe8ca2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/revealed.json": {
+      "bytes": 23108,
+      "sha256": "4d268c346c1f210a3178e06332704f85e58949369d87d324043e500d472efc0a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/schema.json": {
+      "bytes": 505,
+      "sha256": "d4dc3348639169e25919cb39e78ea389b5cbbacfe388be841f55ad69836db2d2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/started.json": {
+      "bytes": 88,
+      "sha256": "c36342ba1141f90ca9032d14a7b23b2e5d09eaccc18a3f69855d69c60f7b06fb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_2/stderr.log": {
+      "bytes": 1390,
+      "sha256": "c6ca2961184b8fae3dc35c81ab4ec9e2d6437f8a519fafb2c7792c68e454fbb4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/events.jsonl": {
+      "bytes": 1221,
+      "sha256": "f75c47c03d3d8cb13b2c94574378dea6c7708cd47a09c991de66251edb85464f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/input.json": {
+      "bytes": 57775,
+      "sha256": "20b429b8b32579c95bf23edfccf318c1b82fb58caedf415f76b4291989a7a6ba"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/input_lock.json": {
+      "bytes": 531,
+      "sha256": "b55b82d0844c42d5fcc0394553a0f3ea1b275f7d8f3167d54cb0abe8500974bd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/models.json": {
+      "bytes": 118175,
+      "sha256": "8af9136526f6f6c6008f0938592c5a5442fee445a4a35b2e5ba2bc6ef9e64f2a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/prompt.txt": {
+      "bytes": 46072,
+      "sha256": "5d1cfc168c9af21126ef10bdd3191edc44afa8e706ed5824f97a765a9c892345"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/receipt.json": {
+      "bytes": 618,
+      "sha256": "b2f5e305277844aed946575754c9cb77850a3a7bddb664395158ee21038b000a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/response.json": {
+      "bytes": 447,
+      "sha256": "7a728aa15f04597fdc10a946cb87d26a62a5f95b30f09f742cbcff0ab936c97f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/revealed.json": {
+      "bytes": 34376,
+      "sha256": "4825d6edfdce71abd4c6f39354cc2e3efedb4c307f44a52d141c1ee0ee1b95f0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/schema.json": {
+      "bytes": 490,
+      "sha256": "f347163a17b3c674370d957740fc4b7b8bf6c8bfdab3eaa5f89f0ec57dab74a8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/started.json": {
+      "bytes": 90,
+      "sha256": "11d90099224ead57bc0cc6b343ac6f217a6d13cd07b0b61a16c2b3f25bdaff79"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_3/stderr.log": {
+      "bytes": 1390,
+      "sha256": "8d75583622fb8048a47fa3555a5732b7042c8d288661b9f021e910c7316353ec"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/events.jsonl": {
+      "bytes": 1241,
+      "sha256": "27391ef236781fc61ae2de0b64c552c4ee9b407b8603415fa9b4b37c709bcb3a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/input.json": {
+      "bytes": 58274,
+      "sha256": "32f0ab7ee2d40aaaf10c6f850a488505a70a710616d0e22053a435e50125cbe1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/input_lock.json": {
+      "bytes": 531,
+      "sha256": "c6253c259acf8c375ad111f7548fa6ab341ca3904503634531075a007e071852"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/models.json": {
+      "bytes": 118417,
+      "sha256": "240604fc3798a60bc8ac345a96adebdb2552ed6c16fa1732a808ac4af57eff0f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/prompt.txt": {
+      "bytes": 46524,
+      "sha256": "da724317d32d5c0afa39ca93b63827b5ad223666807b81fe79bb5ea984b00dc7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/receipt.json": {
+      "bytes": 618,
+      "sha256": "475d4c7d7f5ce4d635b15f3267322261d079e3b39311322ecbb2bc24b40625ed"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/response.json": {
+      "bytes": 467,
+      "sha256": "112b5be0a2e753708aa77be3f490ff10ff0e108bc858246823c7cffac3f563aa"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/revealed.json": {
+      "bytes": 45695,
+      "sha256": "c6562f4a8d7d5c57ef8b025e59642875fa6a90f9619256fb5f23c8c60421574c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/schema.json": {
+      "bytes": 475,
+      "sha256": "4fe4996abec7b3b9a63e164b544cb0b6a9e0fef753a9c03074e00e82b13c3990"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/started.json": {
+      "bytes": 90,
+      "sha256": "9486e39f36adf3dbdb5af28055ed37721b735e7f7b8f4ad54dfc9a195cda20b0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/ETT_ETTh2_4/stderr.log": {
+      "bytes": 1389,
+      "sha256": "77829a7936f6073f1d32eb7fb521269d4513e94bcf47f7a180e4852fef10d943"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/events.jsonl": {
+      "bytes": 1207,
+      "sha256": "3958cc93c391e28d43b14c1ae51532407556258363768aed2b24d386bc1a1cd6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/input.json": {
+      "bytes": 34018,
+      "sha256": "241fb01c49eb323b6672be197e66c96e5d51fd9c563bcbc1d27698ee79ca2abd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/input_lock.json": {
+      "bytes": 531,
+      "sha256": "91efa50026289b4202854cd7f01e693c6bed6cdf017fdb1e9bc237262b5b5893"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/models.json": {
+      "bytes": 111833,
+      "sha256": "9650553d59c3e58b2aa46dea4f0679e7e47b11b3f4a757da3c60414d38f25074"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/prompt.txt": {
+      "bytes": 28345,
+      "sha256": "870d96bc269e11106e1ac3a0ef6d25f24dfb4d6ff83a6b617c300ad87e8cfecd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/receipt.json": {
+      "bytes": 618,
+      "sha256": "7535f49d2c2e65074df8c7ddb847b7b9af67e77660e145bd97c4fd77fab4687f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/response.json": {
+      "bytes": 433,
+      "sha256": "874e9c2783093135c21bd36d1119c54e89311adff044f84e328a22734cec96f3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/revealed.json": {
+      "bytes": 11692,
+      "sha256": "986b317047133225a28c3699b0d8832f35d0cab106beb55c37f14e7c4d07b55d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/schema.json": {
+      "bytes": 580,
+      "sha256": "b5ba12169f2ec75cdb8d40193f2250c87b7bf60fddc2e180d1c59d57c90b2af2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/started.json": {
+      "bytes": 89,
+      "sha256": "15eeed11c8e60df89ec72362c623a195354255632f1d496da316d3cfc0bd383a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_1/stderr.log": {
+      "bytes": 1390,
+      "sha256": "d87d1bdb042da8d34778d66f53afea13f880834884a2d07c1af3144ee8034968"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/events.jsonl": {
+      "bytes": 1283,
+      "sha256": "7b9139fdb7a1a231491648dd9646f372262e35694c832c9ffea1a273bcf1033e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/input.json": {
+      "bytes": 34493,
+      "sha256": "fa8fdfa805569428b2087aa95d611c206ee472b7e203590754afe72678c17737"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/input_lock.json": {
+      "bytes": 532,
+      "sha256": "3c3a44da6e725545918ec2a8341804dfcb02b81760e5909693415566c25def13"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/models.json": {
+      "bytes": 111868,
+      "sha256": "77d1b6b452755851d22e8099cda5815cb590d97d9d2349f417b53497020749e2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/prompt.txt": {
+      "bytes": 28769,
+      "sha256": "9935fdf5d2c461ed5bb897807708d0121ecd1532b56c77de3aac8d4bb0736374"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/receipt.json": {
+      "bytes": 618,
+      "sha256": "3c61a6eeeb0b69829a1a648a01d42ffac7e3bdc3d6917750a58a47bab308d5d8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/response.json": {
+      "bytes": 509,
+      "sha256": "ff5b0266a03079fa8ac9a7057371a81e07d3307d19b78b2d9600ba4133445566"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/revealed.json": {
+      "bytes": 22952,
+      "sha256": "5338294ca9d501c0fc59afbe3469e8a8d00c4b8d1775ba1ef6daf1a9f4c6bbf9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/schema.json": {
+      "bytes": 565,
+      "sha256": "dffebd719762b168563cc826d6dfd2377db2b74f0cf3ad330eee804b196c4adf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/started.json": {
+      "bytes": 90,
+      "sha256": "0394da38f1cdf99654223b3ebdbff1cdec62a423a7704aed85a0a5eaae899cdc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_2/stderr.log": {
+      "bytes": 1390,
+      "sha256": "60eab1e0f6f59f342e0ff79b43d9f5f57c5da8c8c94a165f3ef07085ac6199c1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/events.jsonl": {
+      "bytes": 1172,
+      "sha256": "bfab8b690b240789bc737d5e211b4290756d11116fedf615b9cb84b66eeb92fe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/input.json": {
+      "bytes": 35036,
+      "sha256": "458bbf4e9d57f93f0bc2d8ac37056a0faef29967dc02886e12ff0ab9f7fc801a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/input_lock.json": {
+      "bytes": 531,
+      "sha256": "ee2cfa144fd2cb2d11f12195973a424e29b4e2c17523cc99e48e19d3dd996f66"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/models.json": {
+      "bytes": 114088,
+      "sha256": "f2aa41cd1842c52bde01cb76d5d06ebbaf08e843a18e96a6a966409430d40a73"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/prompt.txt": {
+      "bytes": 29265,
+      "sha256": "f1e1eeb7e0c9919a9a4630f2054972d147700c9effec377502c7f1d8a014cf84"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/receipt.json": {
+      "bytes": 618,
+      "sha256": "ed22d1b4fa53a070d1a571b2f93656aae51efd5812d49e728e797a1875b2c881"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/response.json": {
+      "bytes": 398,
+      "sha256": "b5381cb6b7c8723c1dad22c6a062f4fd01e110163a369db0e1819f6650567704"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/revealed.json": {
+      "bytes": 34142,
+      "sha256": "cc9bab4fc1cc1170827371f4c4aefede0113c326133b5ecd7038516beae01e7b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/schema.json": {
+      "bytes": 550,
+      "sha256": "706939ac45c67dc42dace43b0a447ee5ed8361f10220face352c249008dac4dc"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/started.json": {
+      "bytes": 89,
+      "sha256": "e8d07f502af60ab701733adee861884a76b85b02cc2ac2ab3725103a7d746a83"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_3/stderr.log": {
+      "bytes": 1390,
+      "sha256": "36f481cf97c43231cd9c7a13343407c7951bfccc64352d4dc8c5bfde6a2da14b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/events.jsonl": {
+      "bytes": 1228,
+      "sha256": "46081db08ed61635c229718b3cf338135cd6452fae2635fa39f5960b68a226bf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/input.json": {
+      "bytes": 35493,
+      "sha256": "0acf47a6e5d3b28bb463492d100e8f9ac9636937f169843a4dab750886ed5978"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/input_lock.json": {
+      "bytes": 532,
+      "sha256": "09ea31e39dab181080247bc3f1417cd070afab9d24a2c1608c7b1c82aab82355"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/models.json": {
+      "bytes": 114282,
+      "sha256": "20730e4197874671fe89871293f28dcd004cb55e4fee97114b276b690a100c02"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/prompt.txt": {
+      "bytes": 29675,
+      "sha256": "e338a3abb7885608cf11d1f3e89316ce37e7b97ce84d12d44c15c7078d373e5d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/receipt.json": {
+      "bytes": 617,
+      "sha256": "d1765f52e8e7f6dd0ac6bc4af27dae7beb216832070272354614b84112b18c03"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/response.json": {
+      "bytes": 454,
+      "sha256": "7a38654ac6486754343a17a3283c694e04d92f251cb1048ea998ab7c704d0cce"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/revealed.json": {
+      "bytes": 45382,
+      "sha256": "f2728c25f82c8cf4674fac0bc06edff7339d9e86c86e8931c9492ea1f5ed014e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/schema.json": {
+      "bytes": 535,
+      "sha256": "de1e937cfe18c2b0bf09e36e1d4f9db14992d4a6590f04d6985aa99f300917d4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/started.json": {
+      "bytes": 90,
+      "sha256": "bfc69b7c9e678ffa3b566a8506bdee3bf93f5180fb897efea2221d31bc63ba2f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G1_4/stderr.log": {
+      "bytes": 1390,
+      "sha256": "ecc216dc200fed9788615bc5fef32bc1c45690b896f097ea5a5995bdba2808af"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/events.jsonl": {
+      "bytes": 1216,
+      "sha256": "139904547d89bccea0f9cacae3ec1d130eb983df8ed1588dfdfda13894922e08"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/input.json": {
+      "bytes": 34018,
+      "sha256": "26f956781d475ea190413a0fa8d06e841f7cb12d8cf991f7545fb6298b0bb908"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/input_lock.json": {
+      "bytes": 531,
+      "sha256": "58fcdfbf9c707f332307e0f45638ffbae9c60d4f1690a3bf385286978144c647"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/models.json": {
+      "bytes": 111833,
+      "sha256": "9650553d59c3e58b2aa46dea4f0679e7e47b11b3f4a757da3c60414d38f25074"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/prompt.txt": {
+      "bytes": 28345,
+      "sha256": "6940b7cf9298750e2663c8a91f4046710052b99f1b6d7c4af37c2c2bd8c4a8f9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/receipt.json": {
+      "bytes": 617,
+      "sha256": "c13420589469ae42e1fa0a8a40f123373bb1cd2fbac49fac293d82804af9ab81"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/response.json": {
+      "bytes": 442,
+      "sha256": "a8594c5bbb9bd9d6a36a60256e7f84a0db0f7e03f3313fb93f928b4cdf4f6de9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/revealed.json": {
+      "bytes": 11648,
+      "sha256": "98b9ad0273cb160f5d48982092c16745e715ad1fc8ff1da9c20d7476d1fd7d8f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/schema.json": {
+      "bytes": 580,
+      "sha256": "b5ba12169f2ec75cdb8d40193f2250c87b7bf60fddc2e180d1c59d57c90b2af2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/started.json": {
+      "bytes": 90,
+      "sha256": "f78548cc2f0164fe9ea2d73620383b6f11b2a58f716bd2b3072821c6ad259a3f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_1/stderr.log": {
+      "bytes": 1389,
+      "sha256": "7e1b269fda1a118e0addd8017b57d1bcf53094941aa5ec0cedc76031e49c8d9d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/events.jsonl": {
+      "bytes": 1252,
+      "sha256": "0af07550e36f4bbea6a4c09671d3f47379c88f6535cb3f01a844a64e151fb06e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/input.json": {
+      "bytes": 34491,
+      "sha256": "77067b94856a0bd03112ca10bf537814f9b535997fe5666e68543e8a73c9d285"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/input_lock.json": {
+      "bytes": 531,
+      "sha256": "9f2fc964ed8a3c7c32056733108385313a1e97774754852cc73075b5bdc815f4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/models.json": {
+      "bytes": 112306,
+      "sha256": "4d15fedfc5fb0111a9d6c98334e37bf704788c6b315529f503c283c0603326d3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/prompt.txt": {
+      "bytes": 28767,
+      "sha256": "d2dbdde2e85598b9cc458bf7ee685d73f5e6373083e80d441a5e4a4138c4c6d9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/receipt.json": {
+      "bytes": 618,
+      "sha256": "916f067e92147afbcc8ec6562660779862dd1177c39ff00bfe490b1429120552"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/response.json": {
+      "bytes": 478,
+      "sha256": "265ae490c81816b6d37ea66ea7635d36ef9b087c958a3de6c521be7fe55d5c2f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/revealed.json": {
+      "bytes": 22983,
+      "sha256": "3046bfa0f865e8f64c4c9a82e5548b44f7b1177d988a72f0d31a3df32560219f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/schema.json": {
+      "bytes": 565,
+      "sha256": "dffebd719762b168563cc826d6dfd2377db2b74f0cf3ad330eee804b196c4adf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/started.json": {
+      "bytes": 90,
+      "sha256": "125a4db278711a18cc09ef3b6a7c75efb6cc9d29920b169e997ca2353de41863"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_2/stderr.log": {
+      "bytes": 1390,
+      "sha256": "8e254eb14cc0fe2023f97099382a73d7e640d1d7d187e33ecd23370f7f878810"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/events.jsonl": {
+      "bytes": 1222,
+      "sha256": "e12ff87d1e7cf675ae96b3db84ef61c31a137f4e3e40eac69df35c7d02e94ecd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/input.json": {
+      "bytes": 35022,
+      "sha256": "81f350e5d9f88cb3efa4829bd1b621c5f0f4064b018615b869868959eb4b7f42"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/input_lock.json": {
+      "bytes": 532,
+      "sha256": "0b4979f05195b2208aca9daeadb2b601066bea504282c538ca07b61308fab381"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/models.json": {
+      "bytes": 112814,
+      "sha256": "7bbd826838550d83a24884e2c017657fc803f7fca530193c157ba55b30eb7333"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/prompt.txt": {
+      "bytes": 29251,
+      "sha256": "25850ebd77248349ec1eb4236788271173c30cbe95fe51805eddfdbdbfec8c38"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/receipt.json": {
+      "bytes": 618,
+      "sha256": "065dacf80e9b265f14926faa1c81915c29eda7b46dd8d80ab4c1e28ddacb25f5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/response.json": {
+      "bytes": 448,
+      "sha256": "8952935c7276fb89dbbf4a35b301fbc930e3e94cc4deb8c475873a86c4b33ded"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/revealed.json": {
+      "bytes": 34203,
+      "sha256": "973776da6bec145cdaf3f0988bfd34526627998d146acc413811041166d9eb62"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/schema.json": {
+      "bytes": 550,
+      "sha256": "292143c91121a8419f721f84d675f02887d62eb09683a1ba42a12cbd38fa0b0f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/started.json": {
+      "bytes": 90,
+      "sha256": "6513046e6401b9bf80feb39799c0ddb87ce23409c01a8cd8489213dcbd4d89cb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_3/stderr.log": {
+      "bytes": 1390,
+      "sha256": "dc71a31a5bda9d77bd726e068d4f018f17c9a442b444959a40041d0ea31b9e96"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/events.jsonl": {
+      "bytes": 1245,
+      "sha256": "f6ffe766e66868895c6c9e0649c07738dd39b2abc5ebf7b6624a593c0ce0e9e6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/input.json": {
+      "bytes": 35502,
+      "sha256": "e9e3ad3b200c1f441687475f7578a309ec75cdd01780c5433d0af30babeb125a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/input_lock.json": {
+      "bytes": 531,
+      "sha256": "51801d28e52ee4850310c0bab90510f07df2b411498618a631dcbda5878cc5ff"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/models.json": {
+      "bytes": 114859,
+      "sha256": "e66465ecbfb1922738a22cb0daa7d733c413ed8f6f30dd2553fe238c6b77d90f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/prompt.txt": {
+      "bytes": 29684,
+      "sha256": "ba8a80b80faa94ccd0b7e669820d4eceb2dba7813d884f204a28ae7e93c1c78e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/receipt.json": {
+      "bytes": 618,
+      "sha256": "144ecde69e9b6632e588a77807757a1413631fcfdd19731bb66348041d14e8fe"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/response.json": {
+      "bytes": 471,
+      "sha256": "fb02a4e514fa678e63e1b948f4d40dde8b25cd78246dbf64c849a9ccaabed936"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/revealed.json": {
+      "bytes": 45458,
+      "sha256": "688d096987dd4195ec92be9110e6bcc4282f2ed306bd229ce15c110125d89372"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/schema.json": {
+      "bytes": 535,
+      "sha256": "d1f7ae86a0edb8ea45cdb967260698e008f0819163b1cf32dae8f8467a2cbc37"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/started.json": {
+      "bytes": 90,
+      "sha256": "420f23a9b2b148c58409137f271cc59250c530fd7dd087a708e6e5fd5552b5ba"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G2_4/stderr.log": {
+      "bytes": 1390,
+      "sha256": "ce5fb1c05e031ed3873926db9d65b6fa7e75eb9b01d7fe57c9b491ab74fad21f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/events.jsonl": {
+      "bytes": 1270,
+      "sha256": "8a2c7b1d09e4383a2dae07da0877908dccf268c3795f08bb7c10bde60d2f4710"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/input.json": {
+      "bytes": 34028,
+      "sha256": "4548d0786eb726c935be554e506e54b2195d3229873a781bf06a384b011d8cae"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/input_lock.json": {
+      "bytes": 531,
+      "sha256": "d75c5c382f9d747b3b8a295b5af4d6327d329c23de04d5fdd101726125791664"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/models.json": {
+      "bytes": 111833,
+      "sha256": "9650553d59c3e58b2aa46dea4f0679e7e47b11b3f4a757da3c60414d38f25074"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/prompt.txt": {
+      "bytes": 28355,
+      "sha256": "a499679ed2626f71eeb89ba14cfa7e8ab4bb3466a79b918b33fadadb6117608a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/receipt.json": {
+      "bytes": 618,
+      "sha256": "a402e78acafca9774d7d1f749103d1404bfe8d6d0ee5d9e44a0c710a4d0c9426"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/response.json": {
+      "bytes": 496,
+      "sha256": "7017a420547a06c5350f996673f15dcf69d721fd2c1c4552b6f27a8ba1f15b4c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/revealed.json": {
+      "bytes": 11740,
+      "sha256": "c609a669debf1d54729e13d8fe540dc8ed35ad4524291868940590e43759d2f0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/schema.json": {
+      "bytes": 580,
+      "sha256": "b5ba12169f2ec75cdb8d40193f2250c87b7bf60fddc2e180d1c59d57c90b2af2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/started.json": {
+      "bytes": 90,
+      "sha256": "ed8a4aa32f96c02501bc9744870864d935db45d7f9676ff52333bb5821396274"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_1/stderr.log": {
+      "bytes": 1390,
+      "sha256": "f8775b20cc650a6847b5fa0de61dc6c70800ab464ff2bbda9980005796ff536d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/events.jsonl": {
+      "bytes": 1267,
+      "sha256": "f347c7b0f40991152df052bae0ac1a25707503acd95043551c243c4108868486"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/input.json": {
+      "bytes": 34541,
+      "sha256": "de475f278189f7f9163a27b79df5fdb73a252a310733fe6d13ac12284bec66a9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/input_lock.json": {
+      "bytes": 531,
+      "sha256": "f762bdb000b9a11bc09d30bf52692997aaaa2f53cc2a8284eaf99fdc5142a634"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/models.json": {
+      "bytes": 112145,
+      "sha256": "575b397a38f31a033bd16df103c0df3a84d15178e256b823f478ea8a2429a09b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/prompt.txt": {
+      "bytes": 28817,
+      "sha256": "e6df5c47bdc4ba03a5c7fed0da1bfa19beae0a5e57ca027a1495ad5298ca82f4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/receipt.json": {
+      "bytes": 617,
+      "sha256": "ed380163b2f0e440acfe853d9fed7223216e9b0cae7d0475e3e69c1d81dca43f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/response.json": {
+      "bytes": 493,
+      "sha256": "bd0634e6dc97b799d966016b286788dc4b91c7538c1f02fa463567009c992bed"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/revealed.json": {
+      "bytes": 23064,
+      "sha256": "1fba92d7654345d5de5ebe1ecabe07bdc51daecbafc43f20c47bdb80b0268cf6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/schema.json": {
+      "bytes": 565,
+      "sha256": "dffebd719762b168563cc826d6dfd2377db2b74f0cf3ad330eee804b196c4adf"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/started.json": {
+      "bytes": 90,
+      "sha256": "6fa9f881b5d4b04513c134aab8208d0e857126055695f12ec18e60ccf092d7e2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_2/stderr.log": {
+      "bytes": 1390,
+      "sha256": "2df86a8ad878137750c69e94bb34d7aefae4623180e1ac41202a5349d930329b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/events.jsonl": {
+      "bytes": 1288,
+      "sha256": "594e9c61c5e40bd9c82f65543c0486cbc510ded7a0409f4033c74fa6bc1c0885"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/input.json": {
+      "bytes": 35099,
+      "sha256": "7aac928682561ed143b20d5c214897964671273e84f8154f8658dd69e6e84d53"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/input_lock.json": {
+      "bytes": 531,
+      "sha256": "cc9fcce4a59136c1310e23ead9ee5dcfaeff8d05a8cbab7d377699b43bdbd77b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/models.json": {
+      "bytes": 112536,
+      "sha256": "994c8cf0e6d3d717d45fec855baeb39138c2f2476e0c00064579dfd0c67a2e11"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/prompt.txt": {
+      "bytes": 29328,
+      "sha256": "b5ec0301c9b378e1d65f19b74ff7cbd3a3b383d265b6e12a5fceb610b00ddf78"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/receipt.json": {
+      "bytes": 617,
+      "sha256": "e25488575baab73a57201909048c42c3dd4a78ad32cb69151975db45ef6b9b93"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/response.json": {
+      "bytes": 514,
+      "sha256": "c3d75e27f9877adacad142b65be6f6af8eb4b0cfbebbab28732ab96e75e66ed1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/revealed.json": {
+      "bytes": 34420,
+      "sha256": "8ff8b84729cac398939904c9e0200121e01a03353b72884f0cafdb8aecb25dc1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/schema.json": {
+      "bytes": 550,
+      "sha256": "292143c91121a8419f721f84d675f02887d62eb09683a1ba42a12cbd38fa0b0f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/started.json": {
+      "bytes": 89,
+      "sha256": "cccb8944018405b87e4b7b9f036be895815f2480dff953716b530c79b48dc4eb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_3/stderr.log": {
+      "bytes": 1390,
+      "sha256": "9413d0b301667fd3c1d7fba2af4b05d91a901b86dc2090897924f12ccceac3a1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/events.jsonl": {
+      "bytes": 1233,
+      "sha256": "6544e5f5ab86e67808257b1f9c08fec213c4c62d146628cbf5c63389a660955b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/input.json": {
+      "bytes": 35670,
+      "sha256": "25ccd7a545ccc3ef7090e7a9cc3c0f41ac99ae2aba50fc129dee0ff4f5837a33"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/input_lock.json": {
+      "bytes": 532,
+      "sha256": "a691193aad7fb203ebf9b9e242bdc1b16746e08923a6ba8253428a8966868874"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/models.json": {
+      "bytes": 112635,
+      "sha256": "97be36a1e04919d09521790eddc6eeeb8ddcffc2dbea39c37cb4b02f5b5e1b11"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/prompt.txt": {
+      "bytes": 29852,
+      "sha256": "9726d56ec11bf9eeb4a6301c2e018d5263c5d5bc981e457fcdd33b44d7051181"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/receipt.json": {
+      "bytes": 617,
+      "sha256": "5fe3f1b352e1c699d843fc43b80e827d3028819a75c6b361051e384ab203552b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/response.json": {
+      "bytes": 459,
+      "sha256": "1a259cc3efb7839a4091513944c4238408782f1ad3a45ae7513495d07a1a89f6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/revealed.json": {
+      "bytes": 45727,
+      "sha256": "98a124f72bb2ec80edc97e41d12b9c0e68e1a75f7320cc0050fda8165096c922"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/schema.json": {
+      "bytes": 535,
+      "sha256": "813d6eb356351f12c8547e798d8478c478bb23ef3618fa1ca300f64c92c6c843"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/started.json": {
+      "bytes": 89,
+      "sha256": "bb780c41a7ae5b35ee18d1d3a9dadfb6d7eec5c4a654a22297e6eed1df7e5ef1"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/calls/Hydraulic_G3_4/stderr.log": {
+      "bytes": 1390,
+      "sha256": "08313b16ead9309776e03449f666f6b0e818faab75d17e4873c7887c16de07ac"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/compile_receipt.json": {
+      "bytes": 397,
+      "sha256": "a15ad7f2be31a839b23e56fbcbad0d13d71226527dbae58d6f0e0c58181e14c8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/completed.json": {
+      "bytes": 140,
+      "sha256": "cdc74033a2d493104e28e2eeffd438117351aea362c50ccc43847ac579fd7e64"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/DESIGN_BOUNDARY.md": {
+      "bytes": 2707,
+      "sha256": "12bb2e5ceeff4cdaa539fd787c7bc57147ad7e84505a150daf55a1e922678205"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/ENGINEERING_LOG.md": {
+      "bytes": 635,
+      "sha256": "6e9f5a8287669a4ab30923742f08e0b89a2f0f0617d616a3f07b1d753bc77918"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/execution_lock.json": {
+      "bytes": 1640,
+      "sha256": "4ba995984181295bfe0b2a20dc7b89058f8c13f62be0ac0a9fbec11cae6f7278"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/figures/budget_comparison.pdf": {
+      "bytes": 24257,
+      "sha256": "ec2240fc46a523b06782b9685a36ac5eadf4cdf39ffb106102e54d3aacb36cd0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/figures/budget_comparison.png": {
+      "bytes": 67683,
+      "sha256": "4bb507634219aa8ef7689577fb4b2b50096c967bb3de732a3d620b43def203ee"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/gate_audit.json": {
+      "bytes": 8896,
+      "sha256": "7684f14369b1c96c2d9f2aecd2557ac6d08de40f9155df4b93c4ce0bf9973ba2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/gate_audit_check.py": {
+      "bytes": 12467,
+      "sha256": "71ee74f8bfbe7fb3bdb3dda09255bc03920064e5562bc5ea06381a0d9913868f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/gate_resolution.json": {
+      "bytes": 2309,
+      "sha256": "ba552ff89426f7526ea8f0c344928a31ac05b7162fe5ef819fd3ed6c5bb3e990"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/gate_resolution_check.py": {
+      "bytes": 5274,
+      "sha256": "c8615fe4f8e0d3b54e5ad874a6bd14485a37203b68b470e9351b052f9294f0e3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/input_check.json": {
+      "bytes": 1966,
+      "sha256": "e298c4d18fbe5e8ab66572b9423a5979b668aecd3dc343578dafb6c61ee8425c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/paper_revision.json": {
+      "bytes": 569,
+      "sha256": "e8ad5dc56df8befefeea5681e5e50ec4a3fa4037ebef4d2b2d3093af1d1d7a95"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/progress.json": {
+      "bytes": 581,
+      "sha256": "e4538515a2eca807c0d69b6646b963eb3e8e325afe9d78096581a3fa2a366ab7"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/PROTOCOL.md": {
+      "bytes": 2871,
+      "sha256": "e384efc3804dbea33bec14ce18de2006e2a9f63af8ab77cc21d8a444317995e4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/random_reference.json": {
+      "bytes": 1644,
+      "sha256": "70936d202ba0317d1b19f07d6204c20a172434bbcc4de7e9f9054745a4faaedb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/random_reference_audit.json": {
+      "bytes": 2355,
+      "sha256": "b172b6ff380936668ccdad211c0f923bd8c16a7303a7757ae794113fe7d34888"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/RELATED_WORK.md": {
+      "bytes": 2165,
+      "sha256": "6b01cc82caa96a3c97e837176d70bd222a820346596f189c8d7db7f61ff48cb9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/REPORT.md": {
+      "bytes": 6327,
+      "sha256": "f9e8c1c76d2ed4ed7e1e1742c4c1015822f32fe76074f3624c90f2e9e191a65d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/result_audit.json": {
+      "bytes": 114346,
+      "sha256": "73bf4f011af0df33dbbf8230c2d4bb87c9073eb7e167a8e4ce2194c37057b570"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/result_audit_check.py": {
+      "bytes": 23213,
+      "sha256": "4d9d9f6749d0ddbac40de3d3a4e695f698a47c301aef6f5794544d9bf92a0f1b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/results.json": {
+      "bytes": 21113,
+      "sha256": "98dae84eb08c7247e7e5477b2459de358534b1b03df22525c5c18eee12c4a67f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/source_publication_receipt.json": {
+      "bytes": 410,
+      "sha256": "f454c63f2b9eb7cdb89bd4cae9d0c538966cedc7742e6c039a209c92c074fd6b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/started.json": {
+      "bytes": 155,
+      "sha256": "7c6622b5e388d568d877439ed833fb8136d64cbab0e4622476a0b171b1aab199"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/STATUS.md": {
+      "bytes": 1407,
+      "sha256": "74b2460f72f3e6339721a7cc9a05f3e60637af21491997b095b536f22a0c1dad"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/user_authorization.json": {
+      "bytes": 505,
+      "sha256": "6bcae76da4868775704bc109bc3e6c428880e583dd760c372d6549e6a5d34c7b"
+    },
+    "scripts/conditional_diagnosis.py": {
+      "bytes": 12295,
+      "sha256": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee"
+    },
+    "scripts/diagnosis_pool_features.py": {
+      "bytes": 5047,
+      "sha256": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5"
+    },
+    "scripts/package_strong_agent.py": {
+      "bytes": 2086,
+      "sha256": "c7f2534901d00e2403637fb4ea4129cb46758a6cb6ce70e7491d282046a44552"
+    },
+    "scripts/parent_measurement_tables.py": {
+      "bytes": 4083,
+      "sha256": "dd522c6f3821fcca2486f24c779bcf598b8290b95c917b6173ec22bf87b9cf08"
+    },
+    "scripts/plot_strong_agent.py": {
+      "bytes": 2133,
+      "sha256": "303dcd5de4260f1d8e9b26903d9c6db8737757d4e2b63e411c15448a85dcaead"
+    },
+    "scripts/replay_conditional_diagnosis.py": {
+      "bytes": 10655,
+      "sha256": "5a1f5f4ba5d43db7ac86b7f58e7de189bd4b961f161f48d5312554ff8c52be7a"
+    },
+    "scripts/replay_window_signals.py": {
+      "bytes": 10508,
+      "sha256": "dc3a39786f8b0c8b479cd3c5b578a308225c37b7417a2d6240cbc6acdbd1d704"
+    },
+    "scripts/strong_agent_baseline.py": {
+      "bytes": 16204,
+      "sha256": "9e786438c417ec19d9903666072689f1a7c17feec3548bfd8b8f2dd32827065e"
+    },
+    "scripts/summarize_strong_agent.py": {
+      "bytes": 2938,
+      "sha256": "e1b2ea429c9040eb8fb9d052775b56c3116daa912ac76978dbaf384e87f1892c"
+    },
+    "scripts/window_measurement_dsl.py": {
+      "bytes": 4357,
+      "sha256": "36a35bd51f1fbf7c5765e83de21a303790baffc6c8bd2d876d06ed02ea288878"
+    }
+  },
+  "count": 267
+}

@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.0,
+      "status": "PASS"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.0,
+      "status": "PASS"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.040690002307001504,
+      "status": "PASS"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.06643717058959907,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.010697277684875531,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.01815154797331753,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.3413599970760307,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.47851284806358174,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.0,
+      "status": "PASS"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "task_equal_mean": {
+    "2": 0.07854945541358155,
+    "4": 0.11262031332529968
+  },
+  "subsets_checked": 308,
+  "reference_sha256": "70936d202ba0317d1b19f07d6204c20a172434bbcc4de7e9f9054745a4faaedb",
+  "method": "Independent itertools combinations; eligible Y>=0.01 and NMAE_gain>=-0.01; max observed Y or parent zero; task-equal macro mean.",
+  "result_audit_script_syntax": "PASS_AST_ONLY_NOT_EXECUTED",
+  "actual_LLM_calls": 0,
+  "new_full_trainings": 0,
+  "actual_Agent_results_inspected": false,
+  "limitation": "Evaluation arithmetic only; not Agent performance or prospective evidence."
+}

@@ -1,0 +1,51 @@
+{
+  "destination": "OpenAI via Codex CLI",
+  "model": "gpt-6.1-sol/high",
+  "max_calls": 20,
+  "first_round_prompts": [
+    {
+      "task": "ETTh1",
+      "path": "ETT_ETTh1_first_prompt.txt",
+      "bytes": 45097,
+      "sha256": "bfeeab4eafae1bbecae29cbdc1d43a93e6c24a74d5c6f4a60f2c399ed455774e",
+      "source_records": 24,
+      "target_candidates": 4
+    },
+    {
+      "task": "ETTh2",
+      "path": "ETT_ETTh2_first_prompt.txt",
+      "bytes": 45122,
+      "sha256": "e6f5f26b373256cc2920f6cd2c251302d194133f274c5feb93609d18182c1fea",
+      "source_records": 24,
+      "target_candidates": 4
+    },
+    {
+      "task": "G1",
+      "path": "Hydraulic_G1_first_prompt.txt",
+      "bytes": 28345,
+      "sha256": "870d96bc269e11106e1ac3a0ef6d25f24dfb4d6ff83a6b617c300ad87e8cfecd",
+      "source_records": 8,
+      "target_candidates": 8
+    },
+    {
+      "task": "G2",
+      "path": "Hydraulic_G2_first_prompt.txt",
+      "bytes": 28345,
+      "sha256": "6940b7cf9298750e2663c8a91f4046710052b99f1b6d7c4af37c2c2bd8c4a8f9",
+      "source_records": 8,
+      "target_candidates": 8
+    },
+    {
+      "task": "G3",
+      "path": "Hydraulic_G3_first_prompt.txt",
+      "bytes": 28355,
+      "sha256": "a499679ed2626f71eeb89ba14cfa7e8ab4bb3466a79b918b33fadadb6117608a",
+      "source_records": 8,
+      "target_candidates": 8
+    }
+  ],
+  "later_rounds": "Same source facts and parent-only candidate features, plus this task own earlier decisions and queried seed/mean Y,Z,NMAE feedback. No other target labels.",
+  "raw_sensor_rows": false,
+  "secrets": false,
+  "D_test": false
+}

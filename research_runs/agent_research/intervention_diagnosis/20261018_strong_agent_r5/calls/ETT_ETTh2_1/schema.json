@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "enum": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "expected_Y": {
+      "type": "number"
+    },
+    "expected_Z": {
+      "type": "number"
+    },
+    "decision_reason": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "required": [
+    "candidate_id",
+    "expected_Y",
+    "expected_Z",
+    "decision_reason"
+  ]
+}

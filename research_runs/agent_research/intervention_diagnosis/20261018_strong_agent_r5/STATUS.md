@@ -1,0 +1,9 @@
+# 强Agent对照：20/20完成，独立验收通过
+
+科学协议、运行器、隐藏目标反馈置换检查及异常处理补验已经完成。原审计40项和修复补验3项均保留；源码提交`7b2a165602c8aa83cbf2f32b6f19eafec9a743f7`已核对远端提交及文件树。
+
+启动20次外部调用首次被自动审批拒绝：此前明确授权覆盖四份信号生成包，审批认为本次自适应Agent用途和反馈包需要另行授权。主代理保留该记录并提供五份首轮提示词及后续合法反馈范围；用户随后明确回复“授权这20次对照调用”。据此执行同一冻结协议，不改输入边界或追加调用。
+
+用户明确授权后的同一运行已完成20/20调用，进程exit0，10预算节点及独立结果审计通过。原始completed标记保留计算完成时的AUDIT_PENDING快照，最终验收看result_audit和progress。首次被拒时的0调用快照保留在approval_rejection.json。预测骨干完整训练0、累计完整训练464；无本阶段运行队列。完整结果见REPORT，发布状态以sync_receipt为准。
+
+可核对资料：PROTOCOL.md、execution_lock.json、input_check.json、gate_audit.json、gate_resolution.json、source_publication_receipt.json及approval_preview/manifest.json。r4全部结果及论文工作稿已验收同步；强Agent效果仍未知，方法优势和独立来源确认缺口仍在。

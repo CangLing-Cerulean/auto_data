@@ -1,0 +1,733 @@
+{
+  "status": "COMPUTED_AUDIT_PENDING",
+  "decisions": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 245.86608462035656,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+      "gain": 0.0224142510366059,
+      "NMAE_gain": 0.005261228088253957,
+      "negative_seed_count": 1,
+      "query_seconds": 248.3905921652913,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+      "gain": 0.06643717058959907,
+      "NMAE_gain": 0.020686959271040056,
+      "negative_seed_count": 1,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+      "gain": 0.023331066360900942,
+      "NMAE_gain": -0.0012734344114628236,
+      "negative_seed_count": 0,
+      "query_seconds": 221.75586752500385,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+      "gain": 0.023331066360900942,
+      "NMAE_gain": -0.0012734344114628236,
+      "negative_seed_count": 0,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+      "gain": 0.2827669592612514,
+      "NMAE_gain": 0.134791588457276,
+      "negative_seed_count": 0,
+      "query_seconds": 214.27588484808803,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+      "gain": 0.5379421136515773,
+      "NMAE_gain": 0.270456170223404,
+      "negative_seed_count": 0,
+      "query_seconds": 432.18633210659027,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 213.76905684079975,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 433.5181313548237,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    }
+  ],
+  "uniform_random": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.040690002307001504
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.06643717058959907
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.010697277684875531
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.01815154797331753
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.3413599970760307
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.47851284806358163
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.0
+    }
+  ],
+  "calls": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "step": 1,
+      "exit_code": 0,
+      "seconds": 130.32980180000231,
+      "usage": {
+        "input_tokens": 31728,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 507,
+        "reasoning_output_tokens": 395
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "c91ef2355a6b9207fbb9a89cd4b888bef01898a39db8770fe1f5b782cdb44a62"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "step": 2,
+      "exit_code": 0,
+      "seconds": 129.1444862999997,
+      "usage": {
+        "input_tokens": 32779,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 491,
+        "reasoning_output_tokens": 385
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "f6ef37ccde15ee0f440e63b6bc3042d802ad6ffe2702eeb1533a3824911d49fe"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "step": 3,
+      "exit_code": 0,
+      "seconds": 126.62367870000162,
+      "usage": {
+        "input_tokens": 32887,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 361,
+        "reasoning_output_tokens": 252
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "63e4f9c2cc50d23592c03fe456a1dfbf982157620d2d308442fe9647b6a5188b"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "step": 4,
+      "exit_code": 0,
+      "seconds": 123.00974069999938,
+      "usage": {
+        "input_tokens": 32067,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 293,
+        "reasoning_output_tokens": 181
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "248cf9238d3aafc1e5a0d5ce37877f4880f906e1ecfbcfff48ad4e072d7b8e02"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "step": 1,
+      "exit_code": 0,
+      "seconds": 134.81988509999792,
+      "usage": {
+        "input_tokens": 31732,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 827,
+        "reasoning_output_tokens": 727
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "0ca453bcd39168e1d0157dd2023928a47812121b4a3456985b4a12d7155bdb4a"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "step": 2,
+      "exit_code": 0,
+      "seconds": 135.86448310000196,
+      "usage": {
+        "input_tokens": 32765,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 658,
+        "reasoning_output_tokens": 549
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "ebaf8bd4ca425c6e0bb1b22e201ab37722a07250a013eae0fbb1fb050ebe8ca2"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "step": 3,
+      "exit_code": 0,
+      "seconds": 128.64848859999984,
+      "usage": {
+        "input_tokens": 32868,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 519,
+        "reasoning_output_tokens": 405
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "7a728aa15f04597fdc10a946cb87d26a62a5f95b30f09f742cbcff0ab936c97f"
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "step": 4,
+      "exit_code": 0,
+      "seconds": 124.88633489999847,
+      "usage": {
+        "input_tokens": 32049,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 316,
+        "reasoning_output_tokens": 204
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "112b5be0a2e753708aa77be3f490ff10ff0e108bc858246823c7cffac3f563aa"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "step": 1,
+      "exit_code": 0,
+      "seconds": 123.96122019999893,
+      "usage": {
+        "input_tokens": 26848,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 253,
+        "reasoning_output_tokens": 159
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "874e9c2783093135c21bd36d1119c54e89311adff044f84e328a22734cec96f3"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "step": 2,
+      "exit_code": 0,
+      "seconds": 125.75717389999772,
+      "usage": {
+        "input_tokens": 26939,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 245
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "ff5b0266a03079fa8ac9a7057371a81e07d3307d19b78b2d9600ba4133445566"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "step": 3,
+      "exit_code": 0,
+      "seconds": 128.98622120000073,
+      "usage": {
+        "input_tokens": 26124,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 501,
+        "reasoning_output_tokens": 401
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "b5381cb6b7c8723c1dad22c6a062f4fd01e110163a369db0e1819f6650567704"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "step": 4,
+      "exit_code": 0,
+      "seconds": 130.7566482000002,
+      "usage": {
+        "input_tokens": 27150,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 472,
+        "reasoning_output_tokens": 362
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "7a38654ac6486754343a17a3283c694e04d92f251cb1048ea998ab7c704d0cce"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "step": 1,
+      "exit_code": 0,
+      "seconds": 141.6630436000014,
+      "usage": {
+        "input_tokens": 25907,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 847,
+        "reasoning_output_tokens": 748
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "a8594c5bbb9bd9d6a36a60256e7f84a0db0f7e03f3313fb93f928b4cdf4f6de9"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "step": 2,
+      "exit_code": 0,
+      "seconds": 132.99123859999963,
+      "usage": {
+        "input_tokens": 26010,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 689,
+        "reasoning_output_tokens": 581
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "265ae490c81816b6d37ea66ea7635d36ef9b087c958a3de6c521be7fe55d5c2f"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "step": 3,
+      "exit_code": 0,
+      "seconds": 124.04469229999813,
+      "usage": {
+        "input_tokens": 27042,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 314,
+        "reasoning_output_tokens": 207
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "8952935c7276fb89dbbf4a35b301fbc930e3e94cc4deb8c475873a86c4b33ded"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "step": 4,
+      "exit_code": 0,
+      "seconds": 122.64974230000007,
+      "usage": {
+        "input_tokens": 27131,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 355,
+        "reasoning_output_tokens": 244
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "fb02a4e514fa678e63e1b948f4d40dde8b25cd78246dbf64c849a9ccaabed936"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "step": 1,
+      "exit_code": 0,
+      "seconds": 126.25000659999932,
+      "usage": {
+        "input_tokens": 25913,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 376,
+        "reasoning_output_tokens": 267
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "7017a420547a06c5350f996673f15dcf69d721fd2c1c4552b6f27a8ba1f15b4c"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "step": 2,
+      "exit_code": 0,
+      "seconds": 134.4880372000007,
+      "usage": {
+        "input_tokens": 26025,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 707,
+        "reasoning_output_tokens": 590
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "bd0634e6dc97b799d966016b286788dc4b91c7538c1f02fa463567009c992bed"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "step": 3,
+      "exit_code": 0,
+      "seconds": 129.0072947999979,
+      "usage": {
+        "input_tokens": 27073,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 511,
+        "reasoning_output_tokens": 399
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "c3d75e27f9877adacad142b65be6f6af8eb4b0cfbebbab28732ab96e75e66ed1"
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "step": 4,
+      "exit_code": 0,
+      "seconds": 137.6131658000013,
+      "usage": {
+        "input_tokens": 26254,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 805,
+        "reasoning_output_tokens": 702
+      },
+      "tool_items": [],
+      "transport_errors": [
+        {
+          "id": "item_0",
+          "type": "error",
+          "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+        }
+      ],
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "status": "PASS",
+      "response_sha256": "1a259cc3efb7839a4091513944c4238408782f1ad3a45ae7513495d07a1a89f6"
+    }
+  ],
+  "summaries": [
+    {
+      "queries": 2,
+      "agent_mean_gain": 0.06570245533175165,
+      "uniform_random_expected_mean_gain": 0.07854945541358155
+    },
+    {
+      "queries": 4,
+      "agent_mean_gain": 0.12554207012041546,
+      "uniform_random_expected_mean_gain": 0.11262031332529965
+    }
+  ],
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464
+}

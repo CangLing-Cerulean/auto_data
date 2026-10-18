@@ -1,0 +1,506 @@
+{
+  "status": "DESCRIPTIVE_SUMMARY",
+  "comparison": [
+    {
+      "queries": 2,
+      "method": "strong_agent",
+      "mean_gain": 0.06570245533175165
+    },
+    {
+      "queries": 2,
+      "method": "uniform_random_exact_expectation",
+      "mean_gain": 0.07854945541358155
+    },
+    {
+      "queries": 2,
+      "method": "reference",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "original_quadratic",
+      "mean_gain": 0.07332343618218559
+    },
+    {
+      "queries": 2,
+      "method": "window_fixed",
+      "mean_gain": 0.10758842273031546
+    },
+    {
+      "queries": 2,
+      "method": "window_quadratic",
+      "mean_gain": 0.05655339185225028
+    },
+    {
+      "queries": 2,
+      "method": "manual_uniform",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "manual_conditional",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "ordinary_uniform",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "ordinary_joint",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "ordinary_conditional",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "ordinary_combined",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "mismatch_uniform",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "mismatch_joint",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "mismatch_conditional",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 2,
+      "method": "mismatch_combined",
+      "mean_gain": 0.06003600206426577
+    },
+    {
+      "queries": 4,
+      "method": "strong_agent",
+      "mean_gain": 0.12554207012041546
+    },
+    {
+      "queries": 4,
+      "method": "uniform_random_exact_expectation",
+      "mean_gain": 0.11262031332529965
+    },
+    {
+      "queries": 4,
+      "method": "reference",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "original_quadratic",
+      "mean_gain": 0.12554207012041546
+    },
+    {
+      "queries": 4,
+      "method": "window_fixed",
+      "mean_gain": 0.12087585684823528
+    },
+    {
+      "queries": 4,
+      "method": "window_quadratic",
+      "mean_gain": 0.12087585684823528
+    },
+    {
+      "queries": 4,
+      "method": "manual_uniform",
+      "mean_gain": 0.12541606720324222
+    },
+    {
+      "queries": 4,
+      "method": "manual_conditional",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "ordinary_uniform",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "ordinary_joint",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "ordinary_conditional",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "ordinary_combined",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "mismatch_uniform",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "mismatch_joint",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "mismatch_conditional",
+      "mean_gain": 0.07786364653719254
+    },
+    {
+      "queries": 4,
+      "method": "mismatch_combined",
+      "mean_gain": 0.07786364653719254
+    }
+  ],
+  "decisions": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 245.86608462035656,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 491.94775291066617,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:W",
+      "gain": 0.0224142510366059,
+      "NMAE_gain": 0.005261228088253957,
+      "negative_seed_count": 1,
+      "query_seconds": 248.3905921652913,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:S",
+      "gain": 0.06643717058959907,
+      "NMAE_gain": 0.020686959271040056,
+      "negative_seed_count": 1,
+      "query_seconds": 497.0226431209594,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+      "gain": 0.023331066360900942,
+      "NMAE_gain": -0.0012734344114628236,
+      "negative_seed_count": 0,
+      "query_seconds": 221.75586752500385,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S",
+      "gain": 0.023331066360900942,
+      "NMAE_gain": -0.0012734344114628236,
+      "negative_seed_count": 0,
+      "query_seconds": null,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "recommendation": "Hydraulic:G2:FAVOR_SECOND:S",
+      "gain": 0.2827669592612514,
+      "NMAE_gain": 0.134791588457276,
+      "negative_seed_count": 0,
+      "query_seconds": 214.27588484808803,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "recommendation": "Hydraulic:G2:KEEP_SECOND:W",
+      "gain": 0.5379421136515773,
+      "NMAE_gain": 0.270456170223404,
+      "negative_seed_count": 0,
+      "query_seconds": 432.18633210659027,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 213.76905684079975,
+      "logical_candidate_full_trainings": 6,
+      "shared_parent_full_trainings": 3
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "recommendation": "PARENT",
+      "gain": 0.0,
+      "NMAE_gain": 0.0,
+      "negative_seed_count": 0,
+      "query_seconds": 433.5181313548237,
+      "logical_candidate_full_trainings": 12,
+      "shared_parent_full_trainings": 3
+    }
+  ],
+  "uniform_random": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.040690002307001504
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.06643717058959907
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.010697277684875531
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.01815154797331753
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.3413599970760307
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.47851284806358163
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.0
+    }
+  ],
+  "forecast_errors_on_adaptively_queried_candidates": [
+    {
+      "task": "ETTh1",
+      "step": 1,
+      "Y_absolute_error": 0.08601696865753079,
+      "Z_absolute_error": 0.028225904356476334
+    },
+    {
+      "task": "ETTh1",
+      "step": 2,
+      "Y_absolute_error": 0.004719624979198159,
+      "Z_absolute_error": 0.0007831941266512746
+    },
+    {
+      "task": "ETTh1",
+      "step": 3,
+      "Y_absolute_error": 0.011134432709963856,
+      "Z_absolute_error": 0.00048490129157698417
+    },
+    {
+      "task": "ETTh1",
+      "step": 4,
+      "Y_absolute_error": 0.002457680913467024,
+      "Z_absolute_error": 0.0022664648359320637
+    },
+    {
+      "task": "ETTh2",
+      "step": 1,
+      "Y_absolute_error": 0.15308621123396815,
+      "Z_absolute_error": 0.12360124487228052
+    },
+    {
+      "task": "ETTh2",
+      "step": 2,
+      "Y_absolute_error": 0.0624142510366059,
+      "Z_absolute_error": 0.03686140579186976
+    },
+    {
+      "task": "ETTh2",
+      "step": 3,
+      "Y_absolute_error": 0.08643717058959907,
+      "Z_absolute_error": 0.14802394613038805
+    },
+    {
+      "task": "ETTh2",
+      "step": 4,
+      "Y_absolute_error": 0.09911679621229058,
+      "Z_absolute_error": 0.08470234301200696
+    },
+    {
+      "task": "G1",
+      "step": 1,
+      "Y_absolute_error": 0.011331066360900942,
+      "Z_absolute_error": 0.0012331727499121023
+    },
+    {
+      "task": "G1",
+      "step": 2,
+      "Y_absolute_error": 0.4731892170251583,
+      "Z_absolute_error": 0.023967684546561743
+    },
+    {
+      "task": "G1",
+      "step": 3,
+      "Y_absolute_error": 0.010701051775034713,
+      "Z_absolute_error": 0.03064889009799712
+    },
+    {
+      "task": "G1",
+      "step": 4,
+      "Y_absolute_error": 0.004197696193354285,
+      "Z_absolute_error": 0.004449998083130756
+    },
+    {
+      "task": "G2",
+      "step": 1,
+      "Y_absolute_error": 0.41675012695539526,
+      "Z_absolute_error": 0.07037191886663556
+    },
+    {
+      "task": "G2",
+      "step": 2,
+      "Y_absolute_error": 0.4027669592612514,
+      "Z_absolute_error": 0.007709668208027688
+    },
+    {
+      "task": "G2",
+      "step": 3,
+      "Y_absolute_error": 0.12675287231936128,
+      "Z_absolute_error": 0.031798234177198945
+    },
+    {
+      "task": "G2",
+      "step": 4,
+      "Y_absolute_error": 0.11794211365157731,
+      "Z_absolute_error": 0.03232923719877653
+    },
+    {
+      "task": "G3",
+      "step": 1,
+      "Y_absolute_error": 0.23083434002520778,
+      "Z_absolute_error": 0.02904515506633933
+    },
+    {
+      "task": "G3",
+      "step": 2,
+      "Y_absolute_error": 0.12664341731919146,
+      "Z_absolute_error": 0.1399644123262293
+    },
+    {
+      "task": "G3",
+      "step": 3,
+      "Y_absolute_error": 0.11468931283733236,
+      "Z_absolute_error": 0.07028464542694966
+    },
+    {
+      "task": "G3",
+      "step": 4,
+      "Y_absolute_error": 0.10391867697156756,
+      "Z_absolute_error": 0.027269664659684667
+    }
+  ],
+  "forecast_MAE_Y": 0.13225499935139778,
+  "forecast_MAE_Z": 0.044701104291231274,
+  "calls": 20,
+  "LLM_seconds_sum": 2591.4953838999973,
+  "round_max_seconds_sum": 544.1479873000026,
+  "round_max_seconds": [
+    141.6630436000014,
+    135.86448310000196,
+    129.0072947999979,
+    137.6131658000013
+  ],
+  "preparation_seconds": 1.2723541000013938,
+  "tokens_input": 577291,
+  "tokens_output": 10160,
+  "transport_error_items": 20,
+  "known_query_cost_nodes": 9,
+  "reused_generation_cost": {
+    "calls": 2,
+    "seconds": 391.43101430000024,
+    "input_tokens": 114079,
+    "output_tokens": 6873,
+    "scope": "two r4 mismatch generators actually used; historical cost not a new call"
+  },
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464
+}

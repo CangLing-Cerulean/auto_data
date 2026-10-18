@@ -1,6 +1,6 @@
 \documentclass[10pt]{article}
 \usepackage[margin=0.9in]{geometry}
-\usepackage{amsmath,amssymb,booktabs,hyperref}
+\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref}
 \title{Conditional Diagnostic Evidence and Executable Signal Discovery:\\A Controlled Retrospective Study}
 \author{Working research manuscript}
 \date{18 October 2026}
@@ -14,6 +14,7 @@ Across 96 historical seed-level comparisons, aggregated into 32 candidate decisi
 After addressing an identifiable regression extrapolation failure, four new generation calls produce eight legal window measurements.
 Seventy complete policy trajectories show no total-gain prediction or selection benefit from these measurements at the registered budgets.
 Conditional updating also fails to outperform strong fixed response models.
+A frozen strong-prompt Agent completes 20 further decision calls and matches the fixed quadratic model at four queries, while trailing it and the exact uniform-random expectation at two queries.
 The result is a reproducible negative development finding, not evidence of method superiority or independent generalization.
 \end{abstract}
 
@@ -24,6 +25,13 @@ Intervention-driven verification appears in DoVer~\cite{dover}; language-guided 
 Neither explanation verification nor conditional log scoring is itself claimed as novel mathematics.
 The empirical contribution sought is additional decision value from diagnostic reuse and newly measured information.
 The current experiments do not establish that contribution.
+
+Proper probabilistic scores, including the logarithmic score, have established statistical foundations~\cite{scoring}.
+Updating beliefs using cumulative losses also has a general framework~\cite{generalbayes}; our exponential weights are not claimed as new mathematics or a calibrated posterior.
+CAAFE generates executable features and accompanying explanations using language models~\cite{caafe}.
+LLAMBO uses language-model context and previous evaluations for sequential optimization~\cite{llambo}.
+Our proposed distinction concerns conditional intervention-response evidence and parent-model measurements, and must be justified by their additional decision value.
+The ordinary generator and adaptive Agent below are controlled comparators for our setting, not reproductions of CAAFE or LLAMBO.
 
 \section{Separating recipe value from diagnostic evidence}
 Let $L_P>0$ denote parent global MSE and $L_C$ child global MSE.
@@ -66,6 +74,23 @@ All response regressors learn from actual revealed gains.
 The best measured eligible intervention is retained independently of diagnostic reliability.
 Each event contributes once; a revised diagnostic has a distinct version.
 These scores are predictive comparisons, not causal identification, calibrated tests, root-cause probabilities, or Bayes factors.
+
+\paragraph{A decision boundary.}
+For a true joint law $q(Y,Z\mid x)$, the expected conditional score is
+\[
+ \mathbb E_q[E_h^{\rm cond}\mid x]
+ =\mathbb E_{q(Y\mid x)}\!\left[
+ D_{\rm KL}(q_{Z\mid Y,x}\Vert p_{0,Z\mid Y,x})
+ -D_{\rm KL}(q_{Z\mid Y,x}\Vert p_{h,Z\mid Y,x})\right].
+\]
+This identity constrains conditional $Z$ prediction, not the quality of $p_h(Y\mid x)$.
+For example, suppose true mean gains for two remaining actions are $(1,0)$, reference gain predictions are $(1,0)$ and expert gain predictions are $(-1,0)$.
+Let true and expert conditional $Z$ laws be $N(0,1)$, but the reference law $N(1,1)$, independently of $Y$.
+Expected conditional evidence per historical event is $1/2$.
+Whenever cumulative evidence is positive, the expert weight exceeds $1/2$, and mixed predicted gains $(1-2w_h,0)$ select the inferior second action.
+This algebraic example does not simulate our fitted production models or identify the unique cause of their empirical failure.
+It establishes that conditional prediction improvement alone gives no general guarantee for the gain mixture used here.
+Separately retaining observed useful recipes protects their availability, but does not guarantee the next unobserved query is useful.
 
 \section{Predictor and measurement interface}
 The reference uses 22 common parent-state and action primitives.
@@ -133,6 +158,8 @@ Manual experts, uniform & 6.003600 & 12.541607\\
 Manual experts, conditional & 6.003600 & 7.786365\\
 Ordinary measurements, all four variants & 6.003600 & 7.786365\\
 Mismatch measurements, all four variants & 6.003600 & 7.786365\\
+Strong adaptive Agent & 6.570246 & 12.554207\\
+Uniform random, exact subset expectation & 7.854946 & 11.262031\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -156,6 +183,37 @@ For a descriptive aggregation of audited conditional log scores, we first averag
 Mean gains are $-0.00133207$ for ordinary generation and $-0.00001998$ for mismatch generation.
 Individual events and tasks can be positive; the scores are not identically zero.
 This post-hoc summary is neither a newly registered success criterion nor a significance test.
+
+\subsection{Strong adaptive Agent comparator}
+A separately frozen comparator makes four sequential decisions for each target task, using Sol-high with no tools.
+The 20 calls see source feedback, the original 26 features, the two frozen conditional-generator measurements and their definitions, and their own previous target responses.
+They additionally receive three fitted suggestions: the primitive reference, original quadratic and combined-measurement regressions.
+The Agent can override all suggestions.
+Inputs are sealed before each call, and the selected historical outcome is revealed only after output validation.
+Final adoption remains deterministic under the same gain and NMAE thresholds.
+Each task has one Agent trajectory; this is not repeated sampling of an Agent success probability.
+
+At four queries the Agent reaches the same finite-pool oracle as the quadratic model, exceeding the generated conditional policy by 4.767842 percentage points.
+At two queries it trails that quadratic model by 0.762098 percentage points and uniform random by 1.284700 percentage points.
+The random comparator enumerates all 308 task/budget subsets; its oracle-based evaluation is never supplied to the Agent.
+The four-query ETT menus are exhausted, so their zero regret does not demonstrate efficient search.
+On Hydraulic G2, a third-query observation of about 52.7\% improvement from KEEP\_SECOND/S motivates querying its W counterpart, reaching 53.794211\%.
+This is a useful realized continuation, not a causal attribution to its textual rationale or evidence from a controlled feedback fork.
+Because the Agent receives generated measurements, its success does not show that all uses of those measurements are unnecessary.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{images/strong_agent_budgets.pdf}
+\caption{Registered query-budget comparisons. Means are over five correlated development tasks from two families; bars are not independent-source estimates.}
+\end{figure}
+
+An independent audit checks all 20 input/output chains, 120 fitted model components and ten adoption nodes; 786 numerical comparisons have maximum discrepancy $4.44\times10^{-16}$.
+The Agent consumes 577,291 input and 10,160 output tokens.
+Summed call time is 2,591.495384 seconds, with 544.441746 seconds from first request to last revelation under four rounds of five parallel tasks.
+The actually reused two conditional-generation calls additionally cost 391.431014 seconds, 114,079 input and 6,873 output tokens historically.
+Nine of ten historical query-cost nodes are known; the remaining node stays unknown.
+This comparison matches query counts, not complete monetary or wall-clock budgets.
+All 20 transport fallbacks are retained and no Agent call is regenerated.
 
 \section{Development history, audit and cost}
 The initial scalar-combination study used four calls and retained two mismatch-generator abstentions.
@@ -193,7 +251,8 @@ One removal-based generated feature is identically zero on ETT because its actio
 A generated cancellation statistic is motivated as a reliability measurement, but our fixed model places it in a mean function with globally estimated residual scale; the corresponding heteroscedastic interpretation is not tested.
 We preserve this mismatch rather than redesigning the head after observing results.
 
-A full strong-prompt adaptive agent, a fixed-prefix feedback intervention, complete costs, and independent-source confirmation remain necessary.
+A fixed-prefix feedback intervention, complete costs, and independent-source confirmation remain missing.
+The strong adaptive Agent comparator has been completed but does not rescue the proposed conditional-mixture mechanism.
 The tested implementation does not establish H1 signal benefit, H2 conditional-update benefit, or H3 decision superiority.
 This does not prove that every conditional diagnostic learner must fail.
 Further claims require a frozen mechanism and evidence beyond this development pool, not more favorable prompts, thresholds or candidate subsets.
@@ -201,5 +260,9 @@ Further claims require a frozen mechanism and evidence beyond this development p
 \begin{thebibliography}{9}
 \bibitem{dover} M. Ma et al. \emph{DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems}. arXiv:2512.06749, 2025. \url{https://arxiv.org/abs/2512.06749}.
 \bibitem{ladder} S. Ghosh et al. \emph{LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers}. Findings of ACL, 2025; arXiv:2408.07832v13. \url{https://arxiv.org/abs/2408.07832}.
+\bibitem{scoring} T. Gneiting and A. E. Raftery. \emph{Strictly Proper Scoring Rules, Prediction, and Estimation}. JASA 102(477):359--378, 2007. \url{https://doi.org/10.1198/016214506000001437}.
+\bibitem{generalbayes} P. G. Bissiri, C. C. Holmes and S. G. Walker. \emph{A general framework for updating belief distributions}. JRSSB 78(5):1103--1130, 2016. \url{https://doi.org/10.1111/rssb.12158}.
+\bibitem{caafe} N. Hollmann, S. M\"uller and F. Hutter. \emph{Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering}. NeurIPS, 2023. \url{https://arxiv.org/abs/2305.03403}.
+\bibitem{llambo} T. Liu, N. Astorga, N. Seedat and M. van der Schaar. \emph{Large Language Models to Enhance Bayesian Optimization}. ICLR, 2024. \url{https://arxiv.org/abs/2402.03921}.
 \end{thebibliography}
 \end{document}

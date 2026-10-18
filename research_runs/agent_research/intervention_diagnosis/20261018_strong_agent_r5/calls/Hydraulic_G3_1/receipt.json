@@ -1,0 +1,23 @@
+{
+  "exit_code": 0,
+  "seconds": 126.25000659999932,
+  "usage": {
+    "input_tokens": 25913,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 376,
+    "reasoning_output_tokens": 267
+  },
+  "tool_items": [],
+  "transport_errors": [
+    {
+      "id": "item_0",
+      "type": "error",
+      "message": "Falling back from WebSockets to HTTPS transport. request timed out"
+    }
+  ],
+  "model_requested": "gpt-6.1-sol",
+  "reasoning_requested": "high",
+  "status": "PASS",
+  "response_sha256": "7017a420547a06c5350f996673f15dcf69d721fd2c1c4552b6f27a8ba1f15b4c"
+}

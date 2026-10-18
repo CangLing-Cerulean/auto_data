@@ -1,0 +1,80 @@
+{
+  "status": "EVALUATION_ONLY_NOT_GIVEN_TO_AGENT",
+  "rows": [
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh1",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 2,
+      "subsets": 6,
+      "expected_gain": 0.040690002307001504
+    },
+    {
+      "family": "ETT",
+      "task": "ETTh2",
+      "queries": 4,
+      "subsets": 1,
+      "expected_gain": 0.06643717058959907
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.010697277684875531
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G1",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.01815154797331753
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.3413599970760307
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G2",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.47851284806358163
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 2,
+      "subsets": 28,
+      "expected_gain": 0.0
+    },
+    {
+      "family": "Hydraulic",
+      "task": "G3",
+      "queries": 4,
+      "subsets": 70,
+      "expected_gain": 0.0
+    }
+  ],
+  "task_equal_mean": {
+    "2": 0.07854945541358155,
+    "4": 0.11262031332529965
+  },
+  "new_full_trainings": 0
+}
