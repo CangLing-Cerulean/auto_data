@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "assets": {
+    "ETT_ETTh1.npz": {
+      "bytes": 736727,
+      "sha256": "c3c1c68f22ef9b46591d9d21f29935348c1f635090d6ae9a41ea7dd99d03c385"
+    },
+    "ETT_ETTh2.npz": {
+      "bytes": 733953,
+      "sha256": "b3944f2b13c94d642b79ec195f3da73e53cb3bdcbfc90082c79cffc461a85a6e"
+    }
+  },
+  "checks": [
+    {
+      "task": "ETTh1",
+      "old_sha256": "366951cc2e375df1253b9a1197fda4e8bea0856c1459dcc463cf333e7c8db8df",
+      "prepared_sha256": "b96e9f36f8a4206e3db70cc94ef478fa21eaa07f268cd2fb6a377638e509968f",
+      "changes": [
+        {
+          "split": "A",
+          "windows": 8449,
+          "max_abs_change": 0.008188570858180817,
+          "changed": 8449
+        },
+        {
+          "split": "B",
+          "windows": 1249,
+          "max_abs_change": 0.006730071739477372,
+          "changed": 1249
+        }
+      ]
+    },
+    {
+      "task": "ETTh2",
+      "old_sha256": "ddb413fd8140bde58e48957e10986341fe6de2693a1342c2321521ac6448f2fd",
+      "prepared_sha256": "b95757bffba6dde9bfba8a12be36988be444c2b9b04f65dc81c3db1bdd28b42c",
+      "changes": [
+        {
+          "split": "A",
+          "windows": 8449,
+          "max_abs_change": 0.024361819923685135,
+          "changed": 8449
+        },
+        {
+          "split": "B",
+          "windows": 1249,
+          "max_abs_change": 0.01049924698485069,
+          "changed": 1249
+        }
+      ]
+    }
+  ],
+  "seconds": 0.47258347272872925,
+  "only_changed_column": "A/B_inputs[:,6]",
+  "D_test_access": false,
+  "new_full_trainings": 0,
+  "code_sha256": "a0afbc66e0f9b9f54ab6d894a41fa722d34b34d80ad71c6568d3017a4692b54d"
+}

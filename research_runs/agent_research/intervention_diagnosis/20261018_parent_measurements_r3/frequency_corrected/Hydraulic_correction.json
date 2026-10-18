@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "assets": {
+    "Hydraulic_G1.npz": {
+      "bytes": 672763,
+      "sha256": "409eda0c40c3a1fe4fe88e940c4ae2c9c8a9163a69a5590b0114979aa9d6396e"
+    },
+    "Hydraulic_G2.npz": {
+      "bytes": 665895,
+      "sha256": "4a7c5f64f63b6567b7708543ec2c21e5719b39ce0dc655b99c52dd697cfaa044"
+    },
+    "Hydraulic_G3.npz": {
+      "bytes": 670585,
+      "sha256": "ad1395be3ea933b84a16daaf2d2753be14c9f06a8dcd14574d83fefbcb0299f4"
+    }
+  },
+  "checks": [
+    {
+      "task": "G1",
+      "old_sha256": "125cca2031638a1db5d8433bb0cb9b690e6071fefde9f06657f709eab476b684",
+      "prepared_sha256": "3699f7ba0bfef15fa18d11e2f27c1deb5e4b5701a2537047e36254b8d8db29f1",
+      "changes": [
+        {
+          "split": "A",
+          "windows": 6468,
+          "max_abs_change": 0.01701397475347252,
+          "changed": 6468
+        },
+        {
+          "split": "B",
+          "windows": 1617,
+          "max_abs_change": 0.015384206389169403,
+          "changed": 1617
+        }
+      ]
+    },
+    {
+      "task": "G2",
+      "old_sha256": "fc28f139764332e665812961ab58f97f008060dbaa262169353a7e695d90ab14",
+      "prepared_sha256": "74495c87f1b87d56660e4e069a9b88c6b42dc14e398da811ce258fd30d499225",
+      "changes": [
+        {
+          "split": "A",
+          "windows": 6468,
+          "max_abs_change": 0.018301135847340555,
+          "changed": 6468
+        },
+        {
+          "split": "B",
+          "windows": 1617,
+          "max_abs_change": 0.018386005463059962,
+          "changed": 1617
+        }
+      ]
+    },
+    {
+      "task": "G3",
+      "old_sha256": "6e92d26ff3bce55174b449f193b646c1b61afb1fcc5fb238cdd08d191a968cfe",
+      "prepared_sha256": "1809108bf010b665601bdb8626c9df0d57b3df6618b32cd5bd0833ce234ada59",
+      "changes": [
+        {
+          "split": "A",
+          "windows": 6468,
+          "max_abs_change": 0.0211235703181614,
+          "changed": 6468
+        },
+        {
+          "split": "B",
+          "windows": 1617,
+          "max_abs_change": 0.012406531811808792,
+          "changed": 1617
+        }
+      ]
+    }
+  ],
+  "seconds": 0.2051538999985496,
+  "only_changed_column": "A/B_inputs[:,6]",
+  "D_test_access": false,
+  "new_full_trainings": 0,
+  "code_sha256": "a0afbc66e0f9b9f54ab6d894a41fa722d34b34d80ad71c6568d3017a4692b54d"
+}

@@ -1,0 +1,5159 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "id": "ETT:ETTh1:FAVOR_EARLY:S",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.0525619004874075,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25001479202351895,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": -0.2569260336037464
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2500295884247752,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.20201810409414145
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -0.2890544138855065,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.10556918667467424
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.2461613381272718,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.026508261948272382
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.49232267625454346,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.026508261948272306
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.11868314464952884,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.07415147125248954
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.1649466439246643,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.07508418102222437
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.6439896272493059,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1254690769965622
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004446722572241793,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07160446321623769
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": 0.01017278071637106
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.015977281231235683,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.016317161928132696
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.7876290887131775,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": 0.11742034965811833
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.18979366241660064,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.12578209501410142
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.3063352262465183,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": -0.011363438898158452
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.5088920106664758,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.03419697783060364
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.11878107621273383,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.010004185699106773
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.15119698775194948,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.03479051066628735
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.62520359741238,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.05043097362029985
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.5588260028104012,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.016071942448574177
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh1:FAVOR_EARLY:W",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.07218306893304927,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25001479202351895,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": -0.2569260336037464
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2500295884247752,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.20201810409414145
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -0.2890544138855065,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.10556918667467424
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.2461613381272718,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.026508261948272382
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.49232267625454346,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.026508261948272306
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.11868314464952884,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.07415147125248954
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.1649466439246643,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.07508418102222437
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.6439896272493059,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1254690769965622
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004446722572241793,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07160446321623769
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": 0.01017278071637106
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.015977281231235683,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.016317161928132696
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.7876290887131775,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": 0.11742034965811833
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.18979366241660064,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.12578209501410142
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.3063352262465183,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": -0.011363438898158452
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.5088920106664758,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.03419697783060364
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.11878107621273383,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.010004185699106773
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.15119698775194948,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.03479051066628735
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.62520359741238,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.05043097362029985
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.5588260028104012,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.016071942448574177
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh1:FAVOR_LATE:S",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.5664154433600567,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.24998520272332084,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": 0.2568956263567372
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2499704098241713,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.202049987006307
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -0.2890544138855065,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.10556918667467424
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.2461613381272718,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.026508261948272382
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.49232267625454346,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.026508261948272306
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.11868314464952884,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.07415147125248954
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.1649466439246643,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.07508418102222437
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.6439896272493059,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1254690769965622
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004446722572241793,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07160446321623769
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": 0.01017278071637106
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.015977281231235683,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.016317161928132696
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.7876290887131775,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": 0.11742034965811833
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.18979366241660064,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.12578209501410142
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.3063352262465183,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": -0.011363438898158452
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.5088920106664758,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.03419697783060364
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.11878107621273383,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.010004185699106773
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.15119698775194948,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.03479051066628735
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.62520359741238,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.05043097362029985
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.5588260028104012,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.016071942448574177
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh1:FAVOR_LATE:W",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.5860366118056984,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.24998520272332084,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": 0.2568956263567372
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2499704098241713,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.202049987006307
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -0.2890544138855065,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.10556918667467424
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.2461613381272718,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.026508261948272382
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.49232267625454346,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.026508261948272306
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.11868314464952884,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.07415147125248954
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.1649466439246643,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.07508418102222437
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.6439896272493059,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1254690769965622
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004446722572241793,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07160446321623769
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": 0.01017278071637106
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.015977281231235683,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.016317161928132696
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.7876290887131775,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": 0.11742034965811833
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.18979366241660064,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.12578209501410142
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.3063352262465183,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": -0.011363438898158452
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.5088920106664758,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.03419697783060364
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.11878107621273383,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.010004185699106773
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.15119698775194948,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.03479051066628735
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.62520359741238,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.05043097362029985
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.5588260028104012,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.016071942448574177
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh2:FAVOR_EARLY:S",
+      "intercept": -0.5345467834218504,
+      "prediction": -0.4765876052679042,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25001479202351895,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": -0.2569260336037464
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2500295884247752,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.20201810409414145
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.767642608593808,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.050141349700541474
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.210444369155633,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.011831370146349026
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.42088873831126605,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.011831370146349057
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.008188982934631195,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.008053770092235141
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.010943326663924351,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.0045029599040842605
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.5032174349309081,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1461189712547696
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004120656302348597,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07129855789956925
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.6666666666666666,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": -1.3552866450933546e-17
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.014982733956661767,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.013585996280627084
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.13052690651982196,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": -0.009698514465698733
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.08400655931118865,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.03577253587008015
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.16600739285092586,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": 0.002073977446591971
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.3060321690839118,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.014073235541750549
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.08112728208262222,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.004833204149324094
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.09103621737919754,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.015916288855217262
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.9892412068078428,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.04041476909748688
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8015396878887824,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.03809914424150088
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh2:FAVOR_EARLY:W",
+      "intercept": -0.5345467834218504,
+      "prediction": -0.45696643682226246,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25001479202351895,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": -0.2569260336037464
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2500295884247752,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.20201810409414145
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.767642608593808,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.050141349700541474
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.210444369155633,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.011831370146349026
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.42088873831126605,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.011831370146349057
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.008188982934631195,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.008053770092235141
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.010943326663924351,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.0045029599040842605
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.5032174349309081,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1461189712547696
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004120656302348597,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07129855789956925
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.6666666666666666,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": -1.3552866450933546e-17
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.014982733956661767,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.013585996280627084
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.13052690651982196,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": -0.009698514465698733
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.08400655931118865,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.03577253587008015
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.16600739285092586,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": 0.002073977446591971
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.3060321690839118,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.014073235541750549
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.08112728208262222,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.004833204149324094
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.09103621737919754,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.015916288855217262
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.9892412068078428,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.04041476909748688
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8015396878887824,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.03809914424150088
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh2:FAVOR_LATE:S",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.037265937604744837,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.24998520272332084,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": 0.2568956263567372
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2499704098241713,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.202049987006307
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.767642608593808,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.050141349700541474
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.210444369155633,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.011831370146349026
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.42088873831126605,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.011831370146349057
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.008188982934631195,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.008053770092235141
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.010943326663924351,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.0045029599040842605
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.5032174349309081,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1461189712547696
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004120656302348597,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07129855789956925
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.6666666666666666,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": -1.3552866450933546e-17
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.014982733956661767,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.013585996280627084
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.13052690651982196,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": -0.009698514465698733
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.08400655931118865,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.03577253587008015
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.16600739285092586,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": 0.002073977446591971
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.3060321690839118,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.014073235541750549
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.08112728208262222,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.004833204149324094
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.09103621737919754,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.015916288855217262
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.9892412068078428,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.04041476909748688
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8015396878887824,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.03809914424150088
+        }
+      ]
+    },
+    {
+      "id": "ETT:ETTh2:FAVOR_LATE:W",
+      "intercept": -0.5345467834218504,
+      "prediction": 0.056887106050386715,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.24998520272332084,
+          "source_center": 0.0,
+          "source_scale": 0.39528470752104744,
+          "contribution": 0.2568956263567372
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.25,
+          "source_scale": 0.25,
+          "contribution": 0.20203404507852765
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.009810584222820901
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.2499704098241713,
+          "source_center": 1.625,
+          "source_scale": 0.375,
+          "contribution": 0.202049987006307
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.49994082139898205,
+          "source_center": 0.5,
+          "source_scale": 1.0,
+          "contribution": -0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.767642608593808,
+          "source_center": -3.105208925110189,
+          "source_scale": 1.0989227797818841,
+          "contribution": 0.050141349700541474
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.210444369155633,
+          "source_center": 1.1816521230784531,
+          "source_scale": 0.09648781355422871,
+          "contribution": 0.011831370146349026
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.42088873831126605,
+          "source_center": 0.3633042461569058,
+          "source_scale": 0.19297562710845756,
+          "contribution": 0.011831370146349057
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.008188982934631195,
+          "source_center": 0.005274338169812051,
+          "source_scale": 0.05296807136420803,
+          "contribution": 0.008053770092235141
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.010943326663924351,
+          "source_center": -0.0011181812253049823,
+          "source_scale": 0.06713324697291233,
+          "contribution": 0.0045029599040842605
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 0.5032174349309081,
+          "source_center": 1.499323645725059,
+          "source_scale": 0.21003847436750692,
+          "contribution": -0.1461189712547696
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": -0.004120656302348597,
+          "source_center": 0.07187689443089215,
+          "source_scale": 0.04372186302607926,
+          "contribution": -0.07129855789956925
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.6666666666666666,
+          "source_center": 0.6666666666666669,
+          "source_scale": 0.12001371663718262,
+          "contribution": -1.3552866450933546e-17
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.014982733956661767,
+          "source_center": 0.01003542671969153,
+          "source_scale": 0.006923227342503006,
+          "contribution": -0.013585996280627084
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.13052690651982196,
+          "source_center": 0.18066041788629453,
+          "source_scale": 0.10737938847896278,
+          "contribution": -0.009698514465698733
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.08400655931118865,
+          "source_center": 0.04196354769755405,
+          "source_scale": 0.02304190250195359,
+          "contribution": 0.03577253587008015
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.16600739285092586,
+          "source_center": 0.18766607738705496,
+          "source_scale": 0.0634246872007923,
+          "contribution": 0.002073977446591971
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.3060321690839118,
+          "source_center": 0.16416519963186285,
+          "source_scale": 0.09392534468460534,
+          "contribution": 0.014073235541750549
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.08112728208262222,
+          "source_center": 0.045933098488001,
+          "source_scale": 0.01918857208676879,
+          "contribution": 0.004833204149324094
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.09103621737919754,
+          "source_center": 0.04030373110294199,
+          "source_scale": 0.024312940942118246,
+          "contribution": 0.015916288855217262
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 0.9892412068078428,
+          "source_center": 2.4581105667544656,
+          "source_scale": 1.4136664655096398,
+          "contribution": 0.04041476909748688
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8015396878887824,
+          "source_center": 0.3817322250926279,
+          "source_scale": 0.36509567330285897,
+          "contribution": -0.03809914424150088
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:FAVOR_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.4362810986127403,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:FAVOR_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.4651735376559756,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:FAVOR_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.4636805921128793,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:FAVOR_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.4925730311561146,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:KEEP_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.82489830299687,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:KEEP_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.79600586395367,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:KEEP_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.7700993159966,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G1:KEEP_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.7412068769534,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -1.9232857936308998,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0006638328534492534
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.3161059876693717,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": 0.0026961794669010898
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.6322119753387435,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": 0.0026961794669011423
+        },
+        {
+          "name": "parent_B_bias",
+          "value": -0.06802301008143859,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": 4.553000511052641e-05
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": -0.09332848578875426,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": 3.8339642344437725e-05
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.7879256616418624,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.009460855545078462
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.1311205513652667,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.45544901464635174
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.611111111111111,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0009139703974068394
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.010418632719717812,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.005581570940053337
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.1819416904846013,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00046256619617921873
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.04120590427624823,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0009921247803217667
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.13311446303128155,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0008054645014137181
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.12680679798536143,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0015173666310400733
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.03422852880956782,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.00191443014380237
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.029286995105896007,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.001674105081506386
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.2099354487912057,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.0012132849809466635
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.18075434350183026,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0022567966836943222
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:FAVOR_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.11164668180422434,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:FAVOR_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.14053912084745965,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:FAVOR_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.1390461753043634,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:FAVOR_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.16793861434759869,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:KEEP_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.1495327198055,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:KEEP_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.1206402807623,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:KEEP_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.09473373280525,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G2:KEEP_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.06584129376205,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -4.5700927970881855,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.002627140763630146
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.09426418958914,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.004115938431921846
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.18852837917828005,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.0041159384319219205
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.028542095638985316,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0009129747341207338
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.02541009508179072,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.0008072801783925703
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.4158987281348168,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.006562371701100905
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.026923927894779338,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.10497070460355058
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.5555555555555556,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": -0.0012795585563695742
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.01831651397278748,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": 0.0031280357548714595
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.04851210743627422,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.0006852725435618054
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.014129546282916636,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0012728431924802254
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.15328049106656416,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": -0.0006478522683032752
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.07245319640788482,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0018112301130188287
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.030582689286702117,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0020206246819489643
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.01760478990932586,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0018870782131988632
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 4.434686007283588,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.010928742307603594
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.8941048804606698,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": -0.0009666619698748885
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:FAVOR_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.21204527987314944,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:FAVOR_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.24093771891638474,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.013698936018231068
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:FAVOR_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.23944477337328848,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:FAVOR_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": -0.2683372124165237,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.25,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.013700557481907972
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.0,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 1.25,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 4.053659487261001e-07
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:KEEP_FIRST:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.0491341217366,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:KEEP_FIRST:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 347.0202416826934,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": 0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": 0.027398682768300587
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:KEEP_SECOND:S",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.9943351347363,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 0.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": 0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    },
+    {
+      "id": "Hydraulic:G3:KEEP_SECOND:W",
+      "intercept": -0.010432809176096335,
+      "prediction": 346.96544269569307,
+      "components": [
+        {
+          "name": "exposure_shift_first",
+          "value": -0.5,
+          "source_center": 1.4794650099066858e-05,
+          "source_scale": 0.2499999973734199,
+          "contribution": -0.02740030423197749
+        },
+        {
+          "name": "removed_fraction",
+          "value": 0.5,
+          "source_center": 0.0,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "weighted_implementation",
+          "value": 1.0,
+          "source_center": 0.5,
+          "source_scale": 0.5,
+          "contribution": -0.014446219521617641
+        },
+        {
+          "name": "target_weight_second_moment",
+          "value": 2.0,
+          "source_center": 1.2499999991244732,
+          "source_scale": 2.9589300301946505e-05,
+          "contribution": 347.2474800602256
+        },
+        {
+          "name": "first_training_mass",
+          "value": 0.5,
+          "source_center": 0.4999408213989821,
+          "source_scale": 1.0,
+          "contribution": 0.0
+        },
+        {
+          "name": "parent_B_log_loss",
+          "value": -2.8222481846114853,
+          "source_center": -1.0283485112396573,
+          "source_scale": 0.7392940973541506,
+          "contribution": -0.0013306513902227807
+        },
+        {
+          "name": "parent_B_target_ratio",
+          "value": 1.1345861919768472,
+          "source_center": 1.2283028536414524,
+          "source_scale": 0.017858484485819393,
+          "contribution": -0.002877766741290578
+        },
+        {
+          "name": "parent_B_local_contrast",
+          "value": 0.26917238395369414,
+          "source_center": 0.4566057072829047,
+          "source_scale": 0.0357169689716387,
+          "contribution": -0.002877766741290632
+        },
+        {
+          "name": "parent_B_bias",
+          "value": 0.05530392895188943,
+          "source_center": -0.06343606379208003,
+          "source_scale": 0.05524708085744882,
+          "contribution": -0.0011786125529742813
+        },
+        {
+          "name": "parent_B_target_bias",
+          "value": 0.06456384703104863,
+          "source_center": -0.08794498529429434,
+          "source_scale": 0.07700165863036997,
+          "contribution": -0.00108612121271999
+        },
+        {
+          "name": "parent_B_channel_dispersion",
+          "value": 1.294146547398496,
+          "source_center": 0.573603531090107,
+          "source_scale": 0.07038609615919889,
+          "contribution": 0.005613793259463487
+        },
+        {
+          "name": "parent_B_learning_gain",
+          "value": 0.05758620403263043,
+          "source_center": -0.004283689437295195,
+          "source_scale": 0.00016303313494659812,
+          "contribution": -0.20810708623403193
+        },
+        {
+          "name": "parent_B_best_fraction",
+          "value": 0.8333333333333334,
+          "source_center": 0.7500000000000001,
+          "source_scale": 0.08333333333333337,
+          "contribution": 0.0005483822384441024
+        },
+        {
+          "name": "parent_B_curve_reversal",
+          "value": 0.001371133466569299,
+          "source_center": 0.015480007593948722,
+          "source_scale": 0.0004972736372869579,
+          "contribution": -0.015558950637541466
+        },
+        {
+          "name": "B_input_variance",
+          "value": 0.31152745573800833,
+          "source_center": 0.45907799761649976,
+          "source_scale": 0.3285510910966778,
+          "contribution": -0.00024627553714365156
+        },
+        {
+          "name": "B_input_roughness",
+          "value": 0.07055519253349729,
+          "source_center": 0.13690011086389464,
+          "source_scale": 0.052893551552705996,
+          "contribution": -0.0006878414051505218
+        },
+        {
+          "name": "first_input_variance",
+          "value": 0.2766032780633192,
+          "source_center": 0.23617130954872206,
+          "source_scale": 0.07016391669779623,
+          "contribution": 0.00031600535492102243
+        },
+        {
+          "name": "second_input_variance",
+          "value": 0.2932356045023423,
+          "source_center": 0.40746208987519383,
+          "source_scale": 0.10142992079128202,
+          "contribution": -0.0006175670379085094
+        },
+        {
+          "name": "first_input_roughness",
+          "value": 0.07298807736773308,
+          "source_center": 0.09995417914767803,
+          "source_scale": 0.018826897065055803,
+          "contribution": -0.0007854576994339057
+        },
+        {
+          "name": "second_input_roughness",
+          "value": 0.07401940829360415,
+          "source_center": 0.12111660256557351,
+          "source_scale": 0.03008038518637597,
+          "contribution": -0.0008586081813539123
+        },
+        {
+          "name": "first_B_level_distance",
+          "value": 1.7297102441885999,
+          "source_center": 0.8072224021101113,
+          "source_scale": 0.1820188046977314,
+          "contribution": -0.002779251015391231
+        },
+        {
+          "name": "second_B_level_distance",
+          "value": 0.07033745131538424,
+          "source_center": 0.6801828453495917,
+          "source_scale": 0.1213568425391906,
+          "contribution": 0.0027557439307742734
+        }
+      ]
+    }
+  ],
+  "source_sha256": "dc7112ebd392ff951cccb10ede8ef421e17044c61505599d006375f27081bd92",
+  "kind": "read-only algebra of frozen predictions; no adjusted forecasts"
+}

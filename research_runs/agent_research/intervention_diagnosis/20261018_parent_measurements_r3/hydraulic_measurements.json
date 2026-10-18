@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "assets": {
+    "Hydraulic_G1.npz": {
+      "bytes": 672689,
+      "sha256": "125cca2031638a1db5d8433bb0cb9b690e6071fefde9f06657f709eab476b684"
+    },
+    "Hydraulic_G2.npz": {
+      "bytes": 665749,
+      "sha256": "fc28f139764332e665812961ab58f97f008060dbaa262169353a7e695d90ab14"
+    },
+    "Hydraulic_G3.npz": {
+      "bytes": 670568,
+      "sha256": "6e92d26ff3bce55174b449f193b646c1b61afb1fcc5fb238cdd08d191a968cfe"
+    }
+  },
+  "checks": [
+    {
+      "task": "G1",
+      "seed": 2026101701,
+      "parent_B_sha256": "b0c311924cc436bf2e2823f715e4736dff1ac3118c112d28bc180e38647f1e14",
+      "windows": 1617
+    },
+    {
+      "task": "G1",
+      "seed": 2026101702,
+      "parent_B_sha256": "d5340846c30adb7b8a4255d90bcb95b3e7c295f17e8e7d25a2d5031bfeeaad27",
+      "windows": 1617
+    },
+    {
+      "task": "G1",
+      "seed": 2026101703,
+      "parent_B_sha256": "4b02b65ffe914eb1174ad9570f1ccc3f17a2efac71fe13dc71d94e0cce6d4d77",
+      "windows": 1617
+    },
+    {
+      "task": "G2",
+      "seed": 2026101701,
+      "parent_B_sha256": "33d7bf7bf6170806d79b77efbc61cccae038d61e6a38752449d45e82e6747e56",
+      "windows": 1617
+    },
+    {
+      "task": "G2",
+      "seed": 2026101702,
+      "parent_B_sha256": "9e3747edfe007bd588700b9bd3a945e73d7d81393ba2ff4ec62503e657fc3510",
+      "windows": 1617
+    },
+    {
+      "task": "G2",
+      "seed": 2026101703,
+      "parent_B_sha256": "d09ab7bf91f768a07e355235a599a55ca20dc750b94434a0e9f0ba1e7a8db295",
+      "windows": 1617
+    },
+    {
+      "task": "G3",
+      "seed": 2026101701,
+      "parent_B_sha256": "3b26f245d8a26d604362f77e4911345feb00cc5f1b91d8a385fb36255b858d80",
+      "windows": 1617
+    },
+    {
+      "task": "G3",
+      "seed": 2026101702,
+      "parent_B_sha256": "495520564cb010dbd48fca5a98573856bc2658a63703b5a4bd7887654c0c4064",
+      "windows": 1617
+    },
+    {
+      "task": "G3",
+      "seed": 2026101703,
+      "parent_B_sha256": "a379e145967a5667cab24dbfa45f5957abf553167d410a26557c6f5eb8d31597",
+      "windows": 1617
+    }
+  ],
+  "input_columns": [
+    "level",
+    "level_energy",
+    "variance",
+    "roughness",
+    "endpoint_change",
+    "channel_energy_dispersion",
+    "high_frequency_fraction",
+    "absolute_level"
+  ],
+  "error_columns": [
+    "loss",
+    "target_loss",
+    "complement_loss",
+    "bias",
+    "absolute_error"
+  ],
+  "seconds": 0.282720999999583,
+  "new_full_trainings": 0,
+  "child_response_access": false,
+  "D_test_access": false
+}

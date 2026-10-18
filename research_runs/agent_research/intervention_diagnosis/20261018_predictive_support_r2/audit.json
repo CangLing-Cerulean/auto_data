@@ -1,0 +1,566 @@
+{
+  "status": "PASS",
+  "counts": {
+    "assertions": 46154,
+    "steps": 448,
+    "independent_fits": 980,
+    "component_snapshots": 3136,
+    "predictor_snapshots": 1472,
+    "candidate_predictions": 1792,
+    "nodes": 182,
+    "expert_score_triples": 1024,
+    "summaries": 42,
+    "csv_rows": 182,
+    "static_predictions": 96,
+    "packet_mean_functions": 128,
+    "packet_point_predictions": 64,
+    "seed_Z_predictions": 192,
+    "r1_frozen_decompositions": 32
+  },
+  "error_count": 0,
+  "errors": [],
+  "max_abs_differences": {
+    "oracle": 0.0,
+    "fit_center": 0.0,
+    "fit_scale": 0.0,
+    "fit_beta": 2.55351295663786e-15,
+    "fit_std": 8.881784197001252e-16,
+    "prediction": 4.440892098500626e-16,
+    "registration_reference": 0.0,
+    "event_response": 0.0,
+    "node_gain": 0.0,
+    "node_regret": 0.0,
+    "node_NMAE_gain": 0.0,
+    "node_min_seed_gain": 0.0,
+    "node_negative_seed_count": 0.0,
+    "node_query_negative_mean_count": 0.0,
+    "query_seconds": 0.0,
+    "registration_expert": 0.0,
+    "reliability_before": 0.0,
+    "logscore": 0.0,
+    "score_factorization": 3.126388037344441e-13,
+    "reliability_after": 0.0,
+    "summary_gain": 0.0,
+    "summary_regret": 0.0,
+    "csv_queries": 0.0,
+    "csv_gain": 0.0,
+    "csv_NMAE_gain": 0.0,
+    "csv_negative_seed_count": 0.0,
+    "csv_min_seed_gain": 0.0,
+    "csv_query_negative_mean_count": 0.0,
+    "csv_logical_candidate_full_trainings": 0.0,
+    "csv_shared_parent_full_trainings": 0.0,
+    "csv_query_seconds": 0.0,
+    "csv_policy_seconds": 0.0,
+    "csv_regret": 0.0,
+    "static_mean": 0.0,
+    "static_std": 0.0,
+    "static_Y": 0.0,
+    "static_absolute_error": 0.0,
+    "packet_fit_center": 0.0,
+    "packet_fit_scale": 0.0,
+    "packet_fit_beta": 6.106226635438361e-16,
+    "packet_Y_prediction": 0.0,
+    "packet_seed_conditioned_Z": 0.0,
+    "packet_residual": 0.0,
+    "decomposition_intercept": 0.0,
+    "decomposition_inputs": 0.0,
+    "decomposition_contribution": 0.0,
+    "decomposition_prediction": 5.684341886080802e-14
+  },
+  "packet_stats": [
+    {
+      "source": "ETT",
+      "records": 8,
+      "point_predictions": 16,
+      "qualified_linear": 4,
+      "qualified_quadratic": 6,
+      "sha256": "da0ff8ca676660f1e0cb8db6e77c303ede16308ca60e23afa02d7c7be161af26"
+    },
+    {
+      "source": "Hydraulic",
+      "records": 24,
+      "point_predictions": 48,
+      "qualified_linear": 20,
+      "qualified_quadratic": 18,
+      "sha256": "b0bbd180d311a42507bddbdc8e63f53902a803950af6f4ded78d5107f5cb5828"
+    }
+  ],
+  "terminal_recommendations": [
+    {
+      "split": "leave_task_out",
+      "family": "ETT",
+      "task": "ETTh1",
+      "recommendation": "PARENT"
+    },
+    {
+      "split": "leave_task_out",
+      "family": "ETT",
+      "task": "ETTh2",
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:S"
+    },
+    {
+      "split": "leave_task_out",
+      "family": "Hydraulic",
+      "task": "G1",
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S"
+    },
+    {
+      "split": "leave_task_out",
+      "family": "Hydraulic",
+      "task": "G2",
+      "recommendation": "Hydraulic:G2:KEEP_SECOND:W"
+    },
+    {
+      "split": "leave_task_out",
+      "family": "Hydraulic",
+      "task": "G3",
+      "recommendation": "PARENT"
+    },
+    {
+      "split": "leave_family_out",
+      "family": "ETT",
+      "task": "ETTh1",
+      "recommendation": "PARENT"
+    },
+    {
+      "split": "leave_family_out",
+      "family": "ETT",
+      "task": "ETTh2",
+      "recommendation": "ETT:ETTh2:FAVOR_EARLY:S"
+    },
+    {
+      "split": "leave_family_out",
+      "family": "Hydraulic",
+      "task": "G1",
+      "recommendation": "Hydraulic:G1:FAVOR_FIRST:S"
+    },
+    {
+      "split": "leave_family_out",
+      "family": "Hydraulic",
+      "task": "G2",
+      "recommendation": "Hydraulic:G2:KEEP_SECOND:W"
+    },
+    {
+      "split": "leave_family_out",
+      "family": "Hydraulic",
+      "task": "G3",
+      "recommendation": "PARENT"
+    }
+  ],
+  "r1_r2_summary_comparison": [
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 2,
+      "r1_mean_gain": 0.0,
+      "r2_mean_gain": 0.0,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 2,
+      "r1_mean_gain": 0.06984082597017009,
+      "r2_mean_gain": 0.0,
+      "difference": -0.06984082597017009
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 4,
+      "r1_mean_gain": 0.12330422185397225,
+      "r2_mean_gain": 0.07332343618218559,
+      "difference": -0.049980785671786654
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 2,
+      "r1_mean_gain": 0.11863800858179208,
+      "r2_mean_gain": 0.017827644472926757,
+      "difference": -0.10081036410886532
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 4,
+      "r1_mean_gain": 0.12554207012041546,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": -0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 2,
+      "r1_mean_gain": 0.06003600206426577,
+      "r2_mean_gain": 0.0,
+      "difference": -0.06003600206426577
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 2,
+      "r1_mean_gain": 0.06003600206426577,
+      "r2_mean_gain": 0.0,
+      "difference": -0.06003600206426577
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 2,
+      "r1_mean_gain": 0.06003600206426577,
+      "r2_mean_gain": 0.0,
+      "difference": -0.06003600206426577
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 2,
+      "r1_mean_gain": 0.06003600206426577,
+      "r2_mean_gain": 0.0,
+      "difference": -0.06003600206426577
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07798964945436578,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 2,
+      "r1_mean_gain": 0.06470221533644596,
+      "r2_mean_gain": 0.06003600206426577,
+      "difference": -0.0046662132721801905
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07786364653719254,
+      "difference": -0.0001260029171732402
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 2,
+      "r1_mean_gain": 0.07332343618218559,
+      "r2_mean_gain": 0.10758842273031546,
+      "difference": 0.03426498654812987
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 4,
+      "r1_mean_gain": 0.12554207012041546,
+      "r2_mean_gain": 0.12541606720324222,
+      "difference": -0.0001260029171732402
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 2,
+      "r1_mean_gain": 0.06984082597017009,
+      "r2_mean_gain": 0.07332343618218559,
+      "difference": 0.0034826102120154995
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 4,
+      "r1_mean_gain": 0.12330422185397225,
+      "r2_mean_gain": 0.12554207012041546,
+      "difference": 0.0022378482664432153
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 2,
+      "r1_mean_gain": 0.06918506554376713,
+      "r2_mean_gain": 0.06003600206426577,
+      "difference": -0.009149063479501361
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.12541606720324222,
+      "difference": 0.047426417748876445
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 2,
+      "r1_mean_gain": 0.06918506554376713,
+      "r2_mean_gain": 0.06003600206426577,
+      "difference": -0.009149063479501361
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07786364653719254,
+      "difference": -0.0001260029171732402
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 2,
+      "r1_mean_gain": 0.06918506554376713,
+      "r2_mean_gain": 0.06003600206426577,
+      "difference": -0.009149063479501361
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07786364653719254,
+      "difference": -0.0001260029171732402
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 2,
+      "r1_mean_gain": 0.06918506554376713,
+      "r2_mean_gain": 0.06003600206426577,
+      "difference": -0.009149063479501361
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 4,
+      "r1_mean_gain": 0.07798964945436578,
+      "r2_mean_gain": 0.07786364653719254,
+      "difference": -0.0001260029171732402
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 8,
+      "r1_mean_gain": 0.18709106000415943,
+      "r2_mean_gain": 0.18709106000415943,
+      "difference": 0.0
+    }
+  ],
+  "max_abs_r2_static_prediction": {
+    "reference": 0.2447397906407647,
+    "all_features": 0.1653407957293962,
+    "all_features_quadratic": 0.30473669389730124
+  },
+  "budget_task_coverage": {
+    "2": [
+      {
+        "family": "ETT",
+        "task": "ETTh1"
+      },
+      {
+        "family": "ETT",
+        "task": "ETTh2"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G1"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G2"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G3"
+      }
+    ],
+    "4": [
+      {
+        "family": "ETT",
+        "task": "ETTh1"
+      },
+      {
+        "family": "ETT",
+        "task": "ETTh2"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G1"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G2"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G3"
+      }
+    ],
+    "8": [
+      {
+        "family": "Hydraulic",
+        "task": "G1"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G2"
+      },
+      {
+        "family": "Hydraulic",
+        "task": "G3"
+      }
+    ]
+  },
+  "independent_solver": "weighted centered dual ridge; task-macro held-out residual scale",
+  "tolerance": 2e-09,
+  "elapsed_seconds": 2.086856000001717,
+  "scope": "frozen aggregate records only; no original arrays, D/test, servers, keys or old r1 replay execution",
+  "limitations": [
+    "Wall-clock timings only checked for internal consistency, not remeasured.",
+    "No raw-array provenance or independent-source confirmation.",
+    "No LLM generation or new measurement interface evaluated.",
+    "Source packet IDs are anonymous within their own family; source-family isolation checked by exact aggregate-record mapping.",
+    "Eight-query summaries contain only three Hydraulic tasks, while two/four-query summaries contain all five tasks.",
+    "Task-macro averages weight three Hydraulic and two ETT tasks, not each source family equally."
+  ]
+}

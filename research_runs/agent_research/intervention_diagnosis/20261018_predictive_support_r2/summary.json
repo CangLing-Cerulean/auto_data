@@ -1,0 +1,363 @@
+{
+  "status": "PASS",
+  "summaries": [
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "reference",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07332343618218559,
+      "mean_regret": 0.052218633938229876
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.017827644472926757,
+      "mean_regret": 0.1077144256474887
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "all_features_quadratic",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "marginal",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.0,
+      "mean_regret": 0.12554207012041546
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "split": "leave_task_out",
+      "method": "conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "split": "leave_family_out",
+      "method": "reference",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.10758842273031546,
+      "mean_regret": 0.017953647390100004
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12541606720324222,
+      "mean_regret": 0.00012600291717324575
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.07332343618218559,
+      "mean_regret": 0.052218633938229876
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12554207012041546,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "all_features_quadratic",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.12541606720324222,
+      "mean_regret": 0.00012600291717324575
+    },
+    {
+      "split": "leave_family_out",
+      "method": "uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "split": "leave_family_out",
+      "method": "marginal",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "split": "leave_family_out",
+      "method": "joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06003600206426577,
+      "mean_regret": 0.0655060680561497
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07786364653719254,
+      "mean_regret": 0.04767842358322293
+    },
+    {
+      "split": "leave_family_out",
+      "method": "conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    }
+  ],
+  "conditional_packets": [
+    {
+      "source": "ETT",
+      "records": 8,
+      "point_predictions": 16,
+      "qualified_linear": 4,
+      "qualified_quadratic": 6,
+      "sha256": "da0ff8ca676660f1e0cb8db6e77c303ede16308ca60e23afa02d7c7be161af26"
+    },
+    {
+      "source": "Hydraulic",
+      "records": 24,
+      "point_predictions": 48,
+      "qualified_linear": 20,
+      "qualified_quadratic": 18,
+      "sha256": "b0bbd180d311a42507bddbdc8e63f53902a803950af6f4ded78d5107f5cb5828"
+    }
+  ],
+  "results_sha256": "544b7bb07ac2ed9d942e906cde33618cf6df3a6053cb335c31c5933a15e256a3",
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "LLM_calls": 0
+}

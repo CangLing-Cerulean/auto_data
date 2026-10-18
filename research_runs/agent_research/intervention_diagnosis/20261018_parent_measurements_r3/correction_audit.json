@@ -1,0 +1,654 @@
+{
+  "status": "PASS",
+  "counts": {
+    "checks": 142,
+    "passed": 142,
+    "failed": 0,
+    "tables": 5,
+    "unchanged_non_input_arrays": 30,
+    "changed_frequency_windows": 43651,
+    "Hydraulic_independently_recomputed_windows": 24255,
+    "ETT_windows_receipt_and_change_only": 19396,
+    "synthetic_axis_window_chunk_windows": 1038
+  },
+  "checks": [
+    {
+      "name": "correction_code_hash:Hydraulic",
+      "passed": true
+    },
+    {
+      "name": "correction_asset_set:Hydraulic",
+      "passed": true
+    },
+    {
+      "name": "original_hash:Hydraulic_G1.npz",
+      "passed": true
+    },
+    {
+      "name": "corrected_hash_size:Hydraulic_G1.npz",
+      "passed": true
+    },
+    {
+      "name": "receipt_original_hash:Hydraulic_G1.npz",
+      "passed": true
+    },
+    {
+      "name": "same_keys:Hydraulic_G1.npz",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G1.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G1.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "hydraulic_prepared_hash:G1",
+      "passed": true
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G1A",
+      "passed": true,
+      "maximum_absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G1B",
+      "passed": true,
+      "maximum_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "name": "original_hash:Hydraulic_G2.npz",
+      "passed": true
+    },
+    {
+      "name": "corrected_hash_size:Hydraulic_G2.npz",
+      "passed": true
+    },
+    {
+      "name": "receipt_original_hash:Hydraulic_G2.npz",
+      "passed": true
+    },
+    {
+      "name": "same_keys:Hydraulic_G2.npz",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G2.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G2.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "hydraulic_prepared_hash:G2",
+      "passed": true
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G2A",
+      "passed": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G2B",
+      "passed": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "original_hash:Hydraulic_G3.npz",
+      "passed": true
+    },
+    {
+      "name": "corrected_hash_size:Hydraulic_G3.npz",
+      "passed": true
+    },
+    {
+      "name": "receipt_original_hash:Hydraulic_G3.npz",
+      "passed": true
+    },
+    {
+      "name": "same_keys:Hydraulic_G3.npz",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G3.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G3.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G3.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:Hydraulic_G3.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:Hydraulic_G3.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:Hydraulic_G3.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:B_errors_s2026101701",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:B_errors_s2026101702",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:Hydraulic_G3.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:Hydraulic_G3.npz:B_errors_s2026101703",
+      "passed": true
+    },
+    {
+      "name": "hydraulic_prepared_hash:G3",
+      "passed": true
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G3A",
+      "passed": true,
+      "maximum_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "name": "Hydraulic_two_sided_DFT:G3B",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "name": "correction_code_hash:ETT",
+      "passed": true
+    },
+    {
+      "name": "correction_asset_set:ETT",
+      "passed": true
+    },
+    {
+      "name": "original_hash:ETT_ETTh1.npz",
+      "passed": true
+    },
+    {
+      "name": "corrected_hash_size:ETT_ETTh1.npz",
+      "passed": true
+    },
+    {
+      "name": "receipt_original_hash:ETT_ETTh1.npz",
+      "passed": true
+    },
+    {
+      "name": "same_keys:ETT_ETTh1.npz",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:ETT_ETTh1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:ETT_ETTh1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:ETT_ETTh1.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:ETT_ETTh1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:ETT_ETTh1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:ETT_ETTh1.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:B_errors_s2026101901",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:B_errors_s2026101901",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:B_errors_s2026101902",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:B_errors_s2026101902",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh1.npz:B_errors_s2026101903",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh1.npz:B_errors_s2026101903",
+      "passed": true
+    },
+    {
+      "name": "ETT_prepared_receipt:ETTh1",
+      "passed": true
+    },
+    {
+      "name": "original_hash:ETT_ETTh2.npz",
+      "passed": true
+    },
+    {
+      "name": "corrected_hash_size:ETT_ETTh2.npz",
+      "passed": true
+    },
+    {
+      "name": "receipt_original_hash:ETT_ETTh2.npz",
+      "passed": true
+    },
+    {
+      "name": "same_keys:ETT_ETTh2.npz",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:ETT_ETTh2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:ETT_ETTh2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:ETT_ETTh2.npz:A_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "other_columns_byte_equal:ETT_ETTh2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "frequency_valid:ETT_ETTh2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "receipt_change:ETT_ETTh2.npz:B_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:A_first",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:A_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:B_starts",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:B_errors_s2026101901",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:B_errors_s2026101901",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:B_errors_s2026101902",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:B_errors_s2026101902",
+      "passed": true
+    },
+    {
+      "name": "same_shape_dtype:ETT_ETTh2.npz:B_errors_s2026101903",
+      "passed": true
+    },
+    {
+      "name": "unchanged_array:ETT_ETTh2.npz:B_errors_s2026101903",
+      "passed": true
+    },
+    {
+      "name": "ETT_prepared_receipt:ETTh2",
+      "passed": true
+    },
+    {
+      "name": "mixed_Nyquist_expected_2_over_3:32",
+      "passed": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "constant_zero_frequency:32",
+      "passed": true
+    },
+    {
+      "name": "frequency_axis_window_chunk:32",
+      "passed": true,
+      "maximum_absolute_difference": 3.3306690738754696e-16
+    },
+    {
+      "name": "mixed_Nyquist_expected_2_over_3:96",
+      "passed": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "constant_zero_frequency:96",
+      "passed": true
+    },
+    {
+      "name": "frequency_axis_window_chunk:96",
+      "passed": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "original_and_corrected_materials_unchanged",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "Hydraulic_G1.npz:A_inputs": {
+      "changed": 6468,
+      "windows": 6468,
+      "maximum_absolute_change": 0.01701397475347252
+    },
+    "Hydraulic_G1.npz:B_inputs": {
+      "changed": 1617,
+      "windows": 1617,
+      "maximum_absolute_change": 0.015384206389169403
+    },
+    "Hydraulic_G2.npz:A_inputs": {
+      "changed": 6468,
+      "windows": 6468,
+      "maximum_absolute_change": 0.018301135847340555
+    },
+    "Hydraulic_G2.npz:B_inputs": {
+      "changed": 1617,
+      "windows": 1617,
+      "maximum_absolute_change": 0.018386005463059962
+    },
+    "Hydraulic_G3.npz:A_inputs": {
+      "changed": 6468,
+      "windows": 6468,
+      "maximum_absolute_change": 0.0211235703181614
+    },
+    "Hydraulic_G3.npz:B_inputs": {
+      "changed": 1617,
+      "windows": 1617,
+      "maximum_absolute_change": 0.012406531811808792
+    },
+    "ETT_ETTh1.npz:A_inputs": {
+      "changed": 8449,
+      "windows": 8449,
+      "maximum_absolute_change": 0.008188570858180817
+    },
+    "ETT_ETTh1.npz:B_inputs": {
+      "changed": 1249,
+      "windows": 1249,
+      "maximum_absolute_change": 0.006730071739477372
+    },
+    "ETT_ETTh2.npz:A_inputs": {
+      "changed": 8449,
+      "windows": 8449,
+      "maximum_absolute_change": 0.024361819923685135
+    },
+    "ETT_ETTh2.npz:B_inputs": {
+      "changed": 1249,
+      "windows": 1249,
+      "maximum_absolute_change": 0.01049924698485069
+    }
+  },
+  "findings": [],
+  "limitations": [
+    "ETT independent recomputation from source A/B arrays was not performed; its 19,396 corrected values are covered by hash, receipt, change-scope, bounds and generic N96 algorithm tests only."
+  ],
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "C_D_test_numeric_access": false,
+  "server_operations": 0
+}

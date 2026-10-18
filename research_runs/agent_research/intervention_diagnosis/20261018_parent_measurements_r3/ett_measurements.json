@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "assets": {
+    "ETT_ETTh1.npz": {
+      "bytes": 736694,
+      "sha256": "366951cc2e375df1253b9a1197fda4e8bea0856c1459dcc463cf333e7c8db8df"
+    },
+    "ETT_ETTh2.npz": {
+      "bytes": 733950,
+      "sha256": "ddb413fd8140bde58e48957e10986341fe6de2693a1342c2321521ac6448f2fd"
+    }
+  },
+  "checks": [
+    {
+      "station": "ETTh1",
+      "seed": 2026101901,
+      "parent_checkpoint_sha256": "4159355817661f1c83d7378dc9c6de0088a9593c3c7541d37c5c71497e73a06f",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    },
+    {
+      "station": "ETTh1",
+      "seed": 2026101902,
+      "parent_checkpoint_sha256": "39b7e05d9b261dc601c4ac03342c0e74039901707f1d5c17c9862fb8542fd663",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    },
+    {
+      "station": "ETTh1",
+      "seed": 2026101903,
+      "parent_checkpoint_sha256": "41738d6155fc63c32e7e855110d3ee76db04abc60fc06bbb46ba6a165404111e",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    },
+    {
+      "station": "ETTh2",
+      "seed": 2026101901,
+      "parent_checkpoint_sha256": "ab3df4c058d2482def0215db99b9b6384553118cd68f0a69d6774cc826126282",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    },
+    {
+      "station": "ETTh2",
+      "seed": 2026101902,
+      "parent_checkpoint_sha256": "e2038c56a6770f6d534f99827016b1fd94a5be3550caf531d7e7b6730bb07155",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    },
+    {
+      "station": "ETTh2",
+      "seed": 2026101903,
+      "parent_checkpoint_sha256": "90e26d884e324172af2485547e942aefb7633baf775067a49bdaab8cc856b6f6",
+      "B_residual_hash_match": true,
+      "windows": 1249
+    }
+  ],
+  "input_columns": [
+    "level",
+    "level_energy",
+    "variance",
+    "roughness",
+    "endpoint_change",
+    "channel_energy_dispersion",
+    "high_frequency_fraction",
+    "absolute_level"
+  ],
+  "error_columns": [
+    "loss",
+    "target_loss",
+    "complement_loss",
+    "bias",
+    "absolute_error"
+  ],
+  "seconds": 0.9238659385591745,
+  "new_full_trainings": 0,
+  "child_response_access": false,
+  "D_test_access": false
+}
