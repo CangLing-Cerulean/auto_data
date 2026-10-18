@@ -1,0 +1,1424 @@
+{
+  "allowed_features": [
+    "B_input_roughness",
+    "B_input_variance",
+    "aligned_level_shift",
+    "aligned_roughness_shift",
+    "aligned_variance_shift",
+    "exposure_shift_first",
+    "first_B_level_distance",
+    "first_input_roughness",
+    "first_input_variance",
+    "first_training_mass",
+    "optimizer_exposure_interaction",
+    "parent_B_best_fraction",
+    "parent_B_bias",
+    "parent_B_channel_dispersion",
+    "parent_B_curve_reversal",
+    "parent_B_learning_gain",
+    "parent_B_local_contrast",
+    "parent_B_log_loss",
+    "parent_B_target_bias",
+    "parent_B_target_ratio",
+    "removed_fraction",
+    "second_B_level_distance",
+    "second_input_roughness",
+    "second_input_variance",
+    "target_weight_second_moment",
+    "weighted_implementation"
+  ],
+  "records": [
+    {
+      "record": "R1",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": -0.2572952763223439,
+        "aligned_roughness_shift": 0.0012353834259179524,
+        "aligned_variance_shift": 0.0015769162614800297,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": 0.023331066360900942,
+        "Z": 0.0337668272500879,
+        "NMAE_gain": -0.0012734344114628236,
+        "d_target": 0.04021447998594503,
+        "d_complement": 0.0064476527358571295,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.008441706901478397,
+        0.030214819719480035,
+        0.03133667246174438
+      ],
+      "seed_Z": [
+        0.02529547708414784,
+        0.05136475063141053,
+        0.024640254034705336
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.5113922891733821,
+        "quadratic": -0.6091139331310295
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R2",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": -0.2572952763223439,
+        "aligned_roughness_shift": 0.0012353834259179524,
+        "aligned_variance_shift": 0.0015769162614800297,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": 0.022701051775034713,
+        "Z": 0.03564889009799712,
+        "NMAE_gain": 0.007576801879538554,
+        "d_target": 0.04052549682403341,
+        "d_complement": 0.004876606726036292,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.01683409992728109,
+        0.024152524161393445,
+        0.02711653123642959
+      ],
+      "seed_Z": [
+        0.040606041073718534,
+        0.055014012808954474,
+        0.011326616411318356
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.48873643065484995,
+        "quadratic": -0.5235652251824743
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R3",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": 0.2572952763223439,
+        "aligned_roughness_shift": -0.0012353834259179524,
+        "aligned_variance_shift": -0.0015769162614800297,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.016197696193354285,
+        "Z": -0.019449998083130755,
+        "NMAE_gain": -0.012766935126353718,
+        "d_target": -0.02592269523491962,
+        "d_complement": -0.006472697151788868,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.036374010803866666,
+        -0.02097497879168861,
+        0.008755901015492416
+      ],
+      "seed_Z": [
+        -0.04421670998225472,
+        -0.021262255673797227,
+        0.007128971406659682
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.13053638367832388,
+        "quadratic": -0.2766293864001237
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R4",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": 0.2572952763223439,
+        "aligned_roughness_shift": -0.0012353834259179524,
+        "aligned_variance_shift": -0.0015769162614800297,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.014214648362582167,
+        "Z": -0.018730836902759774,
+        "NMAE_gain": -0.005961065662148675,
+        "d_target": -0.02358006681396195,
+        "d_complement": -0.004849229911202179,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.019712537795649063,
+        -0.01475279427610069,
+        -0.008178613015996749
+      ],
+      "seed_Z": [
+        -0.03213819995057407,
+        -0.009462129335338569,
+        -0.014592181422366677
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.15319224219685598,
+        "quadratic": -0.25488228347387354
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R5",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": -0.5145905526446878,
+        "aligned_roughness_shift": 0.002470766851835905,
+        "aligned_variance_shift": 0.0031538325229600594,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.4471892170251583,
+        "Z": 0.021032315453438255,
+        "NMAE_gain": -0.2438993558957356,
+        "d_target": -0.4366730592984391,
+        "d_complement": -0.45770537475187734,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.48516654918829466,
+        -0.4516014731880885,
+        -0.4047996286990915
+      ],
+      "seed_Z": [
+        -0.2281126776810382,
+        0.00416730745453886,
+        0.2870423165868141
+      ],
+      "source_task_out_predictions": {
+        "linear": -1.8532455427050665,
+        "quadratic": -2.0362903669132346
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R6",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": -0.5145905526446878,
+        "aligned_roughness_shift": 0.002470766851835905,
+        "aligned_variance_shift": 0.0031538325229600594,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.44037229572821895,
+        "Z": 0.03957861840159963,
+        "NMAE_gain": -0.23638970801120948,
+        "d_target": -0.4205829865274189,
+        "d_complement": -0.4601616049290185,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.4781374660623547,
+        -0.4530651765436033,
+        -0.38991424457869894
+      ],
+      "seed_Z": [
+        -0.2177023929451753,
+        0.03904239671266779,
+        0.2973958514373064
+      ],
+      "source_task_out_predictions": {
+        "linear": -1.8305896841865343,
+        "quadratic": -2.0483103025970335
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R7",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": 0.5145905526446878,
+        "aligned_roughness_shift": -0.002470766851835905,
+        "aligned_variance_shift": -0.0031538325229600594,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.11786725268594754,
+        "Z": -0.009073268991013841,
+        "NMAE_gain": -0.3271456426191756,
+        "d_target": -0.12240388718145434,
+        "d_complement": -0.11333061819044049,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.09874777525775055,
+        -0.13377786812851888,
+        -0.12107611467157316
+      ],
+      "seed_Z": [
+        -0.07198127920147918,
+        0.013519938348342725,
+        0.03124153388009493
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.5693881970016547,
+        "quadratic": -0.7602628106176949
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R8",
+      "task": "T1",
+      "features": {
+        "B_input_roughness": 0.04120590427624823,
+        "B_input_variance": 0.1819416904846013,
+        "aligned_level_shift": 0.5145905526446878,
+        "aligned_roughness_shift": -0.002470766851835905,
+        "aligned_variance_shift": -0.0031538325229600594,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 1.2099354487912057,
+        "first_input_roughness": 0.03422852880956782,
+        "first_input_variance": 0.13311446303128155,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.611111111111111,
+        "parent_B_bias": -0.06802301008143859,
+        "parent_B_channel_dispersion": 1.7879256616418624,
+        "parent_B_curve_reversal": 0.010418632719717812,
+        "parent_B_learning_gain": 0.1311205513652667,
+        "parent_B_local_contrast": 0.6322119753387435,
+        "parent_B_log_loss": -1.9232857936308998,
+        "parent_B_target_bias": -0.09332848578875426,
+        "parent_B_target_ratio": 1.3161059876693717,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.18075434350183026,
+        "second_input_roughness": 0.029286995105896007,
+        "second_input_variance": 0.12680679798536143,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.08396881431990987,
+        "Z": -0.0007524559083736277,
+        "NMAE_gain": -0.25228789699857107,
+        "d_target": -0.08434504227409656,
+        "d_complement": -0.08359258636572293,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.05561866383669776,
+        -0.08854421797403443,
+        -0.10774356114899737
+      ],
+      "seed_Z": [
+        -0.0491230221502826,
+        -0.0013013036065673417,
+        0.04816695803172906
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.5467323384831225,
+        "quadratic": -0.7918246381561325
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R9",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": -0.8851452817057295,
+        "aligned_roughness_shift": 0.003244474844344064,
+        "aligned_variance_shift": 0.020206823664669835,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.40875012695539525,
+        "Z": -0.06437191886663556,
+        "NMAE_gain": -0.13509304737975839,
+        "d_target": -0.440936086388713,
+        "d_complement": -0.3765641675220774,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.44504521071199116,
+        -0.4435358978917824,
+        -0.33766927226241217
+      ],
+      "seed_Z": [
+        -0.10439373359293236,
+        -0.0854335978168076,
+        -0.0032884251901666994
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.06392109608435059,
+        "quadratic": -0.2900300681559456
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R10",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": -0.8851452817057295,
+        "aligned_roughness_shift": 0.003244474844344064,
+        "aligned_variance_shift": 0.020206823664669835,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.38071763359198246,
+        "Z": 0.07451403832299257,
+        "NMAE_gain": -0.13637635177074156,
+        "d_target": -0.3434606144304862,
+        "d_complement": -0.41797465275347884,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.42217171118741054,
+        -0.36895762620256495,
+        -0.351023563385972
+      ],
+      "seed_Z": [
+        -0.1080614846962688,
+        0.2870281893821721,
+        0.04457541028307438
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.03593257706211794,
+        "quadratic": -0.31606732164666446
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R11",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": 0.8851452817057295,
+        "aligned_roughness_shift": -0.003244474844344064,
+        "aligned_variance_shift": -0.020206823664669835,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": 0.2827669592612514,
+        "Z": -0.02770966820802769,
+        "NMAE_gain": 0.134791588457276,
+        "d_target": 0.2689121251572377,
+        "d_complement": 0.29662179336526545,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.32036289460222545,
+        0.2872574339171756,
+        0.24068054926435317
+      ],
+      "seed_Z": [
+        0.033020938053943016,
+        0.042622660167656146,
+        -0.15877260284568223
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.06127615218093635,
+        "quadratic": 0.004169593097037421
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R12",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": 0.8851452817057295,
+        "aligned_roughness_shift": -0.003244474844344064,
+        "aligned_variance_shift": -0.020206823664669835,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": 0.30018001032132885,
+        "Z": -0.042119857752645005,
+        "NMAE_gain": 0.1339520863202149,
+        "d_target": 0.2791200814450064,
+        "d_complement": 0.3212399391976514,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.3193710588749273,
+        0.30916061583498655,
+        0.2720083562540727
+      ],
+      "seed_Z": [
+        0.03420324592034668,
+        0.04655270352661445,
+        -0.20711552270489614
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.0332876331587037,
+        "quadratic": 0.08773243569545956
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R13",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": -1.770290563411459,
+        "aligned_roughness_shift": 0.006488949688688128,
+        "aligned_variance_shift": 0.04041364732933967,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -4.203649239348906,
+        "Z": -1.4714807214599634,
+        "NMAE_gain": -2.0588720480486633,
+        "d_target": -4.939389600078888,
+        "d_complement": -3.467908878618925,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -4.430096540694667,
+        -3.7690510359441696,
+        -4.411800141407885
+      ],
+      "seed_Z": [
+        -0.6903476238189743,
+        -1.255269329476051,
+        -2.4688252110848645
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.47517011841038187,
+        "quadratic": -1.5961827521414425
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R14",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": -1.770290563411459,
+        "aligned_roughness_shift": 0.006488949688688128,
+        "aligned_variance_shift": 0.04041364732933967,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -4.282207558241136,
+        "Z": -1.54680047708733,
+        "NMAE_gain": -2.082142642865261,
+        "d_target": -5.055607796784801,
+        "d_complement": -3.50880731969747,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -4.539800198234857,
+        -3.950940966358659,
+        -4.35588151012989
+      ],
+      "seed_Z": [
+        -1.0425302269578482,
+        -1.2974075807309635,
+        -2.300463623573179
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.4471815993881492,
+        "quadratic": -1.858899263799118
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R15",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": 1.770290563411459,
+        "aligned_roughness_shift": -0.006488949688688128,
+        "aligned_variance_shift": -0.04041364732933967,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": 0.5267528723193613,
+        "Z": -0.008201765822801058,
+        "NMAE_gain": 0.26853240049958477,
+        "d_target": 0.5226519894079609,
+        "d_complement": 0.530853755230762,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.5535614030726765,
+        0.5380468092427274,
+        0.48865040464268006
+      ],
+      "seed_Z": [
+        0.056736639295211,
+        0.06715840567538012,
+        -0.1485003424389943
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.4698802306035535,
+        "quadratic": -0.26098891798338053
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R16",
+      "task": "T2",
+      "features": {
+        "B_input_roughness": 0.014129546282916636,
+        "B_input_variance": 0.04851210743627422,
+        "aligned_level_shift": 1.770290563411459,
+        "aligned_roughness_shift": -0.006488949688688128,
+        "aligned_variance_shift": -0.04041364732933967,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 4.434686007283588,
+        "first_input_roughness": 0.030582689286702117,
+        "first_input_variance": 0.15328049106656416,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.5555555555555556,
+        "parent_B_bias": 0.028542095638985316,
+        "parent_B_channel_dispersion": 1.4158987281348168,
+        "parent_B_curve_reversal": 0.01831651397278748,
+        "parent_B_learning_gain": 0.026923927894779338,
+        "parent_B_local_contrast": 0.18852837917828005,
+        "parent_B_log_loss": -4.5700927970881855,
+        "parent_B_target_bias": 0.02541009508179072,
+        "parent_B_target_ratio": 1.09426418958914,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.8941048804606698,
+        "second_input_roughness": 0.01760478990932586,
+        "second_input_variance": 0.07245319640788482,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": 0.5379421136515773,
+        "Z": -0.007670762801223474,
+        "NMAE_gain": 0.270456170223404,
+        "d_target": 0.5341067322509656,
+        "d_complement": 0.5417774950521892,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.554181493206245,
+        0.5486797933839017,
+        0.5109650543645852
+      ],
+      "seed_Z": [
+        0.05983913392239737,
+        0.07366260611279851,
+        -0.1565140284388663
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.44189171158132085,
+        "quadratic": 0.054512379642634216
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R17",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": -0.4148431982183039,
+        "aligned_roughness_shift": -0.0002578327314677678,
+        "aligned_variance_shift": -0.0041580816097557816,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.22083434002520777,
+        "Z": 0.04904515506633933,
+        "NMAE_gain": -0.08086431545953882,
+        "d_target": -0.19631176249203797,
+        "d_complement": -0.2453569175583773,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.0134179134754296,
+        -0.13237912384645725,
+        -0.5167059827537365
+      ],
+      "seed_Z": [
+        -0.01340901207005387,
+        0.1447424050348234,
+        0.015802072234248454
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.4206647221294178,
+        "quadratic": -0.37017805823632655
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": false
+      }
+    },
+    {
+      "record": "R18",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": -0.4148431982183039,
+        "aligned_roughness_shift": -0.0002578327314677678,
+        "aligned_variance_shift": -0.0041580816097557816,
+        "exposure_shift_first": 0.25,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.04531068716266764,
+        "Z": -0.06028464542694967,
+        "NMAE_gain": -0.013273851107716445,
+        "d_target": -0.07545300987614241,
+        "d_complement": -0.015168364449192747,
+        "p": 0.5
+      },
+      "seed_Y": [
+        0.05526409055060204,
+        0.07328450623932928,
+        -0.2644806582779342
+      ],
+      "seed_Z": [
+        0.002203525976469091,
+        -0.03300513675564724,
+        -0.15005232550167086
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.4223434604436978,
+        "quadratic": -0.33613369200188553
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R19",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": 0.4148431982183039,
+        "aligned_roughness_shift": 0.0002578327314677678,
+        "aligned_variance_shift": 0.0041580816097557816,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.15664341731919146,
+        "Z": -0.1599644123262293,
+        "NMAE_gain": -0.031472276703765394,
+        "d_target": -0.236625623482306,
+        "d_complement": -0.07666121115607671,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.048713367555155984,
+        -0.6091619850759696,
+        0.18794510067355125
+      ],
+      "seed_Z": [
+        -0.2656630838456315,
+        -0.1689785548537972,
+        -0.04525159827925926
+      ],
+      "source_task_out_predictions": {
+        "linear": 1.1462822129979209,
+        "quadratic": -0.43945908449251286
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": false
+      }
+    },
+    {
+      "record": "R20",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": 0.4148431982183039,
+        "aligned_roughness_shift": 0.0002578327314677678,
+        "aligned_variance_shift": 0.0041580816097557816,
+        "exposure_shift_first": -0.25,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.25,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.0,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 1.25,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.14391867697156757,
+        "Z": -0.15273033534031533,
+        "NMAE_gain": -0.04843416280708352,
+        "d_target": -0.220283844641725,
+        "d_complement": -0.06755350930140967,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.24093462822469922,
+        -0.21633991342863396,
+        0.025518510738630408
+      ],
+      "seed_Z": [
+        -0.1317561739227957,
+        -0.2406181352891551,
+        -0.08581669680899519
+      ],
+      "source_task_out_predictions": {
+        "linear": 1.1479609513122009,
+        "quadratic": -0.43849886039699454
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R21",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": -0.8296863964366078,
+        "aligned_roughness_shift": -0.0005156654629355356,
+        "aligned_variance_shift": -0.008316163219511563,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -0.827640852411514,
+        "Z": -0.5790616888522827,
+        "NMAE_gain": -0.2311738025632487,
+        "d_target": -1.1171716968376553,
+        "d_complement": -0.5381100079853725,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.5587795791615896,
+        -0.9113352747000567,
+        -1.0128077033728955
+      ],
+      "seed_Z": [
+        -0.2805319939861487,
+        -0.611480418022749,
+        -0.8451726545479504
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.7741098607041879,
+        "quadratic": -1.1816102606145602
+      },
+      "qualified_mismatch": {
+        "linear": false,
+        "quadratic": true
+      }
+    },
+    {
+      "record": "R22",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": -0.8296863964366078,
+        "aligned_roughness_shift": -0.0005156654629355356,
+        "aligned_variance_shift": -0.008316163219511563,
+        "exposure_shift_first": 0.5,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -0.6575265223803428,
+        "Z": -0.3970299678687849,
+        "NMAE_gain": -0.19933182897965138,
+        "d_target": -0.856041506314735,
+        "d_complement": -0.45901153844595016,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.3404323844640685,
+        -0.40013194296743254,
+        -1.2320152397095274
+      ],
+      "seed_Z": [
+        -0.1099441085893238,
+        -0.27423289468628625,
+        -0.8069129003307446
+      ],
+      "source_task_out_predictions": {
+        "linear": -0.7724311223899079,
+        "quadratic": -1.185426261935351
+      },
+      "qualified_mismatch": {
+        "linear": false,
+        "quadratic": false
+      }
+    },
+    {
+      "record": "R23",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": 0.8296863964366078,
+        "aligned_roughness_shift": 0.0005156654629355356,
+        "aligned_variance_shift": 0.008316163219511563,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 0.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 0.0
+      },
+      "response": {
+        "Y": -1.0056095046041797,
+        "Z": -0.3807637693916888,
+        "NMAE_gain": -0.34335649076721886,
+        "d_target": -1.1959913893000242,
+        "d_complement": -0.8152276199083355,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -0.5682190164927314,
+        -1.2481465098574833,
+        -1.200462987462325
+      ],
+      "seed_Z": [
+        0.20797136411956518,
+        -0.4001222149930772,
+        -0.9501404573015545
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.6771251210328181,
+        "quadratic": -1.010794392025487
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": false
+      }
+    },
+    {
+      "record": "R24",
+      "task": "T3",
+      "features": {
+        "B_input_roughness": 0.07055519253349729,
+        "B_input_variance": 0.31152745573800833,
+        "aligned_level_shift": 0.8296863964366078,
+        "aligned_roughness_shift": 0.0005156654629355356,
+        "aligned_variance_shift": 0.008316163219511563,
+        "exposure_shift_first": -0.5,
+        "first_B_level_distance": 1.7297102441885999,
+        "first_input_roughness": 0.07298807736773308,
+        "first_input_variance": 0.2766032780633192,
+        "first_training_mass": 0.5,
+        "optimizer_exposure_interaction": 1.0,
+        "parent_B_best_fraction": 0.8333333333333334,
+        "parent_B_bias": 0.05530392895188943,
+        "parent_B_channel_dispersion": 1.294146547398496,
+        "parent_B_curve_reversal": 0.001371133466569299,
+        "parent_B_learning_gain": 0.05758620403263043,
+        "parent_B_local_contrast": 0.26917238395369414,
+        "parent_B_log_loss": -2.8222481846114853,
+        "parent_B_target_bias": 0.06456384703104863,
+        "parent_B_target_ratio": 1.1345861919768472,
+        "removed_fraction": 0.5,
+        "second_B_level_distance": 0.07033745131538424,
+        "second_input_roughness": 0.07401940829360415,
+        "second_input_variance": 0.2932356045023423,
+        "target_weight_second_moment": 2.0,
+        "weighted_implementation": 1.0
+      },
+      "response": {
+        "Y": -1.070178392486606,
+        "Z": -0.9487691344318665,
+        "NMAE_gain": -0.3458277906504878,
+        "d_target": -1.544562959702539,
+        "d_complement": -0.5957938252706726,
+        "p": 0.5
+      },
+      "seed_Y": [
+        -1.420705637519504,
+        -1.0670098391336724,
+        -0.722819700806642
+      ],
+      "seed_Z": [
+        -1.2655956113757223,
+        -0.8797257089071172,
+        -0.7009860830127601
+      ],
+      "source_task_out_predictions": {
+        "linear": 0.6788038593470981,
+        "quadratic": -1.0283719873130526
+      },
+      "qualified_mismatch": {
+        "linear": true,
+        "quadratic": false
+      }
+    }
+  ]
+}

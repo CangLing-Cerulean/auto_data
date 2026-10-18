@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "counts": {
+    "assertions": 13391,
+    "source_packet_records": 64,
+    "permitted_expression_evaluations": 128,
+    "generation_calls": 4,
+    "transport_error_items": 4,
+    "transport_reconnect_events": 16,
+    "steps": 192,
+    "predictor_snapshots": 384,
+    "component_snapshots": 768,
+    "candidate_predictions": 768,
+    "expert_score_triples": 192,
+    "nodes": 78,
+    "runs": 30,
+    "summaries": 18,
+    "csv_rows": 78,
+    "zero_signal_reference_steps": 96,
+    "zero_signal_reference_nodes": 39,
+    "zero_signal_reference_runs": 15,
+    "prediction_rows_verified_from_snapshots": 96,
+    "prediction_rows": 128,
+    "combined_prediction_rows_not_refitted": 32,
+    "strong_baseline_feedback_metadata_steps": 64
+  },
+  "errors": [],
+  "error_count": 0,
+  "max_abs_differences": {
+    "oracle": 0.0,
+    "weight_sum": 1.1102230246251565e-16,
+    "candidate_prediction": 5.684341886080802e-14,
+    "registration_reference": 0.0,
+    "registration_expert": 0.0,
+    "revealed_response": 0.0,
+    "logscore": 0.0,
+    "factorization": 9.313225746154785e-10,
+    "reliability_before": 0.0,
+    "reliability_after": 0.0,
+    "node_gain": 0.0,
+    "node_NMAE_gain": 0.0,
+    "node_regret": 0.0,
+    "node_negative_seed_count": 0.0,
+    "node_min_seed_gain": 0.0,
+    "node_query_negative_mean_count": 0.0,
+    "node_cost": 0.0,
+    "summary_gain": 0.0,
+    "summary_regret": 0.0,
+    "csv_queries": 0.0,
+    "csv_logical_candidate_full_trainings": 0.0,
+    "csv_shared_parent_full_trainings": 0.0,
+    "csv_gain": 0.0,
+    "csv_NMAE_gain": 0.0,
+    "csv_negative_seed_count": 0.0,
+    "csv_min_seed_gain": 0.0,
+    "csv_query_negative_mean_count": 0.0,
+    "csv_query_seconds": 0.0,
+    "csv_policy_seconds": 0.0,
+    "csv_regret": 0.0,
+    "prediction_label": 0.0,
+    "prediction_absolute_error": 0.0,
+    "prediction_reference_mean": 0.0,
+    "prediction_reference_scale": 0.0,
+    "prediction_reference_score": 0.0
+  },
+  "input_sha_same_by_family": {
+    "ETT": true,
+    "Hydraulic": true
+  },
+  "calls": [
+    {
+      "name": "ETT_ordinary",
+      "signals": 2,
+      "seconds": 172.94550190000155,
+      "usage": {
+        "input_tokens": 22958,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2374,
+        "reasoning_output_tokens": 1991
+      },
+      "source_records": 8,
+      "thread_id": "01a14d91-2e2f-77c1-a84a-2d916fe56b5e",
+      "ast_nodes": [
+        12,
+        16
+      ]
+    },
+    {
+      "name": "ETT_mismatch",
+      "signals": 0,
+      "seconds": 163.82946509999965,
+      "usage": {
+        "input_tokens": 22982,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2200,
+        "reasoning_output_tokens": 2002
+      },
+      "source_records": 8,
+      "thread_id": "01a14d91-2e2a-7a43-bdd3-4560420ed13e",
+      "ast_nodes": []
+    },
+    {
+      "name": "Hydraulic_ordinary",
+      "signals": 2,
+      "seconds": 177.27673719999802,
+      "usage": {
+        "input_tokens": 31264,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2897,
+        "reasoning_output_tokens": 2588
+      },
+      "source_records": 24,
+      "thread_id": "01a14d91-2e32-7af2-aa07-e7e05d27b19f",
+      "ast_nodes": [
+        11,
+        14
+      ]
+    },
+    {
+      "name": "Hydraulic_mismatch",
+      "signals": 0,
+      "seconds": 186.42991469999833,
+      "usage": {
+        "input_tokens": 31288,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3128,
+        "reasoning_output_tokens": 2884
+      },
+      "source_records": 24,
+      "thread_id": "01a14d91-2e29-7c90-a759-2b4dc1656db3",
+      "ast_nodes": []
+    }
+  ],
+  "frozen_outputs_match": true,
+  "cost_coverage": {
+    "known_node_query_costs": 66,
+    "total_nodes": 78,
+    "unknown_node_query_costs": 12
+  },
+  "strong_baseline_summaries": [
+    {
+      "split": "leave_family_out",
+      "queries": 2,
+      "method": "all_features",
+      "tasks": 5,
+      "families": 2,
+      "mean_gain": 0.07332343618218559,
+      "family_macro_gain": 0.06663929436762124,
+      "mean_regret": 0.052218633938229876,
+      "mean_negative_queries": 1.0
+    },
+    {
+      "split": "leave_family_out",
+      "queries": 4,
+      "method": "all_features",
+      "tasks": 5,
+      "families": 2,
+      "mean_gain": 0.12554207012041546,
+      "family_macro_gain": 0.11015482264947948,
+      "mean_regret": 0.0,
+      "mean_negative_queries": 2.4
+    },
+    {
+      "split": "leave_family_out",
+      "queries": 2,
+      "method": "all_features_quadratic",
+      "tasks": 5,
+      "families": 2,
+      "mean_gain": 0.06984082597017009,
+      "family_macro_gain": 0.06373711919094166,
+      "mean_regret": 0.05570124415024537,
+      "mean_negative_queries": 1.0
+    },
+    {
+      "split": "leave_family_out",
+      "queries": 4,
+      "method": "all_features_quadratic",
+      "tasks": 5,
+      "families": 2,
+      "mean_gain": 0.12330422185397225,
+      "family_macro_gain": 0.10828994909411015,
+      "mean_regret": 0.002237848266443199,
+      "mean_negative_queries": 2.4
+    }
+  ],
+  "execution": {
+    "shell": "pwsh (PowerShell 7)",
+    "cwd": "C:\\Users\\31227\\Desktop\\auto_data",
+    "python": "D:/software/python3_14/python.exe",
+    "refitting_performed": false,
+    "old_70_trajectory_matrix_rerun": false,
+    "command": "& 'D:/software/python3_14/python.exe' 'research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_replay_audit_check.py'"
+  },
+  "findings": [
+    "No future-target labels in permitted training snapshot IDs or source-only generation packets.",
+    "Four distinct recorded generation turns requested gpt-6.1-sol/high; each has transport reconnects and one transport-fallback error item, one agent message and one completion. No tool execution item recorded. Original FAILED receipts retained; validation performs no new model call.",
+    "Source generation uses only combinations of the existing 26 measurements; this does not establish new measurements or H1.",
+    "Mismatch generation returned zero signals in both source directions; all 15 zero-signal trajectories equal the previously audited reference, apart from runtime accounting.",
+    "Strong all-features baselines receive their own previously queried feedback; they are not feedback-free controls."
+  ],
+  "limitations": [
+    "Combined ordinary generated_all prediction-only models have no stored fit snapshots; 32 such rows checked for error/coverage arithmetic but coefficients and conditional scores were not refitted.",
+    "Source leave-task-out prediction values were not refitted; payload source identity, all response values and mismatch qualification arithmetic were checked.",
+    "Recorded input/output hash consistency cannot independently prove historical process isolation or model backend identity beyond the requested model.",
+    "Historical training cost remains incomplete; eight-query summaries cover only three Hydraulic tasks.",
+    "No raw A/B/C arrays, servers, D/test, secrets or new model calls accessed."
+  ]
+}

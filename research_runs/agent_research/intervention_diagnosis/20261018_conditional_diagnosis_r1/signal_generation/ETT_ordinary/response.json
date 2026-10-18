@@ -1,0 +1,19 @@
+{
+  "signals": [
+    {
+      "name": "weighted_directional_level_shift",
+      "expression": "weighted_implementation * safe_ratio(aligned_level_shift, B_input_variance)",
+      "measurement_meaning": "Signed aligned level shift under W, attenuated by one plus B input variance. Allows implementation-specific directional sensitivity to vary with input variance.",
+      "limitation": "The variance attenuation is a proposed functional form. Two tasks cannot establish its transferability or a causal effect.",
+      "falsifying_response": "On additional held-out tasks, W-minus-S Y differences show no consistent dependence on this measurement, and adding it fails to reduce task-balanced prediction error."
+    },
+    {
+      "name": "optimizer_exposure_level_mismatch",
+      "expression": "optimizer_exposure_interaction * safe_ratio(first_B_level_distance + second_B_level_distance, B_input_variance)",
+      "measurement_meaning": "Optimizer exposure interaction multiplied by combined training-group level distance from B, attenuated by one plus B input variance.",
+      "limitation": "Combined level distance discards group direction and does not measure gradient mismatch. Its association with implementation penalties may be specific to the supplied tasks.",
+      "falsifying_response": "Across new tasks, larger values fail to accompany more negative W-minus-S Y responses, or the augmented ridge fails to improve held-out prediction error."
+    }
+  ],
+  "reasoning": "The supplied feedback shows a larger W-associated Y penalty in one task, especially for positive aligned level shift; its Z also decreases under W in both directions. These motivate separate directional and exposure–mismatch measurements. Both introduce nonpolynomial interactions beyond the existing quadratic terms without using task identity. They are unvalidated candidates: no fitted improvement, hidden-task result, or causal confirmation is claimed."
+}

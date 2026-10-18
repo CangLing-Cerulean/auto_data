@@ -1,0 +1,153 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,hyperref}
+\title{Conditional Predictive Evidence for Diagnostic Reuse:\\An Initial Controlled Study}
+\author{Working research manuscript}
+\date{18 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A useful intervention need not validate the explanation that motivated it.
+We implement a data-intervention learner with separate updates for observed recipe value and diagnostic predictive evidence.
+The latter compares local-response predictions conditional on total improvement and affects reuse for unqueried candidates.
+We evaluate the implementation retrospectively using 96 existing seed-level parent--child comparisons, aggregated into 32 decisions across five tasks from two source families.
+Seventy fixed-expert policy trajectories and thirty generated-feature trajectories provide no decision advantage for conditional over joint evidence at the registered budgets.
+Simple strong response models outperform the diagnostic mixtures.
+Four source-isolated Sol-high generation calls yield four ordinary feature combinations and two abstentions from mismatch-driven generation.
+These results establish an executable, auditable mechanism, not a successful new method or independent generalization.
+\end{abstract}
+
+\section{Question and scope}
+We study data interventions under fixed forecasting backbones and source-specific frozen training protocols.
+The decision problem is whether a diagnostic explanation should influence future unqueried interventions, while retaining useful recipes independently of their explanations.
+Intervention-driven verification is already central to DoVer~\cite{dover}, and language-guided hypothesis and slice discovery appears in LADDER~\cite{ladder}.
+Neither separate evaluation of repair and explanation nor a conditional log score is claimed as a novel mathematical tool.
+The empirical contribution sought is additional decision value from controlling diagnostic reuse; the present study does not establish that contribution.
+
+\section{An explicit separation of updates}
+Let $L_P>0$ and $L_C$ be parent and child global losses under fixed evaluation weights.
+A target region $S$ has mass $p\in(0,1)$ and complement $\bar S$.
+Region losses are conditional means, while all response coordinates share the global parent denominator:
+\[
+ d_S=\frac{L_{P,S}-L_{C,S}}{L_P},\quad
+ d_{\bar S}=\frac{L_{P,\bar S}-L_{C,\bar S}}{L_P},\quad
+ Y=p\,d_S+(1-p)d_{\bar S},\quad Z=d_S-d_{\bar S}.
+\]
+Thus $d_S=Y+(1-p)Z$ and $d_{\bar S}=Y-pZ$.
+These are two response coordinates, not three independent pieces of evidence.
+
+Before observing a candidate, freeze reference and diagnostic predictors
+$p_0(Y\mid x),p_0(Z\mid Y,x)$ and $p_h(Y\mid x),p_h(Z\mid Y,x)$.
+After observing $(y,z)$, score
+\[
+ E_h^{\mathrm{cond}}=\log p_h(z\mid y,x)-\log p_0(z\mid y,x).
+\]
+Actual $y$ is a scoring input only; unqueried candidate selection never receives it.
+With the same factorization,
+\[
+ E_h^{\mathrm{joint}}=E_h^Y+E_h^{\mathrm{cond}}.
+\]
+If both predictors share their $Y$ marginal, conditional and joint scores coincide exactly.
+A meaningful joint-score ablation therefore permits different $Y$ marginals and reports the marginal contribution.
+
+We accumulate $\rho_h\leftarrow\rho_h+E_h$ after scoring the frozen prediction.
+Unit prior mass is assigned to the reference and unit total mass to all diagnostic experts:
+\[
+ w_0,w_1,\ldots,w_H\ \propto\
+ 1,\ \exp(\rho_1)/H,\ldots,\exp(\rho_H)/H.
+\]
+The acquisition score is $w_0\hat Y_0(x)+\sum_h w_h\hat Y_h(x)$.
+All recipe regressors learn from actual revealed $Y$.
+The best observed eligible recipe is selected using measured benefit, independently of $\rho$.
+An event can contribute evidence once; a revised diagnostic receives a new version without inherited evidence.
+These scores are predictive comparisons, not root-cause probabilities, Bayes factors, calibrated tests, or causal identification.
+
+\section{Frozen development experiment}
+Hydraulic contributes three tasks with four actions and two implementations, each with three seeds.
+ETT contributes two stations with two actions and two implementations, each with three seeds.
+Sampling and corresponding uniform-sampling loss weighting are distinct implementations.
+The 96 seed responses form 32 candidate decisions by averaging per-seed normalized responses.
+All results were already revealed historically; these are retrospective development experiments.
+ETT stations belong to one family and Hydraulic tasks to another.
+
+The target region is the latter half of the forecast horizon, across every evaluation window and channel, so $p=1/2$.
+We use original validation-selected checkpoints and never reselect a checkpoint on candidate evaluation results.
+A shared set of 22 parent-state and action primitives is supplied to every reference.
+Four manual experts add fixed interactions.
+Task-balanced ridge regression uses coefficient 1; leave-task-out residuals estimate the Gaussian scale, floored at 0.01 in response-ratio units.
+We compare reference, all fixed features, all features with quadratic terms, and expert mixtures with uniform, marginal, joint, or conditional weights.
+
+Each policy registers predictions, queries one three-seed candidate, scores its frozen prediction, then refits using only revealed records.
+At 2 and 4 queries, the best observed candidate must have mean $Y\geq0.01$ and NMAE gain $\geq-0.01$, otherwise the parent is retained.
+A query represents three logical full training calls, plus a shared three-seed parent.
+Eight-query results are supplementary and cover Hydraulic only.
+Both task holdout and family holdout are development stress tests, not final unseen-source confirmation.
+
+\section{Results}
+\begin{table}[h]
+\centering
+\caption{Family-held-out retrospective mean improvement (\%) over five tasks.}
+\begin{tabular}{lrr}
+\toprule
+Policy & 2 queries & 4 queries\\
+\midrule
+Primitive-feature reference & 6.470222 & 7.798965\\
+All fixed features & 7.332344 & 12.554207\\
+All fixed features, quadratic & 6.984083 & 12.330422\\
+Manual experts, uniform & 6.918507 & 7.798965\\
+Manual experts, joint & 6.918507 & 7.798965\\
+Manual experts, conditional & 6.918507 & 7.798965\\
+Ordinary generated features, conditional & 6.470222 & 7.798965\\
+Mismatch generator, conditional & 6.470222 & 7.798965\\
+\bottomrule
+\end{tabular}
+\end{table}
+The finite-pool oracle mean is 12.554207\%.
+Conditional, joint, marginal, and uniform manual mixtures give the same recommendations at both registered budgets.
+Conditional and joint scores do differ numerically; one family-held-out task changes its query order without changing selected benefit.
+Task-held-out four-query means are 7.798965\% for the conditional mixture and 12.554207\% for the quadratic baseline.
+Thus numerical evidence separation does not establish decision value.
+
+Two source-only generation conditions, ordinary prediction-error feature engineering and response-mismatch diagnostic generation, each receive one call per source with identical facts and expression budgets.
+The requested model is \texttt{gpt-6.1-sol} with high reasoning.
+Ordinary generation returns two features in each direction; mismatch generation abstains in both.
+Generated expressions only combine existing measurements and are not discoveries of additional raw information.
+The mismatch generator identifies the lack of conditional-$Z$ residual evidence and the risk of treating task profiles as reusable mechanisms.
+
+Ordinary combinations reduce static Hydraulic-to-ETT MAE from 32.075868 to 11.796932 percentage points, without improving the reported selection budgets.
+ETT-to-Hydraulic prediction remains severely miscalibrated: MAE changes from 17414.065852 to 11006.237499 percentage points, while nominal 95\% coverage changes from 12.5\% to 8.33\%.
+These values are retained without clipping.
+Predictor extrapolation and measurement insufficiency cannot be conflated.
+
+\section{Audit, cost, and limitations}
+Nine core checks and an independent 70-trajectory audit pass.
+The latter checks 448 steps, 2,944 regression component snapshots, 1,792 candidate predictions, 1,024 score triples, and 182 budget nodes.
+Snapshot training identities contain only initially permitted and already revealed records.
+The built-in hidden-label test redundantly invokes identical inputs and does not independently establish intervention invariance; the independent identity audit supplies the actual recorded access check.
+A separate generated-policy audit checks 192 additional steps and 78 budget nodes, with 13,391 assertions passing. Thirty-two static generated-combination predictions lack saved fit snapshots; only their error and coverage arithmetic is independently checked.
+
+No new full forecast training is performed; the historical completed count remains 464.
+Historical candidate costs are known for 31 of 32 decisions and 146 of 182 manual budget nodes, so complete wall-clock equal-budget superiority cannot be claimed.
+Four LLM calls consume 108,492 input and 10,599 output tokens, with 700.481619 summed call-seconds under parallel execution.
+Transport retries and an initial validator error are retained; supplementary validation changes event classification, not generated outputs.
+No test or sealed audit partition is evaluated.
+
+The study has only five correlated tasks and two source families.
+Positive means do not imply seed-stable benefit.
+We have not evaluated a full strong-prompt adaptive agent, genuinely new measurement programs, a frozen-prefix feedback intervention, or independent-source confirmation.
+The current evidence does not justify a claim of method superiority.
+Further development must address predictor applicability and conditional response mismatch before expanding full-training experiments.
+
+\begin{thebibliography}{9}
+\bibitem{dover}
+M. Ma et al.
+\emph{DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems}.
+arXiv:2512.06749, 2025.
+\url{https://arxiv.org/abs/2512.06749}.
+\bibitem{ladder}
+S. Ghosh et al.
+\emph{LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers}.
+Findings of ACL, 2025; arXiv:2408.07832v13.
+\url{https://arxiv.org/abs/2408.07832}.
+\end{thebibliography}
+\end{document}

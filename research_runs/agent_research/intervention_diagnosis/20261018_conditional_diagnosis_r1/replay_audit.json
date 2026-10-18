@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "role": "independent read-only test review; main agent retains final acceptance",
+  "evidence_scope": "frozen first retrospective manual-expert replay; five tasks, two source families",
+  "saved_script": "replay_audit_check.py",
+  "script_provenance": "Verbatim Python body of the already executed primary inline NumPy audit; the PowerShell here-string wrapper is omitted.",
+  "rerun_during_artifact_creation": false,
+  "artifact_creation_note": "These two review artifacts preserve previously obtained evidence. No test, fit, replay or data audit was run again while saving them.",
+  "execution": {
+    "shell": "pwsh (PowerShell 7)",
+    "cwd": "C:/Users/31227/Desktop/auto_data",
+    "python": "D:/software/python3_14/python.exe",
+    "original_command_form": "PowerShell single-quoted here-string containing the saved Python body, piped to & 'D:/software/python3_14/python.exe' -",
+    "reproduction_command": "& 'D:/software/python3_14/python.exe' 'research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/replay_audit_check.py'",
+    "exit_code": 0,
+    "environment_errors": [],
+    "refitting_performed": false,
+    "files_written_during_checks": 0
+  },
+  "counts": {
+    "records": 32,
+    "runs": 70,
+    "assertions": 36041,
+    "steps": 448,
+    "predictor_snapshots": 1472,
+    "component_snapshots": 2944,
+    "candidate_predictions": 1792,
+    "nodes": 182,
+    "expert_score_triples": 1024,
+    "summaries": 42,
+    "csv_rows": 182
+  },
+  "errors": [],
+  "error_count": 0,
+  "comparison_tolerance": "abs(a-b) <= 2e-10 * max(1, abs(a), abs(b)); identity/order/hash checks exact",
+  "max_abs_differences": {
+    "oracle": 0.0,
+    "weights_sum": 2.220446049250313e-16,
+    "prediction": 5.684341886080802e-14,
+    "registration_reference": 0.0,
+    "event_response": 0.0,
+    "node": 0.0,
+    "node_cost": 0.0,
+    "registration_expert": 0.0,
+    "reliability_before": 0.0,
+    "logscore": 0.0,
+    "Econd_factorization": 1.862645149230957e-09,
+    "reliability_after": 0.0,
+    "summary": 0.0,
+    "csv": 0.0
+  },
+  "weights_range": [0.0, 1.0],
+  "zero_expert_weights": 189,
+  "supplemental_previously_executed_inline_check": {
+    "included_in_saved_primary_script": false,
+    "same_visible_history_snapshot_comparisons": 178,
+    "snapshot_mismatches": 0,
+    "record_training_costs_known": 31,
+    "record_training_costs_total": 32,
+    "record_training_costs_missing": 1,
+    "node_query_costs_known": 146,
+    "node_query_costs_total": 182,
+    "node_query_costs_missing": 36,
+    "policy_seconds_total_by_method": {
+      "reference": 0.07654649999312824,
+      "all_features": 0.07816279999678954,
+      "all_features_quadratic": 1.8818711000021722,
+      "uniform": 0.37825410001096316,
+      "marginal": 0.3956791000018711,
+      "joint": 0.39993320000576205,
+      "conditional": 0.4097935999998299
+    }
+  },
+  "findings": {
+    "reproduced_future_label_leakage": false,
+    "reproduced_feedback_permission_unfairness": false,
+    "snapshot_training_ids": "All snapshots match exactly the initially allowed records followed by the current run's previously revealed records.",
+    "score_weight_selection_and_recommendation_checks": "All recomputed Gaussian scores, cumulative evidence, mixture weights, selected actions and eligible best-observed recommendations match.",
+    "hash_checks": "Protocol, development design, pool, replay source, results file, registrations and event snapshot hashes match.",
+    "conditional_joint_uniform": "Same recommendation and gain at both 2/4-query nodes for every task in both splits.",
+    "strong_baseline_comparison": "At four queries, mean gain is 7.798964945436578% for conditional in both splits; quadratic all-features is 12.554207012041546% for task holdout and 12.330422185397225% for family holdout. Linear all-features reaches 12.554207012041546% for family holdout.",
+    "scientific_claim_limit": "Retrospective development with manual experts; not LLM signal learning, independent confirmation or a demonstrated conditional-update gain."
+  },
+  "coverage_gaps": [
+    {
+      "classification": "test coverage gap; not reproduced label leakage",
+      "file": "scripts/replay_conditional_diagnosis.py",
+      "line": 119,
+      "trigger": "audit_no_hidden_label_access constructs shuffled hidden responses.",
+      "actual": "The shuffled mapping is never used by either policy invocation; the same inputs are called twice.",
+      "expected": "A hidden-response intervention test must vary a hidden-response input actually reachable by the tested boundary, or explicitly report only the API/static-access check.",
+      "impact": "This existing assertion alone cannot establish hidden-label intervention invariance. Static code review and the independent 448-step training-ID audit passed."
+    },
+    {
+      "classification": "cost evidence incomplete",
+      "detail": "One of 32 record training costs is unknown, leaving 36 of 182 node query costs unknown. Complete wall-clock equal-budget superiority is not established."
+    },
+    {
+      "classification": "scope limitation",
+      "detail": "Eight-query nodes cover the three Hydraulic tasks only. Regression coefficients were not refitted; original feature extraction and raw arrays were not re-audited."
+    },
+    {
+      "classification": "prohibited inputs not accessed",
+      "detail": "No A/B/C arrays, servers, D/test, keys, or external business data were accessed during this independent review."
+    }
+  ]
+}

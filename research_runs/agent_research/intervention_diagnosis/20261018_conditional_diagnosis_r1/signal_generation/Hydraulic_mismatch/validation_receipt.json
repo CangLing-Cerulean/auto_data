@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "original_receipt_status": "FAILED",
+  "original_receipt_sha256": "84e941410b388914f38daeaebf8674ef0e39d68af8f4c60a219de00fed381201",
+  "correction": "transport error item was incorrectly classified as a tool call; original failure retained",
+  "no_tool_items": true,
+  "transport_error_messages": [
+    "Falling back from WebSockets to HTTPS transport. request timed out"
+  ],
+  "signals": 0,
+  "response_sha256": "1541423bf0de82f1f6cf5062f153446591abc76ba10bdd7843f66a5f42c9a1be",
+  "events_sha256": "8e5f1f5dbe8038e1ca20bd446b5cf41fc6b8330f59b4497c59547c00ded24d64",
+  "new_LLM_calls": 0,
+  "new_full_trainings": 0
+}

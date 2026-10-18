@@ -1,0 +1,47 @@
+{
+  "calls": [
+    {
+      "name": "ETT_ordinary",
+      "family": "ETT",
+      "mode": "ordinary",
+      "prompt_sha256": "2bc3964d9721540f157ce1d70e7cd3e4ed7ec0bbc9cc13b38882abf9ff23b547",
+      "input_sha256": "4fd0a4f6e341c684968d5bb38bc5fe6828be496e205129307cd8c650a05f4877",
+      "qualified_linear": 4,
+      "qualified_quadratic": 8
+    },
+    {
+      "name": "ETT_mismatch",
+      "family": "ETT",
+      "mode": "mismatch",
+      "prompt_sha256": "67c51b7c516914213c3250c2225a8620617b8e62ff1131593a7939ae8c767929",
+      "input_sha256": "4fd0a4f6e341c684968d5bb38bc5fe6828be496e205129307cd8c650a05f4877",
+      "qualified_linear": 4,
+      "qualified_quadratic": 8
+    },
+    {
+      "name": "Hydraulic_ordinary",
+      "family": "Hydraulic",
+      "mode": "ordinary",
+      "prompt_sha256": "b6994bf79b9434a89d7c3e9db17b82bfb4d17e1de4e0b26f0af1db7e60e07740",
+      "input_sha256": "8859706169587702c0b292023f66067585136f5e110c9a475e6ca57bab9f2de8",
+      "qualified_linear": 22,
+      "qualified_quadratic": 19
+    },
+    {
+      "name": "Hydraulic_mismatch",
+      "family": "Hydraulic",
+      "mode": "mismatch",
+      "prompt_sha256": "2e7ababc1c01d3df572fb601035f39c1044537800a361b2ad0dd7258f6a0fbb2",
+      "input_sha256": "8859706169587702c0b292023f66067585136f5e110c9a475e6ca57bab9f2de8",
+      "qualified_linear": 22,
+      "qualified_quadratic": 19
+    }
+  ],
+  "model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "max_calls": 4,
+  "no_retries": true,
+  "pool_sha256": "f7f83160f02d7f080da27f08494851c78445fc353f700768b0fa037cca0ff552",
+  "protocol_sha256": "a273784732bf0e0f677426ff71fe6b41140cf5950e340ee6bdc1d6d8d78eb9eb",
+  "code_sha256": "d304992b5ab94a9f13254dc88175f4276b418583d4475f00fbbfdc3f21cd42cd"
+}

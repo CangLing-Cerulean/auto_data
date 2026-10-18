@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "summaries": [
+    {
+      "generation": "ordinary",
+      "update": "uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06121960512443046,
+      "mean_regret": 0.064322464995985
+    },
+    {
+      "generation": "ordinary",
+      "update": "uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "ordinary",
+      "update": "uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "generation": "ordinary",
+      "update": "joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06470221533644596,
+      "mean_regret": 0.060839854783969506
+    },
+    {
+      "generation": "ordinary",
+      "update": "joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "ordinary",
+      "update": "joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "generation": "ordinary",
+      "update": "conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06470221533644596,
+      "mean_regret": 0.060839854783969506
+    },
+    {
+      "generation": "ordinary",
+      "update": "conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "ordinary",
+      "update": "conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "generation": "mismatch",
+      "update": "uniform",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06470221533644596,
+      "mean_regret": 0.060839854783969506
+    },
+    {
+      "generation": "mismatch",
+      "update": "uniform",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "mismatch",
+      "update": "uniform",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "generation": "mismatch",
+      "update": "joint",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06470221533644596,
+      "mean_regret": 0.060839854783969506
+    },
+    {
+      "generation": "mismatch",
+      "update": "joint",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "mismatch",
+      "update": "joint",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    },
+    {
+      "generation": "mismatch",
+      "update": "conditional",
+      "queries": 2,
+      "tasks": 5,
+      "mean_gain": 0.06470221533644596,
+      "mean_regret": 0.060839854783969506
+    },
+    {
+      "generation": "mismatch",
+      "update": "conditional",
+      "queries": 4,
+      "tasks": 5,
+      "mean_gain": 0.07798964945436578,
+      "mean_regret": 0.047552420666049686
+    },
+    {
+      "generation": "mismatch",
+      "update": "conditional",
+      "queries": 8,
+      "tasks": 3,
+      "mean_gain": 0.18709106000415943,
+      "mean_regret": 0.0
+    }
+  ],
+  "new_full_trainings": 0,
+  "cumulative_full_trainings": 464,
+  "results_sha256": "e6df68c534727e6c9113f8aa2a561d60de9d39e241759997f5dae152d0f01bce"
+}

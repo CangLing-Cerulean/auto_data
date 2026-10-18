@@ -1,0 +1,331 @@
+{
+  "status": "PASS",
+  "members": {
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/.gitignore": {
+      "bytes": 120,
+      "sha256": "1431b340ad137d829a05a0a94225dc17d053f5da5617b9c86b4317557b2f5415"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/authorization_and_failures.json": {
+      "bytes": 994,
+      "sha256": "347e092bbf82100740ea0d0780cd16eab5144af0a9330ebacd67239e06fc0d2a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/compile_receipt.json": {
+      "bytes": 352,
+      "sha256": "0f10f8970ec10ef2b5f06c757c71b544a0ac4b5581ae8ee45ee567737500748f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/core_check.json": {
+      "bytes": 804,
+      "sha256": "d910059c34698b290c5ba03e8d079a540e6030a543f935f4f8cbffd4003df35d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/deployment_lock.json": {
+      "bytes": 854,
+      "sha256": "8f54acd59be042f16797557f51ff1623333ab5d2758febd0aaf090f5859bb4e2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/deployment_receipt.json": {
+      "bytes": 99,
+      "sha256": "5bafdbda6048cdd42c7dc0098de4d946af319fdbe95d1aa389f6f7cdede0dc48"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/DEVELOPMENT_DESIGN.md": {
+      "bytes": 3120,
+      "sha256": "8ea16a0c0bf959daa633679e57b666858f89f4ed597d4f40aa225120bb9d4495"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/development_pool.json": {
+      "bytes": 311017,
+      "sha256": "f7f83160f02d7f080da27f08494851c78445fc353f700768b0fa037cca0ff552"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/ENGINEERING_LOG.md": {
+      "bytes": 943,
+      "sha256": "dee1d84955afded27bbc21ed4cff121ef02e9d89c83c9a9bb6f3a44613c5e620"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/ett_extraction.json": {
+      "bytes": 65034,
+      "sha256": "e292effa11563b1259543a43e94e91baae6ad2760627550d7a449253afa5eda9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/extraction.log": {
+      "bytes": 65,
+      "sha256": "33b2e6060568b5ca663f2e57cab76b603bd19ec4926777bc283f580d4ab52d90"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/extraction_exit.json": {
+      "bytes": 45,
+      "sha256": "d3d175f68897307e59f52b1b159428e6946dee1d9cf317b2424dd519c06fd0d3"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/extraction_lock.json": {
+      "bytes": 977,
+      "sha256": "4206493226016a333e2f003497678aa4976c1bad77e18e08771991ea1d6eada4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/extraction_started.json": {
+      "bytes": 30,
+      "sha256": "44d216b9fdec79b90f5650a282ada7e9fddf138508a8dba2ca6b70f4b1d5988f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_replay_audit.json": {
+      "bytes": 7370,
+      "sha256": "3bf0b7fed56bffd2f153a7fdca7950af3909552fa3b8f425963ee275b9ea1914"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_replay_audit_check.py": {
+      "bytes": 25981,
+      "sha256": "8127e2163637d02666cedca818c2659ba1a3532bb19399dbc0026968771e226b"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_signal_replay/decisions.csv": {
+      "bytes": 11784,
+      "sha256": "0870de31615f3559f27a7ff2fb4f788bdb887ab2464da33dfef4773d0257689a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_signal_replay/results.json": {
+      "bytes": 4471120,
+      "sha256": "e6df68c534727e6c9113f8aa2a561d60de9d39e241759997f5dae152d0f01bce"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/generated_signal_replay/summary.json": {
+      "bytes": 3710,
+      "sha256": "ab4180906dec0e38adbfaf3d6ce2d78e26e8671c15df2587232abbd14c93c02a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/hydraulic_extraction.json": {
+      "bytes": 202210,
+      "sha256": "ac28e0fb6ccacb058547b662d7a1d9c5fb88a8229e58628755f5b8bdf242d2a9"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/manual_expert_replay/decisions.csv": {
+      "bytes": 27556,
+      "sha256": "36b18c4389b28e3058c016535d4387500aea021ddb76f0ddab637f8cf4d54d20"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/manual_expert_replay/results.json": {
+      "bytes": 26423949,
+      "sha256": "dc7112ebd392ff951cccb10ede8ef421e17044c61505599d006375f27081bd92"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/manual_expert_replay/summary.json": {
+      "bytes": 13052,
+      "sha256": "040562f6ef6e76ce221aa7e374ec648ca2df021dd654f8e48cbeb8d69ade4bdb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/paper/main.tex": {
+      "bytes": 10269,
+      "sha256": "59c62d18888ad8d0ad952f8c6af5f409cc33fc007b780428d835017472df18bb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/progress.json": {
+      "bytes": 1002,
+      "sha256": "1c4b140060fe80e13adace7e3e8efccc46f34b36ac11a4c3ef16270e13ab0de0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/PROTOCOL.md": {
+      "bytes": 4839,
+      "sha256": "83fdd3a261ab24a4ef66dae85c0252da8ee3d36dee5bc593b6ebd57e9daa650d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/RELEASE_NOTES.md": {
+      "bytes": 1138,
+      "sha256": "528d136dbc8275110fc08afa994eadd2071df87b9573e67382064960df3a0559"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/replay_audit.json": {
+      "bytes": 5511,
+      "sha256": "6c16d62cfb7272381d2571dda49ab2799de59e482c4ddb5693729e94faa1d9c0"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/replay_audit_check.py": {
+      "bytes": 11715,
+      "sha256": "da315ade2eecd6a9ad9a458b92484684ec0e93f564a8053ee03e4df0a594260c"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/REPORT.md": {
+      "bytes": 6775,
+      "sha256": "fdf9f8eeb4f0f98866c658148404e06bc0d69102a907a7d7bb1a55611082780a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/request_receipt.json": {
+      "bytes": 351,
+      "sha256": "a77a58699aca6c656162027690cb4bd457ac9f68b519374da3b4330ef298a028"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/REVIEW.md": {
+      "bytes": 607,
+      "sha256": "18419e19ef2a64a2ea2b84a71538989211454aafe4cb892c2cd9fe7ed2ecad71"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/events.jsonl": {
+      "bytes": 1710,
+      "sha256": "090859b345cfa3fc1f71cc966c4a3e4a39561a2e175b781323d7446fa2972640"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/input.json": {
+      "bytes": 18465,
+      "sha256": "4fd0a4f6e341c684968d5bb38bc5fe6828be496e205129307cd8c650a05f4877"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/prompt.txt": {
+      "bytes": 15479,
+      "sha256": "67c51b7c516914213c3250c2225a8620617b8e62ff1131593a7939ae8c767929"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/receipt.json": {
+      "bytes": 386,
+      "sha256": "b9d6da399d50b2f959c7d2adf3bc9c8570742f3df760149eb02d59aac69e9d3d"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/response.json": {
+      "bytes": 940,
+      "sha256": "d8d9eff779b6740693c498ee692079f62748cd238b884ca48cd4bbe79c8c778a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/started.json": {
+      "bytes": 90,
+      "sha256": "53c9a8ae6b5c28adf71450e23b9f35646aa8f55d5d1a3d4b795233d0c3340321"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/stderr.log": {
+      "bytes": 1390,
+      "sha256": "f4f0ec8f67bc8758805b5ef09f8f13cbf3c875875f1ebf8e14a8b5e8533e1080"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_mismatch/validation_receipt.json": {
+      "bytes": 659,
+      "sha256": "8f77adb1dfbd581c8227dbbf3a1df1e9af59eb85042ef23f25c539925cfb4fbd"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/events.jsonl": {
+      "bytes": 2771,
+      "sha256": "26420b003e270ff830fb98573202dc2ca60b931fd1c3b1e58e606c1cac92a0f6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/input.json": {
+      "bytes": 18465,
+      "sha256": "4fd0a4f6e341c684968d5bb38bc5fe6828be496e205129307cd8c650a05f4877"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/prompt.txt": {
+      "bytes": 15337,
+      "sha256": "2bc3964d9721540f157ce1d70e7cd3e4ed7ec0bbc9cc13b38882abf9ff23b547"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/receipt.json": {
+      "bytes": 386,
+      "sha256": "161eb5c049290674d504fe5f1ab4850699f8750066d23e99807171491b57f196"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/response.json": {
+      "bytes": 1943,
+      "sha256": "b245544e98bff19d79d6b9ad58b8856f02470a0c4256244dc030f7739b308c3a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/started.json": {
+      "bytes": 90,
+      "sha256": "3229d57bb45da55611ae22d15a6869f3260b5cb4ac4ef00efe8cf6d1f31d3fa5"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/stderr.log": {
+      "bytes": 1390,
+      "sha256": "0127fefbfa29b0f6b2f952a81ef86a377e91336936c492e5b1d4ddc67c2a1c5a"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/ETT_ordinary/validation_receipt.json": {
+      "bytes": 659,
+      "sha256": "23858c6ec2d2d14d2912dd7a339489aad313671938216edbb09db852c8fd5923"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/evaluation_lock.json": {
+      "bytes": 634,
+      "sha256": "e4ba0b10ae48a35f45421efc5759404ab260ed3a2a14263162892db0e29f02c4"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/generation_lock.json": {
+      "bytes": 1775,
+      "sha256": "178613bfa28de96a56e1aadba400d7ce2243ded86779321e8aa3299cdd92065e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/events.jsonl": {
+      "bytes": 2034,
+      "sha256": "8e5f1f5dbe8038e1ca20bd446b5cf41fc6b8330f59b4497c59547c00ded24d64"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/input.json": {
+      "bytes": 52217,
+      "sha256": "8859706169587702c0b292023f66067585136f5e110c9a475e6ca57bab9f2de8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/prompt.txt": {
+      "bytes": 39823,
+      "sha256": "2e7ababc1c01d3df572fb601035f39c1044537800a361b2ad0dd7258f6a0fbb2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/receipt.json": {
+      "bytes": 386,
+      "sha256": "84e941410b388914f38daeaebf8674ef0e39d68af8f4c60a219de00fed381201"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/response.json": {
+      "bytes": 1264,
+      "sha256": "1541423bf0de82f1f6cf5062f153446591abc76ba10bdd7843f66a5f42c9a1be"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/started.json": {
+      "bytes": 90,
+      "sha256": "4c61e01c3c6fda8803f2c6d0efb5d302f2592f8c357eea5261f8de0860142bb2"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/stderr.log": {
+      "bytes": 1390,
+      "sha256": "725627904eba082b87288a37bb53e75a8cc45e1d4e03e0284a079590d146ce9f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_mismatch/validation_receipt.json": {
+      "bytes": 659,
+      "sha256": "e58a51c7cf54b7073886941740b3d3f78b92476f3c05e983124fd131ea35fe9f"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/events.jsonl": {
+      "bytes": 2596,
+      "sha256": "ca1a3f413116be5675210fd590fc785d2b58d8bab06c4da05e2e70b4bd660512"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/input.json": {
+      "bytes": 52217,
+      "sha256": "8859706169587702c0b292023f66067585136f5e110c9a475e6ca57bab9f2de8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/prompt.txt": {
+      "bytes": 39681,
+      "sha256": "b6994bf79b9434a89d7c3e9db17b82bfb4d17e1de4e0b26f0af1db7e60e07740"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/receipt.json": {
+      "bytes": 386,
+      "sha256": "72ded7a16b188ca9cba3a25dd4127be3540c513d626bcef9952e9cf19c9494ed"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/response.json": {
+      "bytes": 1786,
+      "sha256": "247901b8faab5476c1ac03a636c3c36dc796c6904f399cf280c701e9e15a6060"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/started.json": {
+      "bytes": 90,
+      "sha256": "be096c50ef88f48fcd885441b3dbab2d7e3177441a0ef39b48593798f2112a29"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/stderr.log": {
+      "bytes": 1390,
+      "sha256": "063e9673d4164ab3e845f9a0c60ac53b436cf2576eee1bb3f8e25938c94ea8f6"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/Hydraulic_ordinary/validation_receipt.json": {
+      "bytes": 659,
+      "sha256": "55b5567bfdc4c62c0e005c553db953961b6bb1aff7a765cee1490a24b129f509"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/signal_generation/schema.json": {
+      "bytes": 953,
+      "sha256": "5774c1a01d9b98c05deab71059738c9f82dac809423cd6cef399bdd84a8d9f6e"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/SIGNAL_GENERATION_PROTOCOL.md": {
+      "bytes": 2701,
+      "sha256": "a273784732bf0e0f677426ff71fe6b41140cf5950e340ee6bdc1d6d8d78eb9eb"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/SOURCE_METADATA.md": {
+      "bytes": 1665,
+      "sha256": "f6ce2f4ef54205c33bac11a21879f298fa5e15c6da0b8f03671a5e08d75406e8"
+    },
+    "research_runs/agent_research/intervention_diagnosis/20261018_conditional_diagnosis_r1/source_publication_receipt.json": {
+      "bytes": 410,
+      "sha256": "45249a76138a4e7ef7df9215ea559975460a97684fc683cc687394f5a630cc12"
+    },
+    "scripts/build_conditional_development.py": {
+      "bytes": 7151,
+      "sha256": "d9ec77f0c1cbd33b3f54603ffce3db5bfc6448e26ee230c251c88b34ac7f8799"
+    },
+    "scripts/check_conditional_diagnosis.py": {
+      "bytes": 4238,
+      "sha256": "a3943d819b52103ff215e304996507ba75b41593124602676f0a285b26113872"
+    },
+    "scripts/conditional_diagnosis.py": {
+      "bytes": 12295,
+      "sha256": "e2fd65cd0a113f5bf778248d68b566b39bac1137e14cbbc40a0ae40bb4bba9ee"
+    },
+    "scripts/diagnosis_pool_features.py": {
+      "bytes": 5047,
+      "sha256": "73075671253d248e2a1bba7b31de3866fadf21f89afce99f1d5ffec18d47d7f5"
+    },
+    "scripts/extract_ett_diagnosis.py": {
+      "bytes": 4754,
+      "sha256": "ee96ee15d7aa274b39c0c6f8fd76200dd23e79e4932e9140606fbe585ba84875"
+    },
+    "scripts/generate_conditional_signals.py": {
+      "bytes": 9726,
+      "sha256": "d304992b5ab94a9f13254dc88175f4276b418583d4475f00fbbfdc3f21cd42cd"
+    },
+    "scripts/manage_conditional_diagnosis.py": {
+      "bytes": 5481,
+      "sha256": "44c0d0af0d73b91d287f339d5142535622201d1ce539d2744ebd5e870c513697"
+    },
+    "scripts/package_conditional_development.py": {
+      "bytes": 2162,
+      "sha256": "060cad2a571cf16dc23d9754b914f92b6bc2db05f6a5c5dc0f386b0043414b76"
+    },
+    "scripts/replay_conditional_diagnosis.py": {
+      "bytes": 10655,
+      "sha256": "5a1f5f4ba5d43db7ac86b7f58e7de189bd4b961f161f48d5312554ff8c52be7a"
+    },
+    "scripts/replay_generated_signals.py": {
+      "bytes": 4921,
+      "sha256": "f11434a607ad726560d70d35249748bbe52782c2cfc7dd382ab400cdbe7f4c51"
+    },
+    "scripts/validate_generated_signals.py": {
+      "bytes": 2062,
+      "sha256": "c8b815c2c1f7c036a85b9ae2f37f2cea0b889df6ce51f4d0490729ef6b553ac5"
+    }
+  },
+  "count": 81,
+  "raw_bytes": 31966851
+}
