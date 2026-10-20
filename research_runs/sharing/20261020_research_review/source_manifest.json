@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-20",
+  "scope": "Existing reports and primary literature; no new scientific experiments",
+  "new_complete_training": 0,
+  "cumulative_complete_training": 515,
+  "new_experimental_llm_calls": 0,
+  "source_count": 22,
+  "local_sources": [
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261012_stage1a_r1/SELECTION_CONFIRMATION_REPORT.md",
+      "bytes": 4048,
+      "sha256": "01bd3d94a26d109d7bbc6b480b5ecbb2438e109c2d7779245c4190dada07f0a0"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261013_hydraulic_signal_r1/REPORT.md",
+      "bytes": 7060,
+      "sha256": "00eb8a029c9be5a99aec10ac9ed91f990101cd9e09d3fe411f3fd74fa789be3c"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_existing_sources_r1/STOP_REPORT.md",
+      "bytes": 4257,
+      "sha256": "785877dd0956b19cfb4964742990d7eb41d65f02c2ed6f527005339f5600115c"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_file_transfer_r1/CLAIM_CLOSURE.md",
+      "bytes": 5785,
+      "sha256": "2747b091106be22ea4c084a5856086f0a7a1481dc58df2758f5c64df63f79718"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md",
+      "bytes": 6394,
+      "sha256": "a05e99f5d3e6c5fa12739e93f1dc6ee3eecfaccc103102edc18783380bc27101"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261014_sampling_weight_information_r1/REPORT.md",
+      "bytes": 5456,
+      "sha256": "b4ff4876ee0a5f6c14f16148b8899a76e997782ab0fa3a60ea493fd0ee975947"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261015_fourgroup_m1_r1/FORECAST_REPORT.md",
+      "bytes": 5525,
+      "sha256": "b8c85c2c127752cf67dbe2ee39b4600ebdb45f26ab6d505b949b4f5bd1d0edb4"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261015_n1_path_engineering_r1/FD_REPORT.md",
+      "bytes": 4254,
+      "sha256": "b832f07832acae1cef4907fcfb56b79f77c1b845b929182a49e6c11e9d39ee8b"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261015_paper_evidence_r1/manuscript.tex",
+      "bytes": 27736,
+      "sha256": "04382683928203b933392e29d2f7ff0fee280bff68c8fdb2d6047d65613bcc52"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_cold_start_r10/REPORT.md",
+      "bytes": 3956,
+      "sha256": "9568e289e139e8e1c33827ac3c14128be15f80947d3becc6842cf5249e69cc4f"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_conditional_interactions_r8/REPORT.md",
+      "bytes": 5867,
+      "sha256": "aa7f637e022a79cc0a7157572d4a9a46cabb557d9d4c6c00d49576227165be52"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_decision_support_r7/MAINLINE_ALIGNMENT.md",
+      "bytes": 3520,
+      "sha256": "fc3849546b459a7921499be3892012596c18c467a4d013aaa258a43b0ff3aa80"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_feedback_forks_r6/REPORT.md",
+      "bytes": 5178,
+      "sha256": "68b3295034d32d6d2488631e5435bb63b84ebc1716d3baf4cd7a52fa7230b205"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/paper/main.tex",
+      "bytes": 28498,
+      "sha256": "0747af1411e6dd38ad25d04cf9020a1be25b723fb1ae710e074a625e35383031"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_measurement_generation_r4/REPORT.md",
+      "bytes": 6054,
+      "sha256": "ddf37aa4ef36346f9b4fc22824c106e6b7194d1e8b7168c40313e63185433bf1"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_open_processing_r11/INTERRUPTION_REPORT.md",
+      "bytes": 2606,
+      "sha256": "bba29084e46add10c330c3f76c370b82bfdc55eff9d94a6eedde4a745f3f13a9"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/RELATED_WORK.md",
+      "bytes": 2165,
+      "sha256": "6b01cc82caa96a3c97e837176d70bd222a820346596f189c8d7db7f61ff48cb9"
+    },
+    {
+      "path": "research_runs/agent_research/intervention_diagnosis/20261018_strong_agent_r5/REPORT.md",
+      "bytes": 6327,
+      "sha256": "f9e8c1c76d2ed4ed7e1e1742c4c1015822f32fe76074f3624c90f2e9e191a65d"
+    },
+    {
+      "path": "research_runs/direct_processing/20261009/REPORT.md",
+      "bytes": 8901,
+      "sha256": "c08ff6bd24e7bf6d0468de3a07a85893c79e23dff77b3794a8c0b856308dfb40"
+    },
+    {
+      "path": "research_runs/ett_confirmation/FINAL_REPORT.md",
+      "bytes": 3412,
+      "sha256": "df9b32e8904b16af915423a305e42c631dc21a0340572cc29e426a13e24f0c1a"
+    },
+    {
+      "path": "research_runs/model_exploration/REPORT.md",
+      "bytes": 6218,
+      "sha256": "d8856f5006c01de3ca525e71059fd624153d77b600ffc06457f7f7e87516d1e5"
+    },
+    {
+      "path": "research_runs/platform/20261020_engineering_r1/REPORT.md",
+      "bytes": 5088,
+      "sha256": "a31f92fb32d281d0a0e2be51dc76099274926d1083ba271a7528679240bf1f26"
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://arxiv.org/html/2512.06749v2",
+      "title": "DoVer",
+      "basis": "Author full text, sections 4.1 and 4.2"
+    },
+    {
+      "url": "https://aclanthology.org/2025.findings-acl.1177/",
+      "title": "LADDER",
+      "basis": "Official publication abstract"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.00384v1",
+      "title": "VESTA",
+      "basis": "Author full text, introduction and section 3.1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01538",
+      "title": "TimeSeriesScientist",
+      "basis": "Author abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.00319",
+      "title": "TSAA",
+      "basis": "Author abstract and publication metadata"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v300/taga26a.html",
+      "title": "Filter, Augment, Forecast",
+      "basis": "Official publication abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.14949",
+      "title": "Addressing Concept Shift in Online Time Series Forecasting: Detect-then-Adapt",
+      "basis": "Author abstract"
+    }
+  ],
+  "limitations": [
+    "Report-based synthesis; original arrays and checkpoints were not independently re-audited in this review",
+    "Literature comparison is targeted, not an exhaustive novelty proof",
+    "Historical stop and failure identities remain unchanged"
+  ]
+}
