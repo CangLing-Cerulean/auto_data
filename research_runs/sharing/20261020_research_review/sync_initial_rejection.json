@@ -1,0 +1,13 @@
+{
+  "status": "automatic_approval_rejected_before_execution",
+  "operation": "publish review commit 60cbf4e1bcd53e445a8fef04a02bd99c497319df to existing GitHub repository",
+  "reason": "Initial review did not establish authorization for the research report and source manifest at the specific destination.",
+  "additional_evidence_before_resubmission": [
+    "Standing user-provided instruction requires stage reports, code, results and failure records to be synchronized to the existing GitHub repository.",
+    "Configured origin was checked as github.com/CangLing-Cerulean/auto_data.git.",
+    "The preceding platform publication receipt verifies the same repository.",
+    "The submitted commit contains only REPORT.md and source_manifest.json."
+  ],
+  "retry_scope": "Same script, commit and destination; no alternative transport or bypass.",
+  "final_status_source": "sync_receipt.json"
+}
