@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "scope": "synthetic local platform engineering",
+  "tests": [
+    {"command": "python -B -m unittest discover -s tests -p test_platform_studies.py -v", "passed": 12, "seconds": 5.141},
+    {"command": "python -B -m unittest discover -s tests -p test_stream_journal.py -v", "passed": 10, "seconds": 5.838},
+    {"command": "python -B -m unittest discover -s tests -p test_platform_streams.py -v", "passed": 3, "seconds": 13.622, "log": "stream_recovery_final.log"}
+  ],
+  "total_distinct_tests_passed": 25,
+  "example_workflow": {"steps": 2, "attempts_after_resume": 2, "verified": true},
+  "example_replay": {"origins": 40, "prediction_rows": 80, "jobs_completed": 1, "models_registered": 1, "monitoring_windows": 5},
+  "new_research_full_trainings": 0,
+  "cumulative_research_full_trainings": 515,
+  "new_experiment_llm_calls": 0,
+  "real_research_arrays_read": false,
+  "D_or_test_read": false,
+  "server_deployment": false,
+  "production_endurance_test": false,
+  "r11_resumed": false
+}

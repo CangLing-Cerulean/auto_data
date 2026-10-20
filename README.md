@@ -1,6 +1,8 @@
-# 时序数据诊断与处理研究
+# 时序科研与滚动预测平台
 
 当前目标是让 Agent 定位预测性能不足，编写针对性的数据处理代码，执行受控训练，并依据实际反馈修正判断。主要研究变量是数据处理；当前批次固定原 DLinear、训练参数和预测任务。
+
+统一工程入口为 `python -m online_ts.platform`。平台已整合实验冻结、执行收据、恢复与对账，以及持续数据接入、滚动预测、后台训练、监视和模型发布。安装、合成演示、真实流接入和扩展接口见[平台使用说明](docs/PLATFORM.md)。
 
 面向研究交流的完整[数据探索与训练结果汇总（2026-10-13）](research_runs/sharing/20261013_data_exploration/REPORT.md)包含数据身份、任务划分、方法、对照、逐种子结果、负结果、成本和复现资产；出处与SHA256随稿保存。
 
@@ -16,22 +18,23 @@
 
 ## 当前阶段
 
-2026-10-14主线为“固定预测骨干下，面向数据干预的不足诊断与反馈决策学习”。最新[M1训练数据选择开发报告](research_runs/agent_research/intervention_diagnosis/20261014_proxy_selection_recovery_r1/REPORT.md)：36个完整子训练经恢复及独立补审计完成；响应MAE为3.995584个百分点（RAW 9.812603），平均推荐改善18.336131%，比最强短训对照高0.777702个百分点。原精度、选择增量和预算门槛全部通过；当前证据仅来自已揭示Hydraulic开发源。
+2026-10-20 当前工作为可扩展科研平台工程完善与滚动数据预测。研究主线仍是“固定预测骨干下，诊断信号学习与诊断—方案分离更新”。[r10 冷启动报告](research_runs/agent_research/intervention_diagnosis/20261018_cold_start_r10/REPORT.md)记录 16 次查询、32 次 Sol high 和 51 次训练；双方在 2/4/8 节点均选择父模型，尚无选择增量。
 
-累计完成**367次完整训练**。此前27次的原阶段数值审计失败仍保留，独立补验记录单列；本轮原进程中断、首次存储审计失败及未知中断耗时也保留。历史外部API为2544次尝试、14389704个实际已知tokens；40条未知用量和347757个预约tokens分列，近期Sol high内部用量未知。没有重置历史成本。
+累计完成**515次完整研究训练**。[r11 开放处理](research_runs/agent_research/intervention_diagnosis/20261018_open_processing_r11/INTERRUPTION_REPORT.md)首次调用因传输异常按冻结规则失败并停止，未执行生成程序、未增加研究训练，原始记录及失败成本保持。工程合成示例与测试单列，不能计为科学效果证据。
 
-下一步按原门槛设计单一M1独立来源确认，先完成数据身份、任务/动作、强基线及存储验收；当前没有新训练或测试队列。旧signal v2九槽位已结束（6个B0、3失败），语义验收仍单列待补；不重启旧ID。接续以[HANDOFF](research_runs/HANDOFF.md)、[state](research_runs/state.json)和最新阶段报告为准。
+当前没有新科研训练或测试队列。r11 恢复须另行冻结传输处理与恢复方案，平台实现不重开旧批次。D/test 与已登记存储禁区保持。研究接续以[HANDOFF](research_runs/HANDOFF.md)、[state](research_runs/state.json)和最新阶段报告为准。
 
 ## 项目入口
 
-- [下一步](research_runs/NEXT_STEPS.md)：保持单一M1，设计独立来源确认及强对照，不依已揭示D或旧测试设计方法。
+- [平台使用说明](docs/PLATFORM.md)：实验工作流、持续预测、监视、恢复和扩展。
+- [下一步](research_runs/NEXT_STEPS.md)：研究执行边界与接续事项。
 - [研究概览](research_runs/OVERVIEW.md)：有效成果及尚未证明的结论。
 - [冻结经验库 v2](research_runs/agent_research/memory/v2/README.md)：144条可质疑的历史证据；其来源报告仍保留原路径和哈希。
 - `online_ts/`、`scripts/`、`tests/`：当前运行组件、有效成果的复现依赖及测试。
 - `data/metropt3_v1/`：[不可变基础数据身份](data/metropt3_v1/manifest.json)，[原任务协议](research_runs/PROTOCOL.md)。
 - `archives/capability_acceptance_20261010_v4/`：最新成功工程复现的完整冻结资产。
 
-所有研究 Python、API 调用和模型训练在专用4090服务器执行。本地负责编辑、文件整理、同步与审阅。预处理仅在训练分区拟合，验证真值及困难样本不得删除，旧测试已用过且不能再用于探索或称为未见数据。
+真实研究 Python、API 调用和模型训练在专用4090服务器执行。本地负责编辑、文件整理、同步、审阅及合成工程测试。预处理仅在训练分区拟合，验证真值及困难样本不得删除，旧测试已用过且不能再用于探索或称为未见数据。
 
 ## 本次整理
 

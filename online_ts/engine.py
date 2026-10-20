@@ -423,6 +423,15 @@ class Engine:
         width = self.config.evaluation_ns
         previous_windows = {(window["window_start"], window["window_end"]): window
                             for window in self.store.monitoring_windows(self.key, model_id)}
+        if track_degradation:
+            # Window evidence is durable before the task's derived summary.
+            # Reconstruct it so a crash between those commits cannot preserve
+            # withdrawn evidence or miss an already-committed evaluation.
+            state_history = {}
+            for _, saved in sorted(previous_windows.items()):
+                if saved["label_state"] in {"complete", "revised"}:
+                    state_history, degraded = degradation(saved["evidence"], state_history, self.config,
+                        offline_reference=entry["report"]["offline"]["normalized_mse"])
         input_counts = self.store.prediction_window_counts(self.key, model_id, first_issue, width, now)
         window_start = first_issue
         ordinal = 0
@@ -488,6 +497,15 @@ class Engine:
                              "window_end": window_end, "state": label_state,
                              "coverage": evidence["label_coverage"], "origins": evidence["origins"]},
                             now, f"labels:{model_id}:{window_start}:{label_fingerprint}")
+                        if track_degradation and previous and previous["label_state"] in {"complete", "revised"}:
+                            # A newly received immature correction retracts the old
+                            # truth. Remove this window from degradation evidence too.
+                            state_history, degraded = {}, False
+                            for key, window in sorted(previous_windows.items()):
+                                if key == (window_start, window_end) or window["label_state"] not in {"complete", "revised"}:
+                                    continue
+                                state_history, degraded = degradation(window["evidence"], state_history, self.config,
+                                    offline_reference=entry["report"]["offline"]["normalized_mse"])
                     else:
                         kind = ("MONITORING_WINDOW_REVISED" if label_state == "revised"
                                 else "MONITORING_WINDOW_EVALUATED")
@@ -662,9 +680,30 @@ class Engine:
                                   "APPROVAL_RECHECK_FAILED", {"code": str(error)}, now)
             state = self._state()
         watermark = now - int(self.config.allowed_lateness_seconds * SECOND)
-        start = watermark - (self.config.search.required_history + max(self.config.search.inputs) + self.config.horizon_steps) * self.config.step_ns - self.config.evaluation_ns
+        start = max(0, watermark - (self.config.search.required_history + max(self.config.search.inputs) + self.config.horizon_steps) * self.config.step_ns - self.config.evaluation_ns)
+        labels_synced = False
         try:
-            observed = self.source.read_until(now)
+            # Label settlement is independent of fresh inputs: a stopped producer
+            # must not prevent late truth or corrections from reaching old forecasts.
+            if hasattr(self.source, "labels_until"):
+                mature = self.source.labels_until(now)
+                mature = mature.loc[mature.index <= watermark]
+                labels = [(int(t), variable, float(value))
+                          for t, row in zip(mature.index.to_numpy(dtype=np.int64), mature.to_numpy())
+                          for variable, value in zip(mature.columns, row) if np.isfinite(value)]
+                versions = {(target, variable): mature.attrs.get("source_versions_by_time", {}).get(
+                    target, "source:" + str(mature.attrs.get("availability_by_time", {}).get(target, target)))
+                    for target, variable, _ in labels}
+                for target, version in mature.attrs.get("withheld_labels_by_time", {}).items():
+                    if target <= watermark:
+                        for variable in self.config.variables:
+                            labels.append((int(target), variable, None))
+                            versions[(int(target), variable)] = version
+                self.store.record_tick(self.key, now, None, [], labels, label_versions=versions)
+                labels_synced = True
+            # Keep ingestion and alignment proportional to the rolling window,
+            # not the lifetime of a live arrival journal.
+            observed = self.source.read_until(now, start=start)
             if observed.empty:
                 raise GateError("DATA_INSUFFICIENT")
             anchor = int(observed.index[0])
@@ -678,15 +717,9 @@ class Engine:
             # Inference consumes values only. Keep training/label metadata on
             # stable and mature, not on the temporary forecast matrix.
             forecast_grid.attrs = {}
-            if hasattr(self.source, "labels_until"):
-                mature = self.source.labels_until(now)
-            else:
+            if not labels_synced:
                 # A boolean attestation cannot supply missing arrival/version evidence.
                 mature = observed.iloc[0:0]
-            mature = mature.loc[mature.index <= watermark]
-            labels = [(int(t), variable, float(value))
-                      for t, row in zip(mature.index.to_numpy(dtype=np.int64), mature.to_numpy())
-                      for variable, value in zip(mature.columns, row) if np.isfinite(value)]
             if not state["champion"] and not state["challenger"] and not self.store.active_job(self.key):
                 self._request_training(stable, watermark, now, "INITIAL_TRAINING")
             forecasts = []
@@ -741,14 +774,24 @@ class Engine:
                     for f in forecasts:
                         if f["role"] == "champion":
                             f["published"] = True
-            versions = {(target, variable): "source:" + str(mature.attrs.get("availability_by_time", {}).get(target, target))
-                        for target, variable, _ in labels}
-            self.store.record_tick(self.key, now, issue, forecasts, labels, label_versions=versions)
+            self.store.record_tick(self.key, now, issue, forecasts, [])
             self._monitor(now, watermark, mature if isinstance(self.source, ReplaySource) else stable)
             current = self._state()
             if current["status"] == "DEGRADED":
                 self.store.change(self.key, lambda s: s.update(status="SERVING" if s["champion"] else "DATA_BLOCKED"), "DATA_RECOVERED", {}, now)
         except GateError as error:
+            if labels_synced:
+                # Settle historical evidence without training or promotion when
+                # current inputs cannot serve. Keep the source fault as the status.
+                for model_id in self.store.model_ids_with_predictions(self.key):
+                    try:
+                        history, _, _ = self._evaluate_mature_windows(model_id, now,
+                            track_degradation=model_id == self._state()["champion"],
+                            history=self._state()["monitor"])
+                        if model_id == self._state()["champion"]:
+                            self.store.change(self.key, lambda s: s.update(monitor=history))
+                    except GateError:
+                        continue
             self.store.change(self.key, lambda s: s.update(status="DEGRADED" if s["champion"] else "DATA_BLOCKED", now=now,
                 monitor={**s["monitor"], "count": 0, "triggered": False,
                          "regimes": {name: {**value, "counts": {}} for name, value in s["monitor"].get("regimes", {}).items()}}),

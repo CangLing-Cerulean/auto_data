@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "name": "synthetic_workflow",
+  "workspace": "../..",
+  "inputs": {
+    "program": {"path": "examples/platform/study_step.py", "role": "code"}
+  },
+  "steps": [
+    {
+      "id": "measure",
+      "depends_on": [],
+      "command": ["{python}", "{workspace}/examples/platform/study_step.py", "measure", "{context}"],
+      "timeout_seconds": 10,
+      "outputs": ["measurements.json"]
+    },
+    {
+      "id": "evaluate",
+      "depends_on": ["measure"],
+      "command": ["{python}", "{workspace}/examples/platform/study_step.py", "evaluate", "{context}"],
+      "timeout_seconds": 10,
+      "outputs": ["metrics.json"]
+    }
+  ]
+}

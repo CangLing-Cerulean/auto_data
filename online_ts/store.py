@@ -15,7 +15,7 @@ from .config import GateError, TaskConfig, canonical, digest
 class Store:
     """All lifecycle state and externally visible predictions share one transaction domain."""
 
-    SCHEMA_VERSION = 8
+    SCHEMA_VERSION = 9
 
     def __init__(self, path: str | Path):
         self.path = Path(path).resolve()
@@ -79,7 +79,7 @@ class Store:
                     payload TEXT NOT NULL, disposed_ns INTEGER NOT NULL);
                 CREATE TABLE IF NOT EXISTS label_revisions (
                     task_key TEXT NOT NULL, target_ns INTEGER NOT NULL, variable TEXT NOT NULL,
-                    revision INTEGER NOT NULL, value REAL NOT NULL, observed_ns INTEGER NOT NULL,
+                    revision INTEGER NOT NULL, value REAL, observed_ns INTEGER NOT NULL,
                     source TEXT NOT NULL,
                     PRIMARY KEY(task_key,target_ns,variable,revision));
                 CREATE INDEX IF NOT EXISTS label_revisions_asof
@@ -118,13 +118,10 @@ class Store:
                     actor TEXT NOT NULL, review_id TEXT NOT NULL, created_ns INTEGER NOT NULL,
                     PRIMARY KEY(source_id,review_id,actor));
             """)
-            # New databases start at this version. Existing versions are preflighted above.
-            db.execute("""INSERT OR IGNORE INTO label_revisions
-                (task_key,target_ns,variable,revision,value,observed_ns,source)
-                SELECT task_key,target_ns,variable,1,value,observed_ns,'legacy-labels'
-                FROM labels""")
-            for version in range(1, self.SCHEMA_VERSION + 1):
-                db.execute("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)", (version, time.time_ns()))
+            # v9 supports explicit label withdrawal using a null revision. Old
+            # databases remain untouched and require their frozen old package.
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)",
+                       (self.SCHEMA_VERSION, time.time_ns()))
 
     def schema_version(self) -> int:
         with self.connection() as db:
@@ -1062,6 +1059,10 @@ class Store:
             self._event(db, key, "ROLLED_BACK" if rollback else "PROMOTED", payload, now, operation)
 
     def record_tick(self, key: str, now: int, issue: int | None, forecasts: list[dict], labels: list[tuple], *, inject: Callable | None = None, label_versions: dict | None = None):
+        # None is an explicit withdrawal, never a numeric truth. The immutable
+        # revision history keeps prior as-of evaluations reproducible.
+        if any(value is not None and not math.isfinite(value) for _, _, value in labels):
+            raise GateError("LABEL_VALUE")
         with self.transaction() as db:
             state = json.loads(db.execute("SELECT state FROM tasks WHERE task_key=?", (key,)).fetchone()["state"])
             if state["stop_requested"]:
@@ -1082,8 +1083,12 @@ class Store:
                     db.execute("INSERT INTO label_revisions VALUES(?,?,?,?,?,?,?)",
                                (key, target, variable, revision, value, now, source_version))
                     latest_labels[(target, variable)] = {"revision": revision, "value": value, "source": source_version}
-                    db.execute("INSERT INTO labels VALUES(?,?,?,?,?) ON CONFLICT(task_key,target_ns,variable) DO UPDATE SET value=excluded.value,observed_ns=CASE WHEN labels.value=excluded.value THEN labels.observed_ns ELSE excluded.observed_ns END",
-                               (key, target, variable, value, now))
+                    if value is None:
+                        db.execute("DELETE FROM labels WHERE task_key=? AND target_ns=? AND variable=?",
+                                   (key, target, variable))
+                    else:
+                        db.execute("INSERT INTO labels VALUES(?,?,?,?,?) ON CONFLICT(task_key,target_ns,variable) DO UPDATE SET value=excluded.value,observed_ns=CASE WHEN labels.value=excluded.value THEN labels.observed_ns ELSE excluded.observed_ns END",
+                                   (key, target, variable, value, now))
             for f in forecasts:
                 db.execute("INSERT OR IGNORE INTO predictions VALUES(?,?,?,?,?,?,?,?,?,?,?)",
                            (key, f["model_id"], f["issue_ns"], f["target_ns"], f["variable"], f["horizon"], f["value"], f["role"], int(f["published"]), f["inference_ms"], f["quality"]))

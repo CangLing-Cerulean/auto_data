@@ -23,6 +23,7 @@ outputs/
 node_modules/
 dist/
 build/
+*.egg-info/
 research_runs/results/**/*.pt
 research_runs/results/**/*.tmp
 research_runs/results/**/*.log
