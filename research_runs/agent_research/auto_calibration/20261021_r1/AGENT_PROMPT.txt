@@ -1,0 +1,18 @@
+You choose training recipes for a fixed output calibrator. You must return the requested JSON only. Do not invoke any tool or consult files, the web, previous tasks, or external information. The supplied F/V summaries and this arm's history are your entire experimental evidence.
+
+The base forecaster is frozen. The calibrator is per-channel: calibrated = prediction + bias + tanh(gate)*W(concat(prediction, context)). Prediction has 96 horizons and 7 channels. Context is each channel's input mean, last observation, and population standard deviation. Weight is Xavier gain 0.1, gate and bias start at zero, so identity initialization exactly preserves the base output. No cross-channel parameters. This is an independently implemented structural baseline inspired by COSA, not an official reproduction.
+
+All optimizer data are from F only. F and V are consecutive disjoint source-row blocks with 529 windows each. Each window has 96 observed inputs and 96 true labels. F labels are fully mature before V begins. A later C block will be scored only after all choices are locked; no C feedback is available. F and V are historical development blocks, not an independent new source. V is used for recipe feedback and selection and never for gradient updates. Metrics use fixed A-training normalization.
+
+Choose exactly one recipe from this space:
+window: all, recent_half, recent_quarter (tail of F's time-ordered windows; ceil fractions).
+learning_rate: 0.0001, 0.0005, 0.001, 0.005.
+steps: 40, 80, 160; batch size 64, uniform sampling with replacement.
+loss: mse or huber (delta=1).
+weight_decay: 0 or 0.0001 (Adam weight_decay; no other L2 term).
+initialization: identity or incumbent (copy current best weights, always fresh Adam state).
+Adam betas=(0.9,0.999), eps=1e-8. Seed 2026102101 is the same for every candidate.
+
+You have four sequential proposal slots. You see the common identity and fixed-recipe results plus only your own preceding outcomes. Each valid unique recipe is trained on F and evaluated on all V. Repeating any of your own earlier recipes, or an invalid response, consumes the slot without training; there is no repair call. Identity and the common fixed recipe are both eligible incumbents. A candidate replaces the incumbent only if V MSE is strictly smaller; exact ties retain the incumbent. Optimize validation MSE; MAE and per-channel results are secondary diagnostics. Avoid fitting noise in a small development block. Your endpoint will be evaluated without further fitting on the later block.
+
+The random-search control has the same recipe space and four-proposal/160-update-per-proposal ceiling and the same common baseline. Actual training and model-call costs are recorded separately; these ceilings do not imply equal wall time. Warm starts inherit their parent's training lineage; do not treat inherited training as free. Return one recipe and a concise evidence-based reason.

@@ -1,0 +1,22 @@
+test_chronology_and_strict_dimensions (test_auto_calibration.AutoCalibrationTests.test_chronology_and_strict_dimensions) ... ok
+test_context_uses_only_given_observations (test_auto_calibration.AutoCalibrationTests.test_context_uses_only_given_observations) ... ok
+test_forward_matches_channel_by_channel_reference (test_auto_calibration.AutoCalibrationTests.test_forward_matches_channel_by_channel_reference) ... ok
+test_identity_initialization_and_rng_preservation (test_auto_calibration.AutoCalibrationTests.test_identity_initialization_and_rng_preservation) ... ok
+test_incumbent_is_copied_and_evaluation_never_updates (test_auto_calibration.AutoCalibrationTests.test_incumbent_is_copied_and_evaluation_never_updates) ... ok
+test_parameter_gradients_match_finite_differences (test_auto_calibration.AutoCalibrationTests.test_parameter_gradients_match_finite_differences) ... ok
+test_recipe_and_bad_data_are_rejected (test_auto_calibration.AutoCalibrationTests.test_recipe_and_bad_data_are_rejected) ... ok
+test_training_is_reproducible_and_does_not_modify_inputs (test_auto_calibration.AutoCalibrationTests.test_training_is_reproducible_and_does_not_modify_inputs) ... ok
+test_window_choice_is_chronological_and_nonempty (test_auto_calibration.AutoCalibrationTests.test_window_choice_is_chronological_and_nonempty) ... ok
+test_zero_input_offset_is_learnable (test_auto_calibration.AutoCalibrationTests.test_zero_input_offset_is_learnable) ... ok
+test_future_cannot_start_without_selection (test_auto_calibration_trial.TrialTests.test_future_cannot_start_without_selection) ... ok
+test_future_parent_tamper_checked_before_loading_data (test_auto_calibration_trial.TrialTests.test_future_parent_tamper_checked_before_loading_data) ... ok
+test_prompt_contains_only_declared_history (test_auto_calibration_trial.TrialTests.test_prompt_contains_only_declared_history) ... ok
+test_recipe_budget_and_determinism (test_auto_calibration_trial.TrialTests.test_recipe_budget_and_determinism) ... ok
+test_search_never_restarts_partial_run (test_auto_calibration_trial.TrialTests.test_search_never_restarts_partial_run) ... ok
+test_stable_ties_and_no_harmful_replacement (test_auto_calibration_trial.TrialTests.test_stable_ties_and_no_harmful_replacement) ... ok
+test_tool_use_or_incomplete_turn_rejected (test_auto_calibration_trial.TrialTests.test_tool_use_or_incomplete_turn_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.735s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "status": "passed_after_pre_execution_fixes",
+  "checked_utc": "2026-10-21T06:25:24.1507782Z",
+  "original_findings": [
+    "collab_tool_call missing from rejected events",
+    "F and V inference times not separated"
+  ],
+  "fixed": [
+    "reasoning and agent_message item allowlist; unknown items and turn.failed rejected",
+    "training, F inference, V inference recorded separately"
+  ],
+  "independent_event_cases_passed": 21,
+  "simulated_timing_check": "F=2s,V=5s,total=10s",
+  "real_trials_run_by_reviewer": 0,
+  "C_read_by_reviewer": false
+}

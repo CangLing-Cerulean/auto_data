@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "source_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "parent_sha256": "498b1f7ebe498df1a708eead173ed29d1b23992a6735774d366fc40d8a4f6de1",
+  "parent_step": 3000,
+  "mean": [
+    7.937742245659508,
+    2.0210386567335163,
+    5.079770601157927,
+    0.7461858799957015,
+    2.781762386375555,
+    0.7884531235540096,
+    17.1282616982271
+  ],
+  "scale": [
+    5.81274940914376,
+    2.0901046504075986,
+    5.51879357903625,
+    1.9263792741329897,
+    1.0235226594952223,
+    0.6302366362251974,
+    9.176491024944383
+  ],
+  "normalization_fit_rows": [
+    0,
+    8640
+  ],
+  "parsed_numeric_rows": [
+    0,
+    10080
+  ],
+  "splits": {
+    "F": {
+      "sha256": "e0b8dfc41c290781a89d7caa659725371f2f0b3a436b3630713a4a35e13ce10c",
+      "windows": 529,
+      "first_input_row": 8640,
+      "last_label_row": 9359,
+      "bytes": 1371511
+    },
+    "V": {
+      "sha256": "17345ff2cc1e78a53ba9f12563f00885f166bd9d7f74e97749d4b2fa724ea43e",
+      "windows": 529,
+      "first_input_row": 9360,
+      "last_label_row": 10079,
+      "bytes": 1379158
+    }
+  },
+  "backbone_reference_max_error": 4.440892098500626e-16,
+  "D_values_parsed": false,
+  "future_scored": false,
+  "new_backbone_training": 0,
+  "calibrator_training": 0,
+  "seconds": 0.6808307000319473
+}

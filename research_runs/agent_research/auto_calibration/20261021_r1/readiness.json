@@ -1,0 +1,17 @@
+{
+  "status": "engineering_preflight_passed_pending_independent_orchestration_review",
+  "checked_utc": "2026-10-21T06:20:38.5088276Z",
+  "unit_tests": 17,
+  "unit_tests_passed": 17,
+  "initial_test_errors": 4,
+  "initial_error_reason": "Windows default temp directory permissions; tests moved into authorized workspace",
+  "calibrator_fits": 0,
+  "research_llm_calls": 0,
+  "new_backbone_training": 0,
+  "historical_complete_backbone_training": 515,
+  "C_numeric_values_parsed": false,
+  "D_numeric_values_parsed": false,
+  "core_independent_checks": "9 additional cases passed; no reproduced core defect",
+  "runtime_python": "3.12.14",
+  "runtime_torch": "2.6.0+cpu"
+}

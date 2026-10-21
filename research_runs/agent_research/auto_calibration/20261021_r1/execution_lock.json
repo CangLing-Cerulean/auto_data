@@ -1,0 +1,84 @@
+{
+  "status": "ready_unstarted",
+  "seed": 2026102101,
+  "proposals_per_arm": 4,
+  "max_calibrator_fits": 9,
+  "max_new_adam_updates": 1440,
+  "new_backbone_training": 0,
+  "common_recipe": {
+    "window": "all",
+    "learning_rate": 0.001,
+    "steps": 160,
+    "loss": "mse",
+    "weight_decay": 0.0001,
+    "initialization": "identity"
+  },
+  "random_recipes": [
+    {
+      "window": "recent_quarter",
+      "learning_rate": 0.0001,
+      "steps": 80,
+      "loss": "huber",
+      "weight_decay": 0.0001,
+      "initialization": "identity"
+    },
+    {
+      "window": "recent_half",
+      "learning_rate": 0.0001,
+      "steps": 80,
+      "loss": "mse",
+      "weight_decay": 0.0,
+      "initialization": "identity"
+    },
+    {
+      "window": "recent_quarter",
+      "learning_rate": 0.0005,
+      "steps": 160,
+      "loss": "mse",
+      "weight_decay": 0.0001,
+      "initialization": "incumbent"
+    },
+    {
+      "window": "recent_half",
+      "learning_rate": 0.0005,
+      "steps": 80,
+      "loss": "huber",
+      "weight_decay": 0.0,
+      "initialization": "identity"
+    }
+  ],
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "protocol_sha256": "0294cc423b118f2a64065701bfa0da5f2c7ea4f16d27423908f61124dbb84ba1",
+  "sources": {
+    "online_ts/auto_calibration.py": "abd5c62b44bda55f8c7630b109765792f169177509c1f3c658336cfd3f52002b",
+    "scripts/prepare_auto_calibration.py": "a91ff9a4ae8331abb86945f624512e8f70a46a5299009a0e8813628d36cfc90d",
+    "scripts/auto_calibration_trial.py": "ad58f7fe76e89730be080012813b67ed452ba3ee29cacb92b0a34830f7e14577",
+    "scripts/audit_auto_calibration.py": "0be12a36a1645a65a8999729dc6d5571fa72c134821e92d80df900cefb1849b2",
+    "tests/test_auto_calibration.py": "46839c14b6c703b650aadb3f675141834ad8887d4f10ae9020d4b733cea92cde",
+    "tests/test_auto_calibration_trial.py": "3f72b994d821981160923425007109e1e4cbc2862de0b2bebfdc229414817e6c"
+  },
+  "input_receipt_sha256": "e52f0eef2593d79a7819656e9dff78964842ac65101d36e783d344ffe0fd5d62",
+  "agent_prompt_sha256": "09713589a17203e720aed3bffa8e44b9358fa2d8421e7f5b7bc8e039240dbf94",
+  "disabled_cli_features": [
+    "shell_tool",
+    "unified_exec",
+    "multi_agent",
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "memories",
+    "browser_use",
+    "browser_use_external",
+    "computer_use",
+    "in_app_browser",
+    "image_generation",
+    "view_image",
+    "skill_search",
+    "hooks",
+    "worktrees",
+    "workspace_dependencies",
+    "code_mode_host"
+  ],
+  "evaluation": "normalized_mse; stable incumbent ties"
+}
