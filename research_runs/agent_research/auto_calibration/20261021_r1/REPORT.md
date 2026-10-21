@@ -35,7 +35,9 @@
 
 官方运行状态位置说明：[Environment variables](https://learn.chatgpt.com/docs/config-file/environment-variables)。只改变SQLite状态位置未解决此机器的全部初始化权限问题，不能声称已定位唯一文件或已修复。
 
-原服务器同步授权也已按数据血缘核对：F/V分别是原B的前后两个子段，属于既有A/B/C长期传输授权。放行后实际SSH连接被远端关闭，服务器包未获得落盘或成员核验收据，因此服务器同步未完成、远端结果未确认。13,622,850字节完整私有包仍在本地，未重复发送或启动服务器训练。公开结果包66成员、9,458,864字节，含检查点/预测/记录但不含F/V原数组；具体GitHub提交、Release大小和SHA以同步收据为准。
+原服务器同步授权也已按数据血缘核对：F/V分别是原B的前后两个子段，属于既有A/B/C长期传输授权。首次放行后SSH被远端关闭，原失败记录保留。2026-10-21用户告知“服务器打开了”后，只读检查确认本轮目录尚不存在、可用空间734,367,744字节，随后补传13,622,850字节私有包。整包及69个成员核验通过，SHA256为e2b1bcbe104613dc5fda426062aa2f59f8f710fb9b9d83474570d7e189b81e54，见server_reconnect_check.json与server_sync_receipt.json。服务器仅保存核验备份，未解包或启动训练。公开结果包66成员、9,458,864字节，含检查点/预测/记录但不含F/V原数组；具体GitHub提交、Release大小和SHA以同步收据为准。
+
+同次接续的CLI initialize再次失败，仍无stdout/模型turn，耗时0.101864秒，见cli_initialize_recheck_receipt.json。未改变全局权限或模型协议。当前数值计算由本地CPU独立实验runner完成，尚未注册平台Study，未接入stream Engine；平台统一调度与持续滚动仍不能列为本轮已验收能力。
 
 ## 所处环节、下一步与论文缺口
 
