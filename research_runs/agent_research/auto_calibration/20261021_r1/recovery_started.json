@@ -1,0 +1,19 @@
+{
+  "status": "validated_before_first_llm",
+  "original_source_commit": "5935a6162b1914e09eab6a6e8d5233b0ad55e928",
+  "original_execution_lock_sha256": "dd0729226f5215066d7d74393bb52568613fc1c55aa58f2d4d68878cf45a484c",
+  "recovery_source_sha256": "54edaa61de76c5086f53ce4f01944fab9a8c45f51365238ae7ce8a86eedd0667",
+  "preserved_prefix_records": {
+    "FIXED": "5c096f1251e4d11980d4d2ae7b2dc0df0167f24336759e3efd2087de501e08a2",
+    "IDENTITY": "bda9c430ee32efa77ab7c23a2bfc40c351d2bb592fc32c10026c66c6123932ba",
+    "RANDOM_01": "026cd73298bbc7c6846cbfa30595def1879b549e2398cc166d09718bf324d2c2",
+    "RANDOM_02": "49d34587efeaf1bec7cf60061e236e36be45b998d4383d17a162e776268fd9f8",
+    "RANDOM_03": "d1ad3182573152507a0275a7413cddce9e642a645681983818eefebf3125622c",
+    "RANDOM_04": "5f76ff5094d625ae983c3a181796f72af47ba524f942e69ef2b63c6392aeaac6"
+  },
+  "preserved_calibrator_fits": 5,
+  "prior_llm_calls": 0,
+  "changed_only": "call working directory and explicit continuation from saved prefix",
+  "call_root": "C:\\Users\\31227\\Desktop\\auto_data\\research_runs\\agent_research\\auto_calibration\\20261021_r1\\private\\model_calls",
+  "prefix_forward_max_error": 3.6072289653077405e-06
+}

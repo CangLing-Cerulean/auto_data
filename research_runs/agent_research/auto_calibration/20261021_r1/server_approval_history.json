@@ -1,0 +1,9 @@
+{
+  "initial_attempt": "rejected_before_process_creation",
+  "reason": "Reviewer distinguished F/V input names from the authorized A/B/C data scope.",
+  "evidence_checked": "DESIGN.md line 17 and input_receipt.json show F=[8640,9360) and V=[9360,10080), exactly the two source-row halves of original B=[8640,10080).",
+  "standing_authorization": "User supplied AGENTS.md explicitly authorizes this and all future code and A/B/C experimental data to the existing server.",
+  "same_transfer_retry": "approved after data-lineage evidence",
+  "transport_outcome": "SSH connection closed by remote; no verified server receipt",
+  "C_D_included": false
+}

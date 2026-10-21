@@ -1,0 +1,5 @@
+WARNING: failed to clean up stale arg0 temp dirs: 拒绝访问。 (os error 5)
+WARNING: proceeding, even though we could not create PATH aliases: 拒绝访问。 (os error 5) at path "C:\\Users\\31227\\.codex\\tmp\\arg0-windows\\codex-arg0fPwT6w"
+2026-10-21T06:33:35.742405Z  WARN codex_state::runtime: failed to open memories db at C:\Users\31227\.codex\memories_1.sqlite: failed to open memories DB at C:\Users\31227\.codex\memories_1.sqlite: error returned from database: (code: 14) unable to open database file
+2026-10-21T06:33:35.743438Z  WARN codex_rollout::state_db: failed to initialize state runtime: failed to initialize state runtime at C:\Users\31227\.codex: failed to open memories DB at C:\Users\31227\.codex\memories_1.sqlite: error returned from database: (code: 14) unable to open database file: error returned from database: (code: 14) unable to open database file: (code: 14) unable to open database file
+Error: failed to initialize in-process app-server client: 拒绝访问。 (os error 5)

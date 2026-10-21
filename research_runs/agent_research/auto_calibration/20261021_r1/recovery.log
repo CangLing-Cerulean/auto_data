@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\31227\Desktop\auto_data\scripts\resume_auto_calibration_path.py", line 113, in <module>
+    resume()
+  File "C:\Users\31227\Desktop\auto_data\scripts\resume_auto_calibration_path.py", line 80, in resume
+    recipe, reason, transport = trial.propose(trial.build_prompt(fitting, validation, records, history, incumbent, slot), slot)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\31227\Desktop\auto_data\scripts\auto_calibration_trial.py", line 165, in propose
+    raise RuntimeError('model transport failed; no automatic retry')
+RuntimeError: model transport failed; no automatic retry
