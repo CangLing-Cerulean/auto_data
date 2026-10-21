@@ -1,0 +1,18 @@
+{
+  "status": "blocked_before_process_creation",
+  "utc": "2026-10-21T06:27:08.7027331Z",
+  "block_origin": "automatic approval review",
+  "reason": "Specific authorization required for sending F/V aggregate diagnostics, validation errors, and prior recipe outcomes to Sol high.",
+  "requested_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "maximum_calls": 4,
+  "raw_series_sent": false,
+  "C_or_D_sent": false,
+  "calibrator_fits": 0,
+  "research_llm_calls": 0,
+  "records_directory_exists": false,
+  "calls_directory_exists": false,
+  "selection_lock_exists": false,
+  "future_input_exists": false,
+  "source_commit": "5935a6162b1914e09eab6a6e8d5233b0ad55e928"
+}
