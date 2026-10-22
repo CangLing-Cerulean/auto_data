@@ -1,0 +1,13 @@
+{
+  "prefix_source": {
+    "release": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/research-20261022-m1-contribution-r1",
+    "archive_bytes": 84728844,
+    "archive_sha256": "dc4778da7453b63e818029ae9b92b5400073e37fec76b3a6287f81c277f78119"
+  },
+  "shrinkage_source": {
+    "release": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/research-20261022-m1-shrinkage-r1",
+    "archive_bytes": 13810205,
+    "archive_sha256": "f13b4fc53d709c58db1de8f219568adb8b577220cf99d25ad403bd0177de3f60"
+  },
+  "scope": "Raw ABC and backbone checkpoints are referenced, not duplicated. This stage includes derived replay inputs and auxiliary learner states."
+}

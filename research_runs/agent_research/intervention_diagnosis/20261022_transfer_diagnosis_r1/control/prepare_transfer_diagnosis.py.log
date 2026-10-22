@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/root/data/auto_data_research/20261022_transfer_diagnosis_r1/source_snapshot/prepare_transfer_diagnosis.py", line 181, in <module>
+    main(args.source, args.shrinkage, args.stage)
+  File "/root/data/auto_data_research/envs/m1/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data/auto_data_research/20261022_transfer_diagnosis_r1/source_snapshot/prepare_transfer_diagnosis.py", line 81, in main
+    np.testing.assert_allclose(alpha, previous_row['coefficients']['CHANNEL_SHRINK']['alpha'], rtol=2e-5, atol=2e-6)
+  File "/root/data/auto_data_research/envs/m1/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1768, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/root/data/auto_data_research/envs/m1/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 983, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=2e-05, atol=2e-06
+
+Mismatched elements: 1 / 8 (12.5%)
+Mismatch at index:
+ [5]: 0.0012478787048813152 (ACTUAL), 0.0012432215766140318 (DESIRED)
+Max absolute difference among violations: 4.65712827e-06
+Max relative difference among violations: 0.00374602
+ ACTUAL: array([0.      , 0.028726, 0.629022, 0.008476, 0.115928, 0.001248,
+       0.108672, 0.044534])
+ DESIRED: array([0.      , 0.028726, 0.629022, 0.008476, 0.115928, 0.001243,
+       0.108672, 0.044534])

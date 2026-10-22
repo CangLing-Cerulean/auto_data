@@ -1,0 +1,20 @@
+{
+  "stage": "20261022_transfer_diagnosis_r1",
+  "frozen_utc": "2026-10-22T11:24:12.4841061Z",
+  "sha256": {
+    "PROTOCOL.md": "f143e1c59f1e0005fdf72719a077f09037342c0c21b0f1edeaaae95f25086c83",
+    "source_snapshot/transfer_diagnosis_core.py": "9b62a0c8ff5c1504bd1e67d35df0f2e4df9ef97a30bae3f8ce071cfeb60eb4e7",
+    "source_snapshot/prepare_transfer_diagnosis.py": "d2c06dfad1902787fa201528ec48accc21e8b5b97acaf1a5798873d3e4677f04",
+    "source_snapshot/run_transfer_diagnosis.py": "c868524f8fd302f13ad424a4a4879a43ccf4091674ddc7e37536c993809b31ca",
+    "source_snapshot/audit_transfer_diagnosis.py": "b4b449a9177f7e678fcea58a71a69783491758d6cd1f599a0aad0d666b83d4d6",
+    "source_snapshot/evaluate_transfer_diagnosis.py": "38b14210a2d544086a8438c828efd9318bff9362fa36f854ec8f41d0f9d53d7d",
+    "source_snapshot/launch_transfer_diagnosis.py": "a17b4e4252b7f585350e393e38c9a6536cb560c3f86546286e6b3d03a85b1eca",
+    "source_snapshot/m1_shrinkage_inference.py": "49725d2c871edc50dba5e4d8c868963c472f6bc86b8969dc4582a547512fa354",
+    "source_snapshot/test_transfer_diagnosis.py": "b751d7e228b5b4237ce2a6e6f5a8e6292ab1fcd1ec81f8d285c1dfead8826d75"
+  },
+  "new_backbone_trainings": 0,
+  "historical_full_completed": 593,
+  "auxiliary_models": 54,
+  "auxiliary_updates": 54000,
+  "ridge_fits": 18
+}
