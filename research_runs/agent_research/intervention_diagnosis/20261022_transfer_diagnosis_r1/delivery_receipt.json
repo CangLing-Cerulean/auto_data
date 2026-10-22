@@ -1,5 +1,5 @@
 {
-  "status": "local_and_server_complete_publication_authorized_in_progress",
+  "status": "local_server_and_github_complete",
   "recorded_utc": "2026-10-22T11:42:44.2465976Z",
   "archive_bytes": 3113013,
   "archive_sha256": "0b637d4968554896610d098a7937c35ba2dcc9fe4236ad174d95ca8954854ce8",
@@ -11,5 +11,7 @@
   "historical_full_completed": 593,
   "report": "REPORT.md",
   "scientific_commit": "1234403d708bd9a88961ea951e9a86a0d376a397",
-  "publication": "Initial automatic approval rejection preserved; user explicitly authorized public release of this stage's code, report, derived inputs, 72 auxiliary models and 3.11 MB archive to CangLing-Cerulean/auto_data. Publication now in progress; see final publication receipts."
+  "publication_source_commit": "39ce24a2c164cadf15086eab762d781eed555881",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/research-20261022-transfer-diagnosis-r1",
+  "publication": "Explicitly authorized release completed. GitHub asset size and SHA256 verified before and after publication. Initial rejection preserved in PUBLICATION_APPROVAL.md. See release_receipt.json and PUBLICATION_REPORT.md."
 }
