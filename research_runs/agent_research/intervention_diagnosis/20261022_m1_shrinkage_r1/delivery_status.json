@@ -1,13 +1,15 @@
 {
-  "status": "local_complete_publication_awaiting_explicit_authorization",
+  "status": "local_and_github_complete_server_confirmed_shutdown",
   "scientific_commit": "1ef1d33889359f2ab0e1bf6372d1fb7ac5ccca9a",
   "archive_bytes": 13810205,
   "archive_sha256": "f13b4fc53d709c58db1de8f219568adb8b577220cf99d25ad403bd0177de3f60",
   "report_sha256": "2e69b5ae1930b4f0a03d9e144c1d921de299785bba940a1137c70b596152429c",
-  "server_status": "ssh_connection_closed_no_deployment",
-  "github_push_executed": false,
-  "release_created": false,
+  "server_status": "user_confirmed_shutdown_no_retry_no_deployment",
+  "github_push_executed": true,
+  "release_created": true,
   "new_training": 0,
   "historical_full_completed": 593,
-  "recorded_utc": "2026-10-22T08:41:45.1807482Z"
+  "recorded_utc": "2026-10-22T08:41:45.1807482Z",
+  "release_url": "https://github.com/CangLing-Cerulean/auto_data/releases/tag/research-20261022-m1-shrinkage-r1",
+  "updated_utc": "2026-10-22T10:32:49.4574983Z"
 }
