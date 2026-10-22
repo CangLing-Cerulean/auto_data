@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "remote_result_hashes_verified": [
+    {
+      "name": "attribution.json",
+      "expected": "a5b8e24e9c147235f2ce9ee959c72a52b7fee4a99df4b8d13d85a9c97805841a"
+    },
+    {
+      "name": "analysis.log",
+      "expected": "92c25bbccbda7d9bf8f0ad9bc92491aa0a4107a83bb24ae5a58515505ee0eb9a"
+    }
+  ],
+  "source_archive_sha256": "dc4778da7453b63e818029ae9b92b5400073e37fec76b3a6287f81c277f78119",
+  "source_archive_bytes": 84728844,
+  "new_full_trainings": 0,
+  "historical_full_completed": 593
+}

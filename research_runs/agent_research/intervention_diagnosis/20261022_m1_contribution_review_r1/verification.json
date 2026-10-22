@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "input_assets_hash_checked": 766,
+  "candidates": 36,
+  "fixed_points": 216,
+  "independent_response_and_decomposition_checks": 108,
+  "aggregation": {
+    "RAW": {
+      "seed_level_36_mae_pp": 8.074143647102611,
+      "seed_mean_12_mae_pp": 5.987771833795122
+    },
+    "M1": {
+      "seed_level_36_mae_pp": 9.564270210100332,
+      "seed_mean_12_mae_pp": 6.459089896134523
+    },
+    "PREFIX": {
+      "seed_level_36_mae_pp": 9.244630484680506,
+      "seed_mean_12_mae_pp": 6.053124445844771
+    }
+  },
+  "m1_selection_increment_over_raw_pp": 1.094486295854935,
+  "g3_max_prediction_rounding": 2.6702880859375e-05,
+  "g3_max_loss_rounding_pp": 1.2204062333157198e-07,
+  "source_code_sha256": "6ff5d3ea5945ec17676124f08b8133808d78021e97951eb580dd9058c73ce3fa",
+  "attribution_sha256": "a5b8e24e9c147235f2ce9ee959c72a52b7fee4a99df4b8d13d85a9c97805841a"
+}
