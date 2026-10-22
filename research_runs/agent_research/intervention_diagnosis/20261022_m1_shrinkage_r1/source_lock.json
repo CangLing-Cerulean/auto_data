@@ -1,0 +1,25 @@
+{
+  "stage": "20261022_m1_shrinkage_r1",
+  "frozen_at": "2026-10-22T08:29:15.2535716Z",
+  "sha256": {
+    "PROTOCOL.md": "643bdef6349f642bfa97a0d7d8f278655152ebe3b4a6108be4a1495e43deaaa7",
+    "source_snapshot/m1_prefix_shrinkage.py": "9da1326560e99555779d3eb9b50e49ac4205e18b141bdb6acb3dcf1517899589",
+    "source_snapshot/m1_shrinkage_inference.py": "49725d2c871edc50dba5e4d8c868963c472f6bc86b8969dc4582a547512fa354",
+    "source_snapshot/forecast_m1_shrinkage.py": "9d318e5f9de01078a06a41acb846a948d67c18c28e891b3665b852e091eb3fd9",
+    "source_snapshot/audit_m1_shrinkage.py": "2db86e2f5a00a64d0adb76f58eea496d27ed79ec731f38ea40a4784b14ec2757",
+    "source_snapshot/evaluate_m1_shrinkage.py": "767600d75865face0acfacc17eaaa75a1a869d53945fca5600342c82e3b7219d",
+    "source_snapshot/test_m1_prefix_shrinkage.py": "9e9dae650ce7ac7e444e032246cbe59712f9790b43b39f612a85562701ea0108"
+  },
+  "source_metadata_sha256": {
+    "spec.json": "21aa8406f09b7333755c32592600dad08cc2b61b82630682f7c0893d9b7412a2",
+    "parents.json": "853e181d6e8ffd58eebd6cb3e9b6c88a61db0535cc1b9ad75fe1166217c7512d",
+    "predictions.json": "a6e3e3b17cca1befc5c2004dd4593322d9a32dc1d14ee44ae924a121e583a940",
+    "prediction_lock.json": "4a9be97e204adbf310a58c1c32f79dafca928b65be10c886bdf0b0f13ff82766"
+  },
+  "evaluation_metadata_sha256": {
+    "labels.json": "e514e4b75af21b6b03c4a3e38932d4cb007c2e2b15ac2384db273f42b4a3ba0d",
+    "audit_revision4.json": "07f3dcfa2efee5d1d72ecec89e7072c175efacedfb74473f6538e0f03f2b5a1a"
+  },
+  "new_training": 0,
+  "historical_full_completed": 593
+}
